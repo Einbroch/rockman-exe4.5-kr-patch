@@ -17,5 +17,6 @@
 - 사용자 요청: **500개씩 ROM에 적용**한다. 배포용 패치는 요청할 때만 만든다(2026-10-25 요청으로 `patches/exe45_ko_development_20261025.zip`(064), 같은 날 갱신 요청으로 `patches/exe45_ko_development_20261025_r2.zip`(070, 한글 자판 포함) 생성. 도구 `tools/make_release_patch_v1.py`. 패키지 `verification.json`은 PowerShell 5.1이 읽으므로 반드시 ASCII로 쓴다).
 - GitHub 공개: `Einbroch/rockman-exe4.5-kr-patch` v0.9.0 프리릴리즈(2026-10-25, 070 기준 r2 zip·bps·xdelta 첨부). 저장소 `source/`에 도구·번역·작업 기록(ROM·ROM 파생 그림 제외, 개인 경로는 `<user>`). 로컬 복제본 `release_repo/`, 커밋 작성자 Einbroke <30523510+Einbroch@users.noreply.github.com>.
 - v0.9.2(2026-10-25, 074 기준 r4): 사용자 스크린샷 수정. 072=P.A메모 「패턴」(LZ 스프라이트 0x6D8188 제자리 재압축, `gba_lz77_v1.py`)·대사 이름표 포인터(0x51664/0x51668 칩, 778B08 아이템 6곳 — 065의 재지정은 실제로 적용되지 않았었다), 073=서브칩 화면 제목(LZ 0x6FB82C), 074=전투 팝업 「어택」「내비」(원시 OBJ 시트 0x770080). 화면 확인은 사용자 세이브 사본으로 격리 Mesen에서.
+- v0.9.3(2026-10-26, 077): 075·076=서브칩 제목을 장비식 Galmuri7로 다시 그리고 아래 줄 타일의 가나 조각 제거(같은 블록을 앞 단계 패치 대신 덮어씀, 생성기가 앞 단계 verify를 이전 상태 보기로 감쌈), 077=넘버맨 퀴즈 단어 스프라이트 0x5131A4(`quiz_sprite_v1.py`)·문제 수 패널 0x51236C.
 - 원본 ROM, 기존 결과, 사용자 저장, 사용자 mGBA를 보존한다.
 - 기존 보고서가 해시로 참조하는 코드는 덮어쓰지 말고 새 버전으로 구현한다.

@@ -1,0 +1,32 @@
+{
+  "base": "tools\\build_development_patch_076_v1.py",
+  "base_sha256": "155fcbe29fb058d325eb93f6e2bc5e550987a6f9c46dc9a6353713ac5c3cc981",
+  "output": "tools\\build_development_patch_077_v1.py",
+  "output_sha256": "0eea9a237a8ec75bbadf1ddfa351cbd4f2e45e914d2d965d39dc29735543d3fc",
+  "changes": [
+    [
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage076_v1').install(source,appended,key_patches,keyitem_rom)",
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage076_v1').install(source,appended,key_patches,keyitem_rom)\n        appended,key_patches,keyitem_rom=__import__('graphics_stage077_v1').install(source,appended,key_patches,keyitem_rom)"
+    ],
+    [
+      "__import__('graphics_stage076_v1').predecessor_view(source,target,keyitem_rom)",
+      "__import__('graphics_stage076_v1').predecessor_view(source,__import__('graphics_stage077_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom)"
+    ],
+    [
+      "__import__('graphics_stage076_v1').predecessor_view(source,target,result['keyitem_rom'])",
+      "__import__('graphics_stage076_v1').predecessor_view(source,__import__('graphics_stage077_v1').predecessor_view(source,target,result['keyitem_rom']),result['keyitem_rom'])"
+    ],
+    [
+      " and __import__('graphics_stage076_v1').verify(source,target,keyitem_rom)",
+      " and __import__('graphics_stage076_v1').verify(source,target,keyitem_rom) and __import__('graphics_stage077_v1').verify(source,target,keyitem_rom)"
+    ],
+    [
+      "    __import__('graphics_stage076_v1').verify(source,target,result['keyitem_rom'])",
+      "    __import__('graphics_stage076_v1').verify(source,target,result['keyitem_rom'])\n    __import__('graphics_stage077_v1').verify(source,target,result['keyitem_rom'])"
+    ]
+  ],
+  "dependencies": {
+    "graphics_stage077_v1.py": "25be413fc3be1f23ab555fa15688e698eb506bdb99f2c9bb2e6d6df61175c077",
+    "quiz_sprite_v1.py": "f4c61a517eb3d4c5112e7441b77a982030c944bfcdd90363df9084be77088f9b"
+  }
+}
