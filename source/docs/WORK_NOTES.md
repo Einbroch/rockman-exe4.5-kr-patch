@@ -15,5 +15,6 @@
 - 054·055 995개는 이름·별명·프로필 문자열을 한글 4자(48px)로 가정한 완화 상한으로 들어갔다. 긴 이름이면 창을 넘을 수 있다(`analysis/pending500_055_v1/relaxed_name_bound_risk_v1.json`).
 - 다음 묶음은 `python -X utf8 tools/next_batch_generic_v1.py NNN`(직전 묶음 위에 쌓음), 연속 실행은 `bash tools/run_batches_generic_v1.sh N`.
 - 사용자 요청: **500개씩 ROM에 적용**한다. 배포용 패치는 요청할 때만 만든다(2026-10-25 요청으로 `patches/exe45_ko_development_20261025.zip`(064), 같은 날 갱신 요청으로 `patches/exe45_ko_development_20261025_r2.zip`(070, 한글 자판 포함) 생성. 도구 `tools/make_release_patch_v1.py`. 패키지 `verification.json`은 PowerShell 5.1이 읽으므로 반드시 ASCII로 쓴다).
+- GitHub 공개: `Einbroch/rockman-exe4.5-kr-patch` v0.9.0 프리릴리즈(2026-10-25, 070 기준 r2 zip·bps·xdelta 첨부). 저장소 `source/`에 도구·번역·작업 기록(ROM·ROM 파생 그림 제외, 개인 경로는 `<user>`). 로컬 복제본 `release_repo/`, 커밋 작성자 Einbroke <30523510+Einbroch@users.noreply.github.com>.
 - 원본 ROM, 기존 결과, 사용자 저장, 사용자 mGBA를 보존한다.
 - 기존 보고서가 해시로 참조하는 코드는 덮어쓰지 말고 새 버전으로 구현한다.
