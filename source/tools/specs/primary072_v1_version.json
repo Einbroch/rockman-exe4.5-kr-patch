@@ -1,0 +1,32 @@
+{
+  "base": "tools\\build_development_patch_071_v1.py",
+  "base_sha256": "acc43d8d66930d3665f8e0764d454191c528668a5e21d60c7388b854d6a97d6b",
+  "output": "tools\\build_development_patch_072_v1.py",
+  "output_sha256": "94c81ab9b0439e2568dbe43773bbf5dd7be6f61bdc528c4db9b7992effd9225e",
+  "changes": [
+    [
+      "        appended,key_patches,keyitem_rom=__import__('keyboard_stage071_v1').install(source,appended,key_patches,keyitem_rom)",
+      "        appended,key_patches,keyitem_rom=__import__('keyboard_stage071_v1').install(source,appended,key_patches,keyitem_rom)\n        appended,key_patches,keyitem_rom=__import__('graphics_stage072_v1').install(source,appended,key_patches,keyitem_rom)"
+    ],
+    [
+      "__import__('keyboard_stage071_v1').predecessor_view(source,target,keyitem_rom)",
+      "__import__('keyboard_stage071_v1').predecessor_view(source,__import__('graphics_stage072_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom)"
+    ],
+    [
+      " and __import__('keyboard_stage071_v1').verify(source,target,keyitem_rom)",
+      " and __import__('keyboard_stage071_v1').verify(source,target,keyitem_rom) and __import__('graphics_stage072_v1').verify(source,target,keyitem_rom)"
+    ],
+    [
+      "    parent070=__import__('keyboard_stage071_v1').predecessor_view(source,target,result['keyitem_rom'])",
+      "    parent071=__import__('graphics_stage072_v1').predecessor_view(source,target,result['keyitem_rom'])\n    parent070=__import__('keyboard_stage071_v1').predecessor_view(source,parent071,result['keyitem_rom'])"
+    ],
+    [
+      "    __import__('keyboard_stage071_v1').verify(source,target,result['keyitem_rom'])",
+      "    __import__('keyboard_stage071_v1').verify(source,target,result['keyitem_rom'])\n    __import__('graphics_stage072_v1').verify(source,target,result['keyitem_rom'])"
+    ]
+  ],
+  "dependencies": {
+    "graphics_stage072_v1.py": "4a84c7f8310fadde3f481eb7b42091e878f8b5190de5062047fba2437c60a747",
+    "gba_lz77_v1.py": "30bf9a77aab7c99eb1acc7a37d64e2c87645497d66bbdaa385c2fd2de4a1d7e7"
+  }
+}

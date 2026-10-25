@@ -1,0 +1,32 @@
+{
+  "base": "tools\\build_development_patch_072_v1.py",
+  "base_sha256": "94c81ab9b0439e2568dbe43773bbf5dd7be6f61bdc528c4db9b7992effd9225e",
+  "output": "tools\\build_development_patch_073_v1.py",
+  "output_sha256": "f1b01dbb513493ec01b8b889c965774c10dfc3b2edaefa0f4d4684ea37fc8172",
+  "changes": [
+    [
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage072_v1').install(source,appended,key_patches,keyitem_rom)",
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage072_v1').install(source,appended,key_patches,keyitem_rom)\n        appended,key_patches,keyitem_rom=__import__('graphics_stage073_v1').install(source,appended,key_patches,keyitem_rom)"
+    ],
+    [
+      "__import__('graphics_stage072_v1').predecessor_view(source,target,keyitem_rom)",
+      "__import__('graphics_stage072_v1').predecessor_view(source,__import__('graphics_stage073_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom)"
+    ],
+    [
+      " and __import__('graphics_stage072_v1').verify(source,target,keyitem_rom)",
+      " and __import__('graphics_stage072_v1').verify(source,target,keyitem_rom) and __import__('graphics_stage073_v1').verify(source,target,keyitem_rom)"
+    ],
+    [
+      "    parent071=__import__('graphics_stage072_v1').predecessor_view(source,target,result['keyitem_rom'])",
+      "    parent072=__import__('graphics_stage073_v1').predecessor_view(source,target,result['keyitem_rom'])\n    parent071=__import__('graphics_stage072_v1').predecessor_view(source,parent072,result['keyitem_rom'])"
+    ],
+    [
+      "    __import__('graphics_stage072_v1').verify(source,target,result['keyitem_rom'])",
+      "    __import__('graphics_stage072_v1').verify(source,target,result['keyitem_rom'])\n    __import__('graphics_stage073_v1').verify(source,target,result['keyitem_rom'])"
+    ]
+  ],
+  "dependencies": {
+    "graphics_stage073_v1.py": "73d229f847c3d191efa1585f8642518e8d60afd4dc80419dd0b8bbdc3ac1541d",
+    "gba_lz77_v1.py": "30bf9a77aab7c99eb1acc7a37d64e2c87645497d66bbdaa385c2fd2de4a1d7e7"
+  }
+}

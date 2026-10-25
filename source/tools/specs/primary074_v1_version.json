@@ -1,0 +1,31 @@
+{
+  "base": "tools\\build_development_patch_073_v1.py",
+  "base_sha256": "f1b01dbb513493ec01b8b889c965774c10dfc3b2edaefa0f4d4684ea37fc8172",
+  "output": "tools\\build_development_patch_074_v1.py",
+  "output_sha256": "04463d49193e5f215f8b7723dcf3398e71a2cfcc15c3cce4e802dc27ac67c669",
+  "changes": [
+    [
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage073_v1').install(source,appended,key_patches,keyitem_rom)",
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage073_v1').install(source,appended,key_patches,keyitem_rom)\n        appended,key_patches,keyitem_rom=__import__('graphics_stage074_v1').install(source,appended,key_patches,keyitem_rom)"
+    ],
+    [
+      "__import__('graphics_stage073_v1').predecessor_view(source,target,keyitem_rom)",
+      "__import__('graphics_stage073_v1').predecessor_view(source,__import__('graphics_stage074_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom)"
+    ],
+    [
+      " and __import__('graphics_stage073_v1').verify(source,target,keyitem_rom)",
+      " and __import__('graphics_stage073_v1').verify(source,target,keyitem_rom) and __import__('graphics_stage074_v1').verify(source,target,keyitem_rom)"
+    ],
+    [
+      "    parent072=__import__('graphics_stage073_v1').predecessor_view(source,target,result['keyitem_rom'])",
+      "    parent073=__import__('graphics_stage074_v1').predecessor_view(source,target,result['keyitem_rom'])\n    parent072=__import__('graphics_stage073_v1').predecessor_view(source,parent073,result['keyitem_rom'])"
+    ],
+    [
+      "    __import__('graphics_stage073_v1').verify(source,target,result['keyitem_rom'])",
+      "    __import__('graphics_stage073_v1').verify(source,target,result['keyitem_rom'])\n    __import__('graphics_stage074_v1').verify(source,target,result['keyitem_rom'])"
+    ]
+  ],
+  "dependencies": {
+    "graphics_stage074_v1.py": "b176f596a1d0eedde57b3f5c650567ae17e976a9b9227b7520b6acb8620b0559"
+  }
+}
