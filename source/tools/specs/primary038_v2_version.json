@@ -1,0 +1,65 @@
+{
+  "changes": [
+    {
+      "base": "tools/field_native_rom_product_038_v1.py",
+      "base_sha256": "b48748f7a049f2c9a644ea348fa73125cafd0a04968b62c15579110b83d2a64b",
+      "changes": [
+        [
+          "supersedes_parent_record=r['parent_record']",
+          "supersedes_parent_record=(dict(archive=r['parent_record']['archive'],rom_offset=r['parent_record']['rom_offset'],compiled_sha256=r['parent_record']['compiled_sha256']) if r['parent_record'] else None)"
+        ],
+        [
+          "tools/build_development_patch_038_v1.py",
+          "tools/build_development_patch_038_v2.py"
+        ]
+      ],
+      "replacement_counts": [
+        1,
+        1
+      ],
+      "output": "tools/field_native_rom_product_038_v2.py",
+      "output_sha256": "c9c8ca1a7173a1e33d44d8339615455c8037444683fb3ea2ccfdd6bd621008aa"
+    },
+    {
+      "base": "tools/build_development_patch_038_v1.py",
+      "base_sha256": "ba7e570c2b1512fd5318ec29e3981669dd8dea5f2b1fd264a852706bbc17464e",
+      "changes": [
+        [
+          "field_native_rom_product_038_v1",
+          "field_native_rom_product_038_v2"
+        ]
+      ],
+      "replacement_counts": [
+        2
+      ],
+      "output": "tools/build_development_patch_038_v2.py",
+      "output_sha256": "703d1b69acf8cda79104fe6d13ee7e0b98982a4c6848402bcc404e96d3dc30bb"
+    },
+    {
+      "base": "tools/bench_product_component038_v1.py",
+      "base_sha256": "87adddf3e88baa4f250fe8ba51a6475e2e879d73df3549999965e95c4e9faba0",
+      "changes": [
+        [
+          "field_native_rom_product_038_v1",
+          "field_native_rom_product_038_v2"
+        ],
+        [
+          "analysis/pending_insertion_500_038_component_fixture_v1",
+          "analysis/pending_insertion_500_038_component_fixture_v2"
+        ],
+        [
+          "tools/bench_product_component038_v1.py",
+          "tools/bench_product_component038_v2.py"
+        ]
+      ],
+      "replacement_counts": [
+        2,
+        1,
+        1
+      ],
+      "output": "tools/bench_product_component038_v2.py",
+      "output_sha256": "001acd45ce0a0fc9ead6ff49e64fe4800997ccdac78b7b28f70dc9aae16a430f"
+    }
+  ],
+  "reason": "v1 embedded24 full parent clone dicts under ancestry; recursive consumer inventory counted24 extra non-live records. v2 retains only archive/offset/hash historical identity. No compiled payload, selector byte or fixture ROM hash changes; source038 remains exact500. v1 builds stopped before ROM output and all attempted files preserved."
+}

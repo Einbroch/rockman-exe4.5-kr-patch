@@ -1,0 +1,42 @@
+{
+  "base": "tools\\compile_source500_036_v2.py",
+  "base_sha256": "92dfc9f986677a44444ec3069301a7e544f6c3db0a7b4c9f69b9978b153b5416",
+  "replacements": [
+    [
+      "from prepare_source500_036_v1 import *",
+      "from prepare_source500_037_v1 import *"
+    ],
+    [
+      "tools/compile_source500_036_v2.py",
+      "tools/compile_source500_037_v1.py"
+    ],
+    [
+      "tools/prepare_source500_036_v1.py",
+      "tools/prepare_source500_037_v1.py"
+    ],
+    [
+      "source036",
+      "source037"
+    ],
+    [
+      "Actual035",
+      "Actual036"
+    ],
+    [
+      "out=ROOT/OUT/'compile_v2'",
+      "out=ROOT/OUT/'compile_v1'"
+    ],
+    [
+      "ROOT/OUT/'verification_v2.json'",
+      "ROOT/OUT/'verification_v1.json'"
+    ],
+    [
+      "previous_attempt=dict(path=OUT+'/compile/79CF04',failure='Archive basename target changed reverse IDs; binary bytes matched but protected ID/topology validation failed. Corrected filename, no reverse/source normalization.')",
+      "preparation_scope='Independent037 source-only compile; prior036 filename failure is not a037 attempt'"
+    ]
+  ],
+  "header_replaced": true,
+  "output": "tools\\compile_source500_037_v1.py",
+  "output_sha256": "1213bd21c8fbcf2dbff1e70ab8bf37b21922b349b1025fc4c6bb9e7eed6c40c3",
+  "scope": "Same source/target binary/control/ID roundtrip, untouched scripts and current-ROM glyph contracts; no product writer"
+}

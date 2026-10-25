@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6872B8",
+  "source_archive_sha256": "23b1f0ca50d46b037e10475c4ee7f10e728f3cd59189fd706183afcf48428188",
+  "consumer": "normal-dialogue",
+  "context": "Retained first-meeting7 pages; add return script2 five pages, emotional renewed greeting and lonely counting. Same native portrait92,110; no nickname insertion. Human chose natural Korean greeting instead of4649 wordplay on2026-10-05. Source fields unchanged; return trigger not yet established, renderer-only diagnostic until normal caller evidence.",
+  "voice": "Polite playful first meeting; Korean name/wording drafts needs_review, not official or human-approved.",
+  "evidence": "analysis/tpl_baseline/6872B8.tpl; source root038278; poc/runtime/numberman-save-poc-v1-select-numberman",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Keep first seven units, source IDs/text/commands/flags3585/2:3 numeral1/newline counts/waits. Select all12 literals in1/2; scripts0/3 remain source. Human-approved semantic adaptation removes displayed4649 only in2:4 wording; no source fields or gameplay numbers changed. No name/save or gameplay changes.",
+  "units": [
+    {
+      "id": "6872B8:1:0",
+      "source": "どうも、はじめまして",
+      "translation": "안녕하세요, 반가워요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:1",
+      "source": "ナンバーマンです\nすうじは すきですか?",
+      "translation": "넘버맨입니다\n숫자는 좋아하시나요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:2",
+      "source": "ワタシが あなたの\nナビになった いじょう、",
+      "translation": "제가 당신의\n내비가 된 이상,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:3",
+      "source": "イヤでも すきに\nなってもらいますよ~",
+      "translation": "싫어도 숫자를\n좋아하게 만들게요~",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:4",
+      "source": "まずは\nえんしゅうりつでも\nけいさんしますか・・・",
+      "translation": "우선\n원주율이라도\n계산해 볼까요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:5",
+      "source": "ウソです ウソ!!",
+      "translation": "농담이에요, 농담!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:6",
+      "source": "こんなワタシですが\nよろしくおねがいします",
+      "translation": "이런 저지만\n잘 부탁드려요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:2:0",
+      "source": "あややや~!!",
+      "translation": "어라라라~!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:2:1",
+      "source": "またワタシの\nでばんなんですね!?",
+      "translation": "또 제 차례가\n돌아왔군요!?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:2:2",
+      "source": "ウルウルウル~!!\nさみしかったです!!",
+      "translation": "울먹울먹~!!\n외로웠어요!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:2:3",
+      "source": "1人で さみしいから\nずっと かずを\nかぞえてました~",
+      "translation": "1명뿐이라 외로워서\n계속 수를\n세고 있었어요~",
+      "state": "needs_review"
+    }
+    ,{
+      "id": "6872B8:2:4",
+      "source": "あらためて\n4649おねがいします",
+      "translation": "다시 한번\n잘 부탁드려요",
+      "state": "needs_review",
+      "semantic_decision": "numberman-return-4649-natural-ko-20261005"
+    }
+  ],
+  "decisions": [{
+    "id": "numberman-return-4649-natural-ko-20261005",
+    "scope": "6872B8:2:4 only",
+    "kind": "wordplay adaptation",
+    "human_answer": "‘잘 부탁드려요’로 자연스럽게 번역",
+    "approved": true,
+    "impact": "Numeric4649 wordplay becomes natural Korean greeting; source text remains intact and no numeric event/value changes. This narrow approval is not full wording/presentation/release approval."
+  }],
+  "scope_variant": "numberman-return-prose-v1"
+}

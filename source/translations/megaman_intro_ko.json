@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "65A578",
+  "source_archive_sha256": "52ceef46edf2420cfbd5e777d4721c6ccb6e47163619cde99df90c2cef2da468",
+  "consumer": "normal-dialogue",
+  "context": "Rockman introduction after Navi installation; script 1 first meeting, script 2 reunion.",
+  "voice": "Friendly, informal first-person Rockman addressing the player.",
+  "terminology": {"ロックマン": "록맨"},
+  "review": {"wording": "needs_review", "layout": "needs_runtime_review", "release_eligible": false},
+  "units": [
+    {
+      "id": "65A578:1:0",
+      "source": "はじめまして!\nボクは ロックマン\nよろしくね!!",
+      "translation": "처음 만나서 반가워!\n난 록맨이야.\n잘 부탁해!!",
+      "state": "needs_review",
+      "notes": "First introduction. Preserves three lines and the original page boundary."
+    },
+    {
+      "id": "65A578:2:0",
+      "source": "ひさしぶり!",
+      "translation": "오랜만이야!",
+      "state": "needs_review",
+      "notes": "Reunion greeting; original key wait remains."
+    },
+    {
+      "id": "65A578:2:1",
+      "source": "キミと またいっしょに\nせいかつできるなんて\nうれしいよ!!",
+      "translation": "너와 다시 함께\n지낼 수 있다니\n정말 기뻐!!",
+      "state": "needs_review",
+      "notes": "Reunion: happy to be living together again. Three source lines retained."
+    },
+    {
+      "id": "65A578:2:2",
+      "source": "あらためて、よろしく!!",
+      "translation": "앞으로도 잘 부탁해!!",
+      "state": "needs_review",
+      "notes": "Renewed greeting, not a literal request to repeat an action."
+    }
+  ]
+}

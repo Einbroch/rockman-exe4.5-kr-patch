@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "66A7A8",
+  "source_archive_sha256": "753a10f34b5f83d27f12a67eed539c95344366e0caad8dbcd31f1915d846a115",
+  "consumer": "normal-dialogue",
+  "context": "GutsMan own group result root038130/intro+32, defeat1/victory2/draw3; full source5slots/3literals. No variables. Native battle result prerequisites unverified.",
+  "voice": "Existing 거츠/거스 development voice; human review pending.",
+  "semantic_review": [
+    "Defeat includes stammer and shock; victory proudly attributes strength to GutsMan; draw retains both tie and positive appraisal.",
+    "No NumberMan4649 decision reused. No independent release review or human approval inferred."
+  ],
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Stable source IDs/bytes/numerals/newline, PET window/text/arrow geometry and all keyWait/clearMsg/waitHold commands preserved. Empty slots0/4 source-identical.",
+  "units": [
+    {
+      "id": "66A7A8:1:0",
+      "source": "ま、まけたでガス・・・\nショックでガス~",
+      "translation": "저、졌거스・・・\n충격이거스~",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A7A8:2:0",
+      "source": "ガッツガッツ!\nこれが ガッツマンの\nじつりょくでガス!!",
+      "translation": "거츠、거츠!\n이게 거츠맨의\n실력이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A7A8:3:0",
+      "source": "ひきわけだったけど、\nいいしょうぶだったでガス",
+      "translation": "비겼지만、\n멋진 승부였거스!",
+      "state": "needs_review"
+    }
+  ]
+}

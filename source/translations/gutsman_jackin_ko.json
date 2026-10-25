@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6664D0",
+  "source_archive_sha256": "4e1ba8197589557b1eb2499289f9c3791a765028749f09bdc21cc227f54dbea6",
+  "consumer": "normal-dialogue",
+  "context": "GutsMan.EXE plugin/transmission slogan, explicit source name; original root038120/intro+16. Portrait92,110,type3,three rows,wait30 and flag3603/3651 set-clear unchanged. Timed delivery differs from keyWait dialogue.",
+  "voice": "Existing GutsMan development candidate 거츠/거스 voice; wording/terminology/presentation human review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/6664D0.tpl; native GutsMan group root038110; translations/gutsman_intro_ko.json",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Complete finite literal population; IDs/source,numerals,newline boundaries,all commands/slots/native variables preserved. No RTC/save/input/gameplay-code changes.",
+  "semantic_review": [
+    "Defeated return remains defeat with resolve for next time, not successful return. Explicit .EXE identity retained.",
+    "Mail delivery branches/variable insertion are not normal execution proved by static font/geometry. NumberMan4649 approval not reused."
+  ],
+  "units": [
+    {
+      "id": "6664D0:1:0",
+      "source": "プラグイン!\nガッツマン.EXE、\nトランスミッション!!",
+      "translation": "플러그인!\n거츠맨.EXE、\n트랜스미션!!",
+      "state": "needs_review"
+    }
+  ]
+}

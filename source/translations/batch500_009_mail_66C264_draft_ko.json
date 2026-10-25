@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "66C264",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/66C264.tpl",
+    "sha256": "c947a38894f2084f5ded1b31c452c032432e9842090fce30a5da488de6413843"
+  },
+  "source_archive_sha256": "551652df95a31322de89795037f95384ad7542460baf937597875646a0b5a403",
+  "consumer": "batch500-contextual-profile-mail-tournament-plugin",
+  "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+  "voice": "Source-conditioned manual draft; no portrait or human approval inferred.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-009",
+  "semantic_review": [
+    "Batch500-009 exactly500 stable literals: profile459/mail29/tournament11/plugin1;72 choices and428 prose, not500 unique sentences.",
+    "Manually authored per source ID. Canonical profile complete skeleton and all variant command differences inspected, all profile literals read, all4 small TPLs fully read. No source-string prose replacement or ROM/save writes.",
+    "No mugshot in any selected script; wind/heat/mission motifs, neighboring archive or earlier NumberMan screenshot cannot establish speaker.65AF54 names target Rockman.EXE, not speaker.",
+    "Profile17 global22 value1 jumps19; female/male attraction questions kept distinct without guessing player orientation.32 global23 school1..5/company6..9/otherwise kindergarten preserved; no guessed numeric ages.",
+    "All12 two-option selections per profile preserve defaults, BSeparate/clear/targets, trailing two spaces, newlines and flags. Existing buffer1/2/3/count checks and3605/3606 input handoff untouched.",
+    "Gender-neutral 형이나 오빠/누나나 언니 avoids inferred player sex. These family terms, Wind-like archaic register, mission politeness and rough heat register remain unapproved wording candidates.",
+    "66CA84風鈴 translated 풍경 (wind chime), not scenery;677F64恋焦がれる rendered 사랑에 불타다 to retain love/heat/burning metaphor, needs human wording review. No glossary approval inferred.",
+    "Mission mail10 actual SearchMan calls/3767 clear/3613,3785 set retained; normal mailadd8928..8934 versus8936..8942 unchanged. Non-Japanese!! and punctuation source literals stay original.",
+    "Tournament defeat99 percent/calculation uncertainty versus mission completion/registration/start kept separate; pluginTYPE3/wait30/3603,3651 clear remains source control, not a code patch.",
+    "Drafting coverage only: needs_review, no human approval, ROM integration, actual emulator/save evidence or release eligibility."
+  ],
+  "units": [
+    {
+      "id": "66C264:1:1",
+      "source": "、\nメールがきたようだ・・・",
+      "translation": ",\n메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:2:1",
+      "source": "、\nメールがきたようだ・・・",
+      "translation": ",\n메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:3:1",
+      "source": "、\nメールがきたようだ・・・",
+      "translation": ",\n메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:4:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:5:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:6:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:7:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:20:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:21:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:22:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:23:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:24:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:25:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "66C264:26:1",
+      "source": "メールがきたようだ・・・",
+      "translation": "메일이 온 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read.14 mail alerts: nickname1..3, generic4..7, add8928..8934 at20..26, tournament receive2; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    }
+  ]
+}

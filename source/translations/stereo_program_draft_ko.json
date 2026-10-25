@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BDC90",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BDC90.tpl",
+    "sha256": "76c4909296c653d0ec597fed739964dc93208d2f61174a40f8b5a38678a0e0fd"
+  },
+  "source_archive_sha256": "4a6a0acc4546a76a47543d580c090388b812edeaeaf49382dada6e7fe54cc7d7",
+  "consumer": "normal-dialogue-choice-minigame-shop",
+  "context": "All67 Japanese literals from4 archives, local dialogue/branches read.",
+  "voice": "Rough NapalmMan, sung stereo English loanwords, tired casual TV and rough merchant separated; candidate voices not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep flag6194/startNapalmManMinigame hard=false, Internet1/all viruses/time unspecified/any plugout failure; market shops4/14/global7=2/global6=1/weekday3/Navi1 and options unchanged.",
+  "semantic_review": [
+    "Normal test Internet1 is not hard-test UnderInternet2. Napalm program lending appears only in initial0, not reminder2; no added time number or changed test command.",
+    "Retry4 uses mugshotHide unlike hard-test visible retry; choices are hidden player choices. Success offers passage and failure refuses it.",
+    "Stereo interrupted singing literals remain three separate pages/fragments; punctuation and sound expansion are authored candidates, not inferred voice/audio assets.",
+    "TV explicitly old, not thin or LCD; casual tired register retained rather than default polite MrProgGreen. No remote-control repair quest invented.",
+    "Market stock14 may also be reached through global7/6 special conditions before weekday/Navi branch. No player-gender gate, discount amount or item additions inferred.",
+    "Static protection not normal-play test/plugout/clock/market purchase/save/screen verification; rhythm, names and service phrasing require human review."
+  ],
+  "units": [
+    {
+      "id": "7BDC90:0:0",
+      "source": "オーイエーベイベー!!",
+      "translation": "오 예 베이비!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BDC90:0:1",
+      "source": "オ・イ・ラ・ハーーーーー!!\nス・テ・レ・オ・ノ",
+      "translation": "나·는·말·이·야아아!!\n스·테·레·오·의",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BDC90:0:2",
+      "source": "プログラムォーーーーイェ!",
+      "translation": "프로그램 오오오 예!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BDC90:0:3",
+      "source": "イ・イ・オ・トォォーーー\nダスゼイェ・・・",
+      "translation": "좋·은·소·리이이\n들려준다 예...",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BDC90:0:4",
+      "source": "センキュウ!",
+      "translation": "땡큐!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    }
+  ]
+}

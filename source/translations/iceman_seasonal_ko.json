@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6C5A88",
+  "source_archive_sha256": "16cd9b1e7ce2355d2b3dc5f91659ea0c92edbad47dfe4b569d196e22a1e7fc63",
+  "consumer": "normal-dialogue",
+  "context": "IceMan seasonal/birthday dialogue; intro6C167C names アイスマン with polite childish speech. Native intro root038494/seasonal+52 root0384C8. Portrait92,110/3rows; global22,two nickname prints and event buffer/loop unchanged. Normal unlock/date/name/gender/event routes unverified.",
+  "voice": "Tentative gentle polite voice, elongated~ endings retained locally. Human wording/terminology/culture review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/6C167C.tpl; analysis/full_scope_v1/source_tpl/6C5A88.tpl; native roots038494/0384C8",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All34 literals including2 unchanged quotes; IDs/source,numerals,newline counts/boundaries,21slots,commands preserved. Nickname3:1/11:0 first-line comma11px unchanged; no name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "Christmas8:1 distinguishes Japanese イブ(B) from イヴ(V). Draft B/V sound explanation preserves the contrast rather than identical Korean 이브 twice; wording requires human review, not reuse of NumberMan4649 approval.",
+    "March3 peach festival and Hina dolls left displayed causing late marriage remain reported source folklore, not a factual endorsement or Korean custom substitution. May5 gender contrast and all dates retained.",
+    "Tanabata bamboo-leaf rustling and MilkyWay compared to diamond dust retained. NewYearEve prefers chilled Chinese noodles to year-crossing soba; not silently corrected to hot soba or Korean naengmyeon."
+  ],
+  "units": [
+    {
+      "id": "6C5A88:1:0",
+      "source": "あけまして\nおめでとうです~!",
+      "translation": "새해 복 많이\n받으세요~!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:1:1",
+      "source": "今年も、よろしく\nおねがいしますです!",
+      "translation": "올해도,잘\n부탁드려요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:2:0",
+      "source": "オニは~そとです!\nふくは~ウチです!",
+      "translation": "도깨비는~밖으로!\n복은~안으로!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:2:1",
+      "source": "今日は せつぶんです~",
+      "translation": "오늘은 절분이에요~",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:2:2",
+      "source": "マメまきって、\nたのしいです~",
+      "translation": "콩 뿌리기는,\n재밌어요~",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:3:0",
+      "source": "今日は、うれしはずかし\nバレンタインデーです!",
+      "translation": "오늘은 설레고 쑥스런\n발렌타인데이예요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:3:1",
+      "source": "、\nチョコは いくつ\nもらえるですかね?",
+      "translation": "、\n초콜릿은 몇 개나\n받을 수 있을까요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:4:0",
+      "source": "今日は、うれしはずかし\nバレンタインデーです!",
+      "translation": "오늘은 설레고 쑥스런\n발렌타인데이예요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:4:1",
+      "source": "チョコレート、\nほんめいさんに、\nあげちゃうですか?",
+      "translation": "초콜릿을,\n진짜 좋아하는 분께,\n드릴 건가요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:5:0",
+      "source": "今日は 3月3日、\nもものせっく\nひなまつりの日です!",
+      "translation": "오늘은 3월3일,\n복숭아 절기인\n히나마쓰리예요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:5:1",
+      "source": "ひなまつりが\nおわったあとも、",
+      "translation": "히나마쓰리가\n끝난 뒤에도,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:5:2",
+      "source": "ひなにんぎょうを\nかざりっぱなしに\nしていると、",
+      "translation": "히나 인형을\n계속 장식해\n두면,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:5:3",
+      "source": "およめに\nいきおくれるって\nいわれてるです!",
+      "translation": "시집을\n늦게 가게 된다고\n하더라고요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:6:0",
+      "source": "今日は 5月5日\nこどもの日です~!",
+      "translation": "오늘은 5월5일\n어린이날이에요~!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:6:1",
+      "source": "3月3日が\nオンナのコの日なら、",
+      "translation": "3월3일이\n여자아이의 날이면,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:6:2",
+      "source": "5月5日は\nオトコのコの日です!",
+      "translation": "5월5일은\n남자아이의 날이에요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:7:0",
+      "source": "今日は、\nササのは サラサラ\nたなばたです!!",
+      "translation": "오늘은,\n대나무 잎 사각사각\n칠석이에요!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:7:1",
+      "source": "あまのがわは まるで、\nダイアモンドダストの\nように キレイです~",
+      "translation": "은하수는 마치,\n다이아몬드 더스트\n처럼 아름다워요~",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:8:0",
+      "source": "今日は 12月24日、\nクリスマスイヴです!",
+      "translation": "오늘은 12월24일,\n크리스마스이브예요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:8:1",
+      "source": "イブじゃなくて、\nイヴです!",
+      "translation": "B 소리 말고,\nV 소리예요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:8:2",
+      "source": "ゆきが ふって\nほしいです~!",
+      "translation": "눈이 내리면\n좋겠어요~!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:9:0",
+      "source": "今日は 12月25日、\nクリスマスです!",
+      "translation": "오늘은 12월25일,\n크리스마스예요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:9:1",
+      "source": "クリスマスプレゼントは\nなにを もらったです?",
+      "translation": "크리스마스 선물은\n뭘 받았나요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:10:0",
+      "source": "今日は 12月31日、\n大みそかです!",
+      "translation": "오늘은 12월31일,\n섣달그믐이에요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:10:1",
+      "source": "はやいもので、\n今日で今年もおわりです",
+      "translation": "시간 참 빠르네요,\n오늘로 올해도 끝나요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:10:2",
+      "source": "らいねんも いい年に\nなるといいです!",
+      "translation": "내년도 좋은 해가\n되면 좋겠어요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:10:3",
+      "source": "年こしそば は、\nひやしちゅうか が\nいいです~",
+      "translation": "해넘이 소바는,\n냉중화면이\n좋겠어요~",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:11:0",
+      "source": "、\nおたんじょう日\nおめでとうです!!",
+      "translation": "、\n생일을\n축하드려요!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:11:1",
+      "source": "とっても\nおめでたいです!",
+      "translation": "정말\n경사스러워요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:12:0",
+      "source": "今日って、\nそうりつきねん日\nだったですよね?",
+      "translation": "오늘이,\n개교 기념일\n맞았지요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C5A88:19:0",
+      "source": "です!!",
+      "translation": "이에요!!",
+      "state": "needs_review"
+    }
+  ]
+}

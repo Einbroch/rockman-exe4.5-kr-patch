@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "666D5C",
+  "source_archive_sha256": "fc320d1c830dfa2984a693787f92e26d3c46421126a9a2f3af3f354ec44a1a7f",
+  "consumer": "normal-dialogue",
+  "context": "GutsMan native group root03812C/intro+28. Defeat1,victory2,unregistered10,encouragement20..23. Native GutsMan unregistered10 observed on operations-v1; source25slots/473bytes/10literals.",
+  "voice": "Existing development 거츠/거스 candidate voice; not human-approved for release.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "IDs/source/newline/numeral2/all commands/native nickname variables/keyWait/clear/cancel menu/flag3603 unchanged.",
+  "semantic_review": [
+    "Nickname と replaced by non-growing comma11px; next row explicitly says 2 people achieved together, preserving cooperative meaning without value-dependent Korean particle.",
+    "No player-name edit/save/unlock/tournament result proof by static analysis. NumberMan4649 approval not reused."
+  ],
+  "units": [
+    {
+      "id": "666D5C:1:0",
+      "source": "うぐぅ~!!\nくやしいでガス!!",
+      "translation": "으그~!!\n분하거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666D5C:1:1",
+      "source": "つぎこそは ぜったい\nゆうしょうするでガス!!",
+      "translation": "다음엔 반드시\n우승하겠거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666D5C:2:0",
+      "source": "やったでガス!!\nゆうしょうでガス!!",
+      "translation": "해냈거스!!\n우승이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666D5C:2:1",
+      "source": "と\n2人で つかんだ\nえいこうでガス!!",
+      "translation": "、\n2명이 함께 이룬\n영광이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666D5C:2:2",
+      "source": "ガッツ、ガッツ、\nガッツッツー!!",
+      "translation": "거츠、거츠、\n거츠츠ー!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666D5C:10:0",
+      "source": "!\nエントリーしてないでガス",
+      "translation": "!\n참가 등록이 안 됐거스",
+      "state": "needs_review"
+    },
+    {
+      "id": "666D5C:20:0",
+      "source": "ガッツガッツ!\nゆうしょうめざして\nがんばるでガス!!",
+      "translation": "거츠거츠!\n우승을 향해\n힘내겠거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666D5C:21:0",
+      "source": "ガッツガッツ!\nゆうしょうめざして\nがんばるでガス!!",
+      "translation": "거츠거츠!\n우승을 향해\n힘내겠거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666D5C:22:0",
+      "source": "ガッツガッツ!\nゆうしょうめざして\nがんばるでガス!!",
+      "translation": "거츠거츠!\n우승을 향해\n힘내겠거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666D5C:23:0",
+      "source": "ガッツガッツ!\nゆうしょうめざして\nがんばるでガス!!",
+      "translation": "거츠거츠!\n우승을 향해\n힘내겠거스!!",
+      "state": "needs_review"
+    }
+  ]
+}

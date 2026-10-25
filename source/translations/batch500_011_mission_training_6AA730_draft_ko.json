@@ -1,0 +1,333 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6AA730",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6AA730.tpl",
+    "sha256": "24e8b82b84be1e18ce9a2557a716894a34f3898924ce8ca3e872e1245f28a735"
+  },
+  "source_archive_sha256": "5e1bc794ce8ba2720d802b2c96bf225d2c65418a17da1c66830f863dd29cbc75",
+  "consumer": "batch500-contextual-profile-mail-mission-training-schedule-plugin",
+  "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+  "voice": "Source-conditioned manual draft; no portrait or human approval inferred.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-011",
+  "semantic_review": [
+    "Batch500-011 exactly500 stable literals: profile438/mail28/mission-training27/schedule6/plugin1;72 choices/428 prose, not500 unique sentences.",
+    "All profile literals/full control differences against fully inspected688A10 read; exceptional source scripts independently inspected; all5 small TPLs fully read. Manually authored per ID, no source-string prose rule transformations.",
+    "No mugshots in selected scripts. Vegetables/stars/ninja voice motifs, archive adjacency and NumberMan screenshot do not establish visible speaker; plugin explicit ShadowMan.EXE is target, not operator voice.",
+    "Profile17 global22 value1→19 female/male and32 global23 school1..5/company6..9/otherwise kindergarten maintained; no exact ages or orientation inferred.12 selections each with irregular Star sibling literal offsets preserved.",
+    "All buffers/count5/3605,3606/defaults/BSeparate/clear/targets/padding preserved.69F220:9:0 punctuation unchanged;6AA730:0:0 temporaryかりです stays original/awaiting-context denominator.",
+    "Family gender-neutral alternatives remain unapproved.69F220 shared dream/vegetables/search promise with may-not-exist qualifier;6A5814 fortune possibility,next-week timing,shooting-star wish only vs actual grant;94 printEntryBuffer wishlist item, not player nickname.",
+    "6AB70C threats retain subsequent joke/non-pointless-killing and commission exception. Period drama rendered 시대극 candidate; shuriken수리검 and archaic소인/그대 register unapproved. Numeric1人 alone phrased1인,1人前 means accomplished, numeral1 retained without treating it as count.",
+    "Mission10/11 actual ShadowMan complete/fail calls/9244 vs9243/6051 vs6052/3632/3613;12 remaining-minute print vs13 urgent message and70 minigame2 outcomes preserved.",
+    "Training71 item33/amount1 HP memory versus72 dynamic zenny and73 dynamic bug-fragment count;4294967295 amounts/printBuffer3/order/padLeft unchanged. Full-context misunderstanding cannot be validated by hash alone.",
+    "Mail groups9000..9006 vs9024..9030/tournament680/681, schedule soon/today/hour/minute/AMPM loops and pluginTYPE3/3603/3651/wait30 unchanged. Needs_review, no ROM/save/emulator/image writes or release eligibility."
+  ],
+  "units": [
+    {
+      "id": "6AA730:10:1",
+      "source": "、\nにんむ かんりょうだ",
+      "translation": ",\n임무 완료다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:10:2",
+      "source": "いらい人より メールが\nとどいているようだ",
+      "translation": "의뢰인에게 메일이\n온 모양이군",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:11:1",
+      "source": "クッ・・・\nなんたる しったい・・・!",
+      "translation": "큭...\n이 무슨 실책인가...!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:11:2",
+      "source": "いらい人より おしかりの\nメールが とどいておるわ",
+      "translation": "의뢰인에게 꾸지람이\n담긴 메일이 왔군",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:12:0",
+      "source": "、\nのこり時間は",
+      "translation": ",\n남은 시간은",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:12:1",
+      "source": "分だ",
+      "translation": "분이다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:13:0",
+      "source": "、\n時間がないぞ・・・\nいそげ!",
+      "translation": ",\n시간이 없다...\n서둘러라!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:70:0",
+      "source": "ヌウ・・・!\nアレが しゅりけん\nならば・・・!",
+      "translation": "누우...!\n그게 수리검\n이었다면...!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:71:0",
+      "source": "フン・・・",
+      "translation": "흥...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:71:1",
+      "source": "これしきのこと、\nせっしゃには\nあさめしまえだ・・・",
+      "translation": "이 정도 일은,\n소인에게는\n식은 죽 먹기다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:71:2",
+      "source": "ム、なにかのデータが\nてんそうされてきたぞ",
+      "translation": "음, 무언가 데이터가\n전송되어 왔군",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:71:3",
+      "source": "「HPメモリ」だ・・・",
+      "translation": "「HP 메모리」군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:71:4",
+      "source": "なるほど、くんれんを\nせいこうさせた\nほうびか・・・",
+      "translation": "그렇군, 훈련을\n성공시킨\n보상인가...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:71:5",
+      "source": "そういうことなら、\nいただいておくぞ・・・",
+      "translation": "그런 것이라면,\n받아 두겠다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:72:0",
+      "source": "フン・・・",
+      "translation": "흥...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:72:1",
+      "source": "これしきのこと、\nせっしゃには\nあさめしまえだ・・・",
+      "translation": "이 정도 일은,\n소인에게는\n식은 죽 먹기다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:72:2",
+      "source": "ム、なにかのデータが\nてんそうされてきたぞ",
+      "translation": "음, 무언가 데이터가\n전송되어 왔군",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:72:3",
+      "source": "ゼニーだ・・・",
+      "translation": "제니군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:72:4",
+      "source": "なるほど、くんれんを\nせいこうさせた\nほうびか・・・",
+      "translation": "그렇군, 훈련을\n성공시킨\n보상인가...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:72:5",
+      "source": "そういうことなら、\nいただいておくぞ・・・",
+      "translation": "그런 것이라면,\n받아 두겠다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:73:0",
+      "source": "フン・・・",
+      "translation": "흥...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:73:1",
+      "source": "これしきのこと、\nせっしゃには\nあさめしまえだ・・・",
+      "translation": "이 정도 일은,\n소인에게는\n식은 죽 먹기다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:73:2",
+      "source": "ム、なにかのデータが\nてんそうされてきたぞ",
+      "translation": "음, 무언가 데이터가\n전송되어 왔군",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:73:3",
+      "source": "バグのかけら",
+      "translation": "버그 조각",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:73:4",
+      "source": "コだ・・・",
+      "translation": "개군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:73:5",
+      "source": "なるほど、くんれんを\nせいこうさせた\nほうびか・・・",
+      "translation": "그렇군, 훈련을\n성공시킨\n보상인가...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6AA730:73:6",
+      "source": "そういうことなら、\nいただいておくぞ・・・",
+      "translation": "그런 것이라면,\n받아 두겠다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Mission10/11 success/failure mail,12/13 actual remaining-minute/little-time branches,70..73 minigame2 outcome/rewards.0 temporary unresolved; no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    }
+  ]
+}

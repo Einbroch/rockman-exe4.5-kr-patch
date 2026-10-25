@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "scope": "EXE4.5 normal dialogue draw and cumulative-width scan only",
+  "encoding_candidate": "F9 FC + uint16 little endian Hangul syllable index (U+AC00 base)",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "main_dispatch_offset": 325672,
+  "main_dispatch_expected_sha256": "e1c2f34f5a3cc9dd0f51b7bbfc43da1186775e3ca8b59775f821ed9f24a278be",
+  "normal_f9_slot": {
+    "offset": 327912,
+    "expected_hex": "75150508",
+    "handler_address": 134550901
+  },
+  "width_f9_slot": {
+    "offset": 328016,
+    "expected_hex": "71180508",
+    "handler_address": 134551665
+  },
+  "renderer_offset": 2030048,
+  "renderer_runtime_address": 50359008,
+  "font_literal": {
+    "offset": 2030204,
+    "expected_address": 140543832
+  },
+  "advance_literal": {
+    "offset": 2030212,
+    "expected_address": 134555916
+  },
+  "main_continuation_address": 134543622,
+  "functions": {
+    "flag_test": 134544760,
+    "flag_set": 134544736,
+    "glyph_bookkeeping": 134545332
+  },
+  "sound_address": 134219060,
+  "derivation": {
+    "normal_dispatch": "0x0804F828 main loop; E5-based table literal at 0x0804F894 resolves to 0x08050098; F9 slot is 0x500E8",
+    "width_dispatch": "cumulative-width loop table literal at 0x0804F956 resolves to 0x08050100; F9 slot is 0x50150",
+    "renderer": "ROM source 0x1EF9E0 is copied to IWRAM 0x03006AE0; font-read runtime evidence hits 0x03006B32/0x03006B34",
+    "font_pointer": "Thumb literal pool at 0x1EFA7C contains 0x08608758",
+    "advance_pointer": "Thumb literal pool at 0x1EFA84 contains 0x0805290C"
+  },
+  "adoption": "development PoC only; tile/menu consumers and F9 FC collision population remain open"
+}

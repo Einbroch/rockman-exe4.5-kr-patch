@@ -1,0 +1,258 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "691A64",
+  "source_archive_sha256": "e06df11b3698486af660647df841f64e865c0bc915c899e0ee93bf07b18c0afd",
+  "consumer": "normal-dialogue",
+  "context": "MetalMan operator seasonal/birthday conversations. Intro68D3C8 explicitly names メタルマン and fist-training theme. Native60byte Navi group intro root0382B4/seasonal+52 root0382E8. Portrait92,110/3rows; global22,dates,two nickname prints and anniversary buffer/loop preserved. Normal unlock/date/name route unverified.",
+  "voice": "Source オレ/おまえ/だ/ぞ and restrained fist-training greetings motivate tentative firm informal mentor voice, human review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/68D3C8.tpl; analysis/full_scope_v1/source_tpl/691A64.tpl; native roots0382B4/0382E8",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All39 source literals including2 unchanged quote literals; IDs/text,dates/numerals,newline counts/boundaries,21slots,commands and event controls preserved. Nickname1:0 and11:0 first line remains invariant source comma 、, same11px. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "Omisoka/Misoka explanation retains Japanese terms (오미소카/미소카) plus Korean 섣달그믐, rather than inventing a Korean etymology. Wording needs human review.",
+    "Japanese Setsubun/Hinamatsuri/May5 Tango/Tanabata kept in context; Orihime/Hikoboshi rendered 직녀/견우 as in preceding draft Tanabata story. Culture and voice review pending.",
+    "Source obligation-chocolate warning and Santa intruder/escape joke retained. These are draft character statements, not assistant advice."
+  ],
+  "units": [
+    {
+      "id": "691A64:1:0",
+      "source": "、\nあけまして おめでとう",
+      "translation": "、\n새해 복 많이 받아라",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:1:1",
+      "source": "オレの今年のもくひょうは\nこのコブシに さらなる\nみがきを かけることだ",
+      "translation": "내 올해 목표는\n이 주먹을 한층 더\n갈고닦는 것이다",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:1:2",
+      "source": "おまえも なにか\nもくひょうを\nたてたほうがいいぞ",
+      "translation": "너도 뭔가\n목표를\n세우는 게 좋겠군",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:2:0",
+      "source": "今日は せつぶんだな",
+      "translation": "오늘은 절분이군",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:2:1",
+      "source": "オレのコブシは\nオニに つうじるの\nだろうか・・・",
+      "translation": "내 주먹이\n도깨비에게도\n통할까・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:2:2",
+      "source": "いちど ためして\nみたいものだ",
+      "translation": "한번 시험해\n보고 싶군",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:3:0",
+      "source": "今日は、\nバレンタインデーだ・・・",
+      "translation": "오늘은,\n발렌타인데이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:3:1",
+      "source": "さいしょに いっておくが\nオトコの かちは、",
+      "translation": "먼저 말해 두지만\n남자의 가치는,",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:3:2",
+      "source": "もらったチョコレートの\nかず ではないぞ",
+      "translation": "받은 초콜릿의\n개수가 아니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:3:3",
+      "source": "くじけるな",
+      "translation": "기죽지 마라",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:4:0",
+      "source": "今日は、\nバレンタインデーだ・・・",
+      "translation": "오늘은,\n발렌타인데이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:4:1",
+      "source": "あまり せっそうなく\nぎりチョコを\nバラまくんじゃないぞ",
+      "translation": "아무에게나\n의리 초콜릿을\n마구 뿌리지 마라",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:4:2",
+      "source": "オトコは かんちがい\nしやすい いきものなのだ",
+      "translation": "남자는 착각하기\n쉬운 생물이니까",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:5:0",
+      "source": "今日は ひなまつりの日だ",
+      "translation": "오늘은 히나마쓰리다",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:5:1",
+      "source": "オレには かんけいのない\nまつりだが、",
+      "translation": "나와는 상관없는\n축제지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:5:2",
+      "source": "おまつりキブンだけでも\nあじわっておこうか",
+      "translation": "축제 기분만이라도\n맛보도록 할까",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:6:0",
+      "source": "今日は 5月5日の\nたんごのせっくだ・・・",
+      "translation": "오늘은 5월5일\n단오절이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:6:1",
+      "source": "たしか、こどもの日で\nきゅうじつだったはずだな",
+      "translation": "분명 어린이날이라\n휴일이었을 거다",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:6:2",
+      "source": "今日は ぞんぶんに\nあそぶがいい",
+      "translation": "오늘은 마음껏\n놀도록 해라",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:7:0",
+      "source": "今日は たなばただな",
+      "translation": "오늘은 칠석이군",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:7:1",
+      "source": "おりひめと ひこぼしは、\nぶじに であうことが\nできるだろうか・・・",
+      "translation": "직녀와 견우는,\n무사히 만날 수\n있을까・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:8:0",
+      "source": "今日は 12月24日、\nクリスマスイヴだ",
+      "translation": "오늘은 12월24일,\n크리스마스이브다",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:8:1",
+      "source": "なんでも、こんや\nサンタというヤカラが\nウチに しのびこむらしい",
+      "translation": "듣자니 오늘 밤\n산타라는 녀석이\n집에 몰래 들어온다지",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:8:2",
+      "source": "しかし、あんしんしろ、\nオレが見はっておいてやる",
+      "translation": "하지만 안심해라,\n내가 지켜봐 주마",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:9:0",
+      "source": "今日は 12月25日、\nクリスマスだ",
+      "translation": "오늘은 12월25일,\n크리스마스다",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:9:1",
+      "source": "きのう、よなかに\nあやしい人カゲを\n見つけたのだが、",
+      "translation": "어제 한밤중에\n수상한 그림자를\n발견했지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:9:2",
+      "source": "ざんねんながら、にがして\nしまった・・・スマン",
+      "translation": "아쉽게도 놓치고\n말았다・・・미안하다",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:10:0",
+      "source": "今日は 12月31日、\n大みそかだ",
+      "translation": "오늘은 12월31일,\n오미소카, 섣달그믐",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:10:1",
+      "source": "みそか とは、\n月のさいごの日のことを\nさすのだ・・・",
+      "translation": "미소카란,\n한 달의 마지막 날을\n뜻하지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:10:2",
+      "source": "年のさいごの日、\n大きな みそか なわけだ",
+      "translation": "한 해의 마지막 날,\n큰 미소카인 셈이지",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:10:3",
+      "source": "べんきょうになったか?",
+      "translation": "좀 배웠느냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:11:0",
+      "source": "、\nたんじょう日、おめでとう",
+      "translation": "、\n생일 축하한다",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:11:1",
+      "source": "オレも うれしいぞ\nともに せいちょうして\nいきたいものだな",
+      "translation": "나도 기쁘군\n함께 성장해\n가고 싶구나",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:12:0",
+      "source": "学校の そうりつきねん日\nだったな・・・",
+      "translation": "학교의 창립 기념일\n이었지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:12:1",
+      "source": "今日は やすみか?",
+      "translation": "오늘은 쉬는 날이냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "691A64:19:0",
+      "source": "だ・・・",
+      "translation": "이란다・・・",
+      "state": "needs_review"
+    }
+  ]
+}

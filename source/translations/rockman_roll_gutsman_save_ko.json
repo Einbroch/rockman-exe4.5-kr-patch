@@ -1,0 +1,337 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6DA21C",
+  "source_archive_sha256": "f3738ed1d0e58bca466ee06b15d8018547cce27dc4ff2fb5f863942bb94ab679",
+  "scope_variant": "rockman-roll-gutsman-save-v1",
+  "consumer": "normal-dialogue",
+  "context": "Script 0 checkNaviAll routes Roll to 20. Rockman 0-4 translations retained; Roll 20-24 save confirmation, overwrite, writing, success, failure/retry and invalid-data branches. Normal Roll confirmation and success observed in calendar-presets-persist-v1-save-screen/step_003.png and save-commit/step_007.png. Failure branches statically established, not induced. Save-screen labels10-13 are mmbn45s fixed-cell BIG, six8px cells/384-byte BG transfers to06008400/8600/8800/8A00; observed save-labels-source-v1, not baked graphics. Title graphic and numeric buffers remain protected. Adds only script16 literal1 コ→개 after the protected cup icon and printBuffer(minLength2). The five-cell native transfer stays unchanged. Adds GutsMan25-29: script0 checkNaviAll jumpIfGutsMan=25; source save flags/callSave success28/failure27/invalid29 and exact newlines preserved. Normal gameplay verification required.",
+  "voice": "Rockman and Roll address the player informally; functional save warnings and failure distinctions preserved. GutsMan localized draft speech ending 거스 and ガッツ→거츠; not approved Korean official wording.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Keep all controls, branches, save calls, flags, waits, newlines and choice trailing spaces. Never imply a failed save succeeded.",
+  "units": [
+    {
+      "id": "6DA21C:0:0",
+      "source": "ここまでのかつやくを\nセーブしておこうか?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:0:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:0:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:1:0",
+      "source": "すでにあるセーブデータに\nうわがきしちゃうよ?\n",
+      "translation": "기존 저장 데이터에\n덮어써도 될까?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:1:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:1:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:2:0",
+      "source": "今、セーブしてるから、\nでんげんを きらないでね",
+      "translation": "지금 저장 중이니까\n전원을 끄지 말아 줘",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:2:1",
+      "source": "セーブに\nしっぱいしたみたい・・・",
+      "translation": "저장에\n실패한 것 같아・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:2:2",
+      "source": "もういちど やってみるね\n",
+      "translation": "다시 시도해 볼게\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:2:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:2:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:3:0",
+      "source": "よし!\nセーブおわったよ!",
+      "translation": "좋아!\n저장이 끝났어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:4:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないよ",
+      "translation": "데이터가 잘못\n변경되어 있어서\n저장할 수 없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:4:1",
+      "source": "もういちど やってみるね\n",
+      "translation": "다시 시도해 볼게\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:4:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:4:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:20:0",
+      "source": "ここまでのかつやくを\nセーブしておく?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:20:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:20:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:21:0",
+      "source": "すでにあるセーブデータに\nうわがきしちゃうよ?\n",
+      "translation": "기존 저장 데이터에\n덮어써도 될까?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:21:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:21:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:22:0",
+      "source": "セーブ中だよ\nでんげんを けさないでね",
+      "translation": "저장 중이야\n전원을 끄지 말아 줘",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:22:1",
+      "source": "セーブに\nしっぱいしたみたい・・・",
+      "translation": "저장에\n실패한 것 같아・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:22:2",
+      "source": "もういちど やってみるね\n",
+      "translation": "다시 시도해 볼게\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:22:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:22:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:23:0",
+      "source": "ハイ!\nセーブおわったよ!",
+      "translation": "자!\n저장이 끝났어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:24:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないよ",
+      "translation": "데이터가 잘못\n변경되어 있어서\n저장할 수 없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:24:1",
+      "source": "もういちど やってみるね\n",
+      "translation": "다시 시도해 볼게\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:24:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:24:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:10:0",
+      "source": "タイム",
+      "translation": "시간",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:11:0",
+      "source": "チップ",
+      "translation": "칩",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:12:0",
+      "source": "カップ",
+      "translation": "컵",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:13:0",
+      "source": "クレジット",
+      "translation": "크레딧",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:16:1",
+      "source": "コ",
+      "translation": "개",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:25:0",
+      "source": "ここまでのかつやくを\nセーブしておくでガス?\n",
+      "translation": "지금까지의 활약을\n저장해 둘 거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:25:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:25:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:26:0",
+      "source": "すでにあるセーブデータに\nうわがきするでガス!\nいいでガス?",
+      "translation": "기존 저장 데이터에\n덮어쓸 거스!\n괜찮겠거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:26:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:26:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:27:0",
+      "source": "セーブ中でガス\nでんげんをきったら\nダメガッツ!!",
+      "translation": "저장 중이거스\n전원을 끄면\n안 된다, 거츠!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:27:1",
+      "source": "セーブに\nしっぱいしたでガス・・・",
+      "translation": "저장에\n실패했거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:27:2",
+      "source": "もういちど\nやってみるでガス!\n",
+      "translation": "다시 한번\n시도해 볼 거스!\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:27:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:27:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:28:0",
+      "source": "ガッツガッツ!\nセーブがおわったでガス!",
+      "translation": "거츠, 거츠!\n저장이 끝났거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:29:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないでガス",
+      "translation": "데이터가 잘못\n변경되어 있어서\n저장할 수 없거스",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:29:1",
+      "source": "もういちど\nやってみるでガス\n",
+      "translation": "다시 한번\n시도해 볼 거스\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:29:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6DA21C:29:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    }
+  ]
+}

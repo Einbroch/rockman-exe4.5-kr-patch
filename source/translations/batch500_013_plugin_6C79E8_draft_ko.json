@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6C79E8",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6C79E8.tpl",
+    "sha256": "ef4481a665b9764a3cc379f36bd3ff31167cce645e7c42114e7eed71c846afbf"
+  },
+  "source_archive_sha256": "f105df2004fdacf0d688165ac8e00d923479575946902334fc5954849bf3fb35",
+  "consumer": "batch500-contextual-profile-menu-training-tournament-plugin",
+  "context": "Full TPL read. TYPE3 plugin1 ElecMan.EXE target, not operator speaker;3603/3651/wait30, no mugshot.",
+  "voice": "Source-conditioned manual draft; only explicit6D1984 Bass portrait identified; wording unapproved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-013",
+  "semantic_review": [
+    "Batch500-013 exactly500 stable literals: profile405/menu56/training28/tournament10/plugin1;93 choices/407 prose, not500 unique sentences.",
+    "All profile literals/full control skeleton differences read, special1/31/17/41 actual TPL inspected;all4 other TPLs fully read. Manually authored per ID, no prose substitution rules.",
+    "Only6D1984 has explicit Bass portrait;93choice units retain role/portrait boundaries. No inference from adjacent archives,electricity/flower/contempt motifs,or NumberMan screenshot. Plugin ElecMan.EXE target not operator identity.",
+    "Profile22gender1→19 and23education1..5school/6..9company/otherwise kindergarten preserved;flower17/19 same ungendered source not forced gendered.12choices/profile;Bass41 single ending newline and16px preserved.",
+    "All buffer/count5/default/cancel/clear/3605,3606 arguments and original punctuation retained.6C7608:0:0 provisionalかりです stays original in remaining denominator.",
+    "Electricity thermal vs wind energy and tingling romance imagery retained;reward hypothetical not guaranteed. Flower water/air/nectar,life moisture,big tree/sunflower/rose/lily-of-valley and100rose comparison preserved;not general advice.",
+    "Contemptuous voice explicitly seeks player vulnerability and strong foes;desire/weakness/love wording kept,not softened into friendly guidance. Numeric1alone retained as1인 독학 draft;family words/register/new terms await review.",
+    "Menu date/input/type/capacity/conflict/overwrite/deletion confirmations;subchip vs equipment/library/mail/key items/save explanations kept. Clear3611/wait1/mugshotHide/msgCloseQuick/end untouched.",
+    "Training minigame0 vs2 and outcomes0..3,HP memory33/amount1,zenny/bug amount4294967295/buffer3/padLeft/output order preserved;problem-drill source meaning read with actual minigame0.",
+    "Tournament cold-storage metaphor not save claim;no-entry cancel distinct from loss/win and encouragement. PluginTYPE3/3603/3651/wait30 preserved. NON-DISTRIBUTION/needs_review, no ROM/save/emulator/image writes."
+  ],
+  "units": [
+    {
+      "id": "6C79E8:1:0",
+      "source": "プラグイン!\nエレキマン.EXE、\nトランスミッション!!",
+      "translation": "플러그인!\n일렉맨.EXE,\n트랜스미션!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. TYPE3 plugin1 ElecMan.EXE target, not operator speaker;3603/3651/wait30, no mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    }
+  ]
+}

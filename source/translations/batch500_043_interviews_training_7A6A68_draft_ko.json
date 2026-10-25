@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A6A68",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A6A68.tpl",
+    "sha256": "04a6ff59719fdd4a8c5559bb11477db5ce4867f8a7c7b85a94072dcdf2d4e51b"
+  },
+  "source_archive_sha256": "5a67da232d8b80f775ac87b6b9953462bcb44268fa05a259ed236d45d2fa09f8",
+  "consumer": "batch500-contextual-interviews-training",
+  "context": "HeelNaviBlack samuraivoice operatorbond/innumerablewins,greatoperator/ninja;native nettime12:00..28:59→1 preserved includinghour28 anomaly.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-043",
+  "semantic_review": [
+    "Exactly500 stablecatalogliteral manualsourceconditioned Korean drafts:377 remaininginterview/undefined-profilefallback,27Metaltraining,29legacybattle,45chipstrengthening,5legacyplugin,8tournamentUI,9NPC. Not500uniquesentences.",
+    "Allselectedsourceandnativecommandsread; noautomaticprose-choice/generation/shortening. needs_review development-draft NON-DISTRIBUTION releasefalse. Source/TPL/payload/IDs/commands/numeric/controltokens/newlines/leading/trailingpadding immutable.",
+    "Everyprofiledefined/undefinedalternative remainsdistinct. Dynamicnames/chips/food/school/friend/hobby/invariantparticles require consumer inlineflow/actualvalues/spacing/layout review;no fixed 받침-dependentsuffix.86 Ribitta sourceportrait not inventedNavi.",
+    "Star dodges unfortunate lovefortune withfriendappointment orroomcleaning;Shadow assassination/schoolorarea;Knight food3timesperday orregularlife;NapalmfriendorInternetbattle;IcehobbyorInternet;ElecschoolorInternet;Plant favfood bath versusvegetablejuice;Bassfriend versusrandomvirus. Comedy/wordplay/terms unapproved candidates.",
+    "Fallback90..102 inheritparentNavi beforelocalRibitta switches,explicitportraitmetadata not fabricated. Number98 boast/navichangepanic retained;userapproved4649 greeting alreadyhandled elsewhere notintroducedhere.15/16legacybattle inheritsMegaMan.",
+    "Separate15 splitwaitdotliterals18/30frames and20nativechoices;10UIlabels. SystemHP3/7/11/15 not treatedasvoicedNavi,explicitKnight/Bass/Guts rewards retain50pts/50PTS/10PTS. Numericvalues/defaults/branch/controlstateimmutable.",
+    "Source6EAD18:10:0 shortヘ and71A37C:2:0 digitglyphtable remain unselectedinremainingdenominator,not silentlyresolved. Legacydebug/consumerreachability/nativehour28 requireanalysis.",
+    "Font/codec/skeleton/protectedfields/132pxheuristictechnicalchecks nothuman/semantic/runtimeapproval. Allremainingdraftsfirst,thenfont/consumer/layout/insertionreadiness,cumulativeROM/screen/saveQA;inline/image/Hangulkeyboard/persistence/release remainopen. NoROM/save/emulatorwrites."
+  ],
+  "units": [
+    {
+      "id": "7A6A68:0:0",
+      "source": "ナビが ツヨくあるためには、\nナニより、オペレーターとの\nキズナがダイジでござるな",
+      "translation": "내비가 강해지려면,\n무엇보다 오퍼레이터와의\n유대가 중요하오",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samuraivoice operatorbond/innumerablewins,greatoperator/ninja;native nettime12:00..28:59→1 preserved includinghour28 anomaly.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7A6A68:0:1",
+      "source": "セッシャ、\nまだまだ\nミジュクモノゆえ、",
+      "translation": "소인은,\n아직도\n미숙한 몸이라,",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samuraivoice operatorbond/innumerablewins,greatoperator/ninja;native nettime12:00..28:59→1 preserved includinghour28 anomaly.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7A6A68:0:2",
+      "source": "オペレーターの\nおかげで ショウリできた\nバトルは カゾえキれんでござる",
+      "translation": "오퍼레이터 덕에\n이길 수 있었던\n배틀은 셀 수도 없소",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samuraivoice operatorbond/innumerablewins,greatoperator/ninja;native nettime12:00..28:59→1 preserved includinghour28 anomaly.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7A6A68:1:0",
+      "source": "おヌシ、\nなかなかヨいメを\nしているでござるな",
+      "translation": "그대,\n제법 좋은 눈을\n지니고 계시는구려",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samuraivoice operatorbond/innumerablewins,greatoperator/ninja;native nettime12:00..28:59→1 preserved includinghour28 anomaly.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7A6A68:1:1",
+      "source": "きっと おヌシの\nオペレーターは、とても\nスグれたジンブツなのであろう",
+      "translation": "분명 그대의\n오퍼레이터는 아주\n훌륭한 인물일 것이오",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samuraivoice operatorbond/innumerablewins,greatoperator/ninja;native nettime12:00..28:59→1 preserved includinghour28 anomaly.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7A6A68:1:2",
+      "source": "・・・え?\nセッシャのオペレーター?",
+      "translation": "...응?\n소인의 오퍼레이터 말이오?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samuraivoice operatorbond/innumerablewins,greatoperator/ninja;native nettime12:00..28:59→1 preserved includinghour28 anomaly.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7A6A68:1:3",
+      "source": "セッシャのオペレーターは\nニンジャでござる",
+      "translation": "소인의 오퍼레이터는\n닌자요",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samuraivoice operatorbond/innumerablewins,greatoperator/ninja;native nettime12:00..28:59→1 preserved includinghour28 anomaly.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

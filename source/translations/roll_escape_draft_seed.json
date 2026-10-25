@@ -1,0 +1,12 @@
+{
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "context":"76C944 scripts8..11 explicitly show Roll portrait. Battle escape advisory, possible success, failed escape and forbidden escape. Same group6 consumer as Rockman; local source/context establishes function. Feminine Japanese endings rendered as gentle casual Korean candidate; not human-approved voice.",
+  "drafts":[
+    {"id":"76C944:8:0","translation":"도망치는 게 나을까・・・?\n","rationale":"Advisability question, preserves hesitation and newline before options."},
+    {"id":"76C944:8:1","translation":"예  ","rationale":"Affirmative option, two trailing spaces unchanged."},
+    {"id":"76C944:8:2","translation":"아니요","rationale":"Negative option, native choice targets unchanged."},
+    {"id":"76C944:9:3","translation":"응!\n겨우 도망칠 수 있겠어!","rationale":"Source にげきれそう expresses prospective possibility, unlike Rockman's completed にげきれた. Do not rewrite as already escaped."},
+    {"id":"76C944:10:3","translation":"안 돼!\n도망칠 수 없어・・・!","rationale":"Failed ability to escape; punctuation preserved."},
+    {"id":"76C944:11:0","translation":"안 돼, 도망칠 때가\n아니야!","rationale":"Forbidden circumstance rather than random failure; initial prohibition preserved."}
+  ]
+}

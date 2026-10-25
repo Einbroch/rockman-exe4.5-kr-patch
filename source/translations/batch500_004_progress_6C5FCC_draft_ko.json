@@ -1,0 +1,373 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6C5FCC",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6C5FCC.tpl",
+    "sha256": "095786f9fce1e0884c0c8876bb7a4d62ba70673fa0ab7e575e744ee4d5f8f9f0"
+  },
+  "source_archive_sha256": "ce5946c8d02c7db100b66eb86c6a2c342d8d9d211455792474c5f4564ea8949a",
+  "consumer": "batch500-quick-menu-progress",
+  "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+  "voice": "Source-conditioned manual candidates, no named quick actor attribution; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source fields/IDs/TPL/payload, commands, variables, newline/padding and unselected placeholders immutable; no ROM/save writes.",
+  "batch_id": "batch500-004",
+  "semantic_review": [
+    "Batch500-004 exact500 stable literals: menu220 (140 choices/80 prose), progress280. Not500 unique sentences.",
+    "All needs_review/non-distribution; no ROM/save writes, independent wording approval or runtime evidence.",
+    "Every literal inspected; all control skeleton tokens compared against fully inspected670E9C menu and68097C progress baselines. Numeric flags, nickname insertions and page differences retained, not normalized.",
+    "License challenge/receipt, congratulation/rest/plugout distinctions, chip104, item11, other1Navi, internet3/5/7/9/10/12, key return internet9, coffin mark and official entry/prelim/weekend0/6/post-weekend34 retained.",
+    "Source ninja mastery, cold burning, firing eagerness, MAX power, flower/bloom stage, shudder of anticipation and bored contempt are distinct manual candidates, not one generic hint rewrite.",
+    "Per-archive flag banks and page waits kept. Quote-only/comma-only non-Japanese literals unselected; no portrait or identity inferred from motif."
+  ],
+  "units": [
+    {
+      "id": "6C5FCC:10:0",
+      "source": "インターネットを\nいろいろ たんさく\nしてみるです!",
+      "translation": "인터넷을\n여기저기 탐색해\n볼 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:11:0",
+      "source": "みならいライセンスしけん\nうけてみたいです!!",
+      "translation": "견습 라이선스 시험\n치러 보고 싶어요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:12:0",
+      "source": "みならいライセンスしけん\nがんばるです!",
+      "translation": "견습 라이선스 시험\n열심히 할 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:13:1",
+      "source": "」 を\nゲットするです!!",
+      "translation": "」 칩을\n구할 거예요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:14:0",
+      "source": "みならいライセンスを\nうけとりに行くです!",
+      "translation": "견습 라이선스를\n받으러 갈 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:15:0",
+      "source": "みならいライセンスしけん\nおつかれさまです!",
+      "translation": "견습 라이선스 시험\n수고하셨어요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:15:1",
+      "source": "すこし、きゅうけい\nするです?",
+      "translation": "조금, 쉬는\n거예요?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:16:0",
+      "source": "インターネット3で\nおこってるじけん\n気になるです・・・",
+      "translation": "인터넷3에서\n일어난 사건이\n신경 쓰여요...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:17:0",
+      "source": "さっきたおしたナビが\nじけんの はんにんだった\nみたいです・・・",
+      "translation": "방금 쓰러뜨린 내비가\n사건의 범인이었던\n것 같아요...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:17:1",
+      "source": "いちど、プラグアウト\nするです?",
+      "translation": "일단, 플러그아웃\n할 거예요?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:18:0",
+      "source": "インターネット5で\nおこってるじけん\n気になるです・・・",
+      "translation": "인터넷5에서\n일어난 사건이\n신경 쓰여요...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:19:0",
+      "source": "インターネット7で\nおこってるじけん\n気になるです・・・",
+      "translation": "인터넷7에서\n일어난 사건이\n신경 쓰여요...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:20:0",
+      "source": "インターネット9で\nおこってるじけん\n気になるです・・・",
+      "translation": "인터넷9에서\n일어난 사건이\n신경 쓰여요...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:21:0",
+      "source": "インターネット10で\nおこってるじけん\n気になるです・・・",
+      "translation": "인터넷10에서\n일어난 사건이\n신경 쓰여요...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:22:0",
+      "source": "インターネット12で\nおこってるじけん\n気になるです・・・",
+      "translation": "인터넷12에서\n일어난 사건이\n신경 쓰여요...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:23:0",
+      "source": "ブラックワークスから\n「マイナスキー」 を\nとりかえすです!!",
+      "translation": "블랙워크스에게서\n「마이너스 키」를\n되찾을 거예요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:24:0",
+      "source": "「マイナスキー」 は、\nもう1体のナビが\nもってるみたいです!!",
+      "translation": "「마이너스 키」는,\n다른 내비 1명이\n가진 것 같아요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:25:0",
+      "source": "「マイナスキー」 を\nインターネット9にいる",
+      "translation": "「마이너스 키」를\n인터넷9에 있는",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:25:1",
+      "source": "ナビのところに\nもって行くです!",
+      "translation": "내비에게\n가져다줄 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:26:0",
+      "source": "オフィシャル\nトーナメントの",
+      "translation": "오피셜\n토너먼트의",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:26:1",
+      "source": "エントリーかいじょうに\n行ってみるです!",
+      "translation": "참가 접수 장소로\n가 볼 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:27:0",
+      "source": "ウラインターネットに\n行くです",
+      "translation": "언더 인터넷으로\n갈 거예요",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:27:1",
+      "source": "もくひょうのナビの\nめじるしは\nカンオケだったです・・・",
+      "translation": "목표 내비를 찾을\n표식은\n관이었어요...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:28:0",
+      "source": "さ、オフィシャル\nトーナメントに\nエントリーしに行くです!",
+      "translation": "자, 오피셜\n토너먼트에\n참가 신청하러 갈 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:29:0",
+      "source": "しゅうまつはオフィシャル\nトーナメントです!\nいっぱい がんばるです!",
+      "translation": "주말에는 오피셜\n토너먼트예요!\n아주 열심히 할 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:30:0",
+      "source": "オフィシャルトーナメント\nつめたく もえるです!",
+      "translation": "오피셜 토너먼트\n차갑게 타오를 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:31:0",
+      "source": "もっと、インターネットを\nたんさくしたいです!",
+      "translation": "인터넷을 더\n탐색하고 싶어요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:32:0",
+      "source": "オフィシャル\nトーナメントのよせんを\nうけに行くです!",
+      "translation": "오피셜\n토너먼트의 예선을\n치르러 갈 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:33:0",
+      "source": "、\nさっきとどいた\nメールをよむです!",
+      "translation": ",\n아까 도착한\n메일을 읽을 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:34:0",
+      "source": "しゅうがあけたら、\nオフィシャル\nトーナメントに",
+      "translation": "주말이 지나면,\n오피셜\n토너먼트에",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    },
+    {
+      "id": "6C5FCC:34:1",
+      "source": "エントリー\nしに行くです!",
+      "translation": "참가 신청하러\n갈 거예요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 license/chip/incidents/key/official/weekday/mail dispatcher; all literals and canonical command differences inspected, no portrait.",
+      "variable_context": "Nickname/chip buffer, source page boundaries, numeric areas/another1Navi and per-archive flags unchanged. Runtime/layout unverified."
+    }
+  ]
+}

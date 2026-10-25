@@ -1,0 +1,885 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "7A32A8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A32A8.tpl",
+    "sha256": "707c917fcb8925bf21dbab0b40d8da6ab8bffb7e97ef8d4af53688c196b73390"
+  },
+  "source_archive_sha256": "c3b1f178144297dc139af4e1b7a9f74dc3cf667738928b843086f57e8b8c9cda",
+  "consumer": "normal-dialogue",
+  "context": "All95 Japanese literals in255-slot plaza NPC archive. Per-script native portraits bound, local dialogue groups read together. Time branches unchanged even script10 targeting1/2 with different portraits; no speculative branch repair.",
+  "voice": "Per-NPC drafts from source register; HeelNaviBlack bluff followed by polite apology, NaviGirlOrange countryside voice, program romance roles and NormalNaviBrown elderly verse distinguished. Dialect mapping remains a candidate, not approved regional adaptation.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve IDs, numbers1/2/3 and1tournament, native time branches/portraits/commands/point boundaries, source contradictions, romance uncertainty, verse3-row topology and original weekday. No ROM or save writes.",
+  "semantic_review": [
+    "Kansai-like bluff/dialect20..23 and countryside40..42 use distinct Korean colloquial candidates; this does not assert Japanese regions are Korean regions. Full dialect/localization approval pending.",
+    "Original haiku-style verse70/71 keeps three lines and meaning; Korean5/7/5 metre and physical/fear double meaning of コシヌけた not claimed. Human cultural/presentation review needed.",
+    "Program50/51 doubts whether romance is forbidden;60 is conditional if forbidden. No certainty or new rule about programs added.",
+    "Script21 says yellow girl while nearby portrait group40 is orange. Preserve source yellow reference, no guessed identity or palette correction.",
+    "Source10 time targets1/2 are unchanged; static portrait binding is for each stored script, not proof of all actual callers or time routes."
+  ],
+  "units": [
+    {
+      "id": "7A32A8:0:0",
+      "source": "キュウジツはイツも\nここで アソんでるのさ",
+      "translation": "휴일에는 항상\n여기서 놀지",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:0:1",
+      "source": "ショッピングもデキるし\nクツロげるしさ",
+      "translation": "쇼핑도 할 수 있고\n편히 쉴 수도 있으니까",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:0:2",
+      "source": "ゲンザイ、アタラしいチップを\nカおうかどうか\nおナヤみチュウさ",
+      "translation": "지금은 새 칩을\n살까 말까\n고민 중이야",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:1:0",
+      "source": "さぁて!\nキョウもオモいっキり\nアソぶのさ!!",
+      "translation": "자!\n오늘도 마음껏\n놀아 보자!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:1:1",
+      "source": "このヒロバは、\nオレたちの ラクエンさ!!",
+      "translation": "이 광장은,\n우리들의 낙원이야!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:2:0",
+      "source": "ちょっと\nカいモノしスぎちゃって、\nおサイフが ピンチなのさ",
+      "translation": "쇼핑을\n좀 너무 많이 했더니,\n지갑이 위험해",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:2:1",
+      "source": "ついつい いらないモノまで\nカっちゃうのが、オレの\nワルいクセさ",
+      "translation": "자꾸 필요 없는 것까지\n사 버리는 게, 내\n나쁜 버릇이지",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:10:0",
+      "source": "いやぁ、オレッチも\nカいモノ ダイスきだからよ、",
+      "translation": "나도 말이야\n쇼핑을 엄청 좋아해서,",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:10:1",
+      "source": "ついついコイツに\nツきアって\nイロイロ カっちゃうんだよな",
+      "translation": "자꾸 이 녀석과\n어울려 다니며\n이것저것 사게 되거든",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:10:2",
+      "source": "でも いいじゃん!\nダレにもメイワクかけてないし!\nオレのゼニーだもーん!!",
+      "translation": "그래도 괜찮잖아!\n누구한테 폐 끼치는 것도 아냐!\n내 제니라고!!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:11:0",
+      "source": "キョウもここに\nキちまった・・・",
+      "translation": "오늘도 여기\n와 버렸네...",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:11:1",
+      "source": "なるべく\nカネはツカわないようにと\nオモいつつも、",
+      "translation": "되도록\n돈을 안 쓰겠다고\n생각하면서도,",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:11:2",
+      "source": "ケッキョクは イッパイ\nカいモノしちまうのさ・・・",
+      "translation": "결국 잔뜩\n쇼핑하고 말지...",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:12:0",
+      "source": "いやぁ、\nまたコイツとイッショに\nイロイロ カっちゃったよ",
+      "translation": "이야,\n또 이 녀석이랑 함께\n이것저것 사 버렸어",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:12:1",
+      "source": "サイフのナカミは\nカラカラで サムいが、\nハートはホッカホカだぜ!!",
+      "translation": "지갑은 텅 비어\n찬바람이 불지만,\n마음은 따끈따끈하다고!!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:12:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:12:3",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:12:4",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:12:5",
+      "source": "クいナし!!",
+      "translation": "후회는 없다!!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:20:0",
+      "source": "ナンじゃワレ!!\nこのワシに ナれナれしく\nハナしカけおって・・・",
+      "translation": "뭐고, 네놈!!\n감히 나한테 친한 척\n말을 걸다니...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:20:1",
+      "source": "カクゴは\nデキとるんやろなぁ!!\nゴラァァァーーー!!",
+      "translation": "각오는\n되어 있겠제!!\n어이이이이!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:20:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:20:3",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:20:4",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:20:5",
+      "source": "・・・え?\nあれ?",
+      "translation": "...어?\n어라?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:20:6",
+      "source": "ナ、ナニ? その\n「ケンカならカうぜ」\nみたいな、コワいメは・・・",
+      "translation": "뭐, 뭐야? 그\n「싸우자는 거면 받아 주지」\n같은 무서운 눈빛은...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:20:7",
+      "source": "ウソウソ、ゴメンなさい\nワシ、ホントはケンカとか\nスゴくニガテなんです",
+      "translation": "거짓말이에요, 죄송해요\n저, 사실 싸움 같은 건\n정말 못해요",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:20:8",
+      "source": "ちょっと\nチョウシにノってました\nゴメンなさい マジで",
+      "translation": "조금\n우쭐해 있었어요\n정말 죄송해요",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:21:0",
+      "source": "ヒロバの イりグチらヘンにおる\nあのキイロいネエちゃん、\nカワエエとオモわへんか?",
+      "translation": "광장 입구 근처의\n그 노란 아가씨,\n귀엽지 않나?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:21:1",
+      "source": "あの、ちょっとコトバが\nナマってるアタりも、\nワシのハートをストライクや!!",
+      "translation": "살짝 사투리를\n쓰는 말투까지,\n내 마음에 쏙 든대이!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:21:2",
+      "source": "でも、ワシ、こうミえて\nテれヤさんやから、\nようコエかけられへん!!",
+      "translation": "근데 내가 이래 보여도\n수줍음을 타서,\n말을 못 걸겠대이!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:21:3",
+      "source": "キャッ!!\nハ、ハズカチー!!",
+      "translation": "꺅!!\n부, 부끄러워!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:22:0",
+      "source": "あのカワイイ ネエちゃん、\nプラグアウトしてもうた",
+      "translation": "그 귀여운 아가씨,\n플러그아웃해 버렸네",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:22:1",
+      "source": "フ・・・\nセツないで・・・",
+      "translation": "후...\n서글프대이...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:23:0",
+      "source": "さぁて、ヒトもヘってきたし、\nワシも ぼちぼち\nプラグアウトするでぇ",
+      "translation": "자, 사람도 줄었으니,\n나도 슬슬\n플러그아웃하겠대이",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:30:0",
+      "source": "どチクショオオオオ!!\nまたトーナメント\nイッカイセンでマけたーー!!",
+      "translation": "제기라아아알!!\n또 토너먼트\n첫판에 졌다아아!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:30:1",
+      "source": "ナゼだぁぁぁ!!\nヘイジツもヤスむことなく\nトックンしてるのにぃぃーー!!",
+      "translation": "왜냐아아아!!\n평일에도 쉬지 않고\n맹훈련하는데에에!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:30:2",
+      "source": "サイノウないのか\nオレはーーー!!",
+      "translation": "재능이 없는 거냐\n나한테는!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:31:0",
+      "source": "そろそろこのエリアも\nニギやかになってくる\nジカンタイだな",
+      "translation": "슬슬 이 에어리어도\n북적이기 시작할\n시간대네",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:31:1",
+      "source": "ふわぁ~あ・・・\nそれにしても、ニチヨウのアサは\nネムい・・・",
+      "translation": "하아암...\n그나저나 일요일 아침은\n졸려...",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:31:2",
+      "source": "だけどボーッとしていられねぇ!\nキョウはマちにマった\nトーナメントのヒだからな!!",
+      "translation": "그래도 멍하니 있을 순 없지!\n오늘은 기다리고 기다리던\n토너먼트 날이니까!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:32:0",
+      "source": "うおおおおおお!!",
+      "translation": "우오오오오오!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:32:1",
+      "source": "これでオレはナンカイレンゾクで\nトーナメント\nイッカイセン マけしてんだ!?",
+      "translation": "난 도대체 몇 번 연속\n토너먼트\n첫판에 진 거지!?",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:32:2",
+      "source": "え~と、\n1、2、3・・・",
+      "translation": "어디 보자,\n1, 2, 3...",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:32:3",
+      "source": "もうカゾえキれんわーー!!\nナゼに、ナゼに\nオレはこんなにもヨワいのかー!!",
+      "translation": "이젠 셀 수도 없어!!\n왜, 왜\n난 이렇게 약한 거냐아!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:32:4",
+      "source": "やっぱ、サイノウないのか\nオレはーーー!!",
+      "translation": "역시 재능이 없는 거냐\n나한테는!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:40:0",
+      "source": "ミンナが\nクツロぐ ヒロバがあって、\nショップまであるけん、",
+      "translation": "다들\n편히 쉴 광장도 있고,\n숍도 있으니까,",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:40:1",
+      "source": "ここにおったら\nイチニチ ナンも\nタイクツせんですむたい!!",
+      "translation": "여기 있으면\n하루 종일 전혀\n심심하지 않구먼!!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:40:2",
+      "source": "さすがトカイばい!!",
+      "translation": "역시 도시여!!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:41:0",
+      "source": "ワタシ、サイキン\nイナカからこっちへ\nヒっコしてきたばかりばい!",
+      "translation": "나는, 최근에\n시골에서 이쪽으로\n막 이사 왔어유!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:41:1",
+      "source": "センレンされた\nトカイのオンナば\nメザすとよ!!",
+      "translation": "세련된\n도시 여자가\n될 거여!!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:42:0",
+      "source": "イナカはイナカで\nヨかトコロもあるばってん、",
+      "translation": "시골도 시골 나름\n좋은 데가 있긴 한데,",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:42:1",
+      "source": "ワタシんごと ワカかナビには、\nやっぱトカイが\nシゲキのあって ヨかばい!",
+      "translation": "나처럼 젊은 내비한테는,\n역시 도시가\n자극도 있고 좋구먼!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:50:0",
+      "source": "アア、ボクタチ ハ\nプログラム デ アリナガラ、\nアイシアッテシマッタ!!",
+      "translation": "아아, 우리는\n프로그램이면서도,\n서로 사랑하고 말았어!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:50:1",
+      "source": "ホンライ ハ\nユルサレナイ\nコノ コイゴコロ・・・",
+      "translation": "원래는\n허락되지 않는\n이 사랑...",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:50:2",
+      "source": "デモ イイジャン!!\nショウガナイジャン!!\nスキナンダモン!!",
+      "translation": "하지만 괜찮잖아!!\n어쩔 수 없잖아!!\n좋아하는걸!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:51:0",
+      "source": "・・・アレ?\nソウイエバ、プログラムッテ\nレンアイシチャ ダメナノ?",
+      "translation": "...어라?\n그런데, 프로그램은\n연애하면 안 되는 건가?",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:51:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:51:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:51:3",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:51:4",
+      "source": "マア、イイカ",
+      "translation": "뭐, 됐어",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:51:5",
+      "source": "「キンダン ノ コイ」ッテ\nカンジノホウガ、\nナンカ カッコイイシネ!!",
+      "translation": "「금지된 사랑」이라는\n느낌이,\n뭔가 더 멋있잖아!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:60:0",
+      "source": "プログラムダカラ\nレンアイガ\nユルサレナイノナラ、",
+      "translation": "프로그램이라서\n사랑이\n허락되지 않는다면,",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:60:1",
+      "source": "ワタシ、\nアナタ ト イッショニ\nニゲルワ!!",
+      "translation": "나,\n너와 함께\n도망칠래!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:60:2",
+      "source": "エエ、ドコヘダッテ!!\nラララ アナタトナラ~",
+      "translation": "그래, 어디로든!!\n라라라 너와 함께라면~",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:61:0",
+      "source": "ワタシタチ ノ コイ ハ\nキンダン ノ コイ!!",
+      "translation": "우리의 사랑은\n금지된 사랑!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:61:1",
+      "source": "ナンカ\nカッコイイジャナイ?",
+      "translation": "뭔가\n멋지지 않아?",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:70:0",
+      "source": "ワカモノは ミナ、\nネットバトルに\nムチュウじゃの・・・",
+      "translation": "젊은이들은 모두,\n넷 배틀에\n푹 빠져 있구먼...",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:70:1",
+      "source": "ワシもたまに\nチャレンジするんじゃが、\nトシじゃから すぐマけるわい",
+      "translation": "나도 가끔\n도전해 보지만,\n늙어서 금방 져 버리지",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:70:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:70:3",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:70:4",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:70:5",
+      "source": "ムハッ!!\nイック デキたぞい!!",
+      "translation": "허허!!\n시 한 수가 떠올랐네!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:70:6",
+      "source": "「ワカモノと\n バトルやったら\n コシヌけた」",
+      "translation": "「젊은이와\n 배틀을 벌였더니\n 다리가 풀렸네」",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:71:0",
+      "source": "ネットバトルのショシンシャは、\nカナラず このエリアへクる",
+      "translation": "넷 배틀 초보자는,\n반드시 이 에어리어에 오지",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:71:1",
+      "source": "ミナラいネットバトラーになり、\nトーナメントに\nサンカするためじゃ",
+      "translation": "견습 넷 배틀러가 되어,\n토너먼트에\n참가하기 위해서야",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:71:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:71:3",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:71:4",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:71:5",
+      "source": "フムッ!!\nイック デキたぞい!!",
+      "translation": "흠!!\n시 한 수가 떠올랐네!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:71:6",
+      "source": "「ショウリして\n イツかなりたい\n オフィシャルに」",
+      "translation": "「승리해서\n 언젠가 되고 싶네\n 오피셜이」",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:80:0",
+      "source": "マイシュウーーー!!\nゲツヨウビはーーー!!\nゴミのヒーーー!!",
+      "translation": "매주우우!!\n월요일은은은!!\n쓰레기 버리는 날!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:80:1",
+      "source": "とイうワケで\nカレイにサンジョウ!!\nオクサマ ナビ!!",
+      "translation": "그리하여\n화려하게 등장!!\n주부 내비!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:80:2",
+      "source": "さあ、\nゴミをスてるわよ!!\nスてるわよーーー!!",
+      "translation": "자,\n쓰레기를 버리겠어!!\n버릴 거야아아!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:80:3",
+      "source": "ウゥリャアアアアア!!\nポーーーーイ!!",
+      "translation": "으랴아아아!!\n휙이이이!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:90:0",
+      "source": "あら、ごきげんよう",
+      "translation": "어머, 안녕하세요",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:90:1",
+      "source": "イロイロと\nベンリなバショだけあって、\nキュウジツは ニギワいますのね",
+      "translation": "여러모로\n편리한 곳이라 그런지,\n휴일에는 북적이는군요",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:90:2",
+      "source": "ショッピングは\nスきですので\nタイクツしませんわ",
+      "translation": "쇼핑을\n좋아해서\n지루하진 않네요",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:91:0",
+      "source": "ナンだか このエリア、\nアツクルしいヒトたちが\nオオいとオモったら、",
+      "translation": "왠지 이 에어리어는,\n열성적인 사람들이\n많다 했더니,",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:91:1",
+      "source": "トーナメントの\nエントリーとか\nやってましたのね!!",
+      "translation": "토너먼트\n참가 접수 같은 걸\n하고 있었군요!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:91:2",
+      "source": "ネットバトルなんて\nヤバンですわ!!\nはしたないですわー!!",
+      "translation": "넷 배틀이라니\n야만적이에요!!\n품위 없어요!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:110:0",
+      "source": "トーナメントは\n1つじゃない・・・",
+      "translation": "토너먼트는\n1개가 아니야...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:110:1",
+      "source": "ツヨいヤツには、\nそのチカラにミアったブタイが\nヨウイされてるってワケだ・・・",
+      "translation": "강한 녀석에게는,\n그 힘에 걸맞은 무대가\n준비되어 있다는 거지...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:111:0",
+      "source": "イッタイ、\nトーナメントって イクつ\nカイサイされてるんだろう",
+      "translation": "도대체,\n토너먼트는 몇 개나\n열리는 걸까",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    },
+    {
+      "id": "7A32A8:111:1",
+      "source": "サイコウランクのナビたちが\nアツまるトーナメントって、\nメチャメチャ スゴそうだな",
+      "translation": "최상위 내비들이\n모이는 토너먼트라니,\n엄청 대단할 것 같아",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "context": "Plaza shopping, bully/reversal, tournament disappointment, countryside newcomer, program romance, elderly verse, rubbish day, polite shopper and tournament ambition. Exact native per-script portraits and time branch arguments retained.",
+      "variable_context": "No variable substitutions. Timed punctuation kept separate, all source page and line boundaries retained. No time/weekday/portrait patching; actual caller and display review pending."
+    }
+  ]
+}

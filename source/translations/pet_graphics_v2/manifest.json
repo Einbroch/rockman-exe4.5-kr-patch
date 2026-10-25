@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_offset": 6489016,
+  "bytes": 4608,
+  "source_block_sha256": "915d5ef52fa9ca70e1149a196187e60423a1dd30419376fde45c1eef8e193389",
+  "final_block_sha256": "54733bc305e3a197445a9f2c19a79e3309026c435521d59df955133170341676",
+  "candidate_path": "analysis\\pet_labels_v1\\candidate_02_tongsin.png",
+  "candidate_sha256": "729888c9a12ca9f09e9c84eda518f41193ade96c5f8c4283c3a8f45b6f1729ba",
+  "tool_sha256": "386632879689c0a35ecaf86828c6dc1237a14337366dde6919a7efe695ee4426",
+  "mask_rule": "RGBA alpha>=240,r>=90,g>=145,b>=145 within measured interior crop; BOX sample native8px band, threshold112",
+  "protected_policy": "Only x1..63,y1..8 inside seven 64x16 text pairs; roles1(background)/4(letter), every other pixel unchanged",
+  "unchanged_roundtrip": true,
+  "units": [
+    {
+      "id": "pet.obj.tournament",
+      "source": "トーナメント",
+      "translation": "토너먼트",
+      "state": "needs_review",
+      "tiles": [
+        132,
+        140
+      ],
+      "generated_mask_bbox": [
+        436,
+        23,
+        836,
+        108
+      ],
+      "native_text_rect": [
+        16,
+        1,
+        32,
+        8
+      ],
+      "source_pixels_sha256": "efeaa3aca81bec14edf5f8f2f890a5fd416a40dda3b6fdffeb17bfa7a517c80e",
+      "clean_pixels_sha256": "5571fbb686e35f0382d92df20195f3905f8b0fa67aac555dcf62224d365c31dc",
+      "final_pixels_sha256": "cbb39f63ecf57f1994da95fcbe6dd305ea9b521562030b6a6416b3982d993a1c"
+    },
+    {
+      "id": "pet.obj.jack_in",
+      "source": "プラグイン",
+      "translation": "플러그인",
+      "state": "needs_review",
+      "tiles": [
+        164,
+        156
+      ],
+      "generated_mask_bbox": [
+        431,
+        217,
+        834,
+        306
+      ],
+      "native_text_rect": [
+        16,
+        1,
+        32,
+        8
+      ],
+      "source_pixels_sha256": "83b7a531bac94c6a0f06b5a58f4d43575acdffaf13962ba9325c62327e3b95d2",
+      "clean_pixels_sha256": "5571fbb686e35f0382d92df20195f3905f8b0fa67aac555dcf62224d365c31dc",
+      "final_pixels_sha256": "17b3931cfcde7e078342f3b27d9948405e6442b1c3d76a191c3badcb06b42e01"
+    },
+    {
+      "id": "pet.obj.equipment",
+      "source": "そうび",
+      "translation": "장비",
+      "state": "needs_review",
+      "tiles": [
+        176,
+        184
+      ],
+      "generated_mask_bbox": [
+        533,
+        416,
+        737,
+        504
+      ],
+      "native_text_rect": [
+        24,
+        1,
+        16,
+        8
+      ],
+      "source_pixels_sha256": "c1cfe9221bbd7656ff05e67f2a84dbcf46d9266614ce9898ed6f0b5d45c2b13d",
+      "clean_pixels_sha256": "70f4db246a7a4b0a2581ea05dc3ccc91eb4ce4aa6360293182783c9481b01ebe",
+      "final_pixels_sha256": "72764f891d58795e5d80b1dad5c3de126a7e20e86389c8bda26edaa8693b2eb7"
+    },
+    {
+      "id": "pet.obj.library",
+      "source": "データライブラリ",
+      "translation": "데이터 라이브러리",
+      "state": "needs_review",
+      "tiles": [
+        196,
+        204
+      ],
+      "generated_mask_bbox": [
+        243,
+        616,
+        1033,
+        702
+      ],
+      "native_text_rect": [
+        1,
+        1,
+        63,
+        8
+      ],
+      "source_pixels_sha256": "4ed167fa8f37655e34a54a8bc4ec1511fcf020041e1763cbea1523f58bb606cb",
+      "clean_pixels_sha256": "5571fbb686e35f0382d92df20195f3905f8b0fa67aac555dcf62224d365c31dc",
+      "final_pixels_sha256": "7278cac678502e1712bf744f72688d04155c767bd38ca8123c0e49b700d8b99e"
+    },
+    {
+      "id": "pet.obj.mail",
+      "source": "Eメール",
+      "translation": "메일",
+      "state": "needs_review",
+      "tiles": [
+        216,
+        224
+      ],
+      "generated_mask_bbox": [
+        533,
+        814,
+        730,
+        901
+      ],
+      "native_text_rect": [
+        24,
+        1,
+        16,
+        8
+      ],
+      "source_pixels_sha256": "43d1460c74770eb12723e64721a3659ab3e7bc02d8cf5c4cbf804652a32a0eb9",
+      "clean_pixels_sha256": "5571fbb686e35f0382d92df20195f3905f8b0fa67aac555dcf62224d365c31dc",
+      "final_pixels_sha256": "bc186d353a7920796048ed06aecf9f03cb30dc5cf7628ecb421a04602b651492"
+    },
+    {
+      "id": "pet.obj.communication",
+      "source": "つうしん",
+      "translation": "통신",
+      "state": "needs_review",
+      "tiles": [
+        236,
+        244
+      ],
+      "generated_mask_bbox": [
+        532,
+        1011,
+        730,
+        1099
+      ],
+      "native_text_rect": [
+        24,
+        1,
+        16,
+        8
+      ],
+      "source_pixels_sha256": "389b6551d0987b8a49cbfc5266324ba33a5f59f9187f5df55fde2d220e9e86b4",
+      "clean_pixels_sha256": "5571fbb686e35f0382d92df20195f3905f8b0fa67aac555dcf62224d365c31dc",
+      "final_pixels_sha256": "073deefdf7e11b748ddca5f91db931a6fb46a4b8b9288b62092f6550f74e7923"
+    },
+    {
+      "id": "pet.obj.save",
+      "source": "セーブ",
+      "translation": "저장",
+      "state": "needs_review",
+      "tiles": [
+        256,
+        264
+      ],
+      "generated_mask_bbox": [
+        532,
+        1209,
+        742,
+        1297
+      ],
+      "native_text_rect": [
+        24,
+        1,
+        16,
+        8
+      ],
+      "source_pixels_sha256": "fb2897ad779eae6b554a805a5dbd625cc3244c23644c3ff9b1211eb295fa9a16",
+      "clean_pixels_sha256": "5571fbb686e35f0382d92df20195f3905f8b0fa67aac555dcf62224d365c31dc",
+      "final_pixels_sha256": "8e3589b34e8fae15a25521e779f37b1af9723ce06e6f6e2fc0dc2590b9178ec3"
+    }
+  ],
+  "review": "REJECTED: native8px conversion merges/drops Hangul strokes; must not build",
+  "release_eligible": false
+}

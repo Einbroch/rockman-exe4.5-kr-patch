@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "693778",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/693778.tpl",
+    "sha256": "a514bf1e4a1ca0e8ad7f98a9feb2f0584a006801e924a03a501fe1e7afe013d7"
+  },
+  "source_archive_sha256": "6553f7d402e68645319aa546f5a657151e5ab9b969a048ae82ee2b29b8805980",
+  "consumer": "batch500-contextual-navi-alerts",
+  "context": "Junk-themed timid greetings, fear of disposal, return, schedules and tournament encouragement; preserve stutter. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-044",
+  "semantic_review": [
+    "Exactly500 stable catalog literals across67archives, manually source-conditioned Korean drafts; not500 unique sentences. All selected sources, complete native skeletons and adjacent unselected literals inspected.",
+    "Development-draft NON-DISTRIBUTION, needs_review, releasefalse. IDs/source/TPL/payload/controlcommands/numerals/brackets/newlines/leading and trailing padding immutable. No automatic prose generation, selection or shortening.",
+    "Quick alerts without explicit local portrait remain speaker-unestablished. Explicit ProtoMan/MetalMan/AquaMan/WoodMan portraits in reminder scripts21..26 are recorded independently; no invented portrait inheritance or runtime routing.",
+    "Dynamic names, quoted program/appointment values, hours/minutes and reward buffers require inline grammar and consumer geometry review. Source probabilities99.9/98 and native HP/item33/zenny/bugfragment/sentinel4294967295 controls unchanged.",
+    "Aqua reminders retain forty separate voiced literals, including timed short sounds and following newline; thirty30-frame waits are unchanged. Mail timing/sound/flag transitions and minigame outcomes remain distinct.",
+    "Unresolved source placeholders6770B8:0:0,682054:0:0,698A2C:0:0 remain in remaining denominator. Terminology, voice, meaning and actual consumer layout remain review items.",
+    "Codec/font/skeleton/132px heuristic checks do not constitute human semantic or runtime approval. All remaining drafts first, then cumulative insertion/font/consumer readiness and ROM screen/save QA. No ROM/save/emulator writes."
+  ],
+  "units": [
+    {
+      "id": "693778:1:0",
+      "source": "プラグイン!\nジャンクマン.EXE、\nトランスミッション!!",
+      "translation": "플러그인!\n정크맨.EXE,\n트랜스미션!!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Junk-themed timid greetings, fear of disposal, return, schedules and tournament encouragement; preserve stutter. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

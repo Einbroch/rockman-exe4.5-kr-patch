@@ -1,0 +1,19 @@
+{
+ "schema":1,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"661754","source_archive_sha256":"5bafb1c9666c968c595f3f41f48cc5787afced8ea224335658fe97dd6318f33c",
+ "consumer":"normal-dialogue","scope_variant":"clock-suffix-v1",
+ "context":"Retains prior five Roll schedule drafts; adds script11 time suffix after native hour/minute/AMPM. Normal calendar registration of 02:00 AM meal and native L query observed on c1838a5e ROM. Native ごはん preset/event name remains unchanged; no Hangul input or full event population claim.",
+ "evidence":"analysis/ROLL_SCHEDULE_ROM_HANDOFF.md; poc/runtime/roll-calendar-survey-v1-list2/step_005.png; analysis/tpl_baseline/661754.tpl",
+ "decision_evidence":"Primary-agent manually drafted the single new suffix から -> 부터 from actual time/list screen. Previous five wordings retained exactly. Human wording review pending.",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "protected_policy":"All controls and dynamic insertions unchanged; exact suffix boundary and non-growing first line required. Nine unselected slots and six unselected literals protected.",
+ "units":[
+  {"id":"661754:1:0","source":"そういえば、もうすぐ","translation":"그러고 보니 곧","state":"needs_review"},
+  {"id":"661754:3:0","source":"のじかんだね!","translation":"할 시간이네!","state":"needs_review"},
+  {"id":"661754:10:0","source":"今日 とうろくされている\nよていは・・・","translation":"오늘 등록된\n일정은・・・","state":"needs_review"},
+  {"id":"661754:10:1","source":"なにもないよ","translation":"아무것도 없어","state":"needs_review"},
+  {"id":"661754:11:2","source":" から\n","translation":"부터\n","state":"needs_review"},
+  {"id":"661754:12:0","source":"だよ!","translation":"이런 일정이 있어!","state":"needs_review"}
+ ]
+}

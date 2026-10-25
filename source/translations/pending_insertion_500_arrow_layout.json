@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "release_eligible": false,
+  "policy": "Eight individually reviewed line assignments; same ordered characters and two newline boundaries; no prose shortening. 6DE3E0:61:1 wraps between WWW and its opening parenthesis.",
+  "layouts": {
+    "6DE3E0:61:1": "언더인터넷1에 WWW\n(월드 스리)를 자칭하는\n내비가 있다네",
+    "6DE3E0:63:1": "언더인터넷3에 네오\nWWW (월드 스리)를\n자칭하는",
+    "6DF988:34:2": "인터넷3에 뒷세계의\n내비가 바이러스를\n뿌린 모양이다",
+    "6DF988:35:1": "이번 임무는 칩 강도를\n발견하고 체포하는\n것이다",
+    "6DF988:37:1": "이번 임무는 「겟단」의\n변장을 간파하고\n체포하는 것이다",
+    "6DF988:38:6": "인터넷6에 잠복한 것은\n확인했지만 모습이\n확인되지 않는다",
+    "6DF988:42:5": "대사 내비를 삭제하려고\n바이러스를 뿌린\n모양이다",
+    "6DF988:51:4": "바이러스에 감염된\n내비는 폭주해 버리는\n모양이다"
+  }
+}

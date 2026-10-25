@@ -1,0 +1,21 @@
+{
+  "base": "tools\\verify_native_product038_v1.py",
+  "base_sha256": "9db3223a4cd7c8b5e7f28c68e3fa30448c74357a2d0b7dbefcc53abc51a24329",
+  "changes": [
+    [
+      "field_native_rom_product_038_v1",
+      "field_native_rom_product_038_v2"
+    ],
+    [
+      "tools/verify_native_product038_v1.py",
+      "tools/verify_native_product038_v2.py"
+    ],
+    [
+      "tools/specs/primary038_v1_version.json",
+      "tools/specs/primary038_v2_version.json"
+    ]
+  ],
+  "output": "tools\\verify_native_product038_v2.py",
+  "output_sha256": "8b6b91dc553dcca5270936124ff9db92c0e23860432883a02ffa2b71cec818d9",
+  "scope": "Component/primary identity only; full-write/old578/exact500/carry/rebuild checks unchanged."
+}

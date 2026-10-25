@@ -1,0 +1,362 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "692020",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/692020.tpl",
+    "sha256": "eec965adbea9d96744f6cfe6f30dc5ca4f29b7b082540057d11055f69a32a768"
+  },
+  "source_archive_sha256": "f5a9a86b60ae6fe03e82f26b9a769e0a18c234b5f3fb3e4ea62e748845e3eff4",
+  "consumer": "batch500-progress-reminders-training",
+  "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+  "voice": "Source-conditioned manual candidates; only explicit reminder portraits named; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source fields/IDs/TPL/payload, commands, variables, newline/padding and unselected placeholders immutable; no ROM/save writes.",
+  "batch_id": "batch500-005",
+  "semantic_review": [
+    "Batch500-005 exactly500 stable catalog literals: progress226/reminders190/training84. Not500 unique sentences.",
+    "All needs_review/non-distribution; no ROM/save writes, runtime evidence, or wording approval.",
+    "Every literal inspected and progress/reminder canonical command differences compared; both training TPLs read completely. Numeric flags, variables, page waits and source punctuation-only slots retained.",
+    "Only reminder21..26 named by explicit mugshotShow. Quick voices never assigned identity from adjacency/motif.",
+    "License interest/challenge/pass/fun/receipt, incident zones3/5/7/9/10/12, other1Navi (697310 says other side without numeral), key handoff internet9, coffin marker, registration/prelim/weekend0/6/post-weekend34 retained.",
+    "675A20 target victory,67B47C burning,6861B8 determined victory,68C368 reluctance/soul resonance,692020 itching fists,697310 stammer/popularity,69D020 frightened playful 퓨 are separate manual candidates. Terminology/voice not human approved."
+  ],
+  "units": [
+    {
+      "id": "692020:10:0",
+      "source": "インターネットを\nあるきまわってみるか\n・・・・・・",
+      "translation": "인터넷을\n돌아다녀 볼까\n......",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:11:0",
+      "source": "みならいライセンスしけん\nうけてみるか・・・",
+      "translation": "견습 라이선스 시험\n치러 볼까...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:12:0",
+      "source": "みならいライセンスしけん\nぜんりょくで\nクリアするぞ",
+      "translation": "견습 라이선스 시험\n온 힘을 다해\n통과하겠다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:13:1",
+      "source": "」 を\n手にいれに行くぞ・・・",
+      "translation": "」 칩을\n구하러 간다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:14:0",
+      "source": "みならいライセンスを\nうけとりに行くぞ",
+      "translation": "견습 라이선스를\n받으러 간다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:15:0",
+      "source": "みならいライセンスしけん\nごうかくしたな・・・\nすこしきゅうけいするか",
+      "translation": "견습 라이선스 시험\n합격했군...\n조금 쉴까",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:16:0",
+      "source": "インターネット3で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷3에서\n일어나고 있는 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:17:0",
+      "source": "さっきたおしたナビが\nじけんの はんにんだった\nみたいだな・・・",
+      "translation": "방금 쓰러뜨린 내비가\n사건의 범인이었던\n모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:17:1",
+      "source": "つかれただろう・・・\nいちど、プラグアウト\nするか・・・",
+      "translation": "피곤하겠군...\n일단, 플러그아웃\n할까...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:18:0",
+      "source": "インターネット5で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷5에서\n일어나고 있는 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:19:0",
+      "source": "インターネット7で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷7에서\n일어나고 있는 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:20:0",
+      "source": "インターネット9で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷9에서\n일어나고 있는 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:21:0",
+      "source": "インターネット10で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷10에서\n일어나고 있는 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:22:0",
+      "source": "インターネット12で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷12에서\n일어나고 있는 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:23:0",
+      "source": "ブラックワークスから\n「マイナスキー」 を\nとりかえすぞ・・・",
+      "translation": "블랙워크스에게서\n「마이너스 키」를\n되찾겠다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:24:0",
+      "source": "「マイナスキー」 は、\nもう1体のナビが\nもっているようだな・・・",
+      "translation": "「마이너스 키」는,\n다른 내비 1명이\n가진 모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:25:0",
+      "source": "「マイナスキー」 を\nインターネット9にいる",
+      "translation": "「마이너스 키」를\n인터넷9에 있는",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:25:1",
+      "source": "ナビのところに\nもって行こう",
+      "translation": "내비에게\n가져다주자",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:26:0",
+      "source": "オフィシャル\nトーナメントの",
+      "translation": "오피셜\n토너먼트의",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:26:1",
+      "source": "エントリーかいじょうに\nむかうか・・・",
+      "translation": "참가 접수 장소로\n향할까...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:27:0",
+      "source": "ウラインターネットに\n行こうか",
+      "translation": "언더 인터넷으로\n갈까",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:27:1",
+      "source": "もくひょうのナビの\nめじるしは\nカンオケだったな・・・",
+      "translation": "목표 내비를 찾을\n표식은\n관이었지...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:28:0",
+      "source": "オフィシャル\nトーナメントに\nエントリーしに行こうか",
+      "translation": "오피셜\n토너먼트에\n참가 신청하러 갈까",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:29:0",
+      "source": "しゅうまつはオフィシャル\nトーナメントだな\nホンキでいくぞ・・・",
+      "translation": "주말에는 오피셜\n토너먼트군\n진심으로 간다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:30:0",
+      "source": "オフィシャルトーナメント\nコブシがうずく・・・",
+      "translation": "오피셜 토너먼트\n주먹이 근질거리는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:31:0",
+      "source": "インターネットの\nたんさくをつづけよう",
+      "translation": "인터넷 탐색을\n계속하자",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:32:0",
+      "source": "オフィシャル\nトーナメントのよせんを\nうけに行こうか",
+      "translation": "오피셜\n토너먼트의 예선을\n치르러 갈까",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:33:0",
+      "source": "さっき とどいた\nメールを よんでみないか",
+      "translation": "아까 도착한\n메일을 읽어 보지 않겠나",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:34:0",
+      "source": "しゅうがあけたら、\nオフィシャル\nトーナメントに",
+      "translation": "주말이 지나면,\n오피셜\n토너먼트에",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "692020:34:1",
+      "source": "エントリーしに行こう\n・・・",
+      "translation": "참가 신청하러 가자\n...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress10..34 dispatcher: license/chip/incidents/key/official/weekday/mail; every literal and canonical68097C command differences inspected; no portrait.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema":1,
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive":"6368E8",
+  "source_archive_sha256":"816d719a806e861faf90bdf61bb960ff20eb965001871274387fce2542711c74",
+  "scope_variant":"calendar-date-save-draft-v1",
+  "consumer":"normal-dialogue",
+  "context":"Common calendar date-change and save-error flow. Scripts90..94 retain callChangeTimeDate/callSave, flag3629, option navigation/defaults and retry targets. Script76 is missing-message diagnostic with explicit positioned box. Neutral system voice; no character dialogue.",
+  "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "insertion_state":"draft-only; not selected by current product builder",
+  "protected_policy":"All commands and unselected literals unchanged. Credit value0 and literal[z] retained. Date-change penalties, power warning, invalid-data refusal and retries preserved. Questions before options retain two terminal newlines. Proposed normal132px layout only; custom error76 caller/layout pending.",
+  "units":[
+    {"id":"6368E8:76:0","source":"エラー!!\nメッセージがありません","translation":"오류!!\n메시지가 없습니다","state":"needs_review"},
+    {"id":"6368E8:90:0","source":"ナビがプラグイン中のため\nひづけのへんこうは\nできません","translation":"내비가 접속 중이라\n날짜를 바꿀 수\n없습니다","state":"needs_review"},
+    {"id":"6368E8:91:0","source":"ひづけをへんこうするまえに\nセーブを おこないます","translation":"날짜를 바꾸기 전에\n저장합니다","state":"needs_review"},
+    {"id":"6368E8:91:1","source":"クレジットが 0[z]になり\nけいぞく中の イベントを\n中止します","translation":"크레딧이 0[z]이 되고\n진행 중인 이벤트를\n중단합니다","state":"needs_review"},
+    {"id":"6368E8:91:2","source":"よろしいですか?\n\n","translation":"괜찮으신가요?\n\n","state":"needs_review"},
+    {"id":"6368E8:91:3","source":"はい  ","translation":"예  ","state":"needs_review"},
+    {"id":"6368E8:91:4","source":"いいえ","translation":"아니요","state":"needs_review"},
+    {"id":"6368E8:92:0","source":"セーブちゅうです\nでんげんを おとさないで\nください\n","translation":"저장 중입니다\n전원을 끄지 마세요\n","state":"needs_review"},
+    {"id":"6368E8:92:1","source":"セーブに\nしっぱいしました","translation":"저장에\n실패했습니다","state":"needs_review"},
+    {"id":"6368E8:92:2","source":"もういちど セーブをしますか?\n\n","translation":"다시 저장할까요?\n\n","state":"needs_review"},
+    {"id":"6368E8:92:3","source":"はい  ","translation":"예  ","state":"needs_review"},
+    {"id":"6368E8:92:4","source":"いいえ","translation":"아니요","state":"needs_review"},
+    {"id":"6368E8:93:0","source":"セーブが おわりました","translation":"저장이 끝났습니다","state":"needs_review"},
+    {"id":"6368E8:94:0","source":"データが不正に\nかきかえられていて\nセーブすることが できません","translation":"데이터가 부정하게\n변경되어 있어\n저장할 수 없습니다","state":"needs_review"},
+    {"id":"6368E8:94:1","source":"もういちど セーブをしますか?\n\n","translation":"다시 저장할까요?\n\n","state":"needs_review"},
+    {"id":"6368E8:94:2","source":"はい  ","translation":"예  ","state":"needs_review"},
+    {"id":"6368E8:94:3","source":"いいえ","translation":"아니요","state":"needs_review"}
+  ]
+}

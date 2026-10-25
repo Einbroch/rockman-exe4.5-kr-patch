@@ -1,0 +1,1109 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6DD9AC",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6DD9AC.tpl",
+    "sha256": "2a6c92f83d7fe1076688de57f7b162b1f23faedb755bc753d8bd6d127caeda9a"
+  },
+  "source_archive_sha256": "3bbb0862c6ea8622d20547f40d7998a984abdd572b76b36df91dd6c5331bcf06",
+  "consumer": "mail-text",
+  "context": "All120 Japanese literals in32-slot mail archive. Complete local letter bodies and serialized news read together; source quest/control semantics retained, no quest execution.",
+  "voice": "Polite I.P.C./news/customer mail separated from imperative confidential Official bulletins. Existing chip name candidates 탭맨/셰이드맨/스파크맨/비디오맨/버너맨/켄도맨 reused.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep source mail slot IDs, weekday/schedule/time/numbers, source chain order, deliberate unspecified location, possibility rather than certainty, name variables, quest/flag commands and line topology. No ROM/save mutation.",
+  "semantic_review": [
+    "Boss names inherit chip_secondary_names_ko.json candidates, not new human approval. 다크로이드/언더인터넷/넷 배틀러 need full glossary applicability review.",
+    "Source3 unspecified area remains 그 에어리어; no inferred location, identity, new causal relation or certain revival added.",
+    "Script0 morning6/night12 and Monday-Friday preserved; script13 approximate -40 degrees retains minus sign and approximation; times are not converted to different numeric groups.",
+    "Source news narrative moves from unnamed skilled operator to player-name revelation and later named gratitude. Name-dependent particle endings avoided; variable budgets and actual mail layout unverified."
+  ],
+  "units": [
+    {
+      "id": "6DD9AC:0:0",
+      "source": "このたびは PETを\nおかいあげいただき、\nありがとうございます",
+      "translation": "이번에 PET를\n구입해 주셔서,\n감사합니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:1",
+      "source": "お客さまが ナビと\nともに、たのしいまいにちを\nすごされることを、",
+      "translation": "고객님께서 내비와\n함께, 즐거운 나날을\n보내시기를,",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:2",
+      "source": "I.P.C.しゃいん\nいちどう、こころより\nねがっております",
+      "translation": "I.P.C. 임직원\n일동은 진심으로\n기원합니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:3",
+      "source": "さて、本日より お客さまも\nはれて ネットバトラーの\nなかまいりとなります",
+      "translation": "자, 오늘부터 고객님도\n어엿한 넷 배틀러의\n일원이 되십니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:4",
+      "source": "PETは すぐにでも\nインターネットに\nせつぞくできるように",
+      "translation": "PET는 바로\n인터넷에\n접속할 수 있도록",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:5",
+      "source": "せっていされております",
+      "translation": "설정되어 있습니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:6",
+      "source": "インターネットには、\nしゅうまつに 行なわれる",
+      "translation": "인터넷에는,\n주말에 열리는",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:7",
+      "source": "ネットバトルトーナメントの\nエントリーかいじょうが\nせっちされております",
+      "translation": "넷 배틀 토너먼트의\n참가 접수장이\n마련되어 있습니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:8",
+      "source": "エントリーのうけつけは、\n月よう日から金よう日の",
+      "translation": "참가 접수는,\n월요일부터 금요일의",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:9",
+      "source": "あさ6じから\nよる12じまでです",
+      "translation": "아침6시부터\n밤12시까지입니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:10",
+      "source": "エントリーをすれば、\nしゅうまつのトーナメントに\nさんかすることができます",
+      "translation": "참가 신청을 하면,\n주말 토너먼트에\n참가할 수 있습니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:11",
+      "source": "トーナメントは、",
+      "translation": "토너먼트는,",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:12",
+      "source": "シルバートーナメント、\nゴールドトーナメント、\nオフィシャルトーナメント",
+      "translation": "실버 토너먼트,\n골드 토너먼트,\n오피셜 토너먼트",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:13",
+      "source": "と、3つのトーナメントが\nかいさいされます",
+      "translation": "이렇게, 3개 토너먼트가\n개최됩니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:14",
+      "source": "その中でも、さいこうほうの\nオフィシャルトーナメントに\nゆうしょうすることは",
+      "translation": "그중 최고봉인\n오피셜 토너먼트에서\n우승하는 것은",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:15",
+      "source": "すべての ネットバトラーの\nあこがれです",
+      "translation": "모든 넷 배틀러의\n꿈입니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:16",
+      "source": "お客さまも、\nオフィシャルトーナメント\nゆうしょうを めざし、",
+      "translation": "고객님도,\n오피셜 토너먼트\n우승을 목표로,",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:17",
+      "source": "がんばってみては\nいかがでしょうか?",
+      "translation": "힘내 보시는 건\n어떨까요?",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:18",
+      "source": "たのしいことだらけの\nインターネットですが、",
+      "translation": "즐거운 일이 가득한\n인터넷이지만,",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:19",
+      "source": "ちゅういしていただかないと\nいけないこともあります",
+      "translation": "주의하셔야 할\n일도 있습니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:20",
+      "source": "ちかごろ、ダークロイドと\nなのる きょうあくなナビが",
+      "translation": "최근, 다크로이드를\n자칭하는 흉악한 내비가",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:21",
+      "source": "インターネットに あらわれる\nという じょうほうが\nはいっております",
+      "translation": "인터넷에 나타난다는\n정보가\n들어오고 있습니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:0:22",
+      "source": "くれぐれも お気をつけて、\nかいてきな ネットバトラー\nライフを おすごしください",
+      "translation": "부디 주의하시며,\n쾌적한 넷 배틀러\n생활을 즐기시길 바랍니다",
+      "state": "needs_review",
+      "speaker": "I.P.C.-customer-mail",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:1:0",
+      "source": "すべての オフィシャル\nネットバトラーにつぐ",
+      "translation": "모든 오피셜\n넷 배틀러에게 알린다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:1:1",
+      "source": "われわれが かねてから\nついせきしている",
+      "translation": "우리가 오래전부터\n추적 중인",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:1:2",
+      "source": "ダークロイドのこんせきを\nインターネット7で\nはっけんしたが、",
+      "translation": "다크로이드의 흔적을\n인터넷7에서\n발견했으나,",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:1:3",
+      "source": "ダークロイドそのものは\nとうそうしたあとだった",
+      "translation": "다크로이드 자체는\n이미 도주한 뒤였다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:1:4",
+      "source": "おそらく よりふかい\nエリアに いどうしたものと\nおもわれる",
+      "translation": "아마 더 깊은\n에어리어로 이동한 것으로\n보인다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:1:5",
+      "source": "さらに くわしい\nじょうほうが はいりしだい\nれんらくをいれる",
+      "translation": "더 자세한\n정보가 들어오는 대로\n연락하겠다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:1:6",
+      "source": "いじょう",
+      "translation": "이상",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:0",
+      "source": "ぜんかいのメールだが、",
+      "translation": "지난 메일에 관해서다,",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:1",
+      "source": "ダークロイドが サーバーに\nふせいアクセスを\nしかけたのがげんいんで、",
+      "translation": "다크로이드가 서버에\n불법 접속을\n시도한 것이 원인으로,",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:2",
+      "source": "みんかん人のところに\nメールが おくられている\nおそれがある",
+      "translation": "민간인에게\n메일이 전송되었을\n우려가 있다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:3",
+      "source": "くわしくはちょうさ中だが、\nダークロイドのじょうほうが\nいっぱんに もれないように",
+      "translation": "자세한 내용은 조사 중이나,\n다크로이드의 정보가\n외부에 유출되지 않도록",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:4",
+      "source": "ちゅういしていただきたい",
+      "translation": "주의하기 바란다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:5",
+      "source": "さて、ダークロイドの\nじょうほうだが、",
+      "translation": "다음으로, 다크로이드의\n정보에 관해서다,",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:6",
+      "source": "ウラインターネットに\nせんぷくしている\nかのうせいが たかいとの",
+      "translation": "언더인터넷에\n잠복하고 있을\n가능성이 높다는",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:7",
+      "source": "じょうほうが はいった",
+      "translation": "정보가 들어왔다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:8",
+      "source": "われら オフィシャルの\nかんかつエリアをくぐりぬけ\nウラにはいったもようだ",
+      "translation": "우리 오피셜의\n관할 에어리어를 빠져나가\n언더에 들어간 듯하다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:9",
+      "source": "しかし、ウラはヤツら\nヤミの じゅうにんの\nホームグラウンドだ",
+      "translation": "하지만, 언더는 녀석들\n어둠의 주민들의\n본거지다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:10",
+      "source": "うかつに 手をだせば、\nおもわぬ しっぺがえしを\nくうかのうせいがある",
+      "translation": "섣불리 손을 대면,\n뜻밖의 반격을\n당할 수 있다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:11",
+      "source": "しんちょうに そうさを\nすすめられたし",
+      "translation": "신중하게 수사를\n진행하기 바란다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:2:12",
+      "source": "いじょう",
+      "translation": "이상",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:0",
+      "source": "ダークロイドの1体、\nシェードマンが",
+      "translation": "다크로이드 1체인,\n셰이드맨이",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:1",
+      "source": "せんじつ 行なわれた\nオフィシャルトーナメントの\nゆうしょうしゃの 手で",
+      "translation": "얼마 전 열린\n오피셜 토너먼트의\n우승자의 손에",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:2",
+      "source": "デリートされたという\nじょうほうが はいった",
+      "translation": "삭제되었다는\n정보가 들어왔다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:3",
+      "source": "しかし、ヤツらは ヤミの\nチカラで ふたたび\nよみがえるかもしれない",
+      "translation": "하지만, 녀석들은 어둠의\n힘으로 다시\n되살아날지도 모른다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:4",
+      "source": "ひきつづき\nけいかいしてくれ",
+      "translation": "계속해서\n경계해 주기 바란다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:5",
+      "source": "また、もう1体の\nダークロイドが、",
+      "translation": "또한, 또 다른 1체의\n다크로이드가,",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:6",
+      "source": "れいのエリアに\nせんぷくしている\nかのうせいが でてきた",
+      "translation": "그 에어리어에\n잠복하고 있을\n가능성이 드러났다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:7",
+      "source": "あのエリアの おくには\nヤミのチカラを ひきつける\nなにかが いるようだ",
+      "translation": "그 에어리어 안쪽에는\n어둠의 힘을 끌어당기는\n무언가가 있는 듯하다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:8",
+      "source": "しかし、あのエリアに\nふみこむのは\nオフィシャルといえど、",
+      "translation": "하지만, 그 에어리어에\n들어가는 것은\n오피셜이라 해도,",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:9",
+      "source": "イノチを すてに\n行くようなものだ",
+      "translation": "목숨을 버리러\n가는 것과 같다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:10",
+      "source": "ちょうかんの しれいが\nおりるまで ぜんいんたいき",
+      "translation": "장관의 지령이\n내려올 때까지 전원 대기",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:3:11",
+      "source": "いじょう",
+      "translation": "이상",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:8:0",
+      "source": "メールニュース1ごう\n「タップマンにごちゅうい」",
+      "translation": "메일 뉴스1호\n「탭맨을 조심하세요」",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:8:1",
+      "source": "げんざい\nインターネット3において",
+      "translation": "현재\n인터넷3에서",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:8:2",
+      "source": "タップマンというナビが\nぼうそう中とのじょうほうが\n入っております",
+      "translation": "탭맨이라는 내비가\n폭주 중이라는 정보가\n들어오고 있습니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:8:3",
+      "source": "もしかしたら\nダークロイドのしわざである\nかのうせいも あります",
+      "translation": "어쩌면\n다크로이드의 소행일\n가능성도 있습니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:8:4",
+      "source": "ひとけのない\nエリアのはしっこなどを\nあるくときは",
+      "translation": "인적이 없는\n에어리어 구석 등을\n지나실 때는",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:8:5",
+      "source": "くれぐれも\nごちゅういください!",
+      "translation": "각별히\n주의해 주세요!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:8:6",
+      "source": "このメールは、ぜんこくの\nみならいネットバトラーに\nおくっております",
+      "translation": "이 메일은, 전국의\n견습 넷 배틀러에게\n보내 드리고 있습니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:9:0",
+      "source": "メールニュース2ごう\n「ダークロイドあんやく!」",
+      "translation": "메일 뉴스2호\n「다크로이드의 암약!」",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:9:1",
+      "source": "前回おつたえした\nぼうそうタップマンですが",
+      "translation": "지난번 전해 드린\n폭주 탭맨은",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:9:2",
+      "source": "どうやら どこかの\nスゴウデオペレーターが\nたおしてくれたもようです!",
+      "translation": "아무래도 어느\n뛰어난 오퍼레이터가\n쓰러뜨려 준 모양입니다!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:9:3",
+      "source": "オフィシャルの\nちょうさによりますと\nタップマンは",
+      "translation": "오피셜의\n조사에 따르면\n탭맨은",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:9:4",
+      "source": "ダークロイドによる\nハッキングをうけていた\nもよう・・・",
+      "translation": "다크로이드에게\n해킹을 당한\n모양입니다...",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:9:5",
+      "source": "そして今げんざいも\nダークロイドのしわざで\nぼうそうしているナビが",
+      "translation": "그리고 지금도\n다크로이드의 소행으로\n폭주 중인 내비가",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:9:6",
+      "source": "インターネット5に\nしゅつぼつ中との\nじょうほうが 入っています",
+      "translation": "인터넷5에\n출몰 중이라는\n정보가 들어왔습니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:9:7",
+      "source": "まちがっても\nネットバトルをいどんだり\nすることのないように!",
+      "translation": "절대로\n넷 배틀에 도전하는\n일이 없도록 해 주세요!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:10:0",
+      "source": "メールニュース3ごう\n「なぞのオペレーター!」",
+      "translation": "메일 뉴스3호\n「수수께끼의 오퍼레이터!」",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:10:1",
+      "source": "なんと 今回も\nぼうそうしていた\nスパークマンを・・・",
+      "translation": "놀랍게도 이번에도\n폭주하던\n스파크맨을...",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:10:2",
+      "source": "なぞのオペレーターが\nたおしてくれたとの\nじょうほうが入りました!",
+      "translation": "수수께끼의 오퍼레이터가\n쓰러뜨려 주었다는\n정보가 들어왔습니다!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:10:3",
+      "source": "オフィシャルもこの\nオペレーターがダレなのか\nちょうさ中です",
+      "translation": "오피셜도 이\n오퍼레이터가 누구인지\n조사 중입니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:10:4",
+      "source": "しかし こんどは\nインターネット7にて",
+      "translation": "하지만 이번에는\n인터넷7에서",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:10:5",
+      "source": "ナビが ちゃいろいテープに\nまきつけられるジケンが\nはっせいしています",
+      "translation": "내비가 갈색 테이프에\n휘감기는 사건이\n발생하고 있습니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:10:6",
+      "source": "ひきつづき\nけいかいを おこたることの\nないようにしましょう!",
+      "translation": "앞으로도\n경계를 늦추지\n않도록 합시다!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:0",
+      "source": "メールニュース4ごう\n「オペレーターはっかく!」",
+      "translation": "메일 뉴스4호\n「오퍼레이터의 정체 공개!」",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:1",
+      "source": "インターネット7で\nぼうそうしていた\nビデオマンを",
+      "translation": "인터넷7에서\n폭주하던\n비디오맨을",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:2",
+      "source": "またしても、\nれいのオペレーターが\nたおしてくれました!",
+      "translation": "또다시,\n그 오퍼레이터가\n쓰러뜨려 주었습니다!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:3",
+      "source": "われわれの ちょうさの\nけっか、",
+      "translation": "우리의 조사\n결과,",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:4",
+      "source": "なぞのオペレーターの\nしょうたいが あきらかに\nなりました!!",
+      "translation": "수수께끼의 오퍼레이터의\n정체가\n밝혀졌습니다!!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:5",
+      "source": "そのオペレーターのなは\n",
+      "translation": "그 오퍼레이터의 이름은\n",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:6",
+      "source": "さん!",
+      "translation": "님!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:7",
+      "source": "ありがとう、\n",
+      "translation": "감사합니다,\n",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:8",
+      "source": "さん!",
+      "translation": "님!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:9",
+      "source": "わだいは かわりますが、\nインターネット9にて、",
+      "translation": "화제를 바꿔서,\n인터넷9에서,",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:10",
+      "source": "炎を ふきだすナビが\nしゅつぼつしては、\nあばれているとの",
+      "translation": "불길을 뿜는 내비가\n출몰하며,\n날뛰고 있다는",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:11",
+      "source": "じょうほうが はいりました",
+      "translation": "정보가 들어왔습니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:12",
+      "source": "今回も、ダークロイドの\nハッキングによる",
+      "translation": "이번에도, 다크로이드의\n해킹으로 인한",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:13",
+      "source": "ぼうそうじけんと\nみられます!!",
+      "translation": "폭주 사건으로\n보입니다!!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:11:14",
+      "source": "くれぐれも、\n気をつけてください!",
+      "translation": "부디,\n조심해 주세요!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:0",
+      "source": "メールニュース5ごう\n「つじぎりじけんはっせい」",
+      "translation": "메일 뉴스5호\n「무차별 칼부림 사건 발생」",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:1",
+      "source": "またしても、\n",
+      "translation": "또다시,\n",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:2",
+      "source": "さんが",
+      "translation": "님께서",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:3",
+      "source": "インターネット9で\nぼうそうしていた",
+      "translation": "인터넷9에서\n폭주하던",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:4",
+      "source": "バーナーマンを\nたおしてくれたとの\nじょうほうが はいりました",
+      "translation": "버너맨을\n쓰러뜨려 주었다는\n정보가 들어왔습니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:5",
+      "source": "1つのじけんが\nかいけつしたばかりですが",
+      "translation": "1개 사건이\n막 해결되었지만",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:6",
+      "source": "インターネット10で\nみんかんナビが",
+      "translation": "인터넷10에서\n민간 내비가",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:7",
+      "source": "つじぎりに あうという\nじけんが おこっております",
+      "translation": "무차별 칼부림을 당하는\n사건이 벌어지고 있습니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:8",
+      "source": "ダークロイドの おこす\nナビぼうそうじけんは\nあとを たちません!",
+      "translation": "다크로이드가 일으키는\n내비 폭주 사건이\n끊이지 않고 있습니다!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:12:9",
+      "source": "けいかいを おこたらない\nようにしてください!",
+      "translation": "경계를 늦추지\n않도록 해 주세요!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:13:0",
+      "source": "メールニュース6ごう\n「ひょうてんかの世界」",
+      "translation": "메일 뉴스6호\n「영하의 세계」",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:13:1",
+      "source": "インターネット10で\nつじぎりじけんを\nおこしていた",
+      "translation": "인터넷10에서\n무차별 칼부림 사건을\n일으키던",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:13:2",
+      "source": "ケンドーマンは\n",
+      "translation": "켄도맨은\n",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:13:3",
+      "source": "さんの\n手により たおされました",
+      "translation": "님에 의해\n쓰러졌습니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:13:4",
+      "source": "しかし、こんどは\nインターネット12で",
+      "translation": "하지만, 이번에는\n인터넷12에서",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:13:5",
+      "source": "とつぜん ひょうてんかの\nれいきが ナビをおそう\nじけんが おこりました!",
+      "translation": "갑자기 영하의\n냉기가 내비를 덮치는\n사건이 일어났습니다!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:13:6",
+      "source": "その れいきは\nおよそ-40ど!!",
+      "translation": "그 냉기는\n약 -40도!!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:13:7",
+      "source": "なみのナビには\nたえられない おんどです",
+      "translation": "보통 내비로서는\n견딜 수 없는 온도입니다",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:13:8",
+      "source": "インターネット12を\nあるくときは、\nごちゅういを!",
+      "translation": "인터넷12를\n지나실 때는,\n주의해 주세요!",
+      "state": "needs_review",
+      "speaker": "mail-news-editor",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:14:0",
+      "source": "さま",
+      "translation": "님",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:14:1",
+      "source": "こちらは、オフィシャル\nセンターです",
+      "translation": "여기는, 오피셜\n센터입니다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:14:2",
+      "source": "あなたは、かずかずの\nじけんを かいけつ\nされました",
+      "translation": "귀하는, 수많은\n사건을\n해결하셨습니다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:14:3",
+      "source": "オフィシャルいちどう\nたいへんかんしゃ\nしております",
+      "translation": "오피셜 일동은\n매우 감사하게\n생각하고 있습니다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:14:4",
+      "source": "このたび、あなたは、\nオフィシャルトーナメントの\nよせんをうけるにふさわしい",
+      "translation": "이번에, 귀하께서는,\n오피셜 토너먼트의\n예선에 도전하기에 충분한",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:14:5",
+      "source": "じつりょくがあると、\nはんだんされました",
+      "translation": "실력을 갖추신 것으로,\n판단되었습니다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:14:6",
+      "source": "オフィシャルトーナメントの\nよせんは、",
+      "translation": "오피셜 토너먼트의\n예선 접수는,",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:14:7",
+      "source": "インターネット9で\nうけつけております",
+      "translation": "인터넷9에서\n진행하고 있습니다",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    },
+    {
+      "id": "6DD9AC:14:8",
+      "source": "いちど ちょうせん\nしてみてはいかがでしょうか",
+      "translation": "한번 도전해\n보시는 건 어떨까요?",
+      "state": "needs_review",
+      "speaker": "Official-bulletin",
+      "context": "PET customer guidance0; confidential Official notices1..3; ordered incident news8..13 with source quest flags; Official qualification invitation14",
+      "variable_context": "printPlayerName unchanged; 님/님께서/님에 의해 avoid final-consonant-dependent particles. Source deliberately unnamed area/revival uncertainty retained. Full native mail consumer/layout review pending"
+    }
+  ]
+}

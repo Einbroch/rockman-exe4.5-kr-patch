@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BBE54",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BBE54.tpl",
+    "sha256": "c3b4c5278d73d291275d385c6139c0952d545f8d9454b6e47cbd3365fa4dc505"
+  },
+  "source_archive_sha256": "c914876729bae537d1bd17568e25267f14ca4dfae28ab8411b0ac276d7e094a8",
+  "consumer": "normal-dialogue-choice-homepage-background",
+  "context": "All Japanese literals from4 archives;54 total. Complete local offers, results, BG and timed venue branches read.",
+  "voice": "Boastful Navi, polite enthusiastic programs, rhythmic GoldProg, distinct cheering crowd; candidate voices not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Retain battle188/global27=666/flags1806/7701; BG types0/1/2, grid spacePx12/46, disableB=true, sound150; venue flag1906/time9/13/16/20 and animations/name boundaries.",
+  "semantic_review": [
+    "ガ/カ source boast is moth/mosquito, not butterfly/bee. Literal comic animal contrast retained as 나방/모기; high-impact wordplay remains human-review candidate.",
+    "BG options Rockman/Sakura/cyberspace map0/1/2 via callSetHomepageBG; not previously drafted callSetHomepageFloor. Sakura drafted 벚꽃 as theme-label candidate, not a person name; actual motif/label presentation review pending.",
+    "Source says background color but then chooses named types; preserve both without inventing a palette. HP is homepage from context and native BG command.",
+    "Deodorizing and water-gun programs boast independently; source does not name appliances. Cold program has only cold line, so no invented refrigerator identity.",
+    "Blood-vessel/nosebleed spectator exaggerations are source imagery, not battle damage or health instructions; excited sounds require human voice review.",
+    "No normal-play battles/BG changes/clock/name redisplay/save/grid or screen verification claimed."
+  ],
+  "units": [
+    {
+      "id": "7BBE54:0:0",
+      "source": "ピシューーッ!!",
+      "translation": "피슈우~!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BBE54:0:1",
+      "source": "ワタシノ ウォーターガンハ\nハリノアナデモ ウチヌクホド\nセイカクデス!!",
+      "translation": "제 물총은\n바늘구멍도 맞힐 만큼\n정확합니다!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BBE54:0:2",
+      "source": "ドンナモノデモ ネライウチデス!",
+      "translation": "무엇이든 정확히 겨냥합니다!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    }
+  ]
+}

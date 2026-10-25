@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6CC808",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6CC808.tpl",
+    "sha256": "7dc2350a595a4ae758e076b39110cf4d850bf79e9bc4945e9f1abd70eb23af76"
+  },
+  "source_archive_sha256": "5b8c5c26b9c47eca7636e3132172253b2da016b9949a6be4a116cf265376e676",
+  "consumer": "batch500-contextual-followup-hint-result-alert",
+  "context": "All literals and complete skeleton read. PlantMan explicitly self-named in greeting1:1;quick no portrait. Life-as-flower imagery.",
+  "voice": "Source-conditioned manual draft;no quick speaker inferred from archive adjacency or imagery;wording unapproved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-014",
+  "semantic_review": [
+    "Exactly500 stable literals:followup403/hint8/battle3/greeting6/return6/training16/plugin3/mail14/tournament15/schedule6/reminder20. No choice literals.",
+    "Every source literal and complete control skeleton read;compact whitespace-only view retains every command/argument. Full actual schedule/plugin/return TPLs inspected;manual per-ID prose,no replacement rules.",
+    "Error-report0 in both followups and training provisional0 stay original in remaining denominator. Other provisional6D2700:0:0 inspected and not included.",
+    "ElecMan portrait only6C7A34:21..26. PlantMan self-name only6CC808 script1 not evidence for all neighbouring scripts. Plugin target is not operator identity.",
+    "Electrical voltage vs current and tingling romance/battle imagery retained;30man/100man/60/50/40 digits preserve source. Source battery3/4 rendered Korean3호/4호,button distinct;needs terminology review.",
+    "Plant food/nectar/life fertilizer and flower metaphors;fire vulnerability not automatically curable vs human subject difficulty;mail refusal remains narrative wording,not implemented filter evidence.",
+    "Shepherds purseペンペングサ rendered냉이,caroteneカロチン rendered카로틴;new terminology/unverified spellings await human review. Sourceつくしい training omission treated美しい from preceding contrast,recorded unapproved.",
+    "Tournament cherry petals/rebloom/winning flower preserved;no-entry cancel separate. Remindercharging correction/cram-school teacher thunder idiom and quick/portrait branches preserved.",
+    "All school/family/food/hobby/dream/enemy/TV/subject/opponent/chip print variants,wait/flags/formatting untouched. Training HP33 amount1 vs zenny/bug4294967295 buffer3 count order preserved.",
+    "NON-DISTRIBUTION/needs_review;no ROM/save/emulator/image writes;static checks do not approve wording/layout or prove runtime."
+  ],
+  "units": [
+    {
+      "id": "6CC808:1:0",
+      "source": "ハナは うつくしい・・・",
+      "translation": "꽃은 아름답다...",
+      "state": "needs_review",
+      "speaker": "PlantMan-self-named",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. PlantMan explicitly self-named in greeting1:1;quick no portrait. Life-as-flower imagery.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CC808:1:1",
+      "source": "キミもまた、このワタシ、\nプラントマンと ともに",
+      "translation": "자네도, 이 나,\n플랜트맨과 함께",
+      "state": "needs_review",
+      "speaker": "PlantMan-self-named",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. PlantMan explicitly self-named in greeting1:1;quick no portrait. Life-as-flower imagery.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CC808:1:2",
+      "source": "たいりんの ハナを\nさかせようではないか",
+      "translation": "커다란 꽃을\n피워 보지 않겠나",
+      "state": "needs_review",
+      "speaker": "PlantMan-self-named",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. PlantMan explicitly self-named in greeting1:1;quick no portrait. Life-as-flower imagery.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CC808:1:3",
+      "source": "うつくしい 人生と\nいうなの ハナを!",
+      "translation": "아름다운 삶이라는\n이름의 꽃을!",
+      "state": "needs_review",
+      "speaker": "PlantMan-self-named",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. PlantMan explicitly self-named in greeting1:1;quick no portrait. Life-as-flower imagery.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CC808:2:0",
+      "source": "やはり キミの\n人生に いろどりをそえる\nうつくしきハナは",
+      "translation": "역시 자네의\n삶에 색을 더해 줄\n아름다운 꽃은",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. PlantMan explicitly self-named in greeting1:1;quick no portrait. Life-as-flower imagery.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CC808:2:1",
+      "source": "このワタシしか\nいないようだね・・・",
+      "translation": "나밖에\n없는 것 같군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. PlantMan explicitly self-named in greeting1:1;quick no portrait. Life-as-flower imagery.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    }
+  ]
+}

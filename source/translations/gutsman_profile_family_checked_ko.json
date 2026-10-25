@@ -1,0 +1,684 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "667044",
+  "source_archive_sha256": "31d22d2a3ac136443c4f37d2dd2f821f512499caf39ce01517ff65993d9f5f8e",
+  "consumer": "normal-dialogue",
+  "context": "GutsMan native sibling questions1/3/5/7, absence reactions2/4/6/8, Yes/No labels and name prompts. Source siblings distinguished; older brother/sister Korean dual kinship terms avoid assuming player gender. Retain nickname, flags, select default0/No jump, BSeparate=false observed B->No (third target=continue is not B route), input init and all controls. Exact prior81 carried; new29 manually drafted. Guarded renderer/branch diagnostics are not normal sibling selection or Hangul input/persistence evidence.",
+  "voice": "Existing GutsMan 거스 ending and 거츠맨 name retained. Primary-agent manual draft. Nickname-invariant comma replaces Japanese topic/genitive suffix; subsequent question explicitly expresses the same relationship, without Korean final-consonant-dependent particles.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Source baseline, all controls/arguments, line/page counts, native nickname data, response selection and input initialization unchanged. No claims for translated keyboard, typed Hangul or persistence.",
+  "units": [
+    {
+      "id": "667044:27:0",
+      "source": "、\nインターネットや\nネットバトルとは",
+      "translation": "、\n인터넷이나\n넷배틀과는",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:27:1",
+      "source": "あんまりかんけいないと\nおもうでガスが、",
+      "translation": "별로 상관없다고\n생각하거스만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:27:2",
+      "source": "の\nとくいかもくは\nなんでガスか?",
+      "translation": "、\n잘하는 과목은\n뭐거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:29:0",
+      "source": "、\nインターネットや\nネットバトルとは",
+      "translation": "、\n인터넷이나\n넷배틀과는",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:29:1",
+      "source": "あんまりかんけいないと\nおもうでガスが、",
+      "translation": "별로 상관없다고\n생각하거스만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:29:2",
+      "source": "の\nニガテかもくは\nなんでガスか?",
+      "translation": "、\n어려운 과목은\n뭐거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:32:0",
+      "source": "は\nようちえんで、",
+      "translation": "、\n유치원에서,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:32:1",
+      "source": "チップのはなしを\nしたりするでガスか?",
+      "translation": "칩 이야기를\n하기도 하거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:32:2",
+      "source": "・・・あ!!",
+      "translation": "・・・아!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:32:3",
+      "source": "の\nかよってる ようちえんの\nなまえを",
+      "translation": "、\n다니는 유치원\n이름을",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:32:4",
+      "source": "しらなかったでガス!!",
+      "translation": "몰랐거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:32:5",
+      "source": "おしえてほしいでガス!",
+      "translation": "알려주면 좋겠거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:33:0",
+      "source": "は\n学校で、",
+      "translation": "、\n학교에서,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:33:1",
+      "source": "チップのはなしを\nしたりするでガスか?",
+      "translation": "칩 이야기를\n하기도 하거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:33:2",
+      "source": "・・・あ!!",
+      "translation": "・・・아!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:33:3",
+      "source": "の\nかよってる 学校の\nなまえを",
+      "translation": "、\n다니는 학교\n이름을",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:33:4",
+      "source": "しらなかったでガス!!",
+      "translation": "몰랐거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:33:5",
+      "source": "おしえてほしいでガス!",
+      "translation": "알려주면 좋겠거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:34:0",
+      "source": "は\n会社で、",
+      "translation": "、\n회사에서,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:34:1",
+      "source": "チップのはなしを\nしたりするでガスか?",
+      "translation": "칩 이야기를\n하기도 하거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:34:2",
+      "source": "・・・あ!!",
+      "translation": "・・・아!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:34:3",
+      "source": "の\nかよってる 会社の\nなまえを",
+      "translation": "、\n다니는 회사\n이름을",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:34:4",
+      "source": "しらなかったでガス!!",
+      "translation": "몰랐거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:34:5",
+      "source": "おしえてほしいでガス!",
+      "translation": "알려주면 좋겠거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:80:0",
+      "source": "いい なまえでガス!",
+      "translation": "좋은 이름이거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:81:0",
+      "source": "ステキな なまえでガス!",
+      "translation": "멋진 이름이거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:82:0",
+      "source": "キレイな ひびきの\nなまえでガス!!",
+      "translation": "어감이 예쁜\n이름이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:83:0",
+      "source": "かわいい なまえでガス",
+      "translation": "귀여운 이름이거스",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:84:0",
+      "source": "おぼえやすくて\nいいなまえでガス!",
+      "translation": "기억하기 쉽고\n좋은 이름이거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:85:0",
+      "source": "ガッツマンも\nだいすきでガス!",
+      "translation": "거츠맨도\n정말 좋아하거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:86:0",
+      "source": "いいしゅみでガス!\nガッツマンも、\nすきでガス",
+      "translation": "좋은 취미거스!\n거츠맨도,\n좋아하거스",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:87:0",
+      "source": "すんばらしい ゆめでガス\nガッツマンも、おうえん\nするでガス!!",
+      "translation": "아주 멋진 꿈이거스\n거츠맨도 응원\n하겠거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:89:0",
+      "source": "シブい なまえでガス\n・・・",
+      "translation": "중후한 이름이거스\n・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:90:0",
+      "source": "フツウの なまえでガスね\nもっと、おそろしい\nなまえだとおもったでガス",
+      "translation": "평범한 이름이거스\n더 무서운\n이름일 줄 알았거스",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:91:0",
+      "source": "その ばんぐみ、\nガッツマンも\nしってるでガス!!",
+      "translation": "그 프로그램,\n거츠맨도\n알고 있거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:91:1",
+      "source": "・・・たぶん",
+      "translation": "・・・아마도",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:92:0",
+      "source": "それが とくいだなんて、\nすごいでガス!!",
+      "translation": "그걸 잘하다니,\n대단하거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:93:0",
+      "source": "・・・そ、そうだったんで\nガスか!?\nおどろきでガッツ!!",
+      "translation": "・・・그, 그랬던\n거스!?\n놀랐거츠!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:94:0",
+      "source": "それ、ガッツマンも\nほしいでガス!!",
+      "translation": "그거, 거츠맨도\n갖고 싶거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:95:0",
+      "source": "ガッチリ おぼえたでガス\nガッツガッツ!",
+      "translation": "똑똑히 기억했거스\n거츠거츠!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:9:0",
+      "source": "ガッツガッツ!\nいちどバトルしたあいては\nともだちでガス!!",
+      "translation": "거츠거츠!\n한번 싸운 상대는\n친구거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:9:1",
+      "source": "の\nともだちを おしえて\nほしいでガス!!",
+      "translation": "、\n친구를 알려주면\n좋겠거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:9:2",
+      "source": "ガッツマンも なかよく\nなりたいでガス!!",
+      "translation": "거츠맨도 친하게\n지내고 싶거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:11:0",
+      "source": "ガッツガッツ!\nインターネットから\nかえってきたら、",
+      "translation": "거츠거츠!\n인터넷에서\n돌아오면,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:11:1",
+      "source": "むしょうに ハラが\nへるでガス!!",
+      "translation": "엄청나게 배가\n고프거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:11:2",
+      "source": "こんなときは、\n電脳おにぎりに\nかぎるでガス!!",
+      "translation": "이럴 때는,\n전뇌 주먹밥이\n최고거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:11:3",
+      "source": "ところで、\n",
+      "translation": "그런데、\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:11:4",
+      "source": "の\n大すきな たべものって",
+      "translation": "、\n가장 좋아하는 음식은",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:11:5",
+      "source": "なんでガス?",
+      "translation": "뭐거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:13:0",
+      "source": "チップあつめは\nたのしいでガスが、",
+      "translation": "칩 모으기는\n재밌거스만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:13:1",
+      "source": "ガッツマンのしゅみでは\nないでガス!!",
+      "translation": "거츠맨의 취미는\n아니거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:13:2",
+      "source": "の\nしゅみは なんでガス?",
+      "translation": "、\n취미는 뭐거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:15:0",
+      "source": "バトルをするたびに、",
+      "translation": "배틀할 때마다,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:15:1",
+      "source": "の\nせいちょうを\nかんじるでガス・・・",
+      "translation": "、\n성장하는 게\n느껴지거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:15:2",
+      "source": "ところで、",
+      "translation": "그런데,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:15:3",
+      "source": "の\nしょうらいの ユメって\nなんでガス?",
+      "translation": "、\n장래의 꿈은\n뭐거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:17:0",
+      "source": "ガッツマンが\nメールを チェックする\nってコトは、",
+      "translation": "거츠맨이\n메일을 확인한다는\n건,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:17:1",
+      "source": "ガッツマンにかくしごとは\nできないってコトでガス!",
+      "translation": "거츠맨한테\n비밀은 못 숨기거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:17:2",
+      "source": "と、いうワケで、\nここだけのハナシでガスが\n・・・・・・",
+      "translation": "그러니까,\n우리끼리 하는 말인데\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:17:3",
+      "source": "の\nすきなオンナの子の\nなまえを・・・",
+      "translation": "、\n좋아하는 여자아이\n이름을・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:17:4",
+      "source": "おしえてほしいでガス!",
+      "translation": "알려주면 좋겠거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:17:5",
+      "source": "ガッツマンは、\nロー・・・ダメでガス!\nはずかしいでガス!!",
+      "translation": "거츠맨은,\n로・・・안 되거스!\n부끄럽거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:19:0",
+      "source": "ガッツマンが\nメールを チェックする\nってコトは、",
+      "translation": "거츠맨이\n메일을 확인한다는\n건,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:19:1",
+      "source": "ガッツマンにかくしごとは\nできないってコトでガス!",
+      "translation": "거츠맨한테\n비밀은 못 숨기거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:19:2",
+      "source": "と、いうワケで、\nここだけのハナシでガスが\n・・・・・・",
+      "translation": "그러니까,\n우리끼리 하는 말인데\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:19:3",
+      "source": "の\nすきなオトコの子の\nなまえを・・・",
+      "translation": "、\n좋아하는 남자아이\n이름을・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:19:4",
+      "source": "おしえてほしいでガス!",
+      "translation": "알려주면 좋겠거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:19:5",
+      "source": "ガッツマンは、\nロー・・・ダメでガス!\nはずかしいでガス!!",
+      "translation": "거츠맨은,\n로・・・안 되거스!\n부끄럽거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:21:0",
+      "source": "バトルチップを\nかんがえた人は、",
+      "translation": "배틀칩을\n생각해 낸 사람은,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:21:1",
+      "source": "すごいでガス!\nそんけいするでガス!",
+      "translation": "대단하거스!\n존경하거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:21:2",
+      "source": "あ、そうでガス・・・",
+      "translation": "아, 그렇거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:21:3",
+      "source": "の\nそんけいする人は\nダレなんでガス?",
+      "translation": "、\n존경하는 사람은\n누구거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:23:0",
+      "source": "ガッツマンが\nメールを チェックする\nってコトは、",
+      "translation": "거츠맨이\n메일을 확인한다는\n건,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:23:1",
+      "source": "ガッツマンにかくしごとは\nできないってコトでガス!",
+      "translation": "거츠맨한테\n비밀은 못 숨기거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:23:2",
+      "source": "と、いうワケで、\nここだけのハナシでガスが\n・・・・・・",
+      "translation": "그러니까,\n우리끼리 하는 말인데\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:23:3",
+      "source": "の\nニガテな人を おしえて\nほしいでガス",
+      "translation": "、\n꺼리는 사람을\n알려주면 좋겠거스",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:25:0",
+      "source": "ガッツガッツ!\nバトルが おわったから\nTVでも見たいでガス!",
+      "translation": "거츠거츠!\n배틀도 끝났으니\nTV나 보고 싶거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:25:1",
+      "source": "ガッツマン、バトルの\nつぎにTVが\n大すきでガス!",
+      "translation": "거츠맨은 배틀\n다음으로 TV를\n정말 좋아하거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:25:2",
+      "source": "が\nすきなTVばんぐみを\nおしえてほしいでガス!",
+      "translation": "、\n좋아하는 TV 프로를\n알려주면 좋겠거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:88:0",
+      "source": "いいなまえでガス・・・\n",
+      "translation": "좋은 이름이거스・・・\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:88:1",
+      "source": "が\nほれるのも わかるでガス",
+      "translation": "、\n반한 것도 알겠거스",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:1:0",
+      "source": "ガッツガッツ!",
+      "translation": "거츠거츠!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:1:1",
+      "source": "ともだちどうしでやる\nインターネットも\nたのしいでガスが、",
+      "translation": "친구끼리 하는\n인터넷도\n재미있거스만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:1:2",
+      "source": "かぞくでやっても\nたのしいでガス!!",
+      "translation": "가족끼리 해도\n재미있거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:1:3",
+      "source": "は、\nおにいちゃん、\nいるでガスか?",
+      "translation": "、\n형이나 오빠가\n있거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:1:4",
+      "source": "いるよ  ",
+      "translation": "있어  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:1:5",
+      "source": "いないよ",
+      "translation": "없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:1:6",
+      "source": "ふーんでガス・・・\nなんて なまえでガス?",
+      "translation": "그렇거스・・・\n이름이 뭐거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:2:0",
+      "source": "なるほど、そうでガスか\n・・・・・・",
+      "translation": "아하, 그렇거스\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:3:0",
+      "source": "ともだちどうしでやる\nインターネットも\nたのしいでガスが、",
+      "translation": "친구끼리 하는\n인터넷도\n재미있거스만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:3:1",
+      "source": "かぞくでやっても\nたのしいでガス!!",
+      "translation": "가족끼리 해도\n재미있거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:3:2",
+      "source": "は\nおとうと、いるでガスか?",
+      "translation": "、\n남동생이 있거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:3:3",
+      "source": "いるよ  ",
+      "translation": "있어  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:3:4",
+      "source": "いないよ",
+      "translation": "없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:3:5",
+      "source": "ふーんでガス・・・\nなんて なまえでガス?",
+      "translation": "그렇거스・・・\n이름이 뭐거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:4:0",
+      "source": "なるほど、そうでガスか\n・・・・・・",
+      "translation": "아하, 그렇거스\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:5:0",
+      "source": "ともだちどうしでやる\nインターネットも\nたのしいでガスが、",
+      "translation": "친구끼리 하는\n인터넷도\n재미있거스만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:5:1",
+      "source": "かぞくでやっても\nたのしいでガス!!",
+      "translation": "가족끼리 해도\n재미있거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:5:2",
+      "source": "、\nおねえちゃん、\nいるでガスか?",
+      "translation": "、\n누나나 언니가\n있거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:5:3",
+      "source": "いるよ  ",
+      "translation": "있어  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:5:4",
+      "source": "いないよ",
+      "translation": "없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:5:5",
+      "source": "ふーんでガス・・・\nなんて なまえでガス?",
+      "translation": "그렇거스・・・\n이름이 뭐거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:6:0",
+      "source": "なるほど、そうでガスか\n・・・・・・",
+      "translation": "아하, 그렇거스\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:7:0",
+      "source": "ともだちどうしでやる\nインターネットも\nたのしいでガスが、",
+      "translation": "친구끼리 하는\n인터넷도\n재미있거스만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:7:1",
+      "source": "かぞくでやっても\nたのしいでガス!!",
+      "translation": "가족끼리 해도\n재미있거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:7:2",
+      "source": "って、\nいもうと、いるでガス?",
+      "translation": "、\n여동생이 있거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:7:3",
+      "source": "いるよ  ",
+      "translation": "있어  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:7:4",
+      "source": "いないよ",
+      "translation": "없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:7:5",
+      "source": "ふーんでガス・・・\nなんて なまえでガス?",
+      "translation": "그렇거스・・・\n이름이 뭐거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "667044:8:0",
+      "source": "なるほど、そうでガスか\n・・・・・・",
+      "translation": "아하, 그렇거스\n・・・・・・",
+      "state": "needs_review"
+    }
+  ],
+  "scope_variant": "gutsman-profile-family-v1",
+  "parent_asset": {
+    "path": "translations/gutsman_profile_questions_ko.json",
+    "sha256": "18d06a397c5708015b30ddb820a5a4b207d8fca369ddedd1ec3d284f0a6a68bb",
+    "carry_units": 81
+  }
+}

@@ -1,0 +1,2196 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6DA21C",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6DA21C.tpl",
+    "sha256": "39179b397c6bf925a300105542d125be246c9c088cd2db0d7bdd4d06ec1b9775"
+  },
+  "source_archive_sha256": "f3738ed1d0e58bca466ee06b15d8018547cce27dc4ff2fb5f863942bb94ab679",
+  "consumer": "normal-dialogue",
+  "context": "Native checkNaviAll source0 explicitly routes17 remaining speaker save flows. All 271 current unselected Japanese literals in this archive; existing69 selected literals/labels unchanged.",
+  "voice": "Individual source-register drafts; AquaMan 퓨 candidate inherited from aquaman_seasonal_ko.json, IceMan gentle polite register. No new voice approval inferred.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; no ROM builder selection",
+  "protected_policy": "Source IDs/controls/select defaults/retry/overwrite/power-off warning/invalid-data refusal retained. All source newline counts and trailing rows retained. No prose substitutions, save writes or ROM build.",
+  "semantic_review": [
+    "Wording and source voice need independent/human review before release. SearchMan completion exclamation 完了 translated as 완료!; original also has save-completed sentence.",
+    "JunkMan all-katakana robotic source needs presentation decision; Korean prose meaning drafted without claiming equivalent robotic typography.",
+    "Date/corruption/overwrite warnings remain distinct; drafting does not authorize save operations."
+  ],
+  "units": [
+    {
+      "id": "6DA21C:30:0",
+      "source": "ここまでのかつやくを\nセーブしておくか?\n",
+      "translation": "지금까지의 활약을\n저장해 두겠나?\n",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:30:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:30:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:31:0",
+      "source": "すでにあるセーブデータに\nうわがきするぞ・・・\n",
+      "translation": "기존 저장 데이터를\n덮어쓰겠네...\n",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:31:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:31:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:32:0",
+      "source": "セーブ中だ・・・\nでんげんをきらぬようにな",
+      "translation": "저장 중이네...\n전원을 끄지 말게",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:32:1",
+      "source": "セーブに\nしっぱいしたようだ・・・",
+      "translation": "저장에\n실패한 것 같군...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:32:2",
+      "source": "もういちど やってみるぞ\n",
+      "translation": "다시 해 보겠네\n",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:32:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:32:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:33:0",
+      "source": "セーブがおわったぞ・・・",
+      "translation": "저장이 끝났네...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:34:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないな",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없네",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:34:1",
+      "source": "もういちど やってみるぞ\n",
+      "translation": "다시 해 보겠네\n",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:34:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:34:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Native save flow 30..34; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:35:0",
+      "source": "ここまでのごかつやくを\nセーブしましょうか?\n",
+      "translation": "지금까지의 활약을\n저장할까요?\n",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:35:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:35:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:36:0",
+      "source": "すでにあるセーブデータに\nうわがきしますが、\nよろしいでしょうか?",
+      "translation": "기존 저장 데이터를\n덮어씁니다만,\n괜찮으시겠습니까?",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:36:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:36:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:37:0",
+      "source": "セーブ中です・・・\nでんげんをきらないで\nください・・・",
+      "translation": "저장 중입니다...\n전원을 끄지\n마십시오...",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:37:1",
+      "source": "セーブに\nしっぱいしました",
+      "translation": "저장에\n실패했습니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:37:2",
+      "source": "もういちど\nやってみますか?\n",
+      "translation": "다시 한번\n시도할까요?\n",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:37:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:37:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:38:0",
+      "source": "・・・・・・\nコンプリート!\nセーブがおわりました",
+      "translation": "......\n완료!\n저장이 끝났습니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:39:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできません",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없습니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:39:1",
+      "source": "もういちど\nやってみますか?\n",
+      "translation": "다시 한번\n시도할까요?\n",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:39:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:39:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Native save flow 35..39; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:40:0",
+      "source": "ここまでのかつやくを\nセーブしておくか?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:40:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:40:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:41:0",
+      "source": "すでにあるセーブデータに\nうわがきしちまうぜ?\n",
+      "translation": "기존 저장 데이터를\n덮어써 버릴 건데?\n",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:41:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:41:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:42:0",
+      "source": "セーブ中だ\nでんげんを きるなよ",
+      "translation": "저장 중이다\n전원 끄지 마라",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:42:1",
+      "source": "セーブに\nしっぱいしたぜ・・・",
+      "translation": "저장에\n실패했군...",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:42:2",
+      "source": "もういちど\nやってみるか?\n",
+      "translation": "다시 한번\n해 볼까?\n",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:42:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:42:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:43:0",
+      "source": "セーブがおわったぜ",
+      "translation": "저장이 끝났다",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:44:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないぜ",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없군",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:44:1",
+      "source": "もういちど\nやってみるか?\n",
+      "translation": "다시 한번\n해 볼까?\n",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:44:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:44:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Native save flow 40..44; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:45:0",
+      "source": "ここまでのかつやくを\nセーブするのか・・・\n",
+      "translation": "지금까지의 활약을\n저장하려는 건가...\n",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:45:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:45:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:46:0",
+      "source": "すでにあるセーブデータに\nうわがきするが いいな?\n",
+      "translation": "기존 저장 데이터를\n덮어쓰겠다. 좋겠지?\n",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:46:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:46:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:47:0",
+      "source": "セーブ中だ・・・\nでんげんをきっては\nいかんぞ・・・",
+      "translation": "저장 중이다...\n전원을 끄면\n안 된다...",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:47:1",
+      "source": "セーブに\nしっぱいしたようだ・・・",
+      "translation": "저장에\n실패한 듯하군...",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:47:2",
+      "source": "もういちど\nやってみるか?\n",
+      "translation": "다시 한번\n해 볼까?\n",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:47:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:47:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:48:0",
+      "source": "・・・・・・\nセーブがおわったぞ",
+      "translation": "......\n저장이 끝났다",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:49:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできんな・・・",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없군...",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:49:1",
+      "source": "もういちど\nやってみるか?\n",
+      "translation": "다시 한번\n해 볼까?\n",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:49:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:49:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Native save flow 45..49; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:50:0",
+      "source": "ここまでのごかつやくを\nセーブされますか?\n",
+      "translation": "지금까지의 활약을\n저장하시겠습니까?\n",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:50:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:50:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:51:0",
+      "source": "すでにあるセーブデータに\nうわがきしますが、\nよろしいでしょうか?",
+      "translation": "기존 저장 데이터를\n덮어씁니다만,\n괜찮으시겠습니까?",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:51:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:51:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:52:0",
+      "source": "セーブ中です・・・\nでんげんをきらないで\nください・・・",
+      "translation": "저장 중입니다...\n전원을 끄지\n마십시오...",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:52:1",
+      "source": "セーブに\nしっぱいしました",
+      "translation": "저장에\n실패했습니다",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:52:2",
+      "source": "もういちど\nやってみますか?\n",
+      "translation": "다시 한번\n시도할까요?\n",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:52:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:52:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:53:0",
+      "source": "セーブ、\nかんりょういたしました",
+      "translation": "저장을\n완료했습니다",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:54:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできません",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없습니다",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:54:1",
+      "source": "もういちど\nやってみますか?\n",
+      "translation": "다시 한번\n시도할까요?\n",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:54:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:54:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Native save flow 50..54; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:60:0",
+      "source": "ここまでのかつやくを\nセーブしておこうか?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:60:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:60:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:61:0",
+      "source": "すでにあるセーブデータに\nうわがきするぞ・・・\n",
+      "translation": "기존 저장 데이터를\n덮어쓰겠다...\n",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:61:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:61:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:62:0",
+      "source": "セーブ中だ・・・\nでんげんをきるなよ",
+      "translation": "저장 중이다...\n전원을 끄지 마라",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:62:1",
+      "source": "セーブに\nしっぱいしたようだ・・・",
+      "translation": "저장에\n실패한 듯하군...",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:62:2",
+      "source": "もういちど やってみるぞ\n",
+      "translation": "다시 해 보겠다\n",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:62:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:62:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:63:0",
+      "source": "セーブがおわったぞ・・・",
+      "translation": "저장이 끝났다...",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:64:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないぞ",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없다",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:64:1",
+      "source": "もういちど やってみる\n",
+      "translation": "다시 해 보겠다\n",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:64:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:64:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Native save flow 60..64; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:65:0",
+      "source": "ココマデノ カツヤクヲ\nセーブ シテオクカ?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:65:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:65:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:66:0",
+      "source": "イマアル セーブデータニ\nウワガキスルケド、\nイイノカ?",
+      "translation": "기존 저장 데이터를\n덮어쓸 건데,\n괜찮은가?",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:66:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:66:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:67:0",
+      "source": "セーブチュウダ・・・\nデンゲンヲ キルナ",
+      "translation": "저장 중이다...\n전원을 끄지 마라",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:67:1",
+      "source": "セーブニ\nシッパイシタゾ・・・",
+      "translation": "저장에\n실패했다...",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:67:2",
+      "source": "モウイチド\nヤッテミルカ?\n",
+      "translation": "다시 한번\n해 볼까?\n",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:67:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:67:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:68:0",
+      "source": "・・・ヨロコベ、\nセーブガ オワッタゾ",
+      "translation": "...기뻐해라,\n저장이 끝났다",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:69:0",
+      "source": "データガ フセイニ\nカキカエラレテイテ\nセーブ デキナイゾ",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없다",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:69:1",
+      "source": "モウイチド\nヤッテミルカ?\n",
+      "translation": "다시 한번\n해 볼까?\n",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:69:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:69:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Native save flow 65..69; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:70:0",
+      "source": "ここまでのかつやくを\nセーブするっぴゅ?\n",
+      "translation": "지금까지의 활약을\n저장할까, 퓨?\n",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:70:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:70:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:71:0",
+      "source": "すでにあるセーブデータに\nうわがきするっぴゅ!\nかまわないっぴゅ?",
+      "translation": "기존 저장 데이터를\n덮어쓸 거야, 퓨!\n괜찮아, 퓨?",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:71:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:71:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:72:0",
+      "source": "セーブ中っぴゅ!\nでんげんをきったら\nいけないっぴゅ!",
+      "translation": "저장 중이야, 퓨!\n전원을 끄면\n안 돼, 퓨!",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:72:1",
+      "source": "セーブに\nしっぱいしたっぴゅ",
+      "translation": "저장에\n실패했어, 퓨",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:72:2",
+      "source": "もういちど\nやってみるっぴゅ?\n",
+      "translation": "다시 한번\n해 볼까, 퓨?\n",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:72:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:72:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:73:0",
+      "source": "セーブがおわったっぴゅ!",
+      "translation": "저장이 끝났어, 퓨!",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:74:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないっぴゅ",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없어, 퓨",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:74:1",
+      "source": "もういちど\nやってみるっぴゅ?\n",
+      "translation": "다시 한번\n해 볼까, 퓨?\n",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:74:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:74:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Native save flow 70..74; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:75:0",
+      "source": "ここまでのかつやくを\nセーブしておくか?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:75:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:75:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:76:0",
+      "source": "すでにあるセーブデータに\nうわがきするぞ・・・\n",
+      "translation": "기존 저장 데이터를\n덮어쓰겠다...\n",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:76:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:76:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:77:0",
+      "source": "セーブ中だ・・・\nでんげんをきるな・・・",
+      "translation": "저장 중이다...\n전원을 끄지 마라...",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:77:1",
+      "source": "セーブに\nしっぱいしたようだ・・・",
+      "translation": "저장에\n실패한 듯하군...",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:77:2",
+      "source": "もういちど やってみるぞ\n",
+      "translation": "다시 해 보겠다\n",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:77:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:77:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:78:0",
+      "source": "セーブがおわったぞ・・・",
+      "translation": "저장이 끝났다...",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:79:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないぞ",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없다",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:79:1",
+      "source": "もういちど やってみる\n",
+      "translation": "다시 해 보겠다\n",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:79:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:79:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Native save flow 75..79; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:80:0",
+      "source": "ここまでのかつやくを\nセーブしておこうか?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:80:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:80:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:81:0",
+      "source": "すでにあるセーブデータに\nうわがきしちゃうよ?\n",
+      "translation": "기존 저장 데이터를\n덮어써 버릴 거야?\n",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:81:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:81:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:82:0",
+      "source": "今、セーブしてるから、\nでんげんを きらないでね",
+      "translation": "지금 저장 중이니까,\n전원을 끄지 마",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:82:1",
+      "source": "セーブに\nしっぱいしたみたい・・・",
+      "translation": "저장에\n실패한 것 같아...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:82:2",
+      "source": "もういちど やってみるよ\n",
+      "translation": "다시 해 볼게\n",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:82:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:82:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:83:0",
+      "source": "セーブおわったよ!",
+      "translation": "저장 끝났어!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:84:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないよ",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없어",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:84:1",
+      "source": "もういちど やってみるよ\n",
+      "translation": "다시 해 볼게\n",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:84:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:84:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Native save flow 80..84; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:85:0",
+      "source": "ここまでのかつやくを\nセーブしておくか?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:85:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:85:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:86:0",
+      "source": "すでにあるセーブデータに\nうわがきするぞ・・・\n",
+      "translation": "기존 저장 데이터를\n덮어쓰겠다...\n",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:86:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:86:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:87:0",
+      "source": "セーブ中だ・・・\nでんげんをきるな・・・",
+      "translation": "저장 중이다...\n전원을 끄지 마라...",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:87:1",
+      "source": "セーブに\nしっぱいしたようだ・・・",
+      "translation": "저장에\n실패한 듯하군...",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:87:2",
+      "source": "もういちど やってみるか\n",
+      "translation": "다시 해 볼까\n",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:87:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:87:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:88:0",
+      "source": "セーブがおわったぞ・・・",
+      "translation": "저장이 끝났다...",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:89:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできぬ・・・",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없군...",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:89:1",
+      "source": "もういちど やってみるか\n",
+      "translation": "다시 해 볼까\n",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:89:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:89:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Native save flow 85..89; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:90:0",
+      "source": "ここまでのかつやくを\nセーブされますか?\n",
+      "translation": "지금까지의 활약을\n저장하시겠습니까?\n",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:90:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:90:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:91:0",
+      "source": "すでにあるセーブデータに\nうわがきしてしまいますぞ\nよろしいですかな?",
+      "translation": "기존 저장 데이터를\n덮어쓰게 됩니다만\n괜찮으시겠습니까?",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:91:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:91:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:92:0",
+      "source": "今、セーブ中です\nでんげんを きっては\nいけませんぞ",
+      "translation": "지금 저장 중입니다\n전원을 끄면\n안 됩니다",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:92:1",
+      "source": "ムムッ! セーブに\nしっぱいしたようです",
+      "translation": "음! 저장에\n실패한 것 같습니다",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:92:2",
+      "source": "もういちど\nやってみますか?\n",
+      "translation": "다시 한번\n시도할까요?\n",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:92:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:92:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:93:0",
+      "source": "セーブがおわりましたぞ!",
+      "translation": "저장이 끝났습니다!",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:94:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできませんぞ",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없습니다",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:94:1",
+      "source": "もういちど\nやってみますか?\n",
+      "translation": "다시 한번\n시도할까요?\n",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:94:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:94:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Native save flow 90..94; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:95:0",
+      "source": "ここまでのかつやくを\nセーブしておくか!?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까!?\n",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:95:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:95:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:96:0",
+      "source": "すでにあるセーブデータに\nうわがきしちまうぜ!?\n",
+      "translation": "기존 저장 데이터를\n덮어써 버릴 건데!?\n",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:96:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:96:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:97:0",
+      "source": "セーブ中だ ぜったいに\nでんげんを きるなよ!",
+      "translation": "저장 중이야. 절대로\n전원 끄지 마!",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:97:1",
+      "source": "セーブに\nしっぱいしたぜ・・・",
+      "translation": "저장에\n실패했군...",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:97:2",
+      "source": "もういちど\nやってみるか!?\n",
+      "translation": "다시 한번\n해 볼까!?\n",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:97:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:97:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:98:0",
+      "source": "セーブがおわったぜ!",
+      "translation": "저장이 끝났다!",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:99:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないな",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없군",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:99:1",
+      "source": "もういちど\nやってみるか!?\n",
+      "translation": "다시 한번\n해 볼까!?\n",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:99:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:99:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Native save flow 95..99; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:100:0",
+      "source": "ここまでのかつやくを\nセーブするです?\n",
+      "translation": "지금까지의 활약을\n저장할까요?\n",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:100:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:100:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:101:0",
+      "source": "すでにあるセーブデータに\nうわがきするですけど、\nいいです?",
+      "translation": "기존 저장 데이터를\n덮어쓸 건데요,\n괜찮아요?",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:101:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:101:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:102:0",
+      "source": "今、セーブ中です!\nでんげんを きったら\nダメです!",
+      "translation": "지금 저장 중이에요!\n전원을 끄면\n안 돼요!",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:102:1",
+      "source": "セーブに\nしっぱいしたです・・・",
+      "translation": "저장에\n실패했어요...",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:102:2",
+      "source": "もういちど\nやってみるです!\n",
+      "translation": "다시 한번\n해 볼게요!\n",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:102:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:102:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:103:0",
+      "source": "セーブおわったです!",
+      "translation": "저장 끝났어요!",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:104:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないです",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없어요",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:104:1",
+      "source": "もういちど\nやってみるです!\n",
+      "translation": "다시 한번\n해 볼게요!\n",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:104:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:104:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Native save flow 100..104; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:105:0",
+      "source": "ここまでのかつやくを\nセーブしておくか?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:105:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:105:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:106:0",
+      "source": "すでにあるセーブデータに\nうわがきするぞ・・・\n",
+      "translation": "기존 저장 데이터를\n덮어쓰겠다...\n",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:106:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:106:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:107:0",
+      "source": "セーブ中だ・・・\nでんげんをきるな・・・",
+      "translation": "저장 중이다...\n전원을 끄지 마라...",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:107:1",
+      "source": "セーブに\nしっぱいしたようだ・・・",
+      "translation": "저장에\n실패한 듯하군...",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:107:2",
+      "source": "もういちど やってみるか\n",
+      "translation": "다시 해 볼까\n",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:107:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:107:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:108:0",
+      "source": "セーブがおわったぞ・・・",
+      "translation": "저장이 끝났다...",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:109:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできない",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없다",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:109:1",
+      "source": "もういちど やってみるか\n",
+      "translation": "다시 해 볼까\n",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:109:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:109:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Native save flow 105..109; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:110:0",
+      "source": "ここまでのかつやくを\nセーブしておくかい?\n",
+      "translation": "지금까지의 활약을\n저장해 둘까?\n",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:110:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:110:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:111:0",
+      "source": "すでにあるセーブデータに\nうわがきしてしまうよ?\n",
+      "translation": "기존 저장 데이터를\n덮어써 버릴 텐데?\n",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:111:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:111:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:112:0",
+      "source": "今、セーブしてるから、\nでんげんを きっては\nいけないよ",
+      "translation": "지금 저장 중이니까,\n전원을 끄면\n안 돼",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:112:1",
+      "source": "セーブに\nしっぱいしたようだ・・・",
+      "translation": "저장에\n실패한 것 같군...",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:112:2",
+      "source": "もういちど やってみるよ\n",
+      "translation": "다시 해 볼게\n",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:112:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:112:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:113:0",
+      "source": "セーブがおわったよ",
+      "translation": "저장이 끝났어",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:114:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできないようだ",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없는 것 같아",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:114:1",
+      "source": "もういちど やってみるよ\n",
+      "translation": "다시 해 볼게\n",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:114:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:114:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Native save flow 110..114; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:115:0",
+      "source": "・・・フン、\nセーブするのか・・・\n",
+      "translation": "...흥,\n저장하려는 건가...\n",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:115:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:115:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:116:0",
+      "source": "すでにあるセーブデータに\nうわがきするぞ・・・\n",
+      "translation": "기존 저장 데이터를\n덮어쓰겠다...\n",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:116:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:116:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:117:0",
+      "source": "セーブ中だ・・・\nでんげんをきるな・・・",
+      "translation": "저장 중이다...\n전원을 끄지 마라...",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:117:1",
+      "source": "セーブしっぱいだ・・・\nもういちど やるか・・・\n",
+      "translation": "저장 실패다...\n다시 하겠나...\n",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:117:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:117:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:118:0",
+      "source": "セーブがおわったぞ・・・",
+      "translation": "저장이 끝났다...",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:119:0",
+      "source": "データが不正に\nかきかえられていて\nセーブできん",
+      "translation": "데이터가 부정하게\n변경되어 있어서\n저장할 수 없다",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:119:1",
+      "source": "もういちどやるか・・・\n",
+      "translation": "다시 하겠나...\n",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:119:2",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    },
+    {
+      "id": "6DA21C:119:3",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Native save flow 115..119; row roles and commands in source TPL"
+    }
+  ]
+}

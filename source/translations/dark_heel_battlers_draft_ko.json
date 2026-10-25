@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BFC50",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BFC50.tpl",
+    "sha256": "d8d2d52a21b0304840298aa14fa78ce96265d4d80ae7da3f7cdfd7557dd5849b"
+  },
+  "source_archive_sha256": "905a05e706a2a7beaa703b8c164289f584b022991d0c29e648b4b838aaba9f06",
+  "consumer": "normal-dialogue-observation-choice-battle",
+  "context": "All21 Japanese literals from2 archives. Silence/observation and both offers/refusals/results read.",
+  "voice": "Unresponsive Navi silence, neutral hidden observations and rough dark HeelNaviBlack. Candidates not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Retain mugshotAnimation0 and hidden observation boundaries; battle197/198/global27=675/676, result globals25/26 and flags1806/7701; option widths9/8 and trailing two spaces.",
+  "semantic_review": [
+    "7BF8C0 visible silence is not spoken translated narration. Hidden no-response and long-ago-expired observations retain uncertainty ようだ; source explicitly differs from disabled program7BCEBC.",
+    "Both7BFC50 portraits are HeelNaviBlack, but separate battles197/198 with result scripts2/3 and6/7. Dark power rhetoric not a new player ability, reward or changed battle mechanic.",
+    "ヤミのチカラ drafted 어둠의 힘; no invented named technique or dark chip. Threats and defeat boast are speaker rhetoric, not actual player damage/save deletion.",
+    "Static preservation only; no normal-play encounter/battle/results/menu/save/screen verification. Wording and presentation remain review candidates."
+  ],
+  "units": [
+    {
+      "id": "7BFC50:0:0",
+      "source": "ここまでキたってコトは、\nそうとう ツヨいんだろ・・・",
+      "translation": "여기까지 왔다는 건,\n꽤 강하다는 거겠지...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:0:1",
+      "source": "オレと タタカわないか?",
+      "translation": "나와 싸워 보겠나?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:0:2",
+      "source": "こい!  ",
+      "translation": "덤벼!  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:0:3",
+      "source": "いやだ",
+      "translation": "싫어",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:0:4",
+      "source": "オソれを なしたか・・・",
+      "translation": "겁을 먹었나...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:1:0",
+      "source": "バトルオペレーション、セット!\nイン!!",
+      "translation": "배틀 오퍼레이션, 세트!\n인!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:2:0",
+      "source": "チィッ!\nヨソウイジョウのツヨさだ・・・",
+      "translation": "쳇!\n생각보다 강하군...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:3:0",
+      "source": "そのテイドか・・・",
+      "translation": "고작 그 정도인가...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:4:0",
+      "source": "オレのヤミのチカラ・・・\nタメしてみるか・・・?",
+      "translation": "내 어둠의 힘...\n시험해 보겠나...?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:4:1",
+      "source": "あぁ  ",
+      "translation": "그래  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:4:2",
+      "source": "いやだ",
+      "translation": "싫어",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:4:3",
+      "source": "ヤミのチカラは オソろしいよな\nへっへっへ!!",
+      "translation": "어둠의 힘은 무섭지?\n헤헤헤!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:5:0",
+      "source": "コォォォォ・・・",
+      "translation": "코오오오오...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:5:1",
+      "source": "ヤミのチカラよ・・・\nイマこそ メザめよ!!",
+      "translation": "어둠의 힘이여...\n지금이야말로 깨어나라!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:5:2",
+      "source": "バトルオペレーション、セット!\nイン!!!",
+      "translation": "배틀 오퍼레이션, 세트!\n인!!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:6:0",
+      "source": "オレの ヤミのチカラが\nツウヨウしないとは・・・",
+      "translation": "내 어둠의 힘이\n통하지 않다니...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:6:1",
+      "source": "ナ、ナゼだ・・・!?",
+      "translation": "어, 어째서...!?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BFC50:7:0",
+      "source": "ハッハァ!!\nヤミのチカラ、オモいシったか!",
+      "translation": "하하아!!\n어둠의 힘을 뼈저리게 느꼈나!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "files": [
+    {
+      "base": "tools/build_development_patch_027.py",
+      "base_sha256": "f6f785fa139298af9d2edbe8155edf7d74a693eed1c234f861d6eb427ad63545",
+      "output": "tools/build_development_patch_028.py",
+      "edits": [
+        {
+          "before": "Version027 of the primary path; frozen024/025/026 remain before027.",
+          "after": "Version028 of the primary path; frozen024/025/026/027 precede028."
+        },
+        {
+          "before": "    inputs027,summary027=load_inputs027(source)",
+          "after": "    inputs027,summary027=load_inputs027(source)\n    from layout500_inputs_028 import load_inputs as load_inputs028\n    from layout500_product_028 import compose_primary as compose_primary028,append_prior027,append_new_raw as append_new_raw028,finalize as finalize028\n    inputs028,summary028=load_inputs028(source)"
+        },
+        {
+          "before": "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)",
+          "after": "    for entry028,_ in inputs028:\n        asset028=read_json(ROOT/entry028['merged_asset']['path'])\n        needed.update(ch for u in asset028['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)"
+        },
+        {
+          "before": "        payload,record=compose_primary026(archive,payload,record,inputs026,work/'plugins')",
+          "after": "        payload,record=compose_primary026(archive,payload,record,inputs026,work/'plugins')\n        payload,record=compose_primary028(archive,payload,record,inputs028,work/'plugins')"
+        },
+        {
+          "before": "    append_new_raw027(source,archive_blob,products,records,selected,inputs027,work/'plugins')",
+          "after": "    append_prior027(source,archive_blob,products,records,selected,inputs027,inputs028,work/'plugins')\n    append_new_raw028(source,archive_blob,products,records,selected,inputs028,work/'plugins')"
+        },
+        {
+          "before": "    finalize027(source,target,result,inputs027,summary027,inputs024,summary024,inputs025,summary025,inputs026,summary026)",
+          "after": "    finalize028(source,target,result,inputs028,summary028,inputs024,summary024,inputs025,summary025,inputs026,summary026,inputs027,summary027)"
+        }
+      ]
+    }
+  ]
+}

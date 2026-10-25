@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "671F24",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/671F24.tpl",
+    "sha256": "f4d485bd5cb2b12454bac228aab636576a48ee46ed89003e829b709cdee9a779"
+  },
+  "source_archive_sha256": "7c96ae8c598448e43fb8ce1333dbe019152b3f0b4d139793ba3a3857e8a3856b",
+  "consumer": "batch500-contextual-profile-mail-tournament-plugin",
+  "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+  "voice": "Source-conditioned manual draft; no portrait or human approval inferred.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-009",
+  "semantic_review": [
+    "Batch500-009 exactly500 stable literals: profile459/mail29/tournament11/plugin1;72 choices and428 prose, not500 unique sentences.",
+    "Manually authored per source ID. Canonical profile complete skeleton and all variant command differences inspected, all profile literals read, all4 small TPLs fully read. No source-string prose replacement or ROM/save writes.",
+    "No mugshot in any selected script; wind/heat/mission motifs, neighboring archive or earlier NumberMan screenshot cannot establish speaker.65AF54 names target Rockman.EXE, not speaker.",
+    "Profile17 global22 value1 jumps19; female/male attraction questions kept distinct without guessing player orientation.32 global23 school1..5/company6..9/otherwise kindergarten preserved; no guessed numeric ages.",
+    "All12 two-option selections per profile preserve defaults, BSeparate/clear/targets, trailing two spaces, newlines and flags. Existing buffer1/2/3/count checks and3605/3606 input handoff untouched.",
+    "Gender-neutral 형이나 오빠/누나나 언니 avoids inferred player sex. These family terms, Wind-like archaic register, mission politeness and rough heat register remain unapproved wording candidates.",
+    "66CA84風鈴 translated 풍경 (wind chime), not scenery;677F64恋焦がれる rendered 사랑에 불타다 to retain love/heat/burning metaphor, needs human wording review. No glossary approval inferred.",
+    "Mission mail10 actual SearchMan calls/3767 clear/3613,3785 set retained; normal mailadd8928..8934 versus8936..8942 unchanged. Non-Japanese!! and punctuation source literals stay original.",
+    "Tournament defeat99 percent/calculation uncertainty versus mission completion/registration/start kept separate; pluginTYPE3/wait30/3603,3651 clear remains source control, not a code patch.",
+    "Drafting coverage only: needs_review, no human approval, ROM integration, actual emulator/save evidence or release eligibility."
+  ],
+  "units": [
+    {
+      "id": "671F24:1:0",
+      "source": "ミッションしっぱい・・・",
+      "translation": "미션 실패...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:1:1",
+      "source": "ワタシの けいさんでは、\nゆうしょうかくりつ\n99パーセントだったのに",
+      "translation": "제 계산으로는,\n우승 확률이\n99퍼센트였는데",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:1:2",
+      "source": "さくせんに ふびが\nあったのか・・・!?",
+      "translation": "작전에 미비한 점이\n있었던 것입니까...!?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:1:3",
+      "source": "じかいまでに さくせんを\nたてなおすひつようが\nありそうですね・・・",
+      "translation": "다음 대회까지 작전을\n다시 세울 필요가\n있겠군요...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:2:0",
+      "source": "ミッションコンプリート",
+      "translation": "미션 컴플리트",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:2:1",
+      "source": "すべて さくせんどおりに\nコトが すすみましたね",
+      "translation": "모든 일이 작전대로\n진행되었습니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:10:0",
+      "source": "、\n今回のトーナメント、\nエントリーしておりません",
+      "translation": ",\n이번 토너먼트에는\n참가 등록을 하지 않았습니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:20:0",
+      "source": "ターゲットは ゆうしょう\n・・・ロックオン!!",
+      "translation": "목표는 우승\n...록온!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:21:0",
+      "source": "ターゲットは ゆうしょう\n・・・ロックオン!!",
+      "translation": "목표는 우승\n...록온!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:22:0",
+      "source": "ターゲットは ゆうしょう\n・・・ロックオン!!",
+      "translation": "목표는 우승\n...록온!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    },
+    {
+      "id": "671F24:23:0",
+      "source": "ターゲットは ゆうしょう\n・・・ロックオン!!",
+      "translation": "목표는 우승\n...록온!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Defeat1/victory2/unregistered10/start20..23: distinct mission results,99 percent claim and cancel transition retained; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname honorific/topic fragments and 의/말고 avoid arbitrary stored names requiring final-consonant particles. Family gender-neutral alternatives, buffer lengths and runtime geometry need review."
+    }
+  ]
+}

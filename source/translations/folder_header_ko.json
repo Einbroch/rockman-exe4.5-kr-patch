@@ -1,0 +1,10 @@
+{
+ "schema":2,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"6E2B9C","source_archive_sha256":"6fa433e89ce52ceb3772ece51bc8fd078fe15575d9697bf0e6535e9150d191d8",
+ "consumer":"fixed-cell-big",
+ "context":"Private ROM clone for native header function0803E45C only, constant script1/native8x1 at06007C00; original Navi-dependent compressed pool/RAM consumers remain untouched",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "wordings":[{"id":"folder.chip_header","translation":"칩 폴더","state":"needs_review"}],
+ "units":[{"id":"6E2B9C:1:0","source":"チップフォルダ","wording_id":"folder.chip_header"}]
+}

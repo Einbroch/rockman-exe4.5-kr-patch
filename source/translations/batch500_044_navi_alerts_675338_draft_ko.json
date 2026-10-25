@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "675338",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/675338.tpl",
+    "sha256": "702dc7bc8832bf853389805f5caf6dc83e9f2220cef213c07fc9fcfa0e1a0795"
+  },
+  "source_archive_sha256": "1ee6f86acee496b1218fd0a2cc6ea73f4b41e0a30f8910cc14d27a53aa8d2285",
+  "consumer": "batch500-contextual-navi-alerts",
+  "context": "Search-themed mission, trust, preparation and outcomes; source probabilities 99.9 and 98 immutable. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-044",
+  "semantic_review": [
+    "Exactly500 stable catalog literals across67archives, manually source-conditioned Korean drafts; not500 unique sentences. All selected sources, complete native skeletons and adjacent unselected literals inspected.",
+    "Development-draft NON-DISTRIBUTION, needs_review, releasefalse. IDs/source/TPL/payload/controlcommands/numerals/brackets/newlines/leading and trailing padding immutable. No automatic prose generation, selection or shortening.",
+    "Quick alerts without explicit local portrait remain speaker-unestablished. Explicit ProtoMan/MetalMan/AquaMan/WoodMan portraits in reminder scripts21..26 are recorded independently; no invented portrait inheritance or runtime routing.",
+    "Dynamic names, quoted program/appointment values, hours/minutes and reward buffers require inline grammar and consumer geometry review. Source probabilities99.9/98 and native HP/item33/zenny/bugfragment/sentinel4294967295 controls unchanged.",
+    "Aqua reminders retain forty separate voiced literals, including timed short sounds and following newline; thirty30-frame waits are unchanged. Mail timing/sound/flag transitions and minigame outcomes remain distinct.",
+    "Unresolved source placeholders6770B8:0:0,682054:0:0,698A2C:0:0 remain in remaining denominator. Terminology, voice, meaning and actual consumer layout remain review items.",
+    "Codec/font/skeleton/132px heuristic checks do not constitute human semantic or runtime approval. All remaining drafts first, then cumulative insertion/font/consumer readiness and ROM screen/save QA. No ROM/save/emulator writes."
+  ],
+  "units": [
+    {
+      "id": "675338:1:1",
+      "source": "しゅうまつの\nトーナメントにむけ、\nとっくんしましょう",
+      "translation": "주말의\n토너먼트를 위해,\n특훈하시죠",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Search-themed mission, trust, preparation and outcomes; source probabilities 99.9 and 98 immutable. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "675338:1:2",
+      "source": "しょうりを 手にする\nかくりつを たかめるには",
+      "translation": "승리를 거둘\n확률을 높이려면",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Search-themed mission, trust, preparation and outcomes; source probabilities 99.9 and 98 immutable. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "675338:1:3",
+      "source": "ひびの けんさんいがい\nありえないのですから",
+      "translation": "매일 갈고닦는 것 외에\n방법이 없으니까요",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Search-themed mission, trust, preparation and outcomes; source probabilities 99.9 and 98 immutable. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "675338:2:0",
+      "source": "今日のトーナメントの\nゆうしょうする かくりつ\n・・・・・・",
+      "translation": "오늘 토너먼트에서\n우승할 확률은\n......",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Search-themed mission, trust, preparation and outcomes; source probabilities 99.9 and 98 immutable. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "675338:2:1",
+      "source": "99.9パーセント!!",
+      "translation": "99.9퍼센트!!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Search-themed mission, trust, preparation and outcomes; source probabilities 99.9 and 98 immutable. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "675338:3:0",
+      "source": "、\nおもしろそうなアイテムが\nあります・・・",
+      "translation": ",\n재미있어 보이는 아이템이\n있습니다...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Search-themed mission, trust, preparation and outcomes; source probabilities 99.9 and 98 immutable. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "675338:3:1",
+      "source": "キーアイテムを\nごらんになりませんか?",
+      "translation": "키 아이템을\n보시지 않겠습니까?",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Search-themed mission, trust, preparation and outcomes; source probabilities 99.9 and 98 immutable. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

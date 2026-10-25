@@ -1,0 +1,27 @@
+{
+ "schema":1,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"65FF3C","source_archive_sha256":"8d1f5550dd74fd813c38c32ade00cd73a572bf008fbefa31c50e9f81a3e74cf5",
+ "consumer":"normal-dialogue",
+ "context":"Roll speaks to operator after greeting. Script0 introduces daily fortune telling,1 repeats it; both jump to random outcomes3..18. Script4 blue heart warns of water-related misfortune and a depressed day, then directs to a lucky item via native location check. This draft scope is13 prose literals only, not all daily dialogue.",
+ "voice":"Friendly informal Roll, inherited development voice; human approval pending.",
+ "evidence":"analysis/tpl_baseline/65FF3C.tpl; immutable source catalog exe45.tpi root380E0; prior exact-ROM normal Roll greeting exits into this archive",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "protected_policy":"All commands, random ratios, global6, flags3585/3661, heart-data location branches, native page/key waits and six timed dots unchanged. Preserve literal newline count. Other62 scripts byte-identical.",
+ "decision_evidence":"4:2 blue color/depressed mood pun: draft translates depressed-day meaning after blue-heart label; the color pun is not fully reproduced. Human wording judgment remains open; not release eligible.",
+ "units":[
+  {"id":"65FF3C:0:0","source":"じつは わたし、\nうらないが とくいなの!","translation":"사실 난,\n운세 보기가 특기야!","state":"needs_review"},
+  {"id":"65FF3C:0:1","source":"これから まいにち、","translation":"이제부터 매일,","state":"needs_review"},
+  {"id":"65FF3C:0:2","source":"ロールちゃんの ラブリー\nハートうらない を\nしてあげるね!!","translation":"롤의 러블리\n하트 운세를\n봐 줄게!!","state":"needs_review"},
+  {"id":"65FF3C:0:3","source":"今日の あなたの\nうんせいは","translation":"오늘 너의\n운세는","state":"needs_review"},
+  {"id":"65FF3C:0:7","source":"ハイッ、でました!!","translation":"자! 나왔어!!","state":"needs_review"},
+  {"id":"65FF3C:1:0","source":"さぁ、ロールちゃんの\nラブリーハートうらない!","translation":"자, 롤의\n러블리 하트 운세!","state":"needs_review"},
+  {"id":"65FF3C:1:1","source":"今日も ゲンキに\nいってみよーーっ!!","translation":"오늘도 힘차게\n가 보자아아!!","state":"needs_review"},
+  {"id":"65FF3C:1:2","source":"今日の あなたの\nうんせいは","translation":"오늘 너의\n운세는","state":"needs_review"},
+  {"id":"65FF3C:1:6","source":"ハイッ、でました!!","translation":"자! 나왔어!!","state":"needs_review"},
+  {"id":"65FF3C:4:0","source":"ブルーハート・・・","translation":"블루 하트・・・","state":"needs_review"},
+  {"id":"65FF3C:4:1","source":"水なんの そうがでてるよ","translation":"물 사고의 징조가 보여","state":"needs_review"},
+  {"id":"65FF3C:4:2","source":"もじどおり ブルーな\n1日にならないように\n気をつけましょうね!","translation":"우울한 하루가\n되지 않도록\n조심하자!","state":"needs_review"},
+  {"id":"65FF3C:4:3","source":"今日の\nラッキーアイテムは・・・","translation":"오늘의\n행운의 아이템은・・・","state":"needs_review"}
+ ]
+}

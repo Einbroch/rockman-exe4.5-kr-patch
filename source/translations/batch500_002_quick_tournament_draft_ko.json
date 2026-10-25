@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "68E5E0",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/68E5E0.tpl",
+    "sha256": "10ea7b0bca57454630d49791f2075cae1744a27f447ac86567d99d720106e6d3"
+  },
+  "source_archive_sha256": "117d47b0cfc460f072da8610d675f932612527f128b6ee9f5486b4c35cadec5d",
+  "consumer": "batch500-equipment-progress-tournament",
+  "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+  "voice": "Source-conditioned manual candidates; distinct named portraits only where shown. Not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "All source fields/IDs/TPL/payload, commands, buffers, numerical limits, newlines, padding and current selected entries immutable; no ROM/save writes.",
+  "batch_id": "batch500-002",
+  "semantic_review": [
+    "Batch500-002 exact500 stable catalog literals in11 fully read archives: equipment459 (342 labels,18 choices,99 prompts/warnings), progress31, tournament10. Not500 unique sentences.",
+    "Manual source-conditioned draft candidates; needs_review/non-distribution. No ROM/save writes, human approval or runtime/layout closure.",
+    "Preserve apology, full-effort defeat, refusal to give up, fist-victory resolve and shout; no invented blame or calculation formula.",
+    "Nickname boundaries, unregistered callCancelMenuTransition and flag3603 for20..23 unchanged. No actor inferred from fist phrasing or adjacent equipment."
+  ],
+  "units": [
+    {
+      "id": "68E5E0:1:0",
+      "source": "・・・スマン\nオレは ぜんりょくで\nたたかった・・・",
+      "translation": "...미안하다\n나는 전력을 다해\n싸웠다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68E5E0:1:1",
+      "source": "しかし、\nオレは あきらめない",
+      "translation": "하지만,\n난 포기하지 않는다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68E5E0:1:2",
+      "source": "このコブシで しょうりを\nつかみとるまでは!!",
+      "translation": "이 주먹으로 승리를\n거머쥘 때까지는!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68E5E0:2:0",
+      "source": "、\nやったぞ!!",
+      "translation": ",\n해냈다!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68E5E0:2:1",
+      "source": "ウォォォォォォォッ!!",
+      "translation": "우오오오오오오옷!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68E5E0:10:0",
+      "source": "、\nエントリーしていないぞ",
+      "translation": ",\n참가 신청을 하지 않았다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68E5E0:20:0",
+      "source": "いよいよだな・・・\nこのコブシでゆうしょうを\nつかんでみせる!",
+      "translation": "드디어 시작이군...\n이 주먹으로 우승을\n거머쥐고 말겠다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68E5E0:21:0",
+      "source": "いよいよだな・・・\nこのコブシでゆうしょうを\nつかんでみせる!",
+      "translation": "드디어 시작이군...\n이 주먹으로 우승을\n거머쥐고 말겠다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68E5E0:22:0",
+      "source": "いよいよだな・・・\nこのコブシでゆうしょうを\nつかんでみせる!",
+      "translation": "드디어 시작이군...\n이 주먹으로 우승을\n거머쥐고 말겠다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68E5E0:23:0",
+      "source": "いよいよだな・・・\nこのコブシでゆうしょうを\nつかんでみせる!",
+      "translation": "드디어 시작이군...\n이 주먹으로 우승을\n거머쥐고 말겠다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat, victory, unregistered warning and fist-victory tournament resolve; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    }
+  ]
+}

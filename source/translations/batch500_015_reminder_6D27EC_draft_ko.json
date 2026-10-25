@@ -1,0 +1,323 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6D27EC",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6D27EC.tpl",
+    "sha256": "56c8af81df0efdf6784ca33b1120688dbe7b9cc149caa24a35e5963e8d0f5b51"
+  },
+  "source_archive_sha256": "11f6f1c3f8fe6e8761c805d90f2a629b21466838badadf7ebca37a5644924b80",
+  "consumer": "batch500-contextual-followup-hint-result-alert",
+  "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+  "voice": "Source-conditioned manual draft;no quick speaker inferred from archive adjacency or imagery;wording unapproved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-015",
+  "semantic_review": [
+    "Exactly500 stable literals:followup183/mission220/reminder26/mail28/tournament16/schedule11/hint13/battle3;no choice literals.",
+    "All literals and complete control skeletons read. Whitespace-only compact views preserve every command/argument;actual mission0/27..30 also read. All free prose authored per ID,not rule-generated.",
+    "Only6D27EC21..26 explicitBass portrait. No quickspeaker inferred by adjacency/contempt/electric/plant imagery or old NumberMan screenshot.6DED88missionvoice inherited/unestablished;reward units aftermugshotHide are system-reward.",
+    "6D44D4error0original and remaining denominator;all previous provisional/debug/nameentry unresolved remainoriginal. Sourceきょうだいpower/いろか/しゅりょう/ノーマルビ spellings preserved while semantic draft reads context,not approved corrections.",
+    "Missiondispatcher32→33..64 exactly32 fictional assignments. Every20/25/30/35/40/50/60minute deadline,Internet1..12 vsUndernet1..4,colour/type/gender/target clue preserved. No reordering or actual mission execution claimed.",
+    "Mission43トイチ rendered열흘에 일할 이자,politician41センセイ rendered의원 나리 based election context. These unapproved localized expressions/new terms require review;no added numericdigits.",
+    "Mission38allure/40traitor organization/43borrowed assassination money irony/47romantic rivalry/48music producer exile/50hospital leadership/53death gift/56fake darkchips/57erase program too/61silenced witness/63criminal factions preserved as fiction.",
+    "Conditionalmailreward vs actualHP33 amount1/zenny/bug4294967295 currentNavi+buffer3 order;9756→31 no reward bypass/missionerase untouched. Story text does not prove runtime delivery.",
+    "Profile46source1person retains1;school/family/subject/chip/opponent insertion avoids fixed 받침-dependent particles;comparison78 second vs first favourite chip retained;maildeletion27explicitjoke vs31statement preserved,not implemented filter claims.",
+    "RemindersquickvsBass and violent battle question/mere reminder distinction;meal reluctance/human learning contempt,charging victory/flowers practice kept. Alldate/AMPM/name formatting and mailflags/sounds/waits unchanged.",
+    "NON-DISTRIBUTION/needs_review. No ROM/save/emulator/image writes;mechanical passes not humanapproval/layout/runtime verification."
+  ],
+  "units": [
+    {
+      "id": "6D27EC:1:0",
+      "source": "フン・・・\n",
+      "translation": "흥...\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:1:1",
+      "source": " の\nじかんだ・・・",
+      "translation": " 할\n시간이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:2:0",
+      "source": "\nの 時間じゃないのか?",
+      "translation": "\n할 시간이 아닌가?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:2:1",
+      "source": "そいつと たたかうのか?",
+      "translation": "그 녀석과 싸우는 건가?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:3:0",
+      "source": "しょくじの じかんだぞ",
+      "translation": "식사 시간이다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:3:1",
+      "source": "なぜ、オレが\nこんなコトを キサマに\nおしえねばならんのだ",
+      "translation": "왜, 내가\n이런 일을 네놈에게\n알려 줘야 하는 거냐",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:3:2",
+      "source": "ふゆかいだ・・・",
+      "translation": "불쾌하군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:4:0",
+      "source": "じゅくに行く じかんだ",
+      "translation": "학원에 갈 시간이다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:4:1",
+      "source": "人間と いうものは\nなぜ そこまで\nがくしゅうしたがるのだ?",
+      "translation": "인간이라는 것은\n왜 그렇게까지\n배우고 싶어 하는 거지?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:4:2",
+      "source": "チカラが すべてでは\nないのか・・・",
+      "translation": "힘이 전부가\n아닌가...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:5:0",
+      "source": " の\nじかんだ・・・",
+      "translation": " 할\n시간이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:5:1",
+      "source": "・・・フン",
+      "translation": "...흥",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:6:0",
+      "source": "それと・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:21:0",
+      "source": "フン・・・\n",
+      "translation": "흥...\n",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:21:1",
+      "source": " の\nじかんだ・・・",
+      "translation": " 할\n시간이다...",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:22:0",
+      "source": "\nの 時間じゃないのか?",
+      "translation": "\n할 시간이 아닌가?",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:22:1",
+      "source": "そいつと たたかうのか?",
+      "translation": "그 녀석과 싸우는 건가?",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:23:0",
+      "source": "しょくじの じかんだぞ",
+      "translation": "식사 시간이다",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:23:1",
+      "source": "なぜ、オレが\nこんなコトを キサマに\nおしえねばならんのだ",
+      "translation": "왜, 내가\n이런 일을 네놈에게\n알려 줘야 하는 거냐",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:23:2",
+      "source": "ふゆかいだ・・・",
+      "translation": "불쾌하군...",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:24:0",
+      "source": "じゅくに行く じかんだ",
+      "translation": "학원에 갈 시간이다",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:24:1",
+      "source": "人間と いうものは\nなぜ そこまで\nがくしゅうしたがるのだ?",
+      "translation": "인간이라는 것은\n왜 그렇게까지\n배우고 싶어 하는 거지?",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:24:2",
+      "source": "チカラが すべてでは\nないのか・・・",
+      "translation": "힘이 전부가\n아닌가...",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:25:0",
+      "source": " の\nじかんだ・・・",
+      "translation": " 할\n시간이다...",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:25:1",
+      "source": "・・・フン",
+      "translation": "...흥",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D27EC:26:0",
+      "source": "それと・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "All26target literals and full skeleton read.Quick1..6 vs explicitBass21..26 TV/promise/meal/cram-school/other reminders;3658/3585,155sound96frames×2,duplicate branch meaning retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    }
+  ]
+}

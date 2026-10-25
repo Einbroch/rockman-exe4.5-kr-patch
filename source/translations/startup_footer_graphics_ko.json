@@ -1,0 +1,11 @@
+{
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "font": "external/fonts/Galmuri7-v2.40.4.bdf",
+  "font_sha256": "2a6fd090ac6d24f7392d6cc49db02ce54b9d1c01048bf8c97cbcdbc5a885cb15",
+  "units": [
+    {"source": "ふやす・へらす", "translation": "늘림·줄임", "state": "needs_review"},
+    {"source": "つぎへ", "translation": "다음", "state": "needs_review"},
+    {"source": "もどる", "translation": "뒤로", "state": "needs_review"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "709408",
+  "source_archive_sha256": "15bbcb0dc3e2fa083d55b00fb4180312836bef14fbd2d9f63e2d82f05760d793",
+  "consumer": "normal-dialogue",
+  "context": "Shared empty key-item message; no mugshot or speaker suffix. Native source IDs21..32 alias this message.",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "units": [
+    {"id":"709408:32:0","source":"キーアイテムが\n1つもない・・・","translation":"키 아이템이\n1개도 없다・・・","state":"needs_review"}
+  ]
+}

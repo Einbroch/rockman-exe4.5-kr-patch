@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "71A37C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/71A37C.tpl",
+    "sha256": "5e8ddb7c9f8c00b3cf8668451863430434386a8c1dce9c3cc8e9b64cff64de54"
+  },
+  "source_archive_sha256": "a8bb98f77f9f508d70b933401487277a67e21c6f7d6d0eb2c1bfae3effb246de",
+  "consumer": "remaining-contextual-ui-debug-npc",
+  "context": "Numeric fixed cell count template:0123456789 and[z] immutable; suffix translated개, native consumer width unverified.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-046",
+  "semantic_review": [
+    "Remaining515catalog units reconciled:500manual drafts(batch046)+13manual drafts(final047);2kana selector arrays remain unresolved structural input targets, not silently excluded from denominator. Not513unique sentences; no ROM writes.",
+    "All selected source literals and native selected-script skeletons read, exact repeated WAIT_FALSE/CLEAR blocks abbreviated only in read-only logical view. Allsource IDs/TPL/payload/digits/brackets/line topology/padding/native commands preserved.",
+    "Manual source-conditioned free prose. No automated prose generation, selection or shortening. New voices/terms/cultural names/honorifics/packed field segmentation need independent/human review; allneeds_review releasefalse.",
+    "513translated strings include developer/prototype/soul-unison/legacy labels. Presence inROM is not proof of normal reachability or support; debug granting/save-affecting commands never executed.",
+    "Packed BBS/profile/PA/Latin table byte/cell boundaries unresolved. Draft-first assets are not insertion-ready; 132px heuristic cannot approve/shorten or establish actual capacity.",
+    "Name-entry source6368E8scripts2/3 are originalkana selector arrays; adopted40jamo page/composer is separate. Changing literal text cannot integrate selectors/rendering/commit/redisplay/persistence. Keep2original units untranslated until structural integration.",
+    "Explicit portraits, hide transitions and player choices preserved; no portrait inferred solely from text.source768800MrProgGreen/Lan;7C416CMrProgGreen thenKnightMan.7C9C44/7CAF40speakerunknown.",
+    "Source digits:+30/3turn/1chip/STA002103203303/HP memory33/itemgrant etc immutable. Developerallchip/currency/profile flags and minigameflag5059 unchanged. No emulator/save/ROM/image/keyboard modifications.",
+    "Current draft-first sequence continues into whole-corpus consumer/font/layout readiness then cumulativeROM/screen/save regression; human wording review/graphics/keyboard integration/persistence/release remainopen."
+  ],
+  "units": [
+    {
+      "id": "71A37C:2:0",
+      "source": "0123456789コ[z]",
+      "translation": "0123456789개[z]",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "source UI/data/debug label; not normal spoken dialogue; consumer context in asset",
+      "context": "Numeric fixed cell count template:0123456789 and[z] immutable; suffix translated개, native consumer width unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

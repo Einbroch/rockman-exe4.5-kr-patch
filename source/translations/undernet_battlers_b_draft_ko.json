@@ -1,0 +1,264 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "7B39D0",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7B39D0.tpl",
+    "sha256": "e9db7a6ef178b9d2c0cb5a6a0db1d06d9833debfe6babf56fb6d33bccbc1b772"
+  },
+  "source_archive_sha256": "8a4b3d5ede4624f9d2c91676583342bfc6774d712156eceb693ea3655744b5b6",
+  "consumer": "normal-dialogue-and-choice",
+  "context": "All21 unselected Japanese literals in255-slot archive; source/payload pinned; no inferred progression repair.",
+  "voice": "Source-specific rough, compressed, courteous sly and registration voices; portraits not conflated across encounters. Candidate terms from tournament/story/official-entry assets, no new approvals.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep IDs, numeric1/2000/6/12, source line/option spaces, battle/flag/shop arguments, shop7/17, weekday3+navi1, tournament8 vs Official4, weekday0/6 closure, flag1762 and eligibility checks. No ROM/gameplay/save writes.",
+  "semantic_review": [
+    "ウラ is 언더 and オモテ is 일반 인터넷 in network contrast; candidate wording not a newly approved glossary. ジゴクの1チョウメ keeps numeric1 as 지옥의1번지 metaphor, not a real mapped location.",
+    "7B32B0:5 intentionally compresses native battle call as 배틀오페세인, not normalizing it into a new page.6 keeps ironic 승부 defeat vs 싸움 victory, not reversing actual outcome.",
+    "7B39D0:4/5/6/7 smell and humble slang preserved as separate speech candidate; proverb 군자는 위험한 곳을 가까이하지 않는다 retained rather than invented coward insult.",
+    "7B469C:4 asserts similarity from the speaker perspective, not a confirmed player alignment;12 forced encounter has no added decline.12 and16 share native battle178/656 but have separate outcome scripts; unchanged even if they look duplicated.",
+    "Shop portrait PurpleNavi remains visible on options; choices are player-choice,221 inherits223/224. Shop7 normal vs17 ladies branch and source stock refusal retained. No discount percentage/weekday invented.",
+    "7B4A6C uses2000zenny, tournament bitmask8 and source multi-flag requirements; do not borrow Official free or1000zenny terms. Entry weekday/time and sleeping111 preserved; no inferred number of wins/bosses added.",
+    "GoldProg restores chip use counts via callClearBattleChipGateHistory, not HP/new chips/save erasure. Phonetic キラ and ブラッディパーティ/봉주르 remain human-review candidates.",
+    "Actual gameplay access/clock/shop/battle/registration charge, display/geometry and persistence remain unverified."
+  ],
+  "units": [
+    {
+      "id": "7B39D0:0:0",
+      "source": "オモテからキたのか?",
+      "translation": "일반 인터넷에서 왔나?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:0:1",
+      "source": "どうだ、ちょっとアソばねえか?",
+      "translation": "어때, 조금 놀지 않겠나?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:0:2",
+      "source": "うん  ",
+      "translation": "응  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:0:3",
+      "source": "いやだ",
+      "translation": "싫어",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:0:4",
+      "source": "ショセンは オモテのヤツか・・・",
+      "translation": "결국 일반 인터넷 녀석인가...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:1:0",
+      "source": "アソんでやるぜ!\nただし、ウラのルールだがな!",
+      "translation": "놀아 주마!\n단, 언더의 규칙으로 말이지!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:1:1",
+      "source": "バトルオペレーション、セット!\nイーン!!",
+      "translation": "배틀 오퍼레이션, 세트!\n이인!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:2:0",
+      "source": "ま、まさか オモテに\nこれホドのヤツが いたとは!!",
+      "translation": "서, 설마 일반 인터넷에\n이런 녀석이 있었다니!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:3:0",
+      "source": "どうだい、タノしかったろう、\nウラのアソびはよぉ!!",
+      "translation": "어떠냐, 재미있었지,\n언더의 놀이가 말이야!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:4:0",
+      "source": "クンクン・・・\nツヨいヤツの ニオイがしやすね",
+      "translation": "킁킁...\n강한 녀석의 냄새가 나네요",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:4:1",
+      "source": "あんた、ソウトウな\nツカいテでやすね?",
+      "translation": "당신, 상당한\n실력자시죠?",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:4:2",
+      "source": "ニオイでワかりやすぜ・・・",
+      "translation": "냄새로 알 수 있습죠...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:4:3",
+      "source": "アッシと テアわせして\nもらえねえでげすか?",
+      "translation": "저와 겨뤄\n주시지 않겠습니까?",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:4:4",
+      "source": "おう!  ",
+      "translation": "좋아!  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "hidden",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:4:5",
+      "source": "いやだ",
+      "translation": "싫어",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "hidden",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:4:6",
+      "source": "クンシ アヤうきに\nチカヨらず・・・で、やすね?",
+      "translation": "군자는 위험한 곳을\n가까이하지 않는다... 이거죠?",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:5:0",
+      "source": "いきやすぜ・・・",
+      "translation": "갑니다요...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:5:1",
+      "source": "バトルオペレーション、セット!\nイン!!",
+      "translation": "배틀 오퍼레이션, 세트!\n인!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:6:0",
+      "source": "アッシのハナに マチガいは\nナかったようでやすね・・・",
+      "translation": "제 코는 틀리지\n않았나 봅니다요...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:7:0",
+      "source": "おや、もっとおツヨいと\nオモったでやすが・・・",
+      "translation": "이런, 더 강하실 줄\n알았습니다만...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    },
+    {
+      "id": "7B39D0:7:1",
+      "source": "アッシの カンチガいだった\nようでやすね・・・",
+      "translation": "제가 잘못 생각했나\n봅니다요...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "UnderNet local encounter acceptance/refusal/outcomes, menace/shop/gate-recovery and Under tournament registration; full native source branch read. Each source portrait associated per literal, including visible shop choices.",
+      "variable_context": "No runtime name/item interpolation; source controls, flags, battle storeGlobal parameters, shop and registration transitions retained. Width/caller/clock review pending."
+    }
+  ]
+}

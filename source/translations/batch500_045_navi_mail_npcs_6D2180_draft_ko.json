@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6D2180",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6D2180.tpl",
+    "sha256": "1703af1a97c53fc28dfeeb595168d027dd758cbc4c96c479f52e757ea9997dd7"
+  },
+  "source_archive_sha256": "9be9dcbe1e319a51e24a51aea5fc8236ad1ebe1f555a4b56b71582d160b128ba",
+  "consumer": "batch500-contextual-navi-mail-npcs",
+  "context": "Bass contempt for human PET, whim and destructive impulse; no explicit local portrait. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-045",
+  "semantic_review": [
+    "Exactly500 stable catalog literals across76archives:366Navi/mail/folder and134NPC/statue/gate/tournament. All500sources, native skeletons and adjacent unselected literals inspected; repeated native blocks read by exact equivalent templates. Not500 unique sentences.",
+    "Manually authored source-conditioned free prose, no rule-based prose generation/choice/shortening. Allneeds_review development-draft NON-DISTRIBUTION releasefalse. New terms/voices/wordplay need human review.",
+    "Quick speech has no explicit portrait unless local mugshotShow; self-intro is textual context not proof of actual runtime routing. IceMan21..26, AquaMan70..75, SciLabMan0..5 and distinct NPC portrait switches preserved;31SciLabMan inherited from0 jump chain,33unknown.",
+    "Star source win/loss white/black stars and gray-star draw joke retains explicit outcomes; sixth-magnitude dimness differs from Plant six-tenths bloom. Shadow nine voiced incantation syllables and samurai register, Knight battle chant, Napalm harsh speech, Ice awkward politeness are review candidates.",
+    "Four native choices,91labels including90mail labels and1folder label; labels not spoken. Folder70dynamiccount and constraints3/1/1/5/1 immutable; same-class duplicate limits distinct from total class count.",
+    "Dynamic nickname/Navi/tournament/schedule/chip/item/buffer particles and inline flow require actual consumer review. Source gate100and90 references standard190 checks, not fabricated collectible count changes. Law123 is in-game fiction, not real legal advice.",
+    "Source temporary6BC0C8:0:0 and79C240:1:0 retained unresolved inremaining denominator; SP temporary trader79C8D8 also deferred. No debug/glyph tables declared complete or silently excluded.",
+    "Mail labels need consumer width/layout review; existing mail bodies and folder equipment labels are preserved. Statuename/item7, no inferred narrator portrait. Source digitalgreenery, firewarning and recycledprogram-data rumor retain confidence level.",
+    "Codec/glyph/skeleton/protectedfields/132px heuristic passes do not constitute semantic/human/runtime approval. Allremainingdrafts first, then cumulative insertion/font/consumer readiness and ROM screen/saveQA; keyboard/persistence/graphics/release remainopen. No ROM/save/emulator writes."
+  ],
+  "units": [
+    {
+      "id": "6D2180:1:0",
+      "source": "フン、ほんらいならば\nおろかな人間の\nPETなどに",
+      "translation": "흥, 원래라면\n어리석은 인간의\nPET 따위에",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Bass contempt for human PET, whim and destructive impulse; no explicit local portrait. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "6D2180:1:1",
+      "source": "はいることなど\nありえんのだが・・・",
+      "translation": "들어가는 일은\n있을 수 없지만...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Bass contempt for human PET, whim and destructive impulse; no explicit local portrait. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "6D2180:1:2",
+      "source": "こんかいは ほんの\n気まぐれだ・・・",
+      "translation": "이번에는 그저\n변덕일 뿐이다...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Bass contempt for human PET, whim and destructive impulse; no explicit local portrait. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "6D2180:2:0",
+      "source": "はやく オレを\nたたかわせろ・・・",
+      "translation": "빨리 나를\n싸우게 해라...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Bass contempt for human PET, whim and destructive impulse; no explicit local portrait. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "6D2180:2:1",
+      "source": "オレのハカイしょうどうを\nみたすのだ・・・",
+      "translation": "내 파괴 충동을\n채워라...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Bass contempt for human PET, whim and destructive impulse; no explicit local portrait. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

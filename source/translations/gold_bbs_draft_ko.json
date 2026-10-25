@@ -1,0 +1,839 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "7011F0",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7011F0.tpl",
+    "sha256": "c9ee3225f3d99f31127b6f284caf83ab3e8dfe27e558e353b2de3d43508d4964"
+  },
+  "source_archive_sha256": "3eec68e7b27cbf3eaadc3e57c6b223fed80fc4e4e906ec63e21b22929f25a168",
+  "consumer": "bbs-text",
+  "context": "All90 Japanese literals in48-slot Gold BBS archive. Whole posts and quoted reply relationships read together, no inferred identity for unidentified posters. ASCII placeholders are not localized or excluded from other-review ledger.",
+  "voice": "Source formal/modest/casual/rough registers distinguished per post. Tesshin marked ッス drafted as 임다/슴다 candidate; original19 ゴワス as 하오 candidate. Human voice review pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve source IDs, reply/page/quote boundaries, weekday-element wordplay, instruction order SELECT then3 ordered chips, limits/restoration vs chip availability, and all command arguments. No ROM or save writes.",
+  "semantic_review": [
+    "Names 텟신/유키/코에츠/모치미치 and 프로그램군/버스팅 레벨/프로그램 어드밴스/배틀 칩 게이트 are source-backed draft candidates, not new human approvals. 에브리데이 토너먼트 follows existing keyitem_full_rom_ko.json.",
+    "Source26 asks a question and27 answers; source20..24 refusal to give up and restoration advice read together. Source19 rumor remains hearsay, not a verified required route.",
+    "火曜/水曜 weekday-element wordplay works with 화요일/수요일 in Korean; preserve joke and adjacent reply without changing game behavior.",
+    "Instructions retain button then timed chip acceptance then3 chips in order; golden program restores usage count, not newly grants chips. BBS final layout and each post author binding outside the source body are unverified."
+  ],
+  "units": [
+    {
+      "id": "7011F0:0:0",
+      "source": "このケイジバンは\nゴールドトーナメントにちょうせん\nされているバトラーのみなさんが、",
+      "translation": "이 게시판은\n골드 토너먼트에 도전하는\n배틀러 여러분께서,",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:0:1",
+      "source": "じょうほうや いけんの\nこうかんを おこなうために\nせっちされたものでございます",
+      "translation": "정보와 의견을\n교환하실 수 있도록\n마련한 곳입니다",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:0:2",
+      "source": "ゴールドトーナメントを\nめざしている方なら\nこどもからおとなまで、",
+      "translation": "골드 토너먼트를\n목표로 하는 분이라면\n어린이부터 어른까지,",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:0:3",
+      "source": "じゆうにかきこんで くださって\nけっこうでございます",
+      "translation": "자유롭게 글을 올려\n주셔도 됩니다",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:0:4",
+      "source": "もし ごようぼうが あれば\nわたくしの たいけんだんなども\nおはなしいたしますよ!",
+      "translation": "원하신다면\n제 경험담 등도\n들려 드리겠습니다!",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:1:0",
+      "source": "ゴールドトーナメントの\nさんかしけんって\nかなりむずかしくないですか?",
+      "translation": "골드 토너먼트의\n참가 시험은\n꽤 어렵지 않나요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:1:1",
+      "source": "ぼくとしては 二つめの\nバスティングレベルのしんさが\nどうしてもクリアできないんです",
+      "translation": "저는 두 번째\n버스팅 레벨 심사를\n도저히 통과 못 하겠어요",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:1:2",
+      "source": "なにか いいひけつは\nないですか?",
+      "translation": "좋은 비결은\n없을까요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:1:3",
+      "source": "レスのほう\nよろしくおねがいします!",
+      "translation": "댓글\n잘 부탁드려요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:1:4",
+      "source": "かんけいないけど\n3ばんめのしけんかんのナビって\nちょっとカワイイとおもいません?",
+      "translation": "상관없는 얘기지만\n3번째 시험관 내비는\n좀 귀엽지 않나요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:2:0",
+      "source": "バスティングレベルをあげるには\nどうじたおしが ゆうこうだと\nよく言われるな",
+      "translation": "버스팅 레벨을 올리려면\n동시 격파가 효과적이라고\n자주들 말하지",
+      "state": "needs_review",
+      "speaker": "BBS-post-2; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:2:1",
+      "source": "どうじたおしってのは\nそのなのとおり どうじに\nふくすうのウイルスをたおすことだ",
+      "translation": "동시 격파란\n말 그대로 여러 바이러스를\n동시에 쓰러뜨리는 거야",
+      "state": "needs_review",
+      "speaker": "BBS-post-2; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:2:2",
+      "source": "あとは カウンターも\nポイントが たかいらしいぜ!",
+      "translation": "또 카운터도\n점수가 높다는군!",
+      "state": "needs_review",
+      "speaker": "BBS-post-2; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:2:3",
+      "source": "ようするに\nうつくしく しょうりする!!\nこれをむねにきざめ!",
+      "translation": "한마디로\n멋지게 승리하라!!\n이걸 가슴에 새겨!",
+      "state": "needs_review",
+      "speaker": "BBS-post-2; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:3:0",
+      "source": "なにか\nわすれちゃいませんか?\nダンナ!",
+      "translation": "뭔가\n잊으신 것 아닙니까?\n형씨!",
+      "state": "needs_review",
+      "speaker": "BBS-post-3; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:3:1",
+      "source": "バスティングレベルには\nスピードもじゅうよう\nなんですぜ!",
+      "translation": "버스팅 레벨에는\n속도도 중요하단\n말씀입죠!",
+      "state": "needs_review",
+      "speaker": "BBS-post-3; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:3:2",
+      "source": "またたくまに ウイルスを\nいっそうする!\nそれは しっぷうのごとし!",
+      "translation": "눈 깜짝할 새에 바이러스를\n싹 쓸어버린다!\n질풍처럼 말입죠!",
+      "state": "needs_review",
+      "speaker": "BBS-post-3; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:3:3",
+      "source": "スピードはバトルのはな!!\nせいぜい うでを\nみがきになってくだせぇ",
+      "translation": "속도는 배틀의 꽃!!\n부지런히 실력을\n갈고닦으십쇼",
+      "state": "needs_review",
+      "speaker": "BBS-post-3; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:4:0",
+      "source": "やっぱり\nバスティングレベルを\nあげるには",
+      "translation": "역시\n버스팅 레벨을\n올리려면",
+      "state": "needs_review",
+      "speaker": "BBS-post-4; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:4:1",
+      "source": "ふだんからのどりょくが\nいちばん!!\nつきなみだけどね",
+      "translation": "평소의 노력이\n최고지!!\n뻔한 말이지만 말이야",
+      "state": "needs_review",
+      "speaker": "BBS-post-4; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:5:0",
+      "source": "もちみちさんのいう\nとおりですね",
+      "translation": "모치미치님 말씀대로\n맞는 말이네요",
+      "state": "needs_review",
+      "speaker": "BBS-post-5; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:5:1",
+      "source": "そういえば みなさん\nへいじつのあいだ バトルの\nれんしゅうって なにしてます?",
+      "translation": "그런데 여러분\n평일에는 배틀 연습을\n어떻게 하시나요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-5; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:5:2",
+      "source": "ぼくは エブリデイトーナメントに\nさんかして テクニックを\nみがいてます",
+      "translation": "저는 에브리데이 토너먼트에\n참가해서 기술을\n갈고닦고 있어요",
+      "state": "needs_review",
+      "speaker": "BBS-post-5; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:5:3",
+      "source": "このへんだったら\nこわれたラジオの電脳で\nかいさいしています",
+      "translation": "이 근처라면\n고장 난 라디오 전뇌에서\n열리고 있어요",
+      "state": "needs_review",
+      "speaker": "BBS-post-5; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:5:4",
+      "source": "見かけたらコエをかけてくださいね",
+      "translation": "만나면 말 걸어 주세요",
+      "state": "needs_review",
+      "speaker": "BBS-post-5; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:6:0",
+      "source": "コレ カキコんでるのが\n火ようび なんだけど、",
+      "translation": "이 글을 쓰는 날은\n화요일인데,",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:6:1",
+      "source": "インターネットエリアが\nやけにコゲくさいんだよ",
+      "translation": "인터넷 에어리어에서\n유난히 탄내가 나더라고",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:6:2",
+      "source": "なぜか? それは火ぞくせいの\nウイルスが みょうに\nおおいから だったのだ!",
+      "translation": "왜냐고? 불 속성\n바이러스가 이상하게\n많았기 때문이었지!",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:6:3",
+      "source": "火ようびだから 火かぁ・・・",
+      "translation": "화요일이라 불인가...",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:6:4",
+      "source": "さいきんのウイルスは\nシャレがつうじるのね",
+      "translation": "요즘 바이러스는\n말장난도 통하나 봐",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:7:0",
+      "source": "したのかきこみから、\nいちや あけました\nつまり水ようびです",
+      "translation": "아래 글을 쓴 뒤,\n하룻밤이 지났어요\n그러니까 수요일이에요",
+      "state": "needs_review",
+      "speaker": "BBS-post-7; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:7:1",
+      "source": "こんどは 水ぞくせいでした!",
+      "translation": "이번엔 물 속성이었어요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-7; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:7:2",
+      "source": "ちょっと ベタですね",
+      "translation": "좀 뻔하네요",
+      "state": "needs_review",
+      "speaker": "BBS-post-7; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:15:0",
+      "source": "ぼうそうナビって\nつぎから つぎに\nあらわれて めいわくですね!",
+      "translation": "폭주 내비가\n계속해서 나타나니\n정말 곤란하네요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-15; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:15:1",
+      "source": "なにが げんいんなの?",
+      "translation": "원인이 뭘까요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-15; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:16:0",
+      "source": "ぼくも くわしくは\nないんですけど・・・",
+      "translation": "저도 자세히는\n모르지만...",
+      "state": "needs_review",
+      "speaker": "BBS-post-16; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:16:1",
+      "source": "ぼうそうのげんいんは\nそのナビに あるわけでは\nなく・・・",
+      "translation": "폭주의 원인은\n그 내비 자체에\n있는 것이 아니라...",
+      "state": "needs_review",
+      "speaker": "BBS-post-16; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:16:2",
+      "source": "もっと べつのおおきな\nちからが えいきょう\nしているようです",
+      "translation": "다른 커다란\n힘이 영향을\n주는 것 같아요",
+      "state": "needs_review",
+      "speaker": "BBS-post-16; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:16:3",
+      "source": "なにか ふあんに\nなります",
+      "translation": "왠지 불안한\n기분이 드네요",
+      "state": "needs_review",
+      "speaker": "BBS-post-16; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:17:0",
+      "source": "ふきんしんな はなしで\nもうしわけないですけど・・",
+      "translation": "경솔한 이야기라\n죄송하지만..",
+      "state": "needs_review",
+      "speaker": "BBS-post-17; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:17:1",
+      "source": "ぼうそうナビって\nちょっと 見てみたく\nないですか?",
+      "translation": "폭주 내비를\n한번 보고 싶지\n않으신가요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-17; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:17:2",
+      "source": "キケンだ! と言われるほど\n見たくなる このきぶん・・・",
+      "translation": "위험하다! 할수록\n보고 싶어지는 이 기분...",
+      "state": "needs_review",
+      "speaker": "BBS-post-17; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:17:3",
+      "source": "みなさんも 分かりますよね?",
+      "translation": "여러분도 아시겠죠?",
+      "state": "needs_review",
+      "speaker": "BBS-post-17; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:18:0",
+      "source": "バトルのべんきょうのためにさ\nオフィシャルトーナメントを\nかんせんしたんだよ",
+      "translation": "배틀을 공부하려고\n오피셜 토너먼트를\n보러 갔어",
+      "state": "needs_review",
+      "speaker": "BBS-post-18; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:18:1",
+      "source": "ギョエーーー",
+      "translation": "으아아아",
+      "state": "needs_review",
+      "speaker": "BBS-post-18; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:18:2",
+      "source": "っていうくらいレベルがちがったよ\nまさに さいこうほうってかんじ!",
+      "translation": "소리가 날 정도로 달랐어\n정말 최고봉이라는 느낌!",
+      "state": "needs_review",
+      "speaker": "BBS-post-18; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:18:3",
+      "source": "はあ・・・",
+      "translation": "하아...",
+      "state": "needs_review",
+      "speaker": "BBS-post-18; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:18:4",
+      "source": "オレも いつかあのばしょで、\nバトルしてみたいなあ",
+      "translation": "나도 언젠가는 그곳에서,\n배틀해 보고 싶어",
+      "state": "needs_review",
+      "speaker": "BBS-post-18; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:19:0",
+      "source": "オフィシャルトーナメントは\nさんかとうろくだけでも\nかなり たいへんらしいでゴワス",
+      "translation": "오피셜 토너먼트는\n참가 등록만 해도\n꽤 힘들다고 하오",
+      "state": "needs_review",
+      "speaker": "BBS-post-19; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:19:1",
+      "source": "なんでも うわさによれば・・・",
+      "translation": "소문에 따르면 말이오...",
+      "state": "needs_review",
+      "speaker": "BBS-post-19; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:19:2",
+      "source": "やみのインターネットから\nぶじにかえってくることが\nじょうけんらしいでゴワス",
+      "translation": "어둠의 인터넷에서\n무사히 돌아오는 것이\n조건이라고 하오",
+      "state": "needs_review",
+      "speaker": "BBS-post-19; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:19:3",
+      "source": "そのうえ えたいのしれない\nプログラムと バトルせねば\nならないと きいたでゴワス",
+      "translation": "게다가 정체 모를\n프로그램과 싸워야\n한다고 들었소",
+      "state": "needs_review",
+      "speaker": "BBS-post-19; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:19:4",
+      "source": "なんだか\nちがうせかいの\nはなしでゴワスよね",
+      "translation": "뭔가\n다른 세상\n이야기 같지 않소",
+      "state": "needs_review",
+      "speaker": "BBS-post-19; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:20:0",
+      "source": "オッス じぶんテッシンというッス",
+      "translation": "안녕하십니까! 저는 텟신임다",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:20:1",
+      "source": "じぶん ゴールドトーナメントに\nはじめて さんかしたッスが\n1かいせんでボロボロにされたッス",
+      "translation": "저는 골드 토너먼트에\n처음 참가했는데\n1회전에서 박살 났슴다",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:20:2",
+      "source": "くやしくて くやしくて\nまくらを なみだで\nぬらしたッス",
+      "translation": "분하고 분해서\n베개를 눈물로\n적셨슴다",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:20:3",
+      "source": "いまは リベンジにむけて\nとっくんちゅうッス",
+      "translation": "지금은 복수를 위해\n맹훈련 중임다",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:20:4",
+      "source": "じぶん ひっしッス!\nこのままじゃ くにのりょうしんに\nあわせるかおが ないッスよ!!",
+      "translation": "저는 필사적임다!\n이대로는 고향 부모님을\n뵐 면목이 없슴다!!",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:21:0",
+      "source": "また トーナメントで\nまけてしまった テッシンッス",
+      "translation": "또 토너먼트에서\n져 버린 텟신임다",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:21:1",
+      "source": "ああ でんのうのカミさまッスよ!",
+      "translation": "아아, 전뇌의 신이시여!",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:21:2",
+      "source": "じぶん こんなにドリョク\nしてるッスのに\nなぜ かてないッスか?",
+      "translation": "저는 이렇게 노력하고\n있는데\n왜 이길 수 없슴까?",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:21:3",
+      "source": "そういえば\nトーナメントの つぎのひは\nゴミのひ ときいたッス",
+      "translation": "그러고 보니\n토너먼트 다음 날은\n쓰레기 수거일이라 들었슴다",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:21:4",
+      "source": "ネットバトラーをあきらめて\nゴミひろいにでも てんしょく\nしようかとかんがえてるッスよ・・",
+      "translation": "넷 배틀러를 포기하고\n쓰레기 줍는 일로 전직할까\n생각 중임다..",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:22:0",
+      "source": "テッシンさん\nあきらめてはいけません!!",
+      "translation": "텟신님\n포기하시면 안 돼요!!",
+      "state": "needs_review",
+      "speaker": "BBS-post-22; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:22:1",
+      "source": "ざせつは どんな\nネットバトラーも いちどは\nとおるみちです!",
+      "translation": "좌절은 어떤\n넷 배틀러든 한 번은\n거치는 길이에요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-22; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:22:2",
+      "source": "ドリョクは サイノーを\nうわまわると\nしんじてください!!",
+      "translation": "노력은 재능을\n뛰어넘는다고\n믿으세요!!",
+      "state": "needs_review",
+      "speaker": "BBS-post-22; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:23:0",
+      "source": "オッス! テッシンッス\nユキさん はげましのことば\nありがとうッス!",
+      "translation": "안녕하십니까! 텟신임다\n유키님, 격려의 말씀\n감사함다!",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:23:1",
+      "source": "ユキさんのきたいに\nこたえるためにも やっぱり\nあきらめないことにしたッス",
+      "translation": "유키님의 기대에\n보답하기 위해서라도\n포기하지 않기로 했슴다",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:23:2",
+      "source": "それで じぶん\nバトルチップゲートをつかって\nみることにしたッスよ",
+      "translation": "그래서 저는\n배틀 칩 게이트를\n써 보기로 했슴다",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:23:3",
+      "source": "チップゲートをつかいだすと\nじょうきょうに おうじてチップを\nつかえるように なったッス",
+      "translation": "칩 게이트를 쓰기 시작하니\n상황에 맞춰 칩을\n쓸 수 있게 되었슴다",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:23:4",
+      "source": "これを つかいこなせるように\nなれば トーナメントせいはだって\nふかのう じゃないッスね!",
+      "translation": "이걸 잘 다루게 되면\n토너먼트 제패도\n불가능하지 않겠슴다!",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:23:5",
+      "source": "ゆめは ひろがるッスよ!!!",
+      "translation": "꿈이 커져 가는 검다!!!",
+      "state": "needs_review",
+      "speaker": "Tesshin-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:24:0",
+      "source": "テッシンさん こんにちは!",
+      "translation": "텟신님, 안녕하세요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-24; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:24:1",
+      "source": "ゲートで つかうチップは\nチップごとに しよう回数が\nきまってるコトはしってますよね?",
+      "translation": "게이트에 쓰는 칩은\n칩마다 사용 횟수가\n정해져 있다는 건 아시죠?",
+      "state": "needs_review",
+      "speaker": "BBS-post-24; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:24:2",
+      "source": "のこり回数が わずかになったら\nきんいろの プログラムくんに\nはなしかけてみてください",
+      "translation": "남은 횟수가 적어지면\n금색 프로그램군에게\n말을 걸어 보세요",
+      "state": "needs_review",
+      "speaker": "BBS-post-24; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:24:3",
+      "source": "そのばで\nバトルチップの しよう回数を\nかいふく してくれるんです!",
+      "translation": "그 자리에서\n배틀 칩의 사용 횟수를\n회복해 준답니다!",
+      "state": "needs_review",
+      "speaker": "BBS-post-24; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:24:4",
+      "source": "きんのプログラムくんは\nインターネットの\nどこかにいます",
+      "translation": "금색 프로그램군은\n인터넷\n어딘가에 있어요",
+      "state": "needs_review",
+      "speaker": "BBS-post-24; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:24:5",
+      "source": "きんいろは めだつから\nきっと みつかりますよ",
+      "translation": "금색은 눈에 띄니까\n분명 찾을 수 있을 거예요",
+      "state": "needs_review",
+      "speaker": "BBS-post-24; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:25:0",
+      "source": "チップゲートを\nつかっているあいだでも",
+      "translation": "칩 게이트를\n쓰고 있을 때도",
+      "state": "needs_review",
+      "speaker": "BBS-post-25; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:25:1",
+      "source": "どうじに つうじょうの\nチップフォルダのチップも\nくみあわせるといいよ",
+      "translation": "동시에 일반\n칩 폴더의 칩도\n함께 쓰면 좋아",
+      "state": "needs_review",
+      "speaker": "BBS-post-25; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:25:2",
+      "source": "より せんりゃくに\nはばが でるってわけさ!",
+      "translation": "전략의 폭이\n더 넓어지는 거지!",
+      "state": "needs_review",
+      "speaker": "BBS-post-25; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:26:0",
+      "source": "しょほてきな\nしつもん だからって\nわらうなよ・・・",
+      "translation": "기초적인\n질문이라고\n웃지 마...",
+      "state": "needs_review",
+      "speaker": "BBS-post-26; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:26:1",
+      "source": "「チップゲートで\n プログラムアドバンスは\n どうやって つかうんですか?」",
+      "translation": "「칩 게이트에서\n 프로그램 어드밴스는\n 어떻게 쓰나요?」",
+      "state": "needs_review",
+      "speaker": "BBS-post-26; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:26:2",
+      "source": "クソ! スゲーはずかしいぜ\nこれじゃ しょしんしゃ\nまるだし じゃないか!",
+      "translation": "젠장! 엄청 창피하네\n이러면 초보자라는 게\n너무 티 나잖아!",
+      "state": "needs_review",
+      "speaker": "BBS-post-26; author not inferred",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:27:0",
+      "source": "バトルのはなしがあれば\nかならず かけつけるオトコ\nコーエツにいさんだよ!",
+      "translation": "배틀 이야기가 나오면\n꼭 달려오는 남자\n코에츠 형이야!",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:27:1",
+      "source": "チップゲートのはなしで\nもりあがっているようだね!",
+      "translation": "칩 게이트 이야기로\n한창 신난 모양이네!",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:27:2",
+      "source": "チップゲートでの プログラム\nアドバンスのやり方だけど、\nそんなに ややこしくないんだ",
+      "translation": "칩 게이트에서 프로그램\n어드밴스를 쓰는 방법은,\n그렇게 복잡하지 않아",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:27:3",
+      "source": "セレクトボタンをおすと、\nチップのうけつけじかんが\nはじまって・・・",
+      "translation": "셀렉트 버튼을 누르면,\n칩을 입력할 수 있는\n시간이 시작되고...",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:27:4",
+      "source": "じゅんばんどおりに3つのバトル\nチップを ゲートにスロットイン!",
+      "translation": "순서대로 배틀 칩 3개를\n게이트에 슬롯 인!",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    },
+    {
+      "id": "7011F0:27:5",
+      "source": "これでOKさ\nチップゲートがないときと\nそんなに かわらないよね?",
+      "translation": "이걸로 OK야\n칩 게이트가 없을 때와\n그렇게 다르지 않지?",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete Gold-tournament BBS posts0..7/15..27: admission, busting-level advice, weekdays, rampaging Navi concern, tournament impressions, Tesshin encouragement/recovery and Chip Gate instructions",
+      "variable_context": "No dynamic name substitutions; each source post and page boundary retained. Quoted ASCII BBS placeholder IDs remain untouched; actual BBS width and post ordering runtime review pending."
+    }
+  ]
+}

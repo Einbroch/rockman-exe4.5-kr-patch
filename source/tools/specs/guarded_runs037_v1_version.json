@@ -1,0 +1,42 @@
+{
+  "generator_sha256": "cb1eb27ae7d5a4274dc23f761a534e4e0b37d198f60eab1a4a630a0d01a391de",
+  "changes": [
+    {
+      "base": "tools/run_normal037_v1.py",
+      "base_sha256": "f1f88575db7b54abd9796db8cf42bc719b8b5573f83b81a1c92f127a0f2f41c9",
+      "output": "tools/run_normal037_v2.py",
+      "output_sha256": "dcb99d9f5ab828cf24dd71a3f6f16daf0e4e0e44888a2017d85b211ed50726eb",
+      "edits": [
+        {
+          "before": "from cumulative_batch500 import read",
+          "after": "from native037_loaded_guards import arguments as loaded_guards\nfrom cumulative_batch500 import read",
+          "occurrences": 1
+        },
+        {
+          "before": "        if parent:cmd+=",
+          "after": "        cmd+=loaded_guards(rom,m)\n        if parent:cmd+=",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "base": "tools/run_qualified_native037_v1.py",
+      "base_sha256": "91afd27bebbfacac7901d62a087279d1bcdff5faf9d5b6bf553700a67d2e16e7",
+      "output": "tools/run_qualified_native037_v2.py",
+      "output_sha256": "2f900e7349a2b7e523276abba537e22d661a8a96b76eb41a8651108c278319e3",
+      "edits": [
+        {
+          "before": "from cumulative_batch500 import read",
+          "after": "from native037_loaded_guards import arguments as loaded_guards\nfrom cumulative_batch500 import read",
+          "occurrences": 1
+        },
+        {
+          "before": "    subprocess.run(cmd,cwd=ROOT,check=True)",
+          "after": "    cmd+=loaded_guards(rom,m)\n    subprocess.run(cmd,cwd=ROOT,check=True)",
+          "occurrences": 1
+        }
+      ]
+    }
+  ],
+  "scope": "Actual Mesen loaded-ROM header/stub/wrapper/typed70 descriptor sentinels added to each own037 run; not full loaded-ROM hashing"
+}

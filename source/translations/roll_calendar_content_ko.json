@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "65F11C",
+  "source_archive_sha256": "14dca653e425e88fcb327c77a2d980e0b9b36df859e9bbe2de100075ebcc94a9",
+  "consumer": "normal-dialogue",
+  "context": "Retains prior nine calendar drafts; adds normal script22 event-content selector and script23 friend-promise name prompt. Native input/committed records/basic names remain unchanged.",
+  "evidence": "analysis/tpl_baseline/65F11C.tpl; poc/runtime/roll-calendar-dialogue-v1-time/step_006.png; poc/runtime/calendar-promise-source-v1/step_002.png; poc/runtime/calendar-promise-source-v1/step_003.png",
+  "decision_evidence": "Primary-agent manually drafted two new questions from original literal and actual normal content/friend-promise selection. Prior nine drafts retained exactly; human wording review pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All controls, option placement, newline and Yes padding preserved.248 unselected slots, date insertion, input strings, basic names and storage unchanged.",
+  "units": [
+    {
+      "id": "65F11C:1:0",
+      "source": "どの日の スケジュールを\n入力する?",
+      "translation": "어느 날의 일정을\n등록할까?",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:2:0",
+      "source": "なにを とうろくするの?\n",
+      "translation": "무엇을 등록할까?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:2:1",
+      "source": "スケジュール\n",
+      "translation": "일정\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:2:2",
+      "source": "きねん日",
+      "translation": "기념일",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:20:0",
+      "source": "時間は何時からなの?",
+      "translation": "몇 시부터 시작해?",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:21:0",
+      "source": "どのタイプ?",
+      "translation": "어떤 종류야?",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:22:0",
+      "source": "どんな ないようなの?",
+      "translation": "어떤 내용이야?",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:23:0",
+      "source": "ダレとの やくそく?",
+      "translation": "누구와 한 약속이야?",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:24:0",
+      "source": "これで OK?\n\n",
+      "translation": "이렇게 하면 될까?\n\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:24:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "65F11C:24:2",
+      "source": "いいえ",
+      "translation": "아니오",
+      "state": "needs_review"
+    }
+  ],
+  "scope_variant": "content-promise-v1"
+}

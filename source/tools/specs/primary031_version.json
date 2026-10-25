@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "files": [
+    {
+      "base": "tools/build_development_patch_030.py",
+      "base_sha256": "802cbf2cd93944a63e0dfd4bef8b1d98c623c8ea14ad3630a70c587060b1a881",
+      "output": "tools/build_development_patch_031.py",
+      "edits": [
+        {
+          "before": "Version030 of the primary path; frozen024/025/026/027/028/029 precede030.",
+          "after": "Version031 of the primary path; frozen024/025/026/027/028/029/030 precede031."
+        },
+        {
+          "before": "    inputs030,summary030=load_inputs030(source)",
+          "after": "    inputs030,summary030=load_inputs030(source)\n    from layout500_inputs_031 import load_inputs as load_inputs031\n    from layout500_product_031 import compose_primary as compose_primary031,append_prior027 as append_prior027_031,append_prior028 as append_prior028_031,append_prior030 as append_prior030_031,finalize as finalize031\n    inputs031,summary031=load_inputs031(source)"
+        },
+        {
+          "before": "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)",
+          "after": "    for entry031,_ in inputs031:\n        asset031=read_json(ROOT/entry031['merged_asset']['path'])\n        needed.update(ch for u in asset031['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)"
+        },
+        {
+          "before": "        payload,record=compose_primary030(archive,payload,record,inputs030,work/'plugins')",
+          "after": "        payload,record=compose_primary030(archive,payload,record,inputs030,work/'plugins')\n        payload,record=compose_primary031(archive,payload,record,inputs031,work/'plugins')"
+        },
+        {
+          "before": "    append_prior027_030(source,archive_blob,products,records,selected,inputs027,inputs028,inputs029,inputs030,work/'plugins')\n    append_prior028_030(source,archive_blob,products,records,selected,inputs028,inputs029,inputs030,work/'plugins')\n    append_new_raw030(source,archive_blob,products,records,selected,inputs030,work/'plugins')",
+          "after": "    append_prior027_031(source,archive_blob,products,records,selected,inputs027,inputs028,inputs029,inputs030,inputs031,work/'plugins')\n    append_prior028_031(source,archive_blob,products,records,selected,inputs028,inputs029,inputs030,inputs031,work/'plugins')\n    append_prior030_031(source,archive_blob,products,records,selected,inputs030,inputs031,work/'plugins')"
+        },
+        {
+          "before": "    finalize030(source,target,result,inputs030,summary030,inputs024,summary024,inputs025,summary025,inputs026,summary026,inputs027,summary027,inputs028,summary028,inputs029,summary029)",
+          "after": "    finalize031(source,target,result,inputs031,summary031,inputs024,summary024,inputs025,summary025,inputs026,summary026,inputs027,summary027,inputs028,summary028,inputs029,summary029,inputs030,summary030)"
+        }
+      ]
+    }
+  ]
+}

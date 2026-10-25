@@ -1,0 +1,265 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "799A3C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/799A3C.tpl",
+    "sha256": "d8bff83c4cf60debba2cca4ea4ed4c0a41f02bdad1cd0a395bed10ff4304ba36"
+  },
+  "source_archive_sha256": "0317a78090433627786fd6130d95aade9b99a8cdc86036a04bb3b37172440900",
+  "consumer": "batch500-contextual-fist-brash-profile-passage",
+  "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-021",
+  "semantic_review": [
+    "Exactly500stable literals238fistprofile+241brashprofile+21passage;0options.2internalerrors remain inJapanese denominator;2profilecommas+3passageopeningquotes preserved other-review. NoROMwrites.",
+    "All original literals and fullcontrols read. School/family/friend/food/hobby/dream/crush/enemy/show/idol/subjects/wish/frequent/lost/mostlost/defeated/mostdefeated/chips variable roles preserved. No speakerguess frommotif/archiveadjacency/priorNumberMan screenshot.",
+    "68FB1C dreams23printDream refers realperson occupyingdreamrole,notprintIdol. 50wish variable renderedgoal,notdreamprint. 61/62callBufferRandomMPChip undefinedjump63;63mostlostchip versus69..71mostdefeatedchip. 62mostlostopponentselection distinctselfequipment.",
+    "68FB1C fist/steel/hotspring comparisons remain metaphor,13foodstrength characterclaim nothealthadvice,82chipsoothesstiffshoulder speculationnotmechanic;70gear-gift joke followedselfretraction;89giga danger retained. 100/1000/100panel/1extraMega tokens exact.",
+    "6BE52C 13three-meals-vsfavoritefood contradiction andselfquestion retained;15food-vsbattle notactualoptions;18hobby-forbattle claim;31mailattachment fantasy conditionalnotfeature.27crush vs29enemy identicalsource notcollapsed;30enemyattack question distinctsocialrelation.",
+    "6BE52C49wish calledweapon/50modificationhypothesis/51performanceUP followeduncertainretraction,not factualreward.69mostdefeatedopponent+chip vs65..67lastdefeatedopponent.87nicknameandMega twice retained.91giga dangerousandpulled-in sensationnotassumedDarkChip.",
+    "799A3C normalqualifiedpassage andexceptionitem route preserved;13signexplainsitem2requirement/item19exception;14itemTake19amount1notmerelycheck. Itemnamesnotreplacedbyassumednames;item7reverencegesture preserved. Normal0sets1437 vs2/14sets1460. WindMan8calms,Bass9erases;hiddensystem10/11 notshownspeaker.",
+    "Needs_review/NON-DISTRIBUTION/release_eligible=false;humanwording/voice/terms/consumer/layout/runtime/integration/keyboard/save/graphics/productclosure unresolved. NoROM/save/emulator/imagewrites."
+  ],
+  "units": [
+    {
+      "id": "799A3C:0:0",
+      "source": "オフィシャルトーナメントに\nさんかする しかくをもった\nかたですね・・・",
+      "translation": "오피셜 토너먼트에\n참가할 자격이 있는\n분이군요...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:0:1",
+      "source": "エントリーネームを\nしょうごうします・・・",
+      "translation": "참가 이름을\n대조하겠습니다...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:0:2",
+      "source": "・・・・・・ピキーン",
+      "translation": "......삐킹",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:0:3",
+      "source": "さま、\nどうぞ、おとおりください",
+      "translation": "님,\n통과해 주십시오",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:1:0",
+      "source": "すさまじい たつまきが\nみちを ふさいでいる!!",
+      "translation": "엄청난 회오리바람이\n길을 막고 있다!!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:2:1",
+      "source": "」、\nかくにんしました・・・\nお気をつけて いってらっしゃい",
+      "translation": "」,\n확인했습니다...\n조심해서 다녀오십시오",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:3:0",
+      "source": "なんとも りっぱな\n「",
+      "translation": "정말 훌륭한\n「",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:3:1",
+      "source": "」 だ\nおもわず 手をあわせたくなる",
+      "translation": "」로군\n절로 두 손을 모으게 된다",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:5:0",
+      "source": "大きな木だ・・・\n電脳世界にも みどりが\nひつようなのだ・・・",
+      "translation": "큰 나무다...\n전뇌세계에도 녹음이\n필요하다...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:6:0",
+      "source": "オフィシャルトーナメントに\nさんかする しかくをもった\nナビせんようつうろ",
+      "translation": "오피셜 토너먼트에\n참가 자격이 있는\n내비 전용 통로",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:6:1",
+      "source": "かんけいない かたの\nごりようは ごえんりょします",
+      "translation": "관계없는 분의\n이용은 사양합니다",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:8:0",
+      "source": "フシュー・・・\nあれくるう 風よ・・・\nしずまるのだ・・・",
+      "translation": "후슈우...\n거칠게 날뛰는 바람이여...\n잠잠해져라...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:8:1",
+      "source": "フシュー・・・",
+      "translation": "후슈우...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:9:0",
+      "source": "・・・フン、きえろ!!",
+      "translation": "...흥, 사라져라!!",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "origin_portrait": "Bass",
+      "portrait_visibility": "shown",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:10:0",
+      "source": "たつまきは、しずかに ゆっくりと\nきえていった・・・",
+      "translation": "회오리바람은 조용히 천천히\n사라졌다...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "hidden",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:11:0",
+      "source": "あらあらしいチカラに\nたつまきは かきけされた!!",
+      "translation": "거친 힘에\n회오리바람이 사라졌다!!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "hidden",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:13:0",
+      "source": "ここからさき、\n「",
+      "translation": "여기서부터는,\n「",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:13:1",
+      "source": "」 のない\nナビは はいれませんが、",
+      "translation": "」 미소지\n내비는 들어갈 수 없지만,",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:13:3",
+      "source": "」を\nおもちのかたは、れいがいてきに\nトビラをかいじょします",
+      "translation": "」 소지자는\n예외적으로\n문을 열어 드립니다",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:13:4",
+      "source": "・・・と、かかれている",
+      "translation": "...라고 쓰여 있다",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "799A3C:14:1",
+      "source": "」、\nかくにんしました・・・\nお気をつけて いってらっしゃい",
+      "translation": "」,\n확인했습니다...\n조심해서 다녀오십시오",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete actualTPL0..14 read. Officialtournament qualifiedpassage flag1345/1437,currentNavi insertion;item2 normalpass/item19exception used1consumed/1460. Tree/item7observations;WindMan8 (navi3) andBass9 (navi22) eliminate tornado differently;10/11portrait hiddennarration,12flag862. Unshownpassagevoices remain unestablished,notportrait transferredacrossjump.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "base": "tools\\verify_integrity037_v1.py",
+  "base_sha256": "8a08fc90fa5c8aff7c1bb02c9d256c3157e17e2673e8228791c163c140a1a4c8",
+  "changes": [
+    [
+      "037",
+      "038"
+    ],
+    [
+      "npc036",
+      "npc037"
+    ],
+    [
+      "classes=sorted({(p['source_class'],p['scene']) for p in n['placements']})",
+      "classes=[(kind,next(p['scene'] for p in n['placements'] if p['source_class']==kind)) for kind in sorted({p['source_class'] for p in n['placements']})]"
+    ],
+    [
+      "prior036-wrapper",
+      "prior037-wrapper"
+    ]
+  ],
+  "replacement_counts": [
+    11,
+    3,
+    1,
+    1
+  ],
+  "output": "tools\\verify_integrity038_v1.py",
+  "output_sha256": "f3e165a49e430bb973f8bbb1d481282aa1881d325cd520af403b6f4a13afcc2d",
+  "scope": "Actual038 full validator. Representative first descriptor in each of3 caller classes, all7 fields/native-target source boundaries/source pointer+LZ, stub/wrapper/prior037 chain/missing placement. Not every scene/index fault or malformed input. No corruption saved to disk."
+}

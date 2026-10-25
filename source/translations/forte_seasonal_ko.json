@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6D5A9C",
+  "source_archive_sha256": "56a0883fa115c2101bcd78178458caae82213a8ca43889afbc76199e7f933e2a",
+  "consumer": "normal-dialogue",
+  "context": "Forte seasonal/birthday dialogue; intro6D2180 rough contempt for human PET and destruction, same-group jack-in6D27A0 explicitly names フォルテ.EXE. Native roots038548 intro/038558 jack-in/03857C seasonal. Portrait92,110/3rows; global22,event buffer/loop unchanged; no nickname insertion. Normal unlock/date/gender/event routes unverified.",
+  "voice": "Tentative terse rough voice, haughty contempt, self-reliance and exact silence retained. Human terminology/wording/voice review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/6D2180.tpl; analysis/full_scope_v1/source_tpl/6D27A0.tpl; analysis/full_scope_v1/source_tpl/6D5A9C.tpl; native roots038548/038558/03857C",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All33 literals:30 prose,2 unchanged quotes,1 unchanged six-dot silence. IDs/source,numerals,newline counts/boundaries,21slots,commands preserved. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "NewYear means opening of another battle, not a warm greeting; explicit separate silence1:2 retained as six native dots.",
+    "Setsubun oni likeness is accepted from human perspective, unlike ElecMan denial. Valentine stealing/giving chocolate by force remains fictional harsh character speech, not a real-world recommendation.",
+    "Armor leads to mistaken battle-day interpretation; Tanabata wishes are achieved by own strength rather than prayer, not softened into wishing success.",
+    "Birthday merely recognizes date without adding congratulations or affection; festival contempt/year-end indifference and ellipses retained. NumberMan4649 approval not reused."
+  ],
+  "units": [
+    {
+      "id": "6D5A9C:1:0",
+      "source": "あたらしい 年が\nあけたな・・・",
+      "translation": "새로운 해가\n밝았군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:1:1",
+      "source": "それはオレに とって、\nあらたなる たたかいの\nまくあけを イミする",
+      "translation": "그건 내게,\n새로운 싸움의\n막이 오른다는 뜻이다",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:1:2",
+      "source": "・・・・・・",
+      "translation": "・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:2:0",
+      "source": "せつぶん だ・・・",
+      "translation": "절분이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:2:1",
+      "source": "マメまき・・・?",
+      "translation": "콩 뿌리기・・・?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:2:2",
+      "source": "フン、人間にとっては、\nオレは オニとそう\nかわりはあるまい・・・",
+      "translation": "흥,인간에게는,\n나도 도깨비와 별로\n다르지 않겠지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:3:0",
+      "source": "バレンタインデーだ\n・・・・・・",
+      "translation": "발렌타인데이다\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:3:1",
+      "source": "なにをまっている?\nじぶんの すきな\nオンナのチョコレートは",
+      "translation": "뭘 기다리는 거냐?\n네가 좋아하는\n여자의 초콜릿은",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:3:2",
+      "source": "みずからの チカラで\nうばうものだろう?",
+      "translation": "스스로의 힘으로\n빼앗는 것 아니냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:4:0",
+      "source": "バレンタインデーだ\n・・・・・・",
+      "translation": "발렌타인데이다\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:4:1",
+      "source": "すきなオトコが\nいるなら、",
+      "translation": "좋아하는 남자가\n있다면,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:4:2",
+      "source": "チカラづくで でも、\nチョコレートを\nわたすんだな・・・",
+      "translation": "힘으로라도,\n초콜릿을\n건네도록 해라・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:5:0",
+      "source": "ひなまつりだ・・・",
+      "translation": "히나마쓰리다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:5:1",
+      "source": "・・・オンナのコの\nまつりだ?",
+      "translation": "・・・여자아이의\n축제라고?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:5:2",
+      "source": "・・・フン、くだらん!",
+      "translation": "・・・흥,시시하군!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:6:0",
+      "source": "こどもの日だ・・・",
+      "translation": "어린이날이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:6:1",
+      "source": "あちこちに ヨロイが\nかざってあったが、",
+      "translation": "여기저기 갑옷이\n장식돼 있더군,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:6:2",
+      "source": "どうやら、今日は\nたたかいの日らしいな",
+      "translation": "보아하니,오늘은\n싸움의 날인 모양이군",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:7:0",
+      "source": "たなばた だ・・・",
+      "translation": "칠석이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:7:1",
+      "source": "・・・たんざくに\nねがいを・・・?",
+      "translation": "・・・소원 종이에\n소원을・・・?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:7:2",
+      "source": "オレは\nねがいごとは しない",
+      "translation": "난\n소원을 빌지 않는다",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:7:3",
+      "source": "みずからの ねがいは\nみずからのチカラで\nかなえるものだからだ",
+      "translation": "자신의 소원은\n자신의 힘으로\n이루기 때문이지",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:8:0",
+      "source": "クリスマスイヴだ・・・",
+      "translation": "크리스마스이브다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:9:0",
+      "source": "クリスマスだ・・・",
+      "translation": "크리스마스다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:10:0",
+      "source": "大みそかだ・・・",
+      "translation": "섣달그믐이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:10:1",
+      "source": "人間どもが 大さわぎ\nしているが、",
+      "translation": "인간들이 야단을\n떨고 있지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:10:2",
+      "source": "フン、今年が今日で\nおわろうと オレには\nかんけいない・・・",
+      "translation": "흥,오늘로 올해가\n끝나든 내겐\n상관없다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:11:0",
+      "source": "フン、今日は\nキサマの たんじょう日\nだったな・・・",
+      "translation": "흥,오늘은\n네놈의 생일\n이었지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:12:0",
+      "source": "そうりつきねん日\nだったな・・・",
+      "translation": "개교 기념일\n이었지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D5A9C:19:0",
+      "source": "だぞ・・・",
+      "translation": "이다・・・",
+      "state": "needs_review"
+    }
+  ]
+}

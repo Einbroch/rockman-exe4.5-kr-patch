@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "state": "needs_review",
+  "font": "external/fonts/Galmuri7-v2.40.4.bdf",
+  "font_sha256": "2a6fd090ac6d24f7392d6cc49db02ce54b9d1c01048bf8c97cbcdbc5a885cb15",
+  "wording_source": "translations/batch500_017_navi_names_778A4C_draft_ko.json",
+  "scope": "All 21 native 32x8 card-name sprites, original order; no unlocked-Navi or portrait changes",
+  "names": ["록맨","롤","거츠맨","윈드맨","서치맨","파이어맨","썬더맨","브루스","넘버맨","메탈맨","정크맨","아쿠아맨","우드맨","스타맨","섀도맨","나이트맨","네이팜맨","아이스맨","일렉맨","플랜트맨","포르테"]
+}

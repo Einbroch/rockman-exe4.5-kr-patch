@@ -1,0 +1,19 @@
+{
+  "schema":1,
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "consumer":"folder-seven-row-tilemap",
+  "evidence":"analysis/exe45_chip_folder_lifetime_v1.json",
+  "pool":{"offset":7754128,"bytes":2437,"scripts":256,"sha256":"11251d95aed193abd08d0e609d1486f7bfa603c2774213da80aa1c8b4aef6f73"},
+  "install":{"offset":248684,"expected_hex":"0906090e4900415a401800f01bf8","continuation":134466427},
+  "native_parser":134466481,
+  "copy_helper":134220119,
+  "buffer":{"start":33728128,"rows":7,"stride":32,"cells":8},
+  "vram":{"char_base":100679680,"start":100696128,"bytes":3584},
+  "protected_code":[
+    {"start":248608,"end":248804,"sha256":"ebb6326584b23f5150e07a13b1318b16b569fc4b3cfa7b38581d0799465f336d"},
+    {"start":252024,"end":252286,"sha256":"4c5cb54f9f14ba9adf7a9e303eecaabf3b85b0bca74b4b443306c386c1b72665"}
+  ],
+  "lifetime":"Experimental reuse after folder initializer completes; first 64 bytes excluded. Clear tags at native init completion before first row. Observed folder route has no private-cell map references but initialization overwrites bank; no global ownership claim.",
+  "limits":["runtime pending on exact new ROM","folder/list/empty-list/exit/library/input/reentry and full changing workload regressions required","native resident font +16 kept for Latin/numerals, removed only for Hangul private cells"]
+}

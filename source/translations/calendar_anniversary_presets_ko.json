@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6368E8",
+  "source_archive_sha256": "816d719a806e861faf90bdf61bb960ff20eb965001871274387fce2542711c74",
+  "consumer": "fixed-cell-big",
+  "scope_variant": "anniversary-presets-v1",
+  "parent_asset": {
+    "path": "translations/calendar_anniversary_labels_ko.json",
+    "sha256": "68b7495815a8e69e1f2130115f0fe8d6a5d731a2d53817f30d14e3beca7f96a0",
+    "carry_units": 5
+  },
+  "context": "Normal anniversary confirmation33 and default birthday/school names74/75; all parent units read-only.",
+  "evidence": "poc/runtime/gutsman-calendar-anniversary-v1-anniversary-self-accept/step_002.png; poc/runtime/gutsman-calendar-anniversary-v1-anniversary-school-accept/step_002.png",
+  "decision_evidence": "Development drafts following established GutsMan calendar voice and existing anniversary selector labels. Human wording review pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "development input; explicit --gutsman-calendar-anniversary-confirmation",
+  "protected_policy": "Retain parent projection and control skeleton; confirmation keeps two newlines and two Yes padding spaces. Names keep E5 terminator and fit 22-byte field/10 logical cells.",
+  "units": [
+    {
+      "id": "6368E8:0:0",
+      "source": "とうろく    よていをみる  さくじょ    ",
+      "translation": "등록      일정 보기   삭제      ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:60:0",
+      "source": "TVばんぐみともだちと約束ごはんじゅくそのた?????",
+      "translation": "TV 방송 친구와 약속 식사 학원 기타 ?????",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:62:0",
+      "source": "ごはん",
+      "translation": "식사",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:63:0",
+      "source": "じゅく",
+      "translation": "학원",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:73:0",
+      "source": "自分のたんじょう日       そうりつきねん日        そのた             ",
+      "translation": "내 생일            개교기념일           기타              ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:74:0",
+      "source": "たんじょう日",
+      "translation": "생일",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:75:0",
+      "source": "そうりつきねん日",
+      "translation": "개교기념일",
+      "state": "needs_review"
+    }
+  ]
+}

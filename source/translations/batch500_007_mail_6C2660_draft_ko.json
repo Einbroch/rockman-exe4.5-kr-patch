@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6C2660",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6C2660.tpl",
+    "sha256": "36121b42f7699e25975be5bbcd7d3d5c0a47ad7359491d8bb53b7c49cec58d65"
+  },
+  "source_archive_sha256": "43b5cb615d30b65bc4a85f4e90a9c22c5e9ce7954addf8fdd25dd742e3345a4b",
+  "consumer": "batch500-schedule-menu-mail-greeting",
+  "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+  "voice": "Source-conditioned manual draft; explicit menu portraits only; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands, variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-007",
+  "semantic_review": [
+    "Batch500-007 exactly500 stable literals: schedule477/mail14/greeting9; not500 unique sentences.",
+    "Manually authored per source ID. Complete6811F0/6C2660/698424 and all other archive literals/control differences inspected. No source-string prose replacement, ROM/save writes, human approval or release eligibility.",
+    "No portrait or named-speaker assignment.14 separate mail alerts; nickname1..3 retained, !! remains unselected original and mail flags/call/timing/sound/box anchors unchanged."
+  ],
+  "units": [
+    {
+      "id": "6C2660:1:1",
+      "source": "、\nメールです!!",
+      "translation": ",\n메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:2:1",
+      "source": "、\nメールです!!",
+      "translation": ",\n메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:3:1",
+      "source": "、\nメールです!!",
+      "translation": ",\n메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:4:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:5:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:6:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:7:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:20:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:21:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:22:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:23:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:24:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:25:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "6C2660:26:1",
+      "source": "メールです!!",
+      "translation": "메일이에요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: mail1..7/20..26; quick alert no mugshot. Nickname only1..3; callTournamentReceiveMail only2; flag-clear680/681/623..626 and mail-add9056..9062 intact.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6AE834",
+  "source_archive_sha256": "a6f7058c085d4c5e3a4f482f3c113af6c32b070862d7af76eaa899887e00b464",
+  "consumer": "normal-dialogue",
+  "context": "ShadowMan seasonal/birthday conversations; intro6AA1A0 names シャドーマン with archaic せっしゃ/そうろう. Native intro root0383E0/seasonal+52 root038414. Portrait92,110/3rows; script4 native jump3 protected; event loop unchanged; no nickname insertions. Normal unlock/date/branch/event routes unverified.",
+  "voice": "Tentative archaic 소인/그대/일세/구먼 voice reflecting source historical register and cultural unfamiliarity; wording not human-approved.",
+  "evidence": "analysis/full_scope_v1/source_tpl/6AA1A0.tpl; analysis/full_scope_v1/source_tpl/6AE834.tpl; native roots0383E0/038414",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All41 literals including2 unchanged quotes; IDs/source,numerals,newline counts/boundaries,21slots,commands preserved. Nonliteral script4 jump3 remains native bytes. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "バテレン retains foreign Christian priest meaning as 서양 신부들; not generic Western festival without religious attribution. Santa as Western ninja and undetectable presence keep source joke.",
+    "March3 peach festival/May5 Japanese Tango and carp streamers retain Japanese calendar/culture; carp waterfall-to-dragon legend and parents wishing sons success remain connected across six pages.",
+    "Birthday responsibility caution and NewYear greeting importance retained. Register/culture/terminology need human review; NumberMan4649 approval not reused."
+  ],
+  "units": [
+    {
+      "id": "6AE834:1:0",
+      "source": "しんねん、\nあけまして おめでとう",
+      "translation": "새해가 밝았군,\n복 많이 받게",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:1:1",
+      "source": "せっしゃが いうと、\nなんとも こっけいに\n見えるかもしれんが、",
+      "translation": "소인이 말하니,\n어쩐지 우스꽝스러워\n보일지도 모르나,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:1:2",
+      "source": "しんねんの あいさつは\nだいじ だからな\nしっかりせねば・・・",
+      "translation": "새해 인사는\n중요하니 말일세\n제대로 해야지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:2:0",
+      "source": "今日は せつぶんだ・・・",
+      "translation": "오늘은 절분일세・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:2:1",
+      "source": "あぁ、ニホンこらいの\nふうしゅうは\nよいものでござる・・・",
+      "translation": "아아, 일본 고래의\n풍습은\n좋은 것이로군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:2:2",
+      "source": "この でんとうは\nまもっていかなくては\nならぬな・・・",
+      "translation": "이 전통은\n지켜 나가야\n하겠구먼・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:3:0",
+      "source": "今日は バテレンの\nおまつり、\nバレンタインデイか・・・",
+      "translation": "서양 신부들의\n축제,\n발렌타인데이군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:3:1",
+      "source": "オナゴが オトコに\nチヨコレイトを わたして\nおもいをつたえる",
+      "translation": "아녀자가 사내에게\n초콜릿을 건네어\n마음을 전한다니",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:3:2",
+      "source": "それは それで\nふぜいが あるのぉ・・・",
+      "translation": "그건 그것대로\n운치가 있구먼・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:5:0",
+      "source": "今日は 3月3日、\nもものせっくだ・・・",
+      "translation": "오늘은 3월3일,\n복숭아꽃 명절・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:5:1",
+      "source": "こういう イベントが",
+      "translation": "이런 행사가",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:5:2",
+      "source": "げんだい人が\nわすれかけている",
+      "translation": "현대인이\n잊어 가고 있는",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:5:3",
+      "source": "ニホンの ココロを\nおもいださせてくれる",
+      "translation": "일본의 마음을\n떠올리게 해 주지",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:6:0",
+      "source": "今日は 5月5日の\nたんごのせっくだ・・・",
+      "translation": "오늘은 5월5일의\n일본 단오일세・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:6:1",
+      "source": "そもそも\nコイのぼり は、",
+      "translation": "본래\n잉어 깃발은,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:6:2",
+      "source": "コイがたきを のぼって\nりゅうになるという\nでんせつから、",
+      "translation": "잉어가 폭포를 올라\n용이 된다는\n전설에서 유래해,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:6:3",
+      "source": "だんしの しゅっせを\nイミする・・・",
+      "translation": "사내아이의 출세를\n뜻하지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:6:4",
+      "source": "コイのぼりには、\nわが子を おもう",
+      "translation": "잉어 깃발에는,\n자식을 생각하는",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:6:5",
+      "source": "おやの ねがいが\nこめられているのだ",
+      "translation": "부모의 소망이\n담겨 있는 것이지",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:7:0",
+      "source": "今日は、たなばた だな",
+      "translation": "오늘은,칠석이구먼",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:7:1",
+      "source": "こんやは そらを\n見上げてみれば よかろう",
+      "translation": "오늘 밤에는 하늘을\n올려다보면 좋겠군",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:7:2",
+      "source": "げんだいでは そらを\n見る きかいも\nへったろうからな",
+      "translation": "요즘에는 하늘을\n보는 기회도\n줄었을 테니 말일세",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:8:0",
+      "source": "今日は、\nクリスマスイヴだな・・・",
+      "translation": "오늘은,\n크리스마스이브군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:8:1",
+      "source": "イヴの よるには\nサンタクロースが\nやってくるというが・・・",
+      "translation": "이브의 밤에는\n산타클로스가\n찾아온다 하던데・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:8:2",
+      "source": "せいようの シノビか?",
+      "translation": "서양의 닌자인가?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:9:0",
+      "source": "今日は クリスマスだ",
+      "translation": "오늘은 크리스마스일세",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:9:1",
+      "source": "サンタクロースは\nきたのか・・・?",
+      "translation": "산타클로스는\n왔던 것인가・・・?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:9:2",
+      "source": "せっしゃに ケハイすら\nかんじさせんとは・・・",
+      "translation": "소인도 기척조차\n느끼지 못하다니・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:10:0",
+      "source": "今日は おおみそか・・・\nことしも くれていくな\n・・・・・・",
+      "translation": "오늘은 섣달그믐・・・\n올해도 저무는구먼\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:10:1",
+      "source": "こんやは じょやのカネを\nききながら ゆっくりと\n年をこしたいものだ",
+      "translation": "오늘 밤 제야의 종을\n들으며 느긋하게\n새해를 맞고 싶군",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:11:0",
+      "source": "今日は おぬしの\nたんじょう日か・・・",
+      "translation": "오늘은 그대의\n생일인가・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:11:1",
+      "source": "おめでとうと\nいっておこうか・・・",
+      "translation": "축하한다고\n말해 두겠네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:11:2",
+      "source": "1つ年を とるごとに\nせおう せきにんが\nふえていくものだ・・・",
+      "translation": "1살씩 먹을수록\n짊어져야 할 책임이\n늘어나는 법이지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:11:3",
+      "source": "たんじょう日\nだからといって、",
+      "translation": "생일이라고\n해서,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:11:4",
+      "source": "うかれてばかりは\nおれぬぞ・・・",
+      "translation": "들떠 있기만은\n할 수 없네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:12:0",
+      "source": "今日は、\nそうりつきねん日だ・・・",
+      "translation": "오늘은,\n창립 기념일이군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:12:1",
+      "source": "おぬし、\n今日は やすみか?",
+      "translation": "그대,\n오늘은 쉬는가?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "6AE834:19:0",
+      "source": "だぞ・・・",
+      "translation": "일세・・・",
+      "state": "needs_review"
+    }
+  ]
+}

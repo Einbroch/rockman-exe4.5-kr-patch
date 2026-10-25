@@ -1,0 +1,144 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "79C084",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/79C084.tpl",
+    "sha256": "686d37ef8b0cdb106fc16c3bda00e62c36c7146d090aaa246b6712d5a9af055d"
+  },
+  "source_archive_sha256": "675f717bcb89ab778739a07fd6e8be733c706be5dd992b1357808b7742808bcc",
+  "consumer": "batch500-contextual-obstacles-inspection-tournament",
+  "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-037",
+  "semantic_review": [
+    "Exactly500stablecatalog Japanese literals across16completeTPL archives;457obstacle/gate/inspection/reward literals,19Purple tournament4 host,24Yellow tournament5 host.8nativechoice literals,3one-dot animation literals and1temporary label. Source authority and denominator protected.",
+    "All16complete localTPLs manually read before prose drafting,including non-Japanese split quotes and AM/PM schedule literals outside selection. Each repeated source independently scoped to stableID,localportrait/control context;no source-string translation replacement.",
+    "needs_review development-draft NON-DISTRIBUTION releasefalse. Source IDs/text/TPL/archive hashes,commands,newlines/padding and original/unselected source unchanged;ROM/save/emulator/image/keyboard unchanged.",
+    "Dynamic currentNavi and item/chip/buffer insertions remain in source order. Name/item suffix-independent colon/comma and possessive phrasing avoid fixed 은/는/을/를 after unknown inserted values. Consumer capacity and name redisplay still require runtime verification.",
+    "Keep source numbers10000tax-inclusiveZenny,20fragment payment,2/3/4fragment rewards,Darkloid1/2 and second/third placement. Internal rewardamounts/chipcodes/flags remain original;payment/consumed-item/checked-chip distinctions preserved.",
+    "NumberMan/ProtoMan/ShadowMan speakers established by local portraits only;WindMan/Bass and WoodMan/PlantMan gentle versus force outcomes distinct. Disembodied vampire-bound gate not assigned to ShadeMan.",
+    "Existing GutsMan 거스 endings used as wording candidates;earlier variant 거츠 and Net/Network wordings remain human terminology/voice review scope,not silently harmonized. Attack names,phonetic cries and itemnames are candidates pending human review.",
+    "Japanese omote strongest-title rendered as normalInternet scope versus Undernet,not surface-world location. Explicit ShadeMan victory gate and title gate remain different. Native temporary NormalTrader label translated as temporary label,not treated as newly workingfeature.",
+    "Purple host casual,Yellow host polite-to-shout switch kept;entry/decline/win-completed branches and dailytime4windows preserved. AM/PM notation/numbers unchanged;not converted to different schedule.",
+    "Static glyph/codec/skeleton tests and132px heuristic not semanticapproval,actualconsumercapacity orscreen/runtime proof. Complete drafting andcontrol/font/layout/insertion readiness precede cumulativeROM andscreen/save/name/graphics/releaseQA."
+  ],
+  "units": [
+    {
+      "id": "79C084:0:0",
+      "source": "われ、きゅうけつきの\nじゅばくより\nときはなたれたり・・・",
+      "translation": "나는, 흡혈귀의\n주박에서\n풀려났노라...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+      "variable_context": "Native currentNavi/item/chip/buffer insertions,checkNavi/Item/flags,rewards/consumption,tournament/choice/wait branches preserved. Inserted-value particles avoided;runtime capacity/routing unverified."
+    },
+    {
+      "id": "79C084:2:0",
+      "source": "大きな木だ・・・\n電脳世界にも みどりが\nひつようなのだ・・・",
+      "translation": "커다란 나무다...\n전뇌 세계에도 녹음이\n필요한 것이다...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+      "variable_context": "Native currentNavi/item/chip/buffer insertions,checkNavi/Item/flags,rewards/consumption,tournament/choice/wait branches preserved. Inserted-value particles avoided;runtime capacity/routing unverified."
+    },
+    {
+      "id": "79C084:3:0",
+      "source": "なにも はいってはいないが、\nしかし、ジッとながめていると、",
+      "translation": "안에는 아무것도 없지만,\n가만히 들여다보고 있으면,",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+      "variable_context": "Native currentNavi/item/chip/buffer insertions,checkNavi/Item/flags,rewards/consumption,tournament/choice/wait branches preserved. Inserted-value particles avoided;runtime capacity/routing unverified."
+    },
+    {
+      "id": "79C084:3:1",
+      "source": "カンオケの中に\nひきずりこまれてしまいそうだ",
+      "translation": "관 속으로\n끌려 들어갈 것 같다",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+      "variable_context": "Native currentNavi/item/chip/buffer insertions,checkNavi/Item/flags,rewards/consumption,tournament/choice/wait branches preserved. Inserted-value particles avoided;runtime capacity/routing unverified."
+    },
+    {
+      "id": "79C084:4:0",
+      "source": "ウラインターネットのヤミに\nとけこむように、",
+      "translation": "언더 인터넷의 어둠에\n녹아들 듯이,",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+      "variable_context": "Native currentNavi/item/chip/buffer insertions,checkNavi/Item/flags,rewards/consumption,tournament/choice/wait branches preserved. Inserted-value particles avoided;runtime capacity/routing unverified."
+    },
+    {
+      "id": "79C084:4:1",
+      "source": "じゅうこうな つくりの\nカンオケが よこたわっている\n・・・・・・",
+      "translation": "육중하게 만들어진\n관이 놓여 있다\n......",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+      "variable_context": "Native currentNavi/item/chip/buffer insertions,checkNavi/Item/flags,rewards/consumption,tournament/choice/wait branches preserved. Inserted-value particles avoided;runtime capacity/routing unverified."
+    },
+    {
+      "id": "79C084:6:0",
+      "source": "でんのうBBSだ",
+      "translation": "전뇌 BBS다",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+      "variable_context": "Native currentNavi/item/chip/buffer insertions,checkNavi/Item/flags,rewards/consumption,tournament/choice/wait branches preserved. Inserted-value particles avoided;runtime capacity/routing unverified."
+    },
+    {
+      "id": "79C084:7:0",
+      "source": "われ、きゅうけつきの\nチカラに しばられしものなり",
+      "translation": "나는, 흡혈귀의\n힘에 묶인 존재이니라",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+      "variable_context": "Native currentNavi/item/chip/buffer insertions,checkNavi/Item/flags,rewards/consumption,tournament/choice/wait branches preserved. Inserted-value particles avoided;runtime capacity/routing unverified."
+    },
+    {
+      "id": "79C084:7:1",
+      "source": "ヒツギにねむりし\nきゅうけつきを ほうむり\nわれを ときはなて・・・",
+      "translation": "관 속에 잠든\n흡혈귀를 쓰러뜨려\n나를 풀어 다오...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "ShadeMan-area gate before/after victory4270 and coffin902/4293 branches,BBS3. Archaic disembodied gate not assigned to ShadeMan. Empty coffin versus heavy coffin in Undernet darkness remain distinct.",
+      "variable_context": "Native currentNavi/item/chip/buffer insertions,checkNavi/Item/flags,rewards/consumption,tournament/choice/wait branches preserved. Inserted-value particles avoided;runtime capacity/routing unverified."
+    }
+  ]
+}

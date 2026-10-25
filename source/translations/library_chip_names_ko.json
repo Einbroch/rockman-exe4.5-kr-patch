@@ -1,0 +1,22 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "765190",
+  "source_archive_sha256": "11251d95aed193abd08d0e609d1486f7bfa603c2774213da80aa1c8b4aef6f73",
+  "consumer": "library-seven-row-tilemap",
+  "context": "Three acquired chip names observed in the standard library; source scripts 1, 4, 15 are visible library numbers 1, 4, 5. Eight 8-pixel cells per row. Other consumers retain original names.",
+  "review": {"wording": "needs_review", "layout": "needs_runtime_review", "release_eligible": false},
+  "protected_policy": "Clone the archive for the guarded library selector only. Preserve all 253 unselected scripts and all original shared pool pointers. Keep E5 termination and the numeric suffix 1. No shortened wording imposed by a repertoire budget.",
+  "source_script_hex": {"1": "115a233ae5", "4": "0e0b165b821ee5", "15": "4a33103a02e5"},
+  "wordings": [
+    {"id": "library.chip.cannon", "translation": "캐논", "state": "needs_review"},
+    {"id": "library.chip.airshot", "translation": "에어슛", "state": "needs_review"},
+    {"id": "library.chip.vulcan1", "translation": "발칸1", "state": "needs_review"}
+  ],
+  "units": [
+    {"id": "765190:1:0", "source": "キャノン", "wording_id": "library.chip.cannon"},
+    {"id": "765190:4:0", "source": "エアシュート", "wording_id": "library.chip.airshot"},
+    {"id": "765190:15:0", "source": "バルカン1", "wording_id": "library.chip.vulcan1"}
+  ]
+}

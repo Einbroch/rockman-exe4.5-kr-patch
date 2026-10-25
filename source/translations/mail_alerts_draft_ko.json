@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "65B220",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/65B220.tpl",
+    "sha256": "48c88004829d329876e21e0dfd48c6ce392e6f3a36bbeebfbb81bf8feb15e301"
+  },
+  "source_archive_sha256": "3b5b42c23cd14b72e3bcc16265175c8e60b1bf7a23ed079e5f938f47078eb9a3",
+  "consumer": "mail-alerts",
+  "context": "14 mail arrival literals; 14 punctuation alerts remain source; scripts1..3 insert nickname,4..7 clear mail event flags,20..26 add distinct mail flags.",
+  "voice": "Plain friendly mail notice; no caller-derived speaker identity established, not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve nickname/capitalization, flag3585, clear flags680/681/623..626, tournament receive call, add flags8904..8910, sound155 twice and wait96 twice, quick-box coordinates/waitHold, literal punctuation alerts.",
+  "semantic_review": [
+    "Name plus comma preserves direct address without assuming name ending; no added vocative or actor identity.",
+    "Tournament receipt in script2 is not reduced to notification-only behavior; original call and clear flag680 retained.",
+    "Mail flags8904..8910 remain independent. Source contains no title or sender; none inferred.",
+    "No live arrival/tournament/mail read flag/nickname rendering/quick-box screen/save verification; static draft only."
+  ],
+  "units": [
+    {
+      "id": "65B220:1:1",
+      "source": "、\nメールだよ!!",
+      "translation": ",\n메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:2:1",
+      "source": "、\nメールだよ!!",
+      "translation": ",\n메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:3:1",
+      "source": "、\nメールだよ!!",
+      "translation": ",\n메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:4:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:5:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:6:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:7:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:20:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:21:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:22:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:23:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:24:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:25:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    },
+    {
+      "id": "65B220:26:1",
+      "source": "メールだよ!!",
+      "translation": "메일이야!!",
+      "state": "needs_review",
+      "speaker": "unshown-mail-alert-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box mail alerts scripts1..7 and20..26; tournament receive call in2 and distinct mail flags retained; no mugshot.",
+      "variable_context": "Player nickname precedes comma in1..3, no Korean vocative particle added. Nickname width/repertoire/runtime remains unverified."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "base": "tools\\bench_tail038_v1.py",
+  "base_sha256": "070bed2c81a387e6ff39e949a7c87d49e6e1784e06bba0bb5436a3c79c64cea3",
+  "changes": [
+    [
+      "0x06016900",
+      "0x02013E50"
+    ],
+    [
+      "EWRAM/VRAM",
+      "two EWRAM blocks"
+    ],
+    [
+      "tools/bench_tail038_v1.py",
+      "tools/bench_tail038_v2.py"
+    ]
+  ],
+  "replacement_counts": [
+    5,
+    1,
+    1
+  ],
+  "output": "tools\\bench_tail038_v2.py",
+  "output_sha256": "37beae35e2d89564700495a8798d4b1518ed8e0cc2da0c64928253cb34b12116",
+  "reason": "Original5544E LDR points at literal55464=02013E50, not adjacent unused06016900 word. v1 domain check rejected execution before any report/ROM output. Preserve strict native fill-domain enforcement."
+}

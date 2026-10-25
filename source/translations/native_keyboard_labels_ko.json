@@ -1,0 +1,18 @@
+{
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "font": "external/fonts/Galmuri7-v2.40.4.bdf",
+  "font_sha256": "2a6fd090ac6d24f7392d6cc49db02ce54b9d1c01048bf8c97cbcdbc5a885cb15",
+  "pages": [
+    ["가타카나", "기호", "오른쪽", "왼쪽", "공백", "확인"],
+    ["히라가나", "기호", "오른쪽", "왼쪽", "공백", "확인"],
+    ["히라가나", "가타카나", "오른쪽", "왼쪽", "공백", "확인"]
+  ],
+  "source_pages": [
+    ["カタカナ", "きごう", "すすむ", "もどる", "スペース", "決定"],
+    ["ひらがな", "きごう", "すすむ", "もどる", "スペース", "決定"],
+    ["ひらがな", "カタカナ", "すすむ", "もどる", "スペース", "決定"]
+  ],
+  "state": "needs_review",
+  "context": "Native kana keyboard command graphics only. Preserve kana selection, actions, committed bytes and save ABI. Seven-pixel unscaled BDF letterforms fit four-syllable script names inside the original 28-pixel command area."
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A87FC",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A87FC.tpl",
+    "sha256": "b7bf18a39a3a58c0c54812219113fdadfc2ff3418644623f9e39ab4bd2b6d1d7"
+  },
+  "source_archive_sha256": "053c28b5bbb4ca90f23bb7d0ba0a6de7663365927d150007720c3f1615cb4b9a",
+  "consumer": "batch500-contextual-battle-labels-npcs",
+  "context": "PurpleNavi wishes toenter tournament;not actualregistration or eligibilitypromise.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-040",
+  "semantic_review": [
+    "Exactly500Japanese stable catalog literals in10archives:306battlecommand/escape,42BBSreactions,45arealabels,16attacklabels,33itemnames,5gate,53NPC. 218playerchoices and94UIlabels;6splitwaitdots are presentationunits not sentences. Counts do not equal unique translatedsentences.",
+    "Manual context-conditioned drafting after all500source literals read. Full9other TPLs and battle command skeleton0..31/fulltemplate4..7 plus exactcontrolcomparisons32..95 with allportraits identified. No rule-generated prose,sourceIDs/rawtext/TPL/payload immutable.",
+    "7097D8:0:0 internal falsemessage excluded from this draftedselection,not removed from remaining denominator. Unresolved combinedinput labels70904C and minigame combinednames71BE98 untouched. Source placeholders/internalconsumers must be inspected before selection.",
+    "needs_review development-draft NON-DISTRIBUTION releasefalse;no ROM/save/emulator/image/keyboard changes. Passing syntax/glyph/codec/skeleton/132px heuristics is not semantic approval,actual consumer capacity or runtime.",
+    "Sourcebattle WoodMan repeats in65..95 minusstrategy scripts preserved;not silently replaced withStar/Shadow/Knight/Napalm/Ice/Elec/Plant/Bass portraits or otherweapons. Possibleunreached/placeholder/dispatch scope remains unresolved. No reachability claim from extraction alone.",
+    "EscapeNettoaddress retained;success/failure/prohibitedescape separate,wait18 and splitdots preserved. Strategypermission vsactualcommands,pursuitvsrowavoidance,Windpushvssuction,Proto2gearoptions,chipwait and BSeparate/disableB unchanged.",
+    "BBS21explicitNavi voices;newposts probabilistic vsnone. Item/area/attacklabel names are draftcandidates,crossbatch terminology/spacing not auto-normalized;officialapproval/humanreview pending.",
+    "Gateitem3/flag1713 and dynamic currentNavi/item preserved;fixedvariableobjectparticles avoided,playernamesuffix의 HP has no받침dependency. Optionnewline/leading/trailingpadding immutable. Actual insertedname demand and runtime capacity pending.",
+    "Internet5/8/7 directions,weekend lackofpeople,WindsameNavi3,virusbreeder battle starts and sourceglobals unchanged. Water2hydrogen1oxygen,sleeplearning question versus assertion,lose/win perspectives preserved. No battles/items/currency/save effects executed."
+  ],
+  "units": [
+    {
+      "id": "7A87FC:0:0",
+      "source": "ボクも トーナメントに\nデてみたいなあ・・・",
+      "translation": "나도 토너먼트에\n나가 보고 싶다...",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "PurpleNavi wishes toenter tournament;not actualregistration or eligibilitypromise.",
+      "variable_context": "Native playername/currentNavi/item3 insertions,escape wait18,choiceorder/width/default/BSeparate/disableB,battleglobals/flags and numeric labels protected. Capacity/reachability/runtime unverified."
+    }
+  ]
+}

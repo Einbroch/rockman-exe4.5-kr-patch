@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "660D90",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/660D90.tpl",
+    "sha256": "7b05716e68897b20f166e4075642b49e04df22fcf2726c14fe2c133d16b755de"
+  },
+  "source_archive_sha256": "4d138a8dca3d82a9e40fb7a8855506a616fe86c691231e60eb7df521d14fbdd8",
+  "consumer": "remaining-fortune-reminder-profile",
+  "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+  "voice": "Friendly source candidates; explicit Roll only reminder21..26; no inferred named actor from first person or adjacent archive. Not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep prior ROM-selected literals, source commands/control/flags/global/date buffers/newlines/choice padding; waitSkip30 and punctuation segmentation unchanged; no ROM/save writes.",
+  "semantic_review": [
+    "Only eleven unselected entries drafted; source3/4/6 quick-box and other selected reminders retained. Explicit Roll21..26 separated from unshown1/2/5.",
+    "Sourceじゅく means 학원; promise anticipation and TV urgency retained. Prefix name + 시작할 or 일정 시간 avoids final-consonant particle; leading newline remains.",
+    "Dispatch0/20, multiple event6/26, flag3585/3658, sound155/wait96 and quick coordinates preserved; actual clock/AMPM/name/event chain/render not tested."
+  ],
+  "units": [
+    {
+      "id": "660D90:1:0",
+      "source": " が\nはじまるじかんだよ!",
+      "translation": " 시작할\n시간이야!",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:1:1",
+      "source": "いそがなきゃ\nはじまっちゃう~!!",
+      "translation": "서두르지 않으면\n시작해 버려~!!",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:2:0",
+      "source": "\nのじかんだよ!\nウキウキしちゃうなー!",
+      "translation": "\n약속 시간이야!\n벌써 설레네~!",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:5:0",
+      "source": " の\nじかんだよ!",
+      "translation": " 일정\n시간이야!",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:21:0",
+      "source": " が\nはじまるじかんだよ!",
+      "translation": " 시작할\n시간이야!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "origin_portrait": "Roll",
+      "portrait_visibility": "shown",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:21:1",
+      "source": "いそがなきゃ\nはじまっちゃう~!!",
+      "translation": "서두르지 않으면\n시작해 버려~!!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "origin_portrait": "Roll",
+      "portrait_visibility": "shown",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:22:0",
+      "source": "\nのじかんだよ!\nウキウキしちゃうなー!",
+      "translation": "\n약속 시간이야!\n벌써 설레네~!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "origin_portrait": "Roll",
+      "portrait_visibility": "shown",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:23:0",
+      "source": "ね~ぇ!\nゴハンの じかんだよ!",
+      "translation": "있잖아~!\n밥 먹을 시간이야!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "origin_portrait": "Roll",
+      "portrait_visibility": "shown",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:24:0",
+      "source": "じゅくに行く じかんだよ\nはやく じゅんびしなきゃ\nチコクしちゃうよ!",
+      "translation": "학원에 갈 시간이야\n빨리 준비하지 않으면\n지각하겠어!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "origin_portrait": "Roll",
+      "portrait_visibility": "shown",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:25:0",
+      "source": " の\nじかんだよ!",
+      "translation": " 일정\n시간이야!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "origin_portrait": "Roll",
+      "portrait_visibility": "shown",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    },
+    {
+      "id": "660D90:26:0",
+      "source": "えっと、それから・・・",
+      "translation": "음, 그리고...",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "origin_portrait": "Roll",
+      "portrait_visibility": "shown",
+      "context": "Remaining TV/promise/other quick-box reminders and explicit Roll reminders21..26; other selected entries retained.",
+      "variable_context": "Preserve nickname/schedule/string buffers and command ordering. Comma/ownership 의/name + 일정 avoid fixed allomorph; input repertoire/width/caller identity remain unverified."
+    }
+  ]
+}

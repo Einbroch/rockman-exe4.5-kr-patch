@@ -1,0 +1,268 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6648D0",
+  "source_archive_sha256": "019f0cc04d1be923009cfdbf36d7fb1ae34cae6649d585aac3dddef2b2c80104",
+  "consumer": "normal-dialogue",
+  "context": "Roll seasonal/birthday operator greetings. Native per-Navi pointer group seasonal slot+52 from pinned introduction slot; all pages use portrait92,110,3rows. All original holidays/dates, gender global22 branch and anniversary buffer/loop preserved. Needs exact-ROM normal triggers/renderer evidence.",
+  "voice": "Existing friendly informal Rockman/Roll operator voice; independent development drafts, not global replacement of NumberMan wordings.",
+  "evidence": "analysis/full_scope_v1/source_tpl/6648D0.tpl; native pointer038108/intro pointer0380D4",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Complete literal population including source-identical quotes. Numerals/newline counts/commands/variables/loop/events preserved. No RTC or gameplay calendar date adaptation.",
+  "semantic_review": [
+    "Japanese Setsubun/Hinamatsuri/koinobori/chimaki retained with Korean-readable descriptions/transliteration. Human cultural wording review pending; no approved scope exclusions."
+  ],
+  "units": [
+    {
+      "id": "6648D0:1:0",
+      "source": "ア、ハッピー\nニューイヤー!",
+      "translation": "아, 해피\n뉴 이어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:1:1",
+      "source": "ウフフ、\n今年もよろしくね!!",
+      "translation": "우후후,\n올해도 잘 부탁해!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:2:0",
+      "source": "今日は せつぶんだね!",
+      "translation": "오늘은 절분이네!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:2:1",
+      "source": "マメまきの あとは、\nとしのかずだけ\nマメをたべましょうね!",
+      "translation": "콩을 뿌린 다음엔,\n나이만큼\n콩을 먹자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:3:0",
+      "source": "ウフフ!\n今日はバレンタインデー!",
+      "translation": "우후후!\n오늘은 발렌타인데이!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:3:1",
+      "source": "オトコのコもドキドキ\nだけど、オンナのコは\nもっと ドキドキなんだよ",
+      "translation": "남자애도 떨리지만\n여자아이들은\n더 두근두근한다고",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:4:0",
+      "source": "ヤッホー!",
+      "translation": "야호!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:4:1",
+      "source": "バレンタインデーが\nやってきたね!",
+      "translation": "발렌타인데이가\n찾아왔네!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:4:2",
+      "source": "チョコ、わたすの!?",
+      "translation": "초콜릿, 줄 거야!?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:4:3",
+      "source": "キャー! ドキドキ!",
+      "translation": "꺄아! 두근두근!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:5:0",
+      "source": "じゃじゃーん!",
+      "translation": "짜자잔!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:5:1",
+      "source": "今日は なんの日か\nしってる!?",
+      "translation": "오늘이 무슨 날인지\n알고 있어!?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:5:2",
+      "source": "今日は 3月3日!\nひなまつりの日!!",
+      "translation": "오늘은 3월3일!\n히나마쓰리야!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:5:3",
+      "source": "つーまーり、",
+      "translation": "그-러-니-까,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:5:4",
+      "source": "オンナのコの日!!",
+      "translation": "여자아이들의 날!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:5:5",
+      "source": "今日は オンナのコが\nしゅやくなのよ!",
+      "translation": "오늘은 여자아이들이\n주인공이야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:6:0",
+      "source": "今日は 5月5日の\nコドモの日!!",
+      "translation": "오늘은 5월5일\n어린이날이야!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:6:1",
+      "source": "コイのぼり みたいに、\nのんびり あそんじゃお!",
+      "translation": "잉어 깃발처럼,\n느긋하게 놀아 보자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:6:2",
+      "source": "あっ、そうだ!\nチマキもたべなくちゃね!",
+      "translation": "아, 맞다!\n치마키도 먹어야지!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:7:0",
+      "source": "今日は たなばた ね!",
+      "translation": "오늘은 칠석이네!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:7:1",
+      "source": "今日は おりひめと、\nひこぼしが デートできる\n年に1回の日なのよ",
+      "translation": "오늘은 직녀와\n견우가 데이트하는\n일년에1번뿐인 날이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:7:2",
+      "source": "ロマンチック~",
+      "translation": "낭만적이야~",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:8:0",
+      "source": "ランランラーン\nランランラーン\nランランラーララーン~",
+      "translation": "랄랄라~\n랄랄라~\n랄랄라라라~",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:8:1",
+      "source": "今日は クリスマスイヴ!",
+      "translation": "오늘은 성탄절 전야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:8:2",
+      "source": "まちを いろどる\nイルミネーション、",
+      "translation": "거리를 수놓는\n장식 조명과,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:8:3",
+      "source": "しあわせそうな\n人たちのカオ・・・",
+      "translation": "행복해 보이는\n사람들의 얼굴・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:8:4",
+      "source": "ワタシ、1年で今日が\nイチバンすきなの・・・",
+      "translation": "난 1년 중 오늘이\n가장 좋아・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:9:0",
+      "source": "メリークリスマス!!",
+      "translation": "메리 크리스마스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:9:1",
+      "source": "サンタさんは\nきてくれた?",
+      "translation": "산타 할아버지는\n오셨어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:9:2",
+      "source": "クリスマスは\nホントは 今日が\nほんばんなのよ",
+      "translation": "크리스마스는\n사실 오늘이\n본날이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:10:0",
+      "source": "今日は おおみそか、\n今年さいごの日!",
+      "translation": "오늘은 섣달그믐,\n올해의 마지막 날!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:10:1",
+      "source": "あしたは らいねんだよ\nなんか、ヘンなかんじ",
+      "translation": "내일부터는 내년이야\n왠지 이상한 느낌이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:11:0",
+      "source": "ハッピーバースデイ!!",
+      "translation": "해피 버스데이!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:11:1",
+      "source": "おたんじょう日、\nおめでとう!!",
+      "translation": "생일을,\n축하해!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:11:2",
+      "source": "なにかイイコト、\nあるといいね!",
+      "translation": "뭔가 좋은 일이,\n생기면 좋겠다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:12:0",
+      "source": "そうりつきねん日だよ",
+      "translation": "창립 기념일이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:12:1",
+      "source": "学校の たんじょう日\nみたいなものね!",
+      "translation": "학교의 생일\n같은 거지!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "6648D0:19:0",
+      "source": "だよ!",
+      "translation": "이야!",
+      "state": "needs_review"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7AF624",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7AF624.tpl",
+    "sha256": "e37b45eb95836805bef795785d896378d1b26e964b5b89261e264a7021ab0bbe"
+  },
+  "source_archive_sha256": "a08cebc4e0e1988b4d57464fc89c4d46472473f338f6555eb2a65cc180caee83",
+  "consumer": "remaining-contextual-ui-debug-npc",
+  "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-046",
+  "semantic_review": [
+    "Remaining515catalog units reconciled:500manual drafts(batch046)+13manual drafts(final047);2kana selector arrays remain unresolved structural input targets, not silently excluded from denominator. Not513unique sentences; no ROM writes.",
+    "All selected source literals and native selected-script skeletons read, exact repeated WAIT_FALSE/CLEAR blocks abbreviated only in read-only logical view. Allsource IDs/TPL/payload/digits/brackets/line topology/padding/native commands preserved.",
+    "Manual source-conditioned free prose. No automated prose generation, selection or shortening. New voices/terms/cultural names/honorifics/packed field segmentation need independent/human review; allneeds_review releasefalse.",
+    "513translated strings include developer/prototype/soul-unison/legacy labels. Presence inROM is not proof of normal reachability or support; debug granting/save-affecting commands never executed.",
+    "Packed BBS/profile/PA/Latin table byte/cell boundaries unresolved. Draft-first assets are not insertion-ready; 132px heuristic cannot approve/shorten or establish actual capacity.",
+    "Name-entry source6368E8scripts2/3 are originalkana selector arrays; adopted40jamo page/composer is separate. Changing literal text cannot integrate selectors/rendering/commit/redisplay/persistence. Keep2original units untranslated until structural integration.",
+    "Explicit portraits, hide transitions and player choices preserved; no portrait inferred solely from text.source768800MrProgGreen/Lan;7C416CMrProgGreen thenKnightMan.7C9C44/7CAF40speakerunknown.",
+    "Source digits:+30/3turn/1chip/STA002103203303/HP memory33/itemgrant etc immutable. Developerallchip/currency/profile flags and minigameflag5059 unchanged. No emulator/save/ROM/image/keyboard modifications.",
+    "Current draft-first sequence continues into whole-corpus consumer/font/layout readiness then cumulativeROM/screen/save regression; human wording review/graphics/keyboard integration/persistence/release remainopen."
+  ],
+  "units": [
+    {
+      "id": "7AF624:0:0",
+      "source": "ミッマワリー!\nミッマワリー!",
+      "translation": "수운차알!\n수운차알!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AF624:0:1",
+      "source": "ボクモ ワタシモ\nミッマワリー!!",
+      "translation": "너도 나도\n수운차알!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AF624:1:0",
+      "source": "ボクはね、ヒトリで\nベンキョウするのが\nスきなんだよ",
+      "translation": "나는 말이야, 혼자\n공부하는 걸\n좋아해",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AF624:1:1",
+      "source": "シュウマツは こうやって\nヒトリで スタディなのさ",
+      "translation": "주말엔 이렇게\n혼자 공부하지",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

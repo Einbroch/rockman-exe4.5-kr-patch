@@ -1,0 +1,162 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "65AFA0",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/65AFA0.tpl",
+    "sha256": "c71c238d685ea57add2f5adbabbdbefc3e71fb3643a36bff0629757f790876d8"
+  },
+  "source_archive_sha256": "297f206d5aae31dbc7366cacd0fe616c981eaaf42c53118c734808e0f87f637f",
+  "consumer": "schedule-reminders",
+  "context": "12 Japanese reminder literals; alert0 punctuation remains source. Dispatch0/20 categorizes TV/promise/meal/school/other; scripts6/26 continue multiple events.",
+  "voice": "Friendly plain reminder; MegaMan explicit only21..26, quick-box actor not established; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve schedule buffering/name insertion/capitalization, event dispatch/check branches, flags3585/3658, sounds155, waits96, quick-box coordinates, mugshots/end/waitHold and leading newline.",
+  "semantic_review": [
+    "School event source explicitly says じゅく; drafted 학원 rather than regular school despite jumpIfSchool API name.",
+    "Promise suffix 약속 시간이야 keeps reminder type and anticipation; other suffix 시간이야 avoids unsupported gender/name particle assumptions.",
+    "TV title plus 시작할 시간 avoids fixed 이/가; space begins title suffix, original two newlines retained.",
+    "Quick-box scripts1..6 have no mugshot. Matching explicit MegaMan scripts21..26 supports parallel function, not actor identity proof for quick-box.",
+    "No alarm clock/event firing/multiple-event chain/schedule name rendering or runtime/save verification; layout and wording remain needs_review."
+  ],
+  "units": [
+    {
+      "id": "65AFA0:1:0",
+      "source": " が\nはじまるじかんだよ!\nテレビのまえにいそごう!",
+      "translation": " 시작할\n시간이야!\nTV 앞으로 서두르자!",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:2:0",
+      "source": "\nのじかんだよ!\nたのしみだね!",
+      "translation": "\n약속 시간이야!\n기대되네!",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:3:0",
+      "source": "ゴハンの じかんだよ!",
+      "translation": "밥 먹을 시간이야!",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:4:0",
+      "source": "そろそろ じゅくに行く\nじかんだよ!\nがんばろうね!!",
+      "translation": "슬슬 학원에 갈\n시간이야!\n힘내자!!",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:5:0",
+      "source": "\nのじかんだよ!",
+      "translation": "\n시간이야!",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:6:0",
+      "source": "それから、",
+      "translation": "그리고,",
+      "state": "needs_review",
+      "speaker": "unshown-reminder-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:21:0",
+      "source": " が\nはじまるじかんだよ!\nテレビのまえにいそごう!",
+      "translation": " 시작할\n시간이야!\nTV 앞으로 서두르자!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:22:0",
+      "source": "\nの じかんだよ!\nたのしみだね!",
+      "translation": "\n약속 시간이야!\n기대되네!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:23:0",
+      "source": "ゴハンの じかんだよ!",
+      "translation": "밥 먹을 시간이야!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:24:0",
+      "source": "そろそろ じゅくに行く\nじかんだよ!\nがんばろうね!!",
+      "translation": "슬슬 학원에 갈\n시간이야!\n힘내자!!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:25:0",
+      "source": "の じかんだよ!",
+      "translation": " 시간이야!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    },
+    {
+      "id": "65AFA0:26:0",
+      "source": "それから、",
+      "translation": "그리고,",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "context": "Reminder routes1..6 positioned quick box and21..26 explicit MegaMan: TV, promise, meal, cram school, other, then additional event.",
+      "variable_context": "TV/promise/other names precede the literal via printScheduleBuffer; avoid final-consonant-dependent particle. User schedule/name repertoire and screen demand remain unverified."
+    }
+  ]
+}

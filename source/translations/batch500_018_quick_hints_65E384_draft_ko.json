@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "65E384",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/65E384.tpl",
+    "sha256": "10be4b204f6170f62b16ac021e61f699cb511466845b5a9453887c81922fa6d8"
+  },
+  "source_archive_sha256": "1741a31c8060feac037e8f6cbb0ccc3cb97962bfa21554be0201cd96f4616e9c",
+  "consumer": "batch500-contextual-wind-ritual-profile-followup",
+  "context": "All4 literals and source skeleton read. Quick-box weekend tournament encouragement and key-item hint. No explicit portrait;unestablished Navi identity and layout remain pending.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-018",
+  "semantic_review": [
+    "Exactly500 stable literals:253wind ritual/flight,243profile followup,4quick hints.8player choices. No ROM writes.",
+    "Every source literal and command skeleton read.71551C initial large control read clipped662C5C;662 control0..32 and33..52 reread separately,53..92 fully visible. Source baseline unchanged.",
+    "Bbutton whenbodygreen feeds tornado;repeatedmistiming shrinks it. Abutton at maximum releases power to send program to destination. No gameplay code change.",
+    "19destination requests11..29 plus ordinary and special training preserved.18internet8/16000 differs17internet8/13000;22internet12/40000 differs23internet12/44000;24..29 undernet1..3/65000..100000. Source27セイカイ contextual world wording,without source correction.",
+    "Flags4954/4955 redirect0to46/51,4to60,5to61;special dolls47/52 distinct ordinaryprogram15/25.58buffer1 measured distance ->59 staged emotion;59wait60+60/61mechanical breakdown unchanged. Robot politeness/wind ritual/newterms remain unapproved candidates.",
+    "Hidden7HPmemoryitem33amount1;8zenny/9bug4294967295buffer3padLefttrue.8choices widths9/6/7,default0/disableBtrue andpadding retained.",
+    "662 profile variables and battle statistics retained in original order and pages;83chip-timing/84player-chip-use/88standardthenmega/89giga/92rank advice. Fav-show choice35 hypothetical dialogue,not actual option command.",
+    "Particle-safe variable connectors selected manually:한테/하고/말이야/같은 걸/의.81chip proverb retained not literal imported proverb;82flow conjecture/74uncertainty/52dream preserved. These are wording candidates not gameplay fact claims.",
+    "662C5C0internalerror kept original and in denominator;seven punctuation-only fragments preserved. Quick-box no explicit portrait,do not infer speaker from previous Roll/NumberMan screenshots or storage order.",
+    "NON-DISTRIBUTION/needs_review. Mechanical QA not independenthumanapproval/actualgeometry/screens/runtime/insertion/productclosure. All existing ROM/save/emulator/image unchanged."
+  ],
+  "units": [
+    {
+      "id": "65E384:1:0",
+      "source": "さぁ、しゅうまつの\nトーナメントにむけて、\nとっくんしよう!",
+      "translation": "자, 주말의\n토너먼트를 향해\n특훈하자!",
+      "state": "needs_review",
+      "speaker": "quick-box-speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All4 literals and source skeleton read. Quick-box weekend tournament encouragement and key-item hint. No explicit portrait;unestablished Navi identity and layout remain pending.",
+      "variable_context": "Profile/battle-stat variables and buffer order/arguments preserved. Particle-safe 한테/하고/말이야/같은 걸 and possessive 의; original newline boundaries retained. Geometry and variable length require runtime review."
+    },
+    {
+      "id": "65E384:2:0",
+      "source": "いよいよ トーナメントの\n日だよ!!\nがんばろうね!!",
+      "translation": "드디어 토너먼트\n날이야!!\n힘내자!!",
+      "state": "needs_review",
+      "speaker": "quick-box-speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All4 literals and source skeleton read. Quick-box weekend tournament encouragement and key-item hint. No explicit portrait;unestablished Navi identity and layout remain pending.",
+      "variable_context": "Profile/battle-stat variables and buffer order/arguments preserved. Particle-safe 한테/하고/말이야/같은 걸 and possessive 의; original newline boundaries retained. Geometry and variable length require runtime review."
+    },
+    {
+      "id": "65E384:3:0",
+      "source": "なにか たのしそうな\nアイテムがあるよ!",
+      "translation": "재미있어 보이는\n아이템이 있어!",
+      "state": "needs_review",
+      "speaker": "quick-box-speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All4 literals and source skeleton read. Quick-box weekend tournament encouragement and key-item hint. No explicit portrait;unestablished Navi identity and layout remain pending.",
+      "variable_context": "Profile/battle-stat variables and buffer order/arguments preserved. Particle-safe 한테/하고/말이야/같은 걸 and possessive 의; original newline boundaries retained. Geometry and variable length require runtime review."
+    },
+    {
+      "id": "65E384:3:1",
+      "source": "キーアイテムを\n見てみようよ!",
+      "translation": "키 아이템을\n살펴보자!",
+      "state": "needs_review",
+      "speaker": "quick-box-speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All4 literals and source skeleton read. Quick-box weekend tournament encouragement and key-item hint. No explicit portrait;unestablished Navi identity and layout remain pending.",
+      "variable_context": "Profile/battle-stat variables and buffer order/arguments preserved. Particle-safe 한테/하고/말이야/같은 걸 and possessive 의; original newline boundaries retained. Geometry and variable length require runtime review."
+    }
+  ]
+}

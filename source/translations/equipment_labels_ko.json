@@ -1,0 +1,22 @@
+{
+ "schema":2,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"6E2B9C","source_archive_sha256":"6fa433e89ce52ceb3772ece51bc8fd078fe15575d9697bf0e6535e9150d191d8",
+ "consumer":"fixed-cell-big",
+ "context":"Carry isolated script1 header wording. Native equipment renderer080D37D4 selects scripts2/38/39, weapon-name080D3834/383E uses Navi weapon index to shared scripts3..37. All first60 scripts identical in23 native Navi pools; only these fixed-text data roots use ROM clone. Original Navi-specific dialogues/RAM/load/pointers remain unchanged.",
+ "evidence":"poc/runtime/folder-labels-v1-equipment-roots/step_007.png, step_009.png, step_011.png and step_011_equipment_roots.json; caller LR080D37F9/080D387B",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "protected_policy":"Keep native leading/trailing padding, R/L prefixes, weapon-selection tables, all unselected scripts and every control unchanged. No shortened substitute wording.",
+ "wordings":[
+  {"id":"folder.chip_header","translation":"칩 폴더","state":"needs_review","origin":"translations/folder_header_ko.json#folder.chip_header"},
+  {"id":"equipment.folder_padded","translation":"  칩 폴더   ","state":"needs_review"},
+  {"id":"equipment.rock_buster","translation":"록 버스터","state":"needs_review","notes":"Rockman's R-button basic weapon label; transliteration draft, not official Korean naming approval."},
+  {"id":"equipment.shield","translation":"실드","state":"needs_review","notes":"L-button defensive weapon label; transliteration draft."}
+ ],
+ "units":[
+  {"id":"6E2B9C:1:0","source":"チップフォルダ","wording_id":"folder.chip_header"},
+  {"id":"6E2B9C:2:0","source":"  チップフォルダ   ","wording_id":"equipment.folder_padded"},
+  {"id":"6E2B9C:3:0","source":"ロックバスター","wording_id":"equipment.rock_buster"},
+  {"id":"6E2B9C:4:0","source":"シールド","wording_id":"equipment.shield"}
+ ]
+}

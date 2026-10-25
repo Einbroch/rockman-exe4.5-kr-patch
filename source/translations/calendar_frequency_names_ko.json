@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6368E8",
+  "source_archive_sha256": "816d719a806e861faf90bdf61bb960ff20eb965001871274387fce2542711c74",
+  "consumer": "fixed-cell-big",
+  "scope_variant": "frequency-names-v1",
+  "parent_asset": {
+    "path": "translations/calendar_anniversary_presets_ko.json",
+    "sha256": "0648d4550c74fd9a7308c74a042bbf9cc8ae4ee02016a0f9dc5bf97c55d4d451",
+    "carry_units": 7
+  },
+  "context": "Five event-frequency string67 names, raw E5 copy into02014E54 then native32byte copy into normal text buffer. Parent7 menu/preset/anniversary names immutable.",
+  "evidence": "poc/runtime/calendar-frequency-source-20261008-r3/step_002_frequency_copy.json; script50 normal schedule deletion",
+  "decision_evidence": "Development drafts following existing localized frequency graphics. Human review pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "development input; explicit --calendar-frequency-names",
+  "protected_policy": "Preserve parent7, E5 terminators, raw frequency names fit32byte copy with no interior E5; preserve script119 numeral1 and all lookup/control bytes.",
+  "units": [
+    {
+      "id": "6368E8:0:0",
+      "source": "とうろく    よていをみる  さくじょ    ",
+      "translation": "등록      일정 보기   삭제      ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:60:0",
+      "source": "TVばんぐみともだちと約束ごはんじゅくそのた?????",
+      "translation": "TV 방송 친구와 약속 식사 학원 기타 ?????",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:62:0",
+      "source": "ごはん",
+      "translation": "식사",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:63:0",
+      "source": "じゅく",
+      "translation": "학원",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:73:0",
+      "source": "自分のたんじょう日       そうりつきねん日        そのた             ",
+      "translation": "내 생일            개교기념일           기타              ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:74:0",
+      "source": "たんじょう日",
+      "translation": "생일",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:75:0",
+      "source": "そうりつきねん日",
+      "translation": "개교기념일",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:119:0",
+      "source": "1回のみ",
+      "translation": "1회만",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:120:0",
+      "source": "毎日",
+      "translation": "매일",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:121:0",
+      "source": "毎週",
+      "translation": "매주",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:122:0",
+      "source": "毎月",
+      "translation": "매월",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:123:0",
+      "source": "毎年",
+      "translation": "매년",
+      "state": "needs_review"
+    }
+  ]
+}

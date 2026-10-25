@@ -1,0 +1,19 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "76C944",
+  "source_archive_sha256": "8dcf2727f8ddc7e0f1e35e45bc9790f0ab4253e5bae44275a599f57fbf6a971c",
+  "consumer": "fixed-cell-mono",
+  "context": "Rockman TACTICS target and distance questions,5x2 cells; not enemy names. Only observed scripts0/1. Other Navi styles and escape messages remain native.",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "Preserve controls, two source rows, and142 unselected scripts byte-for-byte.",
+  "wordings": [
+    {"id":"tactics.target","translation":"어느 적을\n노릴까?","state":"needs_review"},
+    {"id":"tactics.distance","translation":"적과의\n거리는?","state":"needs_review"}
+  ],
+  "units": [
+    {"id":"76C944:0:0","source":"どのてきを\nねらう?","wording_id":"tactics.target"},
+    {"id":"76C944:1:0","source":"てきとの\nまあいは?","wording_id":"tactics.distance"}
+  ]
+}

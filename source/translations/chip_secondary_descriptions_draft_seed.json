@@ -1,0 +1,315 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "review": "needs_review",
+  "terminology_review": [
+    "1..3: diagonal four-sided spinning-top + グリグリタップ attack name transliteration candidate.",
+    "22..24: source range2.5 squares retains half and numeric2; tape core placement interpretation needs gameplay review.",
+    "45: right half of entire battle field, not silently enemy area.",
+    "89: sunlight burn wording; no invented damage or range.",
+    "93: source blast wind retained as 폭발 바람, not a weather storm; human naturalness review pending.",
+    "All75 entries are draft only; independent wording/human presentation review pending."
+  ],
+  "entries": [
+    {
+      "script": 0,
+      "description": "상대 영역 안에서\n무작위로 솟아나는\n우디 타워!"
+    },
+    {
+      "script": 1,
+      "description": "앞쪽3칸을 향해\n사방 사선 팽이와\n구리구리탭 공격"
+    },
+    {
+      "script": 2,
+      "description": "앞쪽3칸을 향해\n사방 사선 팽이와\n구리구리탭 공격"
+    },
+    {
+      "script": 3,
+      "description": "앞쪽3칸을 향해\n사방 사선 팽이와\n구리구리탭 공격"
+    },
+    {
+      "script": 4,
+      "description": "방사형으로\n초음파 공격!\n크래시 노이즈!"
+    },
+    {
+      "script": 5,
+      "description": "방사형으로\n초음파 공격!\n크래시 노이즈!"
+    },
+    {
+      "script": 6,
+      "description": "방사형으로\n초음파 공격!\n크래시 노이즈!"
+    },
+    {
+      "script": 7,
+      "description": "앞쪽2칸을 향해\n3방향 버너로\n집중 공격"
+    },
+    {
+      "script": 8,
+      "description": "앞쪽2칸을 향해\n3방향 버너로\n집중 공격"
+    },
+    {
+      "script": 9,
+      "description": "앞쪽2칸을 향해\n3방향 버너로\n집중 공격"
+    },
+    {
+      "script": 10,
+      "description": "필드 위 물체를\n얼려 버리고\n밀어 미끄러뜨린다"
+    },
+    {
+      "script": 11,
+      "description": "필드 위 물체를\n얼려 버리고\n밀어 미끄러뜨린다"
+    },
+    {
+      "script": 12,
+      "description": "필드 위 물체를\n얼려 버리고\n밀어 미끄러뜨린다"
+    },
+    {
+      "script": 13,
+      "description": "앞쪽 전체로\n스파크 웨이브!\n상대를 실명시킨다"
+    },
+    {
+      "script": 14,
+      "description": "앞쪽 전체로\n스파크 웨이브!\n상대를 실명시킨다"
+    },
+    {
+      "script": 15,
+      "description": "앞쪽 전체로\n스파크 웨이브!\n상대를 실명시킨다"
+    },
+    {
+      "script": 16,
+      "description": "가로1줄 관통하는\n레이저 공격!"
+    },
+    {
+      "script": 17,
+      "description": "가로1줄 관통하는\n레이저 공격!"
+    },
+    {
+      "script": 18,
+      "description": "가로1줄 관통하는\n레이저 공격!"
+    },
+    {
+      "script": 19,
+      "description": "앞쪽 적에게\n돌진해 앞뒤에서\n검도3단 공격"
+    },
+    {
+      "script": 20,
+      "description": "앞쪽 적에게\n돌진해 앞뒤에서\n검도3단 공격"
+    },
+    {
+      "script": 21,
+      "description": "앞쪽 적에게\n돌진해 앞뒤에서\n검도3단 공격"
+    },
+    {
+      "script": 22,
+      "description": "앞쪽2칸 반에\n테이프 심 설치!\n감아들이는 공격"
+    },
+    {
+      "script": 23,
+      "description": "앞쪽2칸 반에\n테이프 심 설치!\n감아들이는 공격"
+    },
+    {
+      "script": 24,
+      "description": "앞쪽2칸 반에\n테이프 심 설치!\n감아들이는 공격"
+    },
+    {
+      "script": 25,
+      "description": "노린 상대에게\n딱 달라붙어서\n공격한다!"
+    },
+    {
+      "script": 26,
+      "description": "잠시 동안\n캐논을\n마구 쏜다!"
+    },
+    {
+      "script": 27,
+      "description": "잠시 동안\n포탄을\n마구 던진다!"
+    },
+    {
+      "script": 28,
+      "description": "잠시 동안\n롱소드로\n마구 베어낸다!"
+    },
+    {
+      "script": 29,
+      "description": "일정 시간 동안\n불 속성 칩의\n공격력이 +40"
+    },
+    {
+      "script": 30,
+      "description": "일정 시간 동안\n전기 속성 칩의\n공격력이 +40"
+    },
+    {
+      "script": 31,
+      "description": "일정 시간 동안\n물 속성 칩의\n공격력이 2배!"
+    },
+    {
+      "script": 32,
+      "description": "일정 시간 동안\n나무 속성 칩의\n공격력이 2배!"
+    },
+    {
+      "script": 33,
+      "description": "자신의 HP를\n공격력으로 바꿔\n버스터를 강화"
+    },
+    {
+      "script": 34,
+      "description": "모든 힘을\n충전하여 발사하는\n궁극의 공격!"
+    },
+    {
+      "script": 45,
+      "description": "배틀 필드의\n오른쪽 반에 쏘는\n포르테 버스터!"
+    },
+    {
+      "script": 46,
+      "description": "상대를 3방향에서\n차례로 베어내는\n3단 소드 공격"
+    },
+    {
+      "script": 47,
+      "description": "적 내비를\n심한 버그 상태로\n만들어 버린다!"
+    },
+    {
+      "script": 48,
+      "description": "앞쪽3칸을 향해\n레드선의 메테오\n공격이 쏟아진다!"
+    },
+    {
+      "script": 49,
+      "description": "빨간색인 동안은\n상대가 칩을\n쓸 수 없어진다!"
+    },
+    {
+      "script": 50,
+      "description": "한 번만 휘어지는\n링을 4발\n던진다!"
+    },
+    {
+      "script": 51,
+      "description": "홀리패널을\n빨아들여 앞쪽으로\n홀리 샷!"
+    },
+    {
+      "script": 52,
+      "description": "깨져도 되살아나는\n어둠의 배리어!"
+    },
+    {
+      "script": 53,
+      "description": "앞쪽3칸을 향해\n블루문이 힘 뺏는\n빛을 발사한다!"
+    },
+    {
+      "script": 54,
+      "description": "고스펠의 힘으로\n앞쪽 적을 공격!"
+    },
+    {
+      "script": 64,
+      "description": "어둠에 빠진\n강자들의\n합체 기술!"
+    },
+    {
+      "script": 65,
+      "description": "주변 1칸으로\n폭염이 퍼지는\n넓은 범위 공격!"
+    },
+    {
+      "script": 66,
+      "description": "주변 1칸으로\n거품이 퍼지는\n넓은 범위 공격!"
+    },
+    {
+      "script": 67,
+      "description": "기가 파워로 쏘는\n강력한\n캐논!"
+    },
+    {
+      "script": 68,
+      "description": "기가 파워로 쏘는\n강력한\n캐논!"
+    },
+    {
+      "script": 69,
+      "description": "기가 파워로 쏘는\n강력한\n캐논!"
+    },
+    {
+      "script": 70,
+      "description": "3연사의\n와이드 샷!\n적을 관통한다"
+    },
+    {
+      "script": 71,
+      "description": "3연사의\n와이드 샷!\n적을 관통한다"
+    },
+    {
+      "script": 72,
+      "description": "3연사의\n와이드 샷!\n적을 관통한다"
+    },
+    {
+      "script": 73,
+      "description": "십자로 퍼지는\n지옥의 맹렬한 불"
+    },
+    {
+      "script": 74,
+      "description": "십자로 퍼지는\n지옥의 맹렬한 불"
+    },
+    {
+      "script": 75,
+      "description": "십자로 퍼지는\n지옥의 맹렬한 불"
+    },
+    {
+      "script": 76,
+      "description": "3개의 부메랑이\n연속으로 상대를\n덮친다!"
+    },
+    {
+      "script": 77,
+      "description": "3개의 부메랑이\n연속으로 상대를\n덮친다!"
+    },
+    {
+      "script": 78,
+      "description": "3개의 부메랑이\n연속으로 상대를\n덮친다!"
+    },
+    {
+      "script": 79,
+      "description": "내 위아래 줄로\n수많은 송곳니가\n줄지어 나아간다!"
+    },
+    {
+      "script": 80,
+      "description": "내 위아래 줄로\n수많은 송곳니가\n줄지어 나아간다!"
+    },
+    {
+      "script": 81,
+      "description": "내 위아래 줄로\n수많은 송곳니가\n줄지어 나아간다!"
+    },
+    {
+      "script": 82,
+      "description": "계속 반사되는\n공포의 하키"
+    },
+    {
+      "script": 83,
+      "description": "계속 반사되는\n공포의 하키"
+    },
+    {
+      "script": 84,
+      "description": "계속 반사되는\n공포의 하키"
+    },
+    {
+      "script": 85,
+      "description": "강한 자력으로\n앞쪽 적 전부를\n끌어당겨 공격!"
+    },
+    {
+      "script": 86,
+      "description": "강한 자력으로\n앞쪽 적 전부를\n끌어당겨 공격!"
+    },
+    {
+      "script": 87,
+      "description": "강한 자력으로\n앞쪽 적 전부를\n끌어당겨 공격!"
+    },
+    {
+      "script": 88,
+      "description": "가로2 세로3칸의\n거대한 소드로\n적을 베어버린다!"
+    },
+    {
+      "script": 89,
+      "description": "눈앞에 태양\n제너레이터!\n햇빛으로 태운다"
+    },
+    {
+      "script": 90,
+      "description": "상대 영역에\n기가카운트봄을\n놓는다!"
+    },
+    {
+      "script": 91,
+      "description": "적 영역에 독을\n발생시키는\n파라오상을 놓는다"
+    },
+    {
+      "script": 92,
+      "description": "뒷세계 암살자를\n고용하여 적을\n제거하게 한다"
+    },
+    {
+      "script": 93,
+      "description": "주변 1칸으로\n폭발 바람이 이는\n작렬탄!"
+    }
+  ]
+}

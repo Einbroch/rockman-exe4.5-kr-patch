@@ -1,0 +1,297 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6B613C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6B613C.tpl",
+    "sha256": "133d9dbb6fc6ef413f20184abd9009d9aa5b04cce112ffff1c0457dfec34a097"
+  },
+  "source_archive_sha256": "65089f0469d4e7f1e6cc220ff599fe1cc370da2388f425ca909dcacb15b8cd70",
+  "consumer": "batch500-progress-reminders-training",
+  "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+  "voice": "Source-conditioned manual candidates; only explicit reminder portraits named; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source fields/IDs/TPL/payload, commands, variables, newline/padding and unselected placeholders immutable; no ROM/save writes.",
+  "batch_id": "batch500-005",
+  "semantic_review": [
+    "Batch500-005 exactly500 stable catalog literals: progress226/reminders190/training84. Not500 unique sentences.",
+    "All needs_review/non-distribution; no ROM/save writes, runtime evidence, or wording approval.",
+    "Every literal inspected and progress/reminder canonical command differences compared; both training TPLs read completely. Numeric flags, variables, page waits and source punctuation-only slots retained.",
+    "Only reminder21..26 named by explicit mugshotShow. Quick voices never assigned identity from adjacency/motif.",
+    "Quick0 reminder sounds155/waits96/flag3585 vs normal20 direct dispatcher retained. callCheckNowEvent chains6/26,flag3658 clear,waitHold/end and portrait7 variants retained.",
+    "TV source begins after schedule insertion. 방송 suffix avoids 은/는/이/가 selection on arbitrary names; promise starts next line, other-event 일정 suffix same purpose. Subject/addressee not inferred from screenshot.",
+    "Food gratitude/strong body/umeboshi gloss 매실 장아찌/ninja provision 병량환/dining room/napalm/plant-water-sunlight and study admonitions are preserved candidates, not approval of terms."
+  ],
+  "units": [
+    {
+      "id": "6B613C:1:0",
+      "source": "・・・・・・\n",
+      "translation": "......\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:1:1",
+      "source": " が\nはじまるじかんです",
+      "translation": " 방송이\n시작할 시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:1:2",
+      "source": "あまり テレビばかり\n見ていては いけませんぞ",
+      "translation": "너무 TV만\n보시면 안 됩니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:2:0",
+      "source": "・・・・・・\n",
+      "translation": "......\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:2:1",
+      "source": "\nのじかんですぞ",
+      "translation": "\n시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:2:2",
+      "source": "それでは、\nまいりましょうぞ",
+      "translation": "그럼,\n가시지요",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:3:0",
+      "source": "・・・・・・\nおしょくじの じかんです",
+      "translation": "......\n식사 시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:3:1",
+      "source": "さぁ、しょくどうへ\nまいりましょう",
+      "translation": "자, 식당으로\n가시지요",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:4:0",
+      "source": "、\nがくしゅうじゅく に\nまいる じかんですぞ",
+      "translation": ",\n학원에\n갈 시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:4:1",
+      "source": "ぜんりょくで\nがんばるのですぞ",
+      "translation": "온 힘을 다해\n노력하십시오",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:5:1",
+      "source": " の\nじかんです",
+      "translation": " 일정의\n시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:6:0",
+      "source": "それと・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:21:0",
+      "source": "・・・・・・\n",
+      "translation": "......\n",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:21:1",
+      "source": " が\nはじまるじかんです",
+      "translation": " 방송이\n시작할 시간입니다",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:21:2",
+      "source": "あまり テレビばかり\n見ていては いけませんぞ",
+      "translation": "너무 TV만\n보시면 안 됩니다",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:22:0",
+      "source": "・・・・・・\n",
+      "translation": "......\n",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:22:1",
+      "source": "\nのじかんですぞ",
+      "translation": "\n시간입니다",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:22:2",
+      "source": "それでは、\nまいりましょうぞ",
+      "translation": "그럼,\n가시지요",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:23:0",
+      "source": "・・・・・・\nおしょくじの じかんです",
+      "translation": "......\n식사 시간입니다",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:23:1",
+      "source": "さぁ、しょくどうへ\nまいりましょう",
+      "translation": "자, 식당으로\n가시지요",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:24:0",
+      "source": "、\nがくしゅうじゅく に\nまいる じかんですぞ",
+      "translation": ",\n학원에\n갈 시간입니다",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:24:1",
+      "source": "ぜんりょくで\nがんばるのですぞ",
+      "translation": "온 힘을 다해\n노력하십시오",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:25:1",
+      "source": " の\nじかんです",
+      "translation": " 일정의\n시간입니다",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    },
+    {
+      "id": "6B613C:26:0",
+      "source": "それと・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "origin_portrait": "KnightMan",
+      "portrait_visibility": "shown-in-script",
+      "context": "Schedule reminder dispatcher0/20: TV/promise/meal/school/other scripts1..6 and21..26; every literal and canonical67CB70 control differences inspected. Only21..26 have explicit portraits.",
+      "variable_context": "Nickname/chip104/schedule/quantity buffer3 unchanged. TV suffix uses 방송; generic other-event suffix uses 일정; avoid variable-dependent Korean particles. Runtime/layout unverified."
+    }
+  ]
+}

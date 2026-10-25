@@ -1,0 +1,43 @@
+{
+  "base": "tools\\build_development_patch_069_v1.py",
+  "base_sha256": "a8410d53d7db421e63d7d21abd379e4bbe59bf7ab5367e9f4c9ccbd741c8f8f4",
+  "output": "tools\\build_development_patch_070_v1.py",
+  "output_sha256": "fac76fa1aeafc8c31f1d9521e884cc62d730ae82ab072ee73f0cb55a4180e378",
+  "changes": [
+    [
+      "        appended,key_patches,keyitem_rom=__import__('keyboard_stage069_v1').install(source,appended,key_patches,keyitem_rom)",
+      "        appended,key_patches,keyitem_rom=__import__('keyboard_stage069_v1').install(source,appended,key_patches,keyitem_rom)\n        appended,key_patches,keyitem_rom=__import__('keyboard_stage070_v1').install(source,appended,key_patches,keyitem_rom)"
+    ],
+    [
+      "__import__('keyboard_stage069_v1').predecessor_view(source,target,keyitem_rom)",
+      "__import__('keyboard_stage069_v1').predecessor_view(source,__import__('keyboard_stage070_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom)"
+    ],
+    [
+      " and __import__('keyboard_stage068_v1').verify(source,target,keyitem_rom)",
+      " and __import__('keyboard_stage068_v1').verify(source,__import__('keyboard_stage070_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom)"
+    ],
+    [
+      " and __import__('keyboard_stage069_v1').verify(source,target,keyitem_rom)",
+      " and __import__('keyboard_stage069_v1').verify(source,target,keyitem_rom) and __import__('keyboard_stage070_v1').verify(source,target,keyitem_rom)"
+    ],
+    [
+      "    parent068=__import__('keyboard_stage069_v1').predecessor_view(source,target,result['keyitem_rom'])",
+      "    parent069=__import__('keyboard_stage070_v1').predecessor_view(source,target,result['keyitem_rom'])\n    parent068=__import__('keyboard_stage069_v1').predecessor_view(source,parent069,result['keyitem_rom'])"
+    ],
+    [
+      "    __import__('keyboard_stage068_v1').verify(source,target,result['keyitem_rom'])",
+      "    __import__('keyboard_stage068_v1').verify(source,__import__('keyboard_stage070_v1').predecessor_view(source,target,result['keyitem_rom']),result['keyitem_rom'])"
+    ],
+    [
+      "    __import__('keyboard_stage069_v1').verify(source,target,result['keyitem_rom'])",
+      "    __import__('keyboard_stage069_v1').verify(source,target,result['keyitem_rom'])\n    __import__('keyboard_stage070_v1').verify(source,target,result['keyitem_rom'])"
+    ]
+  ],
+  "dependencies": {
+    "keyboard_stage070_v1.py": "4a6c191dba332aff27b60fce624c3783716209aaea79cecdbb2f961b6304a5bb",
+    "hangul_keyboard_hooks_v3.py": "e94dc62f9221f6376ac6a51b4018854554f2ab221d094af4d47a4eaf58959901",
+    "hangul_keyboard_hooks_v1.py": "ed25324e6023524c17d534dae4816466c66274bf044b5536d59cbca5b151869e",
+    "hangul_record_v3.py": "24e268a9fafa4c66cbe7c3f386ddf3979e96d3603be54376473a4d0a7b4a8870",
+    "hangul_display_hooks_v2.py": "32124c42bd983ebf3f11f1194f0a7657cfe80bfe7078a3842c514a750ca2d057"
+  }
+}

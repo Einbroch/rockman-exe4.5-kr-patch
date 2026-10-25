@@ -1,0 +1,283 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6D0ADC",
+  "source_archive_sha256": "b91a0175b8ad929c797e62ab9c93d8fe20aacbb9a606daeaea94cf9ec9809e62",
+  "consumer": "normal-dialogue",
+  "context": "PlantMan seasonal/birthday dialogue; intro6CC808 names プラントマン and flower/life metaphor. Native intro root03850C/seasonal+52 root038540. Portrait92,110/3rows; global22,two nickname prints and event buffer/loop unchanged. Normal unlock/date/name/gender/event routes unverified.",
+  "voice": "Tentative elegant conversational voice, gentle instruction and restrained chuckle; human terminology/wording/culture review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/6CC808.tpl; analysis/full_scope_v1/source_tpl/6D0ADC.tpl; native roots03850C/038540",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All43 literals including2 unchanged quotes; IDs/source,numerals,newline counts/boundaries,21slots,commands preserved. Nickname1:0/11:0 first-line comma11px unchanged; no name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "NewYear kagami-mochi fruit is not mikan but daidai. Draft retains 다이다이 as source fruit name plus 등자 and 대대로 long-lasting family prosperity/prayer/lucky object. Meaning and Japanese name remain, but Japanese homophony is not reproduced in Korean; human adaptation review pending, no NumberMan4649 approval reuse.",
+    "Setsubun requires roasted beans rather than raw because raw beans later sprout; plant-centric reason retained, not replaced with generic safety warning.",
+    "Cacao tree fruit, love flower, subdued Japanese peach-blossom beauty, Japan May5 Tango/child holiday and reported ancient Chinese origin retain source culture/date/modality.",
+    "MilkyWay more beautiful than colorful bouquets, Christmas town like a flower field, year-end wistfulness and birthday tree-ring1 growth metaphor retained."
+  ],
+  "units": [
+    {
+      "id": "6D0ADC:1:0",
+      "source": "、\nあけまして おめでとう\nことしも よろしく",
+      "translation": "、\n새해 복 많이 받아\n올해도 잘 부탁해",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:1:1",
+      "source": "ところで、かがみモチの\n上に みかんが\nのっているだろう?",
+      "translation": "그런데,가가미모치\n위에 귤이\n올려져 있지?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:1:2",
+      "source": "アレはね、みかんではなく\nだいだい なんだ",
+      "translation": "그건 귤이 아니라,\n다이다이라는 등자야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:1:3",
+      "source": "いえが まつだいまで\nだいだい すえながく",
+      "translation": "집안이 먼 훗날까지\n대대로 오래오래",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:1:4",
+      "source": "はんえいするように\nという",
+      "translation": "번영하기를\n바라는",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:1:5",
+      "source": "いのりが こめられた\nえんぎもの なんだよ",
+      "translation": "기도가 담긴\n길한 물건이란다",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:2:0",
+      "source": "今日は せつぶんだよ",
+      "translation": "오늘은 절분이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:2:1",
+      "source": "マメまきの だいずは\nかならず 火で\nいったものをつかって、",
+      "translation": "콩 뿌리기의 대두는\n반드시 불에\n볶은 걸 쓰고,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:2:2",
+      "source": "生のものを\nつかってはいけないんだ",
+      "translation": "생콩을\n써서는 안 된단다",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:2:3",
+      "source": "なぜなら、生なら\nマメまきの あと、",
+      "translation": "왜냐면,생콩이면\n콩을 뿌린 뒤,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:2:4",
+      "source": "しばらくしたら、\nめが でてきてしまう\nからね",
+      "translation": "시간이 좀 지나면,\n싹이 나 버리기\n때문이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:3:0",
+      "source": "今日は、\nバレンタインデーだね",
+      "translation": "오늘은,\n발렌타인데이구나",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:3:1",
+      "source": "バレンタインといえば\nチョコレート",
+      "translation": "발렌타인 하면\n초콜릿이지",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:3:2",
+      "source": "チョコの げんりょうは\nカカオという 木のみ\nなんだよ",
+      "translation": "초콜릿의 원료는\n카카오라는 나무의\n열매란다",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:4:0",
+      "source": "今日は、\nバレンタインデーだね",
+      "translation": "오늘은,\n발렌타인데이구나",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:4:1",
+      "source": "キミの こいのハナ、\nみごとに ひらくと\nいいね・・・フッ",
+      "translation": "너의 사랑의 꽃이,\n멋지게 피어나면\n좋겠네・・・훗",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:5:0",
+      "source": "今日は もものせっく、\nひなまつりの日だね",
+      "translation": "오늘은 복숭아 절기,\n히나마쓰리 날이네",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:5:1",
+      "source": "もものハナは いいね\nあわい ピンクいろの\nこぶりなハナ・・・",
+      "translation": "복숭아꽃은 좋지\n연한 분홍빛의\n작은 꽃・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:5:2",
+      "source": "ハデさは ないが、\nニホンてきな",
+      "translation": "화려하진 않지만,\n일본다운",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:5:3",
+      "source": "おくゆかしい\nうつくしさがある",
+      "translation": "그윽한\n아름다움이 있어",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:6:0",
+      "source": "今日は 5月5日\nたんごのせっく、\nこどもの日だね・・・",
+      "translation": "오늘은 5월5일\n단오 절기인,\n어린이날이네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:6:1",
+      "source": "この ふうしゅうはね、\nはるかむかしに、\nちゅうごくから",
+      "translation": "이 풍습은 말이지,\n아주 먼 옛날에,\n중국에서",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:6:2",
+      "source": "つたわったもの\nらしいよ・・・",
+      "translation": "전해진 거라고\n하더구나・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:7:0",
+      "source": "今日は 7月7日、\nたなばたの日だよ",
+      "translation": "오늘은 7월7일,\n칠석날이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:7:1",
+      "source": "たなばたの よぞらを\nいろどる あまのがわは",
+      "translation": "칠석 밤하늘을\n물들이는 은하수는",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:7:2",
+      "source": "いろとりどりの\nはなたばをもってしても、",
+      "translation": "형형색색의\n꽃다발로도,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:7:3",
+      "source": "かなわない うつくしさを\nもっているよ・・・",
+      "translation": "견줄 수 없는\n아름다움이 있지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:8:0",
+      "source": "今日は、\nクリスマスイヴだよ",
+      "translation": "오늘은,\n크리스마스이브야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:8:1",
+      "source": "クリスマスの まちは\nまるで、いろとりどりの\nはなばたけのようだね",
+      "translation": "크리스마스 거리는\n마치,형형색색의\n꽃밭 같구나",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:9:0",
+      "source": "メリークリスマス\n今日は クリスマスだよ",
+      "translation": "메리 크리스마스\n오늘은 크리스마스야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:9:1",
+      "source": "クリスマスの\nかざりつけは 今日まで\nすこし さみしいね",
+      "translation": "크리스마스\n장식은 오늘까지야\n조금 쓸쓸하구나",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:10:0",
+      "source": "今日は 大みそか、\n今年も あとわずかだね",
+      "translation": "오늘은 섣달그믐,\n올해도 얼마 안 남았네",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:10:1",
+      "source": "あぁ、今年もおわりか\n・・・",
+      "translation": "아,올해도 끝인가\n・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:10:2",
+      "source": "なんだか せつないね",
+      "translation": "왠지 애틋하구나",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:11:0",
+      "source": "、\nたんじょう日、\nおめでとう!",
+      "translation": "、\n생일,\n축하한다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:11:1",
+      "source": "木でたとえるなら、\nねんりんが 1つ\nふえたね・・・",
+      "translation": "나무로 비유하면,\n나이테가 1개\n늘었구나・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:11:2",
+      "source": "より 大きく、\nより うつくしく、\nより たくましく",
+      "translation": "더 크게,\n더 아름답게,\n더 씩씩하게",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:11:3",
+      "source": "せいちょうしたまえ",
+      "translation": "성장하렴",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:12:0",
+      "source": "今日は 学校の\nそうりつきねん日では\nなかったのか?",
+      "translation": "오늘은 학교\n개교 기념일이\n아니었나?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "6D0ADC:19:0",
+      "source": "だよ・・・",
+      "translation": "이란다・・・",
+      "state": "needs_review"
+    }
+  ]
+}

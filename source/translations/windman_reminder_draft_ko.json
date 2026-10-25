@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "66BF44",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/66BF44.tpl",
+    "sha256": "7f8e98af640df13f3c4b6cdca37d43a6cc4b71f1fdd64c1eee30b5ce833c9847"
+  },
+  "source_archive_sha256": "7cf2817c75e73cf4d17f175988f233bde8341fd54dfcfa350bc10557650cec54",
+  "consumer": "quick-confirmation-return-jackin-reminders",
+  "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+  "voice": "Calm elder-like source forms as candidate, not approved. Only66BF44:21..26 explicit WindMan portraits; other quick voices unknown. Jackin call names destination, not speaker.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep prior selected literals, commands, flags, buffers, newlines and literal segmentation; no ROM/save writes.",
+  "semantic_review": [
+    "TV distance advice, punctuality, eating without leftovers, sourceじゅく as 학원, learning and extra-event notices kept. No real-world medical advice inferred.",
+    "Only21..26 explicitly show WindMan; quick1..6 no portrait. Schedule-name+시작할/일정 and nickname comma avoid fixed final-consonant particle.",
+    "0/20 event dispatch and6/26 multiple-event loops, flags3585/3658, sound155/wait96, buffers and options preserved; no clock/input/save/runtime verification.",
+    "66BE58:0:0 sourceかりです inspected but untranslated, unknown placeholder consumer retained in denominator."
+  ],
+  "units": [
+    {
+      "id": "66BF44:1:0",
+      "source": " が\nはじまるじかんだ・・・",
+      "translation": " 시작할\n시간이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:1:1",
+      "source": "テレビを見るときは\nなるべく はなれて\n見たほうがよいぞ・・・",
+      "translation": "TV를 볼 때는\n될 수 있으면 멀리서\n보는 것이 좋다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:2:0",
+      "source": "\nのじかんだ",
+      "translation": "\n약속 시간이다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:2:1",
+      "source": "おくれぬように\nいかねばならぬぞ・・・",
+      "translation": "늦지 않도록\n가야 한다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:3:0",
+      "source": "、\nしょくじの じかんだ",
+      "translation": ",\n식사 시간이다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:3:1",
+      "source": "のこさず たべねば\nならぬぞ・・・",
+      "translation": "남기지 말고\n먹어야 한다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:4:0",
+      "source": "じゅくへ行く じかんだ\nしっかり まなんでくるが\nよいぞ・・・",
+      "translation": "학원에 갈 시간이다\n열심히 배우고\n오거라...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:5:0",
+      "source": " の\nじかんだ・・・\nおくれては ならぬぞ",
+      "translation": " 일정\n시간이다...\n늦어서는 안 된다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:6:0",
+      "source": "それから・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:21:0",
+      "source": " が\nはじまるじかんだ・・・",
+      "translation": " 시작할\n시간이다...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:21:1",
+      "source": "テレビを見るときは\nなるべく はなれて\n見たほうがよいぞ・・・",
+      "translation": "TV를 볼 때는\n될 수 있으면 멀리서\n보는 것이 좋다...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:22:0",
+      "source": "\nのじかんだ",
+      "translation": "\n약속 시간이다",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:22:1",
+      "source": "おくれぬように\nいかねばならぬぞ・・・",
+      "translation": "늦지 않도록\n가야 한다...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:23:0",
+      "source": "、\nしょくじの じかんだ",
+      "translation": ",\n식사 시간이다",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:23:1",
+      "source": "のこさず たべねば\nならぬぞ・・・",
+      "translation": "남기지 말고\n먹어야 한다...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:24:0",
+      "source": "じゅくへ行く じかんだ\nしっかり まなんでくるが\nよいぞ・・・",
+      "translation": "학원에 갈 시간이다\n열심히 배우고\n오거라...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:25:0",
+      "source": " の\nじかんだ・・・\nおくれては ならぬぞ",
+      "translation": " 일정\n시간이다...\n늦어서는 안 된다",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BF44:26:0",
+      "source": "それから・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "origin_portrait": "WindMan",
+      "portrait_visibility": "shown",
+      "context": "TV/promise/meal/school/other/additional reminders, quick1..6 and explicit WindMan21..26.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    }
+  ]
+}

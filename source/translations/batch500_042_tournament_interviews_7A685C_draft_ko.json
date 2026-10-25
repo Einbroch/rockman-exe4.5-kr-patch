@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A685C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A685C.tpl",
+    "sha256": "70c837e396efdc296d82beef32108492212247016375ce5856820ca022c5c690"
+  },
+  "source_archive_sha256": "e9203e2f203f644ae911d30e17cb0dae4803e752f7999fe80da275af91e2229c",
+  "consumer": "batch500-contextual-tournament-interviews",
+  "context": "HeelNaviBlack noviceerrandrunner returningfromtrashdisposal,strongopponentrecognition,trainingandwinningtoleavegarbageduty. nettime18:00..28:59→1 retained;aspirationnotactualrankchange.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-042",
+  "semantic_review": [
+    "Exactly500 stablecatalogliteral drafts:482tournamentaward/roulette/Basspostbattle/interviews plus18NPC;not500uniquesentences. Allselectedsource andexactcommand skeleton0..77 read;undefined-profilefallback90..102 readforcontext but notdrafted thisbatch.",
+    "Manualsourceconditioned drafts;noautomaticprosegeneration/harmonization/shortening. needs_review development-draft NON-DISTRIBUTION releasefalse;protectedsource/IDs/TPL/payload/commands/variables/newlines/padding immutable.",
+    "Per-scriptlocalportrait evidence separatedfrom inheritedspeaker onroulette18..22/53..57. NativecheckGlobal/checkNavi route,flag7729 switches,profiledefined versusundefined,printfunctions/buffers and30framesplitwaitdots remain. No NumberMan/otherNavi temporaryoverride orROM/save/emulatorwrites.",
+    "Dynamic Korean particles drafted with invariant possessives/하고/에게/phrasing ratherthanonefixed받침-dependentsubject/objectparticle. Exactsurroundingunselectedpunctuation retained. Adjacentinlineflow,variablesuppliedvalues,wordboundaryspacing andfinitewidth needactualconsumer/layoutreview;these drafts notinsertionready.",
+    "Distinctinterviews65..77 MegaMan,Roll,Guts,Wind,Search,Fire,Thunder,Proto,Number,Metal,Junk,Aqua,Wood andRibitta switches remain. Rollrevealsoperatorcrush;Junkjealousy/robotstutter;Numberboast/retraction/navichange threat;Searchformaloperatorversusinterviewer;Windmetaphor,Woodnature,Gutsmasculinetears,AquaTV urgency faithfullycandidateadaptations requiringhumanreview.",
+    "Source38/39 MegaManportraits andblueflames retainedwithoutinventedHeatNaviidentity. Bass3 and47/48 differplayerresponseandthreat,Heelhostswitch preserved. Rankshortlabels5/6/8 markedUI,source10ヘunresolvedremainsinledger.",
+    "Tickets19/20 openonceandcloseafter1plugout,persistentaward2/3/4different,normalversusUnderrewardratingsandAtiming preserved. 7A6778/685Cnativehour28 andunapprovedsamuraiwordplay/ladiesdayterms are unresolvedreviewcandidatesnotruntimefacts.",
+    "Font/codec/skeleton/protectedfields/132pxheuristic onlytechnicalchecks,notsemantic/human/runtimeapproval. Allremainingdraftsfirst,thenfullfont/layout/consumer/reinsertionandcumulativeROM/screen/saveQA. Inline/images/Hangulkeyboard/persistence/release stillopen."
+  ],
+  "units": [
+    {
+      "id": "7A685C:0:0",
+      "source": "セッシャ、まだまだ\nツカいっパシりの\nミジュクモノでござる・・・",
+      "translation": "소인은 아직\n심부름이나 하는\n미숙한 자요...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack noviceerrandrunner returningfromtrashdisposal,strongopponentrecognition,trainingandwinningtoleavegarbageduty. nettime18:00..28:59→1 retained;aspirationnotactualrankchange.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A685C:0:1",
+      "source": "イマも、ゴミスての\nカエりでござる・・・",
+      "translation": "지금도 쓰레기를 버리고\n돌아오는 길이오...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack noviceerrandrunner returningfromtrashdisposal,strongopponentrecognition,trainingandwinningtoleavegarbageduty. nettime18:00..28:59→1 retained;aspirationnotactualrankchange.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A685C:0:2",
+      "source": "しかし、アイテのチカラを\nミキワめるジシンは\nあるでござる・・・",
+      "translation": "하지만 상대의 힘을\n알아보는 데는\n자신이 있소...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack noviceerrandrunner returningfromtrashdisposal,strongopponentrecognition,trainingandwinningtoleavegarbageduty. nettime18:00..28:59→1 retained;aspirationnotactualrankchange.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A685C:0:3",
+      "source": "おヌシは とてつもない\nジツリョクを\nヒめておりまするな!!",
+      "translation": "그대는 어마어마한\n실력을\n품고 계시는구려!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack noviceerrandrunner returningfromtrashdisposal,strongopponentrecognition,trainingandwinningtoleavegarbageduty. nettime18:00..28:59→1 retained;aspirationnotactualrankchange.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A685C:0:4",
+      "source": "いつか、オテアわせ\nネガいたいものでござる!!",
+      "translation": "언젠가 대련을\n청하고 싶소!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack noviceerrandrunner returningfromtrashdisposal,strongopponentrecognition,trainingandwinningtoleavegarbageduty. nettime18:00..28:59→1 retained;aspirationnotactualrankchange.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A685C:1:0",
+      "source": "ニンニン!!\nセッシャも\nシュギョウを ツんで、",
+      "translation": "닌닌!!\n소인도\n수련을 쌓고,",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack noviceerrandrunner returningfromtrashdisposal,strongopponentrecognition,trainingandwinningtoleavegarbageduty. nettime18:00..28:59→1 retained;aspirationnotactualrankchange.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A685C:1:1",
+      "source": "トーナメントで\nユウショウしまくって、",
+      "translation": "토너먼트에서\n계속 우승해서,",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack noviceerrandrunner returningfromtrashdisposal,strongopponentrecognition,trainingandwinningtoleavegarbageduty. nettime18:00..28:59→1 retained;aspirationnotactualrankchange.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A685C:1:2",
+      "source": "ゴミスてガカリを\nソツギョウしたいでござる!",
+      "translation": "쓰레기 버리는 담당을\n벗어나고 싶소!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack noviceerrandrunner returningfromtrashdisposal,strongopponentrecognition,trainingandwinningtoleavegarbageduty. nettime18:00..28:59→1 retained;aspirationnotactualrankchange.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    }
+  ]
+}

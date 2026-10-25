@@ -1,0 +1,25 @@
+{
+  "base": "tools\\capture_npc_displays_035_v2.py",
+  "base_sha256": "00b91a39045f310679eec911db09a88d6c01ce104a71caf7b3a1a09a099f86ff",
+  "output": "tools\\capture_npc_displays_036_v1.py",
+  "output_sha256": "521c9622a35c903c347527b3f1f58491877ac0f51746360b524c921e913153c1",
+  "edits": [
+    {
+      "before": "from field_npc_rom_product_035 import verify_final",
+      "after": "from field_npc_rom_product_036_v1 import verify_final"
+    },
+    {
+      "before": "CASES={'plaza':('7A32A8',255,21,None),'portraits':('79D650',255,61,None),'weekend':('7A4DD4',255,30,None)}",
+      "after": "CASES={'a0':('79CF04',255,30,None),'a1':('7AAF94',255,0,None),'a3':('7B469C',255,0,None)}"
+    },
+    {
+      "before": "m['keyitem_rom']['npc035']",
+      "after": "m['keyitem_rom']['npc036']"
+    },
+    {
+      "before": "actual035 new NPC clone",
+      "after": "actual036 new NPC clone"
+    }
+  ],
+  "scope": "Own-ROM PET root/script aliases to036 three scene-class examples, not natural acquisition"
+}

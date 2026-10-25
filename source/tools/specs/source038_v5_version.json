@@ -1,0 +1,45 @@
+{
+  "base": "tools\\prepare_source500_038_v4.py",
+  "base_sha256": "81fbbf89460d3809cb2a94ab3a214ba4409ca13742ec84c69dba6857553a0399",
+  "changes": [
+    [
+      "from prepare_source500_038_v3 import typed_lookup",
+      "from prepare_source500_038_v3 import typed_lookup\nfrom normal_navi_tail038_v1 import validate as navi_tail\nfrom field_hint_capacity import validate as hint_validate"
+    ],
+    [
+      "OUT='analysis/pending_insertion_500_038_source_only_v4'",
+      "OUT='analysis/pending_insertion_500_038_source_only_v5'"
+    ],
+    [
+      "if {x['source_class'] for x in r}=={'native-NPC'}",
+      "if {x['source_class'] for x in r} in ({'native-NPC'},{'navi-hint'})"
+    ],
+    [
+      "validators=[('normal-pages',",
+      "validators=[('normal-navi-tail-geometry',lambda a,b,c,d,e:navi_tail(a,b,c,d,e,88)),('fullbox',lambda a,b,c,d,e:hint_validate(a,b,c,d,e,88)),('normal-pages',"
+    ],
+    [
+      "source_native_lookup_candidates=lookup.get(arc,[]),source_board_lookup_candidates=boards.get(arc,[]),",
+      "source_lookup_candidates=typed[arc],source_class=typed[arc][0]['source_class'],"
+    ],
+    [
+      "tools/prepare_source500_038_v4.py",
+      "tools/prepare_source500_038_v5.py"
+    ],
+    [
+      "deps=['tools/prepare_source500_038_v3.py'",
+      "deps=['tools/normal_navi_tail038_v1.py','tools/field_hint_capacity.py','tools/specs/source038_v5_version.json','tools/prepare_source500_038_v3.py'"
+    ],
+    [
+      "Store native code/CPU effects and battle outcomes unverified for new scope.",
+      "Store native code/CPU effects, cleared-page Navi branch continuations and battle outcomes unverified for new scope."
+    ],
+    [
+      "A4/B0/B1 lookups are finite static source paths, not natural acquisition.",
+      "A4/B0/B1 NPC/board and navi-hint lookups are finite static source paths, not natural acquisition. A4 NPC table is NOT null:53790=08053B18. Earlier prose was incorrect; old classification JSON records false."
+    ]
+  ],
+  "output": "tools\\prepare_source500_038_v5.py",
+  "output_sha256": "74bb99da87c30d6c9dc746186eb2e960bfe61720240585cc49d706f12e57762f",
+  "scope": "Source-only geometry composition. Protected words/commands preserved; native semantics and cumulative carry NOT admitted."
+}

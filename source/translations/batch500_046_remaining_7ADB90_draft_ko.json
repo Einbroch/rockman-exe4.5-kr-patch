@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7ADB90",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7ADB90.tpl",
+    "sha256": "a90eb9e0ab586356a2d4f3246d91bbf35dbe7af3012afbf036b3e0a73c74794d"
+  },
+  "source_archive_sha256": "678bef20fca9a60e0639347fa3aae8180259a502acaccb7d6a984085b9c3c13c",
+  "consumer": "remaining-contextual-ui-debug-npc",
+  "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-046",
+  "semantic_review": [
+    "Remaining515catalog units reconciled:500manual drafts(batch046)+13manual drafts(final047);2kana selector arrays remain unresolved structural input targets, not silently excluded from denominator. Not513unique sentences; no ROM writes.",
+    "All selected source literals and native selected-script skeletons read, exact repeated WAIT_FALSE/CLEAR blocks abbreviated only in read-only logical view. Allsource IDs/TPL/payload/digits/brackets/line topology/padding/native commands preserved.",
+    "Manual source-conditioned free prose. No automated prose generation, selection or shortening. New voices/terms/cultural names/honorifics/packed field segmentation need independent/human review; allneeds_review releasefalse.",
+    "513translated strings include developer/prototype/soul-unison/legacy labels. Presence inROM is not proof of normal reachability or support; debug granting/save-affecting commands never executed.",
+    "Packed BBS/profile/PA/Latin table byte/cell boundaries unresolved. Draft-first assets are not insertion-ready; 132px heuristic cannot approve/shorten or establish actual capacity.",
+    "Name-entry source6368E8scripts2/3 are originalkana selector arrays; adopted40jamo page/composer is separate. Changing literal text cannot integrate selectors/rendering/commit/redisplay/persistence. Keep2original units untranslated until structural integration.",
+    "Explicit portraits, hide transitions and player choices preserved; no portrait inferred solely from text.source768800MrProgGreen/Lan;7C416CMrProgGreen thenKnightMan.7C9C44/7CAF40speakerunknown.",
+    "Source digits:+30/3turn/1chip/STA002103203303/HP memory33/itemgrant etc immutable. Developerallchip/currency/profile flags and minigameflag5059 unchanged. No emulator/save/ROM/image/keyboard modifications.",
+    "Current draft-first sequence continues into whole-corpus consumer/font/layout readiness then cumulativeROM/screen/save regression; human wording review/graphics/keyboard integration/persistence/release remainopen."
+  ],
+  "units": [
+    {
+      "id": "7ADB90:0:0",
+      "source": "キョウは ミズゾクセイの\nウイルスが ウヨウヨしてるね",
+      "translation": "오늘은 물속성\n바이러스가 득실거리네",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADB90:0:1",
+      "source": "ミズビタしに ならないように\nキをツけないと・・・",
+      "translation": "물벼락을 맞지 않게\n조심해야겠어···",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADB90:1:0",
+      "source": "そこいらの チップショップじゃ、\nスイヨウビは レディースデー\nだとかなんとかイって",
+      "translation": "그쪽 칩 상점들은\n수요일엔 레이디스 데이라느니\n뭐라느니 하면서",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADB90:1:1",
+      "source": "チップを ヤスウり\nしてるけどよ、",
+      "translation": "칩을 싸게\n팔지만 말이야,",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADB90:1:2",
+      "source": "そこの バグのカケラ\nコウカンヤは、",
+      "translation": "거기 버그조각\n교환소는",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADB90:1:3",
+      "source": "そんなナンパな\nイベントをイッサイやっていない\nコウハなミセだぜ・・・",
+      "translation": "그런 가벼운\n행사는 전혀 하지 않는\n우직한 가게야···",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "NPC weekday/elemental viruses/shopping/patrol/classes/Official meetings/student ambition or legacyAkihara greeting. Local portraits established perliteral, source facts/suspicions kept; actual route unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

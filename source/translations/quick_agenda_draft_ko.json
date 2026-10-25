@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "65B8E4",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/65B8E4.tpl",
+    "sha256": "fec888301a89e5101620077435232a22d1d57b7fa52598a66ba37aee1ec2095c"
+  },
+  "source_archive_sha256": "89d837c92712993f313836bf862265ed436c1443b13548c3af3b6dec3315376e",
+  "consumer": "quick-box-tournament-agenda-profile",
+  "context": "Upcoming event list and today agenda; hour/minute/AMPM/name buffers preserved.",
+  "voice": "Friendly plain source voice; no named Navi asserted without mugshot or caller proof; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep all commands/flags/branches/variables/name buffers, source literals not selected, original newlines and choice two-space padding; no edits to source archive or ROM.",
+  "semantic_review": [
+    "Quote characters/colon/blank literals are unselected source, not drafting count. Upcoming suffix 일정이 있어 and today suffix 일정이야 attach after quoted event names without final-consonant particle.",
+    "Hour/minute buffer1 formatting and AMPM buffer order unchanged. Time suffix부터 retains start-time meaning, not duration. AMPM output text translation and actual consumer width not proved by this batch.",
+    "Soon-event loop2 and today loop11 preserved, including source first soon-event jumpIfNone=2. No inferred branch repair or agenda/calendar runtime verification."
+  ],
+  "units": [
+    {
+      "id": "65B8E4:1:0",
+      "source": "もうすぐ",
+      "translation": "곧",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Upcoming event list and today agenda; hour/minute/AMPM/name buffers preserved.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B8E4:3:0",
+      "source": "の よていがあるよ!",
+      "translation": " 일정이 있어!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Upcoming event list and today agenda; hour/minute/AMPM/name buffers preserved.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B8E4:10:0",
+      "source": "今日 とうろくされている\nよていは・・・",
+      "translation": "오늘 등록된\n일정은...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Upcoming event list and today agenda; hour/minute/AMPM/name buffers preserved.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B8E4:10:1",
+      "source": "なにもないよ",
+      "translation": "아무것도 없어",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Upcoming event list and today agenda; hour/minute/AMPM/name buffers preserved.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B8E4:11:2",
+      "source": " から\n",
+      "translation": "부터\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Upcoming event list and today agenda; hour/minute/AMPM/name buffers preserved.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B8E4:12:0",
+      "source": "だよ!",
+      "translation": " 일정이야!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Upcoming event list and today agenda; hour/minute/AMPM/name buffers preserved.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    }
+  ]
+}

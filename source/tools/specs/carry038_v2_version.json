@@ -1,0 +1,21 @@
+{
+  "base": "tools\\compile_carry038_v1.py",
+  "base_sha256": "a113a7fffcba480d1041435bb2a2fe6dc00706d8bf5563b7aeba2b1848343373",
+  "changes": [
+    [
+      "OUT='analysis/pending_insertion_500_038_carry_v1'",
+      "OUT='analysis/pending_insertion_500_038_carry_v2'"
+    ],
+    [
+      "bp=f/(arc+'_current037.msg');bp.write_bytes(before);",
+      "parent_dir=f/'parent';parent_dir.mkdir();bp=parent_dir/(arc+'.msg');bp.write_bytes(before);"
+    ],
+    [
+      "tools/compile_carry038_v1.py",
+      "tools/compile_carry038_v2.py"
+    ]
+  ],
+  "output": "tools\\compile_carry038_v2.py",
+  "output_sha256": "cb4f1ccb45b21eaf206ef9fdb16b22b3b422263e28ae47b7ab5232bb2ce3aaa3",
+  "reason": "v1 parent bytes rebuilt identical, but TextPet derives @archive from suffixed input filename, so protected header comparison correctly failed. Correct input basename, never weaken skeleton/binary checks."
+}

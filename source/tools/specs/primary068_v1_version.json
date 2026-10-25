@@ -1,0 +1,36 @@
+{
+  "base": "tools\\build_development_patch_067_v1.py",
+  "base_sha256": "e61c2bc3513ec27f52c5da0b68e7627093399a804f5100abab27fa19f8b99f65",
+  "output": "tools\\build_development_patch_068_v1.py",
+  "output_sha256": "d2a69b2b2561f148446c0cf0db21d9005caf4d81baf810f3afca05ca237400e4",
+  "changes": [
+    [
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage067_v1').install(source,appended,key_patches,keyitem_rom)",
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage067_v1').install(source,appended,key_patches,keyitem_rom)\n        appended,key_patches,keyitem_rom=__import__('keyboard_stage068_v1').install(source,appended,key_patches,keyitem_rom)"
+    ],
+    [
+      "__import__('graphics_stage067_v1').predecessor_view(source,target,keyitem_rom)",
+      "__import__('graphics_stage067_v1').predecessor_view(source,__import__('keyboard_stage068_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom)"
+    ],
+    [
+      " and __import__('graphics_stage067_v1').verify(source,target,keyitem_rom)",
+      " and __import__('graphics_stage067_v1').verify(source,target,keyitem_rom) and __import__('keyboard_stage068_v1').verify(source,target,keyitem_rom)"
+    ],
+    [
+      "    parent066=__import__('graphics_stage067_v1').predecessor_view(source,target,result['keyitem_rom'])",
+      "    parent067=__import__('keyboard_stage068_v1').predecessor_view(source,target,result['keyitem_rom'])\n    parent066=__import__('graphics_stage067_v1').predecessor_view(source,parent067,result['keyitem_rom'])"
+    ],
+    [
+      "    __import__('graphics_stage067_v1').verify(source,target,result['keyitem_rom'])",
+      "    __import__('graphics_stage067_v1').verify(source,target,result['keyitem_rom'])\n    __import__('keyboard_stage068_v1').verify(source,target,result['keyitem_rom'])"
+    ]
+  ],
+  "dependencies": {
+    "keyboard_stage068_v1.py": "21997bb6c084fe5bdf6a49c78cfae384015ea9e37d0925ff3d9dcd482fb91a81",
+    "hangul_keyboard_hooks_v1.py": "ed25324e6023524c17d534dae4816466c66274bf044b5536d59cbca5b151869e",
+    "keyboard_page_v1.py": "cc297648cde2f3a27c170761de526d99d38af4e86bd6b2b77163634f5c313ea9",
+    "hangul_record_v3.py": "24e268a9fafa4c66cbe7c3f386ddf3979e96d3603be54376473a4d0a7b4a8870",
+    "hangul_editor_v1.py": "2b1e81bc3ae83f2d32aa01d77fbe0b415ed2e07e42ad506c1de49da5e767f498",
+    "hangul_display_hooks_v2.py": "32124c42bd983ebf3f11f1194f0a7657cfe80bfe7078a3842c514a750ca2d057"
+  }
+}

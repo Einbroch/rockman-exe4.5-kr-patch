@@ -1,0 +1,12 @@
+{
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "context":"Rockman asks operator whether to escape during battle; result and forbidden messages. Preserve casual established Rockman voice as a candidate, not human-approved localization.",
+  "drafts":[
+    {"id":"76C944:2:0","translation":"여긴 도망칠까?\n","rationale":"Escape advisability question to operator; retains here/context and newline before options."},
+    {"id":"76C944:2:1","translation":"예  ","rationale":"Yes selection; native trailing two spaces preserved."},
+    {"id":"76C944:2:2","translation":"아니요","rationale":"No selection; does not change targets or cancel behavior."},
+    {"id":"76C944:3:3","translation":"좋아!\n겨우 도망쳤어!","rationale":"Managed to escape; success, not an attempted or uncertain result."},
+    {"id":"76C944:4:3","translation":"안 돼!\n도망칠 수 없어・・・!","rationale":"Could not escape; native punctuation and two lines retained."},
+    {"id":"76C944:5:0","translation":"여긴 도망칠 때가\n아니야!","rationale":"Not a situation for escaping; do not present as a random escape failure."}
+  ]
+}

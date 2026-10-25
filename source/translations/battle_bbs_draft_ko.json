@@ -1,0 +1,1155 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "7000AC",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7000AC.tpl",
+    "sha256": "2bb6f588838a89ed753d365b6aa019cb1ee714b7ec37954c4f6e70de2bb063d3"
+  },
+  "source_archive_sha256": "ecd5385403bc2ee8a9b208812ecd6ec397d8f7098c6754336fc5832877c2dd3d",
+  "consumer": "bbs-text",
+  "context": "All125 Japanese literals in49-slot battle BBS archive; local posts, replies and quoted event announcement read together. No author identity inferred from nearby names alone.",
+  "voice": "Source casual and polite poster registers retained as drafts; Koetsu19/29 explicit self-introductions. Existing gold_bbs_draft_ko.json wording candidates for common system terms, not new approval.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve IDs, numeric counts3/2/30/1, L/R/SELECT and input order, equipment vs chips, gauge consumption vs gain, escape retry prerequisite, nested event quote, conditions/uncertainty and command/newline topology. ROM/save unchanged.",
+  "semantic_review": [
+    "크랙아웃/보이즈봄/마루모코 follow existing chip description candidates. 다마/달마/봄보이/사무조군/마그볼트/퀵 게이지/헤비 게이지 remain source-backed candidates for glossary review, not approved names.",
+    "Source8 says plug-out restores chip count; reply9 mentions an Internet restoration place. Both source statements retained, no deletion of apparent exception and no assertion that one disproves the other.",
+    "Source counter timing is enemy attack instant plus chip hit, not buster counter; defensive equipment costs gauge, successful block increases it; quick/heavy chips speed gauge while not consuming it.",
+    "Source quoted everyday event says electric-stove cyberworld, no advance registration, unrelated to weekend tournaments; no inferred replacement venue added.",
+    "BBS widths, complete instruction runtime correctness and author headers not verified; mechanical pass is not semantic or human approval."
+  ],
+  "units": [
+    {
+      "id": "7000AC:0:0",
+      "source": "ようこそ!\nここは バトルケイジバン!",
+      "translation": "어서 와!\n여기는 배틀 게시판!",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:0:1",
+      "source": "みんなウイルスバスティングの\nれんしゅうプログラムは\nクリアしたよね",
+      "translation": "다들 바이러스 버스팅\n연습 프로그램은\n통과했지?",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:0:2",
+      "source": "このケイジバンは\nより こうどなテクニックを\nかたりあう ばしょなんだ!",
+      "translation": "이 게시판은\n더 뛰어난 기술에 대해\n이야기하는 곳이야!",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:0:3",
+      "source": "みんな じぶんがハッケンした\nテクニックを ドンドン\nかきこんでいってくれたまえ!",
+      "translation": "다들 자기가 발견한\n기술을 적극적으로\n글로 올려 줘!",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:0:4",
+      "source": "それでは さっそくボクが\nLRボタンでつかえるそうびの\nレクチャーをしておくぞ!",
+      "translation": "그럼 우선 내가\nLR 버튼으로 쓰는 장비를\n설명해 줄게!",
+      "state": "needs_review",
+      "speaker": "BBS-post-0; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:1:0",
+      "source": "Lボタン、Rボタンでつかえる\nそうびは ナビごとにちがうんだ",
+      "translation": "L 버튼, R 버튼으로 쓰는\n장비는 내비마다 달라",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:1:1",
+      "source": "ナビはそれぞれ3しゅるいの\nそうびをもっている",
+      "translation": "내비는 각각 3종류의\n장비를 가지고 있어",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:1:2",
+      "source": "そのうちの2しゅるいをえらんで\nLRにわりふれるってわけだ",
+      "translation": "그중 2종류를 골라\nLR에 배정할 수 있지",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:1:3",
+      "source": "ちなみにRボタンは さいしょは\nみんなバスターになっているぞ",
+      "translation": "참고로 R 버튼은 처음엔\n모두 버스터로 설정되어 있어",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:1:4",
+      "source": "つかうそうびを かえたいばあいは\nPET画面の そうびのこうもくを\nえらんで・・・",
+      "translation": "쓰는 장비를 바꾸려면\nPET 화면의 장비 항목을\n선택하고...",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:1:5",
+      "source": "LとRのそれぞれのそうびを\nきりかえればOKだぞ!",
+      "translation": "L과 R 각각의 장비를\n바꾸면 OK야!",
+      "state": "needs_review",
+      "speaker": "BBS-post-1; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:2:0",
+      "source": "LRでつかえるそうびの中には\nぼうぎょタイプのものもあるぞ",
+      "translation": "LR로 쓰는 장비 중에는\n방어 타입도 있어",
+      "state": "needs_review",
+      "speaker": "BBS-post-2; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:2:1",
+      "source": "たとえばシールドなんかが\nそれにあたるわけなんだが・・・",
+      "translation": "예를 들면 실드 같은 게\n여기에 해당하는데...",
+      "state": "needs_review",
+      "speaker": "BBS-post-2; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:2:2",
+      "source": "ぼうぎょタイプのそうびは\nつかうと カスタムゲージを\n少しだけしょうひするぞ",
+      "translation": "방어 타입 장비를 쓰면\n커스텀 게이지가\n조금 소모돼",
+      "state": "needs_review",
+      "speaker": "BBS-post-2; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:3:0",
+      "source": "オレもじっせんでやくにたつ\nテクニックをみつけたぜ!",
+      "translation": "나도 실전에서 쓸 만한\n기술을 찾았어!",
+      "state": "needs_review",
+      "speaker": "BBS-post-3; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:3:1",
+      "source": "バトルチップをつかうのに\nひつようなカスタムゲージ!\nじかんとともにたまっていくけど",
+      "translation": "배틀 칩을 쓰는 데\n필요한 커스텀 게이지!\n시간이 지나면 차오르지만",
+      "state": "needs_review",
+      "speaker": "BBS-post-3; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:3:2",
+      "source": "なんと バスターをうっていると\nよりはやく ゲージがたまるんだ!\nすげー大はっけんだぜー!",
+      "translation": "놀랍게도 버스터를 쏘면\n게이지가 더 빨리 차올라!\n엄청난 발견이지!",
+      "state": "needs_review",
+      "speaker": "BBS-post-3; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:4:0",
+      "source": "ゆうこうなカスタムゲージの\nふやし方か! ふむふむ・・・",
+      "translation": "커스텀 게이지를 효율적으로\n늘리는 방법인가! 흠흠...",
+      "state": "needs_review",
+      "speaker": "BBS-post-4; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:4:1",
+      "source": "たしかにバスターをうっていると\nゲージのたまりがはやくなるけど\nじつはもっとスゴイわざがあるぞ!",
+      "translation": "버스터를 쏘면 게이지가\n더 빨리 차는 건 맞지만\n더 굉장한 기술도 있어!",
+      "state": "needs_review",
+      "speaker": "BBS-post-4; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:4:2",
+      "source": "それは・・・\nズバリ カウンターさ!",
+      "translation": "그건...\n바로 카운터야!",
+      "state": "needs_review",
+      "speaker": "BBS-post-4; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:4:3",
+      "source": "カウンターっていうのは\nあいてがまさに今 攻撃をする!\nという しゅんかんに・・・",
+      "translation": "카운터는\n상대가 막 공격하려는\n바로 그 순간에...",
+      "state": "needs_review",
+      "speaker": "BBS-post-4; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:4:4",
+      "source": "チップ攻撃を\nヒットさせることなんだ!",
+      "translation": "칩 공격을\n명중시키는 거야!",
+      "state": "needs_review",
+      "speaker": "BBS-post-4; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:4:5",
+      "source": "メンくらったあいては\nしばらくマヒじょうたいになるうえ\nゲージが一気にグンとふえる!",
+      "translation": "당황한 상대는\n잠시 마비될 뿐만 아니라\n게이지도 단숨에 확 늘어나!",
+      "state": "needs_review",
+      "speaker": "BBS-post-4; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:4:6",
+      "source": "バルカンみたいな\nれんしゃできるチップだと\nねらいやすいぞ!",
+      "translation": "벌컨처럼\n연사가 되는 칩이면\n노리기 쉬워!",
+      "state": "needs_review",
+      "speaker": "BBS-post-4; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:5:0",
+      "source": "ナビにバトルチップを\nおくったときってさぁ",
+      "translation": "내비에게 배틀 칩을\n보내면 말이야",
+      "state": "needs_review",
+      "speaker": "BBS-post-5; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:5:1",
+      "source": "てきにあたるように\nじどうてきにいどうしてから\nつかってくれるよね",
+      "translation": "적에게 맞힐 수 있도록\n자동으로 이동한 뒤에\n써 주잖아",
+      "state": "needs_review",
+      "speaker": "BBS-post-5; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:5:2",
+      "source": "でも そのばですぐに\nつかっちゃうときもあるみたい\nこれってなんでなのかな?",
+      "translation": "그런데 그 자리에서 바로\n쓰는 때도 있는 것 같아\n왜 그런 걸까?",
+      "state": "needs_review",
+      "speaker": "BBS-post-5; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:6:0",
+      "source": "たしかに だいたいのチップは\nじどうてきにいどうしてから\nつかってくれるよね",
+      "translation": "확실히 대부분의 칩은\n자동으로 이동한 뒤에\n써 주지",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:6:1",
+      "source": "でも いくつかのチップは\nそのばですぐつかうように\nなっていたりするんだ",
+      "translation": "하지만 몇몇 칩은\n그 자리에서 바로 쓰도록\n되어 있어",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:6:2",
+      "source": "どのチップがそうなのかは\nじぶんの手でしらべてみてほしいな",
+      "translation": "어떤 칩이 그런지는\n직접 확인해 봤으면 해",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:6:3",
+      "source": "ちなみに つかったときに\nじかんがとまって\n画面が くらくなるチップは",
+      "translation": "참고로 쓸 때\n시간이 멈추고\n화면이 어두워지는 칩은",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:6:4",
+      "source": "そのばですぐつかうように\nなっているから ちゃんとナビを\nゆうどうしてからつかうといいぞ!",
+      "translation": "그 자리에서 바로 쓰니까\n내비를 제대로 유도한 뒤에\n쓰면 좋아!",
+      "state": "needs_review",
+      "speaker": "BBS-post-6; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:7:0",
+      "source": "ウイルスからにげたいときは\nさくせん画面でLボタンをおせば\nにげられるけど",
+      "translation": "바이러스에게서 도망치려면\n작전 화면에서 L 버튼을\n누르면 되지만",
+      "state": "needs_review",
+      "speaker": "BBS-post-7; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:7:1",
+      "source": "にげきれなかったばあいは\nカスタムゲージがあおいろまで\nたまらないと",
+      "translation": "도망치지 못했다면\n커스텀 게이지가 파란색까지\n차오르기 전에는",
+      "state": "needs_review",
+      "speaker": "BBS-post-7; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:7:2",
+      "source": "もういちど にげることが\nできないんだよね\nみんなも気をつけた方がいいよ",
+      "translation": "다시 도망칠 수\n없어\n다들 조심하는 게 좋아",
+      "state": "needs_review",
+      "speaker": "BBS-post-7; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:8:0",
+      "source": "はじめまして!\nきょう バトルチップゲートを\nかってきました!",
+      "translation": "처음 뵙겠습니다!\n오늘 배틀 칩 게이트를\n사 왔어요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-8; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:8:1",
+      "source": "ゲートをつけるとどうなるか\nかんたんにレポートします!",
+      "translation": "게이트를 달면 어떻게 되는지\n간단히 알려 드릴게요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-8; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:8:2",
+      "source": "きほんてきな バトルのルールは\nゲートがないときと\nとくにちがいはないみたい",
+      "translation": "기본적인 배틀 규칙은\n게이트가 없을 때와\n딱히 다르지 않은 것 같아요",
+      "state": "needs_review",
+      "speaker": "BBS-post-8; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:8:3",
+      "source": "ふつうにフォルダの中の\n30まいのチップは\nつかえるんだけど・・・",
+      "translation": "평소처럼 폴더 안의\n30장 칩을\n쓸 수 있는데...",
+      "state": "needs_review",
+      "speaker": "BBS-post-8; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:8:4",
+      "source": "さらにバトルチップゲートから\nスロットインすることでも\nチップ攻撃ができるんです!",
+      "translation": "배틀 칩 게이트에\n슬롯 인하는 것으로도\n칩 공격이 가능해요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-8; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:8:5",
+      "source": "フォルダの中のチップとちがって\nすきなチップをいつでも\nつかえるから かなりイイよ!",
+      "translation": "폴더 안의 칩과 달리\n원하는 칩을 언제든\n쓸 수 있어서 꽤 좋아요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-8; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:8:6",
+      "source": "ただし ゲートでつかうチップは\nしようかいすうが チップごとに\nきまってるんだ",
+      "translation": "다만 게이트로 쓰는 칩은\n칩마다 사용 횟수가\n정해져 있어요",
+      "state": "needs_review",
+      "speaker": "BBS-post-8; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:8:7",
+      "source": "しようかいすうは\nプラグアウトしないと\nもとにもどらないから",
+      "translation": "사용 횟수는\n플러그아웃하지 않으면\n원래대로 돌아오지 않으니",
+      "state": "needs_review",
+      "speaker": "BBS-post-8; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:8:8",
+      "source": "ちゃんと けいかくてきに\nチップをつかうようにするのが\nポイントだね!",
+      "translation": "계획적으로\n칩을 사용하는 것이\n요령이네요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-8; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:0",
+      "source": "チップゲートかいましたか!\nいいですよね!\nボクもきのうかってきましたよ!",
+      "translation": "칩 게이트를 사셨군요!\n좋지요!\n저도 어제 사 왔어요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:1",
+      "source": "ちなみにインターネットのどこかに\nチップのしようかいすうを\nかいふくしてくれるところもあるよ",
+      "translation": "참고로 인터넷 어딘가에는\n칩 사용 횟수를\n회복해 주는 곳도 있어요",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:2",
+      "source": "スロットインすべきか いなか!\nこの せんりゃくせいが\nチップゲートのだいごみだね!",
+      "translation": "슬롯 인할까 말까!\n이런 전략성이\n칩 게이트의 묘미죠!",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:3",
+      "source": "それから こんなメールが\nとどいたから しょうかい\nしとくよ!!",
+      "translation": "그리고 이런 메일이\n도착해서\n소개해 드릴게요!!",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:4",
+      "source": "「ネットバトラーのみなさま\n しつれいします\n イベントの こくちです",
+      "translation": "「넷 배틀러 여러분\n 실례하겠습니다\n 이벤트 안내입니다",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:5",
+      "source": " ただいま 電気コンロの電脳にて\n バトル大会を かいさい中です",
+      "translation": " 현재 전기레인지 전뇌에서\n 배틀 대회를 개최 중입니다",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:6",
+      "source": " その名もエブリデイトーナメント\n なまえのとおり まいにち\n かいさい しております",
+      "translation": " 이름은 에브리데이 토너먼트\n 이름 그대로 매일\n 개최하고 있습니다",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:7",
+      "source": " じぜんの エントリーは\n ひつようありません\n ふるって ごさんかください!",
+      "translation": " 사전 참가 신청은\n 필요 없습니다\n 많은 참가 바랍니다!",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:8",
+      "source": " なお、この大会は\n しゅうまつのトーナメントとは\n いっさい かんけいありません",
+      "translation": " 또한, 이 대회는\n 주말 토너먼트와\n 아무 관계도 없습니다",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:9:9",
+      "source": " ごちゅうい ください」",
+      "translation": " 주의해 주세요」",
+      "state": "needs_review",
+      "speaker": "BBS-post-9; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:15:0",
+      "source": "みなさん\nみみよりの じょうほうを\nてにいれました!",
+      "translation": "여러분\n솔깃한 정보를\n얻었어요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-15; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:15:1",
+      "source": "エブリデイトーナメントの\nゆうしょうしょうひん\nは チケットらしいです",
+      "translation": "에브리데이 토너먼트의\n우승 상품은\n티켓이라고 하네요",
+      "state": "needs_review",
+      "speaker": "BBS-post-15; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:16:0",
+      "source": "ぼくも バトルとかで いろいろ\nいそがしいけど いちおう\nつっこんどくね!",
+      "translation": "저도 배틀 등으로 여러모로\n바쁘지만 일단\n한마디 할게요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-16; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:16:1",
+      "source": "それって なんのチケットだー!!",
+      "translation": "그게 무슨 티켓인데요!!",
+      "state": "needs_review",
+      "speaker": "BBS-post-16; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:17:0",
+      "source": "どうも こんにちは",
+      "translation": "안녕하세요",
+      "state": "needs_review",
+      "speaker": "BBS-post-17; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:17:1",
+      "source": "エブリデイトーナメントって\nはやってるんですかね?",
+      "translation": "에브리데이 토너먼트가\n인기 있는 건가요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-17; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:17:2",
+      "source": "いろんな ばしょで\nかいさいされている\nみたいですよ",
+      "translation": "여러 장소에서\n열리고\n있는 것 같아요",
+      "state": "needs_review",
+      "speaker": "BBS-post-17; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:17:3",
+      "source": "それからチケットって\nどこかの でんのうトビラが\nひらけるらしいです",
+      "translation": "그리고 그 티켓으로\n어딘가의 전뇌 문을\n열 수 있다고 해요",
+      "state": "needs_review",
+      "speaker": "BBS-post-17; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:18:0",
+      "source": "バトルしてたら あいてのナビが\nプログラムアドバンスとかいう\nかわった攻撃をしてきたんです",
+      "translation": "배틀 중 상대 내비가\n프로그램 어드밴스라는\n특이한 공격을 했어요",
+      "state": "needs_review",
+      "speaker": "BBS-post-18; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:18:1",
+      "source": "あ!!",
+      "translation": "앗!!",
+      "state": "needs_review",
+      "speaker": "BBS-post-18; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:18:2",
+      "source": "っというまに まけました\nシャレにならないですよ!",
+      "translation": "하는 사이에 졌어요\n정말 장난이 아니었어요!",
+      "state": "needs_review",
+      "speaker": "BBS-post-18; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:18:3",
+      "source": "あのすっごいテクニックは\nなんですかね?",
+      "translation": "그 굉장한 기술은\n뭘까요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-18; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:19:0",
+      "source": "プログラムアドバンスだね\nまかせなさい\nコーエツにいさんが こたえよう!",
+      "translation": "프로그램 어드밴스 말이구나\n맡겨 둬\n코에츠 형이 답해 줄게!",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:19:1",
+      "source": "とくていの じゅんばんでチップを\n3枚そうしんすると チップが\nがったいすることが あるんだよ",
+      "translation": "정해진 순서로 칩을\n3장 보내면 칩이\n합체할 때가 있어",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:19:2",
+      "source": "やり方は セレクトボタンを\nおすと チップのうけつけ\nじかんがはじまるから・・・",
+      "translation": "방법은 셀렉트 버튼을\n누르면 칩 입력 시간이\n시작되니까...",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:19:3",
+      "source": "そのあいだに じゅんばん\nどおりに チップをえらぶんだ",
+      "translation": "그동안 순서대로\n칩을 고르면 돼",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:19:4",
+      "source": "がったいしたチップは\nチョーきょうりょくだぞ!\nきっと やみつきになるはずさ",
+      "translation": "합체한 칩은\n엄청 강력해!\n분명 푹 빠질 거야",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:19:5",
+      "source": "ちなみに いちど見つけた\nくみあわせは P.Aメモに\nじどうてきにトウロクされるぞ",
+      "translation": "참고로 한번 찾은\n조합은 P.A 메모에\n자동으로 등록돼",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:19:6",
+      "source": "みんな ぜひさがしてみようぜ!!",
+      "translation": "다들 꼭 찾아보자!!",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:20:0",
+      "source": "ぼうぎょけいのそうびって\nつかうと カスタムゲージが\nへるじゃん?",
+      "translation": "방어 계열 장비를\n쓰면 커스텀 게이지가\n줄잖아?",
+      "state": "needs_review",
+      "speaker": "BBS-post-20; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:20:1",
+      "source": "でも あいてのこうげきを\nしっかり うけとめれば\nこんどは ゲージがふえるんだ!",
+      "translation": "그런데 상대 공격을\n제대로 막아 내면\n이번엔 게이지가 늘어나!",
+      "state": "needs_review",
+      "speaker": "BBS-post-20; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:20:2",
+      "source": "ぼうぎょが うまければ\nこうげきにも すぐ いこう\nできるってわけ!",
+      "translation": "방어를 잘하면\n공격으로도 곧바로\n전환할 수 있다는 거지!",
+      "state": "needs_review",
+      "speaker": "BBS-post-20; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:20:3",
+      "source": "どう? タメになったでしょ?",
+      "translation": "어때? 도움 됐지?",
+      "state": "needs_review",
+      "speaker": "BBS-post-20; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:21:0",
+      "source": "ダーマっていう\nダルマみたいなウイルスを\nときどき みかけるでしょ?",
+      "translation": "다마라는\n달마 인형 같은 바이러스를\n가끔 보지?",
+      "state": "needs_review",
+      "speaker": "BBS-post-21; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:21:1",
+      "source": "あいつの カベにはねかえるような\n攻撃って よそうしづらくって\nやっかいじゃない?",
+      "translation": "그 녀석의 벽에 튕기는\n공격은 예측하기 어려워서\n성가시지 않아?",
+      "state": "needs_review",
+      "speaker": "BBS-post-21; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:21:2",
+      "source": "いつも てこずっちゃうのよ\nかんたんにデリートする\nほうほうってないかしら?",
+      "translation": "항상 애를 먹는데\n간단히 삭제하는\n방법은 없을까?",
+      "state": "needs_review",
+      "speaker": "BBS-post-21; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:22:0",
+      "source": "ダーマが あいてだったらさぁ\nクラックアウトが すっげー\nつかえるよん!",
+      "translation": "다마가 상대라면\n크랙아웃이 엄청\n쓸 만해!",
+      "state": "needs_review",
+      "speaker": "BBS-post-22; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:22:1",
+      "source": "パネルにアナが あいてるとさ\nダーマの 攻撃は\nアナにおちちゃうのさ!ダッセー!",
+      "translation": "패널에 구멍이 나 있으면\n다마의 공격은\n구멍에 빠져! 한심하지!",
+      "state": "needs_review",
+      "speaker": "BBS-post-22; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:22:2",
+      "source": "攻撃できないダーマなんて\nただのダルマさんだよね?\nへへへ!",
+      "translation": "공격 못 하는 다마는\n그냥 달마 인형이지?\n헤헤헤!",
+      "state": "needs_review",
+      "speaker": "BBS-post-22; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:23:0",
+      "source": "たしかに アナをあけると\nたたかいやすくなる\nウイルスって いますよね",
+      "translation": "구멍을 내면\n싸우기 쉬워지는\n바이러스가 있긴 하죠",
+      "state": "needs_review",
+      "speaker": "BBS-post-23; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:23:1",
+      "source": "ぼくの しってるのは\nマルモコですね",
+      "translation": "제가 아는 건\n마루모코예요",
+      "state": "needs_review",
+      "speaker": "BBS-post-23; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:23:2",
+      "source": "アイツのトッシンが\nとどかなくなるなんて\nかんがえました?",
+      "translation": "그 녀석의 돌진이\n닿지 않게 될 줄\n생각하셨나요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-23; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:23:3",
+      "source": "クラックアウトが\nいっぱいほしい\nきょう このごろです",
+      "translation": "크랙아웃이\n잔뜩 있었으면 하는\n요즘입니다",
+      "state": "needs_review",
+      "speaker": "BBS-post-23; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:24:0",
+      "source": "トーナメントの あいてが\nとってもハンサムなナビ\nだったの",
+      "translation": "토너먼트 상대가\n무척 잘생긴\n내비였어",
+      "state": "needs_review",
+      "speaker": "BBS-post-24; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:24:1",
+      "source": "おもわず マグボルトで\nひきよせて だきついちゃった\nエヘ",
+      "translation": "나도 모르게 마그볼트로\n끌어당겨 끌어안았지\n에헤",
+      "state": "needs_review",
+      "speaker": "BBS-post-24; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:24:2",
+      "source": "コイおおきオトメに\nマグボルトは\nひっすアイテムよ!",
+      "translation": "사랑에 빠지기 쉬운 소녀에게\n마그볼트는\n필수 아이템이야!",
+      "state": "needs_review",
+      "speaker": "BBS-post-24; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:25:0",
+      "source": "ちかごろ このへんでも\nオフィシャルの みまわりを\nよく見かけるわね",
+      "translation": "요즘 이 근처에서도\n오피셜의 순찰을\n자주 보네",
+      "state": "needs_review",
+      "speaker": "BBS-post-25; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:25:1",
+      "source": "けわしい かおして\nただごとじゃないみたい",
+      "translation": "표정이 험한 걸 보니\n보통 일이 아닌가 봐",
+      "state": "needs_review",
+      "speaker": "BBS-post-25; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:25:2",
+      "source": "なにか あったのかしら?",
+      "translation": "무슨 일이 생긴 걸까?",
+      "state": "needs_review",
+      "speaker": "BBS-post-25; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:26:0",
+      "source": "しりあいのオフィシャルに\nたずねて みたんですけど、",
+      "translation": "아는 오피셜에게\n물어봤는데요,",
+      "state": "needs_review",
+      "speaker": "BBS-post-26; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:26:1",
+      "source": "なんでも ダークロイドとかいう\nふしんなナビをけいかいして\nいるらしいです",
+      "translation": "다크로이드라는\n수상한 내비를 경계하고\n있는 것 같아요",
+      "state": "needs_review",
+      "speaker": "BBS-post-26; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:26:2",
+      "source": "トーナメントにえいきょうが\nないといいですね",
+      "translation": "토너먼트에 영향이\n없으면 좋겠네요",
+      "state": "needs_review",
+      "speaker": "BBS-post-26; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:27:0",
+      "source": "アレレ?\nすごい はたらきもの の\nウイルスがいる!!",
+      "translation": "어라?\n정말 부지런한\n바이러스가 있네!!",
+      "state": "needs_review",
+      "speaker": "BBS-post-27; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:27:1",
+      "source": "って おもって、なごんでたら\nやられちゃいました",
+      "translation": "그렇게 생각하며 흐뭇해하다가\n당하고 말았어요",
+      "state": "needs_review",
+      "speaker": "BBS-post-27; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:27:2",
+      "source": "そいつが いっしょうけんめい\nはこんでいる にもつの\nしょうたいは バクダンなんです",
+      "translation": "그 녀석이 열심히\n나르는 짐의\n정체는 폭탄이에요",
+      "state": "needs_review",
+      "speaker": "BBS-post-27; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:27:3",
+      "source": "そのばくだん ぼうへきにも\nなってて ほんたいに攻撃が\nあたらないんですよ",
+      "translation": "그 폭탄이 방벽도 되어서\n본체에 공격이\n맞지 않더라고요",
+      "state": "needs_review",
+      "speaker": "BBS-post-27; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:27:4",
+      "source": "そのバクダンを\nこっちのエリアまで はこばれたら\nドッカーン です",
+      "translation": "그 폭탄을\n우리 에어리어까지 운반하면\n쾅 터지는 거예요",
+      "state": "needs_review",
+      "speaker": "BBS-post-27; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:27:5",
+      "source": "みなさんなら どーします?",
+      "translation": "여러분이라면 어떻게 하세요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-27; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:28:0",
+      "source": "そのウイルスは ボムボーイですね\nばくだんは ボーイズボムって\nいうらしいです",
+      "translation": "그 바이러스는 봄보이예요\n폭탄은 보이즈봄이라고\n한다고 하네요",
+      "state": "needs_review",
+      "speaker": "BBS-post-28; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:28:1",
+      "source": "ボーイズボムは ばくはつする\nまえに はかいできるけど\nちょっと めんどくさいですよね?",
+      "translation": "보이즈봄은 폭발하기 전에\n파괴할 수 있지만\n좀 귀찮죠?",
+      "state": "needs_review",
+      "speaker": "BBS-post-28; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:28:2",
+      "source": "ぼくだったら 1マスおくにも\nかんつうするチップで攻撃します\nバルカンけい とかですね",
+      "translation": "저라면 1칸 뒤까지\n관통하는 칩으로 공격해요\n벌컨 계열 같은 거요",
+      "state": "needs_review",
+      "speaker": "BBS-post-28; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:28:3",
+      "source": "それで ボーイズボムが\nちかづくまえに はやめにたおす!\nこれじゃないですか?",
+      "translation": "그래서 보이즈봄이\n다가오기 전에 빨리 쓰러뜨린다!\n그게 답 아닐까요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-28; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:29:0",
+      "source": "やあ ウイルスのけんきゅうも\nわすれない べんきょうかの\nコーエツにいさんだよ",
+      "translation": "안녕, 바이러스 연구도\n잊지 않는 공부꾼\n코에츠 형이야",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:29:1",
+      "source": "ふむふむ・・・\nたしかにサムゾくんの\nいうことも ただしいね",
+      "translation": "흠흠...\n사무조군의 말도\n맞는 말이네",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:29:2",
+      "source": "ただもっと\nラクチンな ほうほうも\nあるんだぞ",
+      "translation": "하지만 더\n편한 방법도\n있어",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:29:3",
+      "source": "ボムボーイは まっすぐにしか\nすすめないんだ\nということは・・・・・・・・",
+      "translation": "봄보이는 곧장 앞으로만\n갈 수 있지\n그렇다는 건........",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:29:4",
+      "source": "かしこいキミたちなら\nもうわかったね!",
+      "translation": "똑똑한 너희라면\n이제 알겠지!",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:29:5",
+      "source": "ボムボーイのすすむほうこうに\nしょうがいぶつや あなを\nつくってやるんだ!",
+      "translation": "봄보이가 가는 방향에\n장애물이나 구멍을\n만드는 거야!",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:29:6",
+      "source": "それだけで\nボムボーイは さきに\nすすめなくなるはずさ",
+      "translation": "그것만으로\n봄보이는 더 나아갈 수\n없게 될 거야",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:29:7",
+      "source": "あとはキミたちのすきなように\nりょうり してくれたまえ\nチョロイもんだよね!",
+      "translation": "이제 너희가 원하는 대로\n요리해 주면 돼\n쉬운 일이지!",
+      "state": "needs_review",
+      "speaker": "Koetsu-self-identified",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:32:0",
+      "source": "クイックゲージってチップが\nメッチャべんりだよ!",
+      "translation": "퀵 게이지라는 칩은\n엄청 편리해!",
+      "state": "needs_review",
+      "speaker": "BBS-post-32; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:32:1",
+      "source": "このチップで\nカスタムゲージがたまる\nスピードを はやくできるんだ",
+      "translation": "이 칩으로\n커스텀 게이지가 차는\n속도를 높일 수 있어",
+      "state": "needs_review",
+      "speaker": "BBS-post-32; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:32:2",
+      "source": "ひゅー べんりー!",
+      "translation": "이야, 편리해!",
+      "state": "needs_review",
+      "speaker": "BBS-post-32; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:33:0",
+      "source": "はんたいに ゲージのスピードを\nおそくするチップも\nありましたよね?",
+      "translation": "반대로 게이지 속도를\n늦추는 칩도\n있었지요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-33; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:33:1",
+      "source": "たしか なまえは\nヘビーゲージだったかな?",
+      "translation": "이름이 아마\n헤비 게이지였던가요?",
+      "state": "needs_review",
+      "speaker": "BBS-post-33; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:33:2",
+      "source": "よのなか いろんなチップが\nありますね",
+      "translation": "세상엔 다양한 칩이\n있네요",
+      "state": "needs_review",
+      "speaker": "BBS-post-33; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:34:0",
+      "source": "クイックゲージにしろ\nヘビーゲージにしろ・・・",
+      "translation": "퀵 게이지든\n헤비 게이지든...",
+      "state": "needs_review",
+      "speaker": "BBS-post-34; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:34:1",
+      "source": "チップをつかった時に\nカスタムゲージが\nへらないってしってた?",
+      "translation": "칩을 쓸 때\n커스텀 게이지가\n줄지 않는다는 건 알아?",
+      "state": "needs_review",
+      "speaker": "BBS-post-34; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:34:2",
+      "source": "ほかにも つかった時に\nゲージがしょうひ\nされないチップってあるんだよ",
+      "translation": "그 밖에도 쓸 때\n게이지가 소모되지\n않는 칩이 있어",
+      "state": "needs_review",
+      "speaker": "BBS-post-34; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:34:3",
+      "source": "それを しらないひとが\nときどきいるんだよね",
+      "translation": "그걸 모르는 사람이\n가끔 있더라고",
+      "state": "needs_review",
+      "speaker": "BBS-post-34; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    },
+    {
+      "id": "7000AC:34:4",
+      "source": "バトル中は カスタムゲージから\n目をはなさないようにね!",
+      "translation": "배틀 중에는 커스텀 게이지를\n잘 살펴봐!",
+      "state": "needs_review",
+      "speaker": "BBS-post-34; author not inferred",
+      "context": "Complete battle BBS posts0..9/15..29/32..34; adjacent replies read together. Nested quoted event mail9 distinguished. Gameplay advice kept as authored source explanation, not a new technical behavior claim.",
+      "variable_context": "Original post/page/quote boundaries retained; no dynamic name substitutions. ASCII BBS placeholders unchanged; actual BBS layout and poster headers need separate review."
+    }
+  ]
+}

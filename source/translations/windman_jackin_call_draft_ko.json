@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "66BEF8",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/66BEF8.tpl",
+    "sha256": "3e7690d84023e4b42b153e18a7dd8cbdd7e0126fb9c8781872c54ac426037069"
+  },
+  "source_archive_sha256": "3881dc87fa1fc8cdc265cd6c2d6d25ca6f91b4c09f9619a905d985a225e1fc8c",
+  "consumer": "quick-confirmation-return-jackin-reminders",
+  "context": "Type3 jackin call explicitly names WindMan.EXE destination. Operator command, not character self-speech.",
+  "voice": "Calm elder-like source forms as candidate, not approved. Only66BF44:21..26 explicit WindMan portraits; other quick voices unknown. Jackin call names destination, not speaker.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep prior selected literals, commands, flags, buffers, newlines and literal segmentation; no ROM/save writes.",
+  "semantic_review": [
+    "Preserve literal EXE token, three lines, destination WindMan name, flags3603/3651, wait30/type3 coordinates. Call itself does not show portrait or establish operator identity."
+  ],
+  "units": [
+    {
+      "id": "66BEF8:1:0",
+      "source": "プラグイン!\nウインドマン.EXE、\nトランスミッション!!",
+      "translation": "플러그인!\n윈드맨.EXE,\n트랜스미션!!",
+      "state": "needs_review",
+      "speaker": "operator-jackin-call",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Type3 jackin call explicitly names WindMan.EXE destination. Operator command, not character self-speech.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    }
+  ]
+}

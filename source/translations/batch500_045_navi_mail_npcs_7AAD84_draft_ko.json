@@ -1,0 +1,179 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7AAD84",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7AAD84.tpl",
+    "sha256": "36820e386b7becc62e5fd94753dd500fad0beaeb72263d70d451ef31aea4c2bb"
+  },
+  "source_archive_sha256": "3be8fc0cc2facdd7db976ff38951bef55d1afdc4a4b54ae8599ce61306b55607",
+  "consumer": "batch500-contextual-navi-mail-npcs",
+  "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-045",
+  "semantic_review": [
+    "Exactly500 stable catalog literals across76archives:366Navi/mail/folder and134NPC/statue/gate/tournament. All500sources, native skeletons and adjacent unselected literals inspected; repeated native blocks read by exact equivalent templates. Not500 unique sentences.",
+    "Manually authored source-conditioned free prose, no rule-based prose generation/choice/shortening. Allneeds_review development-draft NON-DISTRIBUTION releasefalse. New terms/voices/wordplay need human review.",
+    "Quick speech has no explicit portrait unless local mugshotShow; self-intro is textual context not proof of actual runtime routing. IceMan21..26, AquaMan70..75, SciLabMan0..5 and distinct NPC portrait switches preserved;31SciLabMan inherited from0 jump chain,33unknown.",
+    "Star source win/loss white/black stars and gray-star draw joke retains explicit outcomes; sixth-magnitude dimness differs from Plant six-tenths bloom. Shadow nine voiced incantation syllables and samurai register, Knight battle chant, Napalm harsh speech, Ice awkward politeness are review candidates.",
+    "Four native choices,91labels including90mail labels and1folder label; labels not spoken. Folder70dynamiccount and constraints3/1/1/5/1 immutable; same-class duplicate limits distinct from total class count.",
+    "Dynamic nickname/Navi/tournament/schedule/chip/item/buffer particles and inline flow require actual consumer review. Source gate100and90 references standard190 checks, not fabricated collectible count changes. Law123 is in-game fiction, not real legal advice.",
+    "Source temporary6BC0C8:0:0 and79C240:1:0 retained unresolved inremaining denominator; SP temporary trader79C8D8 also deferred. No debug/glyph tables declared complete or silently excluded.",
+    "Mail labels need consumer width/layout review; existing mail bodies and folder equipment labels are preserved. Statuename/item7, no inferred narrator portrait. Source digitalgreenery, firewarning and recycledprogram-data rumor retain confidence level.",
+    "Codec/glyph/skeleton/protectedfields/132px heuristic passes do not constitute semantic/human/runtime approval. Allremainingdrafts first, then cumulative insertion/font/consumer readiness and ROM screen/saveQA; keyboard/persistence/graphics/release remainopen. No ROM/save/emulator writes."
+  ],
+  "units": [
+    {
+      "id": "7AAD84:0:0",
+      "source": "まだカクしてる ショウヒンが\nあるでしょ!!",
+      "translation": "아직 숨겨 놓은 상품이\n있잖아요!!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:0:1",
+      "source": "おダしなさい!!",
+      "translation": "꺼내 놓으세요!!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:0:2",
+      "source": "も、もうナいッス~!",
+      "translation": "저, 정말 이제 없어요~!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:0:3",
+      "source": "ウソ オッシャい!",
+      "translation": "거짓말하지 마세요!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:1:0",
+      "source": "ナンか オマケをツけてよ!",
+      "translation": "뭐라도 덤으로 줘요!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:1:1",
+      "source": "カンベンしてクダさいよ\nおキャクさん~",
+      "translation": "좀 봐주세요\n손님~",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:1:2",
+      "source": "こっちも アカジカクゴで\nやってるんですから",
+      "translation": "저도 적자를 각오하고\n장사하는 거라니까요",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:2:0",
+      "source": "あのショップのナビは\nワタシの カレシなのよ・・・",
+      "translation": "저 상점 내비는\n내 남자 친구야...",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:2:1",
+      "source": "スイヨウビのタビに\nオンナのコに カコまれて\nデレデレデレデレ・・・",
+      "translation": "수요일만 되면\n여자애들에게 둘러싸여서\n헤벌쭉, 헤벌쭉...",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:2:2",
+      "source": "きぃっ!\nユルセナイ!!",
+      "translation": "으이익!\n용서 못 해!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:2:3",
+      "source": "・・・だけど、\nアレもシゴトのウチだしねぇ・・・",
+      "translation": "...하지만,\n저것도 일의 일부니까...",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7AAD84:2:4",
+      "source": "ヘンなキを オこさせないタメに\nココで ニラみを キかせてるのよ",
+      "translation": "딴마음 먹지 못하게\n여기서 눈에 힘을 주고 있는 거야",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Orangegirl bargains with yellow merchant, pink demands extra then envies her merchant boyfriend/watchesWednesdaygirls; no mixed dialogue. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

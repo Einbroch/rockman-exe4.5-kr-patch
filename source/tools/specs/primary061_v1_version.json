@@ -1,0 +1,52 @@
+{
+  "base": "tools/build_development_patch_060_v1.py",
+  "base_sha256": "bbd2c301854f43d2a0569c69111dfc82e743b44b38ffd9c3740ab8cbaf58a5ae",
+  "output": "tools/build_development_patch_061_v1.py",
+  "output_sha256": "0c6228c842b322f468988bf364e50fadfd5ff71f43ea9cac9a33b59c3ee00200",
+  "changes": [
+    [
+      "    from typed_rom_batch060_v1 import load_inputs as load_inputs060,install as install_typed060,finalize as finalize060,predecessor_view as predecessor_view060",
+      "    from typed_rom_batch060_v1 import load_inputs as load_inputs060,install as install_typed060,finalize as finalize060,predecessor_view as predecessor_view060\n    from typed_rom_batch061_v1 import load_inputs as load_inputs061,install as install_typed061,finalize as finalize061,predecessor_view as predecessor_view061"
+    ],
+    [
+      "    inputs060=load_inputs060(source)",
+      "    inputs060=load_inputs060(source)\n    inputs061=load_inputs061(source)"
+    ],
+    [
+      "    for entry060,*_ in inputs060:",
+      "    for entry061,*_ in inputs061:\n        asset061=read_json(ROOT/entry061['asset']['path'])\n        needed.update(ch for u in asset061['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    for entry060,*_ in inputs060:"
+    ],
+    [
+      "        appended,key_patches,keyitem_rom,typed_records060=install_typed060(source,appended,key_patches,keyitem_rom,inputs060,common,work/'plugins',work/'typed060')",
+      "        appended,key_patches,keyitem_rom,typed_records060=install_typed060(source,appended,key_patches,keyitem_rom,inputs060,common,work/'plugins',work/'typed060')\n        appended,key_patches,keyitem_rom,typed_records061=install_typed061(source,appended,key_patches,keyitem_rom,inputs061,common,work/'plugins',work/'typed061')"
+    ],
+    [
+      "        from typed_rom_batch060_v1 import verify_final",
+      "        from typed_rom_batch061_v1 import verify_final"
+    ],
+    [
+      "    parent059=predecessor_view060(source,target,result['keyitem_rom'])",
+      "    parent060=predecessor_view061(source,target,result['keyitem_rom'])\n    parent059=predecessor_view060(source,parent060,result['keyitem_rom'])"
+    ],
+    [
+      "    finalize060(source,target,result,inputs060,typed_records060)",
+      "    finalize060(source,parent060,result,inputs060,typed_records060)\n    finalize061(source,target,result,inputs061,typed_records061)"
+    ],
+    [
+      "            patches.append((pointer, (0x08000000 + products[row[\"offset\"]][0]).to_bytes(4, \"little\"),",
+      "            if pointer in __import__('batch_label_v3').REDIRECT_POINTERS:continue\n            patches.append((pointer, (0x08000000 + products[row[\"offset\"]][0]).to_bytes(4, \"little\"),"
+    ],
+    [
+      "                if at != dest or target[at:at + len(stored)] != stored:",
+      "                if (at != dest and pointer not in __import__('batch_label_v3').REDIRECT_POINTERS) or target[dest:dest + len(stored)] != stored:"
+    ],
+    [
+      "    nolabel=bytes(nolabel)\n",
+      "    nolabel=bytearray(nolabel)\n    for _v in result['keyitem_rom'].values():\n        for _r in (_v.get('redirects',[]) if isinstance(_v,dict) else []):nolabel[_r['offset']:_r['offset']+4]=bytes.fromhex(_r['base_hex'])\n    nolabel=bytes(nolabel)\n"
+    ]
+  ],
+  "component": {
+    "path": "tools/typed_rom_batch061_v1.py",
+    "sha256": "9bbbc81be3e15a5aadeff71333b5270344a396d0797d6e74b47b3bf3e554395f"
+  }
+}

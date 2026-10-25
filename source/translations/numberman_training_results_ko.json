@@ -1,0 +1,307 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "687910",
+  "source_archive_sha256": "d49e5b79fc689200d0c605df1503dea33a0c52aaa35105f56b8e14b268da11ac",
+  "consumer": "normal-dialogue",
+  "context": "Retained training intro10/11/20/21 plus result13/14/15/17 and record-result50/51/52/53 prose only. Source12 selects13..17 by global5 after callBufferMinigameResults;50 selects51..53 by record results. Native timed failure13 observed then PET return on bubbles-v1. Dynamic zenny/bugfrag readout16/18/52:2/53:2..3 and debug0/12:0 remain source.",
+  "voice": "Retained NumberMan polite/insecure voice. Failure expresses worry about operator's prospects; positive calculation praise and wrinkles-in-brain joke retained. Prose draft, not human-approved. No new item names or currency wording.",
+  "evidence": "analysis/tpl_baseline/687910.tpl; external/textpet-indexes/exe45.tpi root038284; poc/runtime/numberman-training-source-survey-v1 exact PET-v1 ROM normal controller route; poc/runtime/numberman-training-results-source-v1",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Keep original source/commands/arguments/flags/newlines/choice padding, player nickname insertion and its first-line comma bytes, item33 amounts5/1, global5 conditions, record minigame0, zenny/bugfrag amount4294967295 and all buffer formatting/jumps. Unselected literal readouts remain source, even within modified52/53.",
+  "wordings": [
+    {
+      "id": "numberman.training.10.0",
+      "translation": "넷 배틀은\n계산이 생명!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.10.1",
+      "translation": "계산을 못하는\n넷 배틀러는\n살아남지 못해요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.10.2",
+      "translation": "자, 그런 꼴을\n당하지 않도록,\n특훈을 해 봐요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.10.3",
+      "translation": "괜찮죠?",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.10.4",
+      "translation": "응  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.10.5",
+      "translation": "싫어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.11.0",
+      "translation": "그런가요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.11.1",
+      "translation": "나중에 어찌 되든\n저는 몰라요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.20.0",
+      "translation": "저, 저기・・・\n말씀드리자면,",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.20.1",
+      "translation": "플러그인은,\n조금 더",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.20.2",
+      "translation": "훈련한 뒤에\n하지 않겠어요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.20.3",
+      "translation": "지금 상태로는,\n제가 불안해서・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.20.4",
+      "translation": "특훈・・・\n해 봐요・・・ 네?",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.20.6",
+      "translation": "싫은데",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.training.21.0",
+      "translation": "후회하실 거예요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.result.poor.0",
+      "translation": "、\n이런 계산도\n못하시다니・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.result.poor.1",
+      "translation": "앞날이 걱정이에요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.result.good.0",
+      "translation": "오케이!\n계산이 멋졌어요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.result.good.1",
+      "translation": "뇌의 주름이\n늘었어요!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.result.good.2",
+      "translation": "왠지 생명력이\n넘쳐흘러요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.result.reward.0",
+      "translation": "꽤 잘했네요\n보상이라고 하긴\n뭐하지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.result.reward.1",
+      "translation": "작은 선물을・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.result.middling.0",
+      "translation": "그럭저럭 해냈네요\n보상이라고 하긴\n뭐하지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.result.record.poor",
+      "translation": "아아아아아아아!\n이건 뭔가\n잘못됐어요!!",
+      "state": "needs_review"
+    }
+  ],
+  "units": [
+    {
+      "id": "687910:10:0",
+      "source": "ネットバトルは\nけいさんが イノチ!",
+      "wording_id": "numberman.training.10.0"
+    },
+    {
+      "id": "687910:10:1",
+      "source": "けいさん できない\nネットバトラーは\nのたれじぬのです!",
+      "wording_id": "numberman.training.10.1"
+    },
+    {
+      "id": "687910:10:2",
+      "source": "さぁ、そんなコトに\nならないよう、\nとっくんを しましょう!",
+      "wording_id": "numberman.training.10.2"
+    },
+    {
+      "id": "687910:10:3",
+      "source": "いいですね?",
+      "wording_id": "numberman.training.10.3"
+    },
+    {
+      "id": "687910:10:4",
+      "source": "うん  ",
+      "wording_id": "numberman.training.10.4"
+    },
+    {
+      "id": "687910:10:5",
+      "source": "やだ!",
+      "wording_id": "numberman.training.10.5"
+    },
+    {
+      "id": "687910:11:0",
+      "source": "そうですか・・・",
+      "wording_id": "numberman.training.11.0"
+    },
+    {
+      "id": "687910:11:1",
+      "source": "アトで どうなっても\nしりませんよ・・・",
+      "wording_id": "numberman.training.11.1"
+    },
+    {
+      "id": "687910:20:0",
+      "source": "あ、あのー・・・\nおコトバですけど、",
+      "wording_id": "numberman.training.20.0"
+    },
+    {
+      "id": "687910:20:1",
+      "source": "プラグインするのは、\nもうすこし",
+      "wording_id": "numberman.training.20.1"
+    },
+    {
+      "id": "687910:20:2",
+      "source": "きたえてからに\nしませんか?",
+      "wording_id": "numberman.training.20.2"
+    },
+    {
+      "id": "687910:20:3",
+      "source": "今のままじゃ、\nワタシ ふあんで・・・",
+      "wording_id": "numberman.training.20.3"
+    },
+    {
+      "id": "687910:20:4",
+      "source": "とっくん・・・\nしましょうよ・・・ね?",
+      "wording_id": "numberman.training.20.4"
+    },
+    {
+      "id": "687910:20:5",
+      "source": "うん  ",
+      "wording_id": "numberman.training.10.4"
+    },
+    {
+      "id": "687910:20:6",
+      "source": "やだな",
+      "wording_id": "numberman.training.20.6"
+    },
+    {
+      "id": "687910:21:0",
+      "source": "こうかいしますよ・・・",
+      "wording_id": "numberman.training.21.0"
+    },
+    {
+      "id": "687910:13:0",
+      "source": "、\nこんな けいさんも\nできないとは・・・",
+      "wording_id": "numberman.result.poor.0"
+    },
+    {
+      "id": "687910:13:1",
+      "source": "さきが おもいやられます",
+      "wording_id": "numberman.result.poor.1"
+    },
+    {
+      "id": "687910:14:0",
+      "source": "オッケー!\nナイスけいさん でした!",
+      "wording_id": "numberman.result.good.0"
+    },
+    {
+      "id": "687910:14:1",
+      "source": "のうないの しわが\nふえましたよ!!",
+      "wording_id": "numberman.result.good.1"
+    },
+    {
+      "id": "687910:14:2",
+      "source": "なんだか、せいめい力が\nあふれてきました!",
+      "wording_id": "numberman.result.good.2"
+    },
+    {
+      "id": "687910:15:0",
+      "source": "まぁ、じょうできですね\nごほうびと いっては\nなんですが、",
+      "wording_id": "numberman.result.reward.0"
+    },
+    {
+      "id": "687910:15:1",
+      "source": "かるくプレゼントを・・・",
+      "wording_id": "numberman.result.reward.1"
+    },
+    {
+      "id": "687910:17:0",
+      "source": "まずまずの できですね\nごほうびと いっては\nなんですが、",
+      "wording_id": "numberman.result.middling.0"
+    },
+    {
+      "id": "687910:17:1",
+      "source": "かるくプレゼントを・・・",
+      "wording_id": "numberman.result.reward.1"
+    },
+    {
+      "id": "687910:50:0",
+      "source": "アアアアアアア!\nこれは なにかの\nまちがいです!!",
+      "wording_id": "numberman.result.record.poor"
+    },
+    {
+      "id": "687910:51:0",
+      "source": "オッケー!\nナイスけいさん でした!",
+      "wording_id": "numberman.result.good.0"
+    },
+    {
+      "id": "687910:51:1",
+      "source": "のうないの しわが\nふえましたよ!!",
+      "wording_id": "numberman.result.good.1"
+    },
+    {
+      "id": "687910:51:2",
+      "source": "なんだか、せいめい力が\nあふれてきました!",
+      "wording_id": "numberman.result.good.2"
+    },
+    {
+      "id": "687910:52:0",
+      "source": "まぁ、じょうできですね\nごほうびと いっては\nなんですが、",
+      "wording_id": "numberman.result.reward.0"
+    },
+    {
+      "id": "687910:52:1",
+      "source": "かるくプレゼントを・・・",
+      "wording_id": "numberman.result.reward.1"
+    },
+    {
+      "id": "687910:53:0",
+      "source": "まぁ、じょうできですね\nごほうびと いっては\nなんですが、",
+      "wording_id": "numberman.result.reward.0"
+    },
+    {
+      "id": "687910:53:1",
+      "source": "かるくプレゼントを・・・",
+      "wording_id": "numberman.result.reward.1"
+    }
+  ],
+  "scope_variant": "numberman-training-results-prose-v1"
+}

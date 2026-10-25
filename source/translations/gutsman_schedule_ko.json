@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "666F38",
+  "source_archive_sha256": "2facebf606327d4cf9df68310b945d90285de9b168999aef17c3697dd5ff4464",
+  "consumer": "normal-dialogue",
+  "context": "GutsMan native group schedule root038134/intro+36. Upcoming1->2event loop->3; today10->11clock/name loop->12 or10 no-event. Complete14slots/12literals. Native variable commands unaffected.",
+  "voice": "Existing 거츠/거스 development candidate; human wording review pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Stable IDs/source/numerals/newline/all commands/hour/minutes/AMPM/event buffers/loops/keyWait/clear preserved. Six original quote/colon/space literals unchanged. Clock suffix source30px -> Korean24px, no growing dynamic prefix.",
+  "semantic_review": [
+    "12 closes the preceding event listing on a separate cleared page, not a new event.3 announces upcoming listed event time.",
+    "Dynamic event names and AMPM are original game supplies; this asset neither translates unknown name populations nor changes calendar values/RTC/save/input.",
+    "NumberMan4649 approval not reused."
+  ],
+  "units": [
+    {
+      "id": "666F38:1:0",
+      "source": "そういえば、もうすぐ",
+      "translation": "그러고 보니、곧",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:2:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:2:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:3:0",
+      "source": "のじかんでガス!",
+      "translation": "시간이거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:10:0",
+      "source": "今日 とうろくされている\nよていは・・・",
+      "translation": "오늘 등록된\n일정은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:10:1",
+      "source": "なにもないでガス!",
+      "translation": "아무것도 없거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:11:0",
+      "source": ":",
+      "translation": ":",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:11:1",
+      "source": " ",
+      "translation": " ",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:11:2",
+      "source": " から\n",
+      "translation": "부터\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:11:3",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:11:4",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "666F38:12:0",
+      "source": "でガス!",
+      "translation": "이거스!",
+      "state": "needs_review"
+    }
+  ]
+}

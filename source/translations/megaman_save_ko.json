@@ -1,0 +1,41 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6DA21C",
+  "source_archive_sha256": "f3738ed1d0e58bca466ee06b15d8018547cce27dc4ff2fb5f863942bb94ab679",
+  "consumer": "normal-dialogue",
+  "context": "Rockman save confirmation, overwrite confirmation, in-progress warning, success and failure/retry messages. Scripts 0-4 only; checkNaviAll routes other characters to untouched scripts 20-119.",
+  "voice": "Rockman talks informally to the player; save warnings retain their functional meaning.",
+  "review": {"wording": "needs_review", "layout": "needs_runtime_review", "release_eligible": false},
+  "protected_policy": "Preserve every control, save call, flag, branch, delay, newline and trailing choice space. Error messages must not imply successful saving.",
+  "wordings": [
+    {"id": "save.confirm", "translation": "지금까지의 활약을\n저장해 둘까?\n", "state": "needs_review"},
+    {"id": "save.overwrite", "translation": "기존 저장 데이터에\n덮어써도 될까?\n", "state": "needs_review"},
+    {"id": "save.writing", "translation": "지금 저장 중이니까\n전원을 끄지 말아 줘", "state": "needs_review"},
+    {"id": "save.failed", "translation": "저장에\n실패한 것 같아・・・", "state": "needs_review"},
+    {"id": "save.retry", "translation": "다시 시도해 볼게\n", "state": "needs_review"},
+    {"id": "save.success", "translation": "좋아!\n저장이 끝났어!", "state": "needs_review"},
+    {"id": "save.invalid", "translation": "데이터가 잘못\n변경되어 있어서\n저장할 수 없어", "state": "needs_review", "notes": "Preserves the source distinction between invalidly modified data and an ordinary save failure; no claim that the data was deleted."},
+    {"id": "save.yes", "translation": "예  ", "state": "needs_review"},
+    {"id": "save.no", "translation": "아니요", "state": "needs_review"}
+  ],
+  "units": [
+    {"id": "6DA21C:0:0", "source": "ここまでのかつやくを\nセーブしておこうか?\n", "wording_id": "save.confirm"},
+    {"id": "6DA21C:0:1", "source": "はい  ", "wording_id": "save.yes"},
+    {"id": "6DA21C:0:2", "source": "いいえ", "wording_id": "save.no"},
+    {"id": "6DA21C:1:0", "source": "すでにあるセーブデータに\nうわがきしちゃうよ?\n", "wording_id": "save.overwrite"},
+    {"id": "6DA21C:1:1", "source": "はい  ", "wording_id": "save.yes"},
+    {"id": "6DA21C:1:2", "source": "いいえ", "wording_id": "save.no"},
+    {"id": "6DA21C:2:0", "source": "今、セーブしてるから、\nでんげんを きらないでね", "wording_id": "save.writing"},
+    {"id": "6DA21C:2:1", "source": "セーブに\nしっぱいしたみたい・・・", "wording_id": "save.failed"},
+    {"id": "6DA21C:2:2", "source": "もういちど やってみるね\n", "wording_id": "save.retry"},
+    {"id": "6DA21C:2:3", "source": "はい  ", "wording_id": "save.yes"},
+    {"id": "6DA21C:2:4", "source": "いいえ", "wording_id": "save.no"},
+    {"id": "6DA21C:3:0", "source": "よし!\nセーブおわったよ!", "wording_id": "save.success"},
+    {"id": "6DA21C:4:0", "source": "データが不正に\nかきかえられていて\nセーブできないよ", "wording_id": "save.invalid"},
+    {"id": "6DA21C:4:1", "source": "もういちど やってみるね\n", "wording_id": "save.retry"},
+    {"id": "6DA21C:4:2", "source": "はい  ", "wording_id": "save.yes"},
+    {"id": "6DA21C:4:3", "source": "いいえ", "wording_id": "save.no"}
+  ]
+}

@@ -1,0 +1,840 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "778CC0",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/778CC0.tpl",
+    "sha256": "323446b9e727ab21188093e9fb2d0d6dad091e2fbe58638c80a51273b319d317"
+  },
+  "source_archive_sha256": "5a64a34a61dac8d7ef13653b9a30746c3be440839e768cdb10f3f3c54a7d017e",
+  "consumer": "normal-dialogue-system",
+  "context": "All90 unselected Japanese literals in80-slot mystery-data archive. Payload/TPL pinned; native reward, scene/object animation, trap and capacity branches preserved. Source-only quote18:0 kept unselected.",
+  "voice": "Concise source-backed system narration; 미스터리 데이터/서브 칩/제니/버그 조각 candidates inherited from existing keyitem and mission assets. All entries manually authored, not a bulk source-string replacement.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve source IDs, variables/amount/padding, flags7690/7691, scene/object animation, timed10-frame literal boundaries, unlock requirement, capacity refusal and trap battle transitions. No gameplay/ROM/save writes.",
+  "semantic_review": [
+    "Name-independent noun-form investigation/acquisition avoids 은/는/이/가 selection from variable names. Final wording/presentation human review pending.",
+    "Search wording 조사했다 preserves source past tense and separate timed dots; later result branches express discovered reward/trap. Command timing is not modified or asserted runtime verified.",
+    "Item44 key requirement and item42 trap suppression remain separate; dynamic item names are not hardcoded guesses.",
+    "Trap-free branches56/66 keep 바이러스 데이터 삭제, while59/69 keep 바이러스였다 and native battle command. No safety outcome falsely promised.",
+    "Capacity failure18/48 is not acquisition; source-only quote remains protected. All consumer variable combinations and actual screens unverified."
+  ],
+  "units": [
+    {
+      "id": "778CC0:0:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:0:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:0:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:3:0",
+      "source": "サブチップ\n「",
+      "translation": "서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:3:1",
+      "source": "」\nが こうりょくを はっきした!!",
+      "translation": "」\n효과 발휘!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:3:2",
+      "source": "は、バトルチップ\n「",
+      "translation": ", 배틀 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:3:3",
+      "source": "」\nを ゲットした!!",
+      "translation": "」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:6:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:6:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:6:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:7:0",
+      "source": "カギがかかっている!\nあけるには、「",
+      "translation": "잠겨 있다!\n열려면, 「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:7:1",
+      "source": "」が\nひつようだ",
+      "translation": "」\n필요",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:9:0",
+      "source": "は、バトルチップ\n「",
+      "translation": ", 배틀 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:9:1",
+      "source": "」\nを ゲットした!!",
+      "translation": "」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:10:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:10:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:10:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:13:0",
+      "source": "サブチップ\n「",
+      "translation": "서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:13:1",
+      "source": "」\nが こうりょくを はっきした!!",
+      "translation": "」\n효과 발휘!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:13:2",
+      "source": "は、サブチップ\n「",
+      "translation": ", 서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:13:3",
+      "source": "」\nを ゲットした!!",
+      "translation": "」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:16:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:16:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:16:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:18:1",
+      "source": "」は\nいっぱいで もうもてない",
+      "translation": "」\n소지 한도라 더 못 가진다",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:19:0",
+      "source": "は、サブチップ\n「",
+      "translation": ", 서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:19:1",
+      "source": "」\nを ゲットした!!",
+      "translation": "」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:20:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:20:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:20:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:23:0",
+      "source": "サブチップ\n「",
+      "translation": "서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:23:1",
+      "source": "」\nが こうりょくを はっきした!!",
+      "translation": "」\n효과 발휘!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:23:2",
+      "source": "は、\n「",
+      "translation": ",\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:23:3",
+      "source": "ゼニー」\nを ゲットした!!",
+      "translation": "제니」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:26:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:26:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:26:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:29:0",
+      "source": "は、\n「",
+      "translation": ",\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:29:1",
+      "source": "ゼニー」\nを ゲットした!!",
+      "translation": "제니」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:30:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:30:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:30:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:33:0",
+      "source": "サブチップ\n「",
+      "translation": "서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:33:1",
+      "source": "」\nが こうりょくを はっきした!!",
+      "translation": "」\n효과 발휘!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:33:2",
+      "source": "は、\n「",
+      "translation": ",\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:33:3",
+      "source": "」\nを ゲットした!!",
+      "translation": "」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:36:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:36:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:36:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:39:0",
+      "source": "は、\n「",
+      "translation": ",\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:39:1",
+      "source": "」\nを ゲットした!!",
+      "translation": "」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:40:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:40:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:40:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:43:0",
+      "source": "サブチップ\n「",
+      "translation": "서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:43:1",
+      "source": "」\nが こうりょくを はっきした!!",
+      "translation": "」\n효과 발휘!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:43:2",
+      "source": "は、\n「バグのかけら」\nを ",
+      "translation": ",\n「버그 조각」\n총 ",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:43:3",
+      "source": "コゲットした!!",
+      "translation": "개 획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:46:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:46:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:46:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:48:0",
+      "source": "「バグのかけら」は\nいっぱいで もうもてない",
+      "translation": "「버그 조각」은\n소지 한도라 더 못 가진다",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:49:0",
+      "source": "は、\n「バグのかけら」\nを ",
+      "translation": ",\n「버그 조각」\n총 ",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:49:1",
+      "source": "コゲットした!!",
+      "translation": "개 획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:56:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:56:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:56:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:56:3",
+      "source": "サブチップ\n「",
+      "translation": "서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:56:4",
+      "source": "」\nが こうりょくを はっきした!!",
+      "translation": "」\n효과 발휘!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:56:5",
+      "source": "ミステリーデータに\nひそむ ウイルスデータが\nデリートされた!",
+      "translation": "미스터리 데이터에\n숨어 있던 바이러스 데이터가\n삭제되었다!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:59:0",
+      "source": "なんと、ミステリーデータは\nウイルスだった!!",
+      "translation": "놀랍게도 미스터리 데이터는\n바이러스였다!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:66:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:66:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:66:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:66:3",
+      "source": "サブチップ\n「",
+      "translation": "서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:66:4",
+      "source": "」\nが こうりょくを はっきした!!",
+      "translation": "」\n효과 발휘!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:66:5",
+      "source": "ミステリーデータに\nひそむ ウイルスデータが\nデリートされた!",
+      "translation": "미스터리 데이터에\n숨어 있던 바이러스 데이터가\n삭제되었다!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:69:0",
+      "source": "なんと、ミステリーデータは\nウイルスだった!!",
+      "translation": "놀랍게도 미스터리 데이터는\n바이러스였다!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:70:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:70:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:70:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:73:0",
+      "source": "サブチップ\n「",
+      "translation": "서브 칩\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:73:1",
+      "source": "」\nが こうりょくを はっきした!!",
+      "translation": "」\n효과 발휘!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:73:2",
+      "source": "は、きょうかプログラム\n「",
+      "translation": ", 강화 프로그램\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:73:3",
+      "source": "」\nを ゲットした!!",
+      "translation": "」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:76:0",
+      "source": "は、\nミステリーデータを\nしらべた・",
+      "translation": ",\n미스터리 데이터\n조사했다.",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:76:1",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:76:2",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:79:0",
+      "source": "は、きょうかプログラム\n「",
+      "translation": ", 강화 프로그램\n「",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    },
+    {
+      "id": "778CC0:79:1",
+      "source": "」\nを ゲットした!!",
+      "translation": "」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-mystery-data",
+      "context": "Native mystery data search/reward, locked item44 requirement, capacity refusal, item42 trap-removal vs random battle, and chip/subchip/zenny/item/bugfrag/program branches",
+      "variable_context": "printCurrentNavi/printItem/printChip/printBuffer order and numeric IDs unchanged; comma and noun-form labels avoid variable-final-consonant particles. Invariant 버그 조각은 is a fixed literal, not a variable. Real name/amount budgets pending."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7C6E94",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7C6E94.tpl",
+    "sha256": "1009aa20e600e0c41f7b409a54b4172fa92889b906a13abef3b71cd9707cd449"
+  },
+  "source_archive_sha256": "5753d36632d515ddad005351761beea0b026d81eac7de07edc28ed34a1a12cf4",
+  "consumer": "normal-dialogue-system-reward-strengthening",
+  "context": "All59 Japanese literals from5 archives; three heart and three star reward paths, placement/growth/strengthening and mission failure read.",
+  "voice": "Cheerful Roll/StarMan, solemn ThunderMan, steady WoodMan, apologetic formal ProtoMan, neutral reward narration. Candidate wording not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep item33 amount1, item7/item6 labels, zenny/bug amounts4294967295 with buffer3, printCurrentNavi/nickname, 10-frame dot waits, object vs scene animations24/25 and RollHeart/StarDataErase calls.",
+  "semantic_review": [
+    "Heart/star paths0/1/2 award strengthening program/zenny/bug fragments respectively; no randomized reward type or amount hardcoded. Timed dot literals remain individually authored dots, not removed prose.",
+    "Roll nickname+comma stays separate; narrator current Navi+comma and item+colon avoid invariant Korean final-consonant particles. Dynamic widths/presentation still require runtime evidence.",
+    "ThunderMan item7 is placed, electricity flows into him and strengthening grants item33; do not invent the item name or a player menu.",
+    "WoodMan item6 grows into a tree; minus ions and healing power are fictional source narration preserved without outside health claims. Names 썬더맨/우드맨 and label 강화 프로그램 are review candidates.",
+    "Reward/strengthening hidden or never-shown system narration is not attributed to the last visible portrait. Prefix0 hints spoken by ThunderMan/WoodMan are distinguished from later narration.",
+    "ProtoMan failure apologizes and returns; no success reward or new retry choice. All variables/commands remain source-defined.",
+    "No normal-play collection/reward limits/item placements/growth/strengthening/mission return/name/save/screen verification. Static draft checks are not runtime proof."
+  ],
+  "units": [
+    {
+      "id": "7C6E94:0:0",
+      "source": "ムウ、電脳しょくぶつが\nはえている・・・",
+      "translation": "음, 전뇌 식물이\n자라고 있군...",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "origin_portrait": "WoodMan",
+      "portrait_visibility": "visible",
+      "context": "Roll heart/StarMan star data rewards, ThunderMan/WoodMan strengthening and ProtoMan failed return; all local scripts read.",
+      "variable_context": "Keep current Navi/nickname/item33/7/6/buffer3 insertion boundaries; comma/colon or invariant 에서 avoids final-consonant particles. Name/item/amount screen widths unresolved."
+    },
+    {
+      "id": "7C6E94:0:1",
+      "source": "ここは ようぶんが\nあるようだな・・・",
+      "translation": "여기에는 양분이\n있는 것 같군...",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "origin_portrait": "WoodMan",
+      "portrait_visibility": "visible",
+      "context": "Roll heart/StarMan star data rewards, ThunderMan/WoodMan strengthening and ProtoMan failed return; all local scripts read.",
+      "variable_context": "Keep current Navi/nickname/item33/7/6/buffer3 insertion boundaries; comma/colon or invariant 에서 avoids final-consonant particles. Name/item/amount screen widths unresolved."
+    },
+    {
+      "id": "7C6E94:0:2",
+      "source": "を\nここに うえるとするか",
+      "translation": ":\n여기에 심어 볼까",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "origin_portrait": "WoodMan",
+      "portrait_visibility": "visible",
+      "context": "Roll heart/StarMan star data rewards, ThunderMan/WoodMan strengthening and ProtoMan failed return; all local scripts read.",
+      "variable_context": "Keep current Navi/nickname/item33/7/6/buffer3 insertion boundaries; comma/colon or invariant 에서 avoids final-consonant particles. Name/item/amount screen widths unresolved."
+    },
+    {
+      "id": "7C6E94:1:0",
+      "source": "は\nまたたくまに せいちょうし、\n大きな木になった!!",
+      "translation": ":\n눈 깜짝할 사이에 자라서,\n큰 나무가 되었다!!",
+      "state": "needs_review",
+      "speaker": "system-narration",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Roll heart/StarMan star data rewards, ThunderMan/WoodMan strengthening and ProtoMan failed return; all local scripts read.",
+      "variable_context": "Keep current Navi/nickname/item33/7/6/buffer3 insertion boundaries; comma/colon or invariant 에서 avoids final-consonant particles. Name/item/amount screen widths unresolved."
+    },
+    {
+      "id": "7C6E94:2:0",
+      "source": "木から あふれる\nマイナスイオンが、",
+      "translation": "나무에서 흘러나오는\n음이온이,",
+      "state": "needs_review",
+      "speaker": "system-narration",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Roll heart/StarMan star data rewards, ThunderMan/WoodMan strengthening and ProtoMan failed return; all local scripts read.",
+      "variable_context": "Keep current Navi/nickname/item33/7/6/buffer3 insertion boundaries; comma/colon or invariant 에서 avoids final-consonant particles. Name/item/amount screen widths unresolved."
+    },
+    {
+      "id": "7C6E94:2:1",
+      "source": "ウッドマンのカラダを\nつつみこんだ!!",
+      "translation": "우드맨의 몸을\n감쌌다!!",
+      "state": "needs_review",
+      "speaker": "system-narration",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Roll heart/StarMan star data rewards, ThunderMan/WoodMan strengthening and ProtoMan failed return; all local scripts read.",
+      "variable_context": "Keep current Navi/nickname/item33/7/6/buffer3 insertion boundaries; comma/colon or invariant 에서 avoids final-consonant particles. Name/item/amount screen widths unresolved."
+    },
+    {
+      "id": "7C6E94:2:2",
+      "source": "ウ、ウォォォ!!",
+      "translation": "우, 우오오오!!",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "origin_portrait": "WoodMan",
+      "portrait_visibility": "visible",
+      "context": "Roll heart/StarMan star data rewards, ThunderMan/WoodMan strengthening and ProtoMan failed return; all local scripts read.",
+      "variable_context": "Keep current Navi/nickname/item33/7/6/buffer3 insertion boundaries; comma/colon or invariant 에서 avoids final-consonant particles. Name/item/amount screen widths unresolved."
+    },
+    {
+      "id": "7C6E94:2:3",
+      "source": "木のはなつ、いやしのチカラに\nウッドマンは、きょうかされた!",
+      "translation": "나무에서 나오는 치유의 힘으로\n우드맨은 강화되었다!",
+      "state": "needs_review",
+      "speaker": "system-narration",
+      "origin_portrait": "WoodMan",
+      "portrait_visibility": "hidden",
+      "context": "Roll heart/StarMan star data rewards, ThunderMan/WoodMan strengthening and ProtoMan failed return; all local scripts read.",
+      "variable_context": "Keep current Navi/nickname/item33/7/6/buffer3 insertion boundaries; comma/colon or invariant 에서 avoids final-consonant particles. Name/item/amount screen widths unresolved."
+    }
+  ]
+}

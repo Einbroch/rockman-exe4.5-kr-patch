@@ -1,0 +1,17 @@
+{
+  "base": "tools\\verify_input_guards038_v1.py",
+  "base_sha256": "7bf47b9a1d20cae03a809c4a2a72d053e2a0dde1b665525ec4d8fe302dbdd711",
+  "changes": [
+    [
+      "except (ValueError,KeyError,IndexError) as e:",
+      "except (ValueError,KeyError,IndexError,SystemExit) as e:"
+    ],
+    [
+      "tools/verify_input_guards038_v1.py",
+      "tools/verify_input_guards038_v2.py"
+    ]
+  ],
+  "output": "tools\\verify_input_guards038_v2.py",
+  "output_sha256": "1eb1cecaf7e50d5945885cf83f43d2389573743cdef9787494ba8b55f61c14b4",
+  "reason": "v1 stopped at intended compiled-hash rejection because require_hash raises SystemExit. Accept that exception as refusal in the checker; primary enforcement unchanged; actual files unmodified."
+}

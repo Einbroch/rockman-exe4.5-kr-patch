@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "708FF0",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/708FF0.tpl",
+    "sha256": "84fca23f57852d06db3a8c39c698a05e9127e514769fe0601b39d5d7e75daf3f"
+  },
+  "source_archive_sha256": "581fa1a8c152909f0e69848cd58d773e273dcbfd004b15da384a5f6ac3380a13",
+  "consumer": "batch500-contextual-communication-menus-folders-internet2",
+  "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-034",
+  "semantic_review": [
+    "Exactly500stablecatalog literals:11communication archives42each=462,folder9,NPC29.119UIlabels,381otherliterals including2punctuation-only. No nativeoption/playerchoice literal;labels must not be called NPC speech or inferred selectable options.",
+    "All13completeTPLs read with source/control/padding/time/number protections. Manual source-conditioned needs_review NON-DISTRIBUTION drafts, releasefalse; no ROM/save/emulator write.",
+    "Communication pointer table0x448E0first11words matches archive order in originalROM. This is storage evidence, not execution or confirmed portrait/caller identity. No quick-script portraits; preserve speaker-unestablished, source style recorded separately.",
+    "Buffers0/1 minLength3/left padding, record counters, title versions4.5/4,3match2wins rules preserved. Both chip-gates versus no chip-gate and removal/retry guidance differ. A native label is not an option command.",
+    "Normal/completewin,near-loss/complete-loss,draw,communication failure messages retain distinct source tone and blank/line topology. Wind/flame/deity/soul/calculation metaphors remain dialogue, not new battle mechanics. Number-style0percent statement not guaranteed game probability.",
+    "Native mmbn45s labels and quick dialogue have separate rendering paths. Original coords10/12,92/110,225/141/type1/delay0,waitHold/keyWait remain. Conservative132px warning cannot approve label capacity or shorten prose automatically.",
+    "Guts sourcegas/guts endings distinguish existing candidate거스/거츠;Junk stammers only where written. Exact current-Navi attribution and humanvoice/term decisions remain review needs, not all-archive approval.",
+    "Folder names preserve IDs/duplicates/numbers;Meijin candidate명인 needs termreview. NPCs preserve explicitOrange/Pink/Yellowlocalportraits but reusedPinkportrait does not imply sameperson. Lawyer unnamed;do notinvent copyrighted character identity.",
+    "All-source catalogs not entireROM inline/graphics/inputtable closure. Humansemantic/presentation and eventual ROM/screen/save/keyboardpersistence verification remain open."
+  ],
+  "units": [
+    {
+      "id": "708FF0:0:0",
+      "source": "フォルダ1",
+      "translation": "폴더1",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label/record literal; not spoken choice",
+      "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+      "variable_context": "Native record buffers0/1, communication layout/waits and NPC time branches preserved. Labels and quick dialogue use different native languages/consumers; runtime layout and speaker routing unverified."
+    },
+    {
+      "id": "708FF0:1:0",
+      "source": "フォルダ2",
+      "translation": "폴더2",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label/record literal; not spoken choice",
+      "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+      "variable_context": "Native record buffers0/1, communication layout/waits and NPC time branches preserved. Labels and quick dialogue use different native languages/consumers; runtime layout and speaker routing unverified."
+    },
+    {
+      "id": "708FF0:2:0",
+      "source": "ヘッポコフォルダ",
+      "translation": "허접 폴더",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label/record literal; not spoken choice",
+      "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+      "variable_context": "Native record buffers0/1, communication layout/waits and NPC time branches preserved. Labels and quick dialogue use different native languages/consumers; runtime layout and speaker routing unverified."
+    },
+    {
+      "id": "708FF0:3:0",
+      "source": "オマケフォルダ",
+      "translation": "덤 폴더",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label/record literal; not spoken choice",
+      "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+      "variable_context": "Native record buffers0/1, communication layout/waits and NPC time branches preserved. Labels and quick dialogue use different native languages/consumers; runtime layout and speaker routing unverified."
+    },
+    {
+      "id": "708FF0:4:0",
+      "source": "ミナライフォルダ",
+      "translation": "견습 폴더",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label/record literal; not spoken choice",
+      "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+      "variable_context": "Native record buffers0/1, communication layout/waits and NPC time branches preserved. Labels and quick dialogue use different native languages/consumers; runtime layout and speaker routing unverified."
+    },
+    {
+      "id": "708FF0:5:0",
+      "source": "メイジンフォルダ",
+      "translation": "명인 폴더",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label/record literal; not spoken choice",
+      "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+      "variable_context": "Native record buffers0/1, communication layout/waits and NPC time branches preserved. Labels and quick dialogue use different native languages/consumers; runtime layout and speaker routing unverified."
+    },
+    {
+      "id": "708FF0:6:0",
+      "source": "ヘッポコフォルダ",
+      "translation": "허접 폴더",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label/record literal; not spoken choice",
+      "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+      "variable_context": "Native record buffers0/1, communication layout/waits and NPC time branches preserved. Labels and quick dialogue use different native languages/consumers; runtime layout and speaker routing unverified."
+    },
+    {
+      "id": "708FF0:7:0",
+      "source": "ヘッポコフォルダ",
+      "translation": "허접 폴더",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label/record literal; not spoken choice",
+      "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+      "variable_context": "Native record buffers0/1, communication layout/waits and NPC time branches preserved. Labels and quick dialogue use different native languages/consumers; runtime layout and speaker routing unverified."
+    },
+    {
+      "id": "708FF0:10:0",
+      "source": "リュック",
+      "translation": "배낭",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label/record literal; not spoken choice",
+      "context": "Full11-slot TPL read:9mmbn45s folder/inventory labels. Duplicate poor-folder IDs distinct. Meijin-folder name and backpack candidates; not personalname or inventory-system redesign. Runtime consumer width unresolved.",
+      "variable_context": "Native record buffers0/1, communication layout/waits and NPC time branches preserved. Labels and quick dialogue use different native languages/consumers; runtime layout and speaker routing unverified."
+    }
+  ]
+}

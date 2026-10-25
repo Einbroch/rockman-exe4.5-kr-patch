@@ -1,0 +1,37 @@
+{
+  "base": "tools\\compile_source500_037_v2.py",
+  "base_sha256": "b84935541094202204d35bbfbd7070cd25d87233afcf39937e101d1205e0b672",
+  "changes": [
+    [
+      "from prepare_source500_037_v2 import *",
+      "from prepare_source500_038_v5 import *\nfrom normal_navi_tail038_v1 import validate as navi_tail\nfrom normal_store_tail038_v1 import validate as store_tail\nfrom field_hint_capacity import validate as hint_validate"
+    ],
+    [
+      "validators=dict(VALIDATORS)",
+      "validators=dict(VALIDATORS);validators.update({'normal-navi-tail-geometry':lambda a,b,c,d,e:navi_tail(a,b,c,d,e,88),'normal-store-tail-geometry':lambda a,b,c,d,e:store_tail(a,b,c,d,e,88),'fullbox':lambda a,b,c,d,e:hint_validate(a,b,c,d,e,88)})"
+    ],
+    [
+      "tools/compile_source500_037_v2.py",
+      "tools/compile_source500_038_v1.py"
+    ],
+    [
+      "tools/prepare_source500_037_v2.py",
+      "tools/prepare_source500_038_v5.py"
+    ],
+    [
+      "PASS source037",
+      "PASS source038"
+    ],
+    [
+      "Actual036 glyph supply ",
+      "Actual037 glyph supply "
+    ],
+    [
+      "Independent037 source-only compile; prior036 filename failure is not a037 attempt",
+      "038 source-only targets preserve unselected SOURCE scripts, NOT current037 translations. These targets must NOT replace an existing cumulative archive. Carry/supersession and native tail/branch evidence remain product blockers."
+    ]
+  ],
+  "output": "tools\\compile_source500_038_v1.py",
+  "output_sha256": "32f1f1ee456cf8e6345f28e53fbb79ea94671826c17c9215bebb8d5799b5118a",
+  "scope": "Strict complete-source/protected-target/binary roundtrips/unselected-source/font checks retained. Geometry-only profiles do not admit native execution or current-clone replacement."
+}

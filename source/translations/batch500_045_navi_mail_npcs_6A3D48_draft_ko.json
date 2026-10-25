@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6A3D48",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6A3D48.tpl",
+    "sha256": "405c9ab74526a0691e5bb344d25f550ee8b6bfebb6b52d6eb924e1344e3f65b1"
+  },
+  "source_archive_sha256": "619f8918b90ce449a74932e55fc5b486db0f90d815f7813c328b882cca0820de",
+  "consumer": "batch500-contextual-navi-mail-npcs",
+  "context": "Star greetings/return/comet/sixth-magnitude brightness, hesitant plugin, shooting-star wish, win/loss/draw star wordplay and schedules. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-045",
+  "semantic_review": [
+    "Exactly500 stable catalog literals across76archives:366Navi/mail/folder and134NPC/statue/gate/tournament. All500sources, native skeletons and adjacent unselected literals inspected; repeated native blocks read by exact equivalent templates. Not500 unique sentences.",
+    "Manually authored source-conditioned free prose, no rule-based prose generation/choice/shortening. Allneeds_review development-draft NON-DISTRIBUTION releasefalse. New terms/voices/wordplay need human review.",
+    "Quick speech has no explicit portrait unless local mugshotShow; self-intro is textual context not proof of actual runtime routing. IceMan21..26, AquaMan70..75, SciLabMan0..5 and distinct NPC portrait switches preserved;31SciLabMan inherited from0 jump chain,33unknown.",
+    "Star source win/loss white/black stars and gray-star draw joke retains explicit outcomes; sixth-magnitude dimness differs from Plant six-tenths bloom. Shadow nine voiced incantation syllables and samurai register, Knight battle chant, Napalm harsh speech, Ice awkward politeness are review candidates.",
+    "Four native choices,91labels including90mail labels and1folder label; labels not spoken. Folder70dynamiccount and constraints3/1/1/5/1 immutable; same-class duplicate limits distinct from total class count.",
+    "Dynamic nickname/Navi/tournament/schedule/chip/item/buffer particles and inline flow require actual consumer review. Source gate100and90 references standard190 checks, not fabricated collectible count changes. Law123 is in-game fiction, not real legal advice.",
+    "Source temporary6BC0C8:0:0 and79C240:1:0 retained unresolved inremaining denominator; SP temporary trader79C8D8 also deferred. No debug/glyph tables declared complete or silently excluded.",
+    "Mail labels need consumer width/layout review; existing mail bodies and folder equipment labels are preserved. Statuename/item7, no inferred narrator portrait. Source digitalgreenery, firewarning and recycledprogram-data rumor retain confidence level.",
+    "Codec/glyph/skeleton/protectedfields/132px heuristic passes do not constitute semantic/human/runtime approval. Allremainingdrafts first, then cumulative insertion/font/consumer readiness and ROM screen/saveQA; keyboard/persistence/graphics/release remainopen. No ROM/save/emulator writes."
+  ],
+  "units": [
+    {
+      "id": "6A3D48:1:0",
+      "source": "シュターン!!",
+      "translation": "슈타앙!!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Star greetings/return/comet/sixth-magnitude brightness, hesitant plugin, shooting-star wish, win/loss/draw star wordplay and schedules. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "6A3D48:1:1",
+      "source": "すいせいのように\nスターマン、\nただいま とうちゃく!",
+      "translation": "혜성처럼\n스타맨,\n지금 도착!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Star greetings/return/comet/sixth-magnitude brightness, hesitant plugin, shooting-star wish, win/loss/draw star wordplay and schedules. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "6A3D48:2:0",
+      "source": "ハァ~ア、",
+      "translation": "하아~아,",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Star greetings/return/comet/sixth-magnitude brightness, hesitant plugin, shooting-star wish, win/loss/draw star wordplay and schedules. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "6A3D48:2:1",
+      "source": "今日の バトルは\n6とうせいくらいの\nかがやきだったな・・・",
+      "translation": "오늘 배틀의 빛은\n6등성 정도로\n희미했네...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Star greetings/return/comet/sixth-magnitude brightness, hesitant plugin, shooting-star wish, win/loss/draw star wordplay and schedules. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

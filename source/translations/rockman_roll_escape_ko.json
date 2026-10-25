@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "76C944",
+  "source_archive_sha256": "8dcf2727f8ddc7e0f1e35e45bc9790f0ab4253e5bae44275a599f57fbf6a971c",
+  "consumer": "fixed-cell-mono",
+  "scope_variant": "rockman-roll-escape-v1",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "context": "76C944 scripts8..11 explicitly show Roll portrait. Battle escape advisory, possible success, failed escape and forbidden escape. Same group6 consumer as Rockman; local source/context establishes function. Feminine Japanese endings rendered as gentle casual Korean candidate; not human-approved voice.",
+  "provenance": {
+    "prior_asset": "translations\\megaman_tactics_escape_ko.json",
+    "prior_sha256": "2e1d7dae19ab3b962e2deb281d506ffa12a6e033d1f3f36b8253c9eee25db92b",
+    "seed": "translations\\roll_escape_draft_seed.json",
+    "seed_sha256": "8144e8cc331d34de09c4d19a3336cfe7d4c2202ef72dd6bfea3bbf591538fa7f",
+    "tpl_sha256": "d5c378a4e4ab8660785a81ddcc3fb3708c05395538762e21a1715529fcc42be5",
+    "tool_sha256": "ddda2f68e85184dde21fc92abfc6fc21a299a1d80787c6d0a4422eee8a41a4d8",
+    "source_scripts": {
+      "0": {
+        "raw_hex": "d9b3ada1c9e8b2c19d7ee5",
+        "sha256": "7215515816b0dd4a96fd6073a3d88a3ee35189a83d86c9ea97e11e7f0a7d5796"
+      },
+      "1": {
+        "raw_hex": "ada1aeb3e8b99b9cb47ee5",
+        "sha256": "896ca581c22b66c25a6ea04248647b3c7fc5fedce7462706fb7f289a5fc32686"
+      },
+      "2": {
+        "raw_hex": "f40017e700a4a4b487b0ceaae4b0cb9c9ca0af7ee8f60708ea000100eb0001b49c0000ea000111eb00019c9c9eec0680ffffffe5",
+        "sha256": "c6e05ebe54876feaf47fb5aac847c1988ac2bf83a60dee6a2e505d4bf5e7c8c5"
+      },
+      "3": {
+        "raw_hex": "f40017e700ed0012008aed0012008aed0012008aed001200c0a683e8afcaaea0b0cea1c4aac083e600e5",
+        "sha256": "60e6f7c7259325e464efd3594776bdbe7a1cc31a0bbacc97fba3f16cb0911e95"
+      },
+      "4": {
+        "raw_hex": "f40017e700ed0012008aed0012008aed0012008aed001200452cd583e8b0cea1c4af9c8a8a8a83e600e5",
+        "sha256": "c972140a6e066688058e8345c2b95d57239f69354d397a47b15b424c4dd8a5f7"
+      },
+      "5": {
+        "raw_hex": "f40017e700a4a4b4b0ceadc3da9b9cd1e406e8af9cc083e600e5",
+        "sha256": "08b9b1d19cc8c6076bbfe00cc4631c6bcf8b404d2aa1a751efc057f973262128"
+      },
+      "8": {
+        "raw_hex": "f40018e700b0ceaae4b0cb9c9ca0a6c18a8a8a7ee8f60708ea000100eb0001b49c0000ea000111eb00019c9c9eec0680ffffffe5",
+        "sha256": "ff34789a4c84979c0ca4980456c8582ff1cfcfa081745dd6384856453c2b7906"
+      },
+      "9": {
+        "raw_hex": "f40018e700ed0012008aed0012008aed0012008aed0012009dca83e8afcaaea0b0cea1c4a99d83e600e5",
+        "sha256": "93d266c317a4c1915e876a08d056be562e65b1b83a620a0c18d4476dc9b2e102"
+      },
+      "10": {
+        "raw_hex": "f40018e700ed0012008aed0012008aed0012008aed001200452c83e8b0cea1c4af9c8a8a8a83e600e5",
+        "sha256": "9495920d1ecf9b17af08dadb714700f1957297a7c3672a9a5dfa2697a9d03e1b"
+      },
+      "11": {
+        "raw_hex": "f40018e700452c87b0ceadc3da9b9cd1e406e8af9cc683e600e5",
+        "sha256": "65853068917cbcca2ddc47c16ba7e2636e043ef786f0e0d3e94da7278f7fd9db"
+      }
+    }
+  },
+  "units": [
+    {
+      "id": "76C944:0:0",
+      "source": "どのてきを\nねらう?",
+      "translation": "어느 적을\n노릴까?",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:1:0",
+      "source": "てきとの\nまあいは?",
+      "translation": "적과의\n거리는?",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:2:0",
+      "source": "ここは、にげた方がいいかな?\n",
+      "translation": "여긴 도망칠까?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:2:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:2:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:3:3",
+      "source": "よし!\nなんとかにげきれたよ!",
+      "translation": "좋아!\n겨우 도망쳤어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:4:3",
+      "source": "ダメだ!\nにげきれない・・・!",
+      "translation": "안 돼!\n도망칠 수 없어・・・!",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:5:0",
+      "source": "ここはにげてるばあいじゃ\nないよ!",
+      "translation": "여긴 도망칠 때가\n아니야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:8:0",
+      "source": "にげた方がいいかしら・・・?\n",
+      "translation": "도망치는 게 나을까・・・?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:8:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:8:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:9:3",
+      "source": "うん!\nなんとかにげきれそう!",
+      "translation": "응!\n겨우 도망칠 수 있겠어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:10:3",
+      "source": "ダメ!\nにげきれない・・・!",
+      "translation": "안 돼!\n도망칠 수 없어・・・!",
+      "state": "needs_review"
+    },
+    {
+      "id": "76C944:11:0",
+      "source": "ダメ、にげてるばあいじゃ\nないわ!",
+      "translation": "안 돼, 도망칠 때가\n아니야!",
+      "state": "needs_review"
+    }
+  ]
+}

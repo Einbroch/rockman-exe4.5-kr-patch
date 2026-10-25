@@ -1,0 +1,32 @@
+{
+  "base": "tools\\build_development_patch_066_v1.py",
+  "base_sha256": "e6dc7adc3a62a5305cf26daf1e940bf27b8836c0f9ae9a4192e2f6b98f2a3340",
+  "output": "tools\\build_development_patch_067_v1.py",
+  "output_sha256": "e61c2bc3513ec27f52c5da0b68e7627093399a804f5100abab27fa19f8b99f65",
+  "changes": [
+    [
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage066_v1').install(source,appended,key_patches,keyitem_rom)",
+      "        appended,key_patches,keyitem_rom=__import__('graphics_stage066_v1').install(source,appended,key_patches,keyitem_rom)\n        appended,key_patches,keyitem_rom=__import__('graphics_stage067_v1').install(source,appended,key_patches,keyitem_rom)"
+    ],
+    [
+      "verify_final(source,__import__('graphics_stage066_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom) and __import__('graphics_stage066_v1').verify(source,target,keyitem_rom)",
+      "verify_final(source,__import__('graphics_stage066_v1').predecessor_view(source,__import__('graphics_stage067_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom),keyitem_rom) and __import__('graphics_stage066_v1').verify(source,target,keyitem_rom) and __import__('graphics_stage067_v1').verify(source,target,keyitem_rom)"
+    ],
+    [
+      "    parent065=__import__('graphics_stage066_v1').predecessor_view(source,target,result['keyitem_rom'])",
+      "    parent066=__import__('graphics_stage067_v1').predecessor_view(source,target,result['keyitem_rom'])\n    parent065=__import__('graphics_stage066_v1').predecessor_view(source,parent066,result['keyitem_rom'])"
+    ],
+    [
+      "    __import__('graphics_stage066_v1').verify(source,target,result['keyitem_rom'])",
+      "    __import__('graphics_stage066_v1').verify(source,target,result['keyitem_rom'])\n    __import__('graphics_stage067_v1').verify(source,target,result['keyitem_rom'])"
+    ]
+  ],
+  "component": {
+    "path": "tools/graphics_stage067_v1.py",
+    "sha256": "e699f21ae98586a78fc5a405a62681b67571d1961abf47c38ff89680ed138f5c"
+  },
+  "fixes": {
+    "path": "tools/graphics_fix_v2.py",
+    "sha256": "4f7521e6e81231bbaec43dbbd71f8e3630d60a1a77b770068dc4a1a3d27c16ec"
+  }
+}

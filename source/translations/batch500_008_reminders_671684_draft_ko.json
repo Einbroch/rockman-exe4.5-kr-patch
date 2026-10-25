@@ -1,0 +1,234 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "671684",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/671684.tpl",
+    "sha256": "084e1e5440341b9b4c6698046c17eac8ada82a2e6b5a8b0ed14bde7d4fd49d0d"
+  },
+  "source_archive_sha256": "1921dd2419668ab9e6162b562fe9c65687cfa141317e271c6f39add9d1ba9931",
+  "consumer": "batch500-contextual-profile-chip-menu-reminder",
+  "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+  "voice": "Source-conditioned manual draft; explicit portraits only; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands, variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-008",
+  "semantic_review": [
+    "Batch500-008 exactly500 stable literals: profile/chip hints401/menu67/reminders24/quick Guts-motif6/battle2; not500 unique sentences.",
+    "Every source literal and complete control skeleton inspected, small TPLs fully read. Manually authored per source ID; no source-string prose replacement, ROM/save writes, human approval or release eligibility.",
+    "65CC78:0:0/66DDD0:0:0 internal error asking report in sheet remain original/awaiting-context denominator. No diagnostic text silently excluded from total scope.",
+    "No portrait inferred from wind/Guts motif, archive adjacency or NumberMan screenshot. MegaMan menu and SearchMan21..26 only use explicit source mugshots.",
+    "Profile commands school/family/friend/crush/enemy/food/hobby/dream/show/idol/best-worst subjects/wish and battle-history/chip favorite variables preserve actual insertion ordering and page boundaries.",
+    "Topic fragments may use 말이야 or context-specific nouns to avoid 은/는,이/가,을/를 with arbitrary stored user strings; wording and dynamic-name geometry remain needs_review.",
+    "65CC78:53:3 source explicitly mentions ブルース; 브루스 is an existing candidate, not speaker/portrait proof.66DDD0風水 is 풍수; south-west77 vs north-north-east86 preserved as distinct directional advice.",
+    "66DDD0:61:1 retains numeral1; 65CC78 R buttons and programs retained.65CC78:50 imagined gift remains hypothetical rather than claiming awarded item; wind/future uncertainty retained.",
+    "Menu has27 choices/40 prose and all calculation/ice-letter/sniper prompts. Actual buffers/defaults/BSeparate/clear and flag3611/track467 untouched.",
+    "Reminders keep actual soon/today/event-type loops and SearchMan quick-vs-portrait split; tournament preparation vs tournament day vs key items and victory-effort vs defeat kept separate."
+  ],
+  "units": [
+    {
+      "id": "671684:1:1",
+      "source": " が\nはじまるじかんです",
+      "translation": " 방송\n시작 시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:1:2",
+      "source": "ミッションスタート!",
+      "translation": "미션 스타트!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:2:0",
+      "source": "\nのじかんです",
+      "translation": "\n약속 시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:2:1",
+      "source": "ぐんじんたるもの、\nじかんげんしゅ は\nキホンです",
+      "translation": "군인이라면,\n시간 엄수는\n기본입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:3:0",
+      "source": "しょくじの じかんです",
+      "translation": "식사 시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:4:0",
+      "source": "、\nじゅくに行く じかんです",
+      "translation": ",\n학원에 갈 시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:4:1",
+      "source": "スタディ ミッション、\nスタート!!",
+      "translation": "학습 미션,\n스타트!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:5:1",
+      "source": " の\nじかんです",
+      "translation": " 일정\n시간입니다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:6:0",
+      "source": "そして・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:21:1",
+      "source": " が\nはじまるじかんです",
+      "translation": " 방송\n시작 시간입니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:21:2",
+      "source": "ミッションスタート!",
+      "translation": "미션 스타트!",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:22:0",
+      "source": "\nのじかんです",
+      "translation": "\n약속 시간입니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:22:1",
+      "source": "ぐんじんたるもの、\nじかんげんしゅ は\nキホンです",
+      "translation": "군인이라면,\n시간 엄수는\n기본입니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:23:0",
+      "source": "しょくじの じかんです",
+      "translation": "식사 시간입니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:24:0",
+      "source": "、\nじゅくに行く じかんです",
+      "translation": ",\n학원에 갈 시간입니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:24:1",
+      "source": "スタディ ミッション、\nスタート!!",
+      "translation": "학습 미션,\n스타트!!",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:25:1",
+      "source": " の\nじかんです",
+      "translation": " 일정\n시간입니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "671684:26:0",
+      "source": "それから・・・",
+      "translation": "그다음은...",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick1..6 vs explicit SearchMan21..26 reminders; TV/promise/meal/school/other/multiple-event branches and flag3658 preserved.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    }
+  ]
+}

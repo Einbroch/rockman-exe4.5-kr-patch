@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "79CF04",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/79CF04.tpl",
+    "sha256": "e7271eec6929f804f3238142fcb8c518036ed1a3b8287f1f98ddce2bff592793"
+  },
+  "source_archive_sha256": "e84e5c626db7948096866f0e47bc518af50863c11a17f43701a91170fc58ea1d",
+  "consumer": "batch500-contextual-timed-npcs-battlers-school",
+  "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-036",
+  "semantic_review": [
+    "Exactly500stablecatalog Japanese literals across15complete255-slot TPLs.338timedNPC,149battleNPC(includes11in7A0D18),13schoolNPC.24nativechoice literals,33one-dot animation literals,6three-line poems. No denominator padding or exclusions.",
+    "All15completeTPLs manually read before free-prose drafting. Source-conditioned needs_review NON-DISTRIBUTION inputs,releasefalse,no ROM/save/emulator/image/keyboard write. Speaker is explicit localportrait except hidden player-choice.",
+    "Preserve alltime bounds including24..29hours,control branches,globals,flags,hiddenchoices/default0/cancelbehavior,padding/newlines andwait20. Reused portraits do not establish oneperson acrossscripts/scenes.",
+    "Wednesday patrol4times Mon/Wed/Thu/Sat,Orange7clock andloversGiga1000twice preserved. AreaSteal/heart theft/battle greetings are metaphors,not newawards or commands.",
+    "Friday/fry pun staysFridayplusshrimpfry;comedy boke/tsukkomi roles descriptive candidates. No unapproved Korean dialect region. HighTenSion segmentation retained across3literal pages. Human adaptation/voice review pending.",
+    "Brown6poems preserve3lines andline2/3leading spaces. Natural Korean verse candidate is not approved formalhaiku equivalence. MiniBomb/Cannon/Sword/Bomb,schoolpollock/socialstudies andJapanese setting remain termreviewcandidates.",
+    "Battlerwin/loss/retrydenial source distinctions preserved,including timidHeelPurple15versus18/19boasting. Ninja-styleHeelBlack not automaticallyShadowMan. NPCphysique/trainingstatements not guaranteedpowergain.",
+    "Mechanical/font/132px heuristic checks notsemanticapproval orruntimecapacity. Fullcatalogdrafting andconsumerfont/control/layout readiness precedecumulativeROMintegration,screen/save/nameentry/graphics QA;release remainsopen."
+  ],
+  "units": [
+    {
+      "id": "79CF04:0:0",
+      "source": "キョウハ ニチヨウビデスネ",
+      "translation": "오늘은 일요일이네요",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:0:1",
+      "source": "シゴトヲシテイナイト、\nヨウビ ノ カンカクガ\nクルッチャイマス",
+      "translation": "일을 안 하니까,\n요일 감각이\n헷갈려요",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:0:2",
+      "source": "ハヤク、アタラシイ\nシゴトサキヲ\nミツケナクッチャ・・・",
+      "translation": "빨리 새로운\n일자리를\n찾아야 하는데...",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:1:0",
+      "source": "ヘイジツナラ、\nオヒルヤスミ デ\nニギワウ ジカンタイデスネ",
+      "translation": "평일이라면,\n점심시간이라\n북적거릴 시간대네요",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:1:1",
+      "source": "キョウ ハ ニチヨウビナノデ、\nシズカナモンデス",
+      "translation": "오늘은 일요일이라,\n조용하네요",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:2:0",
+      "source": "フワ~ア・・・\nナンダカ\nネムクナッテキマシタ",
+      "translation": "하아~암...\n왠지\n졸리기 시작하네요",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:2:1",
+      "source": "チョット ハヤイケド、\nソロソロ ヤスモウカナ・・・",
+      "translation": "조금 이르지만,\n슬슬 쉴까...",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:3:0",
+      "source": "ニチヨウノ アサカラ\nインターネットデスカ?\nズイブン ネッシンデスネ",
+      "translation": "일요일 아침부터\n인터넷을 하세요?\n정말 열심이시네요",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:30:0",
+      "source": "キョウはニチヨウビね",
+      "translation": "오늘은 일요일이네",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:30:1",
+      "source": "ワタシのオペレーターは、\nダーリンやコドモと\nイッショに おデカけチュウよ!",
+      "translation": "내 오퍼레이터는,\n남편과 아이랑\n함께 외출 중이야!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:80:0",
+      "source": "キョウはニチヨウビ!!",
+      "translation": "오늘은 일요일!!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:80:1",
+      "source": "ウイルスバスティングに\nショッピングに・・・\nスきなコトしてスごすんだから!",
+      "translation": "바이러스 버스팅에\n쇼핑에...\n하고 싶은 걸 하며 보낼 거야!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:81:0",
+      "source": "あら、もうこんなジカン!",
+      "translation": "어머, 벌써 이런 시간이네!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "79CF04:81:1",
+      "source": "アシタから また\nおシゴトだし、そろそろ\nプラグアウトしようかしら",
+      "translation": "내일부터 다시\n일해야 하니까, 슬슬\n플러그아웃할까",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Sunday timedInternet1 NPCs. MrProg unemployment/dayconfusion and morning/lunch/evening;Pink operator family outing;Orange own shopping/busting and tomorrow work. Explicit portraits;do not merge reused portraits.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    }
+  ]
+}

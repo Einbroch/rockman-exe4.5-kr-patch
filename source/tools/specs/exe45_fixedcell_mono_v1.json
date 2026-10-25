@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "policy": "development-provider-poc; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "native_font": {"offset": 6397688, "bytes": 28672, "sha256": "a86e56826cf1e3d70d9c9c2871e4d1dee47c85de3e732601bbe657476c947166"},
+  "roles": {"background": 1, "ink": 3, "shadow": 4},
+  "evidence": "analysis/exe45_chip_description_mono_pixels_v1.json",
+  "scope": "F9FC mono supply only when original r6 equals 08619EF8; no translated description or other-provider claim",
+  "limits": ["native role1 and role4 have equal observed color in Cannon folder context", "actual translated sentence/layout/runtime evidence required"]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "664E28",
+  "source_archive_sha256": "b788cd856ad90150aa1ba360d3a97294138ba98d24cfd8af33b1631271853dee",
+  "consumer": "normal-dialogue",
+  "context": "Roll normal PET R conversation default internet exploration. Native entry0 jumps10; source-backed internet, NOT tournament wording. No progress branch trigger inferred.",
+  "voice": "Roll friendly informal; exploratory invitation retained.",
+  "evidence": "analysis/tpl_baseline/664E28.tpl; catalog2158bytes/root3810C; poc/runtime/roll-pet-talk-source-v1 native source conversation",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "Exact nickname comma and two newlines, original position92,110, flags/progress checks/keyWait/clearMsg/waitHold unchanged;254 other slots protected.",
+  "decision_evidence": "Primary-agent authored single draft from exact TPL, 인터넷 term retained; first line native nickname suffix unmodified.",
+  "units": [
+    {"id":"664E28:10:0","source":"、\nもっとインターネットを\nたんさくしてみよう!","translation":"、\n인터넷을 더\n탐색해 보자!","state":"needs_review"}
+  ]
+}

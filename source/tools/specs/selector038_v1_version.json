@@ -1,0 +1,33 @@
+{
+  "base": "tools\\field_native_rom_selector_037_v2.py",
+  "base_sha256": "f8534cab1c30184291ece8b61c0f9fef86846edc858fff9c59b12419a8126dd3",
+  "changes": [
+    [
+      "from prepare_source500_037_v2 import native_lookup, board_lookup",
+      "from prepare_source500_038_v3 import typed_lookup"
+    ],
+    [
+      "('field-board', 0x0806A4FC, 0x0806A502, 0x6A50C, 0x0203C800),",
+      "('field-board', 0x0806A4FC, 0x0806A502, 0x6A50C, 0x0203C800),\n        ('navi-hint', 0x0804F7FC, 0x0804F802, 0x4F808, 0x0203D800),"
+    ],
+    [
+      "    return result\n",
+      "    hint = list(decoder.disasm(source[0x4F7FC:0x4F808], 0x0804F7FC))\n    if [(i.mnemonic, i.op_str) for i in hint] != [\n        ('push','{r4, r5, r6, r7, lr}'),('adds','r1, r0, #0'),\n        ('ldr','r0, [pc, #4]'),('bl','#0x804fb4c'),('pop','{r4, r5, r6, r7, pc}')]:\n        raise ValueError('038 original hint argument provider')\n    return result\n"
+    ],
+    [
+      "    for kind, lookup in [('native-NPC', native_lookup(source)), ('field-board', board_lookup(source))]:\n        for archive, refs in lookup.items():\n            payload = lz77_decompress(source, int(archive, 16))[0]\n            for ref in refs:\n                pool.append(dict(archive=archive, source_class=kind, payload=payload, **ref, caller_lr=abi[kind]['caller_lr']))\n",
+      "    for archive, refs in typed_lookup(source).items():\n        payload = lz77_decompress(source, int(archive, 16))[0]\n        for ref in refs:\n            kind=ref['source_class']\n            if (ref['root'],ref['caller_lr'])!=(abi[kind]['root'],abi[kind]['caller_lr']):\n                raise ValueError('038 lookup/caller contract mismatch')\n            pool.append(dict(archive=archive, payload=payload, **ref))\n"
+    ],
+    [
+      "board_gate:\nldr r3,board_caller\ncmp r2,r3\nbne fallback\nldr r3,board_root\ncmp r0,r3\nbne fallback\nscript_gate:",
+      "board_gate:\nldr r3,board_caller\ncmp r2,r3\nbne hint_gate\nldr r3,board_root\ncmp r0,r3\nbne fallback\nb script_gate\nhint_gate:\nldr r3,hint_caller\ncmp r2,r3\nbne fallback\nldr r3,hint_root\ncmp r0,r3\nbne fallback\nscript_gate:"
+    ],
+    [
+      "board_root=abi['field-board']['root']))",
+      "board_root=abi['field-board']['root'], hint_caller=abi['navi-hint']['caller_lr'], hint_root=abi['navi-hint']['root']))"
+    ]
+  ],
+  "output": "tools\\field_native_rom_selector_038_v1.py",
+  "output_sha256": "d05900abb624ebe4f4e484e05736bb6349a4b2fa5f60236ffc705aa2b2a27b97",
+  "scope": "Add original source hint entry4F7FC/BL4F802/LR4F807/root0203D800. Keep caller/root/script filters before scene dereference and unchanged seven-word descriptor comparison, ABI and previous-wrapper composition. Not CPU/product/runtime admission."
+}

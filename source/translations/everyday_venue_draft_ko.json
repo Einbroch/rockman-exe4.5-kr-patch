@@ -1,0 +1,360 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7B6F9C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7B6F9C.tpl",
+    "sha256": "b38307cfbfd6f1d6a1c6966de740d11fdf4efd30d217e6fc6100a03de3d7acab"
+  },
+  "source_archive_sha256": "46a4cf8eb50f991b96af8f525497311c3de259aa92127c136b21690ae38d23ff",
+  "consumer": "normal-dialogue-choice-and-shop",
+  "context": "Complete local branches read; all Japanese literals drafted. Unselected quote-only literal14:1 remains original.",
+  "voice": "Friendly training partner, energetic spectators, enthusiastic program and polite subchip merchant separated; wording remains candidate.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Retain item19, Navi1/weekday3 eligibility, shop8/18, time checks and flags/native battle globals. No changed prices, player gender or event schedule inferred.",
+  "semantic_review": [
+    "Script14 hearsay reward stays hearsay. Original opening quote is separate unselected literal; closing quote/comma candidate avoids variable particle dependency and requires actual item-render review.",
+    "Ladies day source is gated by weekday3 and Navi1, not the entered player gender. Service wording does not invent a discount amount; shop18 details remain original.",
+    "Stove pot types adapted as 뚝배기/중화팬/곰솥 functional cookware candidates. Source sound effects, 에브리데이 토너먼트 and 레이디스 데이 require human voice/term review.",
+    "Training positive result praises operation, negative requests more practice. Observers learning techniques is not item theft or a new gameplay mechanic.",
+    "Static protection is not normal-play runtime, shop purchase, clock, reward, save or layout verification."
+  ],
+  "units": [
+    {
+      "id": "7B6F9C:0:0",
+      "source": "アツアツ ホカホカ\nデンキコンローーーッ!!",
+      "translation": "뜨끈뜨끈 따끈따끈\n전기레인지---!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:0:1",
+      "source": "ワタシノ シゴトハ、\nデンキデ オリョウリヲ\nツクルコト!!",
+      "translation": "제 일은,\n전기로 요리를\n만드는 것!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:0:2",
+      "source": "ドナベ、チュウカナべ、ズンドウ\nナンダッテ アタタメマスヨ!",
+      "translation": "뚝배기, 중화팬, 곰솥\n뭐든 데워 드려요!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:10:0",
+      "source": "このエリアは、\nエブリデイトーナメントの\nカイジョウさ!!",
+      "translation": "이 구역은,\n에브리데이 토너먼트\n대회장이야!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:10:1",
+      "source": "クワしいコトは、\nそのトーナメントボードを\nヨんでよ!",
+      "translation": "자세한 건,\n저 토너먼트 게시판을\n읽어 봐!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:11:0",
+      "source": "エブリデイトーナメントは\nキョウもアツいぜ!!",
+      "translation": "에브리데이 토너먼트는\n오늘도 뜨겁다고!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:11:1",
+      "source": "ヒョッホー!!",
+      "translation": "야호~!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:12:0",
+      "source": "キャーキャー!!\nバトルってサイコウ!!",
+      "translation": "꺄아꺄아!!\n배틀은 최고야!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:13:0",
+      "source": "マイニチ ウデジマンの\nナビのバトルが ミれて、\nシアワせだ~!!",
+      "translation": "매일 실력 있는\n내비들의 배틀을 볼 수 있어,\n행복해~!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:14:0",
+      "source": "ココのトーナメントに\nユウショウすると、",
+      "translation": "여기 토너먼트에서\n우승하면,",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:14:2",
+      "source": "」が\nモラえるらしいわよ!!",
+      "translation": "」,\n받을 수 있대!!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:15:0",
+      "source": "ウォォ・・・\nチがサワぐぜ!!",
+      "translation": "우오오...\n피가 끓는군!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:16:0",
+      "source": "こういうトキに、\nツヨいバトラーのテクを\nヌスむのさ!!",
+      "translation": "이럴 때,\n강한 배틀러의 기술을\n배워 두는 거야!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:17:0",
+      "source": "キミ、やるねえ!!\nスバらしい テクニック\nだったよ!!",
+      "translation": "너, 제법이구나!!\n훌륭한 기술\n이었어!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:20:0",
+      "source": "おめでとーーーう!!\nすんばらしい\nテクニックだったよ!!",
+      "translation": "축하해---!!\n정말 훌륭한\n기술이었어!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:20:1",
+      "source": "せんしゅ、\nまたチャレンジしてね!!",
+      "translation": " 선수,\n또 도전해 줘!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:21:0",
+      "source": "ザンネンだったね~!\nまたチャレンジしてね!!",
+      "translation": "아쉬웠겠네~!\n또 도전해 줘!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:221:0",
+      "source": "マタ おこしクダさい!",
+      "translation": "다시 찾아와 주세요!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "inherited-from-caller",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:222:0",
+      "source": "ワタシは\nサブチップショウニンですが",
+      "translation": "저는\n서브칩 상인인데요",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:222:1",
+      "source": "タダイマ、シナギレチュウです!\nゴメンなさいっ",
+      "translation": "지금은 품절입니다!\n죄송해요",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:223:0",
+      "source": "ワタシは\nサブチップショウニンです!",
+      "translation": "저는\n서브칩 상인입니다!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:223:1",
+      "source": "イいモノ ありますよー!\n",
+      "translation": "좋은 물건 있어요~!\n",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:223:2",
+      "source": "みる  ",
+      "translation": "보기  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:223:3",
+      "source": "みない",
+      "translation": "안 보기",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:224:0",
+      "source": "ワタシは\nサブチップショウニンです!",
+      "translation": "저는\n서브칩 상인입니다!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:224:1",
+      "source": "キョウは シュウにイチドの\nレディースデー!!",
+      "translation": "오늘은 일주일에 한 번 있는\n레이디스 데이!!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:224:2",
+      "source": "オンナのコには ジャンジャン\nサービスさせてもらいますよ!",
+      "translation": "여자분들께는 팍팍\n서비스해 드릴게요!",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:224:3",
+      "source": "イいモノ ありますよ!?\n",
+      "translation": "좋은 물건 있어요!?\n",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:224:4",
+      "source": "みる  ",
+      "translation": "보기  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    },
+    {
+      "id": "7B6F9C:224:5",
+      "source": "みない",
+      "translation": "안 보기",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "visible",
+      "context": "Local secret-training offer/results or electric-stove program, tournament spectators/results and subchip shop. Script221 inherits merchant portrait from223/224.",
+      "variable_context": "Reward item19 and current-Navi variable boundaries retained; item suffix avoids consonant-dependent Korean particle. Native flags/time/shop/Navi branch untouched."
+    }
+  ]
+}

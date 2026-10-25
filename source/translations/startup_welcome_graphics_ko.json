@@ -1,0 +1,11 @@
+{
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "id": "startup.PET_purchase_name_prompt",
+  "source": "このたびはPErsonalTerminalを おかいあげいただき、まことにありがとうございます。お客さまのお名前をご入力ください。",
+  "translation_lines": ["PET을 구매해 주셔서", "진심으로 감사드립니다.", "사용자 이름을", "입력해 주세요."],
+  "font": "external/fonts/Galmuri11.bdf",
+  "font_sha256": "99dc4e76f82b8419fa1d2c258d589208653ccba26163fe0213e48c5dccc63193",
+  "state": "needs_review",
+  "context": "User screenshot3 and source native BG tile bank63466C/map634BB8. Purchase thanks and initial player-name request, not the separate IPC help archive. PET is the device acronym already shown in the original screen header."
+}

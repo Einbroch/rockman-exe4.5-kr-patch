@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "778C6C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/778C6C.tpl",
+    "sha256": "5bedb1a788b5bd55b831e14caba88d1b3e55aa073751d5410bcf5361f90c60c8"
+  },
+  "source_archive_sha256": "0844bf802e4b9cf5ff7e4f7cee01efc2094734081ab83e18d1831994c9374d0e",
+  "consumer": "batch500-contextual-interviews-training",
+  "context": "Eight mmbn45s tournament name UIlabels Silver/Gold/Official/Under fullnamesandT variants,notspokenorchoices;consumergeometry unresolved.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-043",
+  "semantic_review": [
+    "Exactly500 stablecatalogliteral manualsourceconditioned Korean drafts:377 remaininginterview/undefined-profilefallback,27Metaltraining,29legacybattle,45chipstrengthening,5legacyplugin,8tournamentUI,9NPC. Not500uniquesentences.",
+    "Allselectedsourceandnativecommandsread; noautomaticprose-choice/generation/shortening. needs_review development-draft NON-DISTRIBUTION releasefalse. Source/TPL/payload/IDs/commands/numeric/controltokens/newlines/leading/trailingpadding immutable.",
+    "Everyprofiledefined/undefinedalternative remainsdistinct. Dynamicnames/chips/food/school/friend/hobby/invariantparticles require consumer inlineflow/actualvalues/spacing/layout review;no fixed 받침-dependentsuffix.86 Ribitta sourceportrait not inventedNavi.",
+    "Star dodges unfortunate lovefortune withfriendappointment orroomcleaning;Shadow assassination/schoolorarea;Knight food3timesperday orregularlife;NapalmfriendorInternetbattle;IcehobbyorInternet;ElecschoolorInternet;Plant favfood bath versusvegetablejuice;Bassfriend versusrandomvirus. Comedy/wordplay/terms unapproved candidates.",
+    "Fallback90..102 inheritparentNavi beforelocalRibitta switches,explicitportraitmetadata not fabricated. Number98 boast/navichangepanic retained;userapproved4649 greeting alreadyhandled elsewhere notintroducedhere.15/16legacybattle inheritsMegaMan.",
+    "Separate15 splitwaitdotliterals18/30frames and20nativechoices;10UIlabels. SystemHP3/7/11/15 not treatedasvoicedNavi,explicitKnight/Bass/Guts rewards retain50pts/50PTS/10PTS. Numericvalues/defaults/branch/controlstateimmutable.",
+    "Source6EAD18:10:0 shortヘ and71A37C:2:0 digitglyphtable remain unselectedinremainingdenominator,not silentlyresolved. Legacydebug/consumerreachability/nativehour28 requireanalysis.",
+    "Font/codec/skeleton/protectedfields/132pxheuristictechnicalchecks nothuman/semantic/runtimeapproval. Allremainingdraftsfirst,thenfont/consumer/layout/insertionreadiness,cumulativeROM/screen/saveQA;inline/image/Hangulkeyboard/persistence/release remainopen. NoROM/save/emulatorwrites."
+  ],
+  "units": [
+    {
+      "id": "778C6C:0:0",
+      "source": "シルバートーナメント",
+      "translation": "실버 토너먼트",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label; not spoken dialogue or choice",
+      "context": "Eight mmbn45s tournament name UIlabels Silver/Gold/Official/Under fullnamesandT variants,notspokenorchoices;consumergeometry unresolved.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "778C6C:1:0",
+      "source": "ゴールドトーナメント",
+      "translation": "골드 토너먼트",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label; not spoken dialogue or choice",
+      "context": "Eight mmbn45s tournament name UIlabels Silver/Gold/Official/Under fullnamesandT variants,notspokenorchoices;consumergeometry unresolved.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "778C6C:2:0",
+      "source": "オフィシャルトーナメント",
+      "translation": "오피셜 토너먼트",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label; not spoken dialogue or choice",
+      "context": "Eight mmbn45s tournament name UIlabels Silver/Gold/Official/Under fullnamesandT variants,notspokenorchoices;consumergeometry unresolved.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "778C6C:3:0",
+      "source": "ウラトーナメント",
+      "translation": "언더 토너먼트",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label; not spoken dialogue or choice",
+      "context": "Eight mmbn45s tournament name UIlabels Silver/Gold/Official/Under fullnamesandT variants,notspokenorchoices;consumergeometry unresolved.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "778C6C:4:0",
+      "source": "シルバーT",
+      "translation": "실버T",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label; not spoken dialogue or choice",
+      "context": "Eight mmbn45s tournament name UIlabels Silver/Gold/Official/Under fullnamesandT variants,notspokenorchoices;consumergeometry unresolved.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "778C6C:5:0",
+      "source": "ゴールドT",
+      "translation": "골드T",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label; not spoken dialogue or choice",
+      "context": "Eight mmbn45s tournament name UIlabels Silver/Gold/Official/Under fullnamesandT variants,notspokenorchoices;consumergeometry unresolved.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "778C6C:6:0",
+      "source": "オフィシャルT",
+      "translation": "오피셜T",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label; not spoken dialogue or choice",
+      "context": "Eight mmbn45s tournament name UIlabels Silver/Gold/Official/Under fullnamesandT variants,notspokenorchoices;consumergeometry unresolved.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "778C6C:7:0",
+      "source": "ウラT",
+      "translation": "언더T",
+      "state": "needs_review",
+      "speaker": "ui-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native mmbn45s label; not spoken dialogue or choice",
+      "context": "Eight mmbn45s tournament name UIlabels Silver/Gold/Official/Under fullnamesandT variants,notspokenorchoices;consumergeometry unresolved.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "changes": [
+    {
+      "base": "tools/capture_board037_v1.py",
+      "base_sha256": "74a7d4978dc79ee1f4ba1739596de635b3e696598f9d04d70d691968d72bb6ac",
+      "changes": [
+        [
+          "037",
+          "038"
+        ]
+      ],
+      "replacement_counts": [
+        2
+      ],
+      "output": "tools/capture_board038_v1.py",
+      "output_sha256": "561c6536d722e11046cf0b6d3326155dba49631defa722166bf95e6c9ac530e2"
+    },
+    {
+      "base": "tools/capture_board_event037_v2.py",
+      "base_sha256": "2f54eaed63d153326ec5698f7e5c19f0d9babd18d056db2973bc222a5ab272fc",
+      "changes": [
+        [
+          "037",
+          "038"
+        ]
+      ],
+      "replacement_counts": [
+        2
+      ],
+      "output": "tools/capture_board_event038_v1.py",
+      "output_sha256": "89bb93c7d8d3ebf61796f8cc3626a2ab95346f38f04e134ab9aa4aca8999c76a"
+    },
+    {
+      "base": "tools/capture_board_qualified037_v1.py",
+      "base_sha256": "e0bf94ec007e530aa72ab143150fb5a8174d6d52d7b466ba37cd8ed94a010752",
+      "changes": [
+        [
+          "037",
+          "038"
+        ],
+        [
+          "capture_board_event038_v2",
+          "capture_board_event038_v1"
+        ],
+        [
+          "source[table+3]!=3",
+          "source[table+1]!=1"
+        ],
+        [
+          "0xF3",
+          "0xF1"
+        ],
+        [
+          "F3",
+          "F1"
+        ],
+        [
+          "tree",
+          "rock"
+        ],
+        [
+          "\"returned\":243",
+          "\"returned\":241"
+        ]
+      ],
+      "replacement_counts": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        1
+      ],
+      "output": "tools/capture_board_qualified038_v1.py",
+      "output_sha256": "3c011e49fd9900db274e6a90fc329a2bec315b2e0e2c07b6342ac86dc49646cc"
+    }
+  ],
+  "scope": "Exact038 board1 via original F1 source-event table and tile-read alias only. No F3 disabled-flag alias, no Navi/ROM/RAM write. Default MegaMan branch/close/reentry/movement scope, not natural rock access or Guts battle/event completion."
+}

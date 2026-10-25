@@ -1,0 +1,385 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "68BBB4",
+  "source_archive_sha256": "94f20b8d0059d2dae96914b608e96eb099f494ea7869b4c1954cda0ec5ae7ea6",
+  "consumer": "normal-dialogue",
+  "context": "NumberMan operator seasonal greetings. Script1 observed normally after native save/reload/Navi reselection on baseline return-v1. Source12 holiday/birthday conversations share portrait92,110.17/19 are standalone pages;18 dynamic event buffer retains quote delimiters, buffer command, and source layout. Source gender check22 in3 preserved. Other holiday triggers not yet exercised.",
+  "voice": "Existing NumberMan polite/playful development voice; names and cultural interpretation require review.",
+  "evidence": "analysis/full_scope_v1/source_tpl/68BBB4.tpl; analysis/numberman_return_v1/runtime.json native_reload_attempt",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All60 literal identities/source fields; all numbers and ordered numerals; line counts; all commands including global22/checks/anniversary loop/buffer/quotes preserved. No save/RTC/event/name changes.",
+  "semantic_review": [
+    "2 Japanese Setsubun/ehou/futomaki retained as described custom, not replaced by Korean holiday.",
+    "5 Japanese mi/mi-mi counting pun explained in Korean; original numbers retained; human cultural/wordplay review pending.",
+    "6 Japanese go/5/go-go pun transliterated; not approved under separate4649 decision.",
+    "7 Japanese solar-calendar holiday dates retained; not moved to Korean lunar calendar."
+  ],
+  "units": [
+    {
+      "id": "68BBB4:1:0",
+      "source": "あけまして\nおめでとうございます",
+      "translation": "새해 복\n많이 받으세요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:1:1",
+      "source": "ことしも、よろしく\nおねがいしますよ",
+      "translation": "올해도 잘\n부탁드려요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:1:2",
+      "source": "アナタあっての、\nナンバーマン\nなんですからね!",
+      "translation": "당신이 있어야\n넘버맨도\n있는 거니까요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:2:0",
+      "source": "今日は せつぶんですね",
+      "translation": "오늘은 절분이군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:2:1",
+      "source": "アキンドシティでは、\nふとまきを まるごと",
+      "translation": "아킨도시티에서는\n굵은 김밥을 통째로",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:2:2",
+      "source": "その年の 「えほう」 に\nむかって",
+      "translation": "그해의 길한 방향을\n바라보고",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:2:3",
+      "source": "まるかじりしてたべると、\nいいと いわれてますよ",
+      "translation": "베어 먹으면\n좋다고 하더군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:2:4",
+      "source": "ただし、たべている\nあいだは しゃべっては\nいけないらしいです",
+      "translation": "다만 먹는 동안엔\n말을 하면\n안 된다고 해요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:2:5",
+      "source": "ちなみに、「えほう」\nというのは、",
+      "translation": "참고로 그\n길한 방향은,",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:2:6",
+      "source": "その年の えと に\nもとづいて きめられる\nおめでたい ほうがくです",
+      "translation": "그해의 띠를\n바탕으로 정하는\n복을 부르는 방향이죠",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:3:0",
+      "source": "今日は、\nバレンタインデーですね",
+      "translation": "오늘은\n발렌타인데이군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:3:1",
+      "source": "チョコが いくつ\nもらえますかね?",
+      "translation": "초콜릿을 몇 개나\n받으실까요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:3:2",
+      "source": "たくさん かぞえさせて\nくださいよ~",
+      "translation": "많이많이 세게\n해 주세요~",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:4:0",
+      "source": "今日は、\nバレンタインデーですね",
+      "translation": "오늘은\n발렌타인데이군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:4:1",
+      "source": "ほんめいチョコは\nあるんですかね?",
+      "translation": "좋아하는 사람에게\n줄 초콜릿은 있나요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:4:2",
+      "source": "ワタシも すこしだけ\nドキドキしてますよ",
+      "translation": "저도 조금은\n두근두근하네요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:5:0",
+      "source": "今日、3月3日は\nひなまつりです・・・",
+      "translation": "오늘 3월3일은\n히나마쓰리예요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:5:1",
+      "source": "じつはね、もうひとつの\nきねん日でも あるんです",
+      "translation": "사실 또 다른\n기념일이기도 해요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:5:2",
+      "source": "3月3日は、みみの日!",
+      "translation": "3월3일은 귀의 날!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:5:3",
+      "source": "すうじの3が みみの\nカタチに にてるでしょ?",
+      "translation": "숫자3이 귀의\n모양과 닮았죠?",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:5:4",
+      "source": "さらに 3は、\nひーふーみーの\n「みー」 なのです",
+      "translation": "또 3은 일본어\n히후미에서\n미라고 읽어요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:5:5",
+      "source": "3が2つならんで、\n「みーみー」",
+      "translation": "3이2개 나란하면\n미미가 되죠",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:5:6",
+      "source": "それで、みみの日\nなんです!",
+      "translation": "미미는 귀란\n뜻이거든요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:5:7",
+      "source": "すんばらしい!!",
+      "translation": "정말 멋지죠!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:6:0",
+      "source": "今日は 5月の5日\nコドモの日です",
+      "translation": "오늘은 5월5일\n어린이날이에요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:6:1",
+      "source": "今日は イケイケな\n1日ですよ",
+      "translation": "오늘은 힘차게 가는\n1일이에요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:6:2",
+      "source": "なにせ、5月5日・・・\nゴーゴー!!",
+      "translation": "왜냐면 5월5일・・・\n고고!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:6:3",
+      "source": "ゴーゴー!!\nゴ、ゴーゴー・・・\n・・・つまらないですよね",
+      "translation": "고고!!\n고, 고고・・・\n・・・재미없죠?",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:7:0",
+      "source": "今日は、7月7日\nたなばたの日ですね",
+      "translation": "오늘은 7월7일\n칠석이군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:7:1",
+      "source": "しかし、ニホンの\nきねん日は、ゾロ目が\nおおいですね・・・",
+      "translation": "그런데 일본의\n기념일은 같은 숫자가\n참 많네요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:7:2",
+      "source": "1月1日は いいとして",
+      "translation": "1월1일은 몰라도",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:7:3",
+      "source": "3月3日、5月5日、\n7月7日、10月10日",
+      "translation": "3월3일, 5월5일,\n7월7일,10월10일",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:7:4",
+      "source": "まぁ、おぼえやすくて\nいいですけどね",
+      "translation": "뭐, 기억하기 쉬워서\n좋긴 하네요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:8:0",
+      "source": "そういえば、今日は\nクリスマスイヴでしたね",
+      "translation": "그러고 보니 오늘은\n크리스마스이브군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:8:1",
+      "source": "じつは、今日のために\n大きな くつしたを\nよういしたんですよ!",
+      "translation": "사실 오늘을 위해\n커다란 양말을\n준비했어요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:8:2",
+      "source": "サンタクロースに\nレアチップを いっぱい\nもらうんです!",
+      "translation": "산타클로스에게\n희귀 칩을 잔뜩\n받을 거예요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:8:3",
+      "source": "あしたの あさには\nくつしたの中に・・・",
+      "translation": "내일 아침이면\n양말 속에는・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:8:4",
+      "source": "フフフフフフフフ!!",
+      "translation": "후후후후후후후후!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:9:0",
+      "source": "メリークリスマス!!",
+      "translation": "메리 크리스마스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:9:1",
+      "source": "・・・ざんねんな\nおしらせがあります・・・",
+      "translation": "・・・안타까운\n소식이 있어요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:9:2",
+      "source": "ワタシの ところには、\nサンタさん、\nきてくれませんでした",
+      "translation": "제게는\n산타 할아버지가\n오지 않으셨어요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:9:3",
+      "source": "さすがのサンタクロースも\n電脳世界までは\nこれなかったようですね",
+      "translation": "산타클로스도 역시\n전뇌 세계까지는\n못 오셨나 봐요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:9:4",
+      "source": "ガックリ・・・",
+      "translation": "실망이에요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:10:0",
+      "source": "今日は 大みそかですね",
+      "translation": "오늘은 올해의 끝!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:10:1",
+      "source": "大みそか といえば、\nじょやのかね!",
+      "translation": "한 해의 마지막엔\n제야의 종이죠!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:10:2",
+      "source": "じょやのかねは、108回\nうちならすんですよ\nしってました?",
+      "translation": "제야의 종은 108번\n울린다고 해요\n알고 계셨나요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:10:3",
+      "source": "ちなみに、108という\nすうじは、人間のかかえる\nぼんのうのかずらしいです",
+      "translation": "참고로 108은\n인간이 지닌 번뇌의\n수라고 하더군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:11:0",
+      "source": "ハッピーバースデー!",
+      "translation": "해피 버스데이!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:11:1",
+      "source": "おたんじょう日、\nおめでとうございます!",
+      "translation": "생일을\n축하드려요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:11:2",
+      "source": "また1つ年をとりましたね",
+      "translation": "또1살 늘었군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:11:3",
+      "source": "あなたの ねんれいに\n365を かけてみて\nください",
+      "translation": "당신의 나이에\n365를 곱해\n보세요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:11:4",
+      "source": "それが、あなたが生まれて\nから、今日までの\n日すうですよ",
+      "translation": "그게 태어난 때부터\n오늘까지의\n날짜 수예요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:11:5",
+      "source": "どうです、日すうで見ると\n生まれてから",
+      "translation": "어때요, 날짜로 보면\n태어난 뒤로",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:11:6",
+      "source": "そんなに じかんは\nたってない気がしません?",
+      "translation": "그리 오래 지나진\n않은 것 같지 않나요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:11:7",
+      "source": "うるう年など\nありますから、たしょう\nごさが ありますがね",
+      "translation": "윤년 등이 있으니\n조금은\n오차가 있겠지만요",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:12:0",
+      "source": "そうりつきねん日ですね\n今日は、おやすみですか?",
+      "translation": "창립 기념일이군요\n오늘은 쉬시나요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "68BBB4:19:0",
+      "source": "ですよ!",
+      "translation": "이군요!",
+      "state": "needs_review"
+    }
+  ]
+}

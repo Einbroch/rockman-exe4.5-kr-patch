@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "66651C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/66651C.tpl",
+    "sha256": "8286cb9ad04ff3ac3ec9f09570327fd24da70450943fd7f4e5209a19d6e1dce1"
+  },
+  "source_archive_sha256": "16cd2ff2d4af233f94277cb9077169046a4abe04f4789c735e77495697f18852",
+  "consumer": "quick-tournament-results-guts-reminders",
+  "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+  "voice": "Friendly quick-box voice unidentified; GutsMan only explicit portraits21..26. Existing 거스/거츠 suffix candidates retained, not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep prior selected literals, commands, flags, buffers, newlines and literal segmentation; no ROM/save writes.",
+  "semantic_review": [
+    "TV opening urgency, promise anticipation, meal/school/other/additional event distinctions preserved; sourceじゅく translated 학원.",
+    "Sourceガス/ガッツ distinguished as existing candidate 거스/거츠; literal self-name거츠맨 preserved. Only21..26 have explicit GutsMan portrait; quick1/2/5 unshown.",
+    "Dispatch0/20, sound155/wait96, flags3585/3658, event6/26 loops, quick coordinates and schedule/nickname options unchanged. No clock/variable/save/runtime verification.",
+    "666430:0:0 sourceかりです remains unresolved original and in untranslated denominator; consumer not established."
+  ],
+  "units": [
+    {
+      "id": "66651C:1:0",
+      "source": " が\nはじまるじかんでガス!",
+      "translation": " 시작할\n시간이거스!",
+      "state": "needs_review",
+      "speaker": "unshown-guts-style-reminder",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:2:0",
+      "source": "\nのじかんでガス",
+      "translation": "\n약속 시간이거스",
+      "state": "needs_review",
+      "speaker": "unshown-guts-style-reminder",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:5:0",
+      "source": "ガッツ、ガッツ!!\n",
+      "translation": "거츠, 거츠!!\n",
+      "state": "needs_review",
+      "speaker": "unshown-guts-style-reminder",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:5:1",
+      "source": " の\nじかんでガス!!!",
+      "translation": " 일정\n시간이거스!!!",
+      "state": "needs_review",
+      "speaker": "unshown-guts-style-reminder",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:21:0",
+      "source": " が\nはじまるじかんでガス!",
+      "translation": " 시작할\n시간이거스!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:21:1",
+      "source": "はやくしないと、\nオープニングを\n見のがすでガッツ!!",
+      "translation": "서두르지 않으면,\n오프닝을\n놓치는거츠!!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:22:0",
+      "source": "\nのじかんでガス",
+      "translation": "\n약속 시간이거스",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:22:1",
+      "source": "ガッツマンも\nたのしみでガッツ!!",
+      "translation": "거츠맨도\n기대되는거츠!!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:23:0",
+      "source": "、\nゴハンの じかんでガス!",
+      "translation": ",\n밥 먹을 시간이거스!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:24:0",
+      "source": "じゅくに行く\nじかんでガス!!",
+      "translation": "학원에 갈\n시간이거스!!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:24:1",
+      "source": "べんきょう、べんきょう\nがんばるでガッツ!!",
+      "translation": "공부, 공부\n힘내는거츠!!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:25:0",
+      "source": "ガッツ、ガッツ!!\n",
+      "translation": "거츠, 거츠!!\n",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:25:1",
+      "source": " の\nじかんでガス!!!",
+      "translation": " 일정\n시간이거스!!!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66651C:26:0",
+      "source": "それと・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "origin_portrait": "GutsMan",
+      "portrait_visibility": "shown",
+      "context": "Only remaining14 TV/promise/other quick reminders and explicit GutsMan21..26; prior selected quick entries retained.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    }
+  ]
+}

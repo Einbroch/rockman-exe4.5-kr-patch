@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6B6474",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6B6474.tpl",
+    "sha256": "b0692bf2c580fbb2fb50a90adc6392620ed278962adfaa06eee60c18c388af8e"
+  },
+  "source_archive_sha256": "690339f965fc6d4cb05c6d340cdca319b4c9e3f39a4b980601b54f52e9d450c9",
+  "consumer": "batch500-contextual-profile-mail-schedule-greeting",
+  "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+  "voice": "Source-conditioned manual draft; no portrait or human approval inferred.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-012",
+  "semantic_review": [
+    "Batch500-012 exactly500 stable literals: profile474/mail14/schedule6/greeting6;72 choices/428 prose, not500 unique sentences.",
+    "All profile literals/full skeleton differences read, exceptional83/9/31 actual scripts inspected and all3 small TPLs fully read. Manually authored per stable ID, no automated prose transformations.",
+    "No portrait shown. Only6B5A70:1 explicit self-introduction establishes KnightMan; not transferable to adjacent profiles or return voice. Existing NumberMan screen not speaker evidence.",
+    "22 gender1→19 and23 education1..5school/6..9company/otherwisekindergarten;12 choices/profile,3605,3606/buffers/count5/defaults/cancel/clear preserved. No ages inferred.",
+    "Knight loyalty/etiquette/dreams/respect,Joan of Arc courage and figurative pride retained. Titles/family words/Joan spelling/voice are unapproved candidates.",
+    "Battle-loving voice retains cyber gunpowder and gasoline fictional appetite,chemistry and bombs,professional battle livelihood possibility,firefighter joke and absent-player alternate operator question; no fabricated real instructions or guaranteed events.",
+    "Gentle polite voice retains chip collecting and world-best dream,31 portable freezer as recalled imagery not actual reward and94 someday reassurance not item grant.",
+    "Variable-name final-consonant dependencies avoided by 님/의/말고;punctuation6B6CA4:83:1,6BCFBC:9:2,6C2E4C:31:4 remain original. Profile confirmation newline endings unchanged.",
+    "Mail9040..9046/680/681/track155/wait96 and schedule loops/hour/minute/AMPM retained. All drafts needs_review/NON-DISTRIBUTION, no ROM/save/emulator/image edits or release eligibility."
+  ],
+  "units": [
+    {
+      "id": "6B6474:1:1",
+      "source": "、\nメールですぞ!",
+      "translation": ",\n메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:2:1",
+      "source": "、\nメールですぞ!",
+      "translation": ",\n메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:3:1",
+      "source": "、\nメールですぞ!",
+      "translation": ",\n메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:4:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:5:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:6:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:7:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:20:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:21:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:22:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:23:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:24:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:25:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "6B6474:26:1",
+      "source": "メールですぞ!",
+      "translation": "메일이 왔습니다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. Mail1..7/20..26;nickname1..3/add9040..9046/tournament680,681. No mugshot.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and profile/schedule/greeting units avoid arbitrary stored-name final-consonant particles;nickname and original punctuation boundaries retained. Runtime geometry/persistence unverified."
+    }
+  ]
+}

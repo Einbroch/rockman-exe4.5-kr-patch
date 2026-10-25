@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "base": "tools/build_development_patch_025.py",
+      "base_sha256": "25b380a7ca04d7ef1670b24f380fad5bcd74ab3a2a0dc52134936e8dfa9dea51",
+      "output": "tools/build_development_patch_026.py",
+      "edits": [
+        {
+          "before": "    inputs025,summary025=load_inputs025(source)",
+          "after": "    inputs025,summary025=load_inputs025(source)\n    from layout500_inputs_026 import load_inputs as load_inputs026\n    from layout500_product_026 import compose_primary as compose_primary026,finalize as finalize026\n    inputs026,summary026=load_inputs026(source)"
+        },
+        {
+          "before": "    for entry025,_ in inputs025:\n        asset025=read_json(ROOT/entry025['merged_asset']['path'])\n        needed.update(ch for u in asset025['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)",
+          "after": "    for entry025,_ in inputs025:\n        asset025=read_json(ROOT/entry025['merged_asset']['path'])\n        needed.update(ch for u in asset025['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    for entry026,_ in inputs026:\n        asset026=read_json(ROOT/entry026['merged_asset']['path'])\n        needed.update(ch for u in asset026['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)"
+        },
+        {
+          "before": "        payload,record=compose_primary025(archive,payload,record,inputs025,work/'plugins')",
+          "after": "        payload,record=compose_primary025(archive,payload,record,inputs025,work/'plugins')\n        payload,record=compose_primary026(archive,payload,record,inputs026,work/'plugins')"
+        },
+        {
+          "before": "    finalize025(source,target,result,inputs025,summary025,inputs024,summary024)",
+          "after": "    finalize026(source,target,result,inputs026,summary026,inputs024,summary024,inputs025,summary025)"
+        },
+        {
+          "before": "Version025 of the primary path; frozen024 composition remains before025.",
+          "after": "Version026 of the primary path; frozen024/025 composition remains before026."
+        }
+      ]
+    }
+  ]
+}

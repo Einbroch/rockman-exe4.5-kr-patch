@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6615A8",
+  "source_archive_sha256": "65e0ba4d9dac0144755f1c5d8d9520df333533eeaf7552576b4d8dd68edea4b6",
+  "consumer": "normal-dialogue",
+  "context": "Roll competition loss, victory, not-entered notice and pre-competition encouragement. Native Navi-specific pointer 380F0, adjacent to existing Roll roots. Full source scripts inspected; nickname controls and suffix first rows preserved. No new proper names or progression choices introduced.",
+  "evidence": "analysis/tpl_baseline/6615A8.tpl; external/textpet-indexes/exe45.tpi row30; tools/capture_roll_competition.py",
+  "decision_evidence": "Primary-agent manually authored each draft from exact source; no automatic prose rewrite. Friendly informal Roll-to-player voice, needs human wording review.",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "All controls, nickname commands, key waits, clear messages, callCancelMenuTransition, flagClear3603 and waitHold preserved. Eighteen unselected script slots unchanged.",
+  "units": [
+    {"id":"6615A8:1:0","source":"まけちゃったね・・・\nくやしーーー!!","translation":"져 버렸네・・・\n너무 분해!!","state":"needs_review"},
+    {"id":"6615A8:1:1","source":"けど、もういちど\nきたえなおして\nリベンジよ!!","translation":"그래도 다시\n실력을 갈고닦아\n설욕하자!!","state":"needs_review"},
+    {"id":"6615A8:2:0","source":"キャハッ!!","translation":"꺄하!!","state":"needs_review"},
+    {"id":"6615A8:2:1","source":"、\nゆうしょうだよ!!\nやったね!!","translation":"、\n우승이야!!\n해냈네!!","state":"needs_review"},
+    {"id":"6615A8:2:2","source":"もう、サイコーのキブン!","translation":"정말 기분 최고야!","state":"needs_review"},
+    {"id":"6615A8:10:0","source":"!\nエントリーしてないよ!","translation":"!\n참가 등록 안 했어!","state":"needs_review"},
+    {"id":"6615A8:20:0","source":"いよいよだね!\n","translation":"드디어 시작이네!\n","state":"needs_review"},
+    {"id":"6615A8:20:1","source":"!\nがんばろうね!!","translation":"!\n힘내자!!","state":"needs_review"},
+    {"id":"6615A8:21:0","source":"いよいよだね!\n","translation":"드디어 시작이네!\n","state":"needs_review"},
+    {"id":"6615A8:21:1","source":"!\nがんばろうね!!","translation":"!\n힘내자!!","state":"needs_review"},
+    {"id":"6615A8:22:0","source":"いよいよだね!\n","translation":"드디어 시작이네!\n","state":"needs_review"},
+    {"id":"6615A8:22:1","source":"!\nがんばろうね!!","translation":"!\n힘내자!!","state":"needs_review"},
+    {"id":"6615A8:23:0","source":"いよいよだね!\n","translation":"드디어 시작이네!\n","state":"needs_review"},
+    {"id":"6615A8:23:1","source":"!\nがんばろうね!!","translation":"!\n힘내자!!","state":"needs_review"}
+  ]
+}

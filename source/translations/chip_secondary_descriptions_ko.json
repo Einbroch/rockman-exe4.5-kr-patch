@@ -1,0 +1,788 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "76BC60",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_archive_sha256": "8ecf3d242fb83ecea945583a6f0e7a435ff566a04cec1534a01bab8cc0fd1adc",
+  "consumer": "fixed-cell-mono",
+  "context": "Secondary chip/PA descriptions. Source113 slots75 literals. Three rows and nine visible cells adopted; secondary native consumer runtime pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Preserve original controls, source line counts/numeric order,38 nonliteral scripts. No authored chip names or source-slot filling.",
+  "terminology_review": [
+    "1..3: diagonal four-sided spinning-top + グリグリタップ attack name transliteration candidate.",
+    "22..24: source range2.5 squares retains half and numeric2; tape core placement interpretation needs gameplay review.",
+    "45: right half of entire battle field, not silently enemy area.",
+    "89: sunlight burn wording; no invented damage or range.",
+    "93: source blast wind retained as 폭발 바람, not a weather storm; human naturalness review pending.",
+    "All75 entries are draft only; independent wording/human presentation review pending."
+  ],
+  "extraction": {
+    "path": "analysis/tpl_baseline/76BC60.tpl",
+    "sha256": "3a1e10e8e6198836cd83ef6be56fce4565abb583156baf8635e7451f0cabde41"
+  },
+  "wordings": [
+    {
+      "id": "chip.secondary.desc.0",
+      "translation": "상대 영역 안에서\n무작위로 솟아나는\n우디 타워!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.1",
+      "translation": "앞쪽3칸을 향해\n사방 사선 팽이와\n구리구리탭 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.2",
+      "translation": "앞쪽3칸을 향해\n사방 사선 팽이와\n구리구리탭 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.3",
+      "translation": "앞쪽3칸을 향해\n사방 사선 팽이와\n구리구리탭 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.4",
+      "translation": "방사형으로\n초음파 공격!\n크래시 노이즈!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.5",
+      "translation": "방사형으로\n초음파 공격!\n크래시 노이즈!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.6",
+      "translation": "방사형으로\n초음파 공격!\n크래시 노이즈!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.7",
+      "translation": "앞쪽2칸을 향해\n3방향 버너로\n집중 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.8",
+      "translation": "앞쪽2칸을 향해\n3방향 버너로\n집중 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.9",
+      "translation": "앞쪽2칸을 향해\n3방향 버너로\n집중 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.10",
+      "translation": "필드 위 물체를\n얼려 버리고\n밀어 미끄러뜨린다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.11",
+      "translation": "필드 위 물체를\n얼려 버리고\n밀어 미끄러뜨린다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.12",
+      "translation": "필드 위 물체를\n얼려 버리고\n밀어 미끄러뜨린다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.13",
+      "translation": "앞쪽 전체로\n스파크 웨이브!\n상대를 실명시킨다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.14",
+      "translation": "앞쪽 전체로\n스파크 웨이브!\n상대를 실명시킨다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.15",
+      "translation": "앞쪽 전체로\n스파크 웨이브!\n상대를 실명시킨다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.16",
+      "translation": "가로1줄 관통하는\n레이저 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.17",
+      "translation": "가로1줄 관통하는\n레이저 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.18",
+      "translation": "가로1줄 관통하는\n레이저 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.19",
+      "translation": "앞쪽 적에게\n돌진해 앞뒤에서\n검도3단 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.20",
+      "translation": "앞쪽 적에게\n돌진해 앞뒤에서\n검도3단 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.21",
+      "translation": "앞쪽 적에게\n돌진해 앞뒤에서\n검도3단 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.22",
+      "translation": "앞쪽2칸 반에\n테이프 심 설치!\n감아들이는 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.23",
+      "translation": "앞쪽2칸 반에\n테이프 심 설치!\n감아들이는 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.24",
+      "translation": "앞쪽2칸 반에\n테이프 심 설치!\n감아들이는 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.25",
+      "translation": "노린 상대에게\n딱 달라붙어서\n공격한다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.26",
+      "translation": "잠시 동안\n캐논을\n마구 쏜다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.27",
+      "translation": "잠시 동안\n포탄을\n마구 던진다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.28",
+      "translation": "잠시 동안\n롱소드로\n마구 베어낸다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.29",
+      "translation": "일정 시간 동안\n불 속성 칩의\n공격력이 +40",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.30",
+      "translation": "일정 시간 동안\n전기 속성 칩의\n공격력이 +40",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.31",
+      "translation": "일정 시간 동안\n물 속성 칩의\n공격력이 2배!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.32",
+      "translation": "일정 시간 동안\n나무 속성 칩의\n공격력이 2배!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.33",
+      "translation": "자신의 HP를\n공격력으로 바꿔\n버스터를 강화",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.34",
+      "translation": "모든 힘을\n충전하여 발사하는\n궁극의 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.45",
+      "translation": "배틀 필드의\n오른쪽 반에 쏘는\n포르테 버스터!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.46",
+      "translation": "상대를 3방향에서\n차례로 베어내는\n3단 소드 공격",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.47",
+      "translation": "적 내비를\n심한 버그 상태로\n만들어 버린다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.48",
+      "translation": "앞쪽3칸을 향해\n레드선의 메테오\n공격이 쏟아진다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.49",
+      "translation": "빨간색인 동안은\n상대가 칩을\n쓸 수 없어진다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.50",
+      "translation": "한 번만 휘어지는\n링을 4발\n던진다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.51",
+      "translation": "홀리패널을\n빨아들여 앞쪽으로\n홀리 샷!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.52",
+      "translation": "깨져도 되살아나는\n어둠의 배리어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.53",
+      "translation": "앞쪽3칸을 향해\n블루문이 힘 뺏는\n빛을 발사한다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.54",
+      "translation": "고스펠의 힘으로\n앞쪽 적을 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.64",
+      "translation": "어둠에 빠진\n강자들의\n합체 기술!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.65",
+      "translation": "주변 1칸으로\n폭염이 퍼지는\n넓은 범위 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.66",
+      "translation": "주변 1칸으로\n거품이 퍼지는\n넓은 범위 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.67",
+      "translation": "기가 파워로 쏘는\n강력한\n캐논!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.68",
+      "translation": "기가 파워로 쏘는\n강력한\n캐논!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.69",
+      "translation": "기가 파워로 쏘는\n강력한\n캐논!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.70",
+      "translation": "3연사의\n와이드 샷!\n적을 관통한다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.71",
+      "translation": "3연사의\n와이드 샷!\n적을 관통한다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.72",
+      "translation": "3연사의\n와이드 샷!\n적을 관통한다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.73",
+      "translation": "십자로 퍼지는\n지옥의 맹렬한 불",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.74",
+      "translation": "십자로 퍼지는\n지옥의 맹렬한 불",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.75",
+      "translation": "십자로 퍼지는\n지옥의 맹렬한 불",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.76",
+      "translation": "3개의 부메랑이\n연속으로 상대를\n덮친다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.77",
+      "translation": "3개의 부메랑이\n연속으로 상대를\n덮친다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.78",
+      "translation": "3개의 부메랑이\n연속으로 상대를\n덮친다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.79",
+      "translation": "내 위아래 줄로\n수많은 송곳니가\n줄지어 나아간다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.80",
+      "translation": "내 위아래 줄로\n수많은 송곳니가\n줄지어 나아간다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.81",
+      "translation": "내 위아래 줄로\n수많은 송곳니가\n줄지어 나아간다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.82",
+      "translation": "계속 반사되는\n공포의 하키",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.83",
+      "translation": "계속 반사되는\n공포의 하키",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.84",
+      "translation": "계속 반사되는\n공포의 하키",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.85",
+      "translation": "강한 자력으로\n앞쪽 적 전부를\n끌어당겨 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.86",
+      "translation": "강한 자력으로\n앞쪽 적 전부를\n끌어당겨 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.87",
+      "translation": "강한 자력으로\n앞쪽 적 전부를\n끌어당겨 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.88",
+      "translation": "가로2 세로3칸의\n거대한 소드로\n적을 베어버린다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.89",
+      "translation": "눈앞에 태양\n제너레이터!\n햇빛으로 태운다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.90",
+      "translation": "상대 영역에\n기가카운트봄을\n놓는다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.91",
+      "translation": "적 영역에 독을\n발생시키는\n파라오상을 놓는다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.92",
+      "translation": "뒷세계 암살자를\n고용하여 적을\n제거하게 한다",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.desc.93",
+      "translation": "주변 1칸으로\n폭발 바람이 이는\n작렬탄!",
+      "state": "needs_review"
+    }
+  ],
+  "units": [
+    {
+      "id": "76BC60:0:0",
+      "source": "あいてエリアないに\nランダムにつきだす\nウッディタワー!",
+      "wording_id": "chip.secondary.desc.0"
+    },
+    {
+      "id": "76BC60:1:0",
+      "source": "3マス前方にななめ\n四方からベーゴマと\nグリグリタップ攻撃",
+      "wording_id": "chip.secondary.desc.1"
+    },
+    {
+      "id": "76BC60:2:0",
+      "source": "3マス前方にななめ\n四方からベーゴマと\nグリグリタップ攻撃",
+      "wording_id": "chip.secondary.desc.2"
+    },
+    {
+      "id": "76BC60:3:0",
+      "source": "3マス前方にななめ\n四方からベーゴマと\nグリグリタップ攻撃",
+      "wording_id": "chip.secondary.desc.3"
+    },
+    {
+      "id": "76BC60:4:0",
+      "source": "ほうしゃじょうに\nちょうおんぱ攻撃\nクラッシュノイズ!",
+      "wording_id": "chip.secondary.desc.4"
+    },
+    {
+      "id": "76BC60:5:0",
+      "source": "ほうしゃじょうに\nちょうおんぱ攻撃\nクラッシュノイズ!",
+      "wording_id": "chip.secondary.desc.5"
+    },
+    {
+      "id": "76BC60:6:0",
+      "source": "ほうしゃじょうに\nちょうおんぱ攻撃\nクラッシュノイズ!",
+      "wording_id": "chip.secondary.desc.6"
+    },
+    {
+      "id": "76BC60:7:0",
+      "source": "2マス前方めがけて\n3方からバーナーで\nしゅうちゅう攻撃",
+      "wording_id": "chip.secondary.desc.7"
+    },
+    {
+      "id": "76BC60:8:0",
+      "source": "2マス前方めがけて\n3方からバーナーで\nしゅうちゅう攻撃",
+      "wording_id": "chip.secondary.desc.8"
+    },
+    {
+      "id": "76BC60:9:0",
+      "source": "2マス前方めがけて\n3方からバーナーで\nしゅうちゅう攻撃",
+      "wording_id": "chip.secondary.desc.9"
+    },
+    {
+      "id": "76BC60:10:0",
+      "source": "フィールド上のもの\nをこおりつかせ\nおしてすべらせる!",
+      "wording_id": "chip.secondary.desc.10"
+    },
+    {
+      "id": "76BC60:11:0",
+      "source": "フィールド上のもの\nをこおりつかせ\nおしてすべらせる!",
+      "wording_id": "chip.secondary.desc.11"
+    },
+    {
+      "id": "76BC60:12:0",
+      "source": "フィールド上のもの\nをこおりつかせ\nおしてすべらせる!",
+      "wording_id": "chip.secondary.desc.12"
+    },
+    {
+      "id": "76BC60:13:0",
+      "source": "前方すべてに\nスパークウェーブ!\nあいてをもうもくに",
+      "wording_id": "chip.secondary.desc.13"
+    },
+    {
+      "id": "76BC60:14:0",
+      "source": "前方すべてに\nスパークウェーブ!\nあいてをもうもくに",
+      "wording_id": "chip.secondary.desc.14"
+    },
+    {
+      "id": "76BC60:15:0",
+      "source": "前方すべてに\nスパークウェーブ!\nあいてをもうもくに",
+      "wording_id": "chip.secondary.desc.15"
+    },
+    {
+      "id": "76BC60:16:0",
+      "source": "よこ1れつかんつう\nするレーザー攻撃!",
+      "wording_id": "chip.secondary.desc.16"
+    },
+    {
+      "id": "76BC60:17:0",
+      "source": "よこ1れつかんつう\nするレーザー攻撃!",
+      "wording_id": "chip.secondary.desc.17"
+    },
+    {
+      "id": "76BC60:18:0",
+      "source": "よこ1れつかんつう\nするレーザー攻撃!",
+      "wording_id": "chip.secondary.desc.18"
+    },
+    {
+      "id": "76BC60:19:0",
+      "source": "前方のてきに\nつっこみ 前後から\nケンドー3だん攻撃",
+      "wording_id": "chip.secondary.desc.19"
+    },
+    {
+      "id": "76BC60:20:0",
+      "source": "前方のてきに\nつっこみ 前後から\nケンドー3だん攻撃",
+      "wording_id": "chip.secondary.desc.20"
+    },
+    {
+      "id": "76BC60:21:0",
+      "source": "前方のてきに\nつっこみ 前後から\nケンドー3だん攻撃",
+      "wording_id": "chip.secondary.desc.21"
+    },
+    {
+      "id": "76BC60:22:0",
+      "source": "2マスはん前方に\nテープのしんが!\nまきこみテープ攻撃",
+      "wording_id": "chip.secondary.desc.22"
+    },
+    {
+      "id": "76BC60:23:0",
+      "source": "2マスはん前方に\nテープのしんが!\nまきこみテープ攻撃",
+      "wording_id": "chip.secondary.desc.23"
+    },
+    {
+      "id": "76BC60:24:0",
+      "source": "2マスはん前方に\nテープのしんが!\nまきこみテープ攻撃",
+      "wording_id": "chip.secondary.desc.24"
+    },
+    {
+      "id": "76BC60:25:0",
+      "source": "ねらったあいてに\nピッタリはりついて\n攻撃する!",
+      "wording_id": "chip.secondary.desc.25"
+    },
+    {
+      "id": "76BC60:26:0",
+      "source": "しばらくのあいだ\nキャノンを\nうちまくる!",
+      "wording_id": "chip.secondary.desc.26"
+    },
+    {
+      "id": "76BC60:27:0",
+      "source": "しばらくのあいだ\nホウガンを\nなげまくる!",
+      "wording_id": "chip.secondary.desc.27"
+    },
+    {
+      "id": "76BC60:28:0",
+      "source": "しばらくのあいだ\nロングソードで\nきりつけまくる!",
+      "wording_id": "chip.secondary.desc.28"
+    },
+    {
+      "id": "76BC60:29:0",
+      "source": "いっていじかん\n炎属性チップの\n攻撃力が+40",
+      "wording_id": "chip.secondary.desc.29"
+    },
+    {
+      "id": "76BC60:30:0",
+      "source": "いっていじかん\n電気属性チップの\n攻撃力が+40",
+      "wording_id": "chip.secondary.desc.30"
+    },
+    {
+      "id": "76BC60:31:0",
+      "source": "いっていじかん\n水属性チップの\n攻撃力が2ばい!",
+      "wording_id": "chip.secondary.desc.31"
+    },
+    {
+      "id": "76BC60:32:0",
+      "source": "いっていじかん\n木属性チップの\n攻撃力が2ばい!",
+      "wording_id": "chip.secondary.desc.32"
+    },
+    {
+      "id": "76BC60:33:0",
+      "source": "みずからのHPを\n攻撃力にかえて\nバスターをきょうか",
+      "wording_id": "chip.secondary.desc.33"
+    },
+    {
+      "id": "76BC60:34:0",
+      "source": "すべてのパワーを\nチャージしてはなつ\nきゅうきょく攻撃!",
+      "wording_id": "chip.secondary.desc.34"
+    },
+    {
+      "id": "76BC60:45:0",
+      "source": "バトルフィールドの\n右はんぶんにはなつ\nフォルテバスター!",
+      "wording_id": "chip.secondary.desc.45"
+    },
+    {
+      "id": "76BC60:46:0",
+      "source": "あいてを3方から\nきりつけてまわる\n3だんソード攻撃",
+      "wording_id": "chip.secondary.desc.46"
+    },
+    {
+      "id": "76BC60:47:0",
+      "source": "てきのナビをひどい\nバグじょうたいに\nしてしまう!",
+      "wording_id": "chip.secondary.desc.47"
+    },
+    {
+      "id": "76BC60:48:0",
+      "source": "3マス前方めがけて\nレッドサンのメテオ\n攻撃がふりそそぐ!",
+      "wording_id": "chip.secondary.desc.48"
+    },
+    {
+      "id": "76BC60:49:0",
+      "source": "あかいあいだは\nあいてがチップを\nつかえなくなる!",
+      "wording_id": "chip.secondary.desc.49"
+    },
+    {
+      "id": "76BC60:50:0",
+      "source": "いちどだけまがる\nリングを4発\nなげつける!",
+      "wording_id": "chip.secondary.desc.50"
+    },
+    {
+      "id": "76BC60:51:0",
+      "source": "ホーリーパネルを\nすいこんで前方へ\nホーリーショット!",
+      "wording_id": "chip.secondary.desc.51"
+    },
+    {
+      "id": "76BC60:52:0",
+      "source": "やぶれてもふっかつ\nするやみのバリア!",
+      "wording_id": "chip.secondary.desc.52"
+    },
+    {
+      "id": "76BC60:53:0",
+      "source": "3マス前方めがけて\nブルームーンが力を\nうばう光をはなつ!",
+      "wording_id": "chip.secondary.desc.53"
+    },
+    {
+      "id": "76BC60:54:0",
+      "source": "ゴスペルのパワーで\n前方のてきを攻撃!",
+      "wording_id": "chip.secondary.desc.54"
+    },
+    {
+      "id": "76BC60:64:0",
+      "source": "やみにおちた\nきょうしゃたちの\nがったいわざ!",
+      "wording_id": "chip.secondary.desc.64"
+    },
+    {
+      "id": "76BC60:65:0",
+      "source": "まわり1マスに\nばくえんがひろがる\nこうはんい攻撃!",
+      "wording_id": "chip.secondary.desc.65"
+    },
+    {
+      "id": "76BC60:66:0",
+      "source": "まわり1マスに\nあわがひろがる\nこうはんい攻撃!",
+      "wording_id": "chip.secondary.desc.66"
+    },
+    {
+      "id": "76BC60:67:0",
+      "source": "ギガパワーではなつ\nきょうりょくな\nキャノン!",
+      "wording_id": "chip.secondary.desc.67"
+    },
+    {
+      "id": "76BC60:68:0",
+      "source": "ギガパワーではなつ\nきょうりょくな\nキャノン!",
+      "wording_id": "chip.secondary.desc.68"
+    },
+    {
+      "id": "76BC60:69:0",
+      "source": "ギガパワーではなつ\nきょうりょくな\nキャノン!",
+      "wording_id": "chip.secondary.desc.69"
+    },
+    {
+      "id": "76BC60:70:0",
+      "source": "3れんしゃの\nワイドショット!\nてきをかんつうする",
+      "wording_id": "chip.secondary.desc.70"
+    },
+    {
+      "id": "76BC60:71:0",
+      "source": "3れんしゃの\nワイドショット!\nてきをかんつうする",
+      "wording_id": "chip.secondary.desc.71"
+    },
+    {
+      "id": "76BC60:72:0",
+      "source": "3れんしゃの\nワイドショット!\nてきをかんつうする",
+      "wording_id": "chip.secondary.desc.72"
+    },
+    {
+      "id": "76BC60:73:0",
+      "source": "十字にひろがる\nじごくのごうか!",
+      "wording_id": "chip.secondary.desc.73"
+    },
+    {
+      "id": "76BC60:74:0",
+      "source": "十字にひろがる\nじごくのごうか!",
+      "wording_id": "chip.secondary.desc.74"
+    },
+    {
+      "id": "76BC60:75:0",
+      "source": "十字にひろがる\nじごくのごうか!",
+      "wording_id": "chip.secondary.desc.75"
+    },
+    {
+      "id": "76BC60:76:0",
+      "source": "3本のブーメランが\nれんぞくであいてに\nおそいかかる!",
+      "wording_id": "chip.secondary.desc.76"
+    },
+    {
+      "id": "76BC60:77:0",
+      "source": "3本のブーメランが\nれんぞくであいてに\nおそいかかる!",
+      "wording_id": "chip.secondary.desc.77"
+    },
+    {
+      "id": "76BC60:78:0",
+      "source": "3本のブーメランが\nれんぞくであいてに\nおそいかかる!",
+      "wording_id": "chip.secondary.desc.78"
+    },
+    {
+      "id": "76BC60:79:0",
+      "source": "自分の上下のれつに\nむすうのキバが\nつらなりすすむ!",
+      "wording_id": "chip.secondary.desc.79"
+    },
+    {
+      "id": "76BC60:80:0",
+      "source": "自分の上下のれつに\nむすうのキバが\nつらなりすすむ!",
+      "wording_id": "chip.secondary.desc.80"
+    },
+    {
+      "id": "76BC60:81:0",
+      "source": "自分の上下のれつに\nむすうのキバが\nつらなりすすむ!",
+      "wording_id": "chip.secondary.desc.81"
+    },
+    {
+      "id": "76BC60:82:0",
+      "source": "はんしゃしつづける\nきょうふのホッケー",
+      "wording_id": "chip.secondary.desc.82"
+    },
+    {
+      "id": "76BC60:83:0",
+      "source": "はんしゃしつづける\nきょうふのホッケー",
+      "wording_id": "chip.secondary.desc.83"
+    },
+    {
+      "id": "76BC60:84:0",
+      "source": "はんしゃしつづける\nきょうふのホッケー",
+      "wording_id": "chip.secondary.desc.84"
+    },
+    {
+      "id": "76BC60:85:0",
+      "source": "つよいじりょくで\n前方のてきすべてを\nすいよせて攻撃!",
+      "wording_id": "chip.secondary.desc.85"
+    },
+    {
+      "id": "76BC60:86:0",
+      "source": "つよいじりょくで\n前方のてきすべてを\nすいよせて攻撃!",
+      "wording_id": "chip.secondary.desc.86"
+    },
+    {
+      "id": "76BC60:87:0",
+      "source": "つよいじりょくで\n前方のてきすべてを\nすいよせて攻撃!",
+      "wording_id": "chip.secondary.desc.87"
+    },
+    {
+      "id": "76BC60:88:0",
+      "source": "よこ2たて3の\nきょだいソードで\nてきをぶったぎる!",
+      "wording_id": "chip.secondary.desc.88"
+    },
+    {
+      "id": "76BC60:89:0",
+      "source": "目の前に たいよう\nジェネレーター!\n日の光でやきつくす",
+      "wording_id": "chip.secondary.desc.89"
+    },
+    {
+      "id": "76BC60:90:0",
+      "source": "あいてエリアに\nギガカウントボムを\nおく!",
+      "wording_id": "chip.secondary.desc.90"
+    },
+    {
+      "id": "76BC60:91:0",
+      "source": "てきエリアにどくを\n発生させる\nファラオぞうをおく",
+      "wording_id": "chip.secondary.desc.91"
+    },
+    {
+      "id": "76BC60:92:0",
+      "source": "ウラのあんさつしゃ\nをやとい てきを\nはいじょしてもらう",
+      "wording_id": "chip.secondary.desc.92"
+    },
+    {
+      "id": "76BC60:93:0",
+      "source": "まわり1マスに\nばくふうがひろがる\nさくれつだん!",
+      "wording_id": "chip.secondary.desc.93"
+    }
+  ],
+  "composition": {
+    "seed_path": "translations/chip_secondary_descriptions_draft_seed.json",
+    "seed_sha256": "18729b867608cd121d1fd9abb3569ad109d0c1d002cdc7c68799463b1dafef20",
+    "tool_path": "tools/prepare_chip_secondary_descriptions.py",
+    "tool_sha256": "2fc7eaf86110e3461721920fa43eae8bfdaf0f678e4a36f162c99f2d68a72b51",
+    "new_units": 75
+  }
+}

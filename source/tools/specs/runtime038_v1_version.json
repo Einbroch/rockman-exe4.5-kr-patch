@@ -1,0 +1,75 @@
+{
+  "changes": [
+    {
+      "base": "tools/native037_loaded_guards.py",
+      "base_sha256": "98079101f0199ddb67c65085a9f7a76321804aab0775a92be4521f98412efa68",
+      "changes": [
+        [
+          "037",
+          "038"
+        ]
+      ],
+      "replacement_counts": [
+        1
+      ],
+      "output": "tools/native038_loaded_guards.py",
+      "output_sha256": "bc956a303bcac5f2355fb552bbfadf96c89cbb3a58cdaaf3e5496036e7e453d8"
+    },
+    {
+      "base": "tools/capture_field_loader_037_v1.py",
+      "base_sha256": "9c7b863d5e1191570f48bb01e2d71baaab264ddde45cb3310078332eef76e373",
+      "changes": [
+        [
+          "037",
+          "038"
+        ],
+        [
+          "if s['cpu.r0']==0x02039800 or s['cpu.r0']==0x0203C800 then",
+          "if s['cpu.r0']==0x02039800 or s['cpu.r0']==0x0203C800 or s['cpu.r0']==0x0203D800 then"
+        ]
+      ],
+      "replacement_counts": [
+        5,
+        1
+      ],
+      "output": "tools/capture_field_loader_038_v1.py",
+      "output_sha256": "24a72820fae67078cbf492f360d224aea6c37cb84a660be03dd78720783bf113"
+    },
+    {
+      "base": "tools/run_normal037_v2.py",
+      "base_sha256": "dcb99d9f5ab828cf24dd71a3f6f16daf0e4e0e44888a2017d85b211ed50726eb",
+      "changes": [
+        [
+          "037",
+          "038"
+        ]
+      ],
+      "replacement_counts": [
+        14
+      ],
+      "output": "tools/run_normal038_v1.py",
+      "output_sha256": "0e95352df4c3b9b16db457d086cd8838c5cbf58365c7c669e09f3a130f5e606a"
+    },
+    {
+      "base": "tools/verify_normal037_v1.py",
+      "base_sha256": "a157b0bf8d776df1bddbaa7b1a35a7bb84e8be1c17a6a1c942094a7b24d42ce1",
+      "changes": [
+        [
+          "037",
+          "038"
+        ],
+        [
+          "tools/run_normal038_v2.py",
+          "tools/run_normal038_v1.py"
+        ]
+      ],
+      "replacement_counts": [
+        28,
+        1
+      ],
+      "output": "tools/verify_normal038_v1.py",
+      "output_sha256": "d6b0a61acdd3348bc1054313d3a2a84b8030b7d26b37712ec26192af03762020"
+    }
+  ],
+  "scope": "Read-only exact038 loader/reader/three-root selector/font probe and loaded guards. Historical036 inputs only, coldboot then own038 states; no old-state reuse, aliases or source/RAM modifications. Normal route does not prove new three-class displayed targets."
+}

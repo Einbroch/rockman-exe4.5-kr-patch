@@ -1,0 +1,118 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BA660",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BA660.tpl",
+    "sha256": "8bf0c24db758f98fcdef1d6c3bad2498c7d605afa6c32a4fda9c38d5c26796b7"
+  },
+  "source_archive_sha256": "e91052aff84ac8e0c25d24017226b505dfd41d9787af0f63ed2ebdc0b9e35fe9",
+  "consumer": "normal-dialogue-choice-homepage-pattern",
+  "context": "All Japanese literals in6 source archives;64 total. Local offers/results and pattern branches read together.",
+  "voice": "Polite programs, informal pink virus owner and boastful yellow/purple rivals, rhythmic GoldProg service separated; candidates not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve battle185/186/187, globals27=663/664/665, flags1806/7701; homepage floor types3/4/5, color order and & joins, disableB=true, grid spacePx24/24, sound150 and page boundaries.",
+  "semantic_review": [
+    "Accelerator and brake explain each other: missing brake prevents stopping, missing accelerator prevents movement. Sunroof absence still permits driving; not another required control.",
+    "Rival superiority is their boast, including after losing to the player, not established battle-ranking or new progression requirement.",
+    "HP is homepage, confirmed by floor text and callSetHomepageFloor. Patterns red&blue/white&black/rainbow map to3/4/5, not previous plain colors0/1/2.",
+    "Pink anger/laughter and blade/water/GoldProg sounds are candidate localizations requiring voice review. Water source mentions flushing and blockage, but does not name the appliance; no toilet/washer identification invented.",
+    "All drafting remains needs_review and NON-DISTRIBUTION; no normal-play battles/floor changes/save persistence/grid geometry or device screens verified."
+  ],
+  "units": [
+    {
+      "id": "7BA660:0:0",
+      "source": "ね~ぇ、アタイのウイルスと\nバトルしない?",
+      "translation": "저기~ 내 바이러스랑\n배틀하지 않을래?",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "visible",
+      "context": "Car accelerator/brake/sunroof programs, pink virus owner, rival boastful Navis, homepage patterns, high-speed blades and strong water-stream programs. Complete local branches read.",
+      "variable_context": "No inserted name/item text. Choices retain native navigation and line endings; source vehicle/battle/floor/SFX commands unchanged."
+    },
+    {
+      "id": "7BA660:0:1",
+      "source": "うん  ",
+      "translation": "응  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "hidden",
+      "context": "Car accelerator/brake/sunroof programs, pink virus owner, rival boastful Navis, homepage patterns, high-speed blades and strong water-stream programs. Complete local branches read.",
+      "variable_context": "No inserted name/item text. Choices retain native navigation and line endings; source vehicle/battle/floor/SFX commands unchanged."
+    },
+    {
+      "id": "7BA660:0:2",
+      "source": "いやよ!",
+      "translation": "싫어!",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "hidden",
+      "context": "Car accelerator/brake/sunroof programs, pink virus owner, rival boastful Navis, homepage patterns, high-speed blades and strong water-stream programs. Complete local branches read.",
+      "variable_context": "No inserted name/item text. Choices retain native navigation and line endings; source vehicle/battle/floor/SFX commands unchanged."
+    },
+    {
+      "id": "7BA660:0:3",
+      "source": "つまらないわね・・・",
+      "translation": "재미없네...",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "visible",
+      "context": "Car accelerator/brake/sunroof programs, pink virus owner, rival boastful Navis, homepage patterns, high-speed blades and strong water-stream programs. Complete local branches read.",
+      "variable_context": "No inserted name/item text. Choices retain native navigation and line endings; source vehicle/battle/floor/SFX commands unchanged."
+    },
+    {
+      "id": "7BA660:1:0",
+      "source": "いくよ!",
+      "translation": "간다!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "visible",
+      "context": "Car accelerator/brake/sunroof programs, pink virus owner, rival boastful Navis, homepage patterns, high-speed blades and strong water-stream programs. Complete local branches read.",
+      "variable_context": "No inserted name/item text. Choices retain native navigation and line endings; source vehicle/battle/floor/SFX commands unchanged."
+    },
+    {
+      "id": "7BA660:1:1",
+      "source": "バトルオペレーション、セット!\nイン!!",
+      "translation": "배틀 오퍼레이션, 세트!\n인!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "visible",
+      "context": "Car accelerator/brake/sunroof programs, pink virus owner, rival boastful Navis, homepage patterns, high-speed blades and strong water-stream programs. Complete local branches read.",
+      "variable_context": "No inserted name/item text. Choices retain native navigation and line endings; source vehicle/battle/floor/SFX commands unchanged."
+    },
+    {
+      "id": "7BA660:2:0",
+      "source": "キ、キィッ!\nクヤしい!!",
+      "translation": "키, 키익!\n분해!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "visible",
+      "context": "Car accelerator/brake/sunroof programs, pink virus owner, rival boastful Navis, homepage patterns, high-speed blades and strong water-stream programs. Complete local branches read.",
+      "variable_context": "No inserted name/item text. Choices retain native navigation and line endings; source vehicle/battle/floor/SFX commands unchanged."
+    },
+    {
+      "id": "7BA660:3:0",
+      "source": "ホーホッホッホッホッホ!!",
+      "translation": "호~호호호호호!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "visible",
+      "context": "Car accelerator/brake/sunroof programs, pink virus owner, rival boastful Navis, homepage patterns, high-speed blades and strong water-stream programs. Complete local branches read.",
+      "variable_context": "No inserted name/item text. Choices retain native navigation and line endings; source vehicle/battle/floor/SFX commands unchanged."
+    }
+  ]
+}

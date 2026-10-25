@@ -1,0 +1,287 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "665F3C",
+  "source_archive_sha256": "45aa744818878d7b67797fcbfc1aefcbc741ca240bc16ff529bfbec67713f719",
+  "consumer": "normal-dialogue",
+  "context": "GutsMan PET idle/question/selection/reentry/interruption. Explicit GutsMan equipment/interruption naming, original root038114=08665F3C, intro038110+4. Scripts2..8 initial seven questions,10..16 second dispatch;8 enters save screen,16 saves current data. Portrait92,110, source option row and exact controls retained. No nickname insertion.",
+  "voice": "Tentative existing GutsMan intro/seasonal/save 거츠/거스 voice; human terminology/wording/voice review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/665F3C.tpl; translations/gutsman_intro_ko.json; native root038114",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All44 literals/22slots. Original IDs/source,numerals,newline boundaries/trailing option row,Yes two trailing spaces,commands/options/select targets/flag3584,3585,3588,3615/global30=120 retained. No RTC/name/save-code/gameplay changes.",
+  "semantic_review": [
+    "Save-screen navigation8 and save-current-data16 kept distinct. Initial tournament participation2 vs second dispatch tournament choice10 kept distinct.",
+    "Interruption says GutsMan has not finished speaking, no invented affection or advice. No live communications or all reentry branches claimed from cancelled initial prompts. NumberMan4649 approval not reused."
+  ],
+  "units": [
+    {
+      "id": "665F3C:1:0",
+      "source": "なにを するでガス?",
+      "translation": "뭘 하겠거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:2:0",
+      "source": "トーナメントに\nさんかするでガス?\n",
+      "translation": "토너먼트에\n참가하겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:2:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:2:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:3:0",
+      "source": "インターネットに\nプラグインするでガス?\n",
+      "translation": "인터넷에\n플러그인하겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:3:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:3:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:4:0",
+      "source": "ガッツマンのそうびを\nかえるでガス?\n",
+      "translation": "거츠맨의 장비를\n바꾸겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:4:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:4:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:5:0",
+      "source": "データライブラリを\n見るでガス?\n",
+      "translation": "데이터 라이브러리를\n보겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:5:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:5:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:6:0",
+      "source": "メールを\nチェックするでガス?\n",
+      "translation": "메일을\n확인하겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:6:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:6:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:7:0",
+      "source": "つうしんたいせんを\nするでガス?\n",
+      "translation": "통신 대전을\n하겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:7:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:7:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:8:0",
+      "source": "セーブ画面に\nはいるでガス?\n",
+      "translation": "저장 화면에\n들어가겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:8:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:8:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:10:0",
+      "source": "トーナメントに\nするでガス?\n",
+      "translation": "토너먼트로\n하겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:10:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:10:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:11:0",
+      "source": "インターネットに\nプラグインするでガス?\n",
+      "translation": "인터넷에\n플러그인하겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:11:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:11:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:12:0",
+      "source": "ガッツマンのそうびを\nかえるでガス?\n",
+      "translation": "거츠맨의 장비를\n바꾸겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:12:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:12:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:13:0",
+      "source": "データライブラリを\n見るでガス?\n",
+      "translation": "데이터 라이브러리를\n보겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:13:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:13:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:14:0",
+      "source": "メールを\nチェックするでガス?\n",
+      "translation": "메일을\n확인하겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:14:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:14:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:15:0",
+      "source": "つうしんたいせんを\nするでガス?\n",
+      "translation": "통신 대전을\n하겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:15:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:15:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:16:0",
+      "source": "これまでのデータを\nセーブするでガス?\n",
+      "translation": "지금까지의 데이터를\n저장하겠거스?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:16:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:16:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "665F3C:20:0",
+      "source": "ガッツマンのハナシ、\nおわってないでガス!",
+      "translation": "거츠맨의 이야기는,\n아직 안 끝났거스!",
+      "state": "needs_review"
+    }
+  ]
+}

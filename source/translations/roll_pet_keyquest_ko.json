@@ -1,0 +1,28 @@
+{
+  "schema":1,
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive":"664E28",
+  "source_archive_sha256":"b788cd856ad90150aa1ba360d3a97294138ba98d24cfd8af33b1631271853dee",
+  "scope_variant":"license-incident-keyquest-prompts",
+  "consumer":"normal-dialogue",
+  "context":"Prior eight PET units exact; key recovery23, another Navi conjecture24, item possession and internet9 destination25. Diagnostic renderer evidence only, not native quest selection.",
+  "voice":"Roll friendly informal development draft; uncertain possession remains conjectural.",
+  "evidence":"analysis/tpl_baseline/664E28.tpl; poc/runtime/roll-pet-keyquest-source-v1-script23/24/25 original diagnostic screenshots directly inspected.",
+  "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy":"Prior eight units exact; three rows and all controls unchanged; other245 script slots and dynamic chip13 protected. Diagnostic alias absent from product ROM.",
+  "decision_evidence":"Three drafts authored manually from exact source and observed Japanese pages. 블랙 워크스 and 마이너스 키 are proposed transliterations, not approved official terminology. No automated prose rewrite.",
+  "units":[
+    {"id":"664E28:10:0","source":"、\nもっとインターネットを\nたんさくしてみよう!","translation":"、\n인터넷을 더\n탐색해 보자!","state":"needs_review"},
+    {"id":"664E28:11:0","source":"みならいライセンスしけん\nチャレンジしてみない?","translation":"견습 라이선스 시험\n도전해 보지 않을래?","state":"needs_review"},
+    {"id":"664E28:12:0","source":"みならいライセンスしけん\nがんばろうね!!","translation":"견습 라이선스 시험\n힘내 보자!!","state":"needs_review"},
+    {"id":"664E28:14:0","source":"みならいライセンスを\nうけとりに行こうよ!","translation":"견습 라이선스를\n받으러 가자!","state":"needs_review"},
+    {"id":"664E28:15:0","source":"みならいライセンスしけん\nおつかれさま!\nちょっと きゅうけいする?","translation":"견습 라이선스 시험\n고생했어!\n잠깐 쉴래?","state":"needs_review"},
+    {"id":"664E28:17:0","source":"さっきたおしたナビが\nじけんの はんにんだった\nみたいね・・・","translation":"방금 쓰러뜨린 내비가\n사건의 범인이었던\n것 같아・・・","state":"needs_review"},
+    {"id":"664E28:17:1","source":"つかれたでしょ、\nちょっと、プラグアウト\nしない?","translation":"피곤하지、\n잠깐 플러그아웃\n하지 않을래?","state":"needs_review"},
+    {"id":"664E28:31:0","source":"もっともっと、\nインターネットを\nたんさくしてみましょ!","translation":"더 많이、\n인터넷을\n탐색해 보자!","state":"needs_review"},
+    {"id":"664E28:23:0","source":"ブラックワークスから\n「マイナスキー」 を\nとりかえしましょ!","translation":"블랙 워크스에게서\n「마이너스 키」를\n되찾자!","state":"needs_review"},
+    {"id":"664E28:24:0","source":"「マイナスキー」 は、\nもう1体のナビが もってる\nみたいね!!","translation":"「마이너스 키」는、\n다른 내비가 가진\n것 같아!!","state":"needs_review"},
+    {"id":"664E28:25:0","source":"「マイナスキー」をもって\nインターネット9にいる\nナビのところに行きましょ","translation":"「마이너스 키」를\n들고 인터넷9의\n내비에게 가자!","state":"needs_review"}
+  ]
+}

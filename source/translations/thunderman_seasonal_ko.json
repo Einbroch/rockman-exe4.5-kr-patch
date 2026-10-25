@@ -1,0 +1,227 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "680454",
+  "source_archive_sha256": "e91e3c28e603cc99d46e876b4fd46c268de78f0e5575bcc7d5c967a41d7c9251",
+  "consumer": "normal-dialogue",
+  "context": "ThunderMan seasonal/birthday conversations; source intro67C4CC identifies speaker. Native60-byte Navi group seasonal+52/root038234. Portrait92,110/3rows; global22 gender branch and anniversary buffer/loop preserved. Normal unlock/date route unverified.",
+  "voice": "Tentative solemn paternal informal voice based on source ワタシ/おまえ/せんとな/のだぞ and proud introduction, human review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/67C4CC.tpl; analysis/full_scope_v1/source_tpl/680454.tpl; native root038234",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All34 source literals including2 unchanged quotes; IDs/text,source numeral1 and dates,newline counts/boundaries,21slots,commands and event controls preserved. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "Setsubun/Hinamatsuri/May5/Tanabata retain Japanese holiday context. Culture and solemn paternal voice remain needs_review.",
+    "Source end-of-year literal numeral1 retained as 1일; no numeral-policy exemption."
+  ],
+  "units": [
+    {
+      "id": "680454:1:0",
+      "source": "あけまして おめでとう",
+      "translation": "새해 복 많이 받아라",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:1:1",
+      "source": "今年もまた よろしく\nたのむ・・・",
+      "translation": "올해도 잘\n부탁하마・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:2:0",
+      "source": "今日は せつぶん\nという日らしい・・・",
+      "translation": "오늘은 절분\n이라는 날이라지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:2:1",
+      "source": "このクニでは マメを\nまいて オニを\nおいはらうそうだが、",
+      "translation": "이 나라에서는 콩을\n뿌려서 도깨비를\n쫓아낸다지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:2:2",
+      "source": "そんなことを せずとも\nワタシの でんげきで\nオニどもを たおしてやる",
+      "translation": "그럴 필요도 없이\n내 전격으로\n도깨비를 쓰러뜨리마",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:3:0",
+      "source": "今日は、\nバレンタインデーだな",
+      "translation": "오늘은,\n발렌타인데이로군",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:3:1",
+      "source": "おまえを すいている\nオナゴからチョコレートを\nもらう日だったな?",
+      "translation": "널 좋아하는\n여자에게 초콜릿을\n받는 날이었지?",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:3:2",
+      "source": "はたして いくつ\nもらえるやら・・・",
+      "translation": "과연 몇 개나\n받을 수 있을까・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:4:0",
+      "source": "今日は、\nバレンタインデーだな",
+      "translation": "오늘은,\n발렌타인데이로군",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:4:1",
+      "source": "チョコレートを\nわたすじゅんびは\nできているのか?",
+      "translation": "초콜릿을\n건네줄 준비는\n되어 있느냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:5:0",
+      "source": "今日は 3月3日、\nひなまつりか・・・",
+      "translation": "오늘은 3월3일,\n히나마쓰리인가・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:5:1",
+      "source": "こういう ふうしゅうは\nだいじに せんとな",
+      "translation": "이런 풍습은\n소중히 여겨야지",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:6:0",
+      "source": "今日は 5月5日の\nコドモの日だな・・・",
+      "translation": "오늘은 5월5일\n어린이날이군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:6:1",
+      "source": "こういう ふうしゅうは\nだいじに せんとな",
+      "translation": "이런 풍습은\n소중히 여겨야지",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:7:0",
+      "source": "今日は たなばただ・・・",
+      "translation": "오늘은 칠석이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:7:1",
+      "source": "今日ばかりは\nくもってほしくないものだ",
+      "translation": "오늘만큼은\n흐리지 않았으면 하네",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:8:0",
+      "source": "今日は\nクリスマスイヴだな",
+      "translation": "오늘은\n크리스마스이브로군",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:8:1",
+      "source": "今年も もう、おわりだな\nくれゆく 今年を\nたのしもうではないか",
+      "translation": "올해도 끝나 가는군\n저물어 가는 올해를\n즐겨 보자꾸나",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:9:0",
+      "source": "メリークリスマス",
+      "translation": "메리 크리스마스",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:9:1",
+      "source": "クリスマスイヴは\nまんきつできたか?",
+      "translation": "크리스마스이브는\n마음껏 즐겼느냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:9:2",
+      "source": "しんねんは、\nもうすぐそこだぞ",
+      "translation": "새해가,\n바로 코앞이다",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:10:0",
+      "source": "今日は おおみそかだ",
+      "translation": "오늘은 섣달그믐이다",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:10:1",
+      "source": "今年中にやりのこした\nコトはないか?",
+      "translation": "올해 안에 못다 한\n일은 없느냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:10:2",
+      "source": "くいのない 1日を\nすごすのだぞ",
+      "translation": "후회 없는 1일을\n보내거라",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:11:0",
+      "source": "今日は おまえの\nたんじょう日だったな",
+      "translation": "오늘은 네\n생일이었지",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:11:1",
+      "source": "おめでとう",
+      "translation": "축하한다",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:11:2",
+      "source": "今日は うまれてきた\nコトにかんしゃする日だ",
+      "translation": "오늘은 태어난 것에\n감사하는 날이다",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:11:3",
+      "source": "生のよろこびを\nかみしめるのだな",
+      "translation": "살아가는 기쁨을\n되새겨 보거라",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:12:0",
+      "source": "学校の そうりつきねん日\nだな・・・",
+      "translation": "학교의 창립 기념일\n이로군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:12:1",
+      "source": "今日は 学校に\n行かなくてもよいのか?",
+      "translation": "오늘은 학교에\n가지 않아도 되느냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "680454:19:0",
+      "source": "だぞ・・・",
+      "translation": "이란다・・・",
+      "state": "needs_review"
+    }
+  ]
+}

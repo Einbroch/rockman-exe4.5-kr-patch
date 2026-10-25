@@ -1,0 +1,229 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "66A844",
+  "source_archive_sha256": "ab59357517b022252695e2b9785bf85a45fbab48e3444c5964d75e9c0d930795",
+  "consumer": "normal-dialogue",
+  "context": "All33 Guts R literals; two added chip104 literals. Derived31 units remain parent-owned and byte-for-byte unchanged. Native printChip0/104/keyWait/clear/waitHold preserved. Korean chip name reuses existing draft wording without counting it again.",
+  "voice": "Existing 거츠/거스 development candidate; shared terms match prior Roll candidates, not human approval.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Source/control/numeral/nickname anchors and230 unselected spans preserved. Three-row chip page budgets include native88px and Korean47px variable name.",
+  "semantic_review": [
+    "25 two pages jointly direct carrying the key to the Navi in internet9; not taking a key from that Navi.",
+    "27 target Navi coffin sign retained; original weekday checks0/6 and weekday alternatives26/28/29/34 unchanged.",
+    "24 retains numeral1 for another Navi; 16/18/19/20/21/22 and25 retain area numbers.",
+    "17 preserves suspect attribution as seeming rather than certainty; 15/17 plugin-out questions kept as questions.",
+    "No NumberMan4649 human decision reused."
+  ],
+  "units": [
+    {
+      "id": "66A844:10:0",
+      "source": "ガッツガッツ!\nインターネットをいろいろ\nあるきまわってみるでガス",
+      "translation": "거츠、거츠!\n인터넷 이곳저곳을\n돌아다녀 보거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:11:0",
+      "source": "ガッツマン、\nみならいライセンスが\nほしいでガス!!",
+      "translation": "거츠맨、\n견습 라이선스가\n갖고 싶거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:12:0",
+      "source": "、\nみならいライセンスしけん\nがんばるガッツ!",
+      "translation": "、\n견습 라이선스 시험\n힘내는거츠!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:13:0",
+      "source": "ガッツガッツ!!\n「",
+      "translation": "거츠、거츠!!\n「",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:13:1",
+      "source": "」 を\nゲットするでガス!",
+      "translation": "」를\n얻겠거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:14:0",
+      "source": "みならいライセンスを\nうけとりに行くでガス!",
+      "translation": "견습 라이선스를\n받으러 가거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:15:0",
+      "source": "みならいライセンスしけん\nおつかれさまでガス!\nプラグアウトするでガス?",
+      "translation": "견습 라이선스 시험\n수고했거스!\n플러그아웃하거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:16:0",
+      "source": "インターネット3で\nおこってるじけんが\n気になるでガス・・・",
+      "translation": "인터넷3에서\n일어난 사건이\n신경 쓰이는거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:17:0",
+      "source": "さっきたおしたナビが\nじけんの はんにんだった\nみたいでガス・・・",
+      "translation": "방금 쓰러뜨린 내비가\n사건의 범인이었던\n것 같거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:17:1",
+      "source": "つかれたでガス?\nいちど、プラグアウト\nするでガス?",
+      "translation": "피곤하거스?\n한번 플러그아웃\n하겠거스?",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:18:0",
+      "source": "インターネット5で\nおこってるじけんが\n気になるでガス・・・",
+      "translation": "인터넷5에서\n일어난 사건이\n신경 쓰이는거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:19:0",
+      "source": "インターネット7で\nおこってるじけんが\n気になるでガス・・・",
+      "translation": "인터넷7에서\n일어난 사건이\n신경 쓰이는거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:20:0",
+      "source": "インターネット9で\nおこってるじけんが\n気になるでガス・・・",
+      "translation": "인터넷9에서\n일어난 사건이\n신경 쓰이는거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:21:0",
+      "source": "インターネット10で\nおこってるじけんが\n気になるでガス・・・",
+      "translation": "인터넷10에서\n일어난 사건이\n신경 쓰이는거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:22:0",
+      "source": "インターネット12で\nおこってるじけんが\n気になるでガス・・・",
+      "translation": "인터넷12에서\n일어난 사건이\n신경 쓰이는거스・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:23:0",
+      "source": "ブラックワークスから\n「マイナスキー」 を\nとりかえすでガス!!",
+      "translation": "블랙 워크스에게서\n「마이너스 키」를\n되찾겠거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:24:0",
+      "source": "「マイナスキー」 は、\nもう1体のナビが\nもってるみたいでガス!!",
+      "translation": "「마이너스 키」는、\n다른 내비1체가\n가진 것 같거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:25:0",
+      "source": "「マイナスキー」 を\nインターネット9にいる",
+      "translation": "「마이너스 키」를\n인터넷9에 있는",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:25:1",
+      "source": "ナビのところに\nもって行くでガス!",
+      "translation": "내비에게\n가져가거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:26:0",
+      "source": "オフィシャル\nトーナメントの",
+      "translation": "오피셜\n토너먼트의",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:26:1",
+      "source": "エントリーかいじょうに\n行くでガス!!",
+      "translation": "참가 신청 장소에\n가거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:27:0",
+      "source": "ウラインターネットに\n行くでガス!",
+      "translation": "우라인터넷으로\n가거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:27:1",
+      "source": "たおしに行くナビの\nめじるしは\nカンオケでガス!",
+      "translation": "쓰러뜨릴 내비의\n표식은\n관이거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:28:0",
+      "source": "ガッツガッツ!!",
+      "translation": "거츠、거츠!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:28:1",
+      "source": "オフィシャル\nトーナメントにエントリー\nしに行くでガス!!",
+      "translation": "오피셜\n토너먼트에 참가\n신청하러 가거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:29:0",
+      "source": "しゅうまつはオフィシャル\nトーナメントでガス!\nがんばろうでガス!!",
+      "translation": "주말은 오피셜\n토너먼트거스!\n함께 힘내거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:30:0",
+      "source": "オフィシャルトーナメント\nもえるでガス!!",
+      "translation": "오피셜 토너먼트\n불타오르는거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:31:0",
+      "source": "、\nインターネットを",
+      "translation": "、\n인터넷을",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:31:1",
+      "source": "ガンガン\nたんさくするでガス!!",
+      "translation": "힘차게\n탐색하거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:32:0",
+      "source": "オフィシャル\nトーナメントのよせんを\nうけに行くでガス!",
+      "translation": "오피셜\n토너먼트 예선에\n참가하러 가거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:33:0",
+      "source": "さっきとどいた メールを\nよんでみるでガス!",
+      "translation": "방금 도착한 메일을\n읽어 보거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:34:0",
+      "source": "しゅうがあけたら、\nオフィシャル\nトーナメントに",
+      "translation": "주가 바뀌면、\n오피셜\n토너먼트에",
+      "state": "needs_review"
+    },
+    {
+      "id": "66A844:34:1",
+      "source": "エントリーしに\n行くでガス!",
+      "translation": "참가 신청하러\n가거스!",
+      "state": "needs_review"
+    }
+  ],
+  "scope_variant": "gutsman-chipquest-v1",
+  "parent_asset": {
+    "path": "translations/gutsman_pet_talk_ko.json",
+    "sha256": "f742943f19f7feda1eea55531b76b8f2dd862fb7acb6f301edbb7031a86c373a",
+    "carry_units": 31
+  }
+}

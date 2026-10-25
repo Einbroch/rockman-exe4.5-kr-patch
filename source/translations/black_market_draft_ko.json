@@ -1,0 +1,273 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BE518",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BE518.tpl",
+    "sha256": "6e6c38740b54196e296be056d654d894722e681775d5db0b712a5099b6054e9b"
+  },
+  "source_archive_sha256": "1904be22aba9e467d48c9691bcce6a75e08debc2339f6f30afc36be30b1b74b6",
+  "consumer": "normal-dialogue-choice-minigame-shop",
+  "context": "All67 Japanese literals from4 archives, local dialogue/branches read.",
+  "voice": "Rough NapalmMan, sung stereo English loanwords, tired casual TV and rough merchant separated; candidate voices not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep flag6194/startNapalmManMinigame hard=false, Internet1/all viruses/time unspecified/any plugout failure; market shops4/14/global7=2/global6=1/weekday3/Navi1 and options unchanged.",
+  "semantic_review": [
+    "Normal test Internet1 is not hard-test UnderInternet2. Napalm program lending appears only in initial0, not reminder2; no added time number or changed test command.",
+    "Retry4 uses mugshotHide unlike hard-test visible retry; choices are hidden player choices. Success offers passage and failure refuses it.",
+    "Stereo interrupted singing literals remain three separate pages/fragments; punctuation and sound expansion are authored candidates, not inferred voice/audio assets.",
+    "TV explicitly old, not thin or LCD; casual tired register retained rather than default polite MrProgGreen. No remote-control repair quest invented.",
+    "Market stock14 may also be reached through global7/6 special conditions before weekday/Navi branch. No player-gender gate, discount amount or item additions inferred.",
+    "Static protection not normal-play test/plugout/clock/market purchase/save/screen verification; rhythm, names and service phrasing require human review."
+  ],
+  "units": [
+    {
+      "id": "7BE518:221:0",
+      "source": "マタ キてくれよ・・・",
+      "translation": "또 찾아와 줘...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "inherited-from-caller",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:222:0",
+      "source": "すまねえが、\nイマは シナギレチュウだ・・・",
+      "translation": "미안하지만,\n지금은 품절이야...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:223:0",
+      "source": "ようこそ、\nブラックマーケットへ・・・",
+      "translation": "어서 와,\n블랙마켓에...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:223:1",
+      "source": "オレは ヤミのショウニン・・・",
+      "translation": "난 어둠의 상인...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:223:2",
+      "source": "カネさえツめば、\nどんなヤツとだって\nショウバイするぜ・・・",
+      "translation": "돈만 두둑이 내면,\n어떤 녀석과도\n장사하지...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:223:3",
+      "source": "ちょっと ミていくかい?\n",
+      "translation": "잠깐 보고 갈래?\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:223:4",
+      "source": "みる  ",
+      "translation": "보기  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:223:5",
+      "source": "みない",
+      "translation": "안 보기",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:224:0",
+      "source": "ようこそ、\nブラックマーケットへ・・・",
+      "translation": "어서 와,\n블랙마켓에...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:224:1",
+      "source": "オレは ヤミのショウニン・・・",
+      "translation": "난 어둠의 상인...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:224:2",
+      "source": "カネさえツめば、\nどんなヤツとだって\nショウバイするぜ・・・",
+      "translation": "돈만 두둑이 내면,\n어떤 녀석과도\n장사하지...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:224:3",
+      "source": "トクにキョウは\nシュウにイチドの\nレディースデーだ・・・",
+      "translation": "특히 오늘은\n일주일에 한 번 있는\n레이디스 데이야...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:224:4",
+      "source": "ギャルには ジャンジャン\nサービスさせてもらうぜ!",
+      "translation": "아가씨들에겐 팍팍\n서비스해 주겠어!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:224:5",
+      "source": "ちょっと ミていくかい?\n",
+      "translation": "잠깐 보고 갈래?\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:224:6",
+      "source": "みる  ",
+      "translation": "보기  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:224:7",
+      "source": "みない",
+      "translation": "안 보기",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:225:0",
+      "source": "よぅ、ブラックマーケットに\nようこそ!!",
+      "translation": "어이, 블랙마켓에\n잘 왔어!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:225:1",
+      "source": "アンタ、ラッキーだぜ!\nキョウの オレは\nサイコウに キゲンがイいんだ!",
+      "translation": "너, 운이 좋군!\n오늘 난\n기분이 최고거든!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:225:2",
+      "source": "サービスするから、\nガッチリ カっていってくれよ",
+      "translation": "서비스해 줄 테니,\n잔뜩 사 가라고",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:225:3",
+      "source": "フダンはミれない\nイいモノ あるぜ!?\n",
+      "translation": "평소에는 볼 수 없는\n좋은 물건 있어!?\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:225:4",
+      "source": "みる  ",
+      "translation": "보기  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    },
+    {
+      "id": "7BE518:225:5",
+      "source": "みない",
+      "translation": "안 보기",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Normal NapalmMan passage test/reminder/success/failure/retry, stereo singing program, tired old-TV program or black-market merchant. All local branches read.",
+      "variable_context": "Source numeral1 kept; no inserted names/items. Black market221 inherits HeelNaviBlack; visible shop options still player choices."
+    }
+  ]
+}

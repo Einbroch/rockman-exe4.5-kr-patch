@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A89E4",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A89E4.tpl",
+    "sha256": "24def0526da809a57e512f208fda8cb507d9aa6acdb0ab5e866fa6c4eb04ca56"
+  },
+  "source_archive_sha256": "31720feed8341ceec4724eb3d749bf413bef6e3f7be39f93446ee9c8718fbd34",
+  "consumer": "batch500-contextual-escape-tutorial-npcs",
+  "context": "Pinkshopping0,Orangehaggler1 switchedPurplemerchant1secondliteral,Purplegirlmanypurchases2,YellowwishgirlonWednesday3. No price/currency oridentitychange implemented;customer/merchant portraits distinct.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-041",
+  "semantic_review": [
+    "Exactly500Japanese stable catalog literals in9archives:81minigameexplanations,46bustingtutorial,278target/range/escape incl126splitdots,95NPC/Everydaytournament. playerchoices58/UIlabels38;not500uniqueprose sentences.",
+    "Manual source-conditioned drafts afterallselectedliterals read;full8nonbattleTPLs,exactbattleskeleton0..53 pluscontroltemplatecomparisons54..137 andexplicitdispatch138..143. Nativecommands/IDs/source/TPL/payload immutable;no rules generatingorchoosingprose.",
+    "needs_review development-draft NON-DISTRIBUTION releasefalse;originalROM/baselineROM/catalog/save/emulator/images/keyboard preserved. Glyph/codec/control/newline/padding/132px heuristic cannot approve meaning or runtime.",
+    "71BE98:2:0 combinedchiplabel remains source/untranslateddenominator;no inventedsplit. BattlealreadyselectedMega/Roll non-drafttext andnonJapanese punctuation/times unchanged;126native splitdots are presentationunits,notmissing dialoguepadding.",
+    "Battle localportraits preserved andmmbn45s labels not assignedspokenNavi. Dispatch138..143 offset/selfjump anomalies are heldforconsumeranalysis,notfixedbyguess. Escapepermission/success/failure/prohibition andcharacterhumour separate;18frame waits/options/trailingnewlines preserved.",
+    "Minigame rules 1/0/3/9 thresholds,icecrack nextturn vsvirusattack nextturn,3hitnotHPquantity,same3chipsPA,line-abovepreview versusline-belowclear,1turn1countbomb/bonus and dynamicreward3buffer protected. Freezeinfectioncertainty6 differs fromapparentinfection7. No actualdamage/currency writes.",
+    "Tutorial distinguishesDpad strategyfromautonomousmovement,range notexactguarantee,Rdescription/Lescape beforebattle vsR/Lactions duringbattle,colourthreshold/initialyellow/randomchips/Bshufflegaugecost andretargetup/rangedown. Buttonletters/gaugelevelsprotected;newwording humanreviewpending.",
+    "Everydayhourranges/entryflag/cancel/tournament6 andstatueitem7quotes protected;Gold/platinum joke anduniversalstrength unchanged. Merchantportraitswitch andWednesdaywish separated,not actualprice/genderchange. Patrolsong/lightyearhyperbole/English/oilyboomerjokes are candidates needinghumanjudgment.",
+    "Unresolvedconsumerwidth/inline/font/images/nameentrysavecompatibility/reachability/runtime/release remain. Finishdrafts beforecumulativeROM/font/layout/insertion/screens/saveQA;oldtermvariants not autoharmonized."
+  ],
+  "units": [
+    {
+      "id": "7A89E4:0:0",
+      "source": "ナニを カおうかしら!?",
+      "translation": "뭘 살까!?",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Pinkshopping0,Orangehaggler1 switchedPurplemerchant1secondliteral,Purplegirlmanypurchases2,YellowwishgirlonWednesday3. No price/currency oridentitychange implemented;customer/merchant portraits distinct.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A89E4:0:1",
+      "source": "いつもは ウってない\nアレでも カおうかしら!",
+      "translation": "평소에는 안 파는\n그걸 살까!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Pinkshopping0,Orangehaggler1 switchedPurplemerchant1secondliteral,Purplegirlmanypurchases2,YellowwishgirlonWednesday3. No price/currency oridentitychange implemented;customer/merchant portraits distinct.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A89E4:1:0",
+      "source": "これ、もっとヤスくなんないの!?",
+      "translation": "이거, 더 싸게 안 돼!?",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Pinkshopping0,Orangehaggler1 switchedPurplemerchant1secondliteral,Purplegirlmanypurchases2,YellowwishgirlonWednesday3. No price/currency oridentitychange implemented;customer/merchant portraits distinct.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A89E4:1:1",
+      "source": "そ、それイジョウは\nカンベンしてクダさいよ~",
+      "translation": "그, 그 이상은\n봐 주세요~",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Pinkshopping0,Orangehaggler1 switchedPurplemerchant1secondliteral,Purplegirlmanypurchases2,YellowwishgirlonWednesday3. No price/currency oridentitychange implemented;customer/merchant portraits distinct.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A89E4:2:0",
+      "source": "ふ~、イッパイ カっちゃった!",
+      "translation": "후~, 잔뜩 사 버렸네!",
+      "state": "needs_review",
+      "speaker": "NaviGirlPurple",
+      "origin_portrait": "NaviGirlPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Pinkshopping0,Orangehaggler1 switchedPurplemerchant1secondliteral,Purplegirlmanypurchases2,YellowwishgirlonWednesday3. No price/currency oridentitychange implemented;customer/merchant portraits distinct.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A89E4:2:1",
+      "source": "マンゾク マンゾク!",
+      "translation": "만족, 만족!",
+      "state": "needs_review",
+      "speaker": "NaviGirlPurple",
+      "origin_portrait": "NaviGirlPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Pinkshopping0,Orangehaggler1 switchedPurplemerchant1secondliteral,Purplegirlmanypurchases2,YellowwishgirlonWednesday3. No price/currency oridentitychange implemented;customer/merchant portraits distinct.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A89E4:3:0",
+      "source": "マイシュウ スイヨウビだけ\nオンナのコに なれたらなぁ・・・",
+      "translation": "매주 수요일만\n여자애가 될 수 있다면...",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Pinkshopping0,Orangehaggler1 switchedPurplemerchant1secondliteral,Purplegirlmanypurchases2,YellowwishgirlonWednesday3. No price/currency oridentitychange implemented;customer/merchant portraits distinct.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    }
+  ]
+}

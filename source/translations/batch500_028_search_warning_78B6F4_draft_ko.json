@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "78B6F4",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/78B6F4.tpl",
+    "sha256": "ccfd9583e2964d3b56c55c2b5972e2b8933abb054fc4ce347e52cc3317ddb164"
+  },
+  "source_archive_sha256": "7a4fdeba2d57186c589ff6e556f98dcc3e8473c8736a5fdf3b601ca250ef2062",
+  "consumer": "batch500-contextual-normal-heel-shops-timed-npcs-chat-bbs-search-warning",
+  "context": "Complete255-slot sourceTPL/2Japanese drafted. ExplicitSearchMan portrait;radarcannotmeasure swirlingdarkpowerandwarning. Noenemyname,combattriggerorlocationinvented. OriginalmsgOpen/keyWait/clearMsg/endunchanged.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-028",
+  "semantic_review": [
+    "Exactly500stablecatalogliterals:191normalshop+191heelshop+51timedNPC+65chatBBS+2SearchMan.100playerchoices,not500uniquesentences. Allmanualsource-conditionedneeds_review/NON-DISTRIBUTION/releasefalse;noROM/save/emulator/imagewrites.",
+    "7794EC67Japanese acquisition/debuggrant/allregistration/floor/BG/flagmessages inspectedbutheldentirelybecausemixeddevelopmentconsumers/reachabilitynotproven. Notusedtopad500,notremovedfromremainingdenominator.35BBS02ASCII placeholdersand144shopnonJapaneseheld.",
+    "All706498controlsread;full706C78diffonlymerchantportraitand7literalchanges. Sameexactsource/controls/Navi voicedtransactionsreusemanuallyauthoredKoreanphraseattheirindividualstableIDs. Noautomatictranslationrules,voiceguessingorcross-speakerrewrites.",
+    "Shop0/1RdescriptionandBstopshopping;4/5/11item/chip/programconfirmations;10normalthanksvheelapologeticsoldout. 2/18and30..220exityes/no,originaldisableBtrue;merchantconfirmsdisableBfalse,optionsdefault0/width8/trailingtwospacespreserved;choicesplayer-choiceevenwhileportraitshown.",
+    "Shopbuyoutcomes,itemcount개/chipcount장 separatedfromcurrency[z]/zheld. Confirmandpurchaseclosing」keptwithheldopening「;nouninsertedbeforequote meanssubject/objectparticleomittedinKoreanratherthanhardcodedincorrectparticle. Printbuffer1 andSearchMannickname63/64 punctuationpreserved.",
+    "21Navi branchesplusnoexplicitportraitsystemmessages:sourcecheckNaviIDs0..12,15..22 unchanged;noHeatManinvented. SourceBassfallback230..235beyondlocal@size230 retained;sourceconditionnotnewreachabilityproof. Guts거스/Aqua퓨/Numberpolite/Metalterseness/Junkhesitation/Icechildlikepolite retainedcandidates,notapprovedspeechrules.",
+    "79D650employment/companybankruptcyvsprogramnotworkingmeaning;securityjobincludesvirusbattle.30operator/spouse/child3-personfamilynotNavifamily;31Naviwalkingdoubtsnotassertionexerciseineffective;32kindergartenpickuprush;50eldervigorousbattle.",
+    "79D65060/61Yellowmale/Pinkreplyportraitsperliteral. AbsorbchipflirtandCheerchippermanentregularmetaphor retainednotactualinventorychanges.70/71Pinkromance/blameblackholemetaphor;80/90lunch. SourcecheckNetTime23:30..25:25unusualupperhours leftuntouched,noclockfixorrealworldscheduleclaim.",
+    "701ED8selfnamed0Inari/5Ayafromtextnotportrait;2Mikiloveconfessionand3Nabeyanreplyonlysourceassociationnotunprovenofficialidentity.3womensaleposterhearsaynotobjectivegenderpolicychange.4trader/excitement/Mettaur/bugfraghearsay with1preserved;noactualguaranteewinnings.",
+    "701ED8repeattournament7sameNaviwithpreviouswinstrongeropponents;8masterallNavisthenUndernet4sourceadvice,9rumorsecrettournamentconditionnotverifiedcodeimplementation.ムサC rendered무사CcandidatepreservingC.10strongerDarkloidthanShadeManunspecified;11/12motivesunknown/humanhostility/emotionspostervoicesnotobjectiveplotdisclosure.",
+    "SearchMan78B6F4darkpowerbeyondradarmeasurementnotidentifiedasparticularboss. Staticfont/control/token/hash/roundtripand132pxwarningscannotproveruntimeconsumerwidth,smallfontcounts,variablelayout,savestatepersist,humanwordingrevieworfullrelease. AllremainingheldJapaneseandoutside732archivescope unresolved."
+  ],
+  "units": [
+    {
+      "id": "78B6F4:0:0",
+      "source": "・・・ワタシのレーダーでは\nはかりきれない ヤミのチカラが\nうずまいています・・・",
+      "translation": "...제 레이더로는\n측정할 수 없는 어둠의 힘이\n소용돌이치고 있습니다...",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete255-slot sourceTPL/2Japanese drafted. ExplicitSearchMan portrait;radarcannotmeasure swirlingdarkpowerandwarning. Noenemyname,combattriggerorlocationinvented. OriginalmsgOpen/keyWait/clearMsg/endunchanged.",
+      "variable_context": "Original nickname/item/chip/NaviCust/buffer variables and commands preserved; quote-delimited item followed by particle-free purchase/confirmation wording. Count glyphs smallfont and actual variable lengths/layout unverified."
+    },
+    {
+      "id": "78B6F4:0:1",
+      "source": "ちゅういしてください!!",
+      "translation": "주의해 주십시오!!",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "origin_portrait": "SearchMan",
+      "portrait_visibility": "shown",
+      "context": "Complete255-slot sourceTPL/2Japanese drafted. ExplicitSearchMan portrait;radarcannotmeasure swirlingdarkpowerandwarning. Noenemyname,combattriggerorlocationinvented. OriginalmsgOpen/keyWait/clearMsg/endunchanged.",
+      "variable_context": "Original nickname/item/chip/NaviCust/buffer variables and commands preserved; quote-delimited item followed by particle-free purchase/confirmation wording. Count glyphs smallfont and actual variable lengths/layout unverified."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6C004C",
+  "source_archive_sha256": "6a2c9afa4c376d637ee48ac5f86dd1dd275cbc9c392dff8a61cfe44dacc1e1aa",
+  "consumer": "normal-dialogue",
+  "context": "NapalmMan seasonal/birthday dialogue; intro6BBAF8 names ナパームマン and establishes impatient destructive voice. Native intro root038458/seasonal+52 root03848C. Portrait92,110/3rows; global22,event buffer/loop unchanged; no nickname insertion. Normal unlock/date/gender/event routes unverified.",
+  "voice": "Tentative forceful colloquial voice; explosions, chocolate bazooka, target imagery and holiday enthusiasm retained. Human terminology/wording/voice review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/6BBAF8.tpl; analysis/full_scope_v1/source_tpl/6C004C.tpl; native roots038458/03848C",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All38 literals including2 unchanged quotes; IDs/source,numerals,newline counts/boundaries,21slots,commands preserved. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "Christmas8:1 feigns disdain but8:2 explicitly loves the festival; reversal retained.",
+    "NewYear firing boast, Setsubun beans/oni-out/fortune-in explosions, Valentine gender branch and chocolate bazooka remain source meaning, not new gameplay instructions.",
+    "July7/7 remains Japanese Tanabata date. NewYearEve108 counts Napalm shots replacing the bell; birthday celebrates by immediate net battle.",
+    "NapalmMan/네이팜탄 and onomatopoeia are provisional individual draft decisions; NumberMan4649 approval is not reused."
+  ],
+  "units": [
+    {
+      "id": "6C004C:1:0",
+      "source": "ドカーーーーン!",
+      "translation": "콰아아아앙!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:1:1",
+      "source": "あけましてぇ\nおめでとうだオラァ!",
+      "translation": "새해 복 많이\n받아라,으랴아!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:1:2",
+      "source": "今年も ぶっぱなして\nいくぜ!",
+      "translation": "올해도 마구 쏴\n갈겨 주겠어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:1:3",
+      "source": "よろしくたのむぜ!",
+      "translation": "잘 부탁한다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:2:0",
+      "source": "今日は せつぶんだ!!\nマメまきするぜ!!",
+      "translation": "오늘은 절분이다!!\n콩을 뿌리겠어!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:2:1",
+      "source": "オレの マメまきは、\nちょっと、カゲキだぜ!",
+      "translation": "내 콩 뿌리기는,\n좀 과격하다고!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:2:2",
+      "source": "オニはーそと!\nズガーン!!",
+      "translation": "도깨비는 밖으로!\n콰앙!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:2:3",
+      "source": "ふくはーうち!\nボガーン!!",
+      "translation": "복은 안으로!\n쾅쾅!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:2:4",
+      "source": "スッキリしたぜぇ!",
+      "translation": "속이 후련하군!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:3:0",
+      "source": "今日は、\nバレンタインだな!",
+      "translation": "오늘은,\n발렌타인데이군!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:3:1",
+      "source": "今日は オトコが\nねらいうち\nされる日だな!",
+      "translation": "오늘은 남자가\n집중 공략을\n당하는 날이군!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:3:2",
+      "source": "どうだ、ターゲットに\nなるキブンは?",
+      "translation": "어때,표적이\n되는 기분은?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:4:0",
+      "source": "今日は、\nバレンタインだな!",
+      "translation": "오늘은,\n발렌타인데이군!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:4:1",
+      "source": "おまえの\nチョコバズーカで",
+      "translation": "네\n초콜릿 바주카로",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:4:2",
+      "source": "ダレを ねらいうちに\nするんだ?",
+      "translation": "누구를 집중\n공략할 거냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:5:0",
+      "source": "今日は ひなまつりか\nオンナのまつり\nらしいが、",
+      "translation": "오늘은 히나마쓰리군\n여자들의 축제\n라지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:5:1",
+      "source": "どんなまつりも\nさわがなくちゃぁ\nソンってモンだぜ!!",
+      "translation": "어떤 축제든\n떠들썩하게 즐겨야\n손해 안 본다고!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:6:0",
+      "source": "今日は こどもの日だ!",
+      "translation": "오늘은 어린이날이다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:6:1",
+      "source": "あちこちに\nヨロイカブトが\nかざってあってよぉ、",
+      "translation": "여기저기에\n갑옷과 투구가\n장식돼 있어서,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:6:2",
+      "source": "なんか オトコゴコロを\nくすぐられる日だぜ!",
+      "translation": "왠지 남자의 마음을\n설레게 하는 날이야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:7:0",
+      "source": "今日は 7月7日、\nたなばた だぜ!",
+      "translation": "오늘은 7월7일,\n칠석이다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:7:1",
+      "source": "よぞらの あまのがわの\nホシボシを ぜんぶ\nうちおとしてやるぜ!",
+      "translation": "밤하늘 은하수의\n별들을 모조리\n쏴 떨어뜨리겠어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:8:0",
+      "source": "今日は、\nクリスマスイヴだ!",
+      "translation": "오늘은,\n크리스마스이브다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:8:1",
+      "source": "オレは こんな\nチャラチャラした\nまつりなんかな・・・",
+      "translation": "난 이렇게\n요란하게 꾸민\n축제 따윈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:8:2",
+      "source": "大すきだぜ!!",
+      "translation": "정말 좋아한다고!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:9:0",
+      "source": "今日は、\nクリスマスだ!!",
+      "translation": "오늘은,\n크리스마스다!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:9:1",
+      "source": "クリスマスって\nいっても、",
+      "translation": "크리스마스라고\n해도,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:9:2",
+      "source": "もう そろそろ\n正月キブンに\nなってるんじゃねぇか?",
+      "translation": "벌써 슬슬\n새해 기분이\n들고 있지 않냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:10:0",
+      "source": "今日は、大みそかだな!",
+      "translation": "오늘은 섣달그믐이군!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:10:1",
+      "source": "じょやのカネの かわりに\n108ぱつの\nナパームだんを",
+      "translation": "제야의 종 대신\n108발의\n네이팜탄을",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:10:2",
+      "source": "うちならしてやろうか?",
+      "translation": "쏴 울려 줄까?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:11:0",
+      "source": "今日は おまえの\nたんじょう日だったな!",
+      "translation": "오늘이 네\n생일이었지!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:11:1",
+      "source": "ようし、さっそく\nたんじょう日 きねん\nネットバトルだ!!",
+      "translation": "좋아,당장\n생일 기념\n넷 배틀이다!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:12:0",
+      "source": "今日は 学校の\nそうりつきねん日じゃあ\nなかったか?",
+      "translation": "오늘은 학교\n개교 기념일이\n아니었나?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "6C004C:19:0",
+      "source": "だぜ!",
+      "translation": "이라고!",
+      "state": "needs_review"
+    }
+  ]
+}

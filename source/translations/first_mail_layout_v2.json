@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "state": "needs_review",
+  "id": "6DD9AC:0:22",
+  "translation": "부디 주의하시며,\n쾌적한 넷 배틀러 생활을\n즐기시길 바랍니다",
+  "reason": "Preserve every word and its order, move 생활을 to row2; row3 must leave the native arrow at211,111 clear.",
+  "evidence": "poc/runtime/first-mail-v1-read/step_032.png",
+  "wording_changed": false
+}

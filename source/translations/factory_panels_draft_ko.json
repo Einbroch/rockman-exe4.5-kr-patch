@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7B76D4",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7B76D4.tpl",
+    "sha256": "3db5488632a59aa5a393ef03c61afb4eeb74296e66ddd0ed2865d665f0fca5a5"
+  },
+  "source_archive_sha256": "29a80c925c517046a1e275d7757dbfb12a56d5e1146672e50812f30e12f598db",
+  "consumer": "normal-dialogue-choice-and-shop",
+  "context": "All Japanese literals in source archive, complete local branches read;64 total across6 archives.",
+  "voice": "Polite programs/merchant, clipped trainee 임다/슴다, virus owner informal, cheering spectators separated; candidates not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source/global7=2/global6=1 alternate-shop checks, weekday3/Navi1, shops3/13, battles180/181 and time/flag1877 preserved. No pricing or player-gender assumptions.",
+  "semantic_review": [
+    "Trainee ッス and choice いやッス have clipped-polite Korean candidates even in the different virus-owner scene. Do not assign choice prose to NPC portrait.",
+    "上腕二頭筋 is rendered 위팔 두갈래근, not an invented stat or strength buff; boast and virus judges special-award remain speaker claims, not gameplay rewards.",
+    "Toy shop225 special stock is reached by global7=2 or global6=1 before weekday/Navi gates. The source does not name those globals or state an exact discount; retain uncertainty.",
+    "Radio tuner is a broken partner program; glitch onomatopoeia phonetic candidate remains review-needed. Charging period is rest/preparation, not an added energy-meter mechanic.",
+    "Factory iron-melting passion is figurative, metal-panel/source ship-car parts are retained. New panel/body-part terms, clipped voice and エブリー chant require human review.",
+    "Static checks do not prove battle, clock, purchases, special stock, radio sound, name redisplay, save or actual screens."
+  ],
+  "units": [
+    {
+      "id": "7B76D4:0:0",
+      "source": "ココハ テッパンヲ\nツクッテイル コウジョウノ\nデンノウセカイデス!",
+      "translation": "여기는 철판을\n만드는 공장의\n전뇌 세계입니다!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B76D4:0:1",
+      "source": "ダカラ ユカガ\nメタルパネル ナンデスヨ",
+      "translation": "그래서 바닥이\n메탈 패널인 거예요",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    }
+  ]
+}

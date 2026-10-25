@@ -1,0 +1,11 @@
+{
+  "base": "tools\\capture_hint_observe037_v1.py",
+  "base_sha256": "77333d50a4dcc523cf2dc6c67fe29779f81213a61477167c2b67414bf5339814",
+  "replacement": [
+    "037",
+    "038"
+  ],
+  "output": "tools\\capture_hint_observe038_v1.py",
+  "output_sha256": "a00b3431ecedcd229b696b54ec9b11cedea64a2ef69f32cbb67d1b1b538ee0aa",
+  "scope": "Read-only hint provider/caller trace; actual038 ROM and own038 state required. No aliases, memory writes or transferred037 proof."
+}

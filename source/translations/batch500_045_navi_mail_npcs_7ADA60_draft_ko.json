@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7ADA60",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7ADA60.tpl",
+    "sha256": "ad8a83fa2d3544dae11a7b8434970227b274c54cad3b4ab473f5d2c95f5ea210"
+  },
+  "source_archive_sha256": "133d4d62810b902028b3b65d952b8aeabcae33f812e5bd82d464ef50cef0d078",
+  "consumer": "batch500-contextual-navi-mail-npcs",
+  "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-045",
+  "semantic_review": [
+    "Exactly500 stable catalog literals across76archives:366Navi/mail/folder and134NPC/statue/gate/tournament. All500sources, native skeletons and adjacent unselected literals inspected; repeated native blocks read by exact equivalent templates. Not500 unique sentences.",
+    "Manually authored source-conditioned free prose, no rule-based prose generation/choice/shortening. Allneeds_review development-draft NON-DISTRIBUTION releasefalse. New terms/voices/wordplay need human review.",
+    "Quick speech has no explicit portrait unless local mugshotShow; self-intro is textual context not proof of actual runtime routing. IceMan21..26, AquaMan70..75, SciLabMan0..5 and distinct NPC portrait switches preserved;31SciLabMan inherited from0 jump chain,33unknown.",
+    "Star source win/loss white/black stars and gray-star draw joke retains explicit outcomes; sixth-magnitude dimness differs from Plant six-tenths bloom. Shadow nine voiced incantation syllables and samurai register, Knight battle chant, Napalm harsh speech, Ice awkward politeness are review candidates.",
+    "Four native choices,91labels including90mail labels and1folder label; labels not spoken. Folder70dynamiccount and constraints3/1/1/5/1 immutable; same-class duplicate limits distinct from total class count.",
+    "Dynamic nickname/Navi/tournament/schedule/chip/item/buffer particles and inline flow require actual consumer review. Source gate100and90 references standard190 checks, not fabricated collectible count changes. Law123 is in-game fiction, not real legal advice.",
+    "Source temporary6BC0C8:0:0 and79C240:1:0 retained unresolved inremaining denominator; SP temporary trader79C8D8 also deferred. No debug/glyph tables declared complete or silently excluded.",
+    "Mail labels need consumer width/layout review; existing mail bodies and folder equipment labels are preserved. Statuename/item7, no inferred narrator portrait. Source digitalgreenery, firewarning and recycledprogram-data rumor retain confidence level.",
+    "Codec/glyph/skeleton/protectedfields/132px heuristic passes do not constitute semantic/human/runtime approval. Allremainingdrafts first, then cumulative insertion/font/consumer readiness and ROM screen/saveQA; keyboard/persistence/graphics/release remainopen. No ROM/save/emulator writes."
+  ],
+  "units": [
+    {
+      "id": "7ADA60:0:0",
+      "source": "いかにも ワルそうなカオを\nしているな・・・",
+      "translation": "딱 봐도 나쁜 짓을 할 것 같은\n얼굴이군...",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADA60:0:1",
+      "source": "ナニか やっただろう!",
+      "translation": "뭔가 저질렀지!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADA60:0:2",
+      "source": "な、なんにも やってねえよ!",
+      "translation": "아, 아무 짓도 안 했어!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADA60:0:3",
+      "source": "オレは こんなナリは\nしてるけどな、",
+      "translation": "내가 이런 모습이긴\n하지만 말이야,",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADA60:0:4",
+      "source": "イマまで イチドたりとも\nおてんとさまに カオムけデキない\nコトはしてねえぜ!!",
+      "translation": "지금까지 단 한 번도\n하늘을 우러러 부끄러워할\n짓은 하지 않았다고!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADA60:1:0",
+      "source": "だから、オレはナニも\nしちゃいねえよ!!",
+      "translation": "그러니까, 난 아무 짓도\n안 했다니까!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADA60:1:1",
+      "source": "ダイタイ おマエ、\nセンシュウも オナじコト\nイっただろう!!",
+      "translation": "대체 너는,\n지난주에도 똑같은 말을\n했잖아!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADA60:1:2",
+      "source": "いいかげん オボえてくれよ!",
+      "translation": "이제 좀 기억해 달라고!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7ADA60:1:3",
+      "source": "アヤしいカオをしている\nおマエがワルいんだ!",
+      "translation": "수상한 얼굴을 하고 있는\n네가 잘못이지!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Green cleaning program/weekend then Mondaydump; PurpletrashInternet11/Yellowpoliceboxsafety; Official accusespurpleHeel who denies wrongdoing and pointsoutrepeatlastweek. IDs/source/TPL/payload, native commands/values/branches/variables/portraits, newline/padding immutable. Actual consumer geometry/reachability and semantic approval remain unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

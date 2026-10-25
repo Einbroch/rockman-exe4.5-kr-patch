@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "font_profile": "tools/specs/exe45_fixedcell_visibility_v1.json",
+  "font_profile_usage": "Only pinned font, cell and raster; NEVER temporary reassignments",
+  "f9_slot": {"offset": 2029308, "expected_hex": "d9690003", "handler_address": 50358745},
+  "copier_address": 50358428,
+  "protected_code": [
+    {"start": 2029348, "end": 2029456, "sha256": "82ee7ea9f52e2f24ca2ae68a75abaaefc79569482b0ca9f6120274261e0fba7d"},
+    {"start": 2029468, "end": 2029506, "sha256": "2cef7bbdccb020d6164e27597af2a7c40087a5b5f65a5de5782f387052280c4c"},
+    {"start": 272248, "end": 272298, "sha256": "57dedba2fb1475e8906c878f590a934f15a2a5393fa185af04d9e93d6bef1e2d"},
+    {"start": 272372, "end": 272708, "sha256": "f06d8434c88b0ff3773599cbf5e8c21165a6471edae6c36f5095b71e0699f892"},
+    {"start": 168292, "end": 168362, "sha256": "0f648abce3a92bc4a74dcb5a1af07550fea156023211fda0b24e96cde8e1a675"},
+    {"start": 967000, "end": 967004, "sha256": "ec6d14bbc6d782be7f74aa1a98008404ecc1d3324187a7989458b17708869e80"}
+  ]
+}

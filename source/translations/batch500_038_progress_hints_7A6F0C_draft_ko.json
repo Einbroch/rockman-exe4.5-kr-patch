@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A6F0C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A6F0C.tpl",
+    "sha256": "799203741aa0d7921b33950c44f0656879a64e7ec63e350c73546c537df64bba"
+  },
+  "source_archive_sha256": "65ca7191655df742ba08cbc9ed98f59c979d1ef08ede8c372105c2f53910b1ff",
+  "consumer": "batch500-contextual-navi-progression-hints",
+  "context": "HeelNaviBlack: ninja self-reference and training resolve,own operator also does not rest on weekend.15:30..19:45 range branch unchanged.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-038",
+  "semantic_review": [
+    "Exactly500stable catalog Japanese literals:494progression hints across18complete nativeNavi archives plus6weekend ninjaNPC literals in complete7A6F0C. No padding or unresolved label selection.",
+    "Read source literals and full native control context via base786D38/7870A8 and exact per-script control differences across all18archives;7A6F0C fullTPL. Named local portraits establish speakers. Repeated prose manually authored per stableID,not rule-based source replacement.",
+    "Keep needs_review development-draft NON-DISTRIBUTION releasefalse;all IDs/source/hash/commands/token order/numbers/newlines/padding immutable. ROM/save/emulator/graphics/keyboard unchanged.",
+    "Native apprentice chip104 remains dynamic with source quote-prefix preserved,closing-quote/newline destination clause avoids fixed object particle. Nickname-prefixed commas and original first blank lines avoid unverified받침-dependentvocatives.",
+    "Source Internet3/5/7/9/10/12 incident clues and Internet9 key destination,otherNavi1 when explicit,caseclosed rest versus unreadmail,weekend/day-of-week entry reminders and coffin clue retained.",
+    "Preserve distinct voices as candidates:Roll page split,Guts chant/gas,Junk stutters,Number reluctance,Aqua fear/pyu,Metal fist,Fire heat,Ice cold heat,Knight archaic respect,Shadow secret arts. Human wording and voice review still required;no previous assets auto harmonized.",
+    "7A6F0C ninjaNPC distinct from ShadowMan,weekend statement and operator no-rest,15:30..19:45 alternate insufficient-training branch and NinNin chant intact.",
+    "Static source/glyph/codec/skeleton checks and132px flags do not establish semanticapproval,actual consumercapacity or runtime/screens. Complete drafting then cumulative font/layout/insertion review,ROMintegration andscreen/saveQA."
+  ],
+  "units": [
+    {
+      "id": "7A6F0C:0:0",
+      "source": "キョウはシュウマツでござる",
+      "translation": "오늘은 주말이오",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack: ninja self-reference and training resolve,own operator also does not rest on weekend.15:30..19:45 range branch unchanged.",
+      "variable_context": "Native playerNickname and chip104 insertions,priority of licence/case/key/tournament/mail flags,weekday/subarea branches preserved. No fixed chip particle or nickname vocative;runtime capacity/routing unverified."
+    },
+    {
+      "id": "7A6F0C:0:1",
+      "source": "されど、セッシャも\nセッシャのオペレーターも\nヤスみはしないでござる!!",
+      "translation": "하지만 소인도\n소인의 오퍼레이터도\n쉬지 않소!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack: ninja self-reference and training resolve,own operator also does not rest on weekend.15:30..19:45 range branch unchanged.",
+      "variable_context": "Native playerNickname and chip104 insertions,priority of licence/case/key/tournament/mail flags,weekday/subarea branches preserved. No fixed chip particle or nickname vocative;runtime capacity/routing unverified."
+    },
+    {
+      "id": "7A6F0C:0:2",
+      "source": "ひたすら シュギョウあるのみ!\nニンジャはヤスみなしでござる!",
+      "translation": "오직 수련할 뿐!\n닌자에게 휴일은 없소!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack: ninja self-reference and training resolve,own operator also does not rest on weekend.15:30..19:45 range branch unchanged.",
+      "variable_context": "Native playerNickname and chip104 insertions,priority of licence/case/key/tournament/mail flags,weekday/subarea branches preserved. No fixed chip particle or nickname vocative;runtime capacity/routing unverified."
+    },
+    {
+      "id": "7A6F0C:1:0",
+      "source": "セッシャ、まだまだ\nシュギョウが\nタりんでござる",
+      "translation": "소인은 아직\n수련이\n부족하오",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack: ninja self-reference and training resolve,own operator also does not rest on weekend.15:30..19:45 range branch unchanged.",
+      "variable_context": "Native playerNickname and chip104 insertions,priority of licence/case/key/tournament/mail flags,weekday/subarea branches preserved. No fixed chip particle or nickname vocative;runtime capacity/routing unverified."
+    },
+    {
+      "id": "7A6F0C:1:1",
+      "source": "もっともっとツヨくなって、\nサイキョウのニンジャナビを\nメザすでござるよ!!",
+      "translation": "더욱더 강해져,\n최강의 닌자 내비를\n노리겠소!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack: ninja self-reference and training resolve,own operator also does not rest on weekend.15:30..19:45 range branch unchanged.",
+      "variable_context": "Native playerNickname and chip104 insertions,priority of licence/case/key/tournament/mail flags,weekday/subarea branches preserved. No fixed chip particle or nickname vocative;runtime capacity/routing unverified."
+    },
+    {
+      "id": "7A6F0C:1:2",
+      "source": "ニンニン!!",
+      "translation": "닌닌!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack: ninja self-reference and training resolve,own operator also does not rest on weekend.15:30..19:45 range branch unchanged.",
+      "variable_context": "Native playerNickname and chip104 insertions,priority of licence/case/key/tournament/mail flags,weekday/subarea branches preserved. No fixed chip particle or nickname vocative;runtime capacity/routing unverified."
+    }
+  ]
+}

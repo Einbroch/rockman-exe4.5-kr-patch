@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "68E0B4",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/68E0B4.tpl",
+    "sha256": "0444b1a3b4e80792f9eb414d727c0d861e33d7f06343a981610035edc1f04215"
+  },
+  "source_archive_sha256": "f6ad94edad9c144c8b203fa6021cdd86f6da41e55b1bd4cf2f685791a0abc1ae",
+  "consumer": "batch500-contextual-profile-mail-reminder-tournament",
+  "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+  "voice": "Source-conditioned manual draft; explicit portraits only, not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-010",
+  "semantic_review": [
+    "Batch500-010 exactly500 stable literals: profile410/mail42/reminder38/tournament10;72 choices/428 prose, not500 unique sentences.",
+    "All profile literals/canonical688A10 complete skeleton/variant skeleton differences inspected; all6 small TPLs read. Manually authored per stable ID; no rule-based source-string prose replacement.",
+    "Only reminders687E88/6937C4 scripts21..26 have explicit NumberMan/JunkMan mugshots. All other voices unshown; arithmetic/fist/junk motifs, archive proximity and old NumberMan screenshot do not prove identity.",
+    "Profile17 global22 value1→19 female/male attraction and32 global23 school1..5/company6..9/otherwise kindergarten maintained; no inferred exact ages or player orientation.",
+    "All12 selections per profile preserve padding/defaults/BSeparate/clear/targets/3605,3606 and buffer1/2/3/count5 checks. Non-Japanese punctuation17:3/19:3 at688A10 and!! remain original.",
+    "Gender-neutral 형이나 오빠/누나나 언니 candidates avoid guessed player sex. Pythagoras피타고라스/arithmetic sums vs products,拳fist/training/hot spring,bug fragments as favorite food/junk collection/idol dream and affection remain source-specific, unapproved wording.",
+    "Bug-fragment hunger is not a granted item; shared-family and affection language kept without deciding romantic meaning. 니가테 discomfort differs from explicit嫌い hatred. No high-impact interpretation promoted.",
+    "Three mailadd groups8968..8974/8976..8982/8984..8990 and tournamentReceive680/681 unchanged. RemindersTV/promise/meal/school/other/additional loop3658 and nickname differences preserved.",
+    "Tournament effort despite defeat versus victory and no registration retained;693FEC20..23 clears3603. No ROM/save/emulator/image writes, human approval or release eligibility."
+  ],
+  "units": [
+    {
+      "id": "68E0B4:1:1",
+      "source": "、\nメールだ・・・",
+      "translation": ",\n메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:2:1",
+      "source": "、\nメールだ・・・",
+      "translation": ",\n메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:3:1",
+      "source": "、\nメールだ・・・",
+      "translation": ",\n메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:4:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:5:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:6:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:7:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:20:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:21:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:22:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:23:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:24:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:25:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "68E0B4:26:1",
+      "source": "メールだ・・・",
+      "translation": "메일이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3 and add8976..8982, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    }
+  ]
+}

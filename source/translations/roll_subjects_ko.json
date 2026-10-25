@@ -1,0 +1,267 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "661858",
+  "source_archive_sha256": "2e11a21803e3b5eef47aae6e1e9d2868d822194664b17fcff9771f22c3fcf614",
+  "scope_variant": "all-siblings-food-subjects",
+  "consumer": "normal-dialogue",
+  "context": "Roll native post-internet siblings1..8, favorite food11, strong subject27 and weak subject29. Preserve dynamic nickname, source pages/flags, and stop before input initialization.",
+  "voice": "Friendly informal Roll development draft; human wording approval pending.",
+  "evidence": "analysis/tpl_baseline/661858.tpl; analysis/roll_subjects_survey_v1/native_scenes.json; analysis/ROLL_FOOD_ROM_HANDOFF.md",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All97 slots and source commands/arguments preserved. Selected1..8,11,27,29; remaining86 scripts byte-identical. Source leading newline29:1 retained. Dynamic nickname suffixes preserve or reduce native advances, no fixed Korean particles. DefaultYes choices and name-input flags remain native.",
+  "decision_evidence": "Five school-subject literals manually authored after normal-play baseline survey. Previous36 units source/translation/state exact. Cyber-world wording is a development draft, not human-approved terminology. No automated prose transformation; human wording/visual review pending.",
+  "units": [
+    {
+      "id": "661858:1:0",
+      "source": "インターネット、\nたのしかったね!!",
+      "translation": "인터넷、\n재밌었지!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:1:1",
+      "source": "この たのしさを\n1人じめするのは\nよくないよね",
+      "translation": "이 즐거움을\n혼자만 독차지하면\n안 되잖아",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:1:2",
+      "source": "ダレかに おしえて\nあげなくっちゃ!",
+      "translation": "누군가에게\n알려 줘야겠어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:1:3",
+      "source": "は、\nおにいちゃん いるの?",
+      "translation": "、\n형이나 오빠 있어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:1:4",
+      "source": "いるよ  ",
+      "translation": "있어  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:1:5",
+      "source": "いないよ",
+      "translation": "없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:1:6",
+      "source": "ねぇねぇ、なんてなまえ?",
+      "translation": "있지, 이름이 뭐야?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:2:0",
+      "source": "へぇ、そうなんだ・・・",
+      "translation": "아, 그렇구나・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:3:0",
+      "source": "インターネット、\nたのしかったね!!",
+      "translation": "인터넷、\n재밌었지!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:3:1",
+      "source": "この たのしさを\n1人じめするのは\nよくないよね",
+      "translation": "이 즐거움을\n혼자만 독차지하면\n안 되잖아",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:3:2",
+      "source": "ダレかに おしえて\nあげなくっちゃ!",
+      "translation": "누군가에게\n알려 줘야겠어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:3:3",
+      "source": "は、\nおとうといるの?",
+      "translation": "、\n남동생 있어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:3:4",
+      "source": "いるよ  ",
+      "translation": "있어  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:3:5",
+      "source": "いないよ",
+      "translation": "없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:3:6",
+      "source": "ねぇねぇ、なんてなまえ?",
+      "translation": "있지, 이름이 뭐야?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:4:0",
+      "source": "へぇ、そうなんだ・・・",
+      "translation": "아, 그렇구나・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:5:0",
+      "source": "インターネット、\nたのしかったね!!",
+      "translation": "인터넷、\n재밌었지!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:5:1",
+      "source": "この たのしさを\n1人じめするのは\nよくないよね",
+      "translation": "이 즐거움을\n혼자만 독차지하면\n안 되잖아",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:5:2",
+      "source": "ダレかに おしえて\nあげなくっちゃ!",
+      "translation": "누군가에게\n알려 줘야겠어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:5:3",
+      "source": "は、\nおねえちゃん いる?",
+      "translation": "、\n누나나 언니 있어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:5:4",
+      "source": "いるよ  ",
+      "translation": "있어  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:5:5",
+      "source": "いないよ",
+      "translation": "없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:5:6",
+      "source": "ねぇねぇ、なんてなまえ?",
+      "translation": "있지, 이름이 뭐야?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:6:0",
+      "source": "へぇ、そうなんだ・・・",
+      "translation": "아, 그렇구나・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:7:0",
+      "source": "インターネット、\nたのしかったね!!",
+      "translation": "인터넷、\n재밌었지!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:7:1",
+      "source": "この たのしさを\n1人じめするのは\nよくないよね",
+      "translation": "이 즐거움을\n혼자만 독차지하면\n안 되잖아",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:7:2",
+      "source": "ダレかに おしえて\nあげなくっちゃ!",
+      "translation": "누군가에게\n알려 줘야겠어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:7:3",
+      "source": "は、\nいもうと いるの?",
+      "translation": "、\n여동생 있어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:7:4",
+      "source": "いるよ  ",
+      "translation": "있어  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:7:5",
+      "source": "いないよ",
+      "translation": "없어",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:7:6",
+      "source": "ねぇねぇ、なんてなまえ?",
+      "translation": "있지, 이름이 뭐야?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:8:0",
+      "source": "へぇ、そうなんだ・・・",
+      "translation": "아, 그렇구나・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:11:0",
+      "source": "インターネットで\nはしりまわると、\nおなかすいちゃうね!",
+      "translation": "인터넷에서\n뛰어다니면、\n배가 고파지네!",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:11:1",
+      "source": "おなかが へるといえば、\n",
+      "translation": "배고프다 하니까、\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:11:2",
+      "source": "は",
+      "translation": "、",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:11:3",
+      "source": "どんな たべものが\nすきなの?",
+      "translation": "어떤 음식을\n좋아해?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:27:0",
+      "source": "電脳世界って、\n日ごろの ちしきが\nいがいと やくだつのよね",
+      "translation": "전뇌 세계에선、\n평소에 쌓은 지식이\n뜻밖에 도움이 돼",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:27:1",
+      "source": "の\nとくいかもくは なに?",
+      "translation": "、\n잘하는 과목은 뭐야?",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:29:0",
+      "source": "電脳世界って、\n日ごろの ちしきが\nいがいと やくだつのよね",
+      "translation": "전뇌 세계에선、\n평소에 쌓은 지식이\n뜻밖에 도움이 돼",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:29:1",
+      "source": "\nには、\nないかもしれないけど、",
+      "translation": "\n어쩌면、\n없을 수도 있지만、",
+      "state": "needs_review"
+    },
+    {
+      "id": "661858:29:2",
+      "source": "の\nニガテかもくって なに?",
+      "translation": "、\n어려운 과목은 뭐야?",
+      "state": "needs_review"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "78B50C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/78B50C.tpl",
+    "sha256": "8c5c36f95421d703e3c8a7e336c527e7f773eac773b2152d301d3a6c25897066"
+  },
+  "source_archive_sha256": "ad2d1c520f29ffe05cd8af0a397bf772698f62de5ecf8bfacee99377f4c92e82",
+  "consumer": "batch500-contextual-enemy-names-star-profile",
+  "context": "ActualTPL and skeleton read;explicit MegaMan portrait warns of intense dark power swirling,advancecautiously. No conditional control or targetidentity specified in thisarchive;do not assign exact encounter based on storage adjacency.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-019",
+  "semantic_review": [
+    "Exactly500 stable literals:255enemy/Navi names,244star-themed profile followups,1MegaMan dark-power warning.0playerchoices. NoROMwrite.",
+    "All source literals read and fullcontrols:767256endonlyslots;6A6C641..36/37..64/65..92;78B50C actualTPL/skeleton.127space preserved,not silentlyexcludedfromother-reviewdenominator.",
+    "Names individually authored perID,not rulebasedsuffixgeneration or automaticreuse. Virus1..126 transliterations remain candidates;existing Navi label candidates checked against previous017 andsecondarychip/mail/credits examples. Noofficialterminologyapprovalclaim.",
+    "Distinctvirusfamilies/ranks:Mettaur1/2/3EX,elementalvirus2..5,windbox/vacuum alternating121..126. DuplicateNormalNavi/HeelNavi/BassSP slots retained. Rockman0 vsRoll128;Bossnames not portrayed dialogue.",
+    "6A6C64 no explicit mugshot;star motifs/first-personboyish source justify draft tone but not speakeridentity proof. Hypothetical21wish choice has nooptioncommands.9fictionalfriendconstellation explicitlyjoke,31enemy-mailjoke,87chipdisappearancejoke preserved.",
+    "Forecast11win/star assertion/35TVfortunevalidation/49repeatedwisheslosebenefit are character speech,not verifiedmechanics.91chipburdensplanet includesmaybe qualifier.18earthrotation/51Polaris/77Saturnrings and13starfruit comparisons not externalfactclaims.",
+    "Variables originalorder/nickname/food/hobby/dream/crush/subject/wish/opponents/standard1..3/mega/giga maintained. Polysyllabicparticle-safe connectors selected individually;21:2 leadingblank retained;26:0/27:2/43:0/59:1 initialnewlines and21/23/25/34/50/51/73/74/85 boundaries preserved.",
+    "6A6C6461mostlossopponentchip advice versus69mostdefeatedopponentchip.57equipment-lucky-item distinct59opponentweaponcomparison.38idol knowledge/41..43schoolsubjectskill not battlebuff.",
+    "78B50C explicitMegaMan only,not association with prior NumberMan screenshot,adjacent archive,or an assumed boss.",
+    "Needs_review/NON-DISTRIBUTION. Humanreview/terms/voice/layout/actualconsumer/runtime/ROMintegration/keyboard/save/graphics/productclosure remain open;noROM/save/emulator/imagewrites."
+  ],
+  "units": [
+    {
+      "id": "78B50C:0:0",
+      "source": "すさまじいヤミのパワーが\nうずまいてるよ・・・\nちゅういしてすすもうね・・・",
+      "translation": "엄청난 어둠의 힘이\n소용돌이치고 있어...\n조심해서 나아가자...",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "context": "ActualTPL and skeleton read;explicit MegaMan portrait warns of intense dark power swirling,advancecautiously. No conditional control or targetidentity specified in thisarchive;do not assign exact encounter based on storage adjacency.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Names retain EX/V2/V3/SP/XX suffixes. Actual consumers/layout/variable lengths unverified."
+    }
+  ]
+}

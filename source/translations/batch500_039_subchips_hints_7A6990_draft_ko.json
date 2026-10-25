@@ -1,0 +1,107 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A6990",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A6990.tpl",
+    "sha256": "ca13c7c5c41fa567ff2ad00b6b438a744f4edd219ff38209806c9a8a00ddb9ae"
+  },
+  "source_archive_sha256": "6f504564d41e34677e34fab0e6cbe430488718f05021578bc63c0a8e6c2675f7",
+  "consumer": "batch500-contextual-subchip-progress-internet4",
+  "context": "OfficialNavi peace-and-boredom NPC,complete scripts0/1. Mock wish for one or two cases immediately retracted with peacebest;no actual incident or crime request.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-039",
+  "semantic_review": [
+    "Exactly500Japanese stable catalog literals in26complete archives:336subchip descriptions/use prompts/results,81remaining3Navi progression hints,6OfficialNPC and77Internet4NPC/battlers/merchant. Nativechoices52,subchipdescriptionlabels126,unresolved excludes0;no placeholder padding.",
+    "Allselected source literals manually read in local contexts;full6F9B4C/78AAF0 plus exact per-script control differences for20subchip and2progressionarchives,full7A6990/7A7000. Source identity/rawTPL/payload and commands not recreated from translator output.",
+    "needs_review development-draft NON-DISTRIBUTION releasefalse;originalROM/currentbaselineROM,save,emulator,graphics,keyboard unchanged. Source-controlled numbers/control/newline/padding/quote boundaries immutable.",
+    "Subchip0..5 function descriptions do not speak in Navi voice:HP50/fullHP,temporaryweakvirus avoidance,trapremoval,lastencounterincreasedprobability,securityanalysis. Quickrecovery8/9 names explicit;no localportrait in8/9/10,not assigned specific current speakingNavi.",
+    "Item0buffer1/name and chip104 dynamic prefixes preserved;closing-quote/newline clauses avoid fixedobjectparticles. Names after currentNavi in purchase usecolon,notfixed은/는;nicknamecomma no fixedvocative. Script7 trailingnewline and paddedchoices preserved.",
+    "Character voices draft candidates,sourceJunkMan subchips do not stutter so no extrapolated stutter. ElecMAXpower/Plantbestflower/Basscontempt and no nickname inBass33 preserved independently;prior translation variants not automatically harmonized.",
+    "Internet4 slope to5,item5 keybetween2/3,500Zenny deduction versus insufficientmoney and1itemgift,owneditemexit,Fire/Star sameNavi5/15 responses,threepeoplefolklore andoneFireperson preserved. Battle startglobals/flags unchanged;not directly execute battles/trades.",
+    "OfficialDarkloid evidence remains rumours and possible resurrection;cleared/licencepriority kept. PeaceNPC mock casewish immediately denies it,no invented mission. Cultural/exclamation/voice/name terminology pending human review.",
+    "Passing glyph/codec/control/skeleton and132px heuristic is not semantic approval or actualconsumer/runtime proof. Complete drafting then font/layout/insertion validation,cumulativeROM integration/screens/save/keyboard/images/release remain pending."
+  ],
+  "units": [
+    {
+      "id": "7A6990:0:0",
+      "source": "ウム、キョウも\nイジョウナッシン!",
+      "translation": "음, 오늘도\n이상 없음!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi peace-and-boredom NPC,complete scripts0/1. Mock wish for one or two cases immediately retracted with peacebest;no actual incident or crime request.",
+      "variable_context": "Native item0buffer1/currentNavi/item5/chip104/nickname insertions and subchip choices,licence/case/weekday branches,battleglobals and merchant500Zenny protected. Capacity/routing/runtime unverified."
+    },
+    {
+      "id": "7A6990:0:1",
+      "source": "あまりに ヘイワスぎて、\nたまには ジケンのヒトつや\nフタつ・・・",
+      "translation": "너무 평화로워서,\n가끔은 사건 한두 개쯤\n일어났으면...",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi peace-and-boredom NPC,complete scripts0/1. Mock wish for one or two cases immediately retracted with peacebest;no actual incident or crime request.",
+      "variable_context": "Native item0buffer1/currentNavi/item5/chip104/nickname insertions and subchip choices,licence/case/weekday branches,battleglobals and merchant500Zenny protected. Capacity/routing/runtime unverified."
+    },
+    {
+      "id": "7A6990:0:2",
+      "source": "って、そんなワケないでしょ!",
+      "translation": "아니, 그럴 리가 있겠어!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi peace-and-boredom NPC,complete scripts0/1. Mock wish for one or two cases immediately retracted with peacebest;no actual incident or crime request.",
+      "variable_context": "Native item0buffer1/currentNavi/item5/chip104/nickname insertions and subchip choices,licence/case/weekday branches,battleglobals and merchant500Zenny protected. Capacity/routing/runtime unverified."
+    },
+    {
+      "id": "7A6990:0:3",
+      "source": "ヘイワが イチバン!!",
+      "translation": "평화가 최고!!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi peace-and-boredom NPC,complete scripts0/1. Mock wish for one or two cases immediately retracted with peacebest;no actual incident or crime request.",
+      "variable_context": "Native item0buffer1/currentNavi/item5/chip104/nickname insertions and subchip choices,licence/case/weekday branches,battleglobals and merchant500Zenny protected. Capacity/routing/runtime unverified."
+    },
+    {
+      "id": "7A6990:1:0",
+      "source": "ファ~ア!",
+      "translation": "하~암!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi peace-and-boredom NPC,complete scripts0/1. Mock wish for one or two cases immediately retracted with peacebest;no actual incident or crime request.",
+      "variable_context": "Native item0buffer1/currentNavi/item5/chip104/nickname insertions and subchip choices,licence/case/weekday branches,battleglobals and merchant500Zenny protected. Capacity/routing/runtime unverified."
+    },
+    {
+      "id": "7A6990:1:1",
+      "source": "ったく、タイクツなエリアに\nハイゾクされちゃったよなぁ",
+      "translation": "정말, 지루한 에리어에\n배치되고 말았네",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi peace-and-boredom NPC,complete scripts0/1. Mock wish for one or two cases immediately retracted with peacebest;no actual incident or crime request.",
+      "variable_context": "Native item0buffer1/currentNavi/item5/chip104/nickname insertions and subchip choices,licence/case/weekday branches,battleglobals and merchant500Zenny protected. Capacity/routing/runtime unverified."
+    }
+  ]
+}

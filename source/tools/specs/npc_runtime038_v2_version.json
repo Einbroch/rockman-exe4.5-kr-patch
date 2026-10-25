@@ -1,0 +1,56 @@
+{
+  "changes": [
+    {
+      "base": "tools\\capture_native_load038_v1.py",
+      "base_sha256": "c9324762a9592d37bc7f3c63b3805eb7388c2781587a6e7dde73fa8b3c544314",
+      "changes": [
+        [
+          "field_native_rom_selector_038_v2",
+          "field_native_rom_selector_038_v1"
+        ]
+      ],
+      "replacement_counts": [
+        1
+      ],
+      "output": "tools\\capture_native_load038_v2.py",
+      "output_sha256": "f789f40ca685b19cb9f597023fa33442aaf106a6d6783cf225a97104c06e7990"
+    },
+    {
+      "base": "tools\\run_npc_runtime038_v1.py",
+      "base_sha256": "cd1c6c731a028255e06bb38569d939a6e40f19e83580bfc4f2777059d8a50256",
+      "changes": [
+        [
+          "capture_native_load038_v1.py",
+          "capture_native_load038_v2.py"
+        ]
+      ],
+      "replacement_counts": [
+        1
+      ],
+      "output": "tools\\run_npc_runtime038_v2.py",
+      "output_sha256": "347663930d3d97042980036425c6e4b9975c06f8b11ca070c2f1b71025a9a3ef"
+    },
+    {
+      "base": "tools\\verify_qualified038_v1.py",
+      "base_sha256": "6fc266094ca19bf0f79b262f8d9329526d560fa9d61089b810f09962e640fa66",
+      "changes": [
+        [
+          "tools/capture_native_load038_v1.py",
+          "tools/capture_native_load038_v2.py"
+        ],
+        [
+          "tools/verify_qualified038_v1.py",
+          "tools/verify_qualified038_v2.py"
+        ]
+      ],
+      "replacement_counts": [
+        1,
+        1
+      ],
+      "output": "tools\\verify_qualified038_v2.py",
+      "output_sha256": "79a974e10d120bc071faf25bf90b630bd5d8f7f3bd4b268d2d651b532bb3f4f7"
+    }
+  ],
+  "cause": "037 base import v2 was mechanically renamed038_v2 although adopted038 selector is v1. Found by direct import inspection before emulator execution; no failed ROM or runtime claim.",
+  "scope": "Diagnostic import correction only. Original/adopted product, ROM, selector and wording unchanged. Preserve v1 tools."
+}

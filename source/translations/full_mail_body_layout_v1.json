@@ -1,0 +1,11 @@
+{
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "decision": "Individual newline-only layout proposals; words and punctuation unchanged; human presentation review pending.",
+  "layouts": {
+    "6DD9AC:11:0": "메일 뉴스4호\n「오퍼레이터의\n정체 공개!」",
+    "6DD9AC:12:0": "메일 뉴스5호\n「무차별 칼부림\n사건 발생」",
+    "6DD9AC:12:8": "다크로이드가 일으키는\n내비 폭주 사건이 끊이지\n않고 있습니다!",
+    "6DD9AC:14:4": "이번에, 귀하께서는,\n오피셜 토너먼트의 예선에\n도전하기에 충분한"
+  }
+}

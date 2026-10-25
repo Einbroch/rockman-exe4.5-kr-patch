@@ -1,0 +1,1190 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6A3DD0",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6A3DD0.tpl",
+    "sha256": "adfb18edaca8c8b738d8a074d72ae4315c0290b618119a0e49dabb27173a69c2"
+  },
+  "source_archive_sha256": "8b12ebfda12b03024cc28ac92786395669004900da11dff807f948efa37f1164",
+  "consumer": "navi-home-quick-dialogue",
+  "context": "All129 unselected Japanese literals in65-slot StarMan fortune/result archive. Original random weights and lucky-item native destinations unchanged. No game or reward execution.",
+  "voice": "Playful friendly StarMan candidate register consistent with existing starman_seasonal_ko.json. Explicitly authored per entry, no automatic prose transformations.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve source IDs, numeric groups, timed literal boundaries, random branches, variable order, minigame/reward/flag commands, newline counts and trailing rows. Source ROM and baseline ROM untouched.",
+  "semantic_review": [
+    "우메보시18 is a conservative transliteration of umeboshi pickled plum, retaining the Japanese boshi/star joke as a review candidate rather than silently replacing it with a different food or star. Cultural wording/adaptation decision remains open.",
+    "팅클 팅클/샤이닝 스타/슈팅 스타/스타더스트 are source-backed candidates; rank1..6 literal numbers retained. 1일 preserves source numeric1, wording/layout review pending.",
+    "Fortunes express predictions, not guarantees; program branch weights and lucky-item destinations are not translated into new gameplay rules.",
+    "Timed Japanese middle-dot literals explicitly drafted as ASCII dots at same boundaries; their waitSkip commands are unchanged. Numeric reward placement and real home/minigame display remain unverified."
+  ],
+  "units": [
+    {
+      "id": "6A3DD0:0:0",
+      "source": "ティンクル ティンクル!",
+      "translation": "팅클 팅클!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:1",
+      "source": "ボクの ホシうらないで\nキミの うんせいを\nうらなってあげる!!",
+      "translation": "내 별점으로\n너의 운세를\n봐 줄게!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:2",
+      "source": "ティンクル ティンクル\nシューティングスター!",
+      "translation": "팅클 팅클\n슈팅 스타!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:3",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:4",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:5",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:6",
+      "source": "キラーン!",
+      "translation": "반짝!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:7",
+      "source": "でたよ!!",
+      "translation": "나왔어!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:8",
+      "source": "今日の キミのうんせいは\n・",
+      "translation": "오늘 너의 운세는\n.",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:9",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:0:10",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:0",
+      "source": "ティンクル ティンクル!",
+      "translation": "팅클 팅클!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:1",
+      "source": "スターマンのホシうらない\n今日は どんな日に\nなるのかな?",
+      "translation": "스타맨의 별점\n오늘은 어떤 날이\n될까?",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:2",
+      "source": "ティンクル ティンクル\nシューティングスター!",
+      "translation": "팅클 팅클\n슈팅 스타!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:3",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:4",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:5",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:6",
+      "source": "キラーン!",
+      "translation": "반짝!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:7",
+      "source": "でたよ!!",
+      "translation": "나왔어!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:8",
+      "source": "今日の キミのうんせいは\n・",
+      "translation": "오늘 너의 운세는\n.",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:9",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:1:10",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:3:0",
+      "source": "シャイニングスター!!",
+      "translation": "샤이닝 스타!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:3:1",
+      "source": "キラリーン、大ラッキー!\nくらやみの 大うちゅうを\nてらしだす 光のホシだよ",
+      "translation": "반짝, 엄청난 행운!\n어두운 우주를\n밝히는 빛의 별이야",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:3:2",
+      "source": "キラキラキラキラ!\nきんうん じょうしょうの\nよかん大!!",
+      "translation": "반짝반짝반짝반짝!\n재물운이 오를\n예감이 팍팍!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:3:3",
+      "source": "ウイルスバスティングに\nゼニーの かおり・・・",
+      "translation": "바이러스 버스팅에서\n제니의 향기가...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:3:4",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:4:0",
+      "source": "あかい すいせい!!",
+      "translation": "붉은 혜성!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:4:1",
+      "source": "ゴウゴウと もえさかる\n炎のホシだね・・・",
+      "translation": "활활 타오르는\n불꽃의 별이네...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:4:2",
+      "source": "火に まつわるものに\n気をつけて!",
+      "translation": "불과 관련된 것을\n조심해!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:4:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:5:0",
+      "source": "4とうせい!!",
+      "translation": "4등성!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:5:1",
+      "source": "うっすら 光るホシだよ",
+      "translation": "희미하게 빛나는 별이야",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:5:2",
+      "source": "今日は あんまり\nかがやけないね・・・",
+      "translation": "오늘은 그다지\n빛나지 못하겠네...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:5:3",
+      "source": "だけど、じぶんらしさに\nみがきをかければ、",
+      "translation": "하지만, 너다운 모습을\n갈고닦으면,",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:5:4",
+      "source": "つよい光を はなつことが\nできるかのうせいアリ!\nじしんを もってね!",
+      "translation": "강한 빛을 낼\n가능성이 있어!\n자신감을 가져!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:5:5",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:6:0",
+      "source": "えいせい!!",
+      "translation": "위성!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:6:1",
+      "source": "大きな わくせいの\nまわりを とぶ\nちいさなホシだよ!",
+      "translation": "커다란 행성의\n주위를 도는\n작은 별이야!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:6:2",
+      "source": "人気モノの ちかくに\nいると、イイコトあるかも",
+      "translation": "인기 있는 사람 곁에\n있으면 좋은 일이 생길지도",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:6:3",
+      "source": "いやがられない ていどに\nちかづいてみよう!",
+      "translation": "싫어하지 않을 정도로\n가까이 가 보자!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:6:4",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:7:0",
+      "source": "シューティングスター!!",
+      "translation": "슈팅 스타!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:7:1",
+      "source": "おねがいごとなら\nなんでもござれ!!",
+      "translation": "어떤 소원이든\n맡겨 줘!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:7:2",
+      "source": "チップショップで\nいいコトありますように!",
+      "translation": "칩 숍에서\n좋은 일이 생기기를!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:7:3",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:7:4",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:7:5",
+      "source": "・",
+      "translation": ".",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:7:6",
+      "source": "なんて おねがい\nしてみたり!",
+      "translation": "이렇게 소원을\n빌어 보기도 하고!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:7:7",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:8:0",
+      "source": "1とうせい!!",
+      "translation": "1등성!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:8:1",
+      "source": "ピカピカ光る\nまぶしいホシ!!",
+      "translation": "번쩍번쩍 빛나는\n눈부신 별!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:8:2",
+      "source": "今日は なんだか\nスターになれそうな\nよかんがするね!!",
+      "translation": "오늘은 왠지\n스타가 될 것 같은\n예감이 드네!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:8:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:9:0",
+      "source": "5とうせい!!",
+      "translation": "5등성!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:9:1",
+      "source": "光っているけど\nビミョーな かんじ!",
+      "translation": "빛나고는 있지만\n좀 미묘한 느낌!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:9:2",
+      "source": "目だとうとすると、\nぎゃくこうかに\nなっちゃうかも!",
+      "translation": "눈에 띄려 하면,\n역효과가\n날지도 몰라!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:9:3",
+      "source": "ふよういな はつげんに\nちゅうい!!",
+      "translation": "경솔한 발언을\n조심해!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:9:4",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:10:0",
+      "source": "じんこうえいせい!!",
+      "translation": "인공위성!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:10:1",
+      "source": "これぞまさに\n科学のけっしょう!!",
+      "translation": "이것이 바로\n과학의 결정체!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:10:2",
+      "source": "ハイテクきき に\nラッキーのよかん!!",
+      "translation": "첨단 기기에\n행운의 예감!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:10:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:11:0",
+      "source": "スターダスト!!",
+      "translation": "스타더스트!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:11:1",
+      "source": "うちゅうを さまよう\nホシのカケラたち!!",
+      "translation": "우주를 떠도는\n별의 조각들!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:11:2",
+      "source": "なにかの カケラに\nえんが ありそうな1日!",
+      "translation": "무언가의 조각과\n인연이 있을 것 같은 1일!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:11:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:12:0",
+      "source": "2とうせい!!",
+      "translation": "2등성!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:12:1",
+      "source": "つよい光を はなつホシ!",
+      "translation": "강한 빛을 내는 별!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:12:2",
+      "source": "今日は はつげん力が\nアップしそう!",
+      "translation": "오늘은 발언의 힘이\n커질 것 같아!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:12:3",
+      "source": "おもいついたコトは\nどんどん はつげん\nしてみよう!",
+      "translation": "생각난 것은\n적극적으로\n말해 보자!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:12:4",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:13:0",
+      "source": "6とうせい・・・",
+      "translation": "6등성...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:13:1",
+      "source": "ぼんやり かがやく\nくらめのホシ!",
+      "translation": "희미하게 빛나는\n어두운 별!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:13:2",
+      "source": "あんまり 目だたない\n1日になっちゃいそうな\nよかんがするね",
+      "translation": "그다지 눈에 띄지 않는\n1일이 될 것 같은\n예감이 드네",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:13:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:14:0",
+      "source": "いんせき!!",
+      "translation": "운석!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:14:1",
+      "source": "アクシデントのよかん!\nまわりに ちゅういを\nはらって!!",
+      "translation": "사고가 날 예감!\n주위를\n잘 살펴봐!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:14:2",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:15:0",
+      "source": "ブラックホール・・・",
+      "translation": "블랙홀...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:15:1",
+      "source": "光も すいこんでしまう\nきょうふの くうかん!",
+      "translation": "빛마저 빨아들이는\n공포의 공간!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:15:2",
+      "source": "今日は キケンな1日に\nなりそうだよ",
+      "translation": "오늘은 위험한 1일이\n될 것 같아",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:15:3",
+      "source": "こんな日はプラグイン\nせずに おとなしく\nしておいたほうが・・・",
+      "translation": "이런 날에는 플러그인\n하지 말고 얌전히\n있는 편이...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:15:4",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:16:0",
+      "source": "3とうせい!!",
+      "translation": "3등성!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:16:1",
+      "source": "パァッと かがやく\nあかるいホシ!!",
+      "translation": "환하게 빛나는\n밝은 별!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:16:2",
+      "source": "ともだちと ゆうじょうが\nふかまりそう!",
+      "translation": "친구와 우정이\n깊어질 것 같아!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:16:3",
+      "source": "せっきょくてきに\nともだちを さそって\nみたらいいかも!",
+      "translation": "적극적으로\n친구를 불러\n보면 좋겠어!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:16:4",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:17:0",
+      "source": "キラぼし!!",
+      "translation": "반짝이는 별!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:17:1",
+      "source": "キミのさいのうが\nキラリと 光る1日に\nなりそう",
+      "translation": "너의 재능이\n반짝 빛나는 1일이\n될 것 같아",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:17:2",
+      "source": "とくいぶんや に\nせっきょくてきに\nとりくんでみては?",
+      "translation": "자신 있는 분야에\n적극적으로\n도전해 보는 건 어때?",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:17:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:18:0",
+      "source": "うめボシ!!",
+      "translation": "우메보시!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:18:1",
+      "source": "なにか しっぱいを\nしでかしてしまいそう\n・・・",
+      "translation": "뭔가 실수를\n저지르고 말 것 같아\n...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:18:2",
+      "source": "もしも まわりに\nめいわくをかけたら\nすなおに あやまろう!",
+      "translation": "혹시 주변에\n폐를 끼쳤다면\n솔직하게 사과하자!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:18:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운 아이템은...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:20:0",
+      "source": "1~4の すうじが\nかんけいするところに\nありそうだね!",
+      "translation": "1~4의 숫자와\n관련된 곳에\n있을 것 같아!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:21:0",
+      "source": "5~8の すうじが\nかんけいするところに\nありそうだね!",
+      "translation": "5~8의 숫자와\n관련된 곳에\n있을 것 같아!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:22:0",
+      "source": "9~12の すうじが\nかんけいするところに\nありそうだね!",
+      "translation": "9~12의 숫자와\n관련된 곳에\n있을 것 같아!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:23:0",
+      "source": "こわーい ふんいきの\nエリアにありそうな\nよかんがするな!!",
+      "translation": "무서운 분위기의\n에어리어에 있을 것 같은\n예감이 들어!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:50:0",
+      "source": "しっぱいしちゃったね\nホシをかぞえるのは\nトクイなんだけどな!",
+      "translation": "실패하고 말았네\n별을 세는 건\n자신 있는데 말이야!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:51:0",
+      "source": "やったね!!",
+      "translation": "해냈어!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:51:1",
+      "source": "なんだか、アタマを\nフルかいてんさせた\nおかげで、",
+      "translation": "왠지, 머리를\n힘껏 굴린\n덕분에,",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:51:2",
+      "source": "すこし せいちょうした\n気がするよ!!",
+      "translation": "조금 성장한\n기분이 들어!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:52:0",
+      "source": "やったね!!",
+      "translation": "해냈어!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:52:1",
+      "source": "・・・あっ!\nドリルになにか\nはさまってる・・・",
+      "translation": "...앗!\n드릴에 뭔가\n끼어 있어...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:52:2",
+      "source": "ゼニー\nを ゲットしたよ!",
+      "translation": "제니를\n얻었어!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:53:0",
+      "source": "やったね!!",
+      "translation": "해냈어!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:53:1",
+      "source": "・・・あっ!\nドリルになにか\nはさまってる・・・",
+      "translation": "...앗!\n드릴에 뭔가\n끼어 있어...",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:53:2",
+      "source": "バグのかけら",
+      "translation": "버그 조각",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:53:3",
+      "source": "コ\nを ゲットしたよ!",
+      "translation": "개를\n얻었어!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:60:0",
+      "source": "アチャー・・・\nしっぱいしちゃった!",
+      "translation": "아차...\n실패하고 말았어!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:61:0",
+      "source": "やった!\n",
+      "translation": "해냈어!\n",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:61:1",
+      "source": "、\nナイスオペレート!",
+      "translation": ",\n멋진 오퍼레이팅이야!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:61:2",
+      "source": "あ、ちょっとまって",
+      "translation": "아, 잠깐만",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:61:3",
+      "source": "てがみのあいだから\nなにかがでてきたよ\n・・・・・・",
+      "translation": "편지 사이에서\n뭔가 나왔어\n......",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:61:4",
+      "source": "「HPメモリ」だ!!\nやったね!",
+      "translation": "「HP 메모리」다!!\n잘됐네!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:62:0",
+      "source": "やった!\n",
+      "translation": "해냈어!\n",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:62:1",
+      "source": "、\nナイスオペレート!",
+      "translation": ",\n멋진 오퍼레이팅이야!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:62:2",
+      "source": "あ、ちょっとまって",
+      "translation": "아, 잠깐만",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:62:3",
+      "source": "てがみのあいだから\nなにかがでてきたよ\n・・・・・・",
+      "translation": "편지 사이에서\n뭔가 나왔어\n......",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:62:4",
+      "source": "ゼニーだ!!\nやったね!!",
+      "translation": "제니다!!\n잘됐네!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:63:0",
+      "source": "やった!\n",
+      "translation": "해냈어!\n",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:63:1",
+      "source": "、\nナイスオペレート!",
+      "translation": ",\n멋진 오퍼레이팅이야!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:63:2",
+      "source": "あ、ちょっとまって",
+      "translation": "아, 잠깐만",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:63:3",
+      "source": "てがみのあいだから\nなにかがでてきたよ\n・・・・・・",
+      "translation": "편지 사이에서\n뭔가 나왔어\n......",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:63:4",
+      "source": "バグのかけら",
+      "translation": "버그 조각",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    },
+    {
+      "id": "6A3DD0:63:5",
+      "source": "コだ!!\nやったね!!",
+      "translation": "개다!!\n잘됐네!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Self-identified StarMan fortune0/1, random predictions3..18 and item-area hints20..23, arithmetic/drill and letter-minigame result branches50..63",
+      "variable_context": "Native timed dots, printPlayerNickname, printBuffer and reward commands unchanged; comma after nickname avoids dependent particle. Source line topology preserved; consumer width and presentation pending."
+    }
+  ]
+}

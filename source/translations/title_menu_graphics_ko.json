@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_offset": 8186516,
+  "source_stored_sha256": "adfb7a3b6fbaf35eb7c76712bf9dae0382be954222ace022743444401526b626",
+  "stored_bytes": 657,
+  "decompressed_bytes": 1668,
+  "font": "external/fonts/Galmuri11.bdf",
+  "font_sha256": "99dc4e76f82b8419fa1d2c258d589208653ccba26163fe0213e48c5dccc63193",
+  "advance": 11,
+  "origin": [1, 2],
+  "units": [
+    {"id": "title.new_game", "source": "はじめから", "translation": "처음부터", "tile_column": 0},
+    {"id": "title.continue", "source": "つづきから", "translation": "이어하기", "tile_column": 10}
+  ],
+  "state": "needs_review",
+  "release_eligible": false
+}

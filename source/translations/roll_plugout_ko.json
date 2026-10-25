@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "778338",
+  "source_archive_sha256": "51f4ec75fbfb4a976ac0a117ef41fdfc73d6eabdbdc7d6f622daba0e97be7e83",
+  "consumer": "normal-dialogue",
+  "context": "Shared plug-out archive; select only Roll scripts6/26. Prior exact return-v1 normal R prompt RAM observed script6 and Yes response26, then normal return. Native checkNaviAll dispatch0/1, default No and other Navi scripts remain unchanged.",
+  "voice": "Roll friendly informal draft. Existing plug-in transliteration family reused as 플러그아웃; wording approval pending.",
+  "evidence": "analysis/tpl_baseline/778338.tpl; poc/runtime/roll-return-v1-normal steps2/3/4 scripts6/6/26",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "All controls/arguments/Navi dispatch/choice default1/left-right targets/cancel/clear preserved. Nickname first line native comma unchanged. Prompt third row empty; original Yes trailing two spaces retained.44 unselected scripts byte-identical.",
+  "decision_evidence": "Four drafts manually authored by primary agent after scene/control context confirmation. Yes/No retain affirmative/negative roles; no new progression promises. Other Navi prose unselected.",
+  "units": [
+    {"id":"778338:6:0","source":"、\nプラグアウトしちゃう?\n","translation":"、\n플러그아웃할까?\n","state":"needs_review"},
+    {"id":"778338:6:1","source":"はい  ","translation":"예  ","state":"needs_review"},
+    {"id":"778338:6:2","source":"いいえ","translation":"아니요","state":"needs_review"},
+    {"id":"778338:26:0","source":"OK! 今からかえるね!","translation":"응! 지금 돌아갈게!","state":"needs_review"}
+  ]
+}

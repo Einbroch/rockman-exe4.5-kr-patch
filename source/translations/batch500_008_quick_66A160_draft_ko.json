@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "66A160",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/66A160.tpl",
+    "sha256": "9a2b446636bf6ebc7a16ab5030422162b9325ee5d9b041a39d363ca13892a272"
+  },
+  "source_archive_sha256": "d1fec643fc95b66c23ac959c0ca47b421fcb79e798597cb76948454d821db848",
+  "consumer": "batch500-contextual-profile-chip-menu-reminder",
+  "context": "Complete TPL read. Quick tournament1/2 and key-item3; no mugshot or name self-identification; originalガス/ガッツ motif informs unapproved vocal candidate only.",
+  "voice": "Source-conditioned manual draft; explicit portraits only; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands, variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-008",
+  "semantic_review": [
+    "Batch500-008 exactly500 stable literals: profile/chip hints401/menu67/reminders24/quick Guts-motif6/battle2; not500 unique sentences.",
+    "Every source literal and complete control skeleton inspected, small TPLs fully read. Manually authored per source ID; no source-string prose replacement, ROM/save writes, human approval or release eligibility.",
+    "65CC78:0:0/66DDD0:0:0 internal error asking report in sheet remain original/awaiting-context denominator. No diagnostic text silently excluded from total scope.",
+    "No portrait inferred from wind/Guts motif, archive adjacency or NumberMan screenshot. MegaMan menu and SearchMan21..26 only use explicit source mugshots.",
+    "Profile commands school/family/friend/crush/enemy/food/hobby/dream/show/idol/best-worst subjects/wish and battle-history/chip favorite variables preserve actual insertion ordering and page boundaries.",
+    "Topic fragments may use 말이야 or context-specific nouns to avoid 은/는,이/가,을/를 with arbitrary stored user strings; wording and dynamic-name geometry remain needs_review.",
+    "65CC78:53:3 source explicitly mentions ブルース; 브루스 is an existing candidate, not speaker/portrait proof.66DDD0風水 is 풍수; south-west77 vs north-north-east86 preserved as distinct directional advice.",
+    "66DDD0:61:1 retains numeral1; 65CC78 R buttons and programs retained.65CC78:50 imagined gift remains hypothetical rather than claiming awarded item; wind/future uncertainty retained.",
+    "Menu has27 choices/40 prose and all calculation/ice-letter/sniper prompts. Actual buffers/defaults/BSeparate/clear and flag3611/track467 untouched.",
+    "Reminders keep actual soon/today/event-type loops and SearchMan quick-vs-portrait split; tournament preparation vs tournament day vs key items and victory-effort vs defeat kept separate."
+  ],
+  "units": [
+    {
+      "id": "66A160:1:0",
+      "source": "ガッツ、ガッツ!!",
+      "translation": "거츠, 거츠!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick tournament1/2 and key-item3; no mugshot or name self-identification; originalガス/ガッツ motif informs unapproved vocal candidate only.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "66A160:1:1",
+      "source": "しゅうまつの\nトーナメントにむけて\nとっくんするでガス!!",
+      "translation": "주말의\n토너먼트에 대비해\n특훈한다거츠!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick tournament1/2 and key-item3; no mugshot or name self-identification; originalガス/ガッツ motif informs unapproved vocal candidate only.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "66A160:2:0",
+      "source": "トーナメントの日でガス!\nゆうしょうめざして\nがんばるでガス!",
+      "translation": "토너먼트 날이다거츠!\n우승을 목표로\n힘낸다거츠!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick tournament1/2 and key-item3; no mugshot or name self-identification; originalガス/ガッツ motif informs unapproved vocal candidate only.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "66A160:2:1",
+      "source": "ガッツ、ガッツ!!",
+      "translation": "거츠, 거츠!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick tournament1/2 and key-item3; no mugshot or name self-identification; originalガス/ガッツ motif informs unapproved vocal candidate only.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "66A160:3:0",
+      "source": "、\nたのしそうなアイテムが\nあるでガス!!",
+      "translation": ",\n재미있어 보이는 아이템이\n있다거츠!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick tournament1/2 and key-item3; no mugshot or name self-identification; originalガス/ガッツ motif informs unapproved vocal candidate only.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    },
+    {
+      "id": "66A160:3:1",
+      "source": "キーアイテムを\n見てみるでガス!!",
+      "translation": "키 아이템을\n확인해 본다거츠!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick tournament1/2 and key-item3; no mugshot or name self-identification; originalガス/ガッツ motif informs unapproved vocal candidate only.",
+      "variable_context": "Source print commands/order/pages intact; context-specific 의/하고/에게/에는 and 칩/과목/음식 nouns avoid final-consonant-dependent particle selection. Name/value lengths and actual rendering/persistence unverified."
+    }
+  ]
+}

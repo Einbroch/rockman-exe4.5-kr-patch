@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6886F0",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6886F0.tpl",
+    "sha256": "9c98774322c6706271cfcf29d4e88e979332d1e3b28da01c55123081722deae0"
+  },
+  "source_archive_sha256": "bebda3d71b225a7f777b7b3e6cb956000fed20c312a340911088e9da5f2922b0",
+  "consumer": "batch500-equipment-progress-tournament",
+  "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+  "voice": "Source-conditioned manual candidates; distinct named portraits only where shown. Not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "All source fields/IDs/TPL/payload, commands, buffers, numerical limits, newlines, padding and current selected entries immutable; no ROM/save writes.",
+  "batch_id": "batch500-001",
+  "semantic_review": [
+    "Batch500-001 exact500 stable literals across11 full archives: equipment459 including342 label instances, progress31, tournament10. Not500 unique sentences.",
+    "All first drafts needs_review/non-distribution. No wording approval, release/insertion/runtime closure inferred from checks.",
+    "Preserve stammer, denial of fault/calculation error, victory formula, no registration cancellation and injury-limited encouragement. Quick actor not inferred as NumberMan; no portrait.",
+    "Nickname boundary, callCancelMenuTransition and20..23 flag3603 retained; no tournament/runtime verification."
+  ],
+  "units": [
+    {
+      "id": "6886F0:1:0",
+      "source": "ま、まけてしまいましたね\nワ、ワタシは わるくない\nですよっ!!",
+      "translation": "지, 지고 말았네요\n제, 제가 잘못한 건\n아니라고요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "6886F0:1:1",
+      "source": "ワタシは ワタシの中の\nしょうりの ほうていしき\nどおりに バトルしました",
+      "translation": "저는 제가 가진\n승리의 방정식대로\n배틀했어요",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "6886F0:1:2",
+      "source": "ワタシの けいさんに\nまちがいは ないんです!",
+      "translation": "제 계산에\n오류는 없어요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "6886F0:2:0",
+      "source": "やりましたよ!!\nしょうりのほうていしきに\nガッチリ ハマりました!",
+      "translation": "해냈어요!!\n승리의 방정식에\n딱 들어맞았어요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "6886F0:2:1",
+      "source": "けいさんどおりの\nしょうりです!!",
+      "translation": "계산대로 거둔\n승리예요!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "6886F0:10:0",
+      "source": "、\nエントリーしてませんよ!",
+      "translation": ",\n참가 신청을 안 했어요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "6886F0:20:0",
+      "source": "トーナメント、\nケガをしないていどに\nがんばりましょうね!",
+      "translation": "토너먼트,\n다치지 않을 정도로\n힘내도록 해요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "6886F0:21:0",
+      "source": "トーナメント、\nケガをしないていどに\nがんばりましょうね!",
+      "translation": "토너먼트,\n다치지 않을 정도로\n힘내도록 해요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "6886F0:22:0",
+      "source": "トーナメント、\nケガをしないていどに\nがんばりましょうね!",
+      "translation": "토너먼트,\n다치지 않을 정도로\n힘내도록 해요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "6886F0:23:0",
+      "source": "トーナメント、\nケガをしないていどに\nがんばりましょうね!",
+      "translation": "토너먼트,\n다치지 않을 정도로\n힘내도록 해요!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick defeat/victory/unregistered/tournament encouragement; calculation/denial meaning, no mugshot shown.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    }
+  ]
+}

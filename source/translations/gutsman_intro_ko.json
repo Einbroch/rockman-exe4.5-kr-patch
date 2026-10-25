@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "665EB8",
+  "source_archive_sha256": "ba5d7653dfd99d0c80bc1a5b2eeae3ca2ecbceb03809d30d2bfaa10112ef31b8",
+  "consumer": "normal-dialogue",
+  "context": "GutsMan first meeting script1/reselection greeting script2 to operator, explicit ガッツマン speaker. Original root038110=08665EB8; same native group seasonal root038144. Portrait92,110; flag3585/waits/clears retained, no variables.",
+  "voice": "Existing GutsMan seasonal/save development drafts use 거츠/거스. Reused candidate voice, human review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/665EB8.tpl; translations/gutsman_seasonal_ko.json; native roots038110/038144",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Complete four literals/4slots; original IDs/source,numerals,newline boundaries/commands/flag3585 preserved. No save/name/gameplay/RTC changes.",
+  "semantic_review": [
+    "First-meeting vs long-time-no-see kept distinct. Guts catchphrase retained in both name and ending; wording/voice human review pending. NumberMan4649 adaptation not reused."
+  ],
+  "units": [
+    {
+      "id": "665EB8:1:0",
+      "source": "ガッツ、ガッツ!!",
+      "translation": "거츠, 거츠!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "665EB8:1:1",
+      "source": "はじめましてでガス!!\nガッツマンでガッツ!",
+      "translation": "처음 뵙겠거스!!\n거츠맨이거츠!",
+      "state": "needs_review"
+    },
+    {
+      "id": "665EB8:2:0",
+      "source": "ひさしぶりでガス!!",
+      "translation": "오랜만이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "665EB8:2:1",
+      "source": "また いっしょに\nがんばるでガス!!",
+      "translation": "다시 함께\n힘내겠거스!!",
+      "state": "needs_review"
+    }
+  ]
+}

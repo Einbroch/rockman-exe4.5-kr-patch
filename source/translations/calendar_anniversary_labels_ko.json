@@ -1,0 +1,11 @@
+{
+  "schema":1,"policy":"development-draft; NON-DISTRIBUTION","source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8","archive":"6368E8","source_archive_sha256":"816d719a806e861faf90bdf61bb960ff20eb965001871274387fce2542711c74","consumer":"fixed-cell-big","scope_variant":"anniversary-labels-v1",
+  "parent_asset":{"path":"translations/calendar_presets_ko.json","sha256":"f05540b579175a7f18a555b142ff3997935d4e27b55154ac2af613d4826242af","carry_units":4},
+  "context":"Three 16-cell anniversary selector labels shown with GutsMan script31; four retained operation/type/preset units remain read-only parents.",
+  "evidence":"analysis/full_scope_v1/source_tpl/6368E8.tpl; poc/runtime/gutsman-calendar-register-v1-register-anniversary-accept/step_002.png",
+  "decision_evidence":"自分のたんじょう日/そうりつきねん日/そのた localized as 내 생일/개교기념일/기타. School context in seasonal corpus establishes founding-anniversary meaning. Presentation review pending.",
+  "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},"insertion_state":"development input; selected only by explicit --gutsman-calendar-anniversary with the paired dialogue asset","protected_policy":"Exactly three 16-cell groups and 48 decoded cells; only trailing spaces pad each group. Existing preset names and their local logical-cell counter hook remain unchanged.",
+  "units":[
+    {"id":"6368E8:0:0","source":"とうろく    よていをみる  さくじょ    ","translation":"등록      일정 보기   삭제      ","state":"needs_review"},{"id":"6368E8:60:0","source":"TVばんぐみともだちと約束ごはんじゅくそのた?????","translation":"TV 방송 친구와 약속 식사 학원 기타 ?????","state":"needs_review"},{"id":"6368E8:62:0","source":"ごはん","translation":"식사","state":"needs_review"},{"id":"6368E8:63:0","source":"じゅく","translation":"학원","state":"needs_review"},{"id":"6368E8:73:0","source":"自分のたんじょう日       そうりつきねん日        そのた             ","translation":"내 생일            개교기념일           기타              ","state":"needs_review"}
+  ]
+}

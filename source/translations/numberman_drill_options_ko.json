@@ -1,0 +1,432 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "715064",
+  "source_archive_sha256": "4297ac7f1252f9f20fa471ea886fa76b2c7b9aed4ab01099f790f1ccc4103f67",
+  "consumer": "normal-dialogue",
+  "context": "Retained ordinary intro/lecture and small bubbles32 units unchanged; add level13 five literals and academic-exam15 five literals. Source0 flags5505/5506 select15. Source13 explicitly origin32,110 and four linked choices. Normal academic/level acquisition paths unverified; diagnostic renderer scope only until actual route evidence.",
+  "voice": "Polite NumberMan, joking about academic standardized scores and his own explosion. Operator labels neutral. Terminology/wording unapproved draft.",
+  "evidence": "analysis/tpl_baseline/715064.tpl; external/textpet-indexes/exe45.tpi roots0DD394/0DD894 size1207; poc/runtime/numberman-drill-source-v1-options; poc/runtime/numberman-drill-level-source-v1-release",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All16 script slots selected, all source commands/args/flags5505/5506/waits/numerals/choice navigation/trailing rows preserved. Vertical widths11/13/9 and two-row level grid preserved. No gameplay/result/reward/name/save changes.",
+  "wordings": [
+    {
+      "id": "numberman.drill.0.0",
+      "translation": "후후후\n가동했군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.0.1",
+      "translation": "이건\n카운트봄이 내장된\n지옥의 계산 훈련・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.0.2",
+      "translation": "이 특훈으로 당신의\n편차치도 쑥쑥\n오를 게 틀림없어요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.0.3",
+      "translation": "특훈 시작\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.0.4",
+      "translation": "설명 듣기\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.0",
+      "translation": "훈련 이용 방법을\n설명해 드릴게요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.1",
+      "translation": "내용은 간단해요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.2",
+      "translation": "카운트봄의 시간이\n0이 되기 전에",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.3",
+      "translation": "제가 든 계산식의\n빈칸에 들어갈\n답을",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.4",
+      "translation": "아래 선택지에서\n골라서\n식을 완성해 주세요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.5",
+      "translation": "만약 틀리면・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.6",
+      "translation": "벌로\n같은 문제를 다시\n풀어야 해요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.7",
+      "translation": "카운트봄의 시간은\n40초로 설정했어요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.8",
+      "translation": "40초 안에\n전부 맞히지 못하면・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.9",
+      "translation": "제가\n폭발에 휘말려요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.10",
+      "translation": "네, 네\n몸을 걸고 있어요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.11",
+      "translation": "마지막으로\n질문 있나요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.12",
+      "translation": "네! 없는 것 같으니\n이것으로 설명을\n마치겠습니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.13",
+      "translation": "이번엔 훈련 시작\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.1.14",
+      "translation": "다시 설명 듣기\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.2.0",
+      "translation": "훈련\n・・・\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.3.0",
+      "translation": "쉬워요\n정말로",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.4.0",
+      "translation": "음~",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.5.0",
+      "translation": "더\n힘내요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.6.0",
+      "translation": "다음\n문제는",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.7.0",
+      "translation": "한 번 더",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.8.0",
+      "translation": "빠, 빨리\n서둘러요!\n서둘러요!",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.9.0",
+      "translation": "시,\n시간이\n없어요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.10.0",
+      "translation": "으아아\n아아아아",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.11.0",
+      "translation": "훌륭해요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.12.0",
+      "translation": "힘내\n주세요!\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.14.0",
+      "translation": "이 식으로\n해도\n될까요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.13.0",
+      "translation": "원하는 레벨을 고르세요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.13.1",
+      "translation": "레벨1",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.13.2",
+      "translation": "레벨2\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.13.3",
+      "translation": "레벨3",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.13.4",
+      "translation": "레벨4\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.15.1",
+      "translation": "이건\n카운트봄이 내장된\n학력 조사 훈련・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.15.2",
+      "translation": "각오해 주세요\n이 훈련으로 당신의\n편차치가 드러나요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.drill.15.3",
+      "translation": "훈련 시작\n",
+      "state": "needs_review"
+    }
+  ],
+  "units": [
+    {
+      "id": "715064:0:0",
+      "source": "ふっふっふっ\nきどう しましたね",
+      "wording_id": "numberman.drill.0.0"
+    },
+    {
+      "id": "715064:0:1",
+      "source": "この\nカウントボムを ないぞうした\nじごくの けいさんドリル・・・",
+      "wording_id": "numberman.drill.0.1"
+    },
+    {
+      "id": "715064:0:2",
+      "source": "このとっくんで あなたの\nへんさちも グーンと\nアップ まちがいなしです",
+      "wording_id": "numberman.drill.0.2"
+    },
+    {
+      "id": "715064:0:3",
+      "source": "とっくんドリルきどう\n",
+      "wording_id": "numberman.drill.0.3"
+    },
+    {
+      "id": "715064:0:4",
+      "source": "レクチャーをきく\n",
+      "wording_id": "numberman.drill.0.4"
+    },
+    {
+      "id": "715064:1:0",
+      "source": "ドリルの しようほうほうを\nレクチャーしましょう",
+      "wording_id": "numberman.drill.1.0"
+    },
+    {
+      "id": "715064:1:1",
+      "source": "ないようは かんたんです",
+      "wording_id": "numberman.drill.1.1"
+    },
+    {
+      "id": "715064:1:2",
+      "source": "カウントボムのじかんが\n0になるまえに",
+      "wording_id": "numberman.drill.1.2"
+    },
+    {
+      "id": "715064:1:3",
+      "source": "わたしのもつ けいさんしきの\nあいている ばしょに\nはいる こたえを",
+      "wording_id": "numberman.drill.1.3"
+    },
+    {
+      "id": "715064:1:4",
+      "source": "したのせんたくしの中から\nえらんで\nしきを かんせいさせてください",
+      "wording_id": "numberman.drill.1.4"
+    },
+    {
+      "id": "715064:1:5",
+      "source": "もし まちがえたら・・・",
+      "wording_id": "numberman.drill.1.5"
+    },
+    {
+      "id": "715064:1:6",
+      "source": "おしおきとして\nもういちどおなじもんだいを\nやってもらいます!",
+      "wording_id": "numberman.drill.1.6"
+    },
+    {
+      "id": "715064:1:7",
+      "source": "カウントボムの じかんは\n40びょうに せっていしました",
+      "wording_id": "numberman.drill.1.7"
+    },
+    {
+      "id": "715064:1:8",
+      "source": "40びょういないに\nぜんもん せいかいしないと・・",
+      "wording_id": "numberman.drill.1.8"
+    },
+    {
+      "id": "715064:1:9",
+      "source": "わたしが\nばくはつに まきこまれます!",
+      "wording_id": "numberman.drill.1.9"
+    },
+    {
+      "id": "715064:1:10",
+      "source": "ええ ええ\nからだ はってますよ",
+      "wording_id": "numberman.drill.1.10"
+    },
+    {
+      "id": "715064:1:11",
+      "source": "さいごに なにか\nしつもんは ありますか?",
+      "wording_id": "numberman.drill.1.11"
+    },
+    {
+      "id": "715064:1:12",
+      "source": "ハイ! ないようなので\nこれで レクチャーを\nしゅうりょうします",
+      "wording_id": "numberman.drill.1.12"
+    },
+    {
+      "id": "715064:1:13",
+      "source": "こんどこそ ドリルきどう\n",
+      "wording_id": "numberman.drill.1.13"
+    },
+    {
+      "id": "715064:1:14",
+      "source": "また レクチャーをきく\n",
+      "wording_id": "numberman.drill.1.14"
+    },
+    {
+      "id": "715064:2:0",
+      "source": "ドリル\n・・・\n",
+      "wording_id": "numberman.drill.2.0"
+    },
+    {
+      "id": "715064:3:0",
+      "source": "かんたん\nですよ",
+      "wording_id": "numberman.drill.3.0"
+    },
+    {
+      "id": "715064:4:0",
+      "source": "う~ん",
+      "wording_id": "numberman.drill.4.0"
+    },
+    {
+      "id": "715064:5:0",
+      "source": "もっと\nがんばって",
+      "wording_id": "numberman.drill.5.0"
+    },
+    {
+      "id": "715064:6:0",
+      "source": "つぎの\nもんだいは",
+      "wording_id": "numberman.drill.6.0"
+    },
+    {
+      "id": "715064:7:0",
+      "source": "もういちど",
+      "wording_id": "numberman.drill.7.0"
+    },
+    {
+      "id": "715064:8:0",
+      "source": "はっはやく\nいそいで!\nいそいで!",
+      "wording_id": "numberman.drill.8.0"
+    },
+    {
+      "id": "715064:9:0",
+      "source": "じっ\nじかんが\nないですよ",
+      "wording_id": "numberman.drill.9.0"
+    },
+    {
+      "id": "715064:10:0",
+      "source": "ひぇぇぇぇ\nぇぇぇぇぇ",
+      "wording_id": "numberman.drill.10.0"
+    },
+    {
+      "id": "715064:11:0",
+      "source": "すばらしい",
+      "wording_id": "numberman.drill.11.0"
+    },
+    {
+      "id": "715064:12:0",
+      "source": "がんばって\nください!\n",
+      "wording_id": "numberman.drill.12.0"
+    },
+    {
+      "id": "715064:14:0",
+      "source": "このしきで\nよろしい\nですか?",
+      "wording_id": "numberman.drill.14.0"
+    },
+    {
+      "id": "715064:13:0",
+      "source": "すきなレベルを えらんでね",
+      "wording_id": "numberman.drill.13.0"
+    },
+    {
+      "id": "715064:13:1",
+      "source": "レベル1",
+      "wording_id": "numberman.drill.13.1"
+    },
+    {
+      "id": "715064:13:2",
+      "source": "レベル2\n",
+      "wording_id": "numberman.drill.13.2"
+    },
+    {
+      "id": "715064:13:3",
+      "source": "レベル3",
+      "wording_id": "numberman.drill.13.3"
+    },
+    {
+      "id": "715064:13:4",
+      "source": "レベル4\n",
+      "wording_id": "numberman.drill.13.4"
+    },
+    {
+      "id": "715064:15:0",
+      "source": "ふっふっふっ\nきどう しましたね",
+      "wording_id": "numberman.drill.0.0"
+    },
+    {
+      "id": "715064:15:1",
+      "source": "この\nカウントボムを ないぞうした\nがくりょくちょうさドリル・・・",
+      "wording_id": "numberman.drill.15.1"
+    },
+    {
+      "id": "715064:15:2",
+      "source": "かくごしてください\nこのドリルで あなたの\nへんさちが まるわかりですよ",
+      "wording_id": "numberman.drill.15.2"
+    },
+    {
+      "id": "715064:15:3",
+      "source": "ドリルきどう\n",
+      "wording_id": "numberman.drill.15.3"
+    },
+    {
+      "id": "715064:15:4",
+      "source": "レクチャーをきく\n",
+      "wording_id": "numberman.drill.0.4"
+    }
+  ],
+  "scope_variant": "numberman-drill-options-v1"
+}

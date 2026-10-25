@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6872B8",
+  "source_archive_sha256": "23b1f0ca50d46b037e10475c4ee7f10e728f3cd59189fd706183afcf48428188",
+  "consumer": "normal-dialogue",
+  "context": "Source root038278 selects NumberMan first meeting script1, flag3585. Seven literal pages introduce NumberMan and joke about liking numbers/calculating pi; normal NumberMan selection portrait/pages established in numberman-save-poc-v1-select-numberman. Script2 return/4649 wordplay retained untranslated; trigger not established. No nickname insertion in this archive.",
+  "voice": "Polite playful first meeting; Korean name/wording drafts needs_review, not official or human-approved.",
+  "evidence": "analysis/tpl_baseline/6872B8.tpl; source root038278; poc/runtime/numberman-save-poc-v1-select-numberman",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Keep source, IDs, seven pages/newlines, flag3585/window/keyWait/clearMsg/waitHold. Scripts0/2/3 untouched; no invented input or numeric computation event.",
+  "units": [
+    {
+      "id": "6872B8:1:0",
+      "source": "どうも、はじめまして",
+      "translation": "안녕하세요, 반가워요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:1",
+      "source": "ナンバーマンです\nすうじは すきですか?",
+      "translation": "넘버맨입니다\n숫자는 좋아하시나요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:2",
+      "source": "ワタシが あなたの\nナビになった いじょう、",
+      "translation": "제가 당신의\n내비가 된 이상,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:3",
+      "source": "イヤでも すきに\nなってもらいますよ~",
+      "translation": "싫어도 숫자를\n좋아하게 만들게요~",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:4",
+      "source": "まずは\nえんしゅうりつでも\nけいさんしますか・・・",
+      "translation": "우선\n원주율이라도\n계산해 볼까요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:5",
+      "source": "ウソです ウソ!!",
+      "translation": "농담이에요, 농담!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6872B8:1:6",
+      "source": "こんなワタシですが\nよろしくおねがいします",
+      "translation": "이런 저지만\n잘 부탁드려요",
+      "state": "needs_review"
+    }
+  ]
+}

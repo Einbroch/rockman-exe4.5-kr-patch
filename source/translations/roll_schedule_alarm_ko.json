@@ -1,0 +1,16 @@
+{
+ "schema":1,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"660D90","source_archive_sha256":"4d138a8dca3d82a9e40fb7a8855506a616fe86c691231e60eb7df521d14fbdd8",
+ "consumer":"normal-dialogue",
+ "context":"Roll PET meal/school current-time alarms and additional-event lead-in. No user-name or clock suffix mutation. Original alternate mugshot variants23/24/26 remain Japanese pending their own consumer proof.",
+ "evidence":"analysis/tpl_baseline/660D90.tpl; analysis/ROLL_SCHEDULE_TIME_ROM_HANDOFF.md",
+ "decision_evidence":"Primary agent manually drafted three fixed prose units preserving Roll's friendly tone and source meaning. Human wording review pending; no automated prose rewrite.",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "protected_policy":"All controls, callCheckNowEvent/callFindNowEventType, event flags, window geometry, keyWait/clearMsg/waitHold and25 unselected slots source-identical.",
+ "units":[
+  {"id":"660D90:3:0","source":"ね~ぇ!\nゴハンの じかんだよ!","translation":"저기~!\n밥 먹을 시간이야!","state":"needs_review"},
+  {"id":"660D90:4:0","source":"じゅくに行く じかんだよ\nはやく じゅんびしなきゃ\nチコクしちゃうよ!","translation":"학원 갈 시간이야\n얼른 준비하지 않으면\n지각하겠어!","state":"needs_review"},
+  {"id":"660D90:6:0","source":"えっと、それから・・・","translation":"음, 그리고・・・","state":"needs_review"}
+ ]
+}

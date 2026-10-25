@@ -1,0 +1,302 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6873F4",
+  "source_archive_sha256": "61fc2167017de6bcccb7675fcc2404eee45110b40fbc3e1f3429012cb9ee4c88",
+  "consumer": "normal-dialogue",
+  "context": "NumberMan PET idle/menu entry/reentry/interrupt. Source root03827C,22 slots,all44 literals. Script1 question precedes nickname on separate second row; retain printPlayerNickname unmodified. Scripts2..8 and10..16 dispatch seven menu questions; script8 enters save screen while16 saves current data. Six nonliteral slots protected.",
+  "voice": "Polite NumberMan questions consistent with prior intro. Interruption is mildly reproachful polite speech, not invented affection. Draft wording and Korean terms need independent/human review.",
+  "evidence": "analysis/tpl_baseline/6873F4.tpl; external/textpet-indexes/exe45.tpi root03827C; prior numberman-intro-v1-intro Japanese PET prompt",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Keep commands/parameters/branches, newline counts and leading/trailing blank rows, Yes trailing two spaces. Nickname remains separate row and native input format; no Hangul name input claim. Preserve all six nonliteral scripts.",
+  "wording_history": [{"id":"numberman.pet.save_screen.attempt1","translation":"저장 화면으로 갈까요?\n\n","outcome":"not_selected;135px exceeds adopted132px"},{"id":"numberman.pet.save_screen.attempt2","translation":"저장 화면으로\n갈까요?\n","outcome":"not_selected;changes protected trailing blank row count"},{"id":"numberman.pet.save_screen.selected_v1","parent":"numberman.pet.save_screen.attempt1","translation":"저장 화면에 갈까요?\n\n","rationale":"Explicit Korean destination particle revision (으로 to 에); same destination/question/politeness, preserve one source prose row and two blank row delimiters, no new layout policy. Needs human review."}],
+  "wordings": [
+    {
+      "id": "numberman.pet.idle",
+      "translation": "무엇을 할까요?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.tournament",
+      "translation": "토너먼트에\n참가하시겠어요?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.jack_in",
+      "translation": "인터넷에\n플러그인하시겠어요?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.equipment",
+      "translation": "제 장비를\n편집하시겠어요?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.library",
+      "translation": "데이터 라이브러리를\n보시겠어요?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.mail",
+      "translation": "메일을\n확인하시겠어요?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.communication",
+      "translation": "통신 대전을\n하시겠어요?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.save_screen",
+      "translation": "저장 화면에 갈까요?\n\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.save_now",
+      "translation": "지금까지의 데이터를\n저장하시겠어요?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.yes",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.no",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "numberman.pet.interrupted",
+      "translation": "남의 이야기는 끝까지\n들을 여유가 있으면\n좋겠네요",
+      "state": "needs_review"
+    }
+  ],
+  "units": [
+    {
+      "id": "6873F4:1:0",
+      "source": "なにを しましょうか?\n",
+      "wording_id": "numberman.pet.idle"
+    },
+    {
+      "id": "6873F4:2:0",
+      "source": "トーナメントに\nさんかしますか?\n",
+      "wording_id": "numberman.pet.tournament"
+    },
+    {
+      "id": "6873F4:2:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:2:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:3:0",
+      "source": "インターネットに\nプラグインしますか?\n",
+      "wording_id": "numberman.pet.jack_in"
+    },
+    {
+      "id": "6873F4:3:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:3:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:4:0",
+      "source": "ワタシのそうびを\nへんしゅうしますか?\n",
+      "wording_id": "numberman.pet.equipment"
+    },
+    {
+      "id": "6873F4:4:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:4:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:5:0",
+      "source": "データライブラリを\n見ますか?\n",
+      "wording_id": "numberman.pet.library"
+    },
+    {
+      "id": "6873F4:5:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:5:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:6:0",
+      "source": "メールを\nチェックしますか?\n",
+      "wording_id": "numberman.pet.mail"
+    },
+    {
+      "id": "6873F4:6:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:6:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:7:0",
+      "source": "つうしんたいせんを\nしますか?\n",
+      "wording_id": "numberman.pet.communication"
+    },
+    {
+      "id": "6873F4:7:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:7:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:8:0",
+      "source": "セーブ画面にはいります?\n\n",
+      "wording_id": "numberman.pet.save_screen"
+    },
+    {
+      "id": "6873F4:8:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:8:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:10:0",
+      "source": "トーナメントに\nさんかしますか?\n",
+      "wording_id": "numberman.pet.tournament"
+    },
+    {
+      "id": "6873F4:10:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:10:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:11:0",
+      "source": "インターネットに\nプラグインしますか?\n",
+      "wording_id": "numberman.pet.jack_in"
+    },
+    {
+      "id": "6873F4:11:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:11:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:12:0",
+      "source": "ワタシのそうびを\nへんしゅうしますか?\n",
+      "wording_id": "numberman.pet.equipment"
+    },
+    {
+      "id": "6873F4:12:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:12:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:13:0",
+      "source": "データライブラリを\n見ますか?\n",
+      "wording_id": "numberman.pet.library"
+    },
+    {
+      "id": "6873F4:13:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:13:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:14:0",
+      "source": "メールを\nチェックしますか?\n",
+      "wording_id": "numberman.pet.mail"
+    },
+    {
+      "id": "6873F4:14:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:14:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:15:0",
+      "source": "つうしんたいせんを\nしますか?\n",
+      "wording_id": "numberman.pet.communication"
+    },
+    {
+      "id": "6873F4:15:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:15:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:16:0",
+      "source": "これまでのデータを\nセーブしますか?\n",
+      "wording_id": "numberman.pet.save_now"
+    },
+    {
+      "id": "6873F4:16:1",
+      "source": "はい  ",
+      "wording_id": "numberman.pet.yes"
+    },
+    {
+      "id": "6873F4:16:2",
+      "source": "いいえ",
+      "wording_id": "numberman.pet.no"
+    },
+    {
+      "id": "6873F4:20:0",
+      "source": "人のハナシを さいごまで\nきくくらいの よゆうは\nほしいものですね",
+      "wording_id": "numberman.pet.interrupted"
+    }
+  ]
+}

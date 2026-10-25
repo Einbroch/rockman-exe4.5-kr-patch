@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "666820",
+  "source_archive_sha256": "d4cf2e86ad87ce890d855bf60b7e9ebf014981eae826dfb810eaac7845561540",
+  "consumer": "normal-dialogue",
+  "context": "GutsMan mail arrivals; original root038128/intro+24. Fourteen initial !! literals unchanged. Nickname scripts1/2/3 preserve first-row comma11px before newline. Sound155/wait96 twice,delivery flags,tournament receive and mail additions retained;255slots.",
+  "voice": "Existing GutsMan development candidate 거츠/거스 voice; wording/terminology/presentation human review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/666820.tpl; native GutsMan group root038110; translations/gutsman_intro_ko.json",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Complete finite literal population; IDs/source,numerals,newline boundaries,all commands/slots/native variables preserved. No RTC/save/input/gameplay-code changes.",
+  "semantic_review": [
+    "Defeated return remains defeat with resolve for next time, not successful return. Explicit .EXE identity retained.",
+    "Mail delivery branches/variable insertion are not normal execution proved by static font/geometry. NumberMan4649 approval not reused."
+  ],
+  "units": [
+    {
+      "id": "666820:1:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:1:1",
+      "source": "、\nメールでガス!!",
+      "translation": "、\n메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:2:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:2:1",
+      "source": "、\nメールでガス!!",
+      "translation": "、\n메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:3:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:3:1",
+      "source": "、\nメールでガス!!",
+      "translation": "、\n메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:4:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:4:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:5:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:5:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:6:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:6:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:7:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:7:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:20:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:20:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:21:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:21:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:22:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:22:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:23:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:23:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:24:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:24:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:25:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:25:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:26:0",
+      "source": "!!",
+      "translation": "!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "666820:26:1",
+      "source": "メールでガス!!",
+      "translation": "메일이거스!!",
+      "state": "needs_review"
+    }
+  ]
+}

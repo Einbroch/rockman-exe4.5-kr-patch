@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6368E8",
+  "source_archive_sha256": "816d719a806e861faf90bdf61bb960ff20eb965001871274387fce2542711c74",
+  "consumer": "fixed-cell-big",
+  "scope_variant": "input-heading-v1",
+  "parent_asset": {
+    "path": "translations/input_confirmation_ko.json",
+    "sha256": "94272bf515ad3d177ef44a0bfffd5ddcd322165b3e9e4758ef4f778a797b6a17",
+    "carry_units": 16
+  },
+  "context": "Common keyboard weak-subject heading33, native question29 then input initialization; neutral UI matching existing GutsMan 어려운 과목은. No input record/keyboard changes.",
+  "evidence": "poc/runtime/input-entry-v1-header-source/step_003.png",
+  "decision_evidence": "Manually authored UI draft; wording/presentation human review pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "development input; explicit --input-heading",
+  "protected_policy": "Inherited16 immutable; heading33 end and all other scripts unchanged. Native mono provider08619EF8, two tile rows / ten visible 8px columns; unchanged twenty-cell transfer.",
+  "units": [
+    {
+      "id": "6368E8:0:0",
+      "source": "とうろく    よていをみる  さくじょ    ",
+      "translation": "등록      일정 보기   삭제      ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:60:0",
+      "source": "TVばんぐみともだちと約束ごはんじゅくそのた?????",
+      "translation": "TV 방송 친구와 약속 식사 학원 기타 ?????",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:62:0",
+      "source": "ごはん",
+      "translation": "식사",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:63:0",
+      "source": "じゅく",
+      "translation": "학원",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:73:0",
+      "source": "自分のたんじょう日       そうりつきねん日        そのた             ",
+      "translation": "내 생일            개교기념일           기타              ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:74:0",
+      "source": "たんじょう日",
+      "translation": "생일",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:75:0",
+      "source": "そうりつきねん日",
+      "translation": "개교기념일",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:119:0",
+      "source": "1回のみ",
+      "translation": "1회만",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:120:0",
+      "source": "毎日",
+      "translation": "매일",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:121:0",
+      "source": "毎週",
+      "translation": "매주",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:122:0",
+      "source": "毎月",
+      "translation": "매월",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:123:0",
+      "source": "毎年",
+      "translation": "매년",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:80:0",
+      "source": "カップ             クレジット           バグのかけら          たいせんせいせき        ",
+      "translation": "컵               크레딧             버그 조각           대전 전적           ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:10:0",
+      "source": "これで よろしいですか?\n",
+      "translation": "이대로 정할까요?\n",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:10:1",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:10:2",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:33:0",
+      "source": "にがてな かもくは?",
+      "translation": "어려운 과목은?",
+      "state": "needs_review"
+    }
+  ]
+}

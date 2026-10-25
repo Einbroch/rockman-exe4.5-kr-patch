@@ -1,0 +1,20 @@
+{
+ "schema":2,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"6E1068","source_archive_sha256":"4c347fde56d3827a7bbcdf5631acb2ceae79d09714f32239f4765928fc55602c",
+ "consumer":"normal-dialogue",
+ "context":"Equipment screen selection0/1/2 invokes0803C478 and original scripts60/61/62. Native Navi table entries0/13/14 share source6E1068; all other Navi dialogue roots retain originalRAM. Source guides identify folder editing or R/L button weapon assignment; independent UI guidance to operator, warm informal Rockman voice.",
+ "evidence":"poc/runtime/equipment-labels-v2-equipment/step_007.png,009.png,011.png; source analysis/tpl_baseline/6E1068.tpl",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "protected_policy":"Keep two lines, positionBox/Text/Arrow, textSpeed0, waitHold, R/L labels and all commands/arguments. No unrelated Navi voice or weapon name changed.",
+ "wordings":[
+  {"id":"equipment.guide.folder","translation":"칩 폴더를\n편집할게!","state":"needs_review"},
+  {"id":"equipment.guide.r_weapon","translation":"R 버튼에 지정할\n무기를 골라 줘!","state":"needs_review"},
+  {"id":"equipment.guide.l_weapon","translation":"L 버튼에 지정할\n무기를 골라 줘!","state":"needs_review"}
+ ],
+ "units":[
+  {"id":"6E1068:60:0","source":"チップフォルダを\nへんしゅうするよ!","wording_id":"equipment.guide.folder"},
+  {"id":"6E1068:61:0","source":"Rボタンにわりあてる\nブキをえらんで!","wording_id":"equipment.guide.r_weapon"},
+  {"id":"6E1068:62:0","source":"Lボタンにわりあてる\nブキをえらんで!","wording_id":"equipment.guide.l_weapon"}
+ ]
+}

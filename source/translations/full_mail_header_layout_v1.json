@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "consumer": "fixed-cell-big",
+  "max_line_advance": 88,
+  "reason": "Four Korean story-mail titles exceeded the native one-line 11-cell extent. These are individual semantic candidates, not release-approved prose.",
+  "layouts": {
+    "6DD63C:7:0": "또 하나의 다크로이드",
+    "6DD63C:21:0": "의문의 오퍼레이터!",
+    "6DD63C:23:0": "오퍼레이터 정체!",
+    "6DD63C:25:0": "길거리 습격 발생"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "base": "tools\\compile_source500_037_v1.py",
+  "base_sha256": "1213bd21c8fbcf2dbff1e70ab8bf37b21922b349b1025fc4c6bb9e7eed6c40c3",
+  "changes": [
+    [
+      "from prepare_source500_037_v1 import *",
+      "from prepare_source500_037_v2 import *"
+    ],
+    [
+      "tools/compile_source500_037_v1.py",
+      "tools/compile_source500_037_v2.py"
+    ],
+    [
+      "tools/prepare_source500_037_v1.py",
+      "tools/prepare_source500_037_v2.py"
+    ]
+  ],
+  "output": "tools\\compile_source500_037_v2.py",
+  "output_sha256": "b84935541094202204d35bbfbd7070cd25d87233afcf39937e101d1205e0b672",
+  "scope": "No compilation/protected-field/encoding/geometry/font check weakened"
+}

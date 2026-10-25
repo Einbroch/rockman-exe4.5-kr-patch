@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "review": "needs_review",
+  "approved": false,
+  "proposals": [
+    {"id":"exe45.wording.pending015.768800.2.0","unit_id":"768800:2:0","translation":"그렇다, 지금 록맨이\n유니존 가능한 소울은\n거츠 소울이지","rationale":"Preserve current Rockman, possible soul-unison and Guts Soul identification. 유니존 가능한 expresses 유니존できる without changing the mechanic. Three source lines retained; original draft remains unmodified."},
+    {"id":"exe45.wording.pending015.768800.2.2","unit_id":"768800:2:2","translation":"즉 「크랙아웃」 등\n지형 파괴 칩을 바쳐\n유니존할 수 있다","rationale":"Preserve CrackOut as an example, terrain-destruction chip category, offering a chip and the resulting unison possibility. Reassign the Korean clauses within the same three source lines; no command/token/term or gameplay implementation is changed. This legacy script's presence does not prove a supported EXE4.5 mechanic."}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "context":"Native group6 helper212C8: Roll is second group, mono questions6/7 before Roll portrait escape8..11. Target opponent and combat spacing questions to operator. Gentle casual candidate permits reuse of existing Rockman question wording; human voice approval pending.",
+  "selections":[
+    {"id":"76C944:6:0","wording_id":"tactics.target","rationale":"どのてきを/ねらうの? has same target-enemy question function; Korean 노릴까? retains casual consultative ending."},
+    {"id":"76C944:7:0","wording_id":"tactics.distance","rationale":"あいてとの/まあいは? means distance/spacing from opponent in combat, not time interval; compatible with 적과의/거리는?."}
+  ]
+}

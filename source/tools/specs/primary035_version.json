@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "description": "035 original-source NPC500 append, native RAM retained; one composed reader writer",
+  "files": [
+    {
+      "base": "tools/build_development_patch_034.py",
+      "base_sha256": "0b6ea838c58079df06e875bb5a44e1e67663bf3b0383c4a16e15d624a3537ed0",
+      "output": "tools/build_development_patch_035.py",
+      "edits": [
+        {
+          "before": "    guard_supported034(inputs034,inputs027,inputs028,inputs030)\n",
+          "after": "    guard_supported034(inputs034,inputs027,inputs028,inputs030)\n    from field_npc_rom_product_035 import load_inputs as load_inputs035,install as install_npc035,finalize as finalize035\n    if not args.keyitem_rom_translations:raise ValueError('035 requires the full preceding reader chain')\n    inputs035=load_inputs035(source)\n"
+        },
+        {
+          "before": "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n",
+          "after": "    for entry035,_ in inputs035:\n        asset035=read_json(ROOT/entry035['asset']['path'])\n        needed.update(ch for u in asset035['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n"
+        },
+        {
+          "before": "        appended,key_patches,keyitem_rom=install_keyitem(source,appended,payload,active[:16],record,mail_payload,mail_header,mail_record,mission_payloads,equipment_payloads,hint_payloads,b0_payloads)\n",
+          "after": "        appended,key_patches,keyitem_rom=install_keyitem(source,appended,payload,active[:16],record,mail_payload,mail_header,mail_record,mission_payloads,equipment_payloads,hint_payloads,b0_payloads)\n        appended,key_patches,keyitem_rom,npc_records035=install_npc035(source,appended,key_patches,keyitem_rom,inputs035,common,work/'plugins',work/'npc035')\n"
+        },
+        {
+          "before": "        from keyitem_rom_data_024 import verify_final\n",
+          "after": "        from field_npc_rom_product_035 import verify_final\n"
+        },
+        {
+          "before": "    output.parent.mkdir(parents=True, exist_ok=True)\n",
+          "after": "    finalize035(source,target,result,inputs035,npc_records035)\n    output.parent.mkdir(parents=True, exist_ok=True)\n"
+        }
+      ]
+    }
+  ]
+}

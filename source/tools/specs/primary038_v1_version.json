@@ -1,0 +1,37 @@
+{
+  "base": "tools\\build_development_patch_037_v2.py",
+  "base_sha256": "d3aafa552b2ff1f556c7ec47e56c6185a37d7645f29ae321210bedaed3055432",
+  "changes": [
+    [
+      "    from field_native_rom_product_037_v2 import load_inputs as load_inputs037,install as install_native037,finalize as finalize037\n",
+      "    from field_native_rom_product_037_v2 import load_inputs as load_inputs037,install as install_native037,finalize as finalize037\n    from field_native_rom_product_038_v1 import load_inputs as load_inputs038,install as install_native038,finalize as finalize038,predecessor_view as predecessor_view038\n"
+    ],
+    [
+      "    inputs037=load_inputs037(source)\n",
+      "    inputs037=load_inputs037(source)\n    inputs038=load_inputs038(source)\n"
+    ],
+    [
+      "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n",
+      "    for entry038,_ in inputs038:\n        asset038=read_json(ROOT/entry038['asset']['path'])\n        needed.update(ch for u in asset038['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n"
+    ],
+    [
+      "        appended,key_patches,keyitem_rom,native_records037=install_native037(source,appended,key_patches,keyitem_rom,inputs037,common,work/'plugins',work/'native037')\n",
+      "        appended,key_patches,keyitem_rom,native_records037=install_native037(source,appended,key_patches,keyitem_rom,inputs037,common,work/'plugins',work/'native037')\n        appended,key_patches,keyitem_rom,native_records038=install_native038(source,appended,key_patches,keyitem_rom,inputs038,common,work/'plugins',work/'native038')\n"
+    ],
+    [
+      "        from field_native_rom_product_037_v2 import verify_final\n",
+      "        from field_native_rom_product_038_v1 import verify_final\n"
+    ],
+    [
+      "    finalize037(source,target,result,inputs037,native_records037)\n",
+      "    finalize037(source,predecessor_view038(source,target,result['keyitem_rom']),result,inputs037,native_records037)\n    finalize038(source,target,result,inputs038,native_records038)\n"
+    ]
+  ],
+  "output": "tools\\build_development_patch_038_v1.py",
+  "output_sha256": "ba7e570c2b1512fd5318ec29e3981669dd8dea5f2b1fd264a852706bbc17464e",
+  "component": {
+    "path": "tools/field_native_rom_product_038_v1.py",
+    "sha256": "b48748f7a049f2c9a644ea348fa73125cafd0a04968b62c15579110b83d2a64b"
+  },
+  "scope": "Same immutable original primary and complete write plan. Prior037 whole-image CPU gate receives source-regenerated verified037 prefix/stub projection; actual038 receives separate full CPU-fixture gate. No patched-ROM input or distribution packaging."
+}

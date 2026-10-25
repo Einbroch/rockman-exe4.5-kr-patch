@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_offset": 6489016,
+  "bytes": 4608,
+  "source_block_sha256": "915d5ef52fa9ca70e1149a196187e60423a1dd30419376fde45c1eef8e193389",
+  "font": {"path":"external/fonts/Galmuri7-v2.40.4.bdf","sha256":"2a6fd090ac6d24f7392d6cc49db02ce54b9d1c01048bf8c97cbcdbc5a885cb15","license":"external/fonts/LICENSE-Galmuri-v2.40.4.md","license_sha256":"9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9","upstream":"https://github.com/quiple/galmuri","commit":"bdb86ae89466a361eb8df861222736b81ff975ef"},
+  "human_direction":"2026-10-03 user: 검증하고 진행해줘, following recommendation to redraw lettering with small Hangul pixel font; icons/frame unchanged",
+  "review":"needs_review",
+  "release_eligible":false,
+  "glyph_overrides":{"통":{"width":7,"height":8,"top":0,"bits":[124,120,64,124,16,254,68,56],"reason":"Project small-menu Tong: insert a left-stem separation row between middle and lower bars of ㅌ, keeping vowel/final from the source small glyph; distinguish Dong without scaling"}},
+  "units":[
+    {"id":"pet.obj.tournament","source":"トーナメント","translation":"토너먼트","tiles":[132,140],"advance":8},
+    {"id":"pet.obj.jack_in","source":"プラグイン","translation":"플러그인","tiles":[164,156],"advance":8},
+    {"id":"pet.obj.equipment","source":"そうび","translation":"장비","tiles":[176,184],"advance":8},
+    {"id":"pet.obj.library","source":"データライブラリ","translation":"데이터 라이브러리","tiles":[196,204],"advance":7},
+    {"id":"pet.obj.mail","source":"Eメール","translation":"메일","tiles":[216,224],"advance":8},
+    {"id":"pet.obj.communication","source":"つうしん","translation":"통신","tiles":[236,244],"advance":8},
+    {"id":"pet.obj.save","source":"セーブ","translation":"저장","tiles":[256,264],"advance":8}
+  ]
+}

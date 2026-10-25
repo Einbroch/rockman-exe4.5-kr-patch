@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A7E1C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A7E1C.tpl",
+    "sha256": "9f61cb5764c12a72172ed1687da07837db9cc8b4ce886e046f4873a573069eef"
+  },
+  "source_archive_sha256": "23264f9fc2f54d642c8e0876d435b03f24b84b4842ed251f39dc039811ada3a9",
+  "consumer": "batch500-contextual-tournament-interviews",
+  "context": "Ladiesday shoppers Orangegirl0,Pink1subchipstock/strongchips,Yellow2Wednesday/Mensdaywish. Explicitseparateportraits,notassumedgenderchange;noactualpricewrites.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-042",
+  "semantic_review": [
+    "Exactly500 stablecatalogliteral drafts:482tournamentaward/roulette/Basspostbattle/interviews plus18NPC;not500uniquesentences. Allselectedsource andexactcommand skeleton0..77 read;undefined-profilefallback90..102 readforcontext but notdrafted thisbatch.",
+    "Manualsourceconditioned drafts;noautomaticprosegeneration/harmonization/shortening. needs_review development-draft NON-DISTRIBUTION releasefalse;protectedsource/IDs/TPL/payload/commands/variables/newlines/padding immutable.",
+    "Per-scriptlocalportrait evidence separatedfrom inheritedspeaker onroulette18..22/53..57. NativecheckGlobal/checkNavi route,flag7729 switches,profiledefined versusundefined,printfunctions/buffers and30framesplitwaitdots remain. No NumberMan/otherNavi temporaryoverride orROM/save/emulatorwrites.",
+    "Dynamic Korean particles drafted with invariant possessives/하고/에게/phrasing ratherthanonefixed받침-dependentsubject/objectparticle. Exactsurroundingunselectedpunctuation retained. Adjacentinlineflow,variablesuppliedvalues,wordboundaryspacing andfinitewidth needactualconsumer/layoutreview;these drafts notinsertionready.",
+    "Distinctinterviews65..77 MegaMan,Roll,Guts,Wind,Search,Fire,Thunder,Proto,Number,Metal,Junk,Aqua,Wood andRibitta switches remain. Rollrevealsoperatorcrush;Junkjealousy/robotstutter;Numberboast/retraction/navichange threat;Searchformaloperatorversusinterviewer;Windmetaphor,Woodnature,Gutsmasculinetears,AquaTV urgency faithfullycandidateadaptations requiringhumanreview.",
+    "Source38/39 MegaManportraits andblueflames retainedwithoutinventedHeatNaviidentity. Bass3 and47/48 differplayerresponseandthreat,Heelhostswitch preserved. Rankshortlabels5/6/8 markedUI,source10ヘunresolvedremainsinledger.",
+    "Tickets19/20 openonceandcloseafter1plugout,persistentaward2/3/4different,normalversusUnderrewardratingsandAtiming preserved. 7A6778/685Cnativehour28 andunapprovedsamuraiwordplay/ladiesdayterms are unresolvedreviewcandidatesnotruntimefacts.",
+    "Font/codec/skeleton/protectedfields/132pxheuristic onlytechnicalchecks,notsemantic/human/runtimeapproval. Allremainingdraftsfirst,thenfullfont/layout/consumer/reinsertionandcumulativeROM/screen/saveQA. Inline/images/Hangulkeyboard/persistence/release stillopen."
+  ],
+  "units": [
+    {
+      "id": "7A7E1C:0:0",
+      "source": "キョウは レディースデー!\nイッパイ カいモノするわよ!",
+      "translation": "오늘은 레이디스 데이!\n쇼핑을 잔뜩 할 거야!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Ladiesday shoppers Orangegirl0,Pink1subchipstock/strongchips,Yellow2Wednesday/Mensdaywish. Explicitseparateportraits,notassumedgenderchange;noactualpricewrites.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A7E1C:1:0",
+      "source": "サブチップを カイダめして\nそれから それから・・・",
+      "translation": "서브 칩을 사 두고\n그다음은, 그다음은...",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Ladiesday shoppers Orangegirl0,Pink1subchipstock/strongchips,Yellow2Wednesday/Mensdaywish. Explicitseparateportraits,notassumedgenderchange;noactualpricewrites.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A7E1C:1:1",
+      "source": "ツヨいチップを\nシイれておきたいわね・・・",
+      "translation": "강한 칩을\n구해 두고 싶네...",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Ladiesday shoppers Orangegirl0,Pink1subchipstock/strongchips,Yellow2Wednesday/Mensdaywish. Explicitseparateportraits,notassumedgenderchange;noactualpricewrites.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A7E1C:2:0",
+      "source": "マイシュウ スイヨウビは\nレディースデーか・・・",
+      "translation": "매주 수요일은\n레이디스 데이인가...",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Ladiesday shoppers Orangegirl0,Pink1subchipstock/strongchips,Yellow2Wednesday/Mensdaywish. Explicitseparateportraits,notassumedgenderchange;noactualpricewrites.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A7E1C:2:1",
+      "source": "メンズデーも ツクって\nホしいもんだよ",
+      "translation": "맨즈 데이도 만들어\n줬으면 좋겠어",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Ladiesday shoppers Orangegirl0,Pink1subchipstock/strongchips,Yellow2Wednesday/Mensdaywish. Explicitseparateportraits,notassumedgenderchange;noactualpricewrites.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    }
+  ]
+}

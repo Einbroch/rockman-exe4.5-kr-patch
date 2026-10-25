@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "69360C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/69360C.tpl",
+    "sha256": "9e99effd90a975cdbb19b9e577930af633ae6c37f2a6af49584bd119ab01b12c"
+  },
+  "source_archive_sha256": "8d289a3d73a737f678e0eb5156780e2abc72bc27a7511c6294766087c3cc69c9",
+  "consumer": "batch500-contextual-knight-heat-profile-bugfrag",
+  "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-022",
+  "semantic_review": [
+    "Exactly500stable literals264knightprofile+225heatprofile+11bugfragfeeding;2options.2internalerrors kept inJapanese denominator;12nonJapanese punctuation/newline slots kept other-review. NoROMwrites.",
+    "Full literals and controls read;all originalvariable arguments and script ordering preserved. Quickbox92/110 vsbox10/12 observed but actualconsumerwidth/calls/portraitidentity unresolved. PriorNumberMan screenshot doesnotestablish thesespeakers.",
+    "6B8478 knight/chivalry/armor source-conditioned formal register.23まんしん context means advance towarddream,not complacency;63釈迦に説法 renderedapologyforunnecessaryadvice.81third-standardindifference and82difficultyusingonlyonechip retained.",
+    "6B8478mostlostopponent/chip61..63 distinctdefeatedopponent65..67 andmostdefeatedopponent/chip69..71;std1/2/3 Mega/Giga distinct.21..23dream vs49..51wish notcollapsed. 5/1/1/1/1/3 numerals retained mechanically perliteral,not prooflinefit.",
+    "67942426mailburn claim followedexplicitjokingretraction,notactualmaildeletion.43schooluselessclaim hasbestsubjectexception;45soloInternetclaim retractedjoke.42Woodstrength vs47Aquaweakness analogiesbest/worstsubject respectively.50wishmassage speculation retainsbelieveasyoulike;77closecombathint retainsuncertainty.",
+    "67942462mostlostchip+mostlostopponentproof/63imitateopponent vs69mostdefeatedopponent+chip timing taunt;51restthenworkhard joke retained.27directconfessionvs25loveemaildelivery socialdifference. Sourcehotfoodfatiguerecovery claim ischaracterdialogue,notmechanicorrealhealthguidance.",
+    "69360C yes/refuse meanings and2trailing option spaces/1bugfragprefixspace/endnewline preserved. Buffer3 nothardcoded;4294967295 request actualengine meaning andNone/Some sideeffects unresolved;do notpromisefullrefund. Item33 unnamed reward notassumedfeature;dailyincrement command untouched.",
+    "needs_review/NON-DISTRIBUTION/release_eligible=false. Human wording/voice/terms/consumer/layout/runtime/integration/keyboard/save/graphics/productclosure unresolved. No ROM/save/emulator/image writes."
+  ],
+  "units": [
+    {
+      "id": "69360C:1:0",
+      "source": "、\nハラヘッタ・・・",
+      "translation": ",\n배고파...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:1:1",
+      "source": "バグノカケラ ",
+      "translation": "버그조각 ",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:1:2",
+      "source": "コ\nクレナイカ・・・\n",
+      "translation": "개\n주지 않을래...\n",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:1:3",
+      "source": "あげる  ",
+      "translation": "줄게  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:1:4",
+      "source": "やだ",
+      "translation": "싫어",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:1:5",
+      "source": "ウ~~~\nハラガ ヘッタ・・・",
+      "translation": "우~~~\n배고파...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:2:0",
+      "source": "ウゥ~~・・・\nバグノカケラ タリナイ\nオデ、ハラヘッタマンマ",
+      "translation": "우우~~...\n버그조각이 모자라\n나, 아직 배고파",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:3:0",
+      "source": "イ、イタダキマスー!",
+      "translation": "자, 잘 먹을게!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:3:1",
+      "source": "モグモグ・・・",
+      "translation": "냠냠...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:3:2",
+      "source": "グフーッ!\nモ、モウクエナイ!",
+      "translation": "꺼억!\n이, 이젠 못 먹어!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "69360C:3:3",
+      "source": "ナ、ナンダカ、\nチカラガ ワイテキタゾ!",
+      "translation": "왠, 왠지,\n힘이 솟아났어!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "CompleteactualTPL1..3 andall11literalsread. Flag3585 nickname hunger;buffer3 requestedbugfragamount,optionsgive/refuse;default0 targets2/continue/continue. checkTakeBugFrags4294967295 All3 None/Somecontinue;insufficienthunger vsfullfeedchewing/burp;item33amount1 andcallJunkManDailyBugFragIncrement preserved,notportraitproof. No runtimeconsumer observations.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    }
+  ]
+}

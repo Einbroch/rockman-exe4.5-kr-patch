@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6C231C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6C231C.tpl",
+    "sha256": "789709147754d2e99596b83d9d7711bbd24aa900945292f381ce5a632940d954"
+  },
+  "source_archive_sha256": "21e3a8b16008d9199c4f6a6e69fe24110654558a886a62aca1279fffe25117e9",
+  "consumer": "batch500-contextual-followup-hint-result-alert",
+  "context": "Full TPL read. TYPE3 plugin IceMan.EXE target,not operator identity.3603/3651 wait30.",
+  "voice": "Source-conditioned manual draft;no quick speaker inferred from archive adjacency or imagery;wording unapproved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-014",
+  "semantic_review": [
+    "Exactly500 stable literals:followup403/hint8/battle3/greeting6/return6/training16/plugin3/mail14/tournament15/schedule6/reminder20. No choice literals.",
+    "Every source literal and complete control skeleton read;compact whitespace-only view retains every command/argument. Full actual schedule/plugin/return TPLs inspected;manual per-ID prose,no replacement rules.",
+    "Error-report0 in both followups and training provisional0 stay original in remaining denominator. Other provisional6D2700:0:0 inspected and not included.",
+    "ElecMan portrait only6C7A34:21..26. PlantMan self-name only6CC808 script1 not evidence for all neighbouring scripts. Plugin target is not operator identity.",
+    "Electrical voltage vs current and tingling romance/battle imagery retained;30man/100man/60/50/40 digits preserve source. Source battery3/4 rendered Korean3호/4호,button distinct;needs terminology review.",
+    "Plant food/nectar/life fertilizer and flower metaphors;fire vulnerability not automatically curable vs human subject difficulty;mail refusal remains narrative wording,not implemented filter evidence.",
+    "Shepherds purseペンペングサ rendered냉이,caroteneカロチン rendered카로틴;new terminology/unverified spellings await human review. Sourceつくしい training omission treated美しい from preceding contrast,recorded unapproved.",
+    "Tournament cherry petals/rebloom/winning flower preserved;no-entry cancel separate. Remindercharging correction/cram-school teacher thunder idiom and quick/portrait branches preserved.",
+    "All school/family/food/hobby/dream/enemy/TV/subject/opponent/chip print variants,wait/flags/formatting untouched. Training HP33 amount1 vs zenny/bug4294967295 buffer3 count order preserved.",
+    "NON-DISTRIBUTION/needs_review;no ROM/save/emulator/image writes;static checks do not approve wording/layout or prove runtime."
+  ],
+  "units": [
+    {
+      "id": "6C231C:1:0",
+      "source": "プラグイン!\nアイスマン.EXE、\nトランスミッション!!",
+      "translation": "플러그인!\n아이스맨.EXE,\n트랜스미션!!",
+      "state": "needs_review",
+      "speaker": "plugin-call-speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full TPL read. TYPE3 plugin IceMan.EXE target,not operator identity.3603/3651 wait30.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    }
+  ]
+}

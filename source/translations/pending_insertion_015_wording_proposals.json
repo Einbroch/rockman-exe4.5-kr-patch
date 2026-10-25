@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "review": "needs_review",
+  "approved": false,
+  "proposals": [
+    {"id":"exe45.wording.pending015.7C9C44.0.0","unit_id":"7C9C44:0:0","translation":"여긴 영원한 증오가\n휘몰아치는 세계···","rationale":"Preserve here, eternal hatred and its turbulent swirling world. Contract 여기는 to 여긴 and use 휘몰아치는 for the turbulent motion. Same two-line/page structure; original draft is retained. No speaker identity is inferred."},
+    {"id":"exe45.wording.pending015.7C9C44.0.1","unit_id":"7C9C44:0:1","translation":"밉다···밉다···\n온 세상이···","rationale":"Retain repeated hatred, pauses and the unfinished all-of-this-world subject. 온 세상이 expresses the whole world without adding a completed predicate. Same two-line structure; original more literal formulation remains a review alternative."}
+  ]
+}

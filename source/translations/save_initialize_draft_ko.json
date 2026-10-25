@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6368E8",
+  "source_archive_sha256": "816d719a806e861faf90bdf61bb960ff20eb965001871274387fce2542711c74",
+  "scope_variant": "save-initialize-draft-v1",
+  "consumer": "normal-dialogue",
+  "context": "Neutral common system UI, scripts96..98. Source explicitly names save data initialization, then callSaveErase with success98 and failure/retry96. Initial default1 is No; retry default0 is Yes. Actual screen/caller unverified. No character/speaker ambiguity.",
+  "review": {"wording": "needs_review", "layout": "needs_runtime_review", "release_eligible": false},
+  "insertion_state": "explicit development draft; source/control checks required before selection",
+  "protected_policy": "Preserve save-data initialization meaning, power-off prohibition, failure/retry/completion and all commands including callSaveErase, wait60, flags3629, option/default/targets. Preserve source prompt row topology; no save initialization is authorized for user saves by this translation asset.",
+  "units": [
+    {"id": "6368E8:96:0", "source": "セーブデータを しょきかします\nよろしいですか?\n", "translation": "저장 데이터를\n초기화할까요?\n", "state": "needs_review"},
+    {"id": "6368E8:96:1", "source": "はい  ", "translation": "예  ", "state": "needs_review"},
+    {"id": "6368E8:96:2", "source": "いいえ", "translation": "아니요", "state": "needs_review"},
+    {"id": "6368E8:97:0", "source": "しょきかちゅうです\nでんげんを おとさないで\nください", "translation": "초기화 중입니다\n전원을 끄지 마세요", "state": "needs_review"},
+    {"id": "6368E8:97:1", "source": "しょきかに\nしっぱいしました", "translation": "초기화에\n실패했습니다", "state": "needs_review"},
+    {"id": "6368E8:97:2", "source": "もういちど しょきかしますか?\n\n", "translation": "다시 초기화할까요?\n\n", "state": "needs_review"},
+    {"id": "6368E8:97:3", "source": "はい  ", "translation": "예  ", "state": "needs_review"},
+    {"id": "6368E8:97:4", "source": "いいえ", "translation": "아니요", "state": "needs_review"},
+    {"id": "6368E8:98:0", "source": "しょきかが おわりました", "translation": "초기화가 끝났습니다", "state": "needs_review"}
+  ]
+}

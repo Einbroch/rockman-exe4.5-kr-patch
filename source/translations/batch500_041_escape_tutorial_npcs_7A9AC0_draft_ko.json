@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A9AC0",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A9AC0.tpl",
+    "sha256": "3f5022bafe5eb464155232b9c7985206a1efe6320df66976e8d4a453a81200a6"
+  },
+  "source_archive_sha256": "ab5e5340baa0f0db0efd34063a0a42a80ee582d931bc5d8c55a4d663113a7345",
+  "consumer": "batch500-contextual-escape-tutorial-npcs",
+  "context": "OfficialNavi joggingpatrol crimeprevention/fitnessUP andattributeadvice;todaywooddisadvantage statement retainedwithoutinventingcause suchasfixedfirearena/dayeffect.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-041",
+  "semantic_review": [
+    "Exactly500Japanese stable catalog literals in9archives:81minigameexplanations,46bustingtutorial,278target/range/escape incl126splitdots,95NPC/Everydaytournament. playerchoices58/UIlabels38;not500uniqueprose sentences.",
+    "Manual source-conditioned drafts afterallselectedliterals read;full8nonbattleTPLs,exactbattleskeleton0..53 pluscontroltemplatecomparisons54..137 andexplicitdispatch138..143. Nativecommands/IDs/source/TPL/payload immutable;no rules generatingorchoosingprose.",
+    "needs_review development-draft NON-DISTRIBUTION releasefalse;originalROM/baselineROM/catalog/save/emulator/images/keyboard preserved. Glyph/codec/control/newline/padding/132px heuristic cannot approve meaning or runtime.",
+    "71BE98:2:0 combinedchiplabel remains source/untranslateddenominator;no inventedsplit. BattlealreadyselectedMega/Roll non-drafttext andnonJapanese punctuation/times unchanged;126native splitdots are presentationunits,notmissing dialoguepadding.",
+    "Battle localportraits preserved andmmbn45s labels not assignedspokenNavi. Dispatch138..143 offset/selfjump anomalies are heldforconsumeranalysis,notfixedbyguess. Escapepermission/success/failure/prohibition andcharacterhumour separate;18frame waits/options/trailingnewlines preserved.",
+    "Minigame rules 1/0/3/9 thresholds,icecrack nextturn vsvirusattack nextturn,3hitnotHPquantity,same3chipsPA,line-abovepreview versusline-belowclear,1turn1countbomb/bonus and dynamicreward3buffer protected. Freezeinfectioncertainty6 differs fromapparentinfection7. No actualdamage/currency writes.",
+    "Tutorial distinguishesDpad strategyfromautonomousmovement,range notexactguarantee,Rdescription/Lescape beforebattle vsR/Lactions duringbattle,colourthreshold/initialyellow/randomchips/Bshufflegaugecost andretargetup/rangedown. Buttonletters/gaugelevelsprotected;newwording humanreviewpending.",
+    "Everydayhourranges/entryflag/cancel/tournament6 andstatueitem7quotes protected;Gold/platinum joke anduniversalstrength unchanged. Merchantportraitswitch andWednesdaywish separated,not actualprice/genderchange. Patrolsong/lightyearhyperbole/English/oilyboomerjokes are candidates needinghumanjudgment.",
+    "Unresolvedconsumerwidth/inline/font/images/nameentrysavecompatibility/reachability/runtime/release remain. Finishdrafts beforecumulativeROM/font/layout/insertion/screens/saveQA;oldtermvariants not autoharmonized."
+  ],
+  "units": [
+    {
+      "id": "7A9AC0:0:0",
+      "source": "ハァハァ、ハァハァ・・・",
+      "translation": "하아하아, 하아하아...",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi joggingpatrol crimeprevention/fitnessUP andattributeadvice;todaywooddisadvantage statement retainedwithoutinventingcause suchasfixedfirearena/dayeffect.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A9AC0:0:1",
+      "source": "ランニングをしながら\nパトロールしてるんだよ",
+      "translation": "달리기를 하면서\n순찰하고 있어",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi joggingpatrol crimeprevention/fitnessUP andattributeadvice;todaywooddisadvantage statement retainedwithoutinventingcause suchasfixedfirearena/dayeffect.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A9AC0:0:2",
+      "source": "ハンザイボウシと、\nタイリョクUPが デキて、\nイッセキニチョウだよ!",
+      "translation": "범죄 예방도 하고,\n체력UP도 되니,\n일석이조야!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi joggingpatrol crimeprevention/fitnessUP andattributeadvice;todaywooddisadvantage statement retainedwithoutinventingcause suchasfixedfirearena/dayeffect.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A9AC0:1:0",
+      "source": "ゾクセイは バトルにおいて\nジュウヨウな ヨウソだ",
+      "translation": "속성은 배틀에서\n중요한 요소야",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi joggingpatrol crimeprevention/fitnessUP andattributeadvice;todaywooddisadvantage statement retainedwithoutinventingcause suchasfixedfirearena/dayeffect.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A9AC0:1:1",
+      "source": "キョウなんかは、\nキゾクセイは アットウテキに\nフリだな・・・",
+      "translation": "오늘 같은 날은,\n나무 속성이 압도적으로\n불리하네...",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi joggingpatrol crimeprevention/fitnessUP andattributeadvice;todaywooddisadvantage statement retainedwithoutinventingcause suchasfixedfirearena/dayeffect.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    }
+  ]
+}

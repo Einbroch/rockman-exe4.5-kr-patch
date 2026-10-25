@@ -1,0 +1,7696 @@
+{
+  "schema": 1,
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "policy": "development-only source-pinned raw relocation plus explicitly registered library LZ10; no interior pointer rewriting",
+  "default_translations": [
+    "translations/megaman_intro_ko.json",
+    "translations/megaman_pet_menu_ko.json",
+    "translations/megaman_save_ko.json",
+    "translations/library_headers_ko.json"
+  ],
+  "archives": {
+    "667044": {
+      "variants": {
+"gutsman-profile-wishlist-v1": {
+  "literal_scripts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    31,
+    32,
+    33,
+    34,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "nickname_suffix_profiles": [
+    {
+      "script": 27,
+      "literal": 0,
+      "source_first_line": "、",
+      "first_line": "、"
+    },
+    {
+      "script": 27,
+      "literal": 2,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 29,
+      "literal": 0,
+      "source_first_line": "、",
+      "first_line": "、"
+    },
+    {
+      "script": 29,
+      "literal": 2,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 32,
+      "literal": 0,
+      "source_first_line": "は",
+      "first_line": "、"
+    },
+    {
+      "script": 32,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 33,
+      "literal": 0,
+      "source_first_line": "は",
+      "first_line": "、"
+    },
+    {
+      "script": 33,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 34,
+      "literal": 0,
+      "source_first_line": "は",
+      "first_line": "、"
+    },
+    {
+      "script": 34,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 9,
+      "literal": 1,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 11,
+      "literal": 4,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 13,
+      "literal": 2,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 15,
+      "literal": 1,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 15,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 17,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 19,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 21,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 23,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 25,
+      "literal": 2,
+      "source_first_line": "が",
+      "first_line": "、"
+    },
+    {
+      "script": 88,
+      "literal": 1,
+      "source_first_line": "が",
+      "first_line": "、"
+    },
+    {
+      "script": 1,
+      "literal": 3,
+      "source_first_line": "は、",
+      "first_line": "、"
+    },
+    {
+      "script": 3,
+      "literal": 2,
+      "source_first_line": "は",
+      "first_line": "、"
+    },
+    {
+      "script": 5,
+      "literal": 2,
+      "source_first_line": "、",
+      "first_line": "、"
+    },
+    {
+      "script": 7,
+      "literal": 2,
+      "source_first_line": "って、",
+      "first_line": "、"
+    },
+    {
+      "script": 40,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 43,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 46,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 49,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 52,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 55,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 58,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 61,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 31,
+      "literal": 2,
+      "source_first_line": "は",
+      "first_line": "、"
+    }
+  ],
+  "context": "GutsMan wishlist question31, final3 fixed literals of source archive667044. Exact prior150 retained; nickname suffix comma and input-init3605/3606 controls preserved. All153 extracted fixed literals selected; NOT full dynamic player-string/Hangul input or native question-selection coverage. Manual development draft; NON-DISTRIBUTION.",
+  "standalone_choice_rows": [
+    {
+      "script": 1,
+      "literals": [
+        4,
+        5
+      ],
+      "prefix_pixels": 16
+    },
+    {
+      "script": 3,
+      "literals": [
+        3,
+        4
+      ],
+      "prefix_pixels": 16
+    },
+    {
+      "script": 5,
+      "literals": [
+        3,
+        4
+      ],
+      "prefix_pixels": 16
+    },
+    {
+      "script": 7,
+      "literals": [
+        3,
+        4
+      ],
+      "prefix_pixels": 16
+    }
+  ],
+  "choice_groups": [
+    {
+      "script": 41,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 44,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 47,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 50,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 53,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 56,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 59,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 62,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    }
+  ]
+},
+"gutsman-profile-answers-v1": {
+  "literal_scripts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    27,
+    29,
+    32,
+    33,
+    34,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ],
+  "nickname_suffix_profiles": [
+    {
+      "script": 27,
+      "literal": 0,
+      "source_first_line": "、",
+      "first_line": "、"
+    },
+    {
+      "script": 27,
+      "literal": 2,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 29,
+      "literal": 0,
+      "source_first_line": "、",
+      "first_line": "、"
+    },
+    {
+      "script": 29,
+      "literal": 2,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 32,
+      "literal": 0,
+      "source_first_line": "は",
+      "first_line": "、"
+    },
+    {
+      "script": 32,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 33,
+      "literal": 0,
+      "source_first_line": "は",
+      "first_line": "、"
+    },
+    {
+      "script": 33,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 34,
+      "literal": 0,
+      "source_first_line": "は",
+      "first_line": "、"
+    },
+    {
+      "script": 34,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 9,
+      "literal": 1,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 11,
+      "literal": 4,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 13,
+      "literal": 2,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 15,
+      "literal": 1,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 15,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 17,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 19,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 21,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 23,
+      "literal": 3,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 25,
+      "literal": 2,
+      "source_first_line": "が",
+      "first_line": "、"
+    },
+    {
+      "script": 88,
+      "literal": 1,
+      "source_first_line": "が",
+      "first_line": "、"
+    },
+    {
+      "script": 1,
+      "literal": 3,
+      "source_first_line": "は、",
+      "first_line": "、"
+    },
+    {
+      "script": 3,
+      "literal": 2,
+      "source_first_line": "は",
+      "first_line": "、"
+    },
+    {
+      "script": 5,
+      "literal": 2,
+      "source_first_line": "、",
+      "first_line": "、"
+    },
+    {
+      "script": 7,
+      "literal": 2,
+      "source_first_line": "って、",
+      "first_line": "、"
+    },
+    {
+      "script": 40,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 43,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 46,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 49,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 52,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 55,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 58,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    },
+    {
+      "script": 61,
+      "literal": 0,
+      "source_first_line": "の",
+      "first_line": "、"
+    }
+  ],
+  "context": "GutsMan stored-answer redisplay40..63 fixed prose only. Native printStringBuffer1/2/3, flags, global checks, input initialization and selection retained. Exact prior110 carried. New40 manually drafted; dynamic answer production, Hangul input/edit/commit/save/reload and native redisplay selection remain unresolved. NON-DISTRIBUTION.",
+  "standalone_choice_rows": [
+    {
+      "script": 1,
+      "literals": [
+        4,
+        5
+      ],
+      "prefix_pixels": 16
+    },
+    {
+      "script": 3,
+      "literals": [
+        3,
+        4
+      ],
+      "prefix_pixels": 16
+    },
+    {
+      "script": 5,
+      "literals": [
+        3,
+        4
+      ],
+      "prefix_pixels": 16
+    },
+    {
+      "script": 7,
+      "literals": [
+        3,
+        4
+      ],
+      "prefix_pixels": 16
+    }
+  ],
+  "choice_groups": [
+    {
+      "script": 41,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 44,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 47,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 50,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 53,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 56,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 59,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    },
+    {
+      "script": 62,
+      "literals": [
+        0,
+        1,
+        2
+      ],
+      "prompt_rows": 3
+    }
+  ]
+},
+        "gutsman-profile-family-v1": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            32,
+            33,
+            34,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+          ],
+          "nickname_suffix_profiles": [
+            {
+              "script": 27,
+              "literal": 0,
+              "source_first_line": "、",
+              "first_line": "、"
+            },
+            {
+              "script": 27,
+              "literal": 2,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 29,
+              "literal": 0,
+              "source_first_line": "、",
+              "first_line": "、"
+            },
+            {
+              "script": 29,
+              "literal": 2,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 32,
+              "literal": 0,
+              "source_first_line": "は",
+              "first_line": "、"
+            },
+            {
+              "script": 32,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 33,
+              "literal": 0,
+              "source_first_line": "は",
+              "first_line": "、"
+            },
+            {
+              "script": 33,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 34,
+              "literal": 0,
+              "source_first_line": "は",
+              "first_line": "、"
+            },
+            {
+              "script": 34,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 9,
+              "literal": 1,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 11,
+              "literal": 4,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 13,
+              "literal": 2,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 15,
+              "literal": 1,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 15,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 17,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 19,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 21,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 23,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 25,
+              "literal": 2,
+              "source_first_line": "が",
+              "first_line": "、"
+            },
+            {
+              "script": 88,
+              "literal": 1,
+              "source_first_line": "が",
+              "first_line": "、"
+            },
+            {
+              "script": 1,
+              "literal": 3,
+              "source_first_line": "は、",
+              "first_line": "、"
+            },
+            {
+              "script": 3,
+              "literal": 2,
+              "source_first_line": "は",
+              "first_line": "、"
+            },
+            {
+              "script": 5,
+              "literal": 2,
+              "source_first_line": "、",
+              "first_line": "、"
+            },
+            {
+              "script": 7,
+              "literal": 2,
+              "source_first_line": "って、",
+              "first_line": "、"
+            }
+          ],
+          "context": "GutsMan native sibling questions1/3/5/7, absence reactions2/4/6/8, Yes/No labels and name prompts. Source siblings distinguished; older brother/sister Korean dual kinship terms avoid assuming player gender. Retain nickname, flags, select default0/No jump, BSeparate=false observed B->No (third target=continue is not B route), input init and all controls. Exact prior81 carried; new29 manually drafted. Guarded renderer/branch diagnostics are not normal sibling selection or Hangul input/persistence evidence.",
+          "standalone_choice_rows": [
+            {
+              "script": 1,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 3,
+              "literals": [
+                3,
+                4
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 5,
+              "literals": [
+                3,
+                4
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 7,
+              "literals": [
+                3,
+                4
+              ],
+              "prefix_pixels": 16
+            }
+          ]
+        },
+        "gutsman-profile-questions-v1": {
+          "literal_scripts": [
+            9,
+            11,
+            13,
+            15,
+            17,
+            19,
+            21,
+            23,
+            25,
+            27,
+            29,
+            32,
+            33,
+            34,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+          ],
+          "nickname_suffix_profiles": [
+            {
+              "script": 27,
+              "literal": 0,
+              "source_first_line": "、",
+              "first_line": "、"
+            },
+            {
+              "script": 27,
+              "literal": 2,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 29,
+              "literal": 0,
+              "source_first_line": "、",
+              "first_line": "、"
+            },
+            {
+              "script": 29,
+              "literal": 2,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 32,
+              "literal": 0,
+              "source_first_line": "は",
+              "first_line": "、"
+            },
+            {
+              "script": 32,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 33,
+              "literal": 0,
+              "source_first_line": "は",
+              "first_line": "、"
+            },
+            {
+              "script": 33,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 34,
+              "literal": 0,
+              "source_first_line": "は",
+              "first_line": "、"
+            },
+            {
+              "script": 34,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 9,
+              "literal": 1,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 11,
+              "literal": 4,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 13,
+              "literal": 2,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 15,
+              "literal": 1,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 15,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 17,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 19,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 21,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 23,
+              "literal": 3,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 25,
+              "literal": 2,
+              "source_first_line": "が",
+              "first_line": "、"
+            },
+            {
+              "script": 88,
+              "literal": 1,
+              "source_first_line": "が",
+              "first_line": "、"
+            }
+          ],
+          "context": "GutsMan native post-internet profile questions9/11/13/15/17/19/21/23/25 and nickname reaction88. Source gender dispatch17->19 retained. Food11 and reaction88 join literals on one page around a native nickname. Rolled name fragment ロー remains incomplete 로, not expanded. Existing40 profile units exact carry; other67 scripts preserved. New41 manually drafted; renderer diagnostics are not normal response selection or Hangul input/persistence evidence."
+        }
+      },
+      "source_bytes": 5225,
+      "pointers": [229688],
+      "consumer": "normal-dialogue",
+      "script_count": 97,
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [27,29,32,33,34,80,81,82,83,84,85,86,87,89,90,91,92,93,94,95],
+      "nickname_suffix_profiles": [
+        {"script":27,"literal":0,"source_first_line":"、","first_line":"、"},
+        {"script":27,"literal":2,"source_first_line":"の","first_line":"、"},
+        {"script":29,"literal":0,"source_first_line":"、","first_line":"、"},
+        {"script":29,"literal":2,"source_first_line":"の","first_line":"、"},
+        {"script":32,"literal":0,"source_first_line":"は","first_line":"、"},
+        {"script":32,"literal":3,"source_first_line":"の","first_line":"、"},
+        {"script":33,"literal":0,"source_first_line":"は","first_line":"、"},
+        {"script":33,"literal":3,"source_first_line":"の","first_line":"、"},
+        {"script":34,"literal":0,"source_first_line":"は","first_line":"、"},
+        {"script":34,"literal":3,"source_first_line":"の","first_line":"、"}
+      ],
+      "context": "GutsMan post-internet personal-profile dialogue. Source667044/native PET root38138. Normal script29 and keyboard transition observed on gutsman-plugout-v1. Subject27/29; age-dependent preschool32/school33/company34; variable-free reactions80..95 except nickname-dependent88. Retain nickname and all flags/checkGlobal/input initialization/97 slots. Adopt132px portrait-window range. Normal entry selection for remaining branches unresolved; renderer diagnostics distinct from acquisition/input persistence."
+    },
+    "709408": {
+      "source_bytes": 763,
+      "pointers": [215596, 312808],
+      "compressed": true,
+      "consumer": "normal-dialogue",
+      "script_count": 49,
+      "max_literal_rows": 2,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [32],
+      "literal_ids": ["709408:32:0"],
+      "protected_numeral_ids": ["709408:32:0"],
+      "compression": "BIOS type-10 literal-only, 4-byte aligned, zero-padded",
+      "max_payload_bytes": 1291,
+      "source_extent_only_destinations": [33687552, 33755136],
+      "context": "Shared empty item message; exact duplicate10/11 sharing, no RAM growth. Original21..32 aliases maintained. Both native root pointers updated."
+    },
+    "661060": {
+      "source_bytes": 1351,
+      "pointers": [
+        229612
+      ],
+      "consumer": "normal-dialogue",
+      "script_count": 255,
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "literal_ids": [
+        "661060:1:1",
+        "661060:2:1",
+        "661060:3:1",
+        "661060:4:1",
+        "661060:5:1",
+        "661060:6:1",
+        "661060:7:1",
+        "661060:20:1",
+        "661060:21:1",
+        "661060:22:1",
+        "661060:23:1",
+        "661060:24:1",
+        "661060:25:1",
+        "661060:26:1"
+      ],
+      "nickname_suffix_scripts": [
+        1,
+        2,
+        3
+      ],
+      "nickname_suffix_literal": 1,
+      "context": "Roll native mail arrival. Only literal1 selected; fourteen initial !! literals unchanged. Sound155 twice, wait96 twice, nickname, flags and mail delivery/tournament commands preserved. Normal script1 observed; other thirteen native event branches pending."
+    },
+    "661754": {
+      "source_bytes": 260,
+      "pointers": [
+        229624
+      ],
+      "consumer": "normal-dialogue",
+      "script_count": 14,
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        1,
+        3,
+        10,
+        12
+      ],
+      "context": "Five variable-free reminder/schedule literals. Script2 event name and script11 clock/AMPM/event-name bytes, all lookup commands and other10 slots preserved. Dynamic supply/native reminder progression pending.",
+      "variants": {
+        "clock-suffix-v1": {
+          "literal_scripts": [
+            1,
+            3,
+            10,
+            11,
+            12
+          ],
+          "literal_ids": [
+            "661754:1:0",
+            "661754:3:0",
+            "661754:10:0",
+            "661754:10:1",
+            "661754:11:2",
+            "661754:12:0"
+          ],
+          "schedule_variable_profile": "non-growing-clock-suffix-v1",
+          "context": "Add one time suffix, dynamic commands/event names and six unselected literals unchanged. Native 02:00 AM meal listing observed; other name/time populations pending."
+        }
+      }
+    },
+    "661858": {
+      "source_bytes": 5121,
+      "pointers": [
+        229628
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "nickname_suffix_script": 7,
+      "nickname_suffix_literal": 3,
+      "nickname_suffix_source_first_line": "は、",
+      "nickname_suffix_first_line": "、",
+      "literal_scripts": [
+        7,
+        8
+      ],
+      "standalone_choice_rows": [
+        {
+          "script": 7,
+          "literals": [
+            4,
+            5
+          ],
+          "prefix_pixels": 16
+        }
+      ],
+      "variants": {
+        "all-siblings-food-subjects": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            27,
+            29
+          ],
+          "nickname_suffix_scripts": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "nickname_suffix_profiles": [
+            {
+              "script": 11,
+              "literal": 2,
+              "source_first_line": "は",
+              "first_line": "、"
+            },
+            {
+              "script": 27,
+              "literal": 1,
+              "source_first_line": "の",
+              "first_line": "、"
+            },
+            {
+              "script": 29,
+              "literal": 2,
+              "source_first_line": "の",
+              "first_line": "、"
+            }
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 1,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 3,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 5,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 7,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            }
+          ],
+          "context": "Siblings, food11 and strong/weak subjects27/29;86 others preserved including all input/redisplay scripts."
+        },
+        "all-siblings-food": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          "nickname_suffix_scripts": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "nickname_suffix_profiles": [
+            {
+              "script": 11,
+              "literal": 2,
+              "source_first_line": "は",
+              "first_line": "、"
+            }
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 1,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 3,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 5,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 7,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            }
+          ],
+          "context": "Four sibling scenes plus favorite food11; native nickname/flags preserved,88 other scripts byte-identical."
+        },
+        "all-siblings": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "nickname_suffix_scripts": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 1,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 3,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 5,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 7,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            }
+          ],
+          "context": "Four sibling conversations1..8 only; keep89 other scripts and all name-entry/native routing commands."
+        },
+        "older-younger-sisters": {
+          "literal_scripts": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "nickname_suffix_scripts": [
+            5,
+            7
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 5,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            },
+            {
+              "script": 7,
+              "literals": [
+                4,
+                5
+              ],
+              "prefix_pixels": 16
+            }
+          ],
+          "context": "Roll older and younger sister conversations5/6/7/8; native entry recipes distinct. Preserve93 other scripts, player nickname and all flags/name-entry commands."
+        }
+      },
+      "script_count": 97,
+      "context": "Roll post-internet younger sister dialogue only7/8. Topic suffix は、 becomes exact native comma with reduced width and no Korean particle. Choice row on separate cleared page; source prefix16/space1/Yes/space1/No. Keep95 other scripts and name-entry flags unchanged."
+    },
+    "665698": {
+      "source_bytes": 2077,
+      "pointers": [
+        205540
+      ],
+      "script_count": 255,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 183,
+      "complete_literal_scope": false,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        20,
+        21
+      ],
+      "literal_ids": [
+        "665698:20:0",
+        "665698:21:0"
+      ],
+      "variants": {
+        "calendar-content-v1": {
+          "literal_scripts": [
+            20,
+            21,
+            22,
+            23
+          ],
+          "literal_ids": [
+            "665698:20:0",
+            "665698:21:0",
+            "665698:22:0",
+            "665698:23:0"
+          ],
+          "context": "Four native input questions; standard GutsMan mugshot52,110. Two prior units read-only; confirmation/choices/record controls unchanged,67 other literals/251 spans preserved."
+        },
+        "calendar-confirmation-v1": {
+          "literal_scripts": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "literal_ids": [
+            "665698:20:0",
+            "665698:21:0",
+            "665698:22:0",
+            "665698:23:0",
+            "665698:24:0",
+            "665698:24:1",
+            "665698:24:2"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            }
+          ],
+          "context": "Four retained input questions plus native confirmation24. Exact two-newline prompt, horizontal option geometry/default Yes/No/B/clear/targets and two-space Yes padding protected;66 other literals/250 spans preserved."
+        },
+        "calendar-home-v1": {
+          "literal_scripts": [
+            0,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "literal_ids": [
+            "665698:0:0",
+            "665698:0:1",
+            "665698:0:2",
+            "665698:20:0",
+            "665698:21:0",
+            "665698:22:0",
+            "665698:23:0",
+            "665698:24:0",
+            "665698:24:1",
+            "665698:24:2"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            }
+          ],
+          "context": "Seven retained input/confirmation literals plus dynamic calendar home0. Month/day buffer calls, padding, exact one-newline final literal and all confirmation choices protected;63 other literals/249 spans preserved."
+        },
+        "calendar-register-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "literal_ids": [
+            "665698:20:0",
+            "665698:21:0",
+            "665698:22:0",
+            "665698:23:0",
+            "665698:24:0",
+            "665698:24:1",
+            "665698:24:2",
+            "665698:0:0",
+            "665698:0:1",
+            "665698:0:2",
+            "665698:1:0",
+            "665698:2:0",
+            "665698:2:1",
+            "665698:2:2"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            }
+          ],
+          "context": "Ten retained home/input/confirmation literals plus normal registration date1 and type choice2. Both one-newline layouts, vertical options/default/BSeparate/clear/targets and confirmation geometry protected;59 other literals/247 spans preserved."
+        },
+        "calendar-anniversary-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            20,
+            21,
+            22,
+            23,
+            24,
+            31
+          ],
+          "literal_ids": [
+            "665698:20:0",
+            "665698:21:0",
+            "665698:22:0",
+            "665698:23:0",
+            "665698:24:0",
+            "665698:24:1",
+            "665698:24:2",
+            "665698:0:0",
+            "665698:0:1",
+            "665698:0:2",
+            "665698:1:0",
+            "665698:2:0",
+            "665698:2:1",
+            "665698:2:2",
+            "665698:31:0"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            }
+          ],
+          "context": "Fourteen retained calendar literals plus anniversary prompt31 paired with fixed-cell selector73. Single newline and all prior controls protected;58 other literals/246 spans preserved."
+        },
+        "calendar-anniversary-confirmation-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            20,
+            21,
+            22,
+            23,
+            24,
+            31,
+            33
+          ],
+          "literal_ids": [
+            "665698:20:0",
+            "665698:21:0",
+            "665698:22:0",
+            "665698:23:0",
+            "665698:24:0",
+            "665698:24:1",
+            "665698:24:2",
+            "665698:0:0",
+            "665698:0:1",
+            "665698:0:2",
+            "665698:1:0",
+            "665698:2:0",
+            "665698:2:1",
+            "665698:2:2",
+            "665698:31:0",
+            "665698:33:0",
+            "665698:33:1",
+            "665698:33:2"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 33,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            }
+          ],
+          "context": "Fifteen retained calendar literals plus anniversary confirmation33 prompt and Yes/No; choices and all controls preserved."
+        },
+        "calendar-navigation-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            6,
+            7,
+            20,
+            21,
+            22,
+            23,
+            24,
+            31,
+            33
+          ],
+          "literal_ids": [
+            "665698:20:0",
+            "665698:21:0",
+            "665698:22:0",
+            "665698:23:0",
+            "665698:24:0",
+            "665698:24:1",
+            "665698:24:2",
+            "665698:0:0",
+            "665698:0:1",
+            "665698:0:2",
+            "665698:1:0",
+            "665698:2:0",
+            "665698:2:1",
+            "665698:2:2",
+            "665698:31:0",
+            "665698:33:0",
+            "665698:33:1",
+            "665698:33:2",
+            "665698:6:0",
+            "665698:7:0",
+            "665698:7:1",
+            "665698:7:2"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 33,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            }
+          ],
+          "context": "GutsMan calendar return registration-type menu7 and query date question6. Parent18 units immutable."
+        },
+        "calendar-management-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            20,
+            21,
+            22,
+            23,
+            24,
+            30,
+            31,
+            32,
+            33,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            52
+          ],
+          "literal_ids": [
+            "665698:20:0",
+            "665698:21:0",
+            "665698:22:0",
+            "665698:23:0",
+            "665698:24:0",
+            "665698:24:1",
+            "665698:24:2",
+            "665698:0:0",
+            "665698:0:1",
+            "665698:0:2",
+            "665698:1:0",
+            "665698:2:0",
+            "665698:2:1",
+            "665698:2:2",
+            "665698:31:0",
+            "665698:33:0",
+            "665698:33:1",
+            "665698:33:2",
+            "665698:6:0",
+            "665698:7:0",
+            "665698:7:1",
+            "665698:7:2",
+            "665698:3:0",
+            "665698:4:0",
+            "665698:4:1",
+            "665698:5:0",
+            "665698:5:1",
+            "665698:5:2",
+            "665698:8:0",
+            "665698:8:1",
+            "665698:8:2",
+            "665698:30:0",
+            "665698:30:1",
+            "665698:30:2",
+            "665698:32:0",
+            "665698:40:0",
+            "665698:41:0",
+            "665698:42:0",
+            "665698:43:0",
+            "665698:44:0",
+            "665698:45:0",
+            "665698:52:3",
+            "665698:52:4",
+            "665698:52:5",
+            "665698:52:6"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 33,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 30,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 52,
+              "literals": [
+                5,
+                6
+              ],
+              "prefix_pixels": 24
+            }
+          ],
+          "context": "GutsMan calendar errors3/4, deletion selectors5/8, overwrite30, registration place32, PET help40..45, anniversary deletion52. Parent22 immutable; some branches remain static-only development inputs."
+        },
+        "calendar-inventory-v1": {"literal_scripts":[0,1,2,3,4,5,6,7,8,10,20,21,22,23,24,25,30,31,32,33,40,41,42,43,44,45,50,51,52],"literal_ids":["665698:20:0","665698:21:0","665698:22:0","665698:23:0","665698:24:0","665698:24:1","665698:24:2","665698:0:0","665698:0:1","665698:0:2","665698:1:0","665698:2:0","665698:2:1","665698:2:2","665698:31:0","665698:33:0","665698:33:1","665698:33:2","665698:6:0","665698:7:0","665698:7:1","665698:7:2","665698:3:0","665698:4:0","665698:4:1","665698:5:0","665698:5:1","665698:5:2","665698:8:0","665698:8:1","665698:8:2","665698:30:0","665698:30:1","665698:30:2","665698:32:0","665698:40:0","665698:41:0","665698:42:0","665698:43:0","665698:44:0","665698:45:0","665698:52:3","665698:52:4","665698:52:5","665698:52:6","665698:25:0","665698:50:5","665698:50:6","665698:50:7","665698:50:8","665698:51:6","665698:51:7","665698:51:8","665698:51:9","665698:10:0","665698:10:1","665698:10:2"],"standalone_choice_rows":[{"script":24,"literals":[1,2],"prefix_pixels":24},{"script":33,"literals":[1,2],"prefix_pixels":24},{"script":30,"literals":[1,2],"prefix_pixels":24},{"script":52,"literals":[5,6],"prefix_pixels":24},{"script":50,"literals":[7,8],"prefix_pixels":24},{"script":51,"literals":[8,9],"prefix_pixels":24}],"context":"Retain54 calendar units; add only possessions10 three literals with source-pinned prefix/nickname/suffix aggregate44px and unchanged one-option/select controls.","nickname_suffix_scripts":[25],"nickname_aggregate_profiles":[{"script":10,"prefix_literal":0,"suffix_literal":1,"source_prefix":"これが","source_suffix":"の","prefix":"이건 ","suffix":"의","static_advance":44}]},
+        "calendar-schedule-delete-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            30,
+            31,
+            32,
+            33,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            50,
+            51,
+            52
+          ],
+          "literal_ids": [
+            "665698:20:0",
+            "665698:21:0",
+            "665698:22:0",
+            "665698:23:0",
+            "665698:24:0",
+            "665698:24:1",
+            "665698:24:2",
+            "665698:0:0",
+            "665698:0:1",
+            "665698:0:2",
+            "665698:1:0",
+            "665698:2:0",
+            "665698:2:1",
+            "665698:2:2",
+            "665698:31:0",
+            "665698:33:0",
+            "665698:33:1",
+            "665698:33:2",
+            "665698:6:0",
+            "665698:7:0",
+            "665698:7:1",
+            "665698:7:2",
+            "665698:3:0",
+            "665698:4:0",
+            "665698:4:1",
+            "665698:5:0",
+            "665698:5:1",
+            "665698:5:2",
+            "665698:8:0",
+            "665698:8:1",
+            "665698:8:2",
+            "665698:30:0",
+            "665698:30:1",
+            "665698:30:2",
+            "665698:32:0",
+            "665698:40:0",
+            "665698:41:0",
+            "665698:42:0",
+            "665698:43:0",
+            "665698:44:0",
+            "665698:45:0",
+            "665698:52:3",
+            "665698:52:4",
+            "665698:52:5",
+            "665698:52:6",
+            "665698:25:0",
+            "665698:50:5",
+            "665698:50:6",
+            "665698:50:7",
+            "665698:50:8",
+            "665698:51:6",
+            "665698:51:7",
+            "665698:51:8",
+            "665698:51:9"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 33,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 30,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 52,
+              "literals": [
+                5,
+                6
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 50,
+              "literals": [
+                7,
+                8
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 51,
+              "literals": [
+                8,
+                9
+              ],
+              "prefix_pixels": 24
+            }
+          ],
+          "context": "Retain45 calendar management units, add conflict25 and schedule deletion50/51 prose9. All dynamic time/date/name buffers, nickname comma, quotes and controls unchanged; unobserved branches are development static-only.",
+          "nickname_suffix_scripts": [
+            25
+          ]
+        }
+      },
+      "context": "GutsMan calendar time/type prompts, standard mugshot dialogue origin52,110; source questions contain no variables. Native own root0322E4,69 other literals/253 script spans unchanged. Calendar/date/record and choice controls preserved."
+    },
+    "666820": {
+      "source_bytes": 1337,
+      "pointers": [
+        229672
+      ],
+      "script_count": 255,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "nickname_suffix_scripts": [
+        1,
+        2,
+        3
+      ],
+      "nickname_suffix_literal": 1,
+      "context": "GutsMan fourteen mail arrivals/28literals,initial !! retained; root038128/intro+24. Source nickname comma first row11px/remaining text on next row preserved. Sound155/wait96 twice/mail flags/tournament receive unchanged. Native branch/persistence not proved by static layout."
+    },
+    "675440": {
+      "source_bytes": 1273,
+      "pointers": [
+        229820
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "nickname_suffix_profiles": [
+        {
+          "script": 3,
+          "literal": 1,
+          "source_first_line": "の",
+          "first_line": "、"
+        }
+      ],
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "context": "SearchMan40 seasonal literals; source intro670DF4 identifies speaker, root0381BC in native60byte Navi group. Portrait92,110/3rows; source global22,probabilities60/55/45,dates,event buffers/loops retained. Nickname3:1 invariant comma first line same11px sourcewidth. Normal unlock/holiday selection/dynamic nickname execution unverified."
+    },
+    "680454": {
+      "source_bytes": 1134,
+      "pointers": [
+        229940
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "context": "ThunderMan34 seasonal literals; source intro67C4CC identifies speaker,root038234. Portrait92,110/3rows; global22,dates,event buffer/loop unchanged. Normal unlock/date/dynamic event consumer unverified."
+    },
+    "687910": {
+      "variants": {
+        "numberman-training-rewards-v1": {
+          "literal_scripts": [
+            10,
+            11,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            50,
+            51,
+            52,
+            53
+          ],
+          "literal_ids": [
+            "687910:10:0",
+            "687910:10:1",
+            "687910:10:2",
+            "687910:10:3",
+            "687910:10:4",
+            "687910:10:5",
+            "687910:11:0",
+            "687910:11:1",
+            "687910:20:0",
+            "687910:20:1",
+            "687910:20:2",
+            "687910:20:3",
+            "687910:20:4",
+            "687910:20:5",
+            "687910:20:6",
+            "687910:21:0",
+            "687910:13:0",
+            "687910:13:1",
+            "687910:14:0",
+            "687910:14:1",
+            "687910:14:2",
+            "687910:15:0",
+            "687910:15:1",
+            "687910:17:0",
+            "687910:17:1",
+            "687910:50:0",
+            "687910:51:0",
+            "687910:51:1",
+            "687910:51:2",
+            "687910:52:0",
+            "687910:52:1",
+            "687910:53:0",
+            "687910:53:1",
+            "687910:16:0",
+            "687910:18:0",
+            "687910:18:1",
+            "687910:52:2",
+            "687910:53:2",
+            "687910:53:3"
+          ],
+          "nickname_suffix_scripts": [
+            13
+          ],
+          "context": "Retained training intro10/11/20/21 plus result13/14/15/17 and record-result50/51/52/53 prose only. Source12 selects13..17 by global5 after callBufferMinigameResults;50 selects51..53 by record results. Native timed failure13 observed then PET return on bubbles-v1. Dynamic zenny/bugfrag readout16/18/52:2/53:2..3 and debug0/12:0 remain source. Now additionally selects six currency/count readout literals16/18/52/53; shared FC030F/FC032E native table-generated buffer3 model.",
+          "reward_variable_profile": "numberman-minigame-buffer3-v1"
+        },
+        "numberman-training-results-prose-v1": {
+          "literal_scripts": [
+            10,
+            11,
+            13,
+            14,
+            15,
+            17,
+            20,
+            21,
+            50,
+            51,
+            52,
+            53
+          ],
+          "literal_ids": [
+            "687910:10:0",
+            "687910:10:1",
+            "687910:10:2",
+            "687910:10:3",
+            "687910:10:4",
+            "687910:10:5",
+            "687910:11:0",
+            "687910:11:1",
+            "687910:20:0",
+            "687910:20:1",
+            "687910:20:2",
+            "687910:20:3",
+            "687910:20:4",
+            "687910:20:5",
+            "687910:20:6",
+            "687910:21:0",
+            "687910:13:0",
+            "687910:13:1",
+            "687910:14:0",
+            "687910:14:1",
+            "687910:14:2",
+            "687910:15:0",
+            "687910:15:1",
+            "687910:17:0",
+            "687910:17:1",
+            "687910:50:0",
+            "687910:51:0",
+            "687910:51:1",
+            "687910:51:2",
+            "687910:52:0",
+            "687910:52:1",
+            "687910:53:0",
+            "687910:53:1"
+          ],
+          "nickname_suffix_scripts": [
+            13
+          ],
+          "context": "Retained training intro10/11/20/21 plus result13/14/15/17 and record-result50/51/52/53 prose only. Source12 selects13..17 by global5 after callBufferMinigameResults;50 selects51..53 by record results. Native timed failure13 observed then PET return on bubbles-v1. Dynamic zenny/bugfrag readout16/18/52:2/53:2..3 and debug0/12:0 remain source."
+        }
+      },
+      "source_bytes": 1323,
+      "pointers": [
+        230020
+      ],
+      "script_count": 65,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        10,
+        11,
+        20,
+        21
+      ],
+      "literal_ids": [
+        "687910:10:0",
+        "687910:10:1",
+        "687910:10:2",
+        "687910:10:3",
+        "687910:10:4",
+        "687910:10:5",
+        "687910:11:0",
+        "687910:11:1",
+        "687910:20:0",
+        "687910:20:1",
+        "687910:20:2",
+        "687910:20:3",
+        "687910:20:4",
+        "687910:20:5",
+        "687910:20:6",
+        "687910:21:0"
+      ],
+      "standalone_choice_rows": [
+        {
+          "script": 10,
+          "literals": [
+            4,
+            5
+          ],
+          "prefix_pixels": 24
+        },
+        {
+          "script": 20,
+          "literals": [
+            5,
+            6
+          ],
+          "prefix_pixels": 24
+        }
+      ],
+      "context": "NumberMan training invitation10/decline11 and before-Jack-In intervention20/decline21. root038284,65slots,source1323bytes. Native PET Jack-In Yes reached20 at source-survey steps4..10 and accepts to minigame root715064 at11. No nickname/rewards/results in selected16 literals. Other61slots retained."
+    },
+    "715064": {
+      "variants": {
+        "numberman-drill-options-spacing-v3": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                14
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45",
+              "max_literal_rows": 3,
+              "max_line_advance": 60
+            }
+          ],
+          "vertical_choice_rows": [
+            {
+              "script": 0,
+              "literals": [
+                3,
+                4
+              ],
+              "native_width": 11
+            },
+            {
+              "script": 1,
+              "literals": [
+                13,
+                14
+              ],
+              "native_width": 13
+            },
+            {
+              "script": 15,
+              "literals": [
+                3,
+                4
+              ],
+              "native_width": 9
+            }
+          ],
+          "grid_choice_rows": [
+            {
+              "script": 13,
+              "literals": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "leading_literal_spaces": 1,
+              "trailing_literal_spaces": {
+                "1": 1,
+                "3": 1
+              }
+            }
+          ],
+          "context": "Retained ordinary intro/lecture and small bubbles32 units unchanged; add level13 five literals and academic-exam15 five literals. Source0 flags5505/5506 select15. Source13 explicitly origin32,110 and four linked choices. Normal academic/level acquisition paths unverified; diagnostic renderer scope only until actual route evidence. v1 diagnostic found native level cursor overlaps Hangul ink; four labels select explicit one leading literal ASCII space (8px), while all commands/source numerals remain unchanged. Prior unpadded file and failed report evidence retained. v2 down-right focus covers label3 digit at79,126. v3 exact source-pinned trailing one ASCII space in13:1/3 separates columns; animated cursor footprint must be tested at all captures."
+        },
+        "numberman-drill-options-padding-v2": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                14
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45",
+              "max_literal_rows": 3,
+              "max_line_advance": 60
+            }
+          ],
+          "vertical_choice_rows": [
+            {
+              "script": 0,
+              "literals": [
+                3,
+                4
+              ],
+              "native_width": 11
+            },
+            {
+              "script": 1,
+              "literals": [
+                13,
+                14
+              ],
+              "native_width": 13
+            },
+            {
+              "script": 15,
+              "literals": [
+                3,
+                4
+              ],
+              "native_width": 9
+            }
+          ],
+          "grid_choice_rows": [
+            {
+              "script": 13,
+              "literals": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "leading_literal_spaces": 1
+            }
+          ],
+          "context": "Retained ordinary intro/lecture and small bubbles32 units unchanged; add level13 five literals and academic-exam15 five literals. Source0 flags5505/5506 select15. Source13 explicitly origin32,110 and four linked choices. Normal academic/level acquisition paths unverified; diagnostic renderer scope only until actual route evidence. v1 diagnostic found native level cursor overlaps Hangul ink; four labels select explicit one leading literal ASCII space (8px), while all commands/source numerals remain unchanged. Prior unpadded file and failed report evidence retained."
+        },
+        "numberman-drill-options-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                14
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45",
+              "max_literal_rows": 3,
+              "max_line_advance": 60
+            }
+          ],
+          "vertical_choice_rows": [
+            {
+              "script": 0,
+              "literals": [
+                3,
+                4
+              ],
+              "native_width": 11
+            },
+            {
+              "script": 1,
+              "literals": [
+                13,
+                14
+              ],
+              "native_width": 13
+            },
+            {
+              "script": 15,
+              "literals": [
+                3,
+                4
+              ],
+              "native_width": 9
+            }
+          ],
+          "grid_choice_rows": [
+            {
+              "script": 13,
+              "literals": [
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ],
+          "context": "Retained ordinary intro/lecture and small bubbles32 units unchanged; add level13 five literals and academic-exam15 five literals. Source0 flags5505/5506 select15. Source13 explicitly origin32,110 and four linked choices. Normal academic/level acquisition paths unverified; diagnostic renderer scope only until actual route evidence."
+        },
+        "numberman-drill-bubbles-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                14
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45",
+              "max_literal_rows": 3,
+              "max_line_advance": 60
+            }
+          ],
+          "context": "Retained20 intro/lecture literals plus12 source small type2 training bubbles at10,18. Adopted60px/3rows within source bubble, needs exact-ROM font/VRAM/screen and timed lifecycle evidence. Level13 and exam15 protected."
+        }
+      },
+      "source_bytes": 1207,
+      "pointers": [
+        906132,
+        907412
+      ],
+      "script_count": 16,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 176,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        0,
+        1
+      ],
+      "preserve_literal_numerals": true,
+      "vertical_choice_rows": [
+        {
+          "script": 0,
+          "literals": [
+            3,
+            4
+          ],
+          "native_width": 11
+        },
+        {
+          "script": 1,
+          "literals": [
+            13,
+            14
+          ],
+          "native_width": 13
+        }
+      ],
+      "context": "NumberMan drill ordinary introduction and lecture only. Native bottom window origin52,110; vertical choices observed in numberman-drill-source-v1-options. Adopted176px prose within screen236. Option labels centered by source positionOptionVertical width11/13; prefix one8px space retained. Other14 slots, flags5505/5506, exam variant, timed bubbles and level selection protected."
+    },
+    "778338": {
+      "source_bytes": 1810,
+      "pointers": [
+        435524
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "nickname_suffix_script": 6,
+      "literal_scripts": [
+        6,
+        26
+      ],
+      "choice_scripts": [
+        6
+      ],
+      "script_count": 46,
+      "context": "Only Roll shared plug-out prompt6 and response26. Keep all Navi dispatch, default No, Yes/No/cancel behavior, nickname first-line comma and44 unselected scripts.",
+      "variants": {
+        "roll-gutsman-plugout-v1": {
+          "literal_scripts": [6,7,26,27],
+          "nickname_suffix_scripts": [6,7],
+          "choice_groups": [{"script":7,"literals":[0,1,2],"prompt_rows":3}],
+          "context": "Retain original Roll four units; add GutsMan normal R plug-out script7/27 observed on exact keyitem-full-rom-v1. Native nickname/dispatch/defaultNo/choice targets unchanged. Other42 scripts preserved."
+        }
+      }
+    },
+    "66A844": {
+      "source_bytes": 2191,
+      "pointers": [
+        229704
+      ],
+      "script_count": 255,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "nickname_suffix_scripts": [
+        12,
+        31
+      ],
+      "nickname_suffix_literal": 0,
+      "variants": {
+        "gutsman-chipquest-v1": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "chipquest_variable_profile": "gutsman-chip104-native-and-ko-v1",
+          "context": "All33 GutsMan R literals. Source printChip0/104 unchanged; native88px/Korean47px name insertion bounded on second row, three rows total."
+        }
+      },
+      "context": "GutsMan native PET R conversation root038148.31 of33literals selected, entire chip104 script13/two original literals preserved pending own printChip name consumer. Nickname comma and newline source-identical at12/31. Native flags, tournament/item/date/progression and all231 unselected script spans unchanged."
+    },
+    "66A7A8": {
+      "source_bytes": 155,
+      "pointers": [
+        229680
+      ],
+      "script_count": 5,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3
+      ],
+      "context": "GutsMan defeat/victory/draw PET result expressions, native root038130/intro+32. Three complete variable-free literals. PET92,110/3 rows, keyWait/clear/waitHold preserved. Diagnostic entry does not prove native battle-result route or result state."
+    },
+    "66651C": {
+      "source_bytes": 771,
+      "pointers": [
+        229668
+      ],
+      "script_count": 28,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        4,
+        6
+      ],
+      "literal_ids": [
+        "66651C:4:0",
+        "66651C:4:1",
+        "66651C:6:0"
+      ],
+      "variants": {
+        "alarm-followup-v1": {
+          "literal_scripts": [
+            1,
+            2,
+            4,
+            6
+          ],
+          "literal_ids": [
+            "66651C:1:1",
+            "66651C:2:1",
+            "66651C:4:0",
+            "66651C:4:1",
+            "66651C:6:0"
+          ],
+          "context": "Two variable-free second pages plus prior school/lead-in3. Original event-name first pages and all alternate mugshot scripts protected."
+        },
+        "alarm-meal-v1": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "literal_ids": [
+            "66651C:1:1",
+            "66651C:2:1",
+            "66651C:3:0",
+            "66651C:4:0",
+            "66651C:4:1",
+            "66651C:6:0"
+          ],
+          "nickname_suffix_scripts": [
+            3
+          ],
+          "context": "One meal sentence with source comma/newline after native nickname plus prior five. Event first pages/mugshots remain original. Alias event-name prerequisite unresolved; no RTC/alarm route proof."
+        }
+      },
+      "context": "GutsMan PET school alarm two pages and additional-event lead-in only. 26 unselected script spans and 18 other literals, event/name buffers and alternate mugshot consumer remain source-identical. Diagnostic renderer entry is not native RTC/event proof."
+    },
+    "666F38": {
+      "source_bytes": 265,
+      "pointers": [
+        229684
+      ],
+      "script_count": 14,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "schedule_variable_profile": "non-growing-clock-suffix-v1",
+      "schedule_suffix_literal_id": "666F38:11:2",
+      "context": "GutsMan upcoming/today schedule12literals;root038134/intro+36. Source hour/minutes/AMPM/event name buffer commands and six quotes/colon/space unchanged. Clock suffix30px->24px on same row, newline retained. Native no-event/registered-event/loop/name population require separate execution."
+    },
+    "666D5C": {
+      "source_bytes": 473,
+      "pointers": [
+        229676
+      ],
+      "script_count": 25,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        10,
+        20,
+        21,
+        22,
+        23
+      ],
+      "nickname_suffix_profiles": [
+        {
+          "script": 2,
+          "literal": 1,
+          "source_first_line": "と",
+          "first_line": "、"
+        },
+        {
+          "script": 10,
+          "literal": 0,
+          "source_first_line": "!",
+          "first_line": "!"
+        }
+      ],
+      "context": "GutsMan defeat/victory/unregistered/encouragement10literals,root03812C/intro+28. Nickname suffix と11px to comma11px plus next row explicit 2 people together, ! unchanged; native keyWait/cancel menu/flag3603 preserved. Victory/defeat/event/native name population requires separate runtime proof."
+    },
+    "6663B8": {
+      "source_bytes": 120,
+      "pointers": [
+        229656
+      ],
+      "script_count": 4,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2
+      ],
+      "context": "GutsMan normal/defeated internet return; native root038118/intro+8. Two full three-row pages,keyWait/clear/waitHold retained. Native route prerequisites need execution."
+    },
+    "6664D0": {
+      "source_bytes": 75,
+      "pointers": [
+        229664
+      ],
+      "script_count": 3,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1
+      ],
+      "context": "GutsMan.EXE plugin slogan; root038120/intro+16,portrait92,110/type3. Wait30 and flag3603/3651 set-clear retained; timed native path requires exact-ROM observation."
+    },
+    "665F3C": {
+      "source_bytes": 1147,
+      "pointers": [
+        229652
+      ],
+      "script_count": 22,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "choice_scripts": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "context": "GutsMan PET44 literals; original root038114/intro root038110+4. Portrait92,110; initial vs second-dispatch menu prompts,14 option rows,all branch/flag/global30/waits retained. Save screen8 vs current data16 distinct. No nickname insertion. Normal input/focus/cancel/accepted navigation require runtime evidence."
+    },
+    "665EB8": {
+      "source_bytes": 129,
+      "pointers": [
+        229648
+      ],
+      "script_count": 4,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2
+      ],
+      "context": "GutsMan first meeting1/reselection2, four complete literals. Source explicitly names ガッツマン; native intro root038110/seasonal+52 root038144. Portrait92,110; flag3585,waitHold/keyWait/clears unchanged. No dynamic insertions. Normal first-meeting route and remaining reselection prerequisites require execution."
+    },
+    "6D5A9C": {
+      "source_bytes": 1042,
+      "pointers": [
+        230780
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "context": "Forte33 seasonal literals; same-group jack-in6D27A0 names フォルテ.EXE, intro6D2180 root038548/jack-in038558/seasonal+52 root03857C. Portrait92,110/3rows; global22,event buffer/loop unchanged. No nickname insertion. Six-dot silence,force/self-reliance/indifference preserved as draft. Normal unlock/date/gender/event unverified."
+    },
+    "6D0ADC": {
+      "source_bytes": 1420,
+      "pointers": [
+        230720
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "nickname_suffix_profiles": [
+        {
+          "script": 1,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        },
+        {
+          "script": 11,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        }
+      ],
+      "context": "PlantMan43 seasonal literals; intro6CC808 names speaker,root03850C/seasonal+52 root038540. Portrait92,110/3rows; global22,dates,numerals,event buffer/loop unchanged. Nickname1:0/11:0 comma11px preserved. Daidai/prosperity homophony meaning-only draft; flowers/roasted beans/tree-ring metaphors retained. Normal unlock/date/name/gender/event unverified."
+    },
+    "6CB184": {
+      "source_bytes": 1340,
+      "pointers": [
+        230660
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "context": "ElecMan40 seasonal literals; intro6C7084 names speaker,root0384D0/seasonal+52 root038504. Portrait92,110/3rows; global22,dates,numerals,event buffer/loop unchanged. No nickname insertion. Oni/thunder-deity/ThunderMan contrast,illumination and reset boast retained as draft. Normal unlock/date/gender/event unverified."
+    },
+    "6C5A88": {
+      "source_bytes": 1182,
+      "pointers": [
+        230600
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "nickname_suffix_profiles": [
+        {
+          "script": 3,
+          "literal": 1,
+          "source_first_line": "、",
+          "first_line": "、"
+        },
+        {
+          "script": 11,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        }
+      ],
+      "context": "IceMan34 seasonal literals; intro6C167C names speaker,root038494/seasonal+52 root0384C8. Portrait92,110/3rows; global22,dates,event buffer/loop unchanged. Nickname3:1/11:0 comma11px preserved. B/V Eve contrast and chilled Chinese noodles retained as draft. Normal unlock/date/name/gender/event unverified."
+    },
+    "6C004C": {
+      "source_bytes": 1199,
+      "pointers": [
+        230540
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "context": "NapalmMan38 seasonal literals; intro6BBAF8 names speaker,root038458/seasonal+52 root03848C. Portrait92,110/3rows; global22,7/7,108shots,event buffer/loop unchanged. No nickname insertion. Christmas reversal retained. Normal unlock/date/gender/event unverified."
+    },
+    "6BA3AC": {
+      "source_bytes": 1378,
+      "pointers": [
+        230480
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "nickname_suffix_profiles": [
+        {
+          "script": 1,
+          "literal": 2,
+          "source_first_line": "、",
+          "first_line": "、"
+        },
+        {
+          "script": 3,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        },
+        {
+          "script": 3,
+          "literal": 1,
+          "source_first_line": "",
+          "first_line": ""
+        },
+        {
+          "script": 4,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        },
+        {
+          "script": 4,
+          "literal": 1,
+          "source_first_line": "から",
+          "first_line": "、"
+        },
+        {
+          "script": 9,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        },
+        {
+          "script": 11,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        }
+      ],
+      "context": "KnightMan42 seasonal literals; intro6B5A70 names speaker,root03841C/seasonal+52 root038450. Portrait92,110/3rows; global22,dates,event buffer/loop unchanged. Seven nickname suffix boundaries;4:1 sourceから22px becomes comma11px with explicit FROM-player gift meaning on following row. Normal unlock/date/name routes unverified."
+    },
+    "6AE834": {
+      "source_bytes": 1367,
+      "pointers": [
+        230420
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "context": "ShadowMan41 seasonal literals; intro6AA1A0 names speaker,root0383E0/seasonal+52 root038414. Portrait92,110/3rows; native script4 jump3 protected,dates and event buffer/loop unchanged. No nickname insertions. Normal unlock/date/branch/event consumer unverified."
+    },
+    "6A8ADC": {
+      "source_bytes": 1439,
+      "pointers": [
+        230360
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "context": "StarMan48 seasonal literals; intro6A383C names speaker,root0383A4/seasonal+52 root0383D8. Portrait92,110/3rows; global22,dates,ranked dream numerals,year-before-last height question,event buffer/loop unchanged. No nickname insertions. Normal unlock/date/gender/event consumer unverified."
+    },
+    "6A2184": {
+      "source_bytes": 1348,
+      "pointers": [
+        230300
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "nickname_suffix_profiles": [
+        {
+          "script": 1,
+          "literal": 4,
+          "source_first_line": "、",
+          "first_line": "、"
+        }
+      ],
+      "context": "WoodMan41 seasonal literals; intro69E088 names speaker,root038368/seasonal+52 root03839C. Portrait92,110/3rows; global22,dates,event buffer/loop unchanged. NewYear nickname comma first line11px preserved. Normal unlock/date/name routes unverified."
+    },
+    "69C9F4": {
+      "source_bytes": 1358,
+      "pointers": [
+        230240
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "nickname_suffix_profiles": [
+        {
+          "script": 2,
+          "literal": 5,
+          "source_first_line": "も",
+          "first_line": "、"
+        },
+        {
+          "script": 4,
+          "literal": 1,
+          "source_first_line": "は",
+          "first_line": "、"
+        }
+      ],
+      "context": "AquaMan43 seasonal literals; intro698424 names speaker,root03832C/seasonal+52 root038360. Portrait92,110/3rows; global22,numerals,event buffer/loop unchanged. Native nickname2:5/4:1 first line becomes invariant comma11px, subject/invitation explicit on following rows. Normal unlock/date/name consumer unverified."
+    },
+    "696DD8": {
+      "source_bytes": 1168,
+      "pointers": [
+        230180
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "nickname_suffix_profiles": [
+        {
+          "script": 11,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        }
+      ],
+      "context": "JunkMan37 seasonal literals; intro69303C identifies speaker,root0382F0/seasonal+52 root038324. Portrait92,110/3rows; global22,event buffer/loop unchanged. Birthday nickname first-line comma11px preserved;7:3 fluent speech contrasts surrounding hesitations. Normal unlock/date/name consumer unverified."
+    },
+    "691A64": {
+      "source_bytes": 1307,
+      "pointers": [
+        230120
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "nickname_suffix_profiles": [
+        {
+          "script": 1,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        },
+        {
+          "script": 11,
+          "literal": 0,
+          "source_first_line": "、",
+          "first_line": "、"
+        }
+      ],
+      "context": "MetalMan39 seasonal literals; intro68D3C8 identifies speaker, native root0382B4/seasonal+52 root0382E8. Portrait92,110/3rows; global22,dates,event buffer/loop unchanged. NewYear/birthday nickname comma first lines remain11px. Normal unlock/date/name consumer unverified."
+    },
+    "685C68": {
+      "source_bytes": 1201,
+      "pointers": [
+        230000
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "context": "Blues33 seasonal literals; intro681AB8 names speaker with polite operator greetings. Native group root03823C/seasonal+52 root038270. Portrait92,110/3rows; global22,dates,numeral25,event buffers/loop preserved. Normal unlock/date/dynamic event consumer unverified."
+    },
+    "67AE2C": {
+      "source_bytes": 1444,
+      "pointers": [
+        229880
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19
+      ],
+      "nickname_suffix_profiles": [
+        {
+          "script": 11,
+          "literal": 3,
+          "source_first_line": "",
+          "first_line": ""
+        },
+        {
+          "script": 11,
+          "literal": 5,
+          "source_first_line": "!",
+          "first_line": "!"
+        }
+      ],
+      "context": "FireMan47 seasonal literals; source intro676AE4 names speaker,root0381F8. Portrait92,110/3rows; global22,dates,event buffers/loops preserved. Birthday leading/trailing newline around two native nickname inserts and scalar ! remain pinned. Normal unlock/date/nickname consumer unverified."
+    },
+    "66F78C": {
+      "source_bytes": 1292,
+      "pointers": [
+        229760
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "context": "WindMan46 seasonal literals. Native group intro66B8B0 names speaker; seasonal+52/root038180. Portrait92,110/3rows; all21 slots, anniversary dynamic buffer/loop and quote literals preserved. Normal unlock/date route unverified."
+    },
+    "66A234": {
+      "source_bytes": 1395,
+      "pointers": [
+        229700
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "context": "GutsMan49 seasonal literals. Source native Navi group intro665EB8 identifies speaker; seasonal slot+52/root038144. All pages92,110,3rows; global22 gender branch/anniversary buffer/loop and quote literals unchanged. Same adopted portrait extent as trio. Normal seasonal execution required."
+    },
+    "65E438": {
+      "source_bytes": 1007,
+      "pointers": [
+        229580
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "context": "Rockman holiday/birthday pages; seasonal slot52 in60-byte Navi group whose intro65A578 source speaker identifies Rockman. All28 literals incl unchanged quotes, source origin92,110/3rows. Event buffer and global22 branch preserved. Complete native holiday routes unverified."
+    },
+    "6648D0": {
+      "source_bytes": 1202,
+      "pointers": [
+        229640
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "context": "Roll holiday/birthday pages; seasonal slot52 in60-byte Navi group whose intro65F9AC source speaker identifies Roll. All41 literals incl unchanged quotes, source origin92,110/3rows. Event buffer and global22 branch preserved. Complete native holiday routes unverified."
+    },
+    "68BBB4": {
+      "source_bytes": 1813,
+      "pointers": [
+        230060
+      ],
+      "script_count": 21,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "preserve_literal_numerals": true,
+      "context": "NumberMan seasonal/birthday greetings. Source portrait92,110 in1..12/17;18 event name buffer keeps both source quote literals and all buffer/loop commands;19 separate cleared page. Script1 actual native save/reload/Navi selection observed on return-v1, others require runtime. Adopted132px same portrait consumer; native global22 gender branch remains. All60 literals selected including unchanged quotes; blank/uninstantiated slots preserved."
+    },
+    "687E3C": {
+      "source_bytes": 76,
+      "pointers": [
+        230024
+      ],
+      "script_count": 3,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "context": "NumberMan native Jack-In root038288; script1 three-row slogan,type3 normal window92,110. Two nonliteral slots protected; flags3603/3651 and wait30 unchanged. Current ROM load/font/OBJ/pixels/wait lifecycle required."
+    },
+    "6873F4": {
+      "source_bytes": 1160,
+      "pointers": [
+        230012
+      ],
+      "script_count": 22,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": true,
+      "choice_scripts": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "context": "NumberMan PET root03827C; all44 literals and six protected nonliteral slots. Source question precedes native nickname on second row; no insertion change. Normal portrait window92,110; menu entry/reentry, focus, cancel and accepted navigation need exact-ROM execution."
+    },
+    "6872B8": {
+      "variants": {
+        "numberman-return-prose-v1": {
+          "literal_scripts": [
+            1,
+            2
+          ],
+          "literal_ids": [
+            "6872B8:1:0",
+            "6872B8:1:1",
+            "6872B8:1:2",
+            "6872B8:1:3",
+            "6872B8:1:4",
+            "6872B8:1:5",
+            "6872B8:1:6",
+            "6872B8:2:0",
+            "6872B8:2:1",
+            "6872B8:2:2",
+            "6872B8:2:3",
+            "6872B8:2:4"
+          ],
+          "context": "Retain first meeting7/add return5. Human chose natural greeting instead of4649, source2:3 numeral1 preserved. Native92,110 portrait, no nickname; flags/waits/commands unchanged. Return caller unverified.",
+          "protected_numeral_ids": [
+            "6872B8:2:3"
+          ]
+        }
+      },
+      "source_bytes": 313,
+      "pointers": [
+        230008
+      ],
+      "script_count": 4,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        1
+      ],
+      "literal_ids": [
+        "6872B8:1:0",
+        "6872B8:1:1",
+        "6872B8:1:2",
+        "6872B8:1:3",
+        "6872B8:1:4",
+        "6872B8:1:5",
+        "6872B8:1:6"
+      ],
+      "context": "Source root038278 selects NumberMan first meeting script1, flag3585. Seven literal pages introduce NumberMan and joke about liking numbers/calculating pi; normal NumberMan selection portrait/pages established in numberman-save-poc-v1-select-numberman. Script2 return/4649 wordplay retained untranslated; trigger not established. No nickname insertion in this archive."
+    },
+    "65F11C": {
+      "source_bytes": 2190,
+      "pointers": [
+        205536
+      ],
+      "script_count": 255,
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 180,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        1,
+        2,
+        20,
+        21,
+        24
+      ],
+      "literal_ids": [
+        "65F11C:1:0",
+        "65F11C:2:0",
+        "65F11C:2:1",
+        "65F11C:2:2",
+        "65F11C:20:0",
+        "65F11C:21:0",
+        "65F11C:24:0",
+        "65F11C:24:1",
+        "65F11C:24:2"
+      ],
+      "context": "Normal calendar registration prose/choices at mugshot window52,110. Dynamic date0, user inputs, alternate confirmations, deletion and250 other slots preserved. Native normal5-script route and default/cancel behavior required.",
+      "variants": {
+        "date-content-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "literal_ids": [
+            "65F11C:0:0",
+            "65F11C:0:1",
+            "65F11C:0:2",
+            "65F11C:1:0",
+            "65F11C:2:0",
+            "65F11C:2:1",
+            "65F11C:2:2",
+            "65F11C:20:0",
+            "65F11C:21:0",
+            "65F11C:22:0",
+            "65F11C:23:0",
+            "65F11C:24:0",
+            "65F11C:24:1",
+            "65F11C:24:2"
+          ],
+          "context": "Date intro0 added; current month/day insertion commands protected. Prior11 wordings and247 other slots/input/storage unchanged."
+        },
+        "content-promise-v1": {
+          "literal_scripts": [
+            1,
+            2,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "literal_ids": [
+            "65F11C:1:0",
+            "65F11C:2:0",
+            "65F11C:2:1",
+            "65F11C:2:2",
+            "65F11C:20:0",
+            "65F11C:21:0",
+            "65F11C:22:0",
+            "65F11C:23:0",
+            "65F11C:24:0",
+            "65F11C:24:1",
+            "65F11C:24:2"
+          ],
+          "context": "Normal content selector22 and friend-promise name prompt23 added. Prior nine drafts preserved;248 other slots and input/storage/basic-name consumers untouched."
+        }
+      }
+    },
+    "6368E8": {
+      "source_bytes": 2337,
+      "pointers": [
+        203552,
+        205352,
+        205624,
+        207576,
+        208120,
+        208980,
+        209876,
+        211184,
+        212152,
+        216512,
+        218008,
+        218024,
+        218952,
+        218960,
+        235268
+      ],
+      "consumer": "fixed-cell-big",
+      "literal_language": "mmbn45s",
+      "script_count": 255,
+      "max_literal_rows": 1,
+      "max_line_advance": 192,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        0
+      ],
+      "literal_ids": [
+        "6368E8:0:0"
+      ],
+      "context": "Calendar operation menu only. Three8-cell groups; native24-cell1536-byte OBJ upload observed. All254 others, keyboard/input/default-name/save/date consumers preserved; exact-ROM normal calendar and unchanged default-name query required.",
+      "variants": {
+        "type-presets-poc-v1": {
+          "literal_scripts": [
+            0,
+            60,
+            62,
+            63
+          ],
+          "literal_ids": [
+            "6368E8:0:0",
+            "6368E8:60:0",
+            "6368E8:62:0",
+            "6368E8:63:0"
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                60
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 216
+            },
+            {
+              "scripts": [
+                62,
+                63
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 80
+            }
+          ],
+          "context": "Two preset-name PoC drafts added; native32-byte record/name+10, E5-safe9-byte values; confirmation counter hook required.251 other slots and source archive unchanged. No Hangul keyboard/persistence/release claim."
+        },
+        "anniversary-labels-v1": {
+          "literal_scripts": [
+            0,
+            60,
+            62,
+            63,
+            73
+          ],
+          "literal_ids": [
+            "6368E8:0:0",
+            "6368E8:60:0",
+            "6368E8:62:0",
+            "6368E8:63:0",
+            "6368E8:73:0"
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                60
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 216
+            },
+            {
+              "scripts": [
+                62,
+                63
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 80
+            },
+            {
+              "scripts": [
+                73
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 384
+            }
+          ],
+          "context": "Preset PoC retained plus three exact16-cell anniversary labels in script73. Existing counter hook retained;250 other slots protected."
+        },
+        "type-labels-v1": {
+          "literal_scripts": [
+            0,
+            60
+          ],
+          "literal_ids": [
+            "6368E8:0:0",
+            "6368E8:60:0"
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                60
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 216
+            }
+          ],
+          "context": "Whole27-cell type pool decoded once to1728bytes, OAM segment widths6/7/3/3/3/5 preserved. Last ????? unchanged;253 other slots including default names/input/storage protected."
+        },
+        "anniversary-presets-v1": {
+          "literal_scripts": [
+            0,
+            60,
+            62,
+            63,
+            73,
+            74,
+            75
+          ],
+          "literal_ids": [
+            "6368E8:0:0",
+            "6368E8:60:0",
+            "6368E8:62:0",
+            "6368E8:63:0",
+            "6368E8:73:0",
+            "6368E8:74:0",
+            "6368E8:75:0"
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                60
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 216
+            },
+            {
+              "scripts": [
+                62,
+                63,
+                74,
+                75
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 80
+            },
+            {
+              "scripts": [
+                73
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 384
+            }
+          ],
+          "context": "Five retained calendar units plus birthday/school default names74/75, 22-byte record and ten-cell consumer. Existing logical counter retained."
+        },
+        "frequency-names-v1": {
+          "literal_scripts": [
+            0,
+            60,
+            62,
+            63,
+            73,
+            74,
+            75,
+            119,
+            120,
+            121,
+            122,
+            123
+          ],
+          "literal_ids": [
+            "6368E8:0:0",
+            "6368E8:60:0",
+            "6368E8:62:0",
+            "6368E8:63:0",
+            "6368E8:73:0",
+            "6368E8:74:0",
+            "6368E8:75:0",
+            "6368E8:119:0",
+            "6368E8:120:0",
+            "6368E8:121:0",
+            "6368E8:122:0",
+            "6368E8:123:0"
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                60
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 216
+            },
+            {
+              "scripts": [
+                62,
+                63,
+                74,
+                75
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 80
+            },
+            {
+              "scripts": [
+                73
+              ],
+              "consumer": "fixed-cell-mono",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 384
+            },
+            {
+              "scripts": [
+                119,
+                120,
+                121,
+                122,
+                123
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 183
+            }
+          ],
+          "context": "Retain7 calendar menu/preset/anniversary literals and add five event-frequency raw names119..123; source E5 copier and printScheduleBuffer67 native32byte transfer observed. Separate normal-font frequency profile; no keyboard/input/holiday changes.",
+          "protected_numeral_ids": [
+            "6368E8:119:0"
+          ]
+        },
+        "possessions-statistics-v1": {
+          "literal_scripts": [0,60,62,63,73,74,75,80,119,120,121,122,123],
+          "literal_ids": ["6368E8:0:0","6368E8:60:0","6368E8:62:0","6368E8:63:0","6368E8:73:0","6368E8:74:0","6368E8:75:0","6368E8:80:0","6368E8:119:0","6368E8:120:0","6368E8:121:0","6368E8:122:0","6368E8:123:0"],
+          "literal_profiles": [
+            {"scripts":[60],"consumer":"fixed-cell-mono","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":216},
+            {"scripts":[62,63,74,75],"consumer":"fixed-cell-mono","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":80},
+            {"scripts":[73],"consumer":"fixed-cell-mono","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":384},
+            {"scripts":[80],"consumer":"fixed-cell-big","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":512},
+            {"scripts":[119,120,121,122,123],"consumer":"normal-dialogue","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":183}
+          ],
+          "context":"Parent12 plus possessions headings80: logical64 cells, four16-cell rows with ten visible and six hidden padding cells each. Exact boundary enforced by possessions_statistics.validate; counters81/82 untouched.",
+          "protected_numeral_ids":["6368E8:119:0"]
+        },
+        "input-heading-v1": {
+          "literal_scripts":[0,10,33,60,62,63,73,74,75,80,119,120,121,122,123],
+          "literal_ids":["6368E8:0:0","6368E8:60:0","6368E8:62:0","6368E8:63:0","6368E8:73:0","6368E8:74:0","6368E8:75:0","6368E8:80:0","6368E8:119:0","6368E8:120:0","6368E8:121:0","6368E8:122:0","6368E8:123:0","6368E8:10:0","6368E8:10:1","6368E8:10:2","6368E8:33:0"],
+          "literal_profiles":[
+            {"scripts":[60],"consumer":"fixed-cell-mono","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":216},
+            {"scripts":[33,62,63,74,75],"consumer":"fixed-cell-mono","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":80},
+            {"scripts":[73],"consumer":"fixed-cell-mono","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":384},
+            {"scripts":[80],"consumer":"fixed-cell-big","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":512},
+            {"scripts":[119,120,121,122,123],"consumer":"normal-dialogue","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":183},
+            {"scripts":[10],"consumer":"normal-dialogue","literal_language":"mmbn45","max_literal_rows":2,"max_line_advance":184}
+          ],
+          "context":"Inherited16 unchanged; weak-subject heading33, native mono two tile rows / ten visible columns. Normal entry/confirmation/record ABI unchanged.",
+          "protected_numeral_ids":["6368E8:119:0"]
+        },
+        "input-confirmation-v1": {
+          "literal_scripts":[0,10,60,62,63,73,74,75,80,119,120,121,122,123],
+          "literal_ids":["6368E8:0:0","6368E8:60:0","6368E8:62:0","6368E8:63:0","6368E8:73:0","6368E8:74:0","6368E8:75:0","6368E8:80:0","6368E8:119:0","6368E8:120:0","6368E8:121:0","6368E8:122:0","6368E8:123:0","6368E8:10:0","6368E8:10:1","6368E8:10:2"],
+          "literal_profiles":[
+            {"scripts":[60],"consumer":"fixed-cell-mono","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":216},
+            {"scripts":[62,63,74,75],"consumer":"fixed-cell-mono","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":80},
+            {"scripts":[73],"consumer":"fixed-cell-mono","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":384},
+            {"scripts":[80],"consumer":"fixed-cell-big","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":512},
+            {"scripts":[119,120,121,122,123],"consumer":"normal-dialogue","literal_language":"mmbn45s","max_literal_rows":1,"max_line_advance":183},
+            {"scripts":[10],"consumer":"normal-dialogue","literal_language":"mmbn45","max_literal_rows":2,"max_line_advance":184}
+          ],
+          "context":"Common no-portrait input confirmation10; native horizontal width8 choices and three continue targets retained. Parent13 mixed-renderer units unchanged. No Hangul keyboard/record ABI change.",
+          "protected_numeral_ids":["6368E8:119:0"]
+        }
+      }
+    },
+    "660D90": {
+      "source_bytes": 717,
+      "pointers": [
+        229608
+      ],
+      "consumer": "normal-dialogue",
+      "script_count": 28,
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        3,
+        4,
+        6
+      ],
+      "literal_ids": [
+        "660D90:3:0",
+        "660D90:4:0",
+        "660D90:6:0"
+      ],
+      "context": "Roll PET current-event meal/school alarms and next-event lead-in only. All flags, checks, waits, dynamic names, mugshot consumer23/24/26 and25 other slots preserved. Renderer diagnostic coverage is not native RTC/event reachability."
+    },
+    "6615A8": {
+      "source_bytes": 426,
+      "pointers": [
+        229616
+      ],
+      "consumer": "normal-dialogue",
+      "script_count": 25,
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        1,
+        2,
+        10,
+        20,
+        21,
+        22,
+        23
+      ],
+      "nickname_suffix_scripts": [
+        2,
+        20,
+        21,
+        22,
+        23
+      ],
+      "nickname_suffix_literal": 1,
+      "nickname_suffix_profiles": [
+        {
+          "script": 10,
+          "literal": 0,
+          "source_first_line": "!",
+          "first_line": "!"
+        }
+      ],
+      "context": "Roll competition outcomes and encouragement. Native nickname punctuation/line unchanged; commands and other18 script slots protected. Native tournament entry/result progression pending."
+    },
+    "76BC60": {
+      "source_bytes": 3255,
+      "pointers": [
+        136800,
+        863068,
+        871696,
+        872664
+      ],
+      "consumer": "fixed-cell-mono",
+      "max_literal_rows": 3,
+      "max_line_advance": 72,
+      "complete_literal_scope": true,
+      "literal_scripts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "script_count": 113,
+      "preserve_literal_numerals": true,
+      "context": "All75 actual secondary chip/PA description literals,38 nonliteral slots preserved. Four catalogued native pointer roots retained as explicit relocation inventory; native secondary selection runtime pending."
+    },
+    "76C944": {
+      "source_bytes": 4473,
+      "pointers": [
+        135912
+      ],
+      "consumer": "fixed-cell-mono",
+      "literal_language": "mmbn45s",
+      "max_literal_rows": 2,
+      "max_line_advance": 40,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        0,
+        1
+      ],
+      "script_count": 144,
+      "preserve_literal_numerals": true,
+      "variants": {
+        "rockman-roll-tactics-escape-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "literal_ids": [
+            "76C944:0:0",
+            "76C944:1:0",
+            "76C944:2:0",
+            "76C944:2:1",
+            "76C944:2:2",
+            "76C944:3:3",
+            "76C944:4:3",
+            "76C944:5:0",
+            "76C944:6:0",
+            "76C944:7:0",
+            "76C944:8:0",
+            "76C944:8:1",
+            "76C944:8:2",
+            "76C944:9:3",
+            "76C944:10:3",
+            "76C944:11:0"
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                2,
+                3,
+                4,
+                5,
+                9,
+                10,
+                11
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45",
+              "max_literal_rows": 3,
+              "max_line_advance": 144
+            },
+            {
+              "scripts": [
+                8
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45",
+              "max_literal_rows": 3,
+              "max_line_advance": 168
+            }
+          ],
+          "context": "Rockman/Roll two group6 blocks, mono questions0/1/6/7 native5x2; escape normal2..5/8..11. Prior14 wording unchanged, Roll6/7 reuse explicit question decision links.132 other scripts and12 timed dots unchanged. Roll consumer diagnostics do not prove Roll selection; exact-ROM consumer and regression evidence required. Roll8 retains adopted168px development bound."
+        },
+        "rockman-roll-escape-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11
+          ],
+          "literal_ids": [
+            "76C944:0:0",
+            "76C944:1:0",
+            "76C944:2:0",
+            "76C944:2:1",
+            "76C944:2:2",
+            "76C944:3:3",
+            "76C944:4:3",
+            "76C944:5:0",
+            "76C944:8:0",
+            "76C944:8:1",
+            "76C944:8:2",
+            "76C944:9:3",
+            "76C944:10:3",
+            "76C944:11:0"
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                2,
+                3,
+                4,
+                5,
+                9,
+                10,
+                11
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45",
+              "max_literal_rows": 3,
+              "max_line_advance": 144
+            },
+            {
+              "scripts": [
+                8
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45",
+              "max_literal_rows": 3,
+              "max_line_advance": 168
+            }
+          ],
+          "context": "Prior Rockman8 literals verbatim plus Roll escape6. Native Roll6/7 mono questions remain Japanese.134 other scripts and12 timed dots unchanged. Same normal renderer, native portrait/options/waits retained; diagnostic lookup samples do not prove Roll gameplay or escape results. Roll8 advisory156px adopts168px development bound within observed battle window52..236; not universal consumer capacity. Others144px. Exact-ROM pixels/bounds required."
+        },
+        "rockman-tactics-escape-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "literal_ids": [
+            "76C944:0:0",
+            "76C944:1:0",
+            "76C944:2:0",
+            "76C944:2:1",
+            "76C944:2:2",
+            "76C944:3:3",
+            "76C944:4:3",
+            "76C944:5:0"
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "consumer": "normal-dialogue",
+              "literal_language": "mmbn45",
+              "max_literal_rows": 3,
+              "max_line_advance": 144
+            }
+          ],
+          "context": "Rockman target/distance retain native5x2 mono. Escape confirmation/success/failure/forbidden dialogue use existing normal dialogue path; conservative144px development range, native lines/options/waits preserved. Six new literals, six timed dots and other138 scripts unchanged. Exact new-ROM escape runtime required."
+        }
+      },
+      "context": "Rockman TACTICS target/distance prompts, native5x2 mono consumer20B48 via212C8 group6 helper. Other142 scripts, including escape dialogue and other Navi voices, protected. New exact-ROM runtime required; not enemy names."
+    },
+    "76937C": {
+      "source_bytes": 10467,
+      "pointers": [
+        136796,
+        863064,
+        871692
+      ],
+      "consumer": "fixed-cell-mono",
+      "max_literal_rows": 3,
+      "max_line_advance": 72,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        1,
+        2,
+        3
+      ],
+      "script_count": 256,
+      "preserve_literal_numerals": true,
+      "batch04_scope_note": "First120 explicit draft scripts; prior90 preserved;136 unselected scripts protected. Exact new-ROM runtime required.",
+      "variants": {
+        "mono-descriptions-batch05": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150
+          ],
+          "context": "Translation-first explicit150 drafts; prior120 preserved; not built or runtime verified."
+        },
+        "mono-descriptions-batch06": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180
+          ],
+          "context": "Translation-first explicit180 drafts; prior150 preserved; not built or runtime verified."
+        },
+        "mono-descriptions-batch09": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255
+          ],
+          "context": "251 actual source descriptions; holes197..200 and0 preserved.195/196 generic DarkChip descriptions, no fabricated names. Development only."
+        },
+        "mono-descriptions-batch08": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255
+          ],
+          "context": "Sparse249 translation draft only; holes195..200 preserved. Contiguous battle helper integration pending; not built or runtime verified."
+        },
+        "mono-descriptions-batch07": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194
+          ],
+          "context": "Translation-first explicit194 drafts; prior180 preserved; source name holes195..200 not filled; not built or runtime verified."
+        },
+        "mono-descriptions-batch04": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ],
+          "context": "Explicit first120 drafts, prior90 verbatim,136 unselected scripts protected; exact new-ROM QA required."
+        },
+        "mono-descriptions-batch03": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ],
+          "context": "Explicit first90 source descriptions. Prior60 drafts verbatim,166 unselected scripts protected. New exact-ROM runtime remains required."
+        },
+        "mono-descriptions-batch02": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+          ],
+          "context": "Explicit first60 source descriptions. Preserve prior30 drafts verbatim and196 unselected scripts; new exact-ROM runtime required for library/folder/battle consumers."
+        },
+        "mono-descriptions-batch01": {
+          "literal_scripts": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "context": "Explicit first30 source description scripts, same native mmbn45 command grammar and conservative visible9x3 fixed-cell scope. 226 other scripts must stay byte-identical. Other shared consumers still require runtime QA."
+        }
+      },
+      "context": "Development Cannon/HiCannon/MegaCannon description PoC. Native archive uses mmbn45 control grammar; fixed-cell mono uses 10x3 staging but folder has 9x3 visible OBJ. Same archive has other pointer consumers and requires exact new-ROM regressions; not a single-consumer release claim."
+    },
+    "6D9EC0": {
+      "source_bytes": 51,
+      "pointers": [
+        272608
+      ],
+      "compressed": true,
+      "consumer": "fixed-cell-big",
+      "max_literal_rows": 1,
+      "max_line_advance": 72,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "script_count": 5,
+      "max_payload_bytes": 160,
+      "decompression_destination": 33701888,
+      "next_scene_asset": 33705984,
+      "context": "Header loader 08042798 calls SWI 11h; 080428F0 renders four 9x1 headers. Scene graphics table 08042884 reserves next separate asset at 02025000; conservative development cap 160, not a claim that all intervening memory is globally free. Runtime decompression and surrounding write guards required.",
+      "compression": "BIOS type-10 literal-only, 4-byte aligned, zero-padded"
+    },
+    "65FF3C": {
+      "source_bytes": 3434,
+      "pointers": [
+        229600
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "protected_numeral_ids": [
+        "65FF3C:20:0",
+        "65FF3C:21:0",
+        "65FF3C:22:0"
+      ],
+      "variants": {
+        "fortune-and-minigame-rewards-v2": {
+          "literal_scripts": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            50,
+            51,
+            52,
+            53,
+            60,
+            61,
+            62,
+            63
+          ],
+          "literal_ids": [
+            "65FF3C:0:0",
+            "65FF3C:0:1",
+            "65FF3C:0:2",
+            "65FF3C:0:3",
+            "65FF3C:0:7",
+            "65FF3C:1:0",
+            "65FF3C:1:1",
+            "65FF3C:1:2",
+            "65FF3C:1:6",
+            "65FF3C:3:0",
+            "65FF3C:3:1",
+            "65FF3C:3:2",
+            "65FF3C:3:3",
+            "65FF3C:4:0",
+            "65FF3C:4:1",
+            "65FF3C:4:2",
+            "65FF3C:4:3",
+            "65FF3C:5:0",
+            "65FF3C:5:1",
+            "65FF3C:5:2",
+            "65FF3C:5:3",
+            "65FF3C:6:0",
+            "65FF3C:6:1",
+            "65FF3C:6:2",
+            "65FF3C:6:3",
+            "65FF3C:7:0",
+            "65FF3C:7:1",
+            "65FF3C:7:2",
+            "65FF3C:7:3",
+            "65FF3C:7:4",
+            "65FF3C:8:0",
+            "65FF3C:8:1",
+            "65FF3C:8:2",
+            "65FF3C:8:3",
+            "65FF3C:9:0",
+            "65FF3C:9:1",
+            "65FF3C:9:2",
+            "65FF3C:9:3",
+            "65FF3C:10:0",
+            "65FF3C:10:1",
+            "65FF3C:10:2",
+            "65FF3C:10:3",
+            "65FF3C:10:4",
+            "65FF3C:11:0",
+            "65FF3C:11:1",
+            "65FF3C:11:2",
+            "65FF3C:11:3",
+            "65FF3C:12:0",
+            "65FF3C:12:1",
+            "65FF3C:12:2",
+            "65FF3C:12:3",
+            "65FF3C:13:0",
+            "65FF3C:13:1",
+            "65FF3C:13:2",
+            "65FF3C:13:3",
+            "65FF3C:14:0",
+            "65FF3C:14:1",
+            "65FF3C:14:2",
+            "65FF3C:14:3",
+            "65FF3C:15:0",
+            "65FF3C:15:1",
+            "65FF3C:15:2",
+            "65FF3C:15:3",
+            "65FF3C:15:4",
+            "65FF3C:15:5",
+            "65FF3C:16:0",
+            "65FF3C:16:1",
+            "65FF3C:16:2",
+            "65FF3C:16:3",
+            "65FF3C:17:0",
+            "65FF3C:17:1",
+            "65FF3C:17:2",
+            "65FF3C:17:3",
+            "65FF3C:18:0",
+            "65FF3C:18:1",
+            "65FF3C:18:2",
+            "65FF3C:18:3",
+            "65FF3C:20:0",
+            "65FF3C:21:0",
+            "65FF3C:22:0",
+            "65FF3C:50:0",
+            "65FF3C:51:0",
+            "65FF3C:51:1",
+            "65FF3C:60:0",
+            "65FF3C:60:1",
+            "65FF3C:60:2",
+            "65FF3C:61:0",
+            "65FF3C:61:1",
+            "65FF3C:52:0",
+            "65FF3C:52:1",
+            "65FF3C:52:2",
+            "65FF3C:53:0",
+            "65FF3C:53:1",
+            "65FF3C:53:2",
+            "65FF3C:53:3",
+            "65FF3C:62:0",
+            "65FF3C:62:1",
+            "65FF3C:62:2",
+            "65FF3C:63:0",
+            "65FF3C:63:1",
+            "65FF3C:63:2",
+            "65FF3C:63:3"
+          ],
+          "context": "Inherited88 units unchanged plus all fourteen reward literals52/53/62/63. Native call FC032E reaches08036376; table-selected Zenny200..800, BugFrags1..5 to buffer3/context+54. EE0E/EE12 sentinel and F903 decimal consumer preserve one shared numeric line. Source23 composite hint remains Japanese. Diagnostics do not prove minigame completion or correct awards.",
+          "reward_variable_profile": "roll-minigame-buffer3-v1"
+        },
+        "fortune-and-minigame-static-results-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            50,
+            51,
+            60,
+            61
+          ],
+          "literal_ids": [
+            "65FF3C:0:0",
+            "65FF3C:0:1",
+            "65FF3C:0:2",
+            "65FF3C:0:3",
+            "65FF3C:0:7",
+            "65FF3C:1:0",
+            "65FF3C:1:1",
+            "65FF3C:1:2",
+            "65FF3C:1:6",
+            "65FF3C:3:0",
+            "65FF3C:3:1",
+            "65FF3C:3:2",
+            "65FF3C:3:3",
+            "65FF3C:4:0",
+            "65FF3C:4:1",
+            "65FF3C:4:2",
+            "65FF3C:4:3",
+            "65FF3C:5:0",
+            "65FF3C:5:1",
+            "65FF3C:5:2",
+            "65FF3C:5:3",
+            "65FF3C:6:0",
+            "65FF3C:6:1",
+            "65FF3C:6:2",
+            "65FF3C:6:3",
+            "65FF3C:7:0",
+            "65FF3C:7:1",
+            "65FF3C:7:2",
+            "65FF3C:7:3",
+            "65FF3C:7:4",
+            "65FF3C:8:0",
+            "65FF3C:8:1",
+            "65FF3C:8:2",
+            "65FF3C:8:3",
+            "65FF3C:9:0",
+            "65FF3C:9:1",
+            "65FF3C:9:2",
+            "65FF3C:9:3",
+            "65FF3C:10:0",
+            "65FF3C:10:1",
+            "65FF3C:10:2",
+            "65FF3C:10:3",
+            "65FF3C:10:4",
+            "65FF3C:11:0",
+            "65FF3C:11:1",
+            "65FF3C:11:2",
+            "65FF3C:11:3",
+            "65FF3C:12:0",
+            "65FF3C:12:1",
+            "65FF3C:12:2",
+            "65FF3C:12:3",
+            "65FF3C:13:0",
+            "65FF3C:13:1",
+            "65FF3C:13:2",
+            "65FF3C:13:3",
+            "65FF3C:14:0",
+            "65FF3C:14:1",
+            "65FF3C:14:2",
+            "65FF3C:14:3",
+            "65FF3C:15:0",
+            "65FF3C:15:1",
+            "65FF3C:15:2",
+            "65FF3C:15:3",
+            "65FF3C:15:4",
+            "65FF3C:15:5",
+            "65FF3C:16:0",
+            "65FF3C:16:1",
+            "65FF3C:16:2",
+            "65FF3C:16:3",
+            "65FF3C:17:0",
+            "65FF3C:17:1",
+            "65FF3C:17:2",
+            "65FF3C:17:3",
+            "65FF3C:18:0",
+            "65FF3C:18:1",
+            "65FF3C:18:2",
+            "65FF3C:18:3",
+            "65FF3C:20:0",
+            "65FF3C:21:0",
+            "65FF3C:22:0",
+            "65FF3C:50:0",
+            "65FF3C:51:0",
+            "65FF3C:51:1",
+            "65FF3C:60:0",
+            "65FF3C:60:1",
+            "65FF3C:60:2",
+            "65FF3C:61:0",
+            "65FF3C:61:1"
+          ],
+          "context": "Inherited80 fortune units unchanged plus eight non-variable Roll minigame result literals in scripts50/51/60/61. Native minigame0/1 recording, global5 branch, HP item33 and all waits unchanged. Reward/dynamic-buffer scripts52/53/62/63 and composite hint23 remain Japanese pending consumer evidence. Renderer diagnostics are not completed minigame gameplay."
+        },
+        "all-fortune-results-v2": {
+          "literal_scripts": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22
+          ],
+          "literal_ids": [
+            "65FF3C:0:0",
+            "65FF3C:0:1",
+            "65FF3C:0:2",
+            "65FF3C:0:3",
+            "65FF3C:0:7",
+            "65FF3C:1:0",
+            "65FF3C:1:1",
+            "65FF3C:1:2",
+            "65FF3C:1:6",
+            "65FF3C:3:0",
+            "65FF3C:3:1",
+            "65FF3C:3:2",
+            "65FF3C:3:3",
+            "65FF3C:4:0",
+            "65FF3C:4:1",
+            "65FF3C:4:2",
+            "65FF3C:4:3",
+            "65FF3C:5:0",
+            "65FF3C:5:1",
+            "65FF3C:5:2",
+            "65FF3C:5:3",
+            "65FF3C:6:0",
+            "65FF3C:6:1",
+            "65FF3C:6:2",
+            "65FF3C:6:3",
+            "65FF3C:7:0",
+            "65FF3C:7:1",
+            "65FF3C:7:2",
+            "65FF3C:7:3",
+            "65FF3C:7:4",
+            "65FF3C:8:0",
+            "65FF3C:8:1",
+            "65FF3C:8:2",
+            "65FF3C:8:3",
+            "65FF3C:9:0",
+            "65FF3C:9:1",
+            "65FF3C:9:2",
+            "65FF3C:9:3",
+            "65FF3C:10:0",
+            "65FF3C:10:1",
+            "65FF3C:10:2",
+            "65FF3C:10:3",
+            "65FF3C:10:4",
+            "65FF3C:11:0",
+            "65FF3C:11:1",
+            "65FF3C:11:2",
+            "65FF3C:11:3",
+            "65FF3C:12:0",
+            "65FF3C:12:1",
+            "65FF3C:12:2",
+            "65FF3C:12:3",
+            "65FF3C:13:0",
+            "65FF3C:13:1",
+            "65FF3C:13:2",
+            "65FF3C:13:3",
+            "65FF3C:14:0",
+            "65FF3C:14:1",
+            "65FF3C:14:2",
+            "65FF3C:14:3",
+            "65FF3C:15:0",
+            "65FF3C:15:1",
+            "65FF3C:15:2",
+            "65FF3C:15:3",
+            "65FF3C:15:4",
+            "65FF3C:15:5",
+            "65FF3C:16:0",
+            "65FF3C:16:1",
+            "65FF3C:16:2",
+            "65FF3C:16:3",
+            "65FF3C:17:0",
+            "65FF3C:17:1",
+            "65FF3C:17:2",
+            "65FF3C:17:3",
+            "65FF3C:18:0",
+            "65FF3C:18:1",
+            "65FF3C:18:2",
+            "65FF3C:18:3",
+            "65FF3C:20:0",
+            "65FF3C:21:0",
+            "65FF3C:22:0"
+          ],
+          "context": "Roll fortune introductions0/1, all16 heart results3..18, and three native clearMsg number-range item-location hints20..22. 80 prose literals; not all65FF3C dialogue. All existing13 drafts unchanged,67 new. Source result trees and global6/flags/heart-data-location checks establish functional context. No variable insertion in selected units. Script23 lacks leading clearMsg and remains unselected pending composited-page analysis; all minigame result scripts remain Japanese."
+        },
+        "fortune-and-minigame-complete-v3": {
+          "literal_scripts": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            50,
+            51,
+            52,
+            53,
+            60,
+            61,
+            62,
+            63,
+            23
+          ],
+          "literal_ids": [
+            "65FF3C:0:0",
+            "65FF3C:0:1",
+            "65FF3C:0:2",
+            "65FF3C:0:3",
+            "65FF3C:0:7",
+            "65FF3C:1:0",
+            "65FF3C:1:1",
+            "65FF3C:1:2",
+            "65FF3C:1:6",
+            "65FF3C:3:0",
+            "65FF3C:3:1",
+            "65FF3C:3:2",
+            "65FF3C:3:3",
+            "65FF3C:4:0",
+            "65FF3C:4:1",
+            "65FF3C:4:2",
+            "65FF3C:4:3",
+            "65FF3C:5:0",
+            "65FF3C:5:1",
+            "65FF3C:5:2",
+            "65FF3C:5:3",
+            "65FF3C:6:0",
+            "65FF3C:6:1",
+            "65FF3C:6:2",
+            "65FF3C:6:3",
+            "65FF3C:7:0",
+            "65FF3C:7:1",
+            "65FF3C:7:2",
+            "65FF3C:7:3",
+            "65FF3C:7:4",
+            "65FF3C:8:0",
+            "65FF3C:8:1",
+            "65FF3C:8:2",
+            "65FF3C:8:3",
+            "65FF3C:9:0",
+            "65FF3C:9:1",
+            "65FF3C:9:2",
+            "65FF3C:9:3",
+            "65FF3C:10:0",
+            "65FF3C:10:1",
+            "65FF3C:10:2",
+            "65FF3C:10:3",
+            "65FF3C:10:4",
+            "65FF3C:11:0",
+            "65FF3C:11:1",
+            "65FF3C:11:2",
+            "65FF3C:11:3",
+            "65FF3C:12:0",
+            "65FF3C:12:1",
+            "65FF3C:12:2",
+            "65FF3C:12:3",
+            "65FF3C:13:0",
+            "65FF3C:13:1",
+            "65FF3C:13:2",
+            "65FF3C:13:3",
+            "65FF3C:14:0",
+            "65FF3C:14:1",
+            "65FF3C:14:2",
+            "65FF3C:14:3",
+            "65FF3C:15:0",
+            "65FF3C:15:1",
+            "65FF3C:15:2",
+            "65FF3C:15:3",
+            "65FF3C:15:4",
+            "65FF3C:15:5",
+            "65FF3C:16:0",
+            "65FF3C:16:1",
+            "65FF3C:16:2",
+            "65FF3C:16:3",
+            "65FF3C:17:0",
+            "65FF3C:17:1",
+            "65FF3C:17:2",
+            "65FF3C:17:3",
+            "65FF3C:18:0",
+            "65FF3C:18:1",
+            "65FF3C:18:2",
+            "65FF3C:18:3",
+            "65FF3C:20:0",
+            "65FF3C:21:0",
+            "65FF3C:22:0",
+            "65FF3C:50:0",
+            "65FF3C:51:0",
+            "65FF3C:51:1",
+            "65FF3C:60:0",
+            "65FF3C:60:1",
+            "65FF3C:60:2",
+            "65FF3C:61:0",
+            "65FF3C:61:1",
+            "65FF3C:52:0",
+            "65FF3C:52:1",
+            "65FF3C:52:2",
+            "65FF3C:53:0",
+            "65FF3C:53:1",
+            "65FF3C:53:2",
+            "65FF3C:53:3",
+            "65FF3C:62:0",
+            "65FF3C:62:1",
+            "65FF3C:62:2",
+            "65FF3C:63:0",
+            "65FF3C:63:1",
+            "65FF3C:63:2",
+            "65FF3C:63:3",
+            "65FF3C:23:0"
+          ],
+          "context": "Inherited102 units unchanged plus spooky-area hint23. Native EE33 jump clears staging; diagnostic branch samples do not prove item acquisition.",
+          "reward_variable_profile": "roll-minigame-buffer3-v1"
+        }
+      },
+      "literal_scripts": [
+        0,
+        1,
+        4
+      ],
+      "script_count": 65,
+      "literal_ids": [
+        "65FF3C:0:0",
+        "65FF3C:0:1",
+        "65FF3C:0:2",
+        "65FF3C:0:3",
+        "65FF3C:0:7",
+        "65FF3C:1:0",
+        "65FF3C:1:1",
+        "65FF3C:1:2",
+        "65FF3C:1:6",
+        "65FF3C:4:0",
+        "65FF3C:4:1",
+        "65FF3C:4:2",
+        "65FF3C:4:3"
+      ],
+      "context": "Roll fortune introduction0/1 and blue-heart result4 only. Native root380E0, window92,110, random results/heart-data-location flags untouched. Six timed dots and62 unselected scripts preserved. Other outcomes/hints/minigame results remain untranslated; exact-ROM normal runtime required."
+    },
+    "65FEC0": {
+      "source_bytes": 123,
+      "pointers": [
+        229596
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "nickname_suffix_script": 1,
+      "nickname_suffix_literal": 1,
+      "literal_scripts": [
+        1,
+        2
+      ],
+      "script_count": 4,
+      "context": "Roll return/defeat; normal native script1 observed after plug-out. Script2 normal loss trigger unresolved. Keep nickname literal1 first line native comma; all controls and empty0/3 retained."
+    },
+    "664E28": {
+      "source_bytes": 2158,
+      "pointers": [
+        229644
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        10
+      ],
+      "nickname_suffix_script": 10,
+      "script_count": 255,
+      "variants": {
+        "license-prompts": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            14,
+            15
+          ],
+          "context": "Roll PET default exploration plus four apprentice license hints.11/12/14/15 only diagnostic render evidence, not native progress/acquisition evidence; dynamic chip13 and all other slots protected."
+        },
+        "license-incident-prompts": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            14,
+            15,
+            17,
+            31
+          ],
+          "context": "Prior license/default plus incident two-page17 and further exploration31. Renderer diagnostics only for progress branches; all controls and dynamic chip13 protected."
+        },
+        "license-incident-keyquest-prompts": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            14,
+            15,
+            17,
+            23,
+            24,
+            25,
+            31
+          ],
+          "context": "Prior eight plus keyquest23/24/25. Renderer diagnostics only, not native quest selection. Dynamic chip13 and all other245 slots protected."
+        },
+        "license-incident-keyquest-tournament-prompts": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            14,
+            15,
+            17,
+            23,
+            24,
+            25,
+            30,
+            31,
+            34
+          ],
+          "context": "Prior eleven plus tournament30 and two-page34. Renderer diagnostics only; calendar/native selection unproven. Other243 slots protected."
+        },
+        "license-incident-keyquest-tournament-events-prompts": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            30,
+            31,
+            34
+          ],
+          "context": "Prior fourteen plus six incident location hints. Original flag9424..9429 jump33/continue retained; diagnostics not event-progress or native selection evidence. Other237 slots protected."
+        },
+        "license-incident-keyquest-tournament-events-mail-prompts": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "nickname_suffix_scripts": [
+            10,
+            33
+          ],
+          "context": "Prior twenty plus qualifier32 and mail33. Flag9430 and nickname commands/first-row comma preserved. Renderer diagnostics only, not mail receipt or natural progress selection. Other235 slots protected."
+        },
+        "license-incident-keyquest-tournament-events-mail-undernet-prompts": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            27,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "nickname_suffix_scripts": [
+            10,
+            33
+          ],
+          "context": "Prior twenty-two plus two-page undernet27. Window/waits/clear retained. Renderer diagnostic only, not target encounter or progression. Other234 slots protected."
+        },
+        "license-incident-keyquest-tournament-events-mail-undernet-weekday-chipquest-prompts": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "literal_ids": [
+            "664E28:10:0",
+            "664E28:11:0",
+            "664E28:12:0",
+            "664E28:14:0",
+            "664E28:15:0",
+            "664E28:17:0",
+            "664E28:17:1",
+            "664E28:31:0",
+            "664E28:23:0",
+            "664E28:24:0",
+            "664E28:25:0",
+            "664E28:30:0",
+            "664E28:34:0",
+            "664E28:34:1",
+            "664E28:16:0",
+            "664E28:18:0",
+            "664E28:19:0",
+            "664E28:20:0",
+            "664E28:21:0",
+            "664E28:22:0",
+            "664E28:32:0",
+            "664E28:33:0",
+            "664E28:27:0",
+            "664E28:27:1",
+            "664E28:26:0",
+            "664E28:26:1",
+            "664E28:28:0",
+            "664E28:28:1",
+            "664E28:29:0",
+            "664E28:13:1"
+          ],
+          "nickname_suffix_scripts": [
+            10,
+            28,
+            33
+          ],
+          "chipquest_variable_profile": "roll-chip104-native-name-v1",
+          "context": "Prior29 literals exact plus chip104 search suffix13:1. Unselected opening quote13:0 and printChip0/104 unchanged; native name still Japanese, consumer localization pending. Source name88px; combined first row110px, Korean second row79px. Other230 slots protected; renderer diagnostic, not native quest progression."
+        },
+        "license-incident-keyquest-tournament-events-mail-undernet-weekday-prompts": {
+          "literal_scripts": [
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "nickname_suffix_scripts": [
+            10,
+            28,
+            33
+          ],
+          "context": "Prior twenty-four plus weekday26/28 and upcoming weekend29, five literals. Original Sunday/Saturday branches preserved; native nickname28 first-row comma unchanged. Normal date UI, diagnostic PET lookup only. Other231 slots protected."
+        }
+      },
+      "context": "Roll PET R-button normal conversation. Observed native entry script0 jumps10, LR08037F27, source root664E28. Only default internet exploration literal selected; flags, tournament checks, progress branches and all254 other script slots protected."
+    },
+    "660CA8": {
+      "source_bytes": 231,
+      "pointers": [
+        229604
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        1,
+        2,
+        3
+      ],
+      "script_count": 5,
+      "context": "Roll pre-jack-in dialogue, native PET plug-in confirmation root380E4. Native script2 entry observed on fixed source-compatible development ROM; source1/3 conditions unresolved. All five source literals selected;0/4 protected. Original window92,110, flags3603/3651 and wait30 retained."
+    },
+    "65F9AC": {
+      "source_bytes": 170,
+      "pointers": [
+        229588
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        1,
+        2
+      ],
+      "script_count": 4,
+      "context": "Roll operator greeting/source return branch, native Navi entry root380D4. All5 literals and two nonliteral slots pinned; position92,110. Source branch2 trigger remains runtime-open, not inferred from prose."
+    },
+    "65FA58": {
+      "source_bytes": 1126,
+      "pointers": [
+        229592
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 132,
+      "complete_literal_scope": false,
+      "nickname_suffix_script": 1,
+      "literal_scripts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20
+      ],
+      "script_count": 22,
+      "choice_scripts": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "context": "Roll PET source table380D8, normal portrait/right-side dialogue92,110; all44 literal units; source nickname before script1 literal retained without particle or first-line growth. Six nonliteral scripts unchanged. Menus entry/reentry and cancel/Yes paths must be verified on exact cumulative ROM."
+    },
+    "65A578": {
+      "source_bytes": 143,
+      "pointers": [
+        229528
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 144,
+      "complete_literal_scope": true
+    },
+    "65A608": {
+      "source_bytes": 1141,
+      "pointers": [
+        229532
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 144,
+      "complete_literal_scope": true,
+      "context": "PET menu callCheckMenuSelection routes; source and runtime verified normal dialogue at left=92 top=110; not the separate fixed-cell menu-label consumer",
+      "choice_scripts": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "dynamic_name_script": 20
+    },
+    "6DA21C": {
+      "variants": {
+        "four-navi-save-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            16,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                10,
+                11,
+                12,
+                13
+              ],
+              "consumer": "fixed-cell-big",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 48
+            },
+            {
+              "scripts": [
+                16
+              ],
+              "consumer": "fixed-cell-big",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 40
+            }
+          ],
+          "context": "Retains53 units; NumberMan55-59 adds16, total69. Two separate overwrite prompt/choice consumers, all source controls preserved.",
+          "choice_groups": [
+            {
+              "script": 0,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 1,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 2,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 4,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 20,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 21,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 22,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 25,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 27,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 29,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 55,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 57,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 59,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 3
+            }
+          ],
+          "literal_ids": [
+            "6DA21C:0:0",
+            "6DA21C:0:1",
+            "6DA21C:0:2",
+            "6DA21C:1:0",
+            "6DA21C:1:1",
+            "6DA21C:1:2",
+            "6DA21C:2:0",
+            "6DA21C:2:1",
+            "6DA21C:2:2",
+            "6DA21C:2:3",
+            "6DA21C:2:4",
+            "6DA21C:3:0",
+            "6DA21C:4:0",
+            "6DA21C:4:1",
+            "6DA21C:4:2",
+            "6DA21C:4:3",
+            "6DA21C:20:0",
+            "6DA21C:20:1",
+            "6DA21C:20:2",
+            "6DA21C:21:0",
+            "6DA21C:21:1",
+            "6DA21C:21:2",
+            "6DA21C:22:0",
+            "6DA21C:22:1",
+            "6DA21C:22:2",
+            "6DA21C:22:3",
+            "6DA21C:22:4",
+            "6DA21C:23:0",
+            "6DA21C:24:0",
+            "6DA21C:24:1",
+            "6DA21C:24:2",
+            "6DA21C:24:3",
+            "6DA21C:10:0",
+            "6DA21C:11:0",
+            "6DA21C:12:0",
+            "6DA21C:13:0",
+            "6DA21C:16:1",
+            "6DA21C:25:0",
+            "6DA21C:25:1",
+            "6DA21C:25:2",
+            "6DA21C:26:0",
+            "6DA21C:26:1",
+            "6DA21C:26:2",
+            "6DA21C:27:0",
+            "6DA21C:27:1",
+            "6DA21C:27:2",
+            "6DA21C:27:3",
+            "6DA21C:27:4",
+            "6DA21C:28:0",
+            "6DA21C:29:0",
+            "6DA21C:29:1",
+            "6DA21C:29:2",
+            "6DA21C:29:3",
+            "6DA21C:55:0",
+            "6DA21C:55:1",
+            "6DA21C:55:2",
+            "6DA21C:56:0",
+            "6DA21C:56:1",
+            "6DA21C:56:2",
+            "6DA21C:57:0",
+            "6DA21C:57:1",
+            "6DA21C:57:2",
+            "6DA21C:57:3",
+            "6DA21C:57:4",
+            "6DA21C:58:0",
+            "6DA21C:59:0",
+            "6DA21C:59:1",
+            "6DA21C:59:2",
+            "6DA21C:59:3"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 26,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            },
+            {
+              "script": 56,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            }
+          ]
+        },
+        "rockman-roll-gutsman-save-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            16,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                10,
+                11,
+                12,
+                13
+              ],
+              "consumer": "fixed-cell-big",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 48
+            },
+            {
+              "scripts": [
+                16
+              ],
+              "consumer": "fixed-cell-big",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 40
+            }
+          ],
+          "context": "Retains37 Rockman/Roll save surface units; adds16 GutsMan25-29 units, source branching and normal save consumer retained.",
+          "choice_groups": [
+            {
+              "script": 0,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 1,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 2,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 4,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 20,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 21,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 22,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 25,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 27,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 29,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 3
+            }
+          ],
+          "literal_ids": [
+            "6DA21C:0:0",
+            "6DA21C:0:1",
+            "6DA21C:0:2",
+            "6DA21C:1:0",
+            "6DA21C:1:1",
+            "6DA21C:1:2",
+            "6DA21C:2:0",
+            "6DA21C:2:1",
+            "6DA21C:2:2",
+            "6DA21C:2:3",
+            "6DA21C:2:4",
+            "6DA21C:3:0",
+            "6DA21C:4:0",
+            "6DA21C:4:1",
+            "6DA21C:4:2",
+            "6DA21C:4:3",
+            "6DA21C:20:0",
+            "6DA21C:20:1",
+            "6DA21C:20:2",
+            "6DA21C:21:0",
+            "6DA21C:21:1",
+            "6DA21C:21:2",
+            "6DA21C:22:0",
+            "6DA21C:22:1",
+            "6DA21C:22:2",
+            "6DA21C:22:3",
+            "6DA21C:22:4",
+            "6DA21C:23:0",
+            "6DA21C:24:0",
+            "6DA21C:24:1",
+            "6DA21C:24:2",
+            "6DA21C:24:3",
+            "6DA21C:10:0",
+            "6DA21C:11:0",
+            "6DA21C:12:0",
+            "6DA21C:13:0",
+            "6DA21C:16:1",
+            "6DA21C:25:0",
+            "6DA21C:25:1",
+            "6DA21C:25:2",
+            "6DA21C:26:0",
+            "6DA21C:26:1",
+            "6DA21C:26:2",
+            "6DA21C:27:0",
+            "6DA21C:27:1",
+            "6DA21C:27:2",
+            "6DA21C:27:3",
+            "6DA21C:27:4",
+            "6DA21C:28:0",
+            "6DA21C:29:0",
+            "6DA21C:29:1",
+            "6DA21C:29:2",
+            "6DA21C:29:3"
+          ],
+          "standalone_choice_rows": [
+            {
+              "script": 26,
+              "literals": [
+                1,
+                2
+              ],
+              "prefix_pixels": 24
+            }
+          ]
+        },
+        "rockman-roll-save-surface-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            16,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                10,
+                11,
+                12,
+                13
+              ],
+              "consumer": "fixed-cell-big",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 48
+            },
+            {
+              "scripts": [
+                16
+              ],
+              "consumer": "fixed-cell-big",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 40
+            }
+          ],
+          "context": "Retains36 save units and adds only16:1 cup count suffix. Native5-cell icon/number/unit transfer; fg and printBuffer preserved. Title is separate same-slot graphics.",
+          "choice_groups": [
+            {
+              "script": 0,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 1,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 2,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 4,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 20,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 21,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 22,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            }
+          ],
+          "literal_ids": [
+            "6DA21C:0:0",
+            "6DA21C:0:1",
+            "6DA21C:0:2",
+            "6DA21C:1:0",
+            "6DA21C:1:1",
+            "6DA21C:1:2",
+            "6DA21C:2:0",
+            "6DA21C:2:1",
+            "6DA21C:2:2",
+            "6DA21C:2:3",
+            "6DA21C:2:4",
+            "6DA21C:3:0",
+            "6DA21C:4:0",
+            "6DA21C:4:1",
+            "6DA21C:4:2",
+            "6DA21C:4:3",
+            "6DA21C:20:0",
+            "6DA21C:20:1",
+            "6DA21C:20:2",
+            "6DA21C:21:0",
+            "6DA21C:21:1",
+            "6DA21C:21:2",
+            "6DA21C:22:0",
+            "6DA21C:22:1",
+            "6DA21C:22:2",
+            "6DA21C:22:3",
+            "6DA21C:22:4",
+            "6DA21C:23:0",
+            "6DA21C:24:0",
+            "6DA21C:24:1",
+            "6DA21C:24:2",
+            "6DA21C:24:3",
+            "6DA21C:10:0",
+            "6DA21C:11:0",
+            "6DA21C:12:0",
+            "6DA21C:13:0",
+            "6DA21C:16:1"
+          ]
+        },
+        "rockman-roll-save-labels-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            10,
+            11,
+            12,
+            13,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "literal_profiles": [
+            {
+              "scripts": [
+                10,
+                11,
+                12,
+                13
+              ],
+              "consumer": "fixed-cell-big",
+              "literal_language": "mmbn45s",
+              "max_literal_rows": 1,
+              "max_line_advance": 48
+            }
+          ],
+          "context": "Retains Rockman/Roll save prose; adds four shared save labels. Native source font08601738; six8px cells,384-byte BG transfers; save-labels-source-v1. Title graphic/numeric buffers unchanged.",
+          "choice_groups": [
+            {
+              "script": 0,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 1,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 2,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 4,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 20,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 21,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 22,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            }
+          ]
+        },
+        "rockman-roll-save-v1": {
+          "literal_scripts": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "context": "Rockman scripts 0-4 and Roll scripts 20-24; script 0 checkNaviAll Roll branch=20. Other 110 scripts remain unchanged. Native save/flag/selection controls preserved.",
+          "choice_groups": [
+            {
+              "script": 0,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 1,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 2,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 4,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 20,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 21,
+              "literals": [
+                0,
+                1,
+                2
+              ],
+              "prompt_rows": 3
+            },
+            {
+              "script": 22,
+              "literals": [
+                2,
+                3,
+                4
+              ],
+              "prompt_rows": 2
+            },
+            {
+              "script": 24,
+              "literals": [
+                1,
+                2,
+                3
+              ],
+              "prompt_rows": 2
+            }
+          ]
+        }
+      },
+      "source_bytes": 9008,
+      "pointers": [
+        244860,
+        245612
+      ],
+      "consumer": "normal-dialogue",
+      "max_literal_rows": 3,
+      "max_line_advance": 144,
+      "complete_literal_scope": false,
+      "literal_scripts": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "script_count": 120,
+      "context": "Rockman save dialogue selected by checkNaviAll in script 0; menu labels and other Navi scripts remain byte-identical. Source save screen observed in pet-ko-v2-save-settled/step_011.png.",
+      "choice_groups": [
+        {
+          "script": 0,
+          "literals": [
+            0,
+            1,
+            2
+          ],
+          "prompt_rows": 3
+        },
+        {
+          "script": 1,
+          "literals": [
+            0,
+            1,
+            2
+          ],
+          "prompt_rows": 3
+        },
+        {
+          "script": 2,
+          "literals": [
+            2,
+            3,
+            4
+          ],
+          "prompt_rows": 2
+        },
+        {
+          "script": 4,
+          "literals": [
+            1,
+            2,
+            3
+          ],
+          "prompt_rows": 2
+        }
+      ]
+    }
+  }
+}

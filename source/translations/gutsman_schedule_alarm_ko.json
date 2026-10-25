@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "66651C",
+  "source_archive_sha256": "16cd2ff2d4af233f94277cb9077169046a4abe04f4789c735e77495697f18852",
+  "consumer": "normal-dialogue",
+  "context": "PET school alarm script4 two pages and additional-event script6 only; root038124. Not alternate mugshot24/26. Script6 diagnostic stops before event dispatch.",
+  "voice": "Existing 거츠/거스 speech; human wording review pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "21 source literals:3 selected/18 preserved. All controls, sounds, waits, event flags, window/arrow geometry, callCheckNowEvent/callFindNowEventType, buffers, 26 unselected script spans unchanged. No name/RTC/save mutation.",
+  "units": [
+    {
+      "id": "66651C:4:0",
+      "source": "じゅくに行く\nじかんでガス!!",
+      "translation": "학원 갈\n시간이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66651C:4:1",
+      "source": "べんきょう、べんきょう\nがんばるでガッツ!!",
+      "translation": "공부、공부!\n힘내는거츠!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66651C:6:0",
+      "source": "それと・・・",
+      "translation": "그리고・・・",
+      "state": "needs_review"
+    }
+  ]
+}

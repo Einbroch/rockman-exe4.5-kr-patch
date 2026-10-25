@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "clone_consumer": "secondary-chip-name-pool; reinsertion pending",
+  "pool": {
+    "offset": 7756568,
+    "bytes": 1103,
+    "scripts": 137,
+    "sha256": "c6274969a02fa36aaf06514a9c1f7a8d33544625e743a798e45e3fd6c822bd35"
+  },
+  "scope": "private clone only; actual name-consumer source roots and all shared pointers unchanged"
+}

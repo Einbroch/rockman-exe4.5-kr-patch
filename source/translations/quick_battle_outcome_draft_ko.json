@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "664D84",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/664D84.tpl",
+    "sha256": "2b4ee70a2b22f0fbc037c29e9b9e76cda03b8555125ef389001d2fcaccdcd8a4"
+  },
+  "source_archive_sha256": "5420cdeea0b884ba9db17740e40ee31ad4d02d9f01dfa0f5ef95233f04879058",
+  "consumer": "quick-tournament-results-guts-reminders",
+  "context": "Quick-box defeat encouragement, victory/operator praise and decisive-rematch message; no mugshot.",
+  "voice": "Friendly quick-box voice unidentified; GutsMan only explicit portraits21..26. Existing 거스/거츠 suffix candidates retained, not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep prior selected literals, commands, flags, buffers, newlines and literal segmentation; no ROM/save writes.",
+  "semantic_review": [
+    "Defeat encouragement, victory praise and complete settlement on next attempt kept distinct. Script3 external draw/result caller unproven; no route assertion.",
+    "Nickname follows the victory first literal and precedes comma in second; separate keyWait/clearMsg and trailing newline retained."
+  ],
+  "units": [
+    {
+      "id": "664D84:1:0",
+      "source": "まけちゃったね・・・\nけど、つぎはかてるように\nがんばりましょうね!!",
+      "translation": "져 버렸네...\n하지만, 다음엔 이기도록\n힘내자!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box defeat encouragement, victory/operator praise and decisive-rematch message; no mugshot.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "664D84:2:0",
+      "source": "やったー!!\n",
+      "translation": "해냈다~!!\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box defeat encouragement, victory/operator praise and decisive-rematch message; no mugshot.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "664D84:2:1",
+      "source": "、\nナイスオペレーション!",
+      "translation": ",\n멋진 오퍼레이션이야!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box defeat encouragement, victory/operator praise and decisive-rematch message; no mugshot.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "664D84:3:0",
+      "source": "つぎやるときは、\nかんぜんけっちゃくよ!",
+      "translation": "다음에 할 때는,\n완전히 결판내자!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box defeat encouragement, victory/operator praise and decisive-rematch message; no mugshot.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    }
+  ]
+}

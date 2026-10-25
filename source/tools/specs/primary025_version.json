@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "purpose": "Explicit025 source-only composition after frozen024, before allocation. Parent scopes and payloads reconstructed from immutable original; no patched-ROM overlay.",
+  "files": [
+    {
+      "base": "tools/build_development_patch_024.py",
+      "base_sha256": "b617a55abfef24f216fd250339dc4a61c737ccdf31efa710ae75844c7ef361dd",
+      "output": "tools/build_development_patch_025.py",
+      "edits": [
+        {
+          "before": "Version024 of the primary path; historical023 entry remains frozen.",
+          "after": "Version025 of the primary path; frozen024 composition remains before025."
+        },
+        {
+          "before": "    inputs024,summary024=load_inputs(source)\n",
+          "after": "    inputs024,summary024=load_inputs(source)\n    from layout500_inputs_025 import load_inputs as load_inputs025\n    from layout500_product_025 import compose_primary as compose_primary025,finalize as finalize025\n    inputs025,summary025=load_inputs025(source)\n"
+        },
+        {
+          "before": "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n",
+          "after": "    for entry025,_ in inputs025:\n        asset025=read_json(ROOT/entry025['merged_asset']['path'])\n        needed.update(ch for u in asset025['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n"
+        },
+        {
+          "before": "        payload,record=compose_primary(archive,payload,record,inputs024,work/'plugins')\n",
+          "after": "        payload,record=compose_primary(archive,payload,record,inputs024,work/'plugins')\n        payload,record=compose_primary025(archive,payload,record,inputs025,work/'plugins')\n"
+        },
+        {
+          "before": "    finalize(source,target,result,inputs024,summary024)\n",
+          "after": "    finalize025(source,target,result,inputs025,summary025,inputs024,summary024)\n"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "base": "tools\\prepare_profile039_v1.py",
+  "base_sha256": "b6b8e3d37233e72ca85d8d9cb4c4a24e90ec7f0a41de928191f9087136ab8593",
+  "changes": [
+    [
+      "from pet_quick_capacity import PREFIX,validate",
+      "from pet_quick_capacity import PREFIX\nfrom profile_quick_geometry039_v1 import validate"
+    ],
+    [
+      "pending_insertion_500_039_profile_source_v1",
+      "pending_insertion_500_039_profile_source_v2"
+    ],
+    [
+      "profile='pet-quick-explicit132'",
+      "profile='profile-quick-zero-speed-visible-hold132'"
+    ],
+    [
+      "tools/prepare_profile039_v1.py",
+      "tools/prepare_profile_source039_v2.py"
+    ],
+    [
+      "'tools/profile_layout039_v1.py'",
+      "'tools/profile_layout039_v1.py','tools/profile_quick_geometry039_v1.py'"
+    ],
+    [
+      "No translated archive compiled/reinserted yet; source roundtrip",
+      "Visible-page EDFF hold and zero text speed are distinct source controls, not ordinary quick dialogue; external option/input overlap is unresolved. No translated archive compiled/reinserted yet; source roundtrip"
+    ]
+  ],
+  "replacement_counts": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "output": "tools\\prepare_profile_source039_v2.py",
+  "output_sha256": "d0aea6d8f6e67992e9b2410644ee636daa62bdeb3bb31745ef919d9be227b0db",
+  "cause": "v1 ordinary quick validator correctly rejected native profile textSpeed0 and visible EDFF hold. Distinct analysis-only consumer model added; old validator untouched. External menu interaction proof still missing.",
+  "ROM_written": false
+}

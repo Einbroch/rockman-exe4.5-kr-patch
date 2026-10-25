@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "source_preflight": {
+    "path": "analysis/pending_insertion_500_022_preflight_v1/preflight.json",
+    "sha256": "100afd17b0af757137ceed31305559ccadbd3ba8f4143de05e81a4c0822b8ba8"
+  },
+  "raw_archives": ["7C9C44", "7CA474", "7CAF40", "7CB850"],
+  "raw_units": 136,
+  "hint_units": 364,
+  "hint_archives": 19,
+  "total_new_units": 500,
+  "hint_policy": "original compressed table and RAM retained; exact full-native-byte guarded ROM clone"
+}

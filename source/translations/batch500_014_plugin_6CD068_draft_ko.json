@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6CD068",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6CD068.tpl",
+    "sha256": "dc489f7c937815d0e999ad075033f8f22d3c76f22f71d21a586b97f9cf351712"
+  },
+  "source_archive_sha256": "b5b4cdd1559b51c5403ca845e02deefc678ca7e510a4469877e7f043e4c4ebf5",
+  "consumer": "batch500-contextual-followup-hint-result-alert",
+  "context": "Full skeleton and literal read. TYPE3 plugin target PlantMan.EXE,not operator identity,3603/3651 wait30.",
+  "voice": "Source-conditioned manual draft;no quick speaker inferred from archive adjacency or imagery;wording unapproved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-014",
+  "semantic_review": [
+    "Exactly500 stable literals:followup403/hint8/battle3/greeting6/return6/training16/plugin3/mail14/tournament15/schedule6/reminder20. No choice literals.",
+    "Every source literal and complete control skeleton read;compact whitespace-only view retains every command/argument. Full actual schedule/plugin/return TPLs inspected;manual per-ID prose,no replacement rules.",
+    "Error-report0 in both followups and training provisional0 stay original in remaining denominator. Other provisional6D2700:0:0 inspected and not included.",
+    "ElecMan portrait only6C7A34:21..26. PlantMan self-name only6CC808 script1 not evidence for all neighbouring scripts. Plugin target is not operator identity.",
+    "Electrical voltage vs current and tingling romance/battle imagery retained;30man/100man/60/50/40 digits preserve source. Source battery3/4 rendered Korean3호/4호,button distinct;needs terminology review.",
+    "Plant food/nectar/life fertilizer and flower metaphors;fire vulnerability not automatically curable vs human subject difficulty;mail refusal remains narrative wording,not implemented filter evidence.",
+    "Shepherds purseペンペングサ rendered냉이,caroteneカロチン rendered카로틴;new terminology/unverified spellings await human review. Sourceつくしい training omission treated美しい from preceding contrast,recorded unapproved.",
+    "Tournament cherry petals/rebloom/winning flower preserved;no-entry cancel separate. Remindercharging correction/cram-school teacher thunder idiom and quick/portrait branches preserved.",
+    "All school/family/food/hobby/dream/enemy/TV/subject/opponent/chip print variants,wait/flags/formatting untouched. Training HP33 amount1 vs zenny/bug4294967295 buffer3 count order preserved.",
+    "NON-DISTRIBUTION/needs_review;no ROM/save/emulator/image writes;static checks do not approve wording/layout or prove runtime."
+  ],
+  "units": [
+    {
+      "id": "6CD068:1:0",
+      "source": "プラグイン!\nプラントマン.EXE、\nトランスミッション!!",
+      "translation": "플러그인!\n플랜트맨.EXE,\n트랜스미션!!",
+      "state": "needs_review",
+      "speaker": "plugin-call-speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Full skeleton and literal read. TYPE3 plugin target PlantMan.EXE,not operator identity,3603/3651 wait30.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "778338",
+  "source_archive_sha256": "51f4ec75fbfb4a976ac0a117ef41fdfc73d6eabdbdc7d6f622daba0e97be7e83",
+  "consumer": "normal-dialogue",
+  "scope_variant": "roll-gutsman-plugout-v1",
+  "context": "Shared plug-out. Retain Roll script6/26 wording unchanged; add GutsMan script7/27. Normal R prompt observed from own-ROM cold/save/continue ancestry in poc/runtime/keyitem-full-rom-v1-gutsman-plugout-source. Original Navi dispatch and portraits retained.",
+  "voice": "Existing GutsMan 거스 ending retained; source ガッツガッツ battle cry rendered 거츠거츠. Development draft, human wording review pending.",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "Native nickname insertion, first-line comma, three prompt rows, Yes two trailing spaces, default No, flags, targets, cancel and wait preserved. Other42 script payloads unchanged.",
+  "units": [
+    {"id":"778338:6:0","source":"、\nプラグアウトしちゃう?\n","translation":"、\n플러그아웃할까?\n","state":"needs_review"},
+    {"id":"778338:6:1","source":"はい  ","translation":"예  ","state":"needs_review"},
+    {"id":"778338:6:2","source":"いいえ","translation":"아니요","state":"needs_review"},
+    {"id":"778338:26:0","source":"OK! 今からかえるね!","translation":"응! 지금 돌아갈게!","state":"needs_review"},
+    {"id":"778338:7:0","source":"、\nプラグアウトするでガス?\n","translation":"、\n플러그아웃하거스?\n","state":"needs_review"},
+    {"id":"778338:7:1","source":"はい  ","translation":"예  ","state":"needs_review"},
+    {"id":"778338:7:2","source":"いいえ","translation":"아니요","state":"needs_review"},
+    {"id":"778338:27:0","source":"りょうかいでガス!\nガッツガッツ!!","translation":"알겠거스!\n거츠거츠!!","state":"needs_review"}
+  ]
+}

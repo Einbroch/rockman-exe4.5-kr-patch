@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "batch_id": "pending-insertion-500-001",
+  "release_eligible": false,
+  "policy": "Individual line assignment only; wording and two source newline boundaries retained",
+  "layouts": {
+    "6DF988:42:4": "그런데 방금 들어온\n정보에 따르면\n과격파 내비가"
+  }
+}

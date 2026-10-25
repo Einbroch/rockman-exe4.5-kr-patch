@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "evidence": "analysis/exe45_chip_library_survey_v2.json",
+  "pool": {"offset": 7754128, "bytes": 2437, "scripts": 256, "sha256": "11251d95aed193abd08d0e609d1486f7bfa603c2774213da80aa1c8b4aef6f73"},
+  "install": {"offset": 274136, "expected_hex": "090e4900415a401800f066f8", "continuation": 134491877},
+  "native_parser": 134492081,
+  "copy_helper": 134220119,
+  "buffer": {"start": 33678848, "rows": 7, "stride": 32, "cells": 8},
+  "vram": {"char_base": 100679680, "start": 100696128, "bytes": 3584},
+  "protected_code": [
+    {"start": 274000, "end": 274404, "sha256": "202b2022f87af9bb18f4f42b897dc69915c155dc797589e4873317696898e289"},
+    {"start": 274452, "end": 274524, "sha256": "d147916d652b39dd0bc2d6a3b5203119c903fb7bfd727d1e0fbc9e9fc392d6b5"},
+    {"start": 2390, "end": 2450, "sha256": "cb1ebf4b9cce3f4b1a7bc1869d9a03d06324fced895f0ad8549f2b6e6f459f4d"},
+    {"start": 273344, "end": 273856, "sha256": "d42fd6293c16318cc9eea5fa29c4e514a847c3b5ba292dbbcd4db689c4e2c95c"}
+  ],
+  "lifetime": "Private row/cell working set only while the guarded library selector owns its seven-row buffer; every displayed Hangul cell is reloaded before its map entry. Native non-Hangul and padding use native tiles. No cache reads outside this selector. First 64 bytes at 06008000 remain untouched. Native name-entry graphics reload covers the cache on the observed exit route.",
+  "limits": ["No global VRAM ownership claim", "Full worst-case runtime, conditional icons, populated P.A and other exit routes remain verification requirements", "Original pools and all shared pointers stay unchanged"]
+}

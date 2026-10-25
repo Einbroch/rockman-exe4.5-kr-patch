@@ -1,0 +1,22 @@
+{
+  "schema":1,"policy":"development-draft; NON-DISTRIBUTION","review":"needs_review",
+  "scope":"Explicit181..194 names/descriptions; prior180 preserved.195..200 are not invented to fill missing source names.",
+  "reference":"TargetEXE45 source governs. Katakana DarkChip descriptions retain ominous wording, not a human-approved presentation.",
+  "terminology_review":["アクアアッパー -> 아쿠아어퍼","グリーンウッド -> 그린우드","DarkChip187..194: self desire creates demonic chip; ominous voice needs review","Source holes195..200 excluded from this paired-name scope"],
+  "entries":[
+    {"script":181,"name":"아쿠아어퍼1","description":"적이 서 있는\n금이 간 패널에서\n아쿠아타워 발생!"},
+    {"script":182,"name":"아쿠아어퍼2","description":"적이 서 있는\n금이 간 패널에서\n아쿠아타워 발생!"},
+    {"script":183,"name":"아쿠아어퍼3","description":"적이 서 있는\n금이 간 패널에서\n아쿠아타워 발생!"},
+    {"script":184,"name":"그린우드1","description":"적이 서 있는\n풀숲 패널에\n우디타워!"},
+    {"script":185,"name":"그린우드2","description":"적이 서 있는\n풀숲 패널에\n우디타워!"},
+    {"script":186,"name":"그린우드3","description":"적이 서 있는\n풀숲 패널에\n우디타워!"},
+    {"script":187,"name":"다크캐논","description":"자신의 욕망이\n만들어 낸 악마의\n다크칩..."},
+    {"script":188,"name":"다크소드","description":"자신의 욕망이\n만들어 낸 악마의\n다크칩..."},
+    {"script":189,"name":"다크봄","description":"자신의 욕망이\n만들어 낸 악마의\n다크칩..."},
+    {"script":190,"name":"다크발칸","description":"자신의 욕망이\n만들어 낸 악마의\n다크칩..."},
+    {"script":191,"name":"다크랜스","description":"자신의 욕망이\n만들어 낸 악마의\n다크칩..."},
+    {"script":192,"name":"다크스프레드","description":"자신의 욕망이\n만들어 낸 악마의\n다크칩..."},
+    {"script":193,"name":"다크스테이지","description":"자신의 욕망이\n만들어 낸 악마의\n다크칩..."},
+    {"script":194,"name":"다크리커버리","description":"자신의 욕망이\n만들어 낸 악마의\n다크칩..."}
+  ]
+}

@@ -1,0 +1,2306 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6DE3E0",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6DE3E0.tpl",
+    "sha256": "5528d21f924cdc5bf3f35ed3e42432648a08817879b5aada1317d006e2072f8c"
+  },
+  "source_archive_sha256": "9c9f8af44425b7577d02008ea0fb3e922f2ed4263317db9aa29b7620038721ca",
+  "consumer": "normal-dialogue",
+  "context": "All253 Japanese literals in66-slot mission archive; 32 native mission dispatch targets33..64 plus ended65 and outcome27..31. Exact commands retained, no mission execution or reward mutation.",
+  "voice": "SciLabMan commanding conversational register drawn from source; narration distinct from portrait dialogue. Existing 내비/오피셜/제니/버그 조각 vocabulary reused as candidates.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve all source IDs, time limits, numbered destinations, criminal appearance, conditional delete/arrest instructions, amounts/mission state commands and newline topology. No ROM or save writes.",
+  "semantic_review": [
+    "언더인터넷/과학성/바리바리본/그림자 군단/월드 스리 and organization names are source-backed draft candidates, not new human approvals.",
+    "Mission47 retains source distinction between female-type appearance and male identity; mission36/51 black female-type, mission61 yellow female-type, mission59 red disguise and mission60 green disguise remain distinct.",
+    "Mandatory delete40 vs optional delete others and arrest-or-delete60..64 are not conflated. Times and numbered destinations mechanically checked.",
+    "Reward comma phrasing avoids variable-final-consonant dependence; real variable width, reward lookups and all mission runtime branches unverified."
+  ],
+  "units": [
+    {
+      "id": "6DE3E0:27:0",
+      "source": "なにをやっているんだ!",
+      "translation": "뭘 하고 있는 건가!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:27:1",
+      "source": "いつものキミらしくないぞ\nしばらく アタマを\nひやすんだな",
+      "translation": "평소의 자네답지 않군\n잠시 머리를\n식히도록 하게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:27:2",
+      "source": "もちろん、ほうしゅうは\nナシだ!!",
+      "translation": "물론, 보상은\n없네!!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:28:0",
+      "source": "よくやってくれた!",
+      "translation": "잘해 주었네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:28:1",
+      "source": "キミなら じんそくに\nニンムを せいこうさせて\nくれると おもったよ",
+      "translation": "자네라면 신속하게\n임무를 완수해\n줄 거라 생각했네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:28:2",
+      "source": "ほうしゅうのデータを\nてんぷしてあるから、\nうけとってくれ",
+      "translation": "보상 데이터를\n첨부했으니,\n받아 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:28:3",
+      "source": "は、\n「",
+      "translation": ",\n「",
+      "state": "needs_review",
+      "speaker": "system-reward",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:28:4",
+      "source": "」\nを ゲットした!!",
+      "translation": "」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-reward",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:29:0",
+      "source": "は、\n「",
+      "translation": ",\n「",
+      "state": "needs_review",
+      "speaker": "system-reward",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:29:1",
+      "source": "ゼニー」\nを ゲットした!!",
+      "translation": "제니」\n획득!!",
+      "state": "needs_review",
+      "speaker": "system-reward",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:30:0",
+      "source": "は、\n「バグのかけら」\nを ",
+      "translation": ",\n「버그 조각」\n총 ",
+      "state": "needs_review",
+      "speaker": "system-reward",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:30:1",
+      "source": "コゲットした!!",
+      "translation": "개 획득!!",
+      "state": "needs_review",
+      "speaker": "system-reward",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:31:0",
+      "source": "このつぎも たのむぞ!",
+      "translation": "다음에도 부탁하네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:33:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:33:1",
+      "source": "インターネット1で\nウイルスが あばれている",
+      "translation": "인터넷1에서\n바이러스가 날뛰고 있다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:33:2",
+      "source": "60分いないに ウイルスを\nデリートしてくれ",
+      "translation": "60분 안에 바이러스를\n삭제해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:33:3",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:33:4",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:34:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:34:1",
+      "source": "インターネット2で\nウイルスが あばれている",
+      "translation": "인터넷2에서\n바이러스가 날뛰고 있다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:34:2",
+      "source": "60分いないに ウイルスを\nデリートしてくれ",
+      "translation": "60분 안에 바이러스를\n삭제해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:34:3",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:34:4",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:35:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:35:1",
+      "source": "れんぞくせっとうじけんの\nはんにんナビが",
+      "translation": "연쇄 절도 사건의\n범인 내비가",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:35:2",
+      "source": "インターネット3に\nにげこんだらしい",
+      "translation": "인터넷3으로\n도망친 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:35:3",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:35:4",
+      "source": "はんにんは みどりの\nノーマルナビだ",
+      "translation": "범인은 초록색\n노멀 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:35:5",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:35:6",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:36:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:36:1",
+      "source": "オフィシャルこうばんから\nにげだした ごうとうナビが",
+      "translation": "오피셜 파출소에서\n도망친 강도 내비가",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:36:2",
+      "source": "インターネット4に\nひそんでいるらしい",
+      "translation": "인터넷4에\n숨어 있는 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:36:3",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:36:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:36:5",
+      "source": "はんにんの とくちょうは\nクロい女タイプのナビらしい",
+      "translation": "범인의 특징은\n검은 여성형 내비라는군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:36:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:36:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:37:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:37:1",
+      "source": "れんぞくほうかじけんの\nはんにんナビが",
+      "translation": "연쇄 방화 사건의\n범인 내비가",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:37:2",
+      "source": "インターネット1に\nひそんでいるらしい",
+      "translation": "인터넷1에\n숨어 있는 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:37:3",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:37:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:37:5",
+      "source": "はんにんは、\nみどりのノーマルナビだ",
+      "translation": "범인은,\n초록색 노멀 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:37:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:37:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:1",
+      "source": "ぼうこうじけんの\nはんにんが",
+      "translation": "폭행 사건의\n범인이",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:2",
+      "source": "インターネット2に\nあらわれたと、きんじょの\nナビから つうほうがあった",
+      "translation": "인터넷2에\n나타났다는 신고가\n근처 내비에게서 왔네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:3",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:5",
+      "source": "はんにんは むらさきいろの\nノーマルタイプのナビだ",
+      "translation": "범인은 보라색\n노멀 타입 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:6",
+      "source": "すまないが じょうほうは\nこれだけだ",
+      "translation": "미안하지만 정보는\n이것뿐이네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:7",
+      "source": "あとは、キミのカンだけが\nたよりだ!!",
+      "translation": "이제 자네의 감만\n믿을 수밖에 없네!!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:8",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:38:9",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:39:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:39:1",
+      "source": "とおりまじけんの\nはんにんを",
+      "translation": "무차별 습격 사건의\n범인을",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:39:2",
+      "source": "インターネット3で\nもくげきしたという\nじょうほうが はいった",
+      "translation": "인터넷3에서\n목격했다는\n정보가 들어왔네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:39:3",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:39:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:39:5",
+      "source": "はんにんは みどりいろの\nノーマルタイプのナビだ",
+      "translation": "범인은 초록색\n노멀 타입 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:39:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:39:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:40:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:40:1",
+      "source": "しめいてはいされている\nぎんこうごうとうの\nはんにんグループの1人が",
+      "translation": "지명 수배 중인\n은행 강도 일당의\n1명이",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:40:2",
+      "source": "インターネット4に\nきているそうだ",
+      "translation": "인터넷4에\n와 있다고 하네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:40:3",
+      "source": "すぐに げんばにむかい、\n30分いないに\nデリートしてくれ",
+      "translation": "즉시 현장으로 가서,\n30분 안에\n삭제해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:40:4",
+      "source": "はんにんは むらさきいろの\nにんそうの わるいナビだ",
+      "translation": "범인은 보라색의\n험상궂게 생긴 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:40:5",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:40:6",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:41:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:41:1",
+      "source": "インターネット5で\nウイルスが あばれている",
+      "translation": "인터넷5에서\n바이러스가 날뛰고 있다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:41:2",
+      "source": "50分いないに ウイルスを\nデリートしてくれ",
+      "translation": "50분 안에 바이러스를\n삭제해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:41:3",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:41:4",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:42:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:42:1",
+      "source": "インターネット6で\nウイルスが あばれている",
+      "translation": "인터넷6에서\n바이러스가 날뛰고 있다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:42:2",
+      "source": "50分いないに ウイルスを\nデリートしてくれ",
+      "translation": "50분 안에 바이러스를\n삭제해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:42:3",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:42:4",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:43:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:43:1",
+      "source": "ハイジャックじけんの\nはんにんグループの1人が",
+      "translation": "항공기 납치 사건의\n범인 일당 중 1명이",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:43:2",
+      "source": "インターネット7で\nもくげきされた",
+      "translation": "인터넷7에서\n목격되었네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:43:3",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:43:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:43:5",
+      "source": "はんにんは みどりいろの\nノーマルタイプのナビだ",
+      "translation": "범인은 초록색\n노멀 타입 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:43:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:43:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:44:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:44:1",
+      "source": "チンピラナビが\nインターネット8で\nあばれているらしい",
+      "translation": "불량배 내비가\n인터넷8에서\n날뛰는 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:44:2",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:44:3",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:44:4",
+      "source": "はんにんは むらさきいろの\nノーマルタイプのナビだ",
+      "translation": "범인은 보라색\n노멀 타입 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:44:5",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:44:6",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:45:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:45:1",
+      "source": "バスジャックはんの\nはんにんグループの1人が",
+      "translation": "버스 납치범\n일당 중 1명이",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:45:2",
+      "source": "インターネット5で\nもくげきされた!",
+      "translation": "인터넷5에서\n목격되었네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:45:3",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:45:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:45:5",
+      "source": "はんにんは みどりいろの\nノーマルナビだ",
+      "translation": "범인은 초록색\n노멀 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:45:6",
+      "source": "あとは キミのカンだけが\nタヨりだ・・・",
+      "translation": "이제 자네의 감만\n믿을 수밖에 없네...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:45:7",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:45:8",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:46:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:46:1",
+      "source": "ニセダークチップの\nみつばいにんが",
+      "translation": "가짜 다크 칩을\n밀매하는 자가",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:46:2",
+      "source": "インターネット6で\nしょうばいを\nしているらしい",
+      "translation": "인터넷6에서\n장사를\n하고 있는 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:46:3",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:46:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:46:5",
+      "source": "はんにんは みどりいろの\nノーマルタイプのナビだ",
+      "translation": "범인은 초록색\n노멀 타입 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:46:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:46:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:47:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:47:1",
+      "source": "ウイルスを つくりつづける\nクラッカーナビが",
+      "translation": "계속 바이러스를 만드는\n크래커 내비가",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:47:2",
+      "source": "インターネット7に\nいるらしい",
+      "translation": "인터넷7에\n있는 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:47:3",
+      "source": "30分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "30분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:47:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:47:5",
+      "source": "はんにんは きいろの\n女の子タイプのナビだが、",
+      "translation": "범인은 노란색\n여자아이형 내비지만,",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:47:6",
+      "source": "れっきとした 男だ",
+      "translation": "엄연히 남자다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:47:7",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:47:8",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:48:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:48:1",
+      "source": "ある はんざいしゅうだんの\nかんぶクラスのナビが",
+      "translation": "어느 범죄 조직의\n간부급 내비가",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:48:2",
+      "source": "インターネット8に\nいるらしい",
+      "translation": "인터넷8에\n있는 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:48:3",
+      "source": "30分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "30분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:48:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:48:5",
+      "source": "かんぶクラスのナビは、\nかなり にんそうのワルい\nナビだそうだ",
+      "translation": "그 간부급 내비는,\n상당히 험상궂게 생긴\n내비라고 하네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:48:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:48:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:49:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:49:1",
+      "source": "インターネット9で\nウイルスが あばれている",
+      "translation": "인터넷9에서\n바이러스가 날뛰고 있다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:49:2",
+      "source": "50分いないに ウイルスを\nデリートしてくれ",
+      "translation": "50분 안에 바이러스를\n삭제해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:49:3",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:49:4",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:50:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:50:1",
+      "source": "インターネット10で\nウイルスが あばれている",
+      "translation": "인터넷10에서\n바이러스가 날뛰고 있다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:50:2",
+      "source": "40分いないに ウイルスを\nデリートしてくれ",
+      "translation": "40분 안에 바이러스를\n삭제해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:50:3",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:50:4",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:51:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:51:1",
+      "source": "ネットけいむしょを\nだつごくした 女ナビが",
+      "translation": "넷 교도소에서\n탈옥한 여성 내비가",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:51:2",
+      "source": "インターネット11で\nはっけんされた",
+      "translation": "인터넷11에서\n발견되었네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:51:3",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:51:4",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:51:5",
+      "source": "もくひょうの ナビは\nくろい じょせいタイプの\nナビだ",
+      "translation": "목표 내비는\n검은 여성형\n내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:51:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:51:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:52:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:52:1",
+      "source": "ダークチップシンジケートを\nなのるナビが\nインターネット12にいる",
+      "translation": "다크 칩 신디케이트를\n자칭하는 내비가\n인터넷12에 있다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:52:2",
+      "source": "40分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:52:3",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:52:4",
+      "source": "もくひょうは みどりいろの\nノーマルタイプのナビだ",
+      "translation": "목표는 초록색\n노멀 타입 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:52:5",
+      "source": "オフィシャルを\nあまく見ると どうなるか\nおしえてやってくれ",
+      "translation": "오피셜을\n얕보면 어떻게 되는지\n가르쳐 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:52:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:52:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:53:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:53:1",
+      "source": "ぼうそうぞく\n「バリバリボーン」 の\nメンバーの もちナビが",
+      "translation": "폭주족\n「바리바리본」의\n멤버가 소유한 내비가",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:53:2",
+      "source": "インターネット9に\nいるという じょうほうが\nはいった",
+      "translation": "인터넷9에\n있다는 정보가\n들어왔네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:53:3",
+      "source": "「バリバリボーン」 には\nオフィシャルナビすうたいが\nデリートされている",
+      "translation": "「바리바리본」에게\n오피셜 내비 몇 대가\n삭제당했네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:53:4",
+      "source": "40分いないに\nげんばにむかい、\nしょくむしつもんをしてくれ",
+      "translation": "40분 안에\n현장으로 가서,\n불심 검문을 해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:53:5",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:53:6",
+      "source": "もくひょうは みどりいろの\nノーマルタイプのナビだ",
+      "translation": "목표는 초록색\n노멀 타입 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:53:7",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:53:8",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:54:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:54:1",
+      "source": "インターネット10で\nナビが ぼうそうしている\nという つうほうがあった",
+      "translation": "인터넷10에서\n내비가 폭주한다는\n신고가 들어왔네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:54:2",
+      "source": "30分いないに\nげんばにむかい、\nようすを 見てきてくれ",
+      "translation": "30분 안에\n현장으로 가서,\n상황을 확인해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:54:3",
+      "source": "ばあいによっては、\nデリートしてもかまわん",
+      "translation": "상황에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:54:4",
+      "source": "ぼうそうしているのは、\nクロくて目つきのするどい\nあくにんヅラのナビだ",
+      "translation": "폭주하는 것은,\n검고 눈매가 날카로운\n악당처럼 생긴 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:54:5",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:54:6",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:1",
+      "source": "カゲのぐんだんと なのる\nナゾのいちみの 1人が",
+      "translation": "그림자 군단을 자칭하는\n수수께끼 집단의 1명이",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:2",
+      "source": "オフィシャルに\nちょうせんじょうを\nたたきつけてきたらしい",
+      "translation": "오피셜에게\n도전장을\n내밀었다고 하네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:3",
+      "source": "インターネット11に\nいるそうだが、",
+      "translation": "인터넷11에\n있다고 하니,",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:4",
+      "source": "30分いないに\nかたづけてきてくれ",
+      "translation": "30분 안에\n처리해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:5",
+      "source": "あまりに うるさかったら\nデリートしてもかまわん",
+      "translation": "너무 소란스럽게 굴면\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:6",
+      "source": "カゲのぐんだんのナビは\nいかにも ワルいカオをした\nヤツらしい",
+      "translation": "그림자 군단의 내비는\n딱 봐도 험상궂게 생긴\n녀석이라고 하네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:7",
+      "source": "行って ブチのめしてやって\nきてくれ",
+      "translation": "가서 혼쭐을 내\n주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:8",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:55:9",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:56:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:56:1",
+      "source": "ウラインターネットから\nやってきたとおもわれる\nナビが、",
+      "translation": "언더인터넷에서\n온 것으로 보이는\n내비가,",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:56:2",
+      "source": "インターネット12に\nいるらしい・・・",
+      "translation": "인터넷12에\n있는 것 같군...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:56:3",
+      "source": "キミなら、20分あれば\nじゅうぶんだろう",
+      "translation": "자네라면, 20분이면\n충분하겠지",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:56:4",
+      "source": "ちょっと ようすを見て\nばあいによっては、\nデリートしてもかまわん",
+      "translation": "잠시 상황을 살펴보고\n경우에 따라서는,\n삭제해도 좋네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:56:5",
+      "source": "もくひょうのナビは、\nヒールナビだ",
+      "translation": "목표 내비는,\n힐 내비다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:56:6",
+      "source": "キミのカンのよさで\n見つけだしてくれ!!",
+      "translation": "자네의 뛰어난 감으로\n찾아내 주게!!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:56:7",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:56:8",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:57:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:57:1",
+      "source": "科学省でけんきゅうしていた\nウイルスが、",
+      "translation": "과학성에서 연구하던\n바이러스가,",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:57:2",
+      "source": "ウラインターネット1に\nりゅうしゅつしてしまった",
+      "translation": "언더인터넷1로\n유출되고 말았네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:57:3",
+      "source": "ウイルスには 科学省の\nごくひデータが\nくみこまれている",
+      "translation": "바이러스에는 과학성의\n극비 데이터가\n들어 있네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:57:4",
+      "source": "はんざいしゃの手に\nわたるまえに\nデリートしてくれ",
+      "translation": "범죄자의 손에\n넘어가기 전에\n삭제해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:57:5",
+      "source": "タイムリミットは 40分だ",
+      "translation": "제한 시간은 40분이다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:57:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:57:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:58:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:58:1",
+      "source": "かいがいのプログラムマニア\nが かいはつしたウイルスが、",
+      "translation": "해외의 프로그램 마니아가\n개발한 바이러스가,",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:58:2",
+      "source": "ウラインターネット2に\nおくりこまれたらしい",
+      "translation": "언더인터넷2로\n보내진 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:58:3",
+      "source": "なにが おこるかわからんが\nやっかいなコトになるまえに\nデリートしてくれ",
+      "translation": "무슨 일이 날지 모르니\n골치 아픈 일이 되기 전에\n삭제해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:58:4",
+      "source": "タイムリミットは 40分だ",
+      "translation": "제한 시간은 40분이다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:58:5",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:58:6",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:1",
+      "source": "ウラインターネットから\nでてこようとしている\nはんざいしゃナビがいる",
+      "translation": "언더인터넷에서\n빠져나오려 하는\n범죄자 내비가 있다",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:2",
+      "source": "げんざい、そのナビは\nウラインターネット3に\nせんぷくしているそうだ",
+      "translation": "현재, 그 내비는\n언더인터넷3에\n잠복 중이라고 하네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:3",
+      "source": "ウラの じゅうにんを\nオモテにだすわけには\nいかない",
+      "translation": "언더의 주민을\n일반 인터넷에 나오게\n할 수는 없지",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:4",
+      "source": "40分いないに\nけいかくを そししてくれ",
+      "translation": "40분 안에\n계획을 저지해 주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:5",
+      "source": "おそらく はげしい\nせんとうに なるだろう",
+      "translation": "아마 격렬한\n전투가 될 걸세",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:6",
+      "source": "カクゴはしておいてくれ",
+      "translation": "각오해 두게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:7",
+      "source": "もくひょうのナビは、\nいっぱん人をよそおうために",
+      "translation": "목표 내비는,\n일반인으로 위장하려고",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:8",
+      "source": "あかいノーマルタイプの\nすがたを しているそうだ",
+      "translation": "빨간 노멀 타입의\n모습을 하고 있다고 하네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:9",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:59:10",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:60:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:60:1",
+      "source": "オモテのインターネットに\nこうげきを しかけようと\nけいかくしているナビが",
+      "translation": "일반 인터넷에\n공격을 가하려고\n계획 중인 내비가",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:60:2",
+      "source": "ウラインターネット4に\nかくれているようだ",
+      "translation": "언더인터넷4에\n숨어 있는 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:60:3",
+      "source": "40分いないに\nたいほ、もしくはデリート\nしてくれ",
+      "translation": "40분 안에\n체포하거나 삭제해\n주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:60:4",
+      "source": "もくひょうのナビは、\nいっぱん人をよそおうために",
+      "translation": "목표 내비는,\n일반인으로 위장하려고",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:60:5",
+      "source": "みどりいろの\nノーマルタイプのすがたを\nしているそうだ",
+      "translation": "초록색\n노멀 타입의 모습을\n하고 있다고 하네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:60:6",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:60:7",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:61:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:61:1",
+      "source": "ウラインターネット1に\nWWW(ワールドスリー)\nを なのるナビがいるそうだ",
+      "translation": "언더인터넷1에\nWWW(월드 스리)를\n자칭하는 내비가 있다네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:61:2",
+      "source": "きいろい じょせいタイプの\nノーマルナビらしいが\nけっしてゆだんはできない",
+      "translation": "노란 여성형\n노멀 내비인 것 같지만\n결코 방심할 수는 없네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:61:3",
+      "source": "20分いないに\nたいほ、もしくはデリート\nしてくれ",
+      "translation": "20분 안에\n체포하거나 삭제해\n주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:61:4",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:61:5",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:62:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:62:1",
+      "source": "ウラインターネット2に\nゴスペルをなのる ナビが\nいるらしい・・・",
+      "translation": "언더인터넷2에\n고스펠을 자칭하는 내비가\n있는 것 같군...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:62:2",
+      "source": "あくにんがおの クロい\nナビだそうだ",
+      "translation": "악당처럼 생긴 검은\n내비라고 하네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:62:3",
+      "source": "なにを しでかすか\nわからん",
+      "translation": "무슨 짓을 할지\n모르겠군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:62:4",
+      "source": "20分いないに\nたいほ、もしくはデリート\nしてくれ",
+      "translation": "20분 안에\n체포하거나 삭제해\n주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:62:5",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:62:6",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:63:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:63:1",
+      "source": "ウラインターネット3に\nネオWWW\n(ワールドスリー)をなのる",
+      "translation": "언더인터넷3에\n네오 WWW\n(월드 스리)를 자칭하는",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:63:2",
+      "source": "ナビがいるらしい",
+      "translation": "내비가 있는 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:63:3",
+      "source": "そのナビのとくちょうは\nあくにんがおの ナビだ",
+      "translation": "그 내비의 특징은\n악당처럼 생겼다는 걸세",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:63:4",
+      "source": "20分いないに\nたいほ、もしくはデリート\nしてくれ",
+      "translation": "20분 안에\n체포하거나 삭제해\n주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:63:5",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:63:6",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:64:0",
+      "source": "シレイだ・・・",
+      "translation": "지령이다...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:64:1",
+      "source": "ウイルスせいぞう\nしゅうだんの1人が",
+      "translation": "바이러스 제조\n집단의 1명이",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:64:2",
+      "source": "ウラインターネット4に\nきているらしい",
+      "translation": "언더인터넷4에\n와 있는 것 같군",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:64:3",
+      "source": "そうとう目つきのわるい\nナビだそうだ・・・",
+      "translation": "상당히 눈매가 험한\n내비라고 하네...",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:64:4",
+      "source": "20分いないに\nたいほ、もしくはデリート\nしてくれ",
+      "translation": "20분 안에\n체포하거나 삭제해\n주게",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:64:5",
+      "source": "せいこうほうしゅうは\nあとでおくるメールに\nてんぷしておく",
+      "translation": "성공 보상은\n나중에 보낼 메일에\n첨부하겠네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:64:6",
+      "source": "せいこうを いのる!",
+      "translation": "성공을 빌겠네!",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    },
+    {
+      "id": "6DE3E0:65:0",
+      "source": "このニンムは\nしゅうりょうずみだ",
+      "translation": "이 임무는\n이미 종료되었네",
+      "state": "needs_review",
+      "speaker": "SciLabMan",
+      "context": "Native ProtoMan mission begin/check32 branches, success/failure and reward; speaker inherited from SciLabMan root0/27/28, hidden portrait reward fragments distinguished",
+      "variable_context": "printCurrentNavi/printItem/printBuffer preserved; invariant comma and acquisition noun avoid name-dependent Korean particles; full consumer/layout runtime review pending"
+    }
+  ]
+}

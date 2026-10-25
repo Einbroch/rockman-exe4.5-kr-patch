@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A8218",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A8218.tpl",
+    "sha256": "6a697fe1696cb483715997340403a1654d40d30771ad9b1063ed9335840e6cc1"
+  },
+  "source_archive_sha256": "2069dccf2d933a9e1db342b61a0e8580bdbcbc0c22f30ffd4dfd74f6daa4c439",
+  "consumer": "batch500-contextual-battle-labels-npcs",
+  "context": "OfficialNavi weekend internet lackofpeople because everyone attends netbattle tournament. Japanese 人気 readひとけ in deserted-area context,not lowpopularity. Prefersquiet;no forced change in global schedule.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-040",
+  "semantic_review": [
+    "Exactly500Japanese stable catalog literals in10archives:306battlecommand/escape,42BBSreactions,45arealabels,16attacklabels,33itemnames,5gate,53NPC. 218playerchoices and94UIlabels;6splitwaitdots are presentationunits not sentences. Counts do not equal unique translatedsentences.",
+    "Manual context-conditioned drafting after all500source literals read. Full9other TPLs and battle command skeleton0..31/fulltemplate4..7 plus exactcontrolcomparisons32..95 with allportraits identified. No rule-generated prose,sourceIDs/rawtext/TPL/payload immutable.",
+    "7097D8:0:0 internal falsemessage excluded from this draftedselection,not removed from remaining denominator. Unresolved combinedinput labels70904C and minigame combinednames71BE98 untouched. Source placeholders/internalconsumers must be inspected before selection.",
+    "needs_review development-draft NON-DISTRIBUTION releasefalse;no ROM/save/emulator/image/keyboard changes. Passing syntax/glyph/codec/skeleton/132px heuristics is not semantic approval,actual consumer capacity or runtime.",
+    "Sourcebattle WoodMan repeats in65..95 minusstrategy scripts preserved;not silently replaced withStar/Shadow/Knight/Napalm/Ice/Elec/Plant/Bass portraits or otherweapons. Possibleunreached/placeholder/dispatch scope remains unresolved. No reachability claim from extraction alone.",
+    "EscapeNettoaddress retained;success/failure/prohibitedescape separate,wait18 and splitdots preserved. Strategypermission vsactualcommands,pursuitvsrowavoidance,Windpushvssuction,Proto2gearoptions,chipwait and BSeparate/disableB unchanged.",
+    "BBS21explicitNavi voices;newposts probabilistic vsnone. Item/area/attacklabel names are draftcandidates,crossbatch terminology/spacing not auto-normalized;officialapproval/humanreview pending.",
+    "Gateitem3/flag1713 and dynamic currentNavi/item preserved;fixedvariableobjectparticles avoided,playernamesuffix의 HP has no받침dependency. Optionnewline/leading/trailingpadding immutable. Actual insertedname demand and runtime capacity pending.",
+    "Internet5/8/7 directions,weekend lackofpeople,WindsameNavi3,virusbreeder battle starts and sourceglobals unchanged. Water2hydrogen1oxygen,sleeplearning question versus assertion,lose/win perspectives preserved. No battles/items/currency/save effects executed."
+  ],
+  "units": [
+    {
+      "id": "7A8218:0:0",
+      "source": "シュウマツは ネットバトル\nトーナメントが ヒラかれて\nいるからね・・・",
+      "translation": "주말에는 넷 배틀\n토너먼트가 열리고\n있으니까...",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi weekend internet lackofpeople because everyone attends netbattle tournament. Japanese 人気 readひとけ in deserted-area context,not lowpopularity. Prefersquiet;no forced change in global schedule.",
+      "variable_context": "Native playername/currentNavi/item3 insertions,escape wait18,choiceorder/width/default/BSeparate/disableB,battleglobals/flags and numeric labels protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A8218:0:1",
+      "source": "ミンナそっちに イってしまって、\nインターネットは ニンキが\nナいんだ・・・",
+      "translation": "다들 그쪽으로 가 버려서,\n인터넷에는 인적이\n드문 거야...",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi weekend internet lackofpeople because everyone attends netbattle tournament. Japanese 人気 readひとけ in deserted-area context,not lowpopularity. Prefersquiet;no forced change in global schedule.",
+      "variable_context": "Native playername/currentNavi/item3 insertions,escape wait18,choiceorder/width/default/BSeparate/disableB,battleglobals/flags and numeric labels protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A8218:0:2",
+      "source": "まぁ、シズかで ボクは\nスきなんだけどね",
+      "translation": "뭐, 조용해서 나는\n좋지만 말이야",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi weekend internet lackofpeople because everyone attends netbattle tournament. Japanese 人気 readひとけ in deserted-area context,not lowpopularity. Prefersquiet;no forced change in global schedule.",
+      "variable_context": "Native playername/currentNavi/item3 insertions,escape wait18,choiceorder/width/default/BSeparate/disableB,battleglobals/flags and numeric labels protected. Capacity/reachability/runtime unverified."
+    }
+  ]
+}

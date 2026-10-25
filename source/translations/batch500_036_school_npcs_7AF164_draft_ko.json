@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7AF164",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7AF164.tpl",
+    "sha256": "4885e28c642945aaf133a1959243b1fca5244b8b0d3a6eb0f40db177bd9308c5"
+  },
+  "source_archive_sha256": "2d377a08a864592c08473a54919a77d6ef034c1a36e226c0bcf4205bd4173411",
+  "consumer": "batch500-contextual-timed-npcs-battlers-school",
+  "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-036",
+  "semantic_review": [
+    "Exactly500stablecatalog Japanese literals across15complete255-slot TPLs.338timedNPC,149battleNPC(includes11in7A0D18),13schoolNPC.24nativechoice literals,33one-dot animation literals,6three-line poems. No denominator padding or exclusions.",
+    "All15completeTPLs manually read before free-prose drafting. Source-conditioned needs_review NON-DISTRIBUTION inputs,releasefalse,no ROM/save/emulator/image/keyboard write. Speaker is explicit localportrait except hidden player-choice.",
+    "Preserve alltime bounds including24..29hours,control branches,globals,flags,hiddenchoices/default0/cancelbehavior,padding/newlines andwait20. Reused portraits do not establish oneperson acrossscripts/scenes.",
+    "Wednesday patrol4times Mon/Wed/Thu/Sat,Orange7clock andloversGiga1000twice preserved. AreaSteal/heart theft/battle greetings are metaphors,not newawards or commands.",
+    "Friday/fry pun staysFridayplusshrimpfry;comedy boke/tsukkomi roles descriptive candidates. No unapproved Korean dialect region. HighTenSion segmentation retained across3literal pages. Human adaptation/voice review pending.",
+    "Brown6poems preserve3lines andline2/3leading spaces. Natural Korean verse candidate is not approved formalhaiku equivalence. MiniBomb/Cannon/Sword/Bomb,schoolpollock/socialstudies andJapanese setting remain termreviewcandidates.",
+    "Battlerwin/loss/retrydenial source distinctions preserved,including timidHeelPurple15versus18/19boasting. Ninja-styleHeelBlack not automaticallyShadowMan. NPCphysique/trainingstatements not guaranteedpowergain.",
+    "Mechanical/font/132px heuristic checks notsemanticapproval orruntimecapacity. Fullcatalogdrafting andconsumerfont/control/layout readiness precedecumulativeROMintegration,screen/save/nameentry/graphics QA;release remainsopen."
+  ],
+  "units": [
+    {
+      "id": "7AF164:0:0",
+      "source": "ワタシは このエリアにある\nインターネットジュクを\nケイエイしとるんだが、",
+      "translation": "나는 이 지역에 있는\n인터넷 학원을\n운영하고 있는데,",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "origin_portrait": "NormalNaviBrown",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:0:1",
+      "source": "これからは ナビも\nベンキョウせんと、",
+      "translation": "앞으로는 내비도\n공부하지 않으면,",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "origin_portrait": "NormalNaviBrown",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:0:2",
+      "source": "キビしい ジュケンセンソウを\nカちヌけはせんぞぉ",
+      "translation": "치열한 입시 경쟁을\n이겨 낼 수 없다네",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "origin_portrait": "NormalNaviBrown",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:10:0",
+      "source": "このチホウは、スケトウダラの\nミズアげが ニホンイチで\nあります",
+      "translation": "이 지방은, 명태\n어획량이 일본에서\n가장 많습니다",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:10:1",
+      "source": "ここ、テストにデるから、\nオボえとくように!",
+      "translation": "여기는 시험에 나오니까,\n기억해 두도록!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:11:0",
+      "source": "ここで ベンキョウ\nするようになって、",
+      "translation": "여기서 공부를\n하기 시작하고 나서,",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:11:1",
+      "source": "キレイに ハナせるように\nなりました!!",
+      "translation": "바르게 말할 수\n있게 됐어요!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:12:0",
+      "source": "Zzzzzzzz・・・",
+      "translation": "Zzzzzzzz...",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:12:1",
+      "source": "ムニャムニャ・・・",
+      "translation": "음냐음냐...",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:12:2",
+      "source": "スケトウダラ・・・",
+      "translation": "명태...",
+      "state": "needs_review",
+      "speaker": "PurpleNavi",
+      "origin_portrait": "PurpleNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:13:0",
+      "source": "ジャマジャマ!",
+      "translation": "방해야, 방해!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:13:1",
+      "source": "ハナしカけないで!\nセンセイのハナシを\nキきノがすじゃない!!",
+      "translation": "말 걸지 마!\n선생님 말씀을\n놓치잖아!!",
+      "state": "needs_review",
+      "speaker": "NaviGirlOrange",
+      "origin_portrait": "NaviGirlOrange",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    },
+    {
+      "id": "7AF164:14:0",
+      "source": "シャカイって ムズかしいわ\nゼンゼン オボえらんない!",
+      "translation": "사회는 어려워요\n전혀 외울 수가 없어요!",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Internet school NPCs. Brown principal cram-school advice,Yellow teacher pollockcatch inJapan,MrProg improvedspeech,Purple sleeping/Orange focused/Pink socialstudies. Translation referencesJapan notKorea;clearspokenProg onlythiscontext;no invented realtown.",
+      "variable_context": "Native NPC timebranches,mugshotShow/Hide,waits and battle choice/globals/flags preserved. No variable insertions in selected literals;runtime layout/routing unverified."
+    }
+  ]
+}

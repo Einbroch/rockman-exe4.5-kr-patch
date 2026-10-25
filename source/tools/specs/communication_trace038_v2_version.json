@@ -1,0 +1,7 @@
+{
+  "base": "tools\\capture_communication038_v1.py",
+  "base_sha256": "4b78341e2efc277f4d3dd8c06411ee1db9e595fc1eea2d16623840aafa28277b",
+  "output": "tools\\capture_communication038_v2.py",
+  "output_sha256": "441f2cf01986de0ca188cd8561691d4cb5f124f7c11fdfbeda00a17673ccab83",
+  "scope": "Read-only actual038 nested common initializer entry and native zero-speed/visible-hold execution.4F7B6 does call4FB4C; existing038 descriptor domain rejects communication root, but common entry is shared. No039 code/ROM proof."
+}

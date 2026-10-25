@@ -1,0 +1,145 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "693FEC",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/693FEC.tpl",
+    "sha256": "0c430a5897bc16b6742d1fcc706dce362c172c6dd65df66020937e5d684ee77c"
+  },
+  "source_archive_sha256": "d3d21c6887a1eb4119ee7322ca6a35ef1cd5a769fa8df4d6fbdd0a9065981e33",
+  "consumer": "batch500-contextual-profile-mail-reminder-tournament",
+  "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+  "voice": "Source-conditioned manual draft; explicit portraits only, not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-010",
+  "semantic_review": [
+    "Batch500-010 exactly500 stable literals: profile410/mail42/reminder38/tournament10;72 choices/428 prose, not500 unique sentences.",
+    "All profile literals/canonical688A10 complete skeleton/variant skeleton differences inspected; all6 small TPLs read. Manually authored per stable ID; no rule-based source-string prose replacement.",
+    "Only reminders687E88/6937C4 scripts21..26 have explicit NumberMan/JunkMan mugshots. All other voices unshown; arithmetic/fist/junk motifs, archive proximity and old NumberMan screenshot do not prove identity.",
+    "Profile17 global22 value1→19 female/male attraction and32 global23 school1..5/company6..9/otherwise kindergarten maintained; no inferred exact ages or player orientation.",
+    "All12 selections per profile preserve padding/defaults/BSeparate/clear/targets/3605,3606 and buffer1/2/3/count5 checks. Non-Japanese punctuation17:3/19:3 at688A10 and!! remain original.",
+    "Gender-neutral 형이나 오빠/누나나 언니 candidates avoid guessed player sex. Pythagoras피타고라스/arithmetic sums vs products,拳fist/training/hot spring,bug fragments as favorite food/junk collection/idol dream and affection remain source-specific, unapproved wording.",
+    "Bug-fragment hunger is not a granted item; shared-family and affection language kept without deciding romantic meaning. 니가테 discomfort differs from explicit嫌い hatred. No high-impact interpretation promoted.",
+    "Three mailadd groups8968..8974/8976..8982/8984..8990 and tournamentReceive680/681 unchanged. RemindersTV/promise/meal/school/other/additional loop3658 and nickname differences preserved.",
+    "Tournament effort despite defeat versus victory and no registration retained;693FEC20..23 clears3603. No ROM/save/emulator/image writes, human approval or release eligibility."
+  ],
+  "units": [
+    {
+      "id": "693FEC:1:0",
+      "source": "ウ、ウ、ウウ・・・",
+      "translation": "우, 우, 우우...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "693FEC:1:1",
+      "source": "ガ\nガンバッテ オペレート\nシテクレタノニ",
+      "translation": " 말이야\n열심히 오퍼레이트\n해 줬는데",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "693FEC:1:2",
+      "source": "オ、オデ・・・マケタ\nショックダ・・・",
+      "translation": "나, 나... 졌어\n충격이야...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "693FEC:2:0",
+      "source": "オ、オデタチ、\nユウショウシタ!!\nオデタチ、イチバン!!",
+      "translation": "우, 우리,\n우승했어!!\n우리가 최고야!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "693FEC:2:1",
+      "source": "ヤッタ、ヤッタ!\nオ、オデ スゴク\nウレシイ!!",
+      "translation": "해냈다, 해냈어!\n나, 나 정말\n기뻐!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "693FEC:10:0",
+      "source": "、\nエントリーシテナイ・・・",
+      "translation": ",\n참가 등록을 안 했어...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "693FEC:20:0",
+      "source": "オデ、イッショウケンメイ\nガンバル・・・オペレート\nタノンダゾ!!",
+      "translation": "나, 최선을 다해\n힘낼게... 오퍼레이트\n부탁해!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "693FEC:21:0",
+      "source": "オデ、イッショウケンメイ\nガンバル・・・オペレート\nタノンダゾ!!",
+      "translation": "나, 최선을 다해\n힘낼게... 오퍼레이트\n부탁해!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "693FEC:22:0",
+      "source": "オデ、イッショウケンメイ\nガンバル・・・オペレート\nタノンダゾ!!",
+      "translation": "나, 최선을 다해\n힘낼게... 오퍼레이트\n부탁해!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "693FEC:23:0",
+      "source": "オデ、イッショウケンメイ\nガンバル・・・オペレート\nタノンダゾ!!",
+      "translation": "나, 최선을 다해\n힘낼게... 오퍼레이트\n부탁해!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick defeat1/nickname, victory2, unregistered10, effort20..23 with3603; no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "state": "functional_poc",
+  "archive": "65A578",
+  "script": 1,
+  "source": "はじめまして!",
+  "translation": "한글",
+  "note": "한글 렌더링 경로만 검증하는 비배포용 문구이며 정식 번역문이 아니다."
+}

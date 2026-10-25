@@ -1,0 +1,240 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7B84C8",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7B84C8.tpl",
+    "sha256": "76132ef25aae92fb24be4fcdee473bf216675fa6ac6a06949580c8acd0e465aa"
+  },
+  "source_archive_sha256": "2df16fcdb8d19089aa2b1545d2bc54b6f59566209dcdb1d39d35ca324c7a734a",
+  "consumer": "normal-dialogue-choice-and-shop",
+  "context": "All Japanese literals in source archive, complete local branches read;64 total across6 archives.",
+  "voice": "Polite programs/merchant, clipped trainee 임다/슴다, virus owner informal, cheering spectators separated; candidates not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source/global7=2/global6=1 alternate-shop checks, weekday3/Navi1, shops3/13, battles180/181 and time/flag1877 preserved. No pricing or player-gender assumptions.",
+  "semantic_review": [
+    "Trainee ッス and choice いやッス have clipped-polite Korean candidates even in the different virus-owner scene. Do not assign choice prose to NPC portrait.",
+    "上腕二頭筋 is rendered 위팔 두갈래근, not an invented stat or strength buff; boast and virus judges special-award remain speaker claims, not gameplay rewards.",
+    "Toy shop225 special stock is reached by global7=2 or global6=1 before weekday/Navi gates. The source does not name those globals or state an exact discount; retain uncertainty.",
+    "Radio tuner is a broken partner program; glitch onomatopoeia phonetic candidate remains review-needed. Charging period is rest/preparation, not an added energy-meter mechanic.",
+    "Factory iron-melting passion is figurative, metal-panel/source ship-car parts are retained. New panel/body-part terms, clipped voice and エブリー chant require human review.",
+    "Static checks do not prove battle, clock, purchases, special stock, radio sound, name redisplay, save or actual screens."
+  ],
+  "units": [
+    {
+      "id": "7B84C8:0:0",
+      "source": "オモチャノ ブヒンッテ、\nケッコウ ナクシマスヨネ?",
+      "translation": "장난감 부품은,\n꽤 자주 잃어버리죠?",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:0:1",
+      "source": "ロケットパンチノ テ トカ",
+      "translation": "로켓 펀치의 손 같은 거요",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:0:2",
+      "source": "ソレラヲ ナクサナイヨウニ\nカンリスルノガ、ワタシノ\nシゴトナンデス!",
+      "translation": "그런 걸 잃어버리지 않게\n관리하는 게, 제\n일입니다!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:221:0",
+      "source": "マタ おこしクダさい!",
+      "translation": "다시 찾아와 주세요!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "inherited-from-caller",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:222:0",
+      "source": "ザンネンですが、\nシナギレチュウです・・・",
+      "translation": "아쉽지만,\n품절입니다...",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:223:0",
+      "source": "ワタシは ネットショウニン・・・\nイいモノ ありますよ?\n",
+      "translation": "저는 넷 상인...\n좋은 물건 있어요?\n",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:223:1",
+      "source": "みる  ",
+      "translation": "보기  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:223:2",
+      "source": "みない",
+      "translation": "안 보기",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:224:0",
+      "source": "ワタシは ネットショウニン!\nキョウは シュウにイチドの\nレディースデー!!",
+      "translation": "저는 넷 상인!\n오늘은 일주일에 한 번 있는\n레이디스 데이!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:224:1",
+      "source": "オンナのコには ジャンジャン\nサービスさせてもらいますよ!",
+      "translation": "여자분들께는 팍팍\n서비스해 드릴게요!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:224:2",
+      "source": "イいモノ ありますよ!?\n",
+      "translation": "좋은 물건 있어요!?\n",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:224:3",
+      "source": "みる  ",
+      "translation": "보기  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:224:4",
+      "source": "みない",
+      "translation": "안 보기",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:225:0",
+      "source": "やあ、いらっしゃい!\nワタシは ネットショウニン!",
+      "translation": "어서 오세요!\n저는 넷 상인!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:225:1",
+      "source": "アナタ、ラッキーですよ!\nキョウの ワタシは\nサイコウに キゲンがイいんです!",
+      "translation": "당신, 운이 좋으시네요!\n오늘 저는\n기분이 최고거든요!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:225:2",
+      "source": "サービスしますから、\nいっぱいカっていって\nクダさいね!!",
+      "translation": "서비스해 드릴 테니,\n많이 사 가\n주세요!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:225:3",
+      "source": "フダンはミれない\nイいモノ ありますよ!?\n",
+      "translation": "평소에는 볼 수 없는\n좋은 물건 있어요!?\n",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:225:4",
+      "source": "みる  ",
+      "translation": "보기  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    },
+    {
+      "id": "7B84C8:225:5",
+      "source": "みない",
+      "translation": "안 보기",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Factory programs, trainee and virus owner, toy-parts administrator/merchant or radio programs/tournament spectators/results. Local branches read together.",
+      "variable_context": "Radio20 printCurrentNavi suffix separate; toy shop221 inherits NormalNaviYellow from223/224/225. Source global/time/Navi/shop gates untouched."
+    }
+  ]
+}

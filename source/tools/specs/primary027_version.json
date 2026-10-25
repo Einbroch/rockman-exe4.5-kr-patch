@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "files": [
+    {
+      "base": "tools/build_development_patch_026.py",
+      "base_sha256": "0248d1f04ead25896402ead79ffaa0c8c9ecbe1532fced37548846f04d5b9cc4",
+      "output": "tools/build_development_patch_027.py",
+      "edits": [
+        {
+          "before": "Version026 of the primary path; frozen024/025 composition remains before026.",
+          "after": "Version027 of the primary path; frozen024/025/026 remain before027."
+        },
+        {
+          "before": "    inputs026,summary026=load_inputs026(source)",
+          "after": "    inputs026,summary026=load_inputs026(source)\n    from layout500_inputs_027 import load_inputs as load_inputs027\n    from layout500_product_027 import append_new_raw as append_new_raw027,finalize as finalize027\n    inputs027,summary027=load_inputs027(source)"
+        },
+        {
+          "before": "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)",
+          "after": "    for entry027,_ in inputs027:\n        asset027=read_json(ROOT/entry027['merged_asset']['path'])\n        needed.update(ch for u in asset027['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)"
+        },
+        {
+          "before": "    append_new_raw(source,archive_blob,products,records,selected,inputs024,work/'plugins')",
+          "after": "    append_new_raw(source,archive_blob,products,records,selected,inputs024,work/'plugins')\n    append_new_raw027(source,archive_blob,products,records,selected,inputs027,work/'plugins')"
+        },
+        {
+          "before": "    finalize026(source,target,result,inputs026,summary026,inputs024,summary024,inputs025,summary025)",
+          "after": "    finalize027(source,target,result,inputs027,summary027,inputs024,summary024,inputs025,summary025,inputs026,summary026)"
+        }
+      ]
+    }
+  ]
+}

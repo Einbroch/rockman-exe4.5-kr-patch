@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7782A8",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7782A8.tpl",
+    "sha256": "760213ade3b037a65a1677d2014f2ea6802fc4cda5360468319787042d9d5cac"
+  },
+  "source_archive_sha256": "5091d816c6e9809771f68b1649c7af149e7ac3bb185b96f92c84d1c4791360ba",
+  "consumer": "batch500-contextual-interviews-training",
+  "context": "Legacy Lan plugincall flag7710/controlLock/speed1 waits10/10/30;missingMegaPET flag7711,chapter0 momtroubleexplicitMegaMan. No assumption normalgameplay.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-043",
+  "semantic_review": [
+    "Exactly500 stablecatalogliteral manualsourceconditioned Korean drafts:377 remaininginterview/undefined-profilefallback,27Metaltraining,29legacybattle,45chipstrengthening,5legacyplugin,8tournamentUI,9NPC. Not500uniquesentences.",
+    "Allselectedsourceandnativecommandsread; noautomaticprose-choice/generation/shortening. needs_review development-draft NON-DISTRIBUTION releasefalse. Source/TPL/payload/IDs/commands/numeric/controltokens/newlines/leading/trailingpadding immutable.",
+    "Everyprofiledefined/undefinedalternative remainsdistinct. Dynamicnames/chips/food/school/friend/hobby/invariantparticles require consumer inlineflow/actualvalues/spacing/layout review;no fixed 받침-dependentsuffix.86 Ribitta sourceportrait not inventedNavi.",
+    "Star dodges unfortunate lovefortune withfriendappointment orroomcleaning;Shadow assassination/schoolorarea;Knight food3timesperday orregularlife;NapalmfriendorInternetbattle;IcehobbyorInternet;ElecschoolorInternet;Plant favfood bath versusvegetablejuice;Bassfriend versusrandomvirus. Comedy/wordplay/terms unapproved candidates.",
+    "Fallback90..102 inheritparentNavi beforelocalRibitta switches,explicitportraitmetadata not fabricated. Number98 boast/navichangepanic retained;userapproved4649 greeting alreadyhandled elsewhere notintroducedhere.15/16legacybattle inheritsMegaMan.",
+    "Separate15 splitwaitdotliterals18/30frames and20nativechoices;10UIlabels. SystemHP3/7/11/15 not treatedasvoicedNavi,explicitKnight/Bass/Guts rewards retain50pts/50PTS/10PTS. Numericvalues/defaults/branch/controlstateimmutable.",
+    "Source6EAD18:10:0 shortヘ and71A37C:2:0 digitglyphtable remain unselectedinremainingdenominator,not silentlyresolved. Legacydebug/consumerreachability/nativehour28 requireanalysis.",
+    "Font/codec/skeleton/protectedfields/132pxheuristictechnicalchecks nothuman/semantic/runtimeapproval. Allremainingdraftsfirst,thenfont/consumer/layout/insertionreadiness,cumulativeROM/screen/saveQA;inline/image/Hangulkeyboard/persistence/release remainopen. NoROM/save/emulatorwrites."
+  ],
+  "units": [
+    {
+      "id": "7782A8:0:0",
+      "source": "プラグイン!!",
+      "translation": "플러그인!!",
+      "state": "needs_review",
+      "speaker": "Lan",
+      "origin_portrait": "Lan",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Legacy Lan plugincall flag7710/controlLock/speed1 waits10/10/30;missingMegaPET flag7711,chapter0 momtroubleexplicitMegaMan. No assumption normalgameplay.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7782A8:0:1",
+      "source": "\nロックマン.EXE、",
+      "translation": "\n록맨.EXE,",
+      "state": "needs_review",
+      "speaker": "Lan",
+      "origin_portrait": "Lan",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Legacy Lan plugincall flag7710/controlLock/speed1 waits10/10/30;missingMegaPET flag7711,chapter0 momtroubleexplicitMegaMan. No assumption normalgameplay.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7782A8:0:2",
+      "source": "\nトランスミッション!",
+      "translation": "\n트랜스미션!",
+      "state": "needs_review",
+      "speaker": "Lan",
+      "origin_portrait": "Lan",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Legacy Lan plugincall flag7710/controlLock/speed1 waits10/10/30;missingMegaPET flag7711,chapter0 momtroubleexplicitMegaMan. No assumption normalgameplay.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7782A8:1:0",
+      "source": "PETの中に\nロックマンがいない・・・",
+      "translation": "PET 안에\n록맨이 없어...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Legacy Lan plugincall flag7710/controlLock/speed1 waits10/10/30;missingMegaPET flag7711,chapter0 momtroubleexplicitMegaMan. No assumption normalgameplay.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "7782A8:10:0",
+      "source": "ママが こまってるみたいだよ",
+      "translation": "엄마가 곤란해하는 것 같아",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Legacy Lan plugincall flag7710/controlLock/speed1 waits10/10/30;missingMegaPET flag7711,chapter0 momtroubleexplicitMegaMan. No assumption normalgameplay.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

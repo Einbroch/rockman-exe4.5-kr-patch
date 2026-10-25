@@ -1,0 +1,18 @@
+{
+ "schema":1,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "source_offset":6514492,"stored_bytes":428,
+ "source_stored_sha256":"a40d222f65eb3ee3c748d6bdb07a595610f9a6b070b955f10c17c075c59d5f7d",
+ "font_asset":"translations/pet_menu_graphics_ko.json",
+ "units":[
+  {"id":"calendar.frequency.once","source":"1回のみ","translation":"1회만","state":"needs_review"},
+  {"id":"calendar.frequency.daily","source":"毎日","translation":"매일","state":"needs_review"},
+  {"id":"calendar.frequency.weekly","source":"毎週","translation":"매주","state":"needs_review"},
+  {"id":"calendar.frequency.monthly","source":"毎月","translation":"매월","state":"needs_review"},
+  {"id":"calendar.frequency.yearly","source":"毎年","translation":"매년","state":"needs_review"}
+ ],
+ "canvas_per_unit":[32,16],"edit_rect":[0,4,32,11],
+ "palette_roles":{"background":0,"ink":3,"shadow":9},
+ "review":"needs_review","release_eligible":false,
+ "limits":"Shared four literal references; selector runtime verified separately. Registration/query consumers still require verification; native text119..123 and names/input/storage remain unchanged."
+}

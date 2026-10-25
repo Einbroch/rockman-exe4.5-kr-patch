@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "696DD8",
+  "source_archive_sha256": "919820b50b476172c3c5b71d386f908e265a53ec42635643eb54aa3447670ba3",
+  "consumer": "normal-dialogue",
+  "context": "JunkMan operator seasonal/birthday conversations; intro69303C identifies ジャンクマン, shy first-time Navi and fear of abandonment. Native60byte Navi group intro root0382F0/seasonal+52 root038324. Portrait92,110/3rows; global22,nickname birthday print and anniversary buffer/loop unchanged. Normal unlock/date/name route unverified.",
+  "voice": "Tentative simple shy informal speech, manually retains source initial hesitations. Source7:3 alone switches to normal orthography/fluent speech and7:4 notices it; no blanket stutter rule applied.",
+  "evidence": "analysis/full_scope_v1/source_tpl/69303C.tpl; analysis/full_scope_v1/source_tpl/696DD8.tpl; native roots0382F0/038324",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All37 literals including2 unchanged quotes; IDs/text,source numerals,newline counts/boundaries,21slots,commands preserved. Birthday11:0 first line invariant source comma 、 remains11px. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "696DD8:4:2 チョコ/チョコット pun: literal meaning rendered 초콜릿 못 받아/조금 쓸쓸해; wordplay not reproduced and no approval inferred from NumberMan4649. Needs human wording/adaptation review; non-distribution input only.",
+    "696DD8:7:3 fluent question contrasted with surrounding hesitant dialogue, source7:4 realization preserved. Source オデ phonetic personality rendered through simple voice and source-scoped hesitations, not an approved global voice decision.",
+    "Japanese Setsubun/Hinamatsuri/Tanabata and bell custom retained. Junk Press name 정크 프레스 is a draft source-backed transliteration, terminology review pending."
+  ],
+  "units": [
+    {
+      "id": "696DD8:1:0",
+      "source": "ア、ア・・・\nハッピー ニューイヤー!",
+      "translation": "아, 아・・・\n해피 뉴 이어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:1:1",
+      "source": "ヨ、ヨカッタ、\nチャントイエタ・・・",
+      "translation": "다, 다행이야,\n제대로 말했어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:1:2",
+      "source": "オ、オデ、コ、コトシモ\nガンバルカラ ヨロシクナ",
+      "translation": "나, 나 오, 올해도\n힘낼게, 잘 부탁해",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:2:0",
+      "source": "キ、キョウハ セツブンダ",
+      "translation": "오, 오늘은 절분이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:2:1",
+      "source": "オデ、オニ コワイ・・・\nハヤク マメマイテ・・・",
+      "translation": "도깨비가 무서워・・・\n빨리 콩 뿌려 줘・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:3:0",
+      "source": "キョウハ、\nバレンタインデー ダナ",
+      "translation": "오늘은,\n발렌타인데이구나",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:3:1",
+      "source": "オデモ チョコ、\nモラッテミタイ・・・",
+      "translation": "나도 초콜릿,\n받아 보고 싶어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:4:0",
+      "source": "キョウハ、\nバレンタインデー ダナ",
+      "translation": "오늘은,\n발렌타인데이구나",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:4:1",
+      "source": "オ、オデニモ チョコクレ\n・・・ケ、ケド、\nオデ、ナビダカラ・・・",
+      "translation": "나, 나한테도 줘\n・・・하, 하지만,\n난 내비니까・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:4:2",
+      "source": "チョコモラエナイ・・・\nチョコット サミシイ",
+      "translation": "초콜릿 못 받아・・・\n조금 쓸쓸해",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:5:0",
+      "source": "キ、キョウハ、\nヒナマツリノヒダ・・・",
+      "translation": "오, 오늘은,\n히나마쓰리야・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:5:1",
+      "source": "ヒナニンギョウ、\nオデモ ホシイ・・・",
+      "translation": "히나 인형,\n나도 갖고 싶어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:6:0",
+      "source": "キ、キョウハ コドモノヒ",
+      "translation": "오, 오늘은 어린이날",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:6:1",
+      "source": "オ、オデ、ナンカ、\nウキウキスル・・・",
+      "translation": "나, 나 왠지,\n들떠・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:7:0",
+      "source": "キ、キョウハ タナバタ",
+      "translation": "오, 오늘은 칠석",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:7:1",
+      "source": "オ、オデ、タンザクニ",
+      "translation": "나, 나는 소원 쪽지에",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:7:2",
+      "source": "モット ハッキリ\nシャベレルヨウニッテ\nオネガイ カイタ・・・",
+      "translation": "좀 더 또렷하게\n말할 수 있게 해 달란\n소원을 썼어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:7:3",
+      "source": "どうだ、オレ はっきり\nしゃべってるか?",
+      "translation": "어때, 나 또렷하게\n말하고 있어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:7:4",
+      "source": "ア、イマ、ハッキリ\nシャベレタ・・・",
+      "translation": "아, 지금 또렷하게\n말했어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:8:0",
+      "source": "キョウハ、\nクリスマスイヴ!",
+      "translation": "오늘은,\n크리스마스이브!",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:8:1",
+      "source": "オデ、オマエト\nイレテ ウレシイ",
+      "translation": "나, 너랑\n함께라서 기뻐",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:8:2",
+      "source": "サイコウノ\nクリスマスプレゼント",
+      "translation": "최고의\n크리스마스 선물이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:9:0",
+      "source": "メ、メリークリスマス!",
+      "translation": "메,메리 크리스마스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:9:1",
+      "source": "サンタクロース、\nオデノトコロニ\nコナカッタ・・・",
+      "translation": "산타클로스,\n나한테는\n안 왔어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:9:2",
+      "source": "ケド、オデ、オマエノ\nPETニ イレルダケデ\nジュウブンダ",
+      "translation": "그래도 난 네\nPET에 있기만 해도\n충분해",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:10:0",
+      "source": "キ、キョウハ オオミソカ",
+      "translation": "오, 오늘은 섣달그믐",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:10:1",
+      "source": "ジョヤノカネ、オデノ\nジャンクプレス デ\nナラシテミタイ・・・",
+      "translation": "제야의 종을 내\n정크 프레스로\n울려 보고 싶어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:11:0",
+      "source": "、\nタンジョウビ、\nオメデトウ",
+      "translation": "、\n생일,\n축하해",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:11:1",
+      "source": "オ、オデ、ジブン ガ\nイツ ウマレタカシラナイ",
+      "translation": "나, 나 언제\n태어났는지 몰라",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:11:2",
+      "source": "ダカラ、オマエノ\nタンジョウビ、",
+      "translation": "그래서 네\n생일이,",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:11:3",
+      "source": "オデノ タンジョウビト\nオンナジクライ ウレシイ",
+      "translation": "내 생일만큼이나\n기뻐",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:12:0",
+      "source": "キョウハ ガッコウノ\nソウリツキネンビ ダ",
+      "translation": "오늘은 학교의\n창립 기념일이야",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:12:1",
+      "source": "キョウハ、イッショニ\nイラレルノカ?",
+      "translation": "오늘은, 함께\n있을 수 있어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:17:0",
+      "source": "キョウハ",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "696DD8:19:0",
+      "source": "ダゾ・・・",
+      "translation": "이야・・・",
+      "state": "needs_review"
+    }
+  ]
+}

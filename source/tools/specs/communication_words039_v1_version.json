@@ -1,0 +1,105 @@
+{
+  "changes": [
+    {
+      "base": "tools/prepare_profile_source039_v2.py",
+      "base_sha256": "d0aea6d8f6e67992e9b2410644ee636daa62bdeb3bb31745ef919d9be227b0db",
+      "changes": [
+        [
+          "pending_insertion_500_039_profile_source_v2",
+          "pending_insertion_500_039_communication_words_survey_v1"
+        ],
+        [
+          "proposal=propose(u['translation'])",
+          "proposal=propose(u['translation'])\n                if proposal['soft_breaks']:raise ValueError('039 word-boundary-only cohort excludes syllable breaks')"
+        ],
+        [
+          "source_class='PET-profile'",
+          "source_class='communication-help'"
+        ],
+        [
+          "'tools/prepare_profile_source039_v2.py'",
+          "'tools/survey_communication_words039_v1.py'"
+        ],
+        [
+          "selected_ids=sorted(ids),groups=selected,",
+          "selected_ids=sorted(ids),groups=selected,candidate_groups=good,"
+        ]
+      ],
+      "replacement_counts": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "output": "tools/survey_communication_words039_v1.py",
+      "output_sha256": "3240bf7bb2759699d08f49e9f5216409fdab30494ec42dda3c099217668f1ed6"
+    },
+    {
+      "base": "tools/prepare_communication039_v1.py",
+      "base_sha256": "0449bcf526874e96d499b640071e2009c17672de0cad112137561dec6499f8f7",
+      "changes": [
+        [
+          "pending_insertion_500_039_profile_source_v2",
+          "pending_insertion_500_039_communication_words_survey_v1"
+        ],
+        [
+          "pending_insertion_500_039_communication_source_v1",
+          "pending_insertion_500_039_communication_words_v1"
+        ],
+        [
+          "tools/prepare_communication039_v1.py",
+          "tools/register_communication_words039_v1.py"
+        ],
+        [
+          "s['planned_new_units']=500;s['new_network_connection_tested']=False",
+          "s['planned_new_units']=500;s['new_network_connection_tested']=False\n    if any(p['layout']['soft_breaks'] for g in s['groups'] for p in g['layout_proposals']):raise ValueError('No syllable breaks in selected500')\n    s['selected_layout_policy']='Existing LF/space-only word boundaries; all letters, spacing and protected edges preserved. Preliminary syllable-break alternative NOT selected.'"
+        ]
+      ],
+      "replacement_counts": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "output": "tools/register_communication_words039_v1.py",
+      "output_sha256": "6bd2fdf168f34c8fdc315ef867a111915b1cd40895c85b329da640e67a4404d5"
+    },
+    {
+      "base": "tools/compile_communication039_v2.py",
+      "base_sha256": "86459605b82b2ba3f0385ba6be1f8bd97c592d8472f1e615fe45c8b89118999b",
+      "changes": [
+        [
+          "from prepare_communication039_v1 import OUT",
+          "from register_communication_words039_v1 import OUT"
+        ],
+        [
+          "tools/compile_communication039_v2.py",
+          "tools/compile_communication_words039_v1.py"
+        ],
+        [
+          "OUT/'compile_v2'",
+          "OUT/'compile_v1'"
+        ],
+        [
+          "OUT/'verification_v2.json'",
+          "OUT/'verification_v1.json'"
+        ],
+        [
+          "u['canonical_wording']=u['translation']",
+          "if p['soft_breaks'] or value.replace('\\n',' ')!=u['translation'].replace('\\n',' '):raise ValueError('039 existing word-boundary-only policy')\n                u['canonical_wording']=u['translation']"
+        ]
+      ],
+      "replacement_counts": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "output": "tools/compile_communication_words039_v1.py",
+      "output_sha256": "0cc6ea3a5b50fa595c5bfbf97a631a014a9f3094ab48c55dc15ef3cb68474418"
+    }
+  ],
+  "scope": "Select exact500 using existing LF/space-only wording identity, no Hangul-syllable splits. All preliminary alternatives retained; no primary ROM writer or admission."
+}

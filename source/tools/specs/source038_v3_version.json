@@ -1,0 +1,29 @@
+{
+  "base": "tools\\prepare_source500_038_v2.py",
+  "base_sha256": "32780b2105334b445630da5186ced47daba2ec65b99c326c313a2ef38ff0b380",
+  "changes": [
+    [
+      "OUT='analysis/pending_insertion_500_038_source_only_v2'",
+      "OUT='analysis/pending_insertion_500_038_source_only_v3'"
+    ],
+    [
+      "for scene in (0xA0,0xA1,0xA2,0xA3,0xB0,0xB1):",
+      "for scene,subcount in ((0xA0,4),(0xA1,4),(0xA2,4),(0xA3,4),(0xA4,2),(0xB0,1),(0xB1,16)):\n        # Explicit finite lookup-index scope, NOT natural scene/sub validity proof."
+    ],
+    [
+      "for sub in range(4):",
+      "for sub in range(subcount):"
+    ],
+    [
+      "tools/prepare_source500_038_v2.py",
+      "tools/prepare_source500_038_v3.py"
+    ],
+    [
+      "B0/B1 source lookups and A4 hint root/caller are static classifications. Natural A4 field acquisition is NOT inferred from its hint table; NPC table is null.",
+      "A4/B0/B1 NPC and board plus navi-hint lookups are static index-path classifications, NOT natural acquisition. Earlier prose claiming A4 NPC table null was incorrect: actual top53790=08053B18; old classification JSON already records false."
+    ]
+  ],
+  "output": "tools\\prepare_source500_038_v3.py",
+  "output_sha256": "9241f440dbf66b0fc1489300abb51924e0648587136c0db7f613736f71ece88f",
+  "scope": "Static lookup finite index counts corrected; no geometry/protected-field/whole500 gate weakened. Natural sub-area validity remains unverified."
+}

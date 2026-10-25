@@ -1,0 +1,295 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BB878",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BB878.tpl",
+    "sha256": "a76c7e7f6003aa6a5ff5895fe01e0c662bf4112788e86ed001f54f6e1af61f17"
+  },
+  "source_archive_sha256": "71e25cd16cf93e4d8471a47f3c84ca8eac464f3c9ffb686b4cfd597bb4b2f67b",
+  "consumer": "normal-dialogue-choice-homepage-background",
+  "context": "All Japanese literals from4 archives;54 total. Complete local offers, results, BG and timed venue branches read.",
+  "voice": "Boastful Navi, polite enthusiastic programs, rhythmic GoldProg, distinct cheering crowd; candidate voices not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Retain battle188/global27=666/flags1806/7701; BG types0/1/2, grid spacePx12/46, disableB=true, sound150; venue flag1906/time9/13/16/20 and animations/name boundaries.",
+  "semantic_review": [
+    "ガ/カ source boast is moth/mosquito, not butterfly/bee. Literal comic animal contrast retained as 나방/모기; high-impact wordplay remains human-review candidate.",
+    "BG options Rockman/Sakura/cyberspace map0/1/2 via callSetHomepageBG; not previously drafted callSetHomepageFloor. Sakura drafted 벚꽃 as theme-label candidate, not a person name; actual motif/label presentation review pending.",
+    "Source says background color but then chooses named types; preserve both without inventing a palette. HP is homepage from context and native BG command.",
+    "Deodorizing and water-gun programs boast independently; source does not name appliances. Cold program has only cold line, so no invented refrigerator identity.",
+    "Blood-vessel/nosebleed spectator exaggerations are source imagery, not battle damage or health instructions; excited sounds require human voice review.",
+    "No normal-play battles/BG changes/clock/name redisplay/save/grid or screen verification claimed."
+  ],
+  "units": [
+    {
+      "id": "7BB878:0:0",
+      "source": "ズゴォォォォォッ!!",
+      "translation": "즈고오오오오!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:0:1",
+      "source": "ワタシノ ショウシュウリョクハ\nセカイイチ!!",
+      "translation": "제 탈취력은\n세계 최고!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:0:2",
+      "source": "ドンナニ キョウレツナ\nニオイデモ、イッシュンニシテ\nケシテミセマス!!",
+      "translation": "아무리 지독한\n냄새라도, 순식간에\n없애 보이겠습니다!!",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:10:0",
+      "source": "ハイケイ ハイケイ ハイッケイ\nソメテミセマショ\nアナタノ イロニ~",
+      "translation": "배경색 배경색 배경색\n물들여 드릴게요\n당신의 색으로~",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:10:1",
+      "source": "ワタシハ HPモヨウガエ\nプログラム!",
+      "translation": "저는 홈페이지 꾸미기\n프로그램!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:10:2",
+      "source": "アナタノ HPノ\nハイケイノ イロ、\nカエテミマセン?",
+      "translation": "당신 홈페이지의\n배경색,\n바꿔 보실래요?",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:10:3",
+      "source": "はい  ",
+      "translation": "예  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "hidden",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:10:4",
+      "source": "いいえ",
+      "translation": "아니요",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "hidden",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:10:5",
+      "source": "ソウデスカ・・・",
+      "translation": "그러시군요...",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:11:0",
+      "source": "ソレジャア、ドノ タイプニ\nカエチャイマショ?",
+      "translation": "그럼, 어떤 타입으로\n바꿔 드릴까요?",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:11:1",
+      "source": "ロックマン",
+      "translation": "록맨",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "hidden",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:11:2",
+      "source": "サクラ\n",
+      "translation": "벚꽃\n",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "hidden",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:11:3",
+      "source": "電脳",
+      "translation": "전뇌",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "hidden",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:11:4",
+      "source": "やめる\n",
+      "translation": "그만두기\n",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "hidden",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:12:0",
+      "source": "ハイ、ヨロコンデェー!!",
+      "translation": "네, 기꺼이요~!!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:12:1",
+      "source": "・・・シャラーン!!",
+      "translation": "...샤라랑!!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:12:2",
+      "source": "ハイ! デキマシタ!!",
+      "translation": "네! 완성됐어요!!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:13:0",
+      "source": "ハイ、ヨロコンデェー!!",
+      "translation": "네, 기꺼이요~!!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:13:1",
+      "source": "・・・シャラーン!!",
+      "translation": "...샤라랑!!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:13:2",
+      "source": "ハイ! デキマシタ!!",
+      "translation": "네! 완성됐어요!!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:14:0",
+      "source": "ハイ、ヨロコンデェー!!",
+      "translation": "네, 기꺼이요~!!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:14:1",
+      "source": "・・・シャラーン!!",
+      "translation": "...샤라랑!!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:14:2",
+      "source": "ハイ! デキマシタ!!",
+      "translation": "네! 완성됐어요!!",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    },
+    {
+      "id": "7BB878:15:0",
+      "source": "ソ、ソウデスカ・・・",
+      "translation": "그, 그러시군요...",
+      "state": "needs_review",
+      "speaker": "MrProgGold",
+      "origin_portrait": "MrProgGold",
+      "portrait_visibility": "visible",
+      "context": "Boastful yellow Navi battle, deodorizing program/homepage BG service, water-gun accuracy and cold program/tournament crowd. All local branches read.",
+      "variable_context": "7BC27C20 printCurrentNavi suffix separate; BG choices are types not floor colors. Source battle/time/SFX/animation commands untouched."
+    }
+  ]
+}

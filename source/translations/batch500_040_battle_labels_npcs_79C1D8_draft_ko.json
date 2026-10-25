@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "79C1D8",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/79C1D8.tpl",
+    "sha256": "fbcf35aa34ab482fe4506861bbdb1a75dd8c120d824ab1ecf662a4f6d02d5a16"
+  },
+  "source_archive_sha256": "243565e65b53056c19102b40355d2a5cb91bfb1f4a007e1923cdaad0dd503c66",
+  "consumer": "batch500-contextual-battle-labels-npcs",
+  "context": "Gate item3 quantity1/checkItem success0 versus missing1,printItem0 and currentNavi insertions,clearMsg/keyWait and flagSetNavi1713 onlysuccess preserved. No visibleportrait;gate voice and narration not namedNavi. Namecolon avoids fixed은/는;quoted item nofixedobjectparticle.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-040",
+  "semantic_review": [
+    "Exactly500Japanese stable catalog literals in10archives:306battlecommand/escape,42BBSreactions,45arealabels,16attacklabels,33itemnames,5gate,53NPC. 218playerchoices and94UIlabels;6splitwaitdots are presentationunits not sentences. Counts do not equal unique translatedsentences.",
+    "Manual context-conditioned drafting after all500source literals read. Full9other TPLs and battle command skeleton0..31/fulltemplate4..7 plus exactcontrolcomparisons32..95 with allportraits identified. No rule-generated prose,sourceIDs/rawtext/TPL/payload immutable.",
+    "7097D8:0:0 internal falsemessage excluded from this draftedselection,not removed from remaining denominator. Unresolved combinedinput labels70904C and minigame combinednames71BE98 untouched. Source placeholders/internalconsumers must be inspected before selection.",
+    "needs_review development-draft NON-DISTRIBUTION releasefalse;no ROM/save/emulator/image/keyboard changes. Passing syntax/glyph/codec/skeleton/132px heuristics is not semantic approval,actual consumer capacity or runtime.",
+    "Sourcebattle WoodMan repeats in65..95 minusstrategy scripts preserved;not silently replaced withStar/Shadow/Knight/Napalm/Ice/Elec/Plant/Bass portraits or otherweapons. Possibleunreached/placeholder/dispatch scope remains unresolved. No reachability claim from extraction alone.",
+    "EscapeNettoaddress retained;success/failure/prohibitedescape separate,wait18 and splitdots preserved. Strategypermission vsactualcommands,pursuitvsrowavoidance,Windpushvssuction,Proto2gearoptions,chipwait and BSeparate/disableB unchanged.",
+    "BBS21explicitNavi voices;newposts probabilistic vsnone. Item/area/attacklabel names are draftcandidates,crossbatch terminology/spacing not auto-normalized;officialapproval/humanreview pending.",
+    "Gateitem3/flag1713 and dynamic currentNavi/item preserved;fixedvariableobjectparticles avoided,playernamesuffix의 HP has no받침dependency. Optionnewline/leading/trailingpadding immutable. Actual insertedname demand and runtime capacity pending.",
+    "Internet5/8/7 directions,weekend lackofpeople,WindsameNavi3,virusbreeder battle starts and sourceglobals unchanged. Water2hydrogen1oxygen,sleeplearning question versus assertion,lose/win perspectives preserved. No battles/items/currency/save effects executed."
+  ],
+  "units": [
+    {
+      "id": "79C1D8:0:1",
+      "source": "」\nなきものは ここから\nたちされ・・・",
+      "translation": "」\n없는 자는 이곳에서\n물러가라...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Gate item3 quantity1/checkItem success0 versus missing1,printItem0 and currentNavi insertions,clearMsg/keyWait and flagSetNavi1713 onlysuccess preserved. No visibleportrait;gate voice and narration not namedNavi. Namecolon avoids fixed은/는;quoted item nofixedobjectparticle.",
+      "variable_context": "Native playername/currentNavi/item3 insertions,escape wait18,choiceorder/width/default/BSeparate/disableB,battleglobals/flags and numeric labels protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "79C1D8:0:2",
+      "source": "は、\n「",
+      "translation": ":\n「",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Gate item3 quantity1/checkItem success0 versus missing1,printItem0 and currentNavi insertions,clearMsg/keyWait and flagSetNavi1713 onlysuccess preserved. No visibleportrait;gate voice and narration not namedNavi. Namecolon avoids fixed은/는;quoted item nofixedobjectparticle.",
+      "variable_context": "Native playername/currentNavi/item3 insertions,escape wait18,choiceorder/width/default/BSeparate/disableB,battleglobals/flags and numeric labels protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "79C1D8:0:3",
+      "source": "」を\nていじした!!",
+      "translation": "」\n제시했다!!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Gate item3 quantity1/checkItem success0 versus missing1,printItem0 and currentNavi insertions,clearMsg/keyWait and flagSetNavi1713 onlysuccess preserved. No visibleportrait;gate voice and narration not namedNavi. Namecolon avoids fixed은/는;quoted item nofixedobjectparticle.",
+      "variable_context": "Native playername/currentNavi/item3 insertions,escape wait18,choiceorder/width/default/BSeparate/disableB,battleglobals/flags and numeric labels protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "79C1D8:0:4",
+      "source": "・・・とおるがよい",
+      "translation": "...지나가도 좋다",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Gate item3 quantity1/checkItem success0 versus missing1,printItem0 and currentNavi insertions,clearMsg/keyWait and flagSetNavi1713 onlysuccess preserved. No visibleportrait;gate voice and narration not namedNavi. Namecolon avoids fixed은/는;quoted item nofixedobjectparticle.",
+      "variable_context": "Native playername/currentNavi/item3 insertions,escape wait18,choiceorder/width/default/BSeparate/disableB,battleglobals/flags and numeric labels protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "79C1D8:1:1",
+      "source": "」\nなきものは ここから\nたちされ・・・",
+      "translation": "」\n없는 자는 이곳에서\n물러가라...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Gate item3 quantity1/checkItem success0 versus missing1,printItem0 and currentNavi insertions,clearMsg/keyWait and flagSetNavi1713 onlysuccess preserved. No visibleportrait;gate voice and narration not namedNavi. Namecolon avoids fixed은/는;quoted item nofixedobjectparticle.",
+      "variable_context": "Native playername/currentNavi/item3 insertions,escape wait18,choiceorder/width/default/BSeparate/disableB,battleglobals/flags and numeric labels protected. Capacity/reachability/runtime unverified."
+    }
+  ]
+}

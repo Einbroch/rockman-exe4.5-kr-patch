@@ -1,0 +1,1329 @@
+{
+ "schema": 1,
+ "policy": "development-draft wording fits for window width; NON-DISTRIBUTION",
+ "fixes": [
+  {
+   "id": "6684B0:41:1",
+   "source": "が\nとくいでガス!!",
+   "before": "말이야,\n잘한다거스!!",
+   "after": "말야,\n잘한다거스!!",
+   "reason": "manual"
+  },
+  {
+   "id": "673770:61:1",
+   "source": "の\nつかいかたが",
+   "before": "말입니다,\n그걸 사용하는 솜씨가",
+   "after": "말이죠,\n그걸 사용하는 솜씨가",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:62:1",
+   "source": "の\nチップによるところが\nおおきいようです",
+   "before": "말입니다,\n그 칩 덕분인 부분이\n큰 듯합니다",
+   "after": "말이죠,\n그 칩 덕분인 부분이\n큰 듯합니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:69:1",
+   "source": "を\nつかうナビは あまり\nいないようですね",
+   "before": "말입니다,\n그걸 쓰는 내비는 별로\n없는 듯합니다",
+   "after": "말이죠,\n그걸 쓰는 내비는 별로\n없는 듯합니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:70:2",
+   "source": "は\n",
+   "before": "말입니다,\n",
+   "after": "말이죠,\n",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:71:1",
+   "source": "の\nつかいかたが しょうぶの\nわかれめのようです",
+   "before": "말입니다,\n그걸 쓰는 방식이 승부를\n가르는 듯합니다",
+   "after": "말이죠,\n쓰는 방식이 승부를\n가르는 듯합니다",
+   "reason": "manual"
+  },
+  {
+   "id": "673770:73:0",
+   "source": "は\nミッションのためには\nかかせないチップです",
+   "before": "말입니다,\n임무를 위해서는\n꼭 필요한 칩입니다",
+   "after": "말이죠,\n임무를 위해서는\n꼭 필요한 칩입니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:74:0",
+   "source": "で\nてきのうごきをとめて\nすぐさま ロックオン!!",
+   "before": "말입니다,\n그걸로 적을 멈추고\n즉시 록온!!",
+   "after": "말이죠,\n그걸로 적을 멈추고\n즉시 록온!!",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:75:0",
+   "source": "を\nつかうと きぶんが\nいいようです",
+   "before": "말입니다,\n쓰면 기분이\n좋은 듯합니다",
+   "after": "말이죠,\n쓰면 기분이\n좋은 듯합니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:77:1",
+   "source": "を\nつかうバトラーは・・・",
+   "before": "말입니다,\n그걸 쓰는 배틀러는...",
+   "after": "말이죠,\n쓰는 배틀러는...",
+   "reason": "manual"
+  },
+  {
+   "id": "673770:78:0",
+   "source": "は\nあまり めだちませんが",
+   "before": "말입니다,\n눈에 잘 안 띄지만",
+   "after": "말이죠,\n눈에 잘 안 띄지만",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:79:2",
+   "source": "に\nめがとまってしまいます",
+   "before": "말입니다,\n그쪽에 눈길이 갑니다",
+   "after": "말이죠,\n그쪽에 눈길이 갑니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:81:1",
+   "source": "の\nチップが あたまに\nうかぶことがあります",
+   "before": "말입니다,\n그 칩이 머리에\n떠오를 때가 있습니다",
+   "after": "말이죠,\n그 칩이 머리에\n떠오를 때가 있습니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:82:0",
+   "source": "の\nチップは つかいどころが\nむずかしいようです",
+   "before": "말입니다,\n그 칩은 쓰는 시점을\n잡기 어려운 듯합니다",
+   "after": "말이죠,\n그 칩은 쓰는 시점을\n잡기 어려운 듯합니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:83:1",
+   "source": "が",
+   "before": "말입니다,",
+   "after": "말이죠,",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:85:1",
+   "source": "を\nつかうのが・・・",
+   "before": "말입니다,\n그걸 쓰는 게...",
+   "after": "말이죠,\n그걸 쓰는 게...",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:86:0",
+   "source": "は\nつかいやすく いりょくも\nじゅうぶんです",
+   "before": "말입니다,\n쓰기 쉽고 위력도\n충분합니다",
+   "after": "말이죠,\n쓰기 쉽고 위력도\n충분합니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:87:1",
+   "source": "を\nつかうのがいいでしょう",
+   "before": "말입니다,\n그걸 쓰면 좋겠군요",
+   "after": "말이죠,\n그걸 쓰면 좋겠군요",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "673770:89:0",
+   "source": "は\nきょうりょく すぎて",
+   "before": "말입니다,\n너무 강력해서",
+   "after": "말이죠,\n너무 강력해서",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "676BA8:8:0",
+   "source": "セーブ画面にはいるのか?\n\n",
+   "before": "저장 화면으로 들어갈 거야?\n\n",
+   "after": "저장 화면을 열까?\n\n",
+   "reason": "manual"
+  },
+  {
+   "id": "67C578:8:0",
+   "source": "セーブ画面にはいるのか?\n\n",
+   "before": "저장 화면에 들어가겠느냐?\n\n",
+   "after": "저장 화면을 열겠느냐?\n\n",
+   "reason": "manual"
+  },
+  {
+   "id": "682054:12:0",
+   "source": "、\nのこりじかん",
+   "before": ",\n남은 시간은",
+   "after": ",\n남은 시간",
+   "reason": "manual"
+  },
+  {
+   "id": "6842F8:50:3",
+   "source": "を\n・・・・・・",
+   "before": "말입니다,\n......",
+   "after": "말이죠,\n......",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6842F8:73:0",
+   "source": "は\nワタシのバトルには\nかかせないチップです",
+   "before": "말입니다,\n제 배틀에\n꼭 필요한 칩입니다",
+   "after": "말이죠,\n제 배틀에\n꼭 필요한 칩입니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6842F8:74:0",
+   "source": "は\nワタシの 右ウデとも\nいえるチップです",
+   "before": "말입니다,\n제 오른팔이라고도\n할 수 있는 칩입니다",
+   "after": "말이죠,\n제 오른팔이라고도\n할 수 있는 칩입니다",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6842F8:77:0",
+   "source": "は\nほかのチップと\nくみあわせやすいので",
+   "before": "말입니다,\n다른 칩과\n조합하기 쉬워서",
+   "after": "말이죠,\n다른 칩과\n조합하기 쉬워서",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6842F8:79:0",
+   "source": "は\n",
+   "before": "말입니다,\n",
+   "after": "말이죠,\n",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6842F8:83:0",
+   "source": "は、",
+   "before": "말입니다,",
+   "after": "말이죠,",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6842F8:89:1",
+   "source": "は",
+   "before": "말입니다,",
+   "after": "말이죠,",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:62:0",
+   "source": "ワタシの たしかな\nじょうほうだと\n",
+   "before": "제 확실한\n정보에 따르면\n",
+   "after": "제 확실한 정보로는\n",
+   "reason": "manual"
+  },
+  {
+   "id": "689DF8:62:1",
+   "source": "は、",
+   "before": "말이에요,",
+   "after": "말이죠,",
+   "reason": "manual"
+  },
+  {
+   "id": "689DF8:69:1",
+   "source": "は\nもちぬし しだいで",
+   "before": "말이에요,\n주인에 따라",
+   "after": "말이죠,\n주인에 따라",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:74:2",
+   "source": "に\n目が とまるかくりつは",
+   "before": "말이에요,\n눈길이 갈 확률은",
+   "after": "말이죠,\n눈길이 갈 확률은",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:77:1",
+   "source": "は\nけいさんがくるわない\nけんじつなチップですよ",
+   "before": "말이에요,\n계산이 틀어지지 않는\n견실한 칩이에요",
+   "after": "말이죠,\n계산이 틀어지지 않는\n견실한 칩이에요",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:78:2",
+   "source": "を\nつかう かのうせいは!",
+   "before": "말이에요,\n쓸 가능성은!",
+   "after": "말이죠,\n쓸 가능성은!",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:79:0",
+   "source": "は\nつかいごこちは\nよいですが・・・・",
+   "before": "말이에요,\n사용감은\n좋지만....",
+   "after": "말이죠,\n사용감은\n좋지만....",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:82:1",
+   "source": "を\nおすきでない ようですね",
+   "before": "말이에요,\n좋아하지 않으시는 듯하네요",
+   "after": "말이죠,\n안 좋아하시나 봐요",
+   "reason": "manual"
+  },
+  {
+   "id": "689DF8:83:1",
+   "source": "は\nなまえの ひびきが\nとくちょうてき だから",
+   "before": "말이에요,\n이름의 어감이\n독특하니까",
+   "after": "말이죠,\n이름의 어감이\n독특하니까",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:85:0",
+   "source": "を\nつかいこなすのは、",
+   "before": "말이에요,\n능숙하게 쓰기는,",
+   "after": "말이죠,\n능숙하게 쓰기는,",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:86:0",
+   "source": "は\nかならず フォルダに\nいれるべきです",
+   "before": "말이에요,\n반드시 폴더에\n넣어야 해요",
+   "after": "말이죠,\n반드시 폴더에\n넣어야 해요",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:87:0",
+   "source": "は\nたよりになりますね",
+   "before": "말이에요,\n의지가 되네요",
+   "after": "말이죠,\n의지가 되네요",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "689DF8:91:0",
+   "source": "は\nいりょくが つよすぎて",
+   "before": "말이에요,\n위력이 너무 강해서",
+   "after": "말이죠,\n위력이 너무 강해서",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "68D454:8:0",
+   "source": "セーブ画面にはいるのか?\n\n",
+   "before": "저장 화면에 들어가겠나?\n\n",
+   "after": "저장 화면을 열겠나?\n\n",
+   "reason": "manual"
+  },
+  {
+   "id": "69B134:37:1",
+   "source": "\nみたいに、\nそんけいされるっぴゅ?",
+   "before": "\n처럼,\n존경받을 수 있어, 퓨?",
+   "after": "\n처럼,\n존경받으려나, 퓨?",
+   "reason": "manual"
+  },
+  {
+   "id": "69B134:38:0",
+   "source": "今のデータライブラリを\n",
+   "before": "지금 데이터 라이브러리를\n",
+   "after": "지금 라이브러리를\n",
+   "reason": "manual"
+  },
+  {
+   "id": "6A0640:86:2",
+   "source": "だが、",
+   "before": "말이다만,",
+   "after": "말인데,",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6A38E8:8:0",
+   "source": "セーブ画面にはいる?\n\n",
+   "before": "저장 화면으로 들어갈래?\n\n",
+   "after": "저장 화면을 열래?\n\n",
+   "reason": "manual"
+  },
+  {
+   "id": "6A6C64:74:1",
+   "source": "は",
+   "before": "말이야,",
+   "after": "말야,",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6AA214:8:0",
+   "source": "セーブ画面にはいるのか?\n\n",
+   "before": "저장 화면에 들어가겠느냐?\n\n",
+   "after": "저장 화면을 열겠느냐?\n\n",
+   "reason": "manual"
+  },
+  {
+   "id": "6AA730:12:0",
+   "source": "、\nのこり時間は",
+   "before": ",\n남은 시간은",
+   "after": ",\n남은 시간",
+   "reason": "manual"
+  },
+  {
+   "id": "6ACCA8:19:2",
+   "source": "は\n1人で コッソリするのが\nイチバンだ・・・",
+   "before": "말이야,\n1명이 몰래 하는 게\n제일이지...",
+   "after": "말야,\n1명이 몰래 하는 게\n제일이지...",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6ACCA8:41:1",
+   "source": "中でも、",
+   "before": "그중에서도,",
+   "after": "특히,",
+   "reason": "manual"
+  },
+  {
+   "id": "6B8478:74:2",
+   "source": "でしたぞ",
+   "before": "말이더군요",
+   "after": "말이오",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6BBBBC:8:0",
+   "source": "セーブ画面にはいるのか?\n\n",
+   "before": "저장 화면으로 들어갈 거야?\n\n",
+   "after": "저장 화면을 열까?\n\n",
+   "reason": "manual"
+  },
+  {
+   "id": "6BC0C8:72:0",
+   "source": "オレの手にかかれば、\nざっと こんなモンよ!",
+   "before": "내 손에 걸리면,\n이 정도는 식은 죽 먹기지!",
+   "after": "내 손에 걸리면,\n이 정도는 간단하지!",
+   "reason": "manual"
+  },
+  {
+   "id": "6BC0C8:73:0",
+   "source": "オレの手にかかれば、\nざっと こんなモンよ!",
+   "before": "내 손에 걸리면,\n이 정도는 식은 죽 먹기지!",
+   "after": "내 손에 걸리면,\n이 정도는 간단하지!",
+   "reason": "manual"
+  },
+  {
+   "id": "6BE52C:71:2",
+   "source": "を",
+   "before": "말이야,",
+   "after": "말야,",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C1710:8:0",
+   "source": "セーブ画面にはいるです?\n\n",
+   "before": "저장 화면에 들어갈 거예요?\n\n",
+   "after": "저장 화면을 열까요?\n\n",
+   "reason": "manual"
+  },
+  {
+   "id": "6C40AC:61:1",
+   "source": "は\nなんかイヤです!",
+   "before": "말이에요,\n왠지 싫어요!",
+   "after": "말이죠,\n왠지 싫어요!",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:69:0",
+   "source": "って\nひとによって、つかい方に\nさ がでるです",
+   "before": "말이에요,\n사람마다 쓰는 방법이\n다르게 나타나요",
+   "after": "말이죠,\n사람마다 쓰는 방법이\n다르게 나타나요",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:70:1",
+   "source": "は\nつかいかたしだいで\nきょうりょくになるです!",
+   "before": "말이에요,\n쓰는 방법에 따라\n강력해져요!",
+   "after": "말이죠,\n쓰는 방법에 따라\n강력해져요!",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:73:1",
+   "source": "の\nデザインはいいです~",
+   "before": "말이에요,\n디자인이 좋아요~",
+   "after": "말이죠,\n디자인이 좋아요~",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:74:0",
+   "source": "は\nつかいごこちが\nたまらないです~",
+   "before": "말이에요,\n쓰는 느낌이\n정말 좋아요~",
+   "after": "말이죠,\n쓰는 느낌이\n정말 좋아요~",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:75:1",
+   "source": "は\nとくに かがやいてるです",
+   "before": "말이에요,\n특히 빛나고 있어요",
+   "after": "말이죠,\n특히 빛나고 있어요",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:77:0",
+   "source": "の\nチップをみてると\nあんしんできるです~",
+   "before": "말이에요,\n그 칩을 보면\n마음이 놓여요~",
+   "after": "말이죠,\n그 칩을 보면\n마음이 놓여요~",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:78:0",
+   "source": "の\nチップは\nよくめだつです~",
+   "before": "말이에요,\n그 칩은\n정말 눈에 띄어요~",
+   "after": "말이죠,\n그 칩은\n정말 눈에 띄어요~",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:79:1",
+   "source": "の\nチップをジッと\nみてたですね",
+   "before": "말이에요,\n그 칩을 빤히\n보고 있었죠",
+   "after": "말이죠,\n그 칩을 빤히\n보고 있었죠",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:81:1",
+   "source": "って\nきになるです",
+   "before": "말이에요,\n신경 쓰여요",
+   "after": "말이죠,\n신경 쓰여요",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:82:0",
+   "source": "の\nチップのデザイン\nステキじゃないです",
+   "before": "말이에요,\n그 칩의 디자인은\n멋지지 않아요",
+   "after": "말이죠,\n그 칩의 디자인은\n멋지지 않아요",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:83:0",
+   "source": "の\nチップって\nふと きづくと",
+   "before": "말이에요,\n그 칩은\n문득 보면",
+   "after": "말이죠,\n그 칩은\n문득 보면",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:85:3",
+   "source": "は\nはずせないと おもうです",
+   "before": "말이에요,\n빼놓을 수 없을 것 같아요",
+   "after": "말이죠,\n빼놓을 수 없겠어요",
+   "reason": "manual"
+  },
+  {
+   "id": "6C40AC:86:0",
+   "source": "は\nつかいやすく いりょく\nじゅうぶんです",
+   "before": "말이에요,\n쓰기 편하고 위력도\n충분해요",
+   "after": "말이죠,\n쓰기 편하고 위력도\n충분해요",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:87:2",
+   "source": "の\nチップをつかった時のこと",
+   "before": "말이에요,\n그 칩을 썼을 때를",
+   "after": "말이죠,\n그 칩을 썼을 때를",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:89:1",
+   "source": "の\nチップに ゾッコンです!",
+   "before": "말이에요,\n그 칩에 푹 빠졌어요!",
+   "after": "말이죠,\n그 칩에 푹 빠졌어요!",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:90:0",
+   "source": "の\nチップって みてるだけで\nドキドキです~",
+   "before": "말이에요,\n그 칩은 보기만 해도\n두근거려요~",
+   "after": "말이죠,\n그 칩은 보기만 해도\n두근거려요~",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6C40AC:91:2",
+   "source": "に\nめを うばわれるです!!",
+   "before": "말이에요,\n그 칩에 눈길이 가요!!",
+   "after": "말이죠,\n눈길이 가요!!",
+   "reason": "manual"
+  },
+  {
+   "id": "6C7128:8:0",
+   "source": "セーブ画面にはいるのか?\n\n",
+   "before": "저장 화면에 들어가겠나?\n\n",
+   "after": "저장 화면을 열겠나?\n\n",
+   "reason": "manual"
+  },
+  {
+   "id": "6C982C:27:2",
+   "source": "そうだな・・・たとえば、\n",
+   "before": "그렇군... 예를 들어,\n",
+   "after": "그렇군... 예컨대,\n",
+   "reason": "manual"
+  },
+  {
+   "id": "6C982C:65:1",
+   "source": "今バトルして かてるのは\n",
+   "before": "지금 배틀해서 이길 만한 건\n",
+   "after": "지금 배틀로 이길 건\n",
+   "reason": "manual"
+  },
+  {
+   "id": "6CD9E4:20:1",
+   "source": "\nうつくしく・・・かつよ!",
+   "before": "\n아름답게... 이기겠네!",
+   "after": "\n아름답게... 이길게!",
+   "reason": "manual"
+  },
+  {
+   "id": "6CD9E4:21:1",
+   "source": "\nうつくしく・・・かつよ!",
+   "before": "\n아름답게... 이기겠네!",
+   "after": "\n아름답게... 이길게!",
+   "reason": "manual"
+  },
+  {
+   "id": "6CD9E4:22:1",
+   "source": "\nうつくしく・・・かつよ!",
+   "before": "\n아름답게... 이기겠네!",
+   "after": "\n아름답게... 이길게!",
+   "reason": "manual"
+  },
+  {
+   "id": "6CD9E4:23:1",
+   "source": "\nうつくしく・・・かつよ!",
+   "before": "\n아름답게... 이기겠네!",
+   "after": "\n아름답게... 이길게!",
+   "reason": "manual"
+  },
+  {
+   "id": "6CF0A0:55:1",
+   "source": "は\nなかよしの はずだけど、\nあまりメールがこないね",
+   "before": " 말이야\n사이가 좋을 텐데,\n메일이 별로 안 오는군",
+   "after": "\n사이가 좋을 텐데,\n메일이 별로 없군",
+   "reason": "manual"
+  },
+  {
+   "id": "6CF0A0:74:0",
+   "source": "は、\n手になじむというか、\nつかいやすいチップだね",
+   "before": " 말이야,\n손에 익는다고 할까,\n쓰기 편한 칩이군",
+   "after": " 말야,\n손에 익는다고 할까,\n쓰기 편한 칩이군",
+   "reason": "connective after variable print shortened"
+  },
+  {
+   "id": "6D2230:8:0",
+   "source": "セーブ画面にはいるのか?\n\n",
+   "before": "저장 화면에 들어갈 거냐?\n\n",
+   "after": "저장 화면을 열 거냐?\n\n",
+   "reason": "manual"
+  },
+  {
+   "id": "6EAD18:18:1",
+   "source": "でした!\nうーん、まだまだだったかな!",
+   "before": "입니다!\n으음, 아직 더 연습해야겠네요!",
+   "after": "입니다!\n으음, 아직 멀었나 봐요!",
+   "reason": "manual"
+  },
+  {
+   "id": "6EAD18:21:1",
+   "source": "でした!\nやった、これはうれしい!!",
+   "before": "입니다!\n해냈어요, 정말 기쁘겠네요!!",
+   "after": "입니다!\n해냈다, 정말 기뻐요!!",
+   "reason": "manual"
+  },
+  {
+   "id": "6EAD18:30:0",
+   "source": "おまえには わかるまい・・・",
+   "before": "네놈은 이해 못 하겠지...",
+   "after": "네놈은 모르겠지...",
+   "reason": "manual"
+  },
+  {
+   "id": "6EAD18:38:0",
+   "source": "おまえにはわかるまい・・・",
+   "before": "네놈은 이해 못 하겠지...",
+   "after": "네놈은 모르겠지...",
+   "reason": "manual"
+  },
+  {
+   "id": "6EAD18:39:0",
+   "source": "おまえにはわかるまい・・・",
+   "before": "네놈은 이해 못 하겠지...",
+   "after": "네놈은 모르겠지...",
+   "reason": "manual"
+  },
+  {
+   "id": "6EAD18:54:1",
+   "source": "!\nうむぅ、まあまあだな・・・",
+   "before": "!\n으음, 그럭저럭 괜찮군...",
+   "after": "!\n으음, 그럭저럭이군...",
+   "reason": "manual"
+  },
+  {
+   "id": "6EAD18:106:3",
+   "source": "な、なんと、",
+   "before": "아, 이럴 수가,",
+   "after": "이럴 수가,",
+   "reason": "manual"
+  },
+  {
+   "id": "768BD0:3:1",
+   "source": "ニゲたいときはLボタンデス\nただしかならずニゲられるとは\nかぎりませんけどネ",
+   "before": "도망치고 싶을 때는 L버튼입니다\n다만 반드시 도망칠 수 있는 건\n아니지만요",
+   "after": "도망칠 때는 L버튼입니다\n다만 꼭 도망칠 수 있는 건\n아니지만요",
+   "reason": "manual"
+  },
+  {
+   "id": "768BD0:12:0",
+   "source": "そしていまはでていませんが\nあかいのはギガクラスチップ!\nマンタンのときだけつかえマス!",
+   "before": "지금은 나오지 않았지만\n빨간색은 기가 클래스 칩!\n가득 찼을 때만 사용할 수 있어요!",
+   "after": "지금은 나오지 않았지만\n빨간색은 기가 클래스 칩!\n가득일 때만 쓸 수 있어요!",
+   "reason": "manual"
+  },
+  {
+   "id": "776650:14:0",
+   "source": "いったんバトルを終了するぞ\nセーブするのをわすれるな",
+   "before": "일단 배틀을 종료하겠다\n저장하는 것을 잊지 마라",
+   "after": "일단 배틀을 종료하겠다\n저장을 잊지 마라",
+   "reason": "manual"
+  },
+  {
+   "id": "776650:17:0",
+   "source": "こんどのバトルはチップゲートが\nつかえません、お気をつけを!\nバトルオペレーションセットイン!",
+   "before": "이번 배틀은 칩 게이트를\n쓸 수 없습니다, 주의하시길!\n배틀 오퍼레이션 세트 인!",
+   "after": "이번 배틀은 칩 게이트를\n쓸 수 없으니 주의하시길!\n배틀 오퍼레이션 세트 인!",
+   "reason": "manual"
+  },
+  {
+   "id": "778CC0:59:0",
+   "source": "なんと、ミステリーデータは\nウイルスだった!!",
+   "before": "놀랍게도 미스터리 데이터는\n바이러스였다!!",
+   "after": "이런, 미스터리 데이터는\n바이러스였다!!",
+   "reason": "manual"
+  },
+  {
+   "id": "778CC0:69:0",
+   "source": "なんと、ミステリーデータは\nウイルスだった!!",
+   "before": "놀랍게도 미스터리 데이터는\n바이러스였다!!",
+   "after": "이런, 미스터리 데이터는\n바이러스였다!!",
+   "reason": "manual"
+  },
+  {
+   "id": "6368E8:20:0",
+   "source": "あにの 名前は?",
+   "before": "오빠·형 이름은?",
+   "after": "오빠·형 이름?",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:22:0",
+   "source": "あねの 名前は?",
+   "before": "언니·누나 이름은?",
+   "after": "언니·누나는?",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:69:0",
+   "source": "と約束",
+   "before": ": 약속",
+   "after": " 약속",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:81:0",
+   "source": "[z]コ戦勝            0123456789      ",
+   "before": "[z]개 승리            0123456789      ",
+   "after": "[z]개승리            0123456789      ",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:141:0",
+   "source": "!あに",
+   "before": "!오빠·형",
+   "after": "!형제",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:143:0",
+   "source": "!あね",
+   "before": "!언니·누나",
+   "after": "!자매",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:146:0",
+   "source": "!すきなごはん",
+   "before": "!좋아하는 음식",
+   "after": "!좋아하는밥",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:149:0",
+   "source": "!すきな人",
+   "before": "!좋아하는 사람",
+   "after": "!짝사랑",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:150:0",
+   "source": "!そんけい人",
+   "before": "!존경하는 사람",
+   "after": "!존경인물",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:151:0",
+   "source": "!きらいな人",
+   "before": "!싫어하는 사람",
+   "after": "!싫은 사람",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:152:0",
+   "source": "!すきなTV",
+   "before": "!좋아하는 TV",
+   "after": "!애청 TV",
+   "reason": "label cells"
+  },
+  {
+   "id": "6368E8:155:0",
+   "source": "!ほしいもの",
+   "before": "!갖고 싶은 것",
+   "after": "!원하는 것",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E1068:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E12DC:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E1554:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E17CC:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E1A48:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E1CC0:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E1F38:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E21B0:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E2428:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E26A0:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E2914:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E2E18:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E308C:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E32FC:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E3574:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E37EC:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E3A64:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E3CD8:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E3F4C:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6E41C4:26:0",
+   "source": "キラキラメテオ",
+   "before": "키라키라 메테오",
+   "after": "키라키라메테오",
+   "reason": "label cells"
+  },
+  {
+   "id": "6F9B4C:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6F9CA8:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6F9E00:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6F9F5C:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FA0B8:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FA228:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FA388:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FA4E4:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FA654:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FA7B8:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FA910:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FAA80:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FABEC:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FAD44:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FAEA0:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FB000:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FB164:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FB2C4:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FB41C:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FB574:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "6FB6D4:3:0",
+   "source": "ミステリーデータに\nかかったワナをはずす",
+   "before": "미스터리 데이터에\n설치된 함정을 해제한다",
+   "after": "미스터리 데이터의\n함정을 해제한다",
+   "reason": "label cells"
+  },
+  {
+   "id": "703080:1:0",
+   "source": " NO NAME  オイオイオイ       ",
+   "before": " NO NAME  이봐 이봐 이봐       ",
+   "after": " NO NAME  이봐 이봐 이봐     ",
+   "reason": "label cells"
+  },
+  {
+   "id": "703080:2:0",
+   "source": " NO NAME  RE:オイオイオイ     ",
+   "before": " NO NAME  RE:이봐 이봐 이봐     ",
+   "after": " NO NAME  RE:이봐 이봐 이봐   ",
+   "reason": "label cells"
+  },
+  {
+   "id": "703080:11:0",
+   "source": " NO NAME  ヤミのちからは ついえない ",
+   "before": " NO NAME  어둠의 힘은 사라지지 않는다 ",
+   "after": " NO NAME  어둠의 힘은 사라지지 않아 ",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:17:0",
+   "source": "カオスエリア1",
+   "before": "카오스 에리어1",
+   "after": "카오스에리어1",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:18:0",
+   "source": "カオスエリア2",
+   "before": "카오스 에리어2",
+   "after": "카오스에리어2",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:20:0",
+   "source": "電気コンロの電脳",
+   "before": "전기레인지의 전뇌",
+   "after": "전기레인지 전뇌",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:24:0",
+   "source": "おもちゃバコの電脳",
+   "before": "장난감 상자의 전뇌",
+   "after": "장난감 상자 전뇌",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:25:0",
+   "source": "こわれたラジオの電脳",
+   "before": "고장 난 라디오의 전뇌",
+   "after": "고장난 라디오 전뇌",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:32:0",
+   "source": "トイレの電脳1",
+   "before": "화장실의 전뇌1",
+   "after": "화장실 전뇌1",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:33:0",
+   "source": "トイレの電脳2",
+   "before": "화장실의 전뇌2",
+   "after": "화장실 전뇌2",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:34:0",
+   "source": "トイレの電脳3",
+   "before": "화장실의 전뇌3",
+   "after": "화장실 전뇌3",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:40:0",
+   "source": "ふるいテレビの電脳1",
+   "before": "오래된 TV의 전뇌1",
+   "after": "오래된 TV 전뇌1",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:41:0",
+   "source": "ふるいテレビの電脳2",
+   "before": "오래된 TV의 전뇌2",
+   "after": "오래된 TV 전뇌2",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:42:0",
+   "source": "ふるいテレビの電脳3",
+   "before": "오래된 TV의 전뇌3",
+   "after": "오래된 TV 전뇌3",
+   "reason": "label cells"
+  },
+  {
+   "id": "7097D8:43:0",
+   "source": "パイプオルガンの電脳",
+   "before": "파이프 오르간의 전뇌",
+   "after": "파이프오르간 전뇌",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:12:0",
+   "source": "どいつを\nねらうガス",
+   "before": "어느 놈을\n노릴까거스",
+   "after": "누굴\n노릴까거스",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:13:0",
+   "source": "まあいは\nどうでガス",
+   "before": "간격은\n어떻게 할까거스",
+   "after": "간격은\n어쩔까거스",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:19:0",
+   "source": "まあいは\nどうする?",
+   "before": "간격은\n어떻게 할까?",
+   "after": "간격은\n어쩔까?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:31:0",
+   "source": "まあいは\nどうする?",
+   "before": "간격은\n어떻게 할까?",
+   "after": "간격은\n어쩔까?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:73:0",
+   "source": "まあいは\nどうする?",
+   "before": "간격은\n어떻게 할까?",
+   "after": "간격은\n어쩔까?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:24:0",
+   "source": "ねらうてき\nのごシジを",
+   "before": "노릴 적을\n지시해 주십시오",
+   "after": "노릴 적을\n골라주세요",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:25:0",
+   "source": "まあいの\nごシジを",
+   "before": "간격을\n지시해 주십시오",
+   "after": "거리를\n정하세요",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:30:0",
+   "source": "どいつを\nもやす?",
+   "before": "어느 놈을\n태울까?",
+   "after": "누굴\n태울까?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:37:0",
+   "source": "まあいは\nいかほどか",
+   "before": "간격은\n얼마나 둘까",
+   "after": "간격은\n얼마나?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:42:0",
+   "source": "ターゲット\nのごシジを",
+   "before": "목표를\n지시해 주십시오",
+   "after": "목표를\n골라주세요",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:43:0",
+   "source": "まあいは\nいかほどに",
+   "before": "간격은\n얼마나 둘까요",
+   "after": "간격은\n어느정도?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:49:0",
+   "source": "まあいは\nいかほどに",
+   "before": "간격은\n얼마나 둘까요",
+   "after": "간격은\n어느정도?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:54:0",
+   "source": "どいつから\nブンなぐる",
+   "before": "어느 놈부터\n두들겨 팰까",
+   "after": "누구부터\n두들길까",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:66:0",
+   "source": "ダレを攻撃\nするっぴゅ",
+   "before": "누구를 공격\n할까퓨",
+   "after": "누굴 공격\n할까퓨",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:72:0",
+   "source": "どのてきを\nねらうのだ",
+   "before": "어떤 적을\n노릴 것이냐",
+   "after": "어떤 적을\n노릴 테냐",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:97:0",
+   "source": "まあいは\nいかほどに",
+   "before": "간격은\n얼마나 둘까",
+   "after": "간격은\n얼마나?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:102:0",
+   "source": "うつべきは\nダレか?",
+   "before": "쳐야 할 적은\n누구인가?",
+   "after": "칠 적은\n누구냐?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:108:0",
+   "source": "どいつから\nヤるんだ?",
+   "before": "어느 놈부터\n해치울까?",
+   "after": "누구부터\n해치울까?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:121:0",
+   "source": "まあいを\nとるのか?",
+   "before": "간격을\n두는 건가?",
+   "after": "간격을\n둘 건가?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:133:0",
+   "source": "まあいを\nとるのか?",
+   "before": "간격을\n두는 건가?",
+   "after": "간격을\n둘 건가?",
+   "reason": "label cells"
+  },
+  {
+   "id": "76C944:132:0",
+   "source": "どいつから\nたおす?",
+   "before": "어느 놈부터\n쓰러뜨릴까?",
+   "after": "누구부터\n칠까?",
+   "reason": "label cells"
+  },
+  {
+   "id": "7CE5C8:65:0",
+   "source": "データライブラリ S  ",
+   "before": "데이터 라이브러리 S  ",
+   "after": "데이터라이브러리 S  ",
+   "reason": "label cells"
+  }
+ ]
+}

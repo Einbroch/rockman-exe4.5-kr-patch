@@ -1,0 +1,27 @@
+{
+  "base": "tools\\verify_communication_boundary039_v1.py",
+  "base_sha256": "7ea95191dc590556d88bd46fc6177681c5511b3128c51fbcc64c765f1bb2043a",
+  "changes": [
+    [
+      "chain[-1]['path'].endswith('pending500-038-normal-v1-01/result.json')",
+      "chain[-1]['path'].replace('\\\\','/').endswith('pending500-038-normal-v1-01/result.json')"
+    ],
+    [
+      "tools/verify_communication_boundary039_v1.py",
+      "tools/verify_communication_boundary039_v2.py"
+    ],
+    [
+      "baseline_boundary_v1.json",
+      "baseline_boundary_v2.json"
+    ]
+  ],
+  "replacement_counts": [
+    1,
+    1,
+    1
+  ],
+  "output": "tools\\verify_communication_boundary039_v2.py",
+  "output_sha256": "13531cc9aef84aa00e31f30f2b110b5e785757bcf076a9d0eff4cba4c618d0d2",
+  "cause": "Windows Path serializes ancestry using backslash; suffix test used slash. Normalize separators only for the final identity test; no chain/hash applicability check removed.",
+  "ROM_written": false
+}

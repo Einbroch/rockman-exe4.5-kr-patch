@@ -1,0 +1,21 @@
+{
+  "base": "tools\\verify_source038_v1.py",
+  "base_sha256": "3a45dbe34bba30b69cc0ae00afd75d1e39f6c2c4ae7e5e09057a251d40bf2e83",
+  "changes": [
+    [
+      "def ref(p):",
+      "def receipt(p):"
+    ],
+    [
+      "=ref(",
+      "=receipt("
+    ],
+    [
+      "tools/verify_source038_v1.py",
+      "tools/verify_source038_v2.py"
+    ]
+  ],
+  "output": "tools\\verify_source038_v2.py",
+  "output_sha256": "11901eeef4ca70c71030286e5adfa84bc8781b183f9724faeb05294593f3a528",
+  "scope": "Receipt helper naming only; all source/table/roundtrip/carry/alias checks unchanged."
+}

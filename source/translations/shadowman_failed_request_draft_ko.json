@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7C714C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7C714C.tpl",
+    "sha256": "126a71d424d00c043fd7c388d15b23c2d6a0b55aa53c58ca0de46b681a697ae3"
+  },
+  "source_archive_sha256": "debfd7172d0c7382713b0b4bda9701babf070b20924dd4f20eb47d46f92a694e",
+  "consumer": "normal-dialogue-virus-practice",
+  "context": "All186 Japanese literals from3 archives.21 first-practice offers,21 forced retry comments,21 success comments and ShadowMan failure read.",
+  "voice": "Keep friendly/formal/rough/dignified personalities distinct. GutsMan 가스/AquaMan 퓨 tics, JunkMan hesitant robot speech, IceMan childlike polite, Bass terse; candidate voices not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "21-Navi routing0/21 with unused1/2 continue, all42 intro/retry flag3863, source nickname commands and page boundaries retained. Success no retry flag added.",
+  "semantic_review": [
+    "ウイルスバスティング drafted 바이러스 버스팅 as tutorial topic; ネットバトラー/オペレート/オペレーター distinct 넷 배틀러/오퍼레이팅/오퍼레이터 candidates.",
+    "Source asks rhetorical questions without menu in these scripts; no fabricated yes/no or skip option. Failure scripts21..41 force flag3863 retry; success archive does not set it.",
+    "Nickname+comma fixed suffix avoids Korean final-consonant particle. Some praise predicts ability, not actual immunity to virus loss; AquaMan seems unlikely remains 것 같아.",
+    "WindMan いろは adapted 기초 without alphabet instruction. PlantMan flower image preserved. Bass body threat, JunkMan deletion risk, NapalmMan rough reprimand not softened into generic encouragement.",
+    "GutsMan source ガス maintained candidate 가스; JunkMan robot spelling and IceMan childlike politeness adaptation remain human-review candidates, not approved speech rules.",
+    "ShadowMan7C714C failure of request is separate from tutorial retry35 and has no flag3863/retry; no invented success or reward.",
+    "No normal-play first-entry/tutorial-battle/retry/success/Navi unlock/nickname/save/screen verification. Static source protection not runtime or presentation approval."
+  ],
+  "units": [
+    {
+      "id": "7C714C:0:0",
+      "source": "このような いらいで\nしっぱいするとは・・・\n・・・むねん!!",
+      "translation": "이런 의뢰에서\n실패하다니...\n...분하다!!",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "origin_portrait": "ShadowMan",
+      "portrait_visibility": "visible",
+      "context": "All21 Navi first virus-practice introductions/retries/success messages or ShadowMan request failure; all scripts read.",
+      "variable_context": "Success0/1/2/4/7/10/13 nickname+comma boundaries retained; each script source portrait identifies Navi. Real nickname widths unresolved."
+    }
+  ]
+}

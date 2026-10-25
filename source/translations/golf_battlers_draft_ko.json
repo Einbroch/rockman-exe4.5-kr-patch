@@ -1,0 +1,317 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7B94AC",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7B94AC.tpl",
+    "sha256": "57d02bba2c6b34b2efc7283022e2568ea1d990f6cb72c3e27c6d6b2d970b9847"
+  },
+  "source_archive_sha256": "d3825caa8d69accb0e5ef4e3e5abd4d7447419f3c0b920d411edf2c24f86a8e7",
+  "consumer": "normal-dialogue-choice-shop-homepage-floor",
+  "context": "All Japanese literals from4 archives;69 total. Complete local branches read.",
+  "voice": "Polite programs/merchant, friendly yellow Navi and boastful purple/black heel Navis, GoldProg rhythmic service separated; candidates not approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Preserve battles182/183/184 and globals27=660/661/662, flags1806/7701, weekday3/Navi1, shops8/19, four-way color targets12/13/14/15, spacePx24/12, disableB=true and callSetHomepageFloor types0/1/2, sound150.",
+  "semantic_review": [
+    "HP means homepage here: source floor-color wording and callSetHomepageFloor establish it, not health restoration.",
+    "Blue/red/green/cancel choice order and calls0/1/2 retained. Chant ユカイロ and シャラーン translated as rhythmic/sound candidates, not extra operations.",
+    "HeelNaviPurple upper-above-upper proverb rendered 뛰는 놈 위에 나는 놈; ballroom-dance taunt retained. These are voice candidates, not newly inferred mechanics.",
+    "Subchip ladies-day source uses shop19, unlike earlier venue shop18. It checks weekday3/Navi1 rather than player gender; exact discount unasserted.",
+    "Customer information confidentiality and lawn/course difficulty vigilance retained, not invented security or golf instructions.",
+    "No normal-play battle/shop/color application/save persistence or screen geometry verified; grid-choice and SFX rendering require later runtime checks."
+  ],
+  "units": [
+    {
+      "id": "7B94AC:0:0",
+      "source": "やぁ、キミもバトルしにキたの?\nそれじゃ、ボクとバトルしてみる?",
+      "translation": "안녕, 너도 배틀하러 왔어?\n그럼, 나랑 배틀해 볼래?",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:0:1",
+      "source": "うん!  ",
+      "translation": "응!  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "hidden",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:0:2",
+      "source": "やだ!",
+      "translation": "싫어!",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "hidden",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:0:3",
+      "source": "なーんだ、ガックシ・・・",
+      "translation": "뭐야, 실망이네...",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:1:0",
+      "source": "そんじゃ いくよ!!",
+      "translation": "그럼 간다!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:1:1",
+      "source": "バトルオペレーション、セット!\nイン!!",
+      "translation": "배틀 오퍼레이션, 세트!\n인!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:2:0",
+      "source": "スゴいテクニックだ!!\nキミ やるねぇ!!",
+      "translation": "대단한 기술이야!!\n너 제법이네!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:3:0",
+      "source": "どう、ボクってツヨいでしょ?",
+      "translation": "어때, 나 강하지?",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:4:0",
+      "source": "オレとバトルしねえか?",
+      "translation": "나랑 배틀하지 않겠나?",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:4:1",
+      "source": "イマまで ミたコトのナい\nバトルワールドを ミせてやるぜ",
+      "translation": "지금까지 본 적 없는\n배틀의 세계를 보여 주마",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:4:2",
+      "source": "うん  ",
+      "translation": "응  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "hidden",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:4:3",
+      "source": "ことわる!",
+      "translation": "거절해!",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "hidden",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:4:4",
+      "source": "ケッ!",
+      "translation": "쳇!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:5:0",
+      "source": "ミワクのバトルワールドへ\nイザナってやるぜ!!",
+      "translation": "매혹적인 배틀의 세계로\n안내해 주마!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:5:1",
+      "source": "バトルオペレーション、セット!\nイン!!",
+      "translation": "배틀 오퍼레이션, 세트!\n인!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:6:0",
+      "source": "ウエには ウエがいるって\nコトか・・・",
+      "translation": "뛰는 놈 위에 나는 놈이\n있다는 건가...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:7:0",
+      "source": "どうだ・・・\nアタしい セカイがミえたか?",
+      "translation": "어떠냐...\n새로운 세계가 보였나?",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:8:0",
+      "source": "オマエ、オレとバトルが\nしたいと オモっただろ?",
+      "translation": "너, 나랑 배틀하고\n싶다고 생각했지?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:8:1",
+      "source": "イいぜ、アイテしてやるぜ・・・",
+      "translation": "좋아, 상대해 주마...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:8:2",
+      "source": "うん  ",
+      "translation": "응  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:8:3",
+      "source": "ことわる!",
+      "translation": "거절해!",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:8:4",
+      "source": "チッ、そうなのか・・・",
+      "translation": "쳇, 그런가...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:9:0",
+      "source": "トばしていくぜ!!",
+      "translation": "처음부터 달려 주마!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:9:1",
+      "source": "バトルオペレーション、セット!\nイン!!",
+      "translation": "배틀 오퍼레이션, 세트!\n인!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:10:0",
+      "source": "ゲッフゥ・・・\nやられたぜ・・・",
+      "translation": "크허억...\n당했군...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    },
+    {
+      "id": "7B94AC:11:0",
+      "source": "そんな シャコウダンスみたいな\nタタカいカタじゃ、オレには\nカてねえぜ!!",
+      "translation": "그런 사교댄스 같은\n싸움 방식으로는, 나를\n이길 수 없다고!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Golf lawn/course/customer administrators, three battle offers/results, subchip merchant, and GoldProg homepage-floor color service. Local branches read together.",
+      "variable_context": "No inserted name/item text. Source choices, shop gates, battle globals and homepage floor calls remain original;221 inherits PurpleNavi from223/224."
+    }
+  ]
+}

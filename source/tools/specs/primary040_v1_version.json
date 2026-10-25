@@ -1,0 +1,41 @@
+{
+  "base": "tools\\build_development_patch_039_v1.py",
+  "base_sha256": "574b670768d6cd65bb7401c5ebdab857288351014c03c387e15bd51f79836d9c",
+  "output": "tools\\build_development_patch_040_v1.py",
+  "output_sha256": "3d1ab0dd65727661ab265dc56ba6884de07a9f2bbe03c013e9bed23ffe74a383",
+  "changes": [
+    [
+      "    from communication_rom_product039_v1 import load_inputs as load_inputs039,install as install_communication039,finalize as finalize039,predecessor_view as predecessor_view039",
+      "    from communication_rom_product039_v1 import load_inputs as load_inputs039,install as install_communication039,finalize as finalize039,predecessor_view as predecessor_view039\n    from typed_rom_product040_v1 import load_inputs as load_inputs040,install as install_typed040,finalize as finalize040,predecessor_view as predecessor_view040"
+    ],
+    [
+      "    inputs039=load_inputs039(source)",
+      "    inputs039=load_inputs039(source)\n    inputs040=load_inputs040(source)"
+    ],
+    [
+      "    for entry039,_ in inputs039:",
+      "    for entry040,_ in inputs040:\n        asset040=read_json(ROOT/entry040['asset']['path'])\n        needed.update(ch for u in asset040['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    for entry039,_ in inputs039:"
+    ],
+    [
+      "        appended,key_patches,keyitem_rom,communication_records039=install_communication039(source,appended,key_patches,keyitem_rom,inputs039,common,work/'plugins',work/'communication039')",
+      "        appended,key_patches,keyitem_rom,communication_records039=install_communication039(source,appended,key_patches,keyitem_rom,inputs039,common,work/'plugins',work/'communication039')\n        appended,key_patches,keyitem_rom,typed_records040=install_typed040(source,appended,key_patches,keyitem_rom,inputs040,common,work/'plugins',work/'typed040')"
+    ],
+    [
+      "        from communication_rom_product039_v1 import verify_final",
+      "        from typed_rom_product040_v1 import verify_final"
+    ],
+    [
+      "    parent038=predecessor_view039(source,target,result['keyitem_rom'])",
+      "    parent039=predecessor_view040(source,target,result['keyitem_rom'])\n    parent038=predecessor_view039(source,parent039,result['keyitem_rom'])"
+    ],
+    [
+      "    finalize039(source,target,result,inputs039,communication_records039)",
+      "    finalize039(source,parent039,result,inputs039,communication_records039)\n    finalize040(source,target,result,inputs040,typed_records040)"
+    ]
+  ],
+  "component": {
+    "path": "tools\\typed_rom_product040_v1.py",
+    "sha256": "33be2623af1e9fa7a942de99117995d60da4f1a2d04f39edf254ea7784cc6505"
+  },
+  "scope": "040 source500 pluscarry8 typed extension; all parent gates preserved via039 projection; no distribution packages"
+}

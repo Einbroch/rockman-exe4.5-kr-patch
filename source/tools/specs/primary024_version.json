@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "purpose": "Explicit version024 primary composition before allocation. Historical023 modules and their frozen dependency hashes remain unchanged.",
+  "files": [
+    {
+      "base": "tools/build_development_patch.py",
+      "base_sha256": "c168bc5aed810c24ec3bb1d5fda006a7cff6fde8812ab4615b177d924d84ec11",
+      "output": "tools/build_development_patch_024.py",
+      "edits": [
+        {
+          "before": "Only source-pinned archives in the development registry may be selected.",
+          "after": "Version024 of the primary path; historical023 entry remains frozen.\nOnly source-pinned archives in the development registry may be selected."
+        },
+        {
+          "before": "    source = source_path.read_bytes()\n",
+          "after": "    source = source_path.read_bytes()\n    from layout500_inputs_024 import load_inputs\n    from layout500_product_024 import compose_primary,append_new_raw,compose_hints,finalize\n    inputs024,summary024=load_inputs(source)\n    if not args.field_b0_hints_023:raise ValueError(\"024 requires full retained023 scope\")\n"
+        },
+        {
+          "before": "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n",
+          "after": "    for entry024,_ in inputs024:\n        asset024=read_json(ROOT/entry024['merged_asset']['path'])\n        needed.update(ch for u in asset024['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n"
+        },
+        {
+          "before": "        stored = payload\n",
+          "after": "        payload,record=compose_primary(archive,payload,record,inputs024,work/'plugins')\n        stored = payload\n"
+        },
+        {
+          "before": "    folder_labels=None\n",
+          "after": "    append_new_raw(source,archive_blob,products,records,selected,inputs024,work/'plugins')\n    folder_labels=None\n"
+        },
+        {
+          "before": "            hint_payloads=compile_hints(source,common,work/'plugins',work/'hint_rom_clones')\n",
+          "after": "            hint_payloads=compile_hints(source,common,work/'plugins',work/'hint_rom_clones')\n            hint_payloads=compose_hints(hint_payloads,inputs024,work/'plugins')\n"
+        },
+        {
+          "before": "        from keyitem_rom_data import verify_final\n",
+          "after": "        from keyitem_rom_data_024 import verify_final\n"
+        },
+        {
+          "before": "    output.parent.mkdir(parents=True, exist_ok=True)\n",
+          "after": "    finalize(source,target,result,inputs024,summary024)\n    output.parent.mkdir(parents=True, exist_ok=True)\n"
+        }
+      ]
+    },
+    {
+      "base": "tools/keyitem_rom_data.py",
+      "base_sha256": "61f2ac0cb094dce731e93640b7438beeecf20458ce04068bfdb3db09620a36ad",
+      "output": "tools/keyitem_rom_data_024.py",
+      "edits": [
+        {
+          "before": "from hint_rom_data import verify_final as verify_hints",
+          "after": "from layout500_product_024 import verify_hints"
+        }
+      ]
+    }
+  ]
+}

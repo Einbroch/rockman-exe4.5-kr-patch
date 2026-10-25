@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A8928",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A8928.tpl",
+    "sha256": "5c053efede8dc50c1ceb44eb5ddef9a81d9a2a5ceb7166467ef847f2c284f6f8"
+  },
+  "source_archive_sha256": "2154f6eb481a5a19e8ce1bc156d1e8dad25739cd0006fbfe9609c13ea6095b33",
+  "consumer": "batch500-contextual-escape-tutorial-npcs",
+  "context": "OfficialNavi invented patrolsong and cheerfulpolicy,Internet6 noabnormality;repeatedsounds are culturalcandidate notnewmission.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-041",
+  "semantic_review": [
+    "Exactly500Japanese stable catalog literals in9archives:81minigameexplanations,46bustingtutorial,278target/range/escape incl126splitdots,95NPC/Everydaytournament. playerchoices58/UIlabels38;not500uniqueprose sentences.",
+    "Manual source-conditioned drafts afterallselectedliterals read;full8nonbattleTPLs,exactbattleskeleton0..53 pluscontroltemplatecomparisons54..137 andexplicitdispatch138..143. Nativecommands/IDs/source/TPL/payload immutable;no rules generatingorchoosingprose.",
+    "needs_review development-draft NON-DISTRIBUTION releasefalse;originalROM/baselineROM/catalog/save/emulator/images/keyboard preserved. Glyph/codec/control/newline/padding/132px heuristic cannot approve meaning or runtime.",
+    "71BE98:2:0 combinedchiplabel remains source/untranslateddenominator;no inventedsplit. BattlealreadyselectedMega/Roll non-drafttext andnonJapanese punctuation/times unchanged;126native splitdots are presentationunits,notmissing dialoguepadding.",
+    "Battle localportraits preserved andmmbn45s labels not assignedspokenNavi. Dispatch138..143 offset/selfjump anomalies are heldforconsumeranalysis,notfixedbyguess. Escapepermission/success/failure/prohibition andcharacterhumour separate;18frame waits/options/trailingnewlines preserved.",
+    "Minigame rules 1/0/3/9 thresholds,icecrack nextturn vsvirusattack nextturn,3hitnotHPquantity,same3chipsPA,line-abovepreview versusline-belowclear,1turn1countbomb/bonus and dynamicreward3buffer protected. Freezeinfectioncertainty6 differs fromapparentinfection7. No actualdamage/currency writes.",
+    "Tutorial distinguishesDpad strategyfromautonomousmovement,range notexactguarantee,Rdescription/Lescape beforebattle vsR/Lactions duringbattle,colourthreshold/initialyellow/randomchips/Bshufflegaugecost andretargetup/rangedown. Buttonletters/gaugelevelsprotected;newwording humanreviewpending.",
+    "Everydayhourranges/entryflag/cancel/tournament6 andstatueitem7quotes protected;Gold/platinum joke anduniversalstrength unchanged. Merchantportraitswitch andWednesdaywish separated,not actualprice/genderchange. Patrolsong/lightyearhyperbole/English/oilyboomerjokes are candidates needinghumanjudgment.",
+    "Unresolvedconsumerwidth/inline/font/images/nameentrysavecompatibility/reachability/runtime/release remain. Finishdrafts beforecumulativeROM/font/layout/insertion/screens/saveQA;oldtermvariants not autoharmonized."
+  ],
+  "units": [
+    {
+      "id": "7A8928:0:0",
+      "source": "パトパト パトロール~\nオフィオフィオフィ\nオフィシャルル~",
+      "translation": "패트패트 패트롤~\n오피오피오피\n오피셜셜~",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi invented patrolsong and cheerfulpolicy,Internet6 noabnormality;repeatedsounds are culturalcandidate notnewmission.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A8928:0:1",
+      "source": "どうだい、ボクのカンガえた\nオフィシャルパトロールのウタ!",
+      "translation": "어때, 내가 만든\n오피셜 순찰 노래!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi invented patrolsong and cheerfulpolicy,Internet6 noabnormality;repeatedsounds are culturalcandidate notnewmission.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A8928:0:2",
+      "source": "ナニゴトも タノしむのが\nボクのポリシーなんだ!",
+      "translation": "무슨 일이든 즐기는 게\n내 신조야!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi invented patrolsong and cheerfulpolicy,Internet6 noabnormality;repeatedsounds are culturalcandidate notnewmission.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    },
+    {
+      "id": "7A8928:1:0",
+      "source": "インターネット6、\nトクにイジョウ ナし!",
+      "translation": "인터넷6,\n특별한 이상 없음!",
+      "state": "needs_review",
+      "speaker": "OfficialNavi",
+      "origin_portrait": "OfficialNavi",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "OfficialNavi invented patrolsong and cheerfulpolicy,Internet6 noabnormality;repeatedsounds are culturalcandidate notnewmission.",
+      "variable_context": "Native item7/buffer3reward,time/button/threshold values,escapewait18,choiceorder/width/default,flags/battleglobals andportraitswitch protected. Capacity/reachability/runtime unverified."
+    }
+  ]
+}

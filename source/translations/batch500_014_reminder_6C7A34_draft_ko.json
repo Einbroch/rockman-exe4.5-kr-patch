@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6C7A34",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6C7A34.tpl",
+    "sha256": "bc29a162af4806e142579f95beb7c2977a31afe366c7d32a85f189e59146a287"
+  },
+  "source_archive_sha256": "c41501ce723f912556a3d5e03069988ec952f9ed5e0cd1f76aace94cac2c9ac3",
+  "consumer": "batch500-contextual-followup-hint-result-alert",
+  "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+  "voice": "Source-conditioned manual draft;no quick speaker inferred from archive adjacency or imagery;wording unapproved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-014",
+  "semantic_review": [
+    "Exactly500 stable literals:followup403/hint8/battle3/greeting6/return6/training16/plugin3/mail14/tournament15/schedule6/reminder20. No choice literals.",
+    "Every source literal and complete control skeleton read;compact whitespace-only view retains every command/argument. Full actual schedule/plugin/return TPLs inspected;manual per-ID prose,no replacement rules.",
+    "Error-report0 in both followups and training provisional0 stay original in remaining denominator. Other provisional6D2700:0:0 inspected and not included.",
+    "ElecMan portrait only6C7A34:21..26. PlantMan self-name only6CC808 script1 not evidence for all neighbouring scripts. Plugin target is not operator identity.",
+    "Electrical voltage vs current and tingling romance/battle imagery retained;30man/100man/60/50/40 digits preserve source. Source battery3/4 rendered Korean3호/4호,button distinct;needs terminology review.",
+    "Plant food/nectar/life fertilizer and flower metaphors;fire vulnerability not automatically curable vs human subject difficulty;mail refusal remains narrative wording,not implemented filter evidence.",
+    "Shepherds purseペンペングサ rendered냉이,caroteneカロチン rendered카로틴;new terminology/unverified spellings await human review. Sourceつくしい training omission treated美しい from preceding contrast,recorded unapproved.",
+    "Tournament cherry petals/rebloom/winning flower preserved;no-entry cancel separate. Remindercharging correction/cram-school teacher thunder idiom and quick/portrait branches preserved.",
+    "All school/family/food/hobby/dream/enemy/TV/subject/opponent/chip print variants,wait/flags/formatting untouched. Training HP33 amount1 vs zenny/bug4294967295 buffer3 count order preserved.",
+    "NON-DISTRIBUTION/needs_review;no ROM/save/emulator/image writes;static checks do not approve wording/layout or prove runtime."
+  ],
+  "units": [
+    {
+      "id": "6C7A34:1:0",
+      "source": " の\nじかんだ",
+      "translation": " 할\n시간이다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:1:1",
+      "source": "いそがないと\nはじまってしまうぞ!",
+      "translation": "서두르지 않으면\n시작해 버린다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:2:0",
+      "source": "\nのじかんだな",
+      "translation": "\n할 시간이군",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:2:1",
+      "source": "でんこうせっかで\nいどうだ!",
+      "translation": "전광석화처럼\n이동하자!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:3:0",
+      "source": "じゅうでん・・・もとい、\nしょくじのじかんだ",
+      "translation": "충전... 아니,\n식사 시간이다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:4:0",
+      "source": "じゅくに行く じかんだぞ",
+      "translation": "학원에 갈 시간이다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:4:1",
+      "source": "チコクしたら せんせいの\nカミナリが おちるぞ",
+      "translation": "지각하면 선생님의\n불호령이 떨어진다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:5:0",
+      "source": "そろそろ\n",
+      "translation": "슬슬\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:5:1",
+      "source": " の\nじかんだな",
+      "translation": " 할\n시간이군",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:6:0",
+      "source": "それと・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:21:0",
+      "source": " の\nじかんだ",
+      "translation": " 할\n시간이다",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:21:1",
+      "source": "いそがないと\nはじまってしまうぞ!",
+      "translation": "서두르지 않으면\n시작해 버린다!",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:22:0",
+      "source": "\nのじかんだな",
+      "translation": "\n할 시간이군",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:22:1",
+      "source": "でんこうせっかで\nいどうだ!",
+      "translation": "전광석화처럼\n이동하자!",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:23:0",
+      "source": "じゅうでん・・・もとい、\nしょくじのじかんだ",
+      "translation": "충전... 아니,\n식사 시간이다",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:24:0",
+      "source": "じゅくに行く じかんだぞ",
+      "translation": "학원에 갈 시간이다",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:24:1",
+      "source": "チコクしたら せんせいの\nカミナリが おちるぞ",
+      "translation": "지각하면 선생님의\n불호령이 떨어진다",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:25:0",
+      "source": "そろそろ\n",
+      "translation": "슬슬\n",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:25:1",
+      "source": " の\nじかんだな",
+      "translation": " 할\n시간이군",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6C7A34:26:0",
+      "source": "それと・・・",
+      "translation": "그리고...",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "origin_portrait": "ElecMan",
+      "portrait_visibility": "shown",
+      "context": "All literals and full skeleton read.0..6 quick no portrait;21..26 explicit ElecMan mugshot. TV/promise/meal/cram-school/other branches;charging→meal self-correction and teacher thunder idiom.3658 and duplicate branches preserved.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    }
+  ]
+}

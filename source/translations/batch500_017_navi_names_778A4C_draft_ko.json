@@ -1,0 +1,267 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "778A4C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/778A4C.tpl",
+    "sha256": "b47c70a72c43520394a2c70743983bcb12fea11a72f989ed9be0d7fef1aa9793"
+  },
+  "source_archive_sha256": "3885c31aa3d855d9df7297555718d0f6c90c54b40a4225b1974a741bd91bb1ba",
+  "consumer": "batch500-contextual-search-missions-and-name-labels",
+  "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-017",
+  "semantic_review": [
+    "Exactly500 stable literals:479SearchMan missions/training and21Navi-name labels.14menu choices;all other486literal roles separately recorded. No ROM integration.",
+    "All source literal/control skeletons read. Initial large literal output clipped87..91;those source literals reread separately.0..78/79..106/107..140 full whitespace-only control views preserve every command/argument;778A4C actualTPL read.",
+    "Per-literal mugshotShow/hide evidence,not first portrait anywhere in script.7commandvoice hides portrait and only showsSearchMan after lastliteral;76..78command/reward allhidden;8introSearchMan thenchoiceshidden. NPC portraits are actual source,not inferred criminals from appearance;wrong-contact protests remain distinct.",
+    "Acontact vsvirus snipe/B+directions fastmovement/RSearchMode;positive gauge required,mode drains/zero cancels/time recharge.0SearchMode vs140SearchScope wording preserved.60second timers and4/10/13/6/5/15/8/5/10 targets;5second wrongcontact penalties preserved,not promises of an implemented translation test.",
+    "20briefings79..98 correspond military mission routes;arrest/protect Navi+program/snipe viruses distinct.84bagcarriers/bombdeadline/invisible targets;81unique movement and87defensive-virus action-program bug clues retained.",
+    "Tests100/101 requireall15viruses60seconds;training107..113/124..130 fifteen versus114..116/131..133 eighteen.5260/5261/5263..5270,5114/5115/5116 andcheckNavi4 redirects preserved;no literal dedup across polite/current versus terse/noncurrent routes.",
+    "Hidden76HPmemory33amount1/77zenny/78bug4294967295 buffer3 padLefttrue. Menusflag5113,width11/default0/Bdisabled and8width6 retained;103wait120 unchanged. NPC200percentcommunication-speed joke retained,not measured runtime improvement.",
+    "Sourceさくさんしれぶ typo contextualized as operation command without source correction. Nickname-leading/trailing newlines retained;님의 avoids 받침-dependent variable particles,3/6/7/136/139 use original newline boundary. Tone/newterms/체 unit and names remain review candidates.",
+    "Navi labelsRockman/Roll/Guts/Wind/Search/Fire/Thunder/Proto/Number/Metal/Junk/Aqua/Wood/Star/Shadow/Knight/Napalm/Ice/Elec/Plant/Bass mapped per explicit ID;unknownXXXX untouched and unselectednonJapanese ledger retained.",
+    "NON-DISTRIBUTION/needs_review. Full wording/humanreview/layout/actualconsumer/ROM/screens/save/keyboard/graphics/productclosure not established. No ROM/save/emulator/image writes."
+  ],
+  "units": [
+    {
+      "id": "778A4C:0:0",
+      "source": "ロックマン",
+      "translation": "록맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:1:0",
+      "source": "ロール",
+      "translation": "롤",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:2:0",
+      "source": "ガッツマン",
+      "translation": "거츠맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:3:0",
+      "source": "ウインドマン",
+      "translation": "윈드맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:4:0",
+      "source": "サーチマン",
+      "translation": "서치맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:5:0",
+      "source": "ファイアマン",
+      "translation": "파이어맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:6:0",
+      "source": "サンダーマン",
+      "translation": "썬더맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:7:0",
+      "source": "ブルース",
+      "translation": "브루스",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:8:0",
+      "source": "ナンバーマン",
+      "translation": "넘버맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:9:0",
+      "source": "メタルマン",
+      "translation": "메탈맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:10:0",
+      "source": "ジャンクマン",
+      "translation": "정크맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:11:0",
+      "source": "アクアマン",
+      "translation": "아쿠아맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:12:0",
+      "source": "ウッドマン",
+      "translation": "우드맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:15:0",
+      "source": "スターマン",
+      "translation": "스타맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:16:0",
+      "source": "シャドーマン",
+      "translation": "섀도맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:17:0",
+      "source": "ナイトマン",
+      "translation": "나이트맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:18:0",
+      "source": "ナパームマン",
+      "translation": "네이팜맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:19:0",
+      "source": "アイスマン",
+      "translation": "아이스맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:20:0",
+      "source": "エレキマン",
+      "translation": "일렉맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:21:0",
+      "source": "プラントマン",
+      "translation": "플랜트맨",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    },
+    {
+      "id": "778A4C:22:0",
+      "source": "フォルテ",
+      "translation": "포르테",
+      "state": "needs_review",
+      "speaker": "navi-name-label",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All23 source TPL slots and commands read.21 Japanese standalone Navi-name labels with13/14XXXX placeholders untouched. Ordered names0..22 are labels,not speaker identity proof or a live character-selection consumer claim. Existing name candidates matched context;consumer/layout and distribution approval unresolved.",
+      "variable_context": "Original nickname/buffer order,arguments,newline topology,choices/flags and rewards retained. Particle-safe 님의 or original newline/topic boundary;actual rendering/variable length unverified."
+    }
+  ]
+}

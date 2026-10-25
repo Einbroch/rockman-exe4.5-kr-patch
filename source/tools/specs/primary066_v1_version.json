@@ -1,0 +1,40 @@
+{
+  "base": "tools\\build_development_patch_065_v1.py",
+  "base_sha256": "dbb26760b5d2fc87a32f60c606287eb487c9872a7926c1c80752d9525462ffea",
+  "output": "tools\\build_development_patch_066_v1.py",
+  "output_sha256": "e6dc7adc3a62a5305cf26daf1e940bf27b8836c0f9ae9a4192e2f6b98f2a3340",
+  "changes": [
+    [
+      "        appended,key_patches,keyitem_rom,typed_records065=install_typed065(source,appended,key_patches,keyitem_rom,inputs065,common,work/'plugins',work/'typed065')",
+      "        appended,key_patches,keyitem_rom,typed_records065=install_typed065(source,appended,key_patches,keyitem_rom,inputs065,common,work/'plugins',work/'typed065')\n        appended,key_patches,keyitem_rom=__import__('graphics_stage066_v1').install(source,appended,key_patches,keyitem_rom)"
+    ],
+    [
+      "    target, allowed, writes = bytearray(source + appended), bytearray(len(source)), []",
+      "    _own=[(_p[0],_p[0]+len(_p[1])) for _p in patches if __import__('graphics_stage066_v1').TAG in _p[2]]\n    patches=[_p for _p in patches if __import__('graphics_stage066_v1').TAG in _p[2] or not any(_a<=_p[0] and _p[0]+len(_p[1])<=_b for _a,_b in _own)]\n    target, allowed, writes = bytearray(source + appended), bytearray(len(source)), []"
+    ],
+    [
+      "    nolabel=bytes(nolabel)\n    finalize034(",
+      "    for _v in result['keyitem_rom'].values():\n        for _r in (_v.get('graphics',[]) if isinstance(_v,dict) else []):nolabel[_r['offset']:_r['offset']+_r['size']]=bytes.fromhex(_r['base_hex'])\n    nolabel=bytes(nolabel)\n    finalize034("
+    ],
+    [
+      "        keyitem_rom['final_placement_verified']=verify_final(source,target,keyitem_rom)",
+      "        keyitem_rom['final_placement_verified']=verify_final(source,__import__('graphics_stage066_v1').predecessor_view(source,target,keyitem_rom),keyitem_rom) and __import__('graphics_stage066_v1').verify(source,target,keyitem_rom)"
+    ],
+    [
+      "    parent064=predecessor_view065(source,target,result['keyitem_rom'])",
+      "    parent065=__import__('graphics_stage066_v1').predecessor_view(source,target,result['keyitem_rom'])\n    parent064=predecessor_view065(source,parent065,result['keyitem_rom'])"
+    ],
+    [
+      "    finalize065(source,target,result,inputs065,typed_records065)",
+      "    finalize065(source,parent065,result,inputs065,typed_records065)\n    __import__('graphics_stage066_v1').verify(source,target,result['keyitem_rom'])"
+    ]
+  ],
+  "component": {
+    "path": "tools/graphics_stage066_v1.py",
+    "sha256": "1e2b76918eca27a9f3db381ecf7c865bf6b59f48d6fe059beb26d786ccdc8b12"
+  },
+  "fixes": {
+    "path": "tools/graphics_fix_v1.py",
+    "sha256": "f02cf286903cfaa984e66cdc9be6fae70b9aee3ebeea2be6fa73c15552945588"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "review": "needs_review",
+  "terminology_review": [
+    "201: below 200, not at most 200.",
+    "207: per sacrificed panel +20; human gameplay meaning review pending.",
+    "216: source れつ retained as 줄 without asserting axis.",
+    "227: 3칸 사각 범위 retains source square scope; visual wording review pending.",
+    "251: water range originates at placed pipe.",
+    "195..200 excluded: absent primary names; secondary Navi-name pool remains out of scope.",
+    "Sparse translation draft only; existing contiguous battle helper must not consume this scope without integration changes."
+  ],
+  "entries": [
+    {
+      "script": 201,
+      "name": "드림오라",
+      "description": "공격력200 미만\n공격을 무효로\n만드는 오라"
+    },
+    {
+      "script": 202,
+      "name": "무라마사블레이드",
+      "description": "가로2칸을 벤다!\n잃은 HP만큼\n공격력이 된다"
+    },
+    {
+      "script": 203,
+      "name": "오지조사",
+      "description": "눈앞의 칸에\n부수면 안 되는\n지장상을 놓는다"
+    },
+    {
+      "script": 204,
+      "name": "포이즌아노비스",
+      "description": "적 영역에만\n독을 발생시키는\n아누비스상을 둔다"
+    },
+    {
+      "script": 205,
+      "name": "어택+30",
+      "description": "미리 써 두면\n다음에 쓰는 칩의\n공격력이 +30!"
+    },
+    {
+      "script": 206,
+      "name": "버그수정",
+      "description": "내비에게 생긴\n버그를 수정하고\n제거한다"
+    },
+    {
+      "script": 207,
+      "name": "더블포인트",
+      "description": "내 영역을 희생해\n다음 칩 공격력을\n칸당 +20 증가"
+    },
+    {
+      "script": 208,
+      "name": "홀리에어리어",
+      "description": "내 영역의\n모든 칸을\n홀리패널로!"
+    },
+    {
+      "script": 209,
+      "name": "풀커스텀",
+      "description": "커스텀 게이지가\n단숨에 가득\n찬다!"
+    },
+    {
+      "script": 210,
+      "name": "메테오",
+      "description": "상대 영역에\n수많은 유성이\n쏟아진다!"
+    },
+    {
+      "script": 211,
+      "name": "버그체인",
+      "description": "내게 생긴 버그를\n상대에게도\n옮겨 버린다!"
+    },
+    {
+      "script": 212,
+      "name": "제라시",
+      "description": "칩을 가진 적에게\n칩 장수에 따라\n대미지를 준다"
+    },
+    {
+      "script": 213,
+      "name": "엘리먼트다크",
+      "description": "앞쪽 3칸 공격!\n독늪 위에 있으면\n위력이 상승!"
+    },
+    {
+      "script": 214,
+      "name": "블랙윙",
+      "description": "적 영역 끝에서\n검은 날개 공격!"
+    },
+    {
+      "script": 215,
+      "name": "갓해머",
+      "description": "적과 아군 모두\n공격하는 석상을\n눈앞의 칸에 둔다"
+    },
+    {
+      "script": 216,
+      "name": "다크라인",
+      "description": "내가 선 줄을\n모두 다크홀로\n바꿔 버린다!"
+    },
+    {
+      "script": 217,
+      "name": "네오배리어블",
+      "description": "공격 범위가 변해\n자유자재의\n테크니컬 소드"
+    },
+    {
+      "script": 218,
+      "name": "Z세이버",
+      "description": "전설 속 붉은\n레플리로이드의\n3단 베기 소드"
+    },
+    {
+      "script": 219,
+      "name": "건델솔EX",
+      "description": "더 넓은 범위에\n태양 광선을\n쏜다!"
+    },
+    {
+      "script": 220,
+      "name": "슈퍼벌컨",
+      "description": "놀라운\n12연사\n벌컨포!"
+    },
+    {
+      "script": 221,
+      "name": "롤",
+      "description": "적1명을 공격하고\n회복의 하트로\n치유해 준다"
+    },
+    {
+      "script": 222,
+      "name": "롤SP",
+      "description": "적1명을 공격하고\n회복의 하트로\n치유해 준다"
+    },
+    {
+      "script": 223,
+      "name": "롤DS",
+      "description": "적1명을 공격하고\n회복의 하트로\n치유해 준다"
+    },
+    {
+      "script": 224,
+      "name": "거츠맨",
+      "description": "거츠 해머!\n상대 영역에\n균열과 잔해 공격"
+    },
+    {
+      "script": 225,
+      "name": "거츠맨SP",
+      "description": "거츠 해머!\n상대 영역에\n균열과 잔해 공격"
+    },
+    {
+      "script": 226,
+      "name": "거츠맨DS",
+      "description": "거츠 해머!\n상대 영역에\n균열과 잔해 공격"
+    },
+    {
+      "script": 227,
+      "name": "윈드맨",
+      "description": "3칸 사각 범위에\n회전하는\n회오리를 만든다!"
+    },
+    {
+      "script": 228,
+      "name": "윈드맨SP",
+      "description": "3칸 사각 범위에\n회전하는\n회오리를 만든다!"
+    },
+    {
+      "script": 229,
+      "name": "윈드맨DS",
+      "description": "3칸 사각 범위에\n회전하는\n회오리를 만든다!"
+    },
+    {
+      "script": 230,
+      "name": "서치맨",
+      "description": "조준을 버튼으로\n멈춰 5연사하는\n스코프 건!"
+    },
+    {
+      "script": 231,
+      "name": "서치맨SP",
+      "description": "조준을 버튼으로\n멈춰 5연사하는\n스코프 건!"
+    },
+    {
+      "script": 232,
+      "name": "서치맨DS",
+      "description": "조준을 버튼으로\n멈춰 5연사하는\n스코프 건!"
+    },
+    {
+      "script": 233,
+      "name": "파이어맨",
+      "description": "앞쪽 가로 1줄을\n관통하는 불꽃!\n파이어 암!"
+    },
+    {
+      "script": 234,
+      "name": "파이어맨SP",
+      "description": "앞쪽 가로 1줄을\n관통하는 불꽃!\n파이어 암!"
+    },
+    {
+      "script": 235,
+      "name": "파이어맨DS",
+      "description": "앞쪽 가로 1줄을\n관통하는 불꽃!\n파이어 암!"
+    },
+    {
+      "script": 236,
+      "name": "썬더맨",
+      "description": "앞쪽 3칸의 세로\n1줄에 벼락 공격\n패널까지 부순다!"
+    },
+    {
+      "script": 237,
+      "name": "썬더맨SP",
+      "description": "앞쪽 3칸의 세로\n1줄에 벼락 공격\n패널까지 부순다!"
+    },
+    {
+      "script": 238,
+      "name": "썬더맨DS",
+      "description": "앞쪽 3칸의 세로\n1줄에 벼락 공격\n패널까지 부순다!"
+    },
+    {
+      "script": 239,
+      "name": "블루스",
+      "description": "적 앞으로 가서\n차례로 베어낸다\n못 갈 때도 있다"
+    },
+    {
+      "script": 240,
+      "name": "블루스SP",
+      "description": "적 앞으로 가서\n차례로 베어낸다\n못 갈 때도 있다"
+    },
+    {
+      "script": 241,
+      "name": "블루스DS",
+      "description": "적 앞으로 가서\n차례로 베어낸다\n못 갈 때도 있다"
+    },
+    {
+      "script": 242,
+      "name": "넘버맨",
+      "description": "앞쪽3칸에 폭탄!\n위력은 주사위로\n9칸 범위로 폭발"
+    },
+    {
+      "script": 243,
+      "name": "넘버맨SP",
+      "description": "앞쪽3칸에 폭탄!\n위력은 주사위로\n9칸 범위로 폭발"
+    },
+    {
+      "script": 244,
+      "name": "넘버맨DS",
+      "description": "앞쪽3칸에 폭탄!\n위력은 주사위로\n9칸 범위로 폭발"
+    },
+    {
+      "script": 245,
+      "name": "메탈맨",
+      "description": "눈앞의 1칸에\n강철 주먹을\n내리친다!"
+    },
+    {
+      "script": 246,
+      "name": "메탈맨SP",
+      "description": "눈앞의 1칸에\n강철 주먹을\n내리친다!"
+    },
+    {
+      "script": 247,
+      "name": "메탈맨DS",
+      "description": "눈앞의 1칸에\n강철 주먹을\n내리친다!"
+    },
+    {
+      "script": 248,
+      "name": "정크맨",
+      "description": "필드 위의\n물체를 띄워서\n적에게 부딪친다!"
+    },
+    {
+      "script": 249,
+      "name": "정크맨SP",
+      "description": "필드 위의\n물체를 띄워서\n적에게 부딪친다!"
+    },
+    {
+      "script": 250,
+      "name": "정크맨DS",
+      "description": "필드 위의\n물체를 띄워서\n적에게 부딪친다!"
+    },
+    {
+      "script": 251,
+      "name": "아쿠아맨",
+      "description": "수도관을 놓고\n관 앞쪽 2칸까지\n물을 뿜어 공격!"
+    },
+    {
+      "script": 252,
+      "name": "아쿠아맨SP",
+      "description": "수도관을 놓고\n관 앞쪽 2칸까지\n물을 뿜어 공격!"
+    },
+    {
+      "script": 253,
+      "name": "아쿠아맨DS",
+      "description": "수도관을 놓고\n관 앞쪽 2칸까지\n물을 뿜어 공격!"
+    },
+    {
+      "script": 254,
+      "name": "우드맨",
+      "description": "상대 영역 안에서\n무작위로 솟아나는\n우디 타워!"
+    },
+    {
+      "script": 255,
+      "name": "우드맨SP",
+      "description": "상대 영역 안에서\n무작위로 솟아나는\n우디 타워!"
+    }
+  ]
+}

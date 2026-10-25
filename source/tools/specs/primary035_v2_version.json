@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "description": "035 same500 revision: decoded Thumb BL return LR rather than BL instruction address",
+  "files": [
+    {
+      "base": "tools/build_development_patch_035.py",
+      "base_sha256": "54781c9a3cbfe9bf655be632647919fc4232990671229a9ebca4d1e303ceafe8",
+      "output": "tools/build_development_patch_035_v2.py",
+      "edits": [
+        {
+          "before": "from field_npc_rom_product_035 import load_inputs as load_inputs035,install as install_npc035,finalize as finalize035",
+          "after": "from field_npc_rom_product_035_v2 import load_inputs as load_inputs035,install as install_npc035,finalize as finalize035"
+        },
+        {
+          "before": "from field_npc_rom_product_035 import verify_final",
+          "after": "from field_npc_rom_product_035_v2 import verify_final"
+        }
+      ]
+    }
+  ]
+}

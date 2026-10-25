@@ -1,0 +1,240 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BF258",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BF258.tpl",
+    "sha256": "33897e8111b09f667d6d853dad25bc2df4baf039c60911ac99762f3e0a9d4c8c"
+  },
+  "source_archive_sha256": "8e185a2a2d8d7502bccc9eb0d7af1e500f195af9cdaf3db5e0c3c075bda56904",
+  "consumer": "normal-dialogue-choice-homepage-battle-venue",
+  "context": "All58 Japanese literals from3 archives. Offers/refusals/results, background choice and clock/flag venue branches read.",
+  "voice": "GoldProg same BG-service candidate as7BB878; purple Navi casual/pink Navi affected polite; sad organ program polite; rough excited spectators. Candidates not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "BG types3/4/5, spacePx12/24, disableB=true and sound150; battle195/196/global27=673/674, result globals25/26 and flags1806/7701; venue navi flag1929 and hours9/13/16/20, animations24/25 retained.",
+  "semantic_review": [
+    "Homepage menu Mettaur/Blues/blue sky maps BG3/4/5, not floor patterns. 메툴/브루스 are project wording candidates; repeated service wording kept consistent with7BB878.",
+    "Weekly virus meeting is described as once a week without numeric weekday. NaviGirlPurple and NormalNaviPink separately control offers195/196 and result scripts2/3 vs6/7; do not infer player gender or actual damage from 먹이/목숨 threat.",
+    "The organ contrasts former moving performances with current hoarse sound and waiting to break; no repair choice, reward or death event invented.",
+    "Venue spectator デリれ abbreviated deletion call drafted 삭제해라; Navi deletion is not omitted. オモテ contrast drafted 양지, contrasting tournament venue without inventing an exact area name.",
+    "Flag1929 checks before four net-time windows9:00-9:59/13:00-13:59/16:00-16:59/20:00-20:59; script17 praise and scripts20/21 results remain separate.",
+    "Static preservation only; no normal-play BG/menu/battle/time/venue/animation/save/screen verification. Sounds, menu labels, register and literal layout need independent human/runtime review."
+  ],
+  "units": [
+    {
+      "id": "7BF258:0:0",
+      "source": "ワタシハ コノ パイプオルガンヲ\nナガネン カナデテキマシタ・・・",
+      "translation": "저는 이 파이프오르간을\n오랫동안 연주해 왔습니다...",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:0:1",
+      "source": "カズカズノ ヒトビトヲ\nカンドウサセテキマシタ",
+      "translation": "수많은 사람들에게\n감동을 선사했지요",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:0:2",
+      "source": "シカシ、イマトナッテハ\nカスレタ オトシカ\nデナクナッテシマイマシタ・・・",
+      "translation": "하지만, 이제는\n쉰 소리밖에\n나지 않게 되었습니다...",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:0:3",
+      "source": "オトヲ ダサナイ ガッキナンテ\nコッケイナダケデス",
+      "translation": "소리도 내지 못하는 악기는\n우스울 뿐입니다",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:0:4",
+      "source": "ワタシハ ココデ\nヒッソリト コワレテイクノヲ\nマッテイルノデス・・・",
+      "translation": "저는 여기서\n조용히 망가져 가기를\n기다리고 있습니다...",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:10:0",
+      "source": "このエリアは、\nエブリデイトーナメントの\nカイジョウだ!!",
+      "translation": "이 구역은,\n에브리데이 토너먼트\n대회장이다!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:10:1",
+      "source": "クワしいコトは、\nそのトーナメントボードを\nヨんでくれ!",
+      "translation": "자세한 건,\n저 토너먼트 게시판을\n읽어 봐!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:11:0",
+      "source": "ウッヘッヘ!!\nエブリデイトーナメント、\nモりアがるぜ・・・!!",
+      "translation": "우헤헤!!\n에브리데이 토너먼트,\n열기가 뜨겁군...!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:12:0",
+      "source": "オラオラオラーーー!!\nやれーーー!! デリれーーー!!",
+      "translation": "어이 어이 어이이이!!\n해치워라아아!! 삭제해라아아!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:13:0",
+      "source": "グッヘッヘ!!\nタタカえ タタカえ!!",
+      "translation": "구헤헤!!\n싸워라 싸워라!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:13:1",
+      "source": "フシュラァァァ!!",
+      "translation": "푸슈라아아아!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:14:0",
+      "source": "ワタシは ナビが\nデリートされるのを\nミるのが ダイスキなのよ",
+      "translation": "난 나비가\n삭제되는 걸\n보는 게 정말 좋아",
+      "state": "needs_review",
+      "speaker": "NaviGirlPurple",
+      "origin_portrait": "NaviGirlPurple",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:14:1",
+      "source": "キョホホホホホホ!!",
+      "translation": "쿄호호호호호호!!",
+      "state": "needs_review",
+      "speaker": "NaviGirlPurple",
+      "origin_portrait": "NaviGirlPurple",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:15:0",
+      "source": "オモテの\nエブリデイトーナメントじゃ\nシゲキが タりないんだ!!",
+      "translation": "양지의\n에브리데이 토너먼트로는\n자극이 부족해!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:15:1",
+      "source": "もっと、シゲキがホしい!!",
+      "translation": "더 자극적인 걸 원해!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:16:0",
+      "source": "タマシイが タギるわい!!\nホガー、ホガー!!",
+      "translation": "혼이 끓어오르는구먼!!\n호가아, 호가아!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviBrown",
+      "origin_portrait": "NormalNaviBrown",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:17:0",
+      "source": "やるじゃねえか\nミゴトだったぜ・・・",
+      "translation": "제법인데?\n멋졌다고...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:20:0",
+      "source": "ミゴトな テクニックだったぜ!\nまたチャレンジしてくれよな!!",
+      "translation": "멋진 솜씨였어!\n또 도전해 줘!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    },
+    {
+      "id": "7BF258:21:0",
+      "source": "ザンネンだったな!\nまたチャレンジしてくれよな!!",
+      "translation": "아쉽게 됐군!\n또 도전해 줘!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Homepage BG types3/4/5, two independent virus battle offers/results, ageing organ and rough tournament crowd. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source battle globals, BG grid and venue time/flag/animations remain untouched."
+    }
+  ]
+}

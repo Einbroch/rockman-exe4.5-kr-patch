@@ -1,0 +1,15 @@
+{
+  "schema":1,"policy":"development-draft; NON-DISTRIBUTION",
+  "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive":"665698","source_archive_sha256":"f8592c08c3a5c763052780ccaa48cbd74a1568898eec37425da47530304356ca",
+  "consumer":"normal-dialogue",
+  "context":"GutsMan calendar registration time20/type21 prompts; own mugshot, native normal right-calendar/date/time/type path. Other69 literals and253 script slots untouched.",
+  "evidence":"analysis/full_scope_v1/source_tpl/665698.tpl; poc/runtime/gutsman-event-buffer-native-v1-calendar/step_006.png; poc/runtime/gutsman-event-buffer-native-v1-time/step_006.png",
+  "decision_evidence":"Primary-agent manually drafted two independent input questions from source and normal scenes. Existing 거츠/거스 draft voice, wording human review pending. No NumberMan approval transfer or bulk prose transformation.",
+  "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy":"Only20:0/21:0 literals; callSkipMugshotFadeIn/msgOpenQuick/GutsMan mugshot/textSpeed0/waitHold unchanged. No date/name/choice/save/progression changes.",
+  "units":[
+    {"id":"665698:20:0","source":"時間は何時からでガス?","translation":"몇 시부터 시작하거스?","state":"needs_review"},
+    {"id":"665698:21:0","source":"どのタイプでガス?","translation":"어떤 종류거스?","state":"needs_review"}
+  ]
+}

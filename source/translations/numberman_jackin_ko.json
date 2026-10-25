@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "687E3C",
+  "source_archive_sha256": "ddf78003099397cf5e8fe4f12ed2a6414df9718d2759caa7ca4167c7b001ef6a",
+  "consumer": "normal-dialogue",
+  "context": "NumberMan Jack-In transmission slogan, root038288,76bytes/3slots,script1 only literal. Prior exact training-intro-v1 normal route declines training20/21 then selects687E3C script1 at decline-full14/15. Window type3 normal renderer92,110,three rows; wait30 followed by flagClear3603/3651 and waitHold. No name insertion or choices.",
+  "voice": "Transmission call rather than conversational NumberMan prose. Retains exclamations and EXE suffix. NumberMan/Plug-In/Transmission drafts follow existing local NumberMan intro and Roll Jack-In assets; human/official terminology approval remains pending.",
+  "evidence": "analysis/tpl_baseline/687E3C.tpl; external/textpet-indexes/exe45.tpi root038288; poc/runtime/numberman-training-intro-v1-decline-full/step_014.png,step_015.png; translations/roll_jackin_ko.json",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "Keep source commands/args/window type3/three rows/EXE suffix, flags3603/3651,wait30 and waitHold. Scripts0/2 untouched. No timing change, new hook or name-input support.",
+  "units": [{"id":"687E3C:1:0","source":"プラグイン!\nナンバーマン.EXE、\nトランスミッション!!","translation":"플러그인!\n넘버맨.EXE、\n트랜스미션!!","state":"needs_review"}]
+}

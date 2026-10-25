@@ -1,0 +1,33 @@
+{
+  "base": "tools\\verify_source037_v2.py",
+  "base_sha256": "231139cca82e33d81da22ff6a26b3f895aa4ed91dbe5c7876a1121590a72d1f0",
+  "changes": [
+    [
+      "    for r in v['archives']:",
+      "    from capstone import Cs,CS_ARCH_ARM,CS_MODE_THUMB\n    decoder=Cs(CS_ARCH_ARM,CS_MODE_THUMB)\n    board_code=list(decoder.disasm(source[0x6A4FC:0x6A50A],0x0806A4FC))\n    board_shape=[(i.mnemonic,i.op_str) for i in board_code]\n    if board_shape!=[('push','{r4, r5, r6, r7, lr}'),('ldr','r0, [pc, #0xc]'),('ldrb','r1, [r5, #4]'),('bl','#0x804fb4c'),('movs','r0, #0'),('pop','{r4, r5, r6, r7, pc}')]:raise ValueError('Actual board reader decoded source contract')\n    board_bl=board_code[3];board_lr=(board_bl.address+board_bl.size)|1\n    if word(0x6A50C)!=0x0203C800 or rom[0x6A4FC:0x6A510]!=source[0x6A4FC:0x6A510]:raise ValueError('Actual board-reader source/current identity')\n    npc_bl=list(decoder.disasm(source[0x4F76E:0x4F772],0x0804F76E))\n    if len(npc_bl)!=1 or npc_bl[0].mnemonic!='bl' or npc_bl[0].op_str!='#0x804fb4c':raise ValueError('Actual cached NPC reader contract')\n    npc_lr=(npc_bl[0].address+npc_bl[0].size)|1\n    for r in v['archives']:"
+    ],
+    [
+      "lr=0x0804F773",
+      "lr=npc_lr"
+    ],
+    [
+      "reader=0x0804F780;lr=0x0804F785",
+      "reader=0x0806A4FC;lr=board_lr"
+    ],
+    [
+      "ROOT/out/'preflight_v1.json'",
+      "ROOT/out/'preflight_v2.json'"
+    ],
+    [
+      "tools/verify_source037_v2.py",
+      "tools/verify_source037_v3.py"
+    ],
+    [
+      "source_only_old_cohort_replaced_ids=len(a-b)",
+      "corrected_board_reader=dict(entry=0x0806A4FC,source_bl=board_bl.address,derived_return_lr=board_lr,root_literal=0x6A50C,script_provider='ldrb r1,[r5,#4]',scope='One confirmed source reader path, not all call-site or natural event coverage'),supersedes_annotation='preflight_v1 incorrectly annotated4F780/4F785 as cached board reader; that is common RAW NPC route. Source500/roundtrip/font checks unchanged; reader metadata corrected from actual source instructions.',source_only_old_cohort_replaced_ids=len(a-b)"
+    ]
+  ],
+  "output": "tools\\verify_source037_v3.py",
+  "output_sha256": "56dc78e2a975ddd68f3804cb3dab944e7a4c57d3c6aeae6194ef3f0ff4849e4b",
+  "reason": "Discovered source reader annotation confused common RAW NPC with cached board; source data/text unchanged"
+}

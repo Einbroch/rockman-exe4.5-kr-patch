@@ -1,0 +1,56 @@
+{
+  "base": "tools\\capture_native_boundary037_v1.py",
+  "base_sha256": "40a019ae10656c64d3de9410642d761f92e37ecf00200a1811e93ec76c214e04",
+  "changes": [
+    [
+      "037",
+      "038"
+    ],
+    [
+      "qualified_native_001.bin",
+      "qualified_hint_001.bin"
+    ],
+    [
+      "p['source_class']!='native-NPC' or p['scene'] not in (0xA1,0xA2,0xA3)",
+      "p['source_class']!='navi-hint' or archive!='78AE58' or p['scene']!=0xA3"
+    ],
+    [
+      "0x02039800",
+      "0x0203D800"
+    ],
+    [
+      "0x0804F773",
+      "0x0804F807"
+    ],
+    [
+      "original NPC caller",
+      "original hint caller"
+    ],
+    [
+      "native A0 actor/caller",
+      "native A0 L-hint caller"
+    ],
+    [
+      "NOT natural target scene/actor acquisition",
+      "NOT natural A3/ShadowMan acquisition"
+    ],
+    [
+      "Borrowed actor scene applicability",
+      "Borrowed hint scene applicability"
+    ]
+  ],
+  "replacement_counts": [
+    9,
+    1,
+    1,
+    4,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "output": "tools\\capture_hint_boundary038_v1.py",
+  "output_sha256": "88ba9173b39695f1ecaa03bad7d1863023e1be32bfce9f99908f62c4c49b694a",
+  "scope": "Qualified full-native byte/scene aliases at038 selector only; own038 native LZ prerequisite; actual original L provider/BL/root preserved. Not natural acquisition."
+}

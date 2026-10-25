@@ -1,0 +1,40 @@
+{
+  "base": "tools/build_development_patch_049_v1.py",
+  "base_sha256": "9dac8c5a898d1a6750246d73a693da27ad54e5107b426adc671b44404229d08d",
+  "output": "tools/build_development_patch_050_v1.py",
+  "output_sha256": "a52cff59a7cb7ab6e4eb5a6d39485c73aa56219ef0952d0f5db5f680b8feec52",
+  "changes": [
+    [
+      "    from typed_rom_batch049_v1 import load_inputs as load_inputs049,install as install_typed049,finalize as finalize049,predecessor_view as predecessor_view049",
+      "    from typed_rom_batch049_v1 import load_inputs as load_inputs049,install as install_typed049,finalize as finalize049,predecessor_view as predecessor_view049\n    from typed_rom_batch050_v1 import load_inputs as load_inputs050,install as install_typed050,finalize as finalize050,predecessor_view as predecessor_view050"
+    ],
+    [
+      "    inputs049=load_inputs049(source)",
+      "    inputs049=load_inputs049(source)\n    inputs050=load_inputs050(source)"
+    ],
+    [
+      "    for entry049,*_ in inputs049:",
+      "    for entry050,*_ in inputs050:\n        asset050=read_json(ROOT/entry050['asset']['path'])\n        needed.update(ch for u in asset050['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    for entry049,*_ in inputs049:"
+    ],
+    [
+      "        appended,key_patches,keyitem_rom,typed_records049=install_typed049(source,appended,key_patches,keyitem_rom,inputs049,common,work/'plugins',work/'typed049')",
+      "        appended,key_patches,keyitem_rom,typed_records049=install_typed049(source,appended,key_patches,keyitem_rom,inputs049,common,work/'plugins',work/'typed049')\n        appended,key_patches,keyitem_rom,typed_records050=install_typed050(source,appended,key_patches,keyitem_rom,inputs050,common,work/'plugins',work/'typed050')"
+    ],
+    [
+      "        from typed_rom_batch049_v1 import verify_final",
+      "        from typed_rom_batch050_v1 import verify_final"
+    ],
+    [
+      "    parent048=predecessor_view049(source,target,result['keyitem_rom'])",
+      "    parent049=predecessor_view050(source,target,result['keyitem_rom'])\n    parent048=predecessor_view049(source,parent049,result['keyitem_rom'])"
+    ],
+    [
+      "    finalize049(source,target,result,inputs049,typed_records049)",
+      "    finalize049(source,parent049,result,inputs049,typed_records049)\n    finalize050(source,target,result,inputs050,typed_records050)"
+    ]
+  ],
+  "component": {
+    "path": "tools/typed_rom_batch050_v1.py",
+    "sha256": "bbb74a9f9871a5b0f2ce67da14c1a914f7ef4b6e6b20b3dbd3f464eafaaa7c34"
+  }
+}

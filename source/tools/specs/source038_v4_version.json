@@ -1,0 +1,33 @@
+{
+  "base": "tools\\prepare_source500_038_v1.py",
+  "base_sha256": "447aa4b2c322db8d4815ccfdfe4f6f57f89f17ac5325d720cef371664adad512",
+  "changes": [
+    [
+      "from archive_scripts import script_spans",
+      "from archive_scripts import script_spans\nfrom prepare_source500_038_v3 import typed_lookup"
+    ],
+    [
+      "OUT='analysis/pending_insertion_500_038_source_only_v1'",
+      "OUT='analysis/pending_insertion_500_038_source_only_v4'"
+    ],
+    [
+      "lookup=native_lookup(source);boards=board_lookup(source);templates={};drafts={};good=[];bad=[]",
+      "typed=typed_lookup(source);lookup={a:r for a,r in typed.items() if {x['source_class'] for x in r}=={'native-NPC'}};boards={a:r for a,r in typed.items() if {x['source_class'] for x in r}=={'field-board'}};templates={};drafts={};good=[];bad=[]"
+    ],
+    [
+      "tools/prepare_source500_038_v1.py",
+      "tools/prepare_source500_038_v4.py"
+    ],
+    [
+      "deps=[CENSUS,",
+      "deps=['tools/prepare_source500_038_v3.py','tools/specs/source038_v4_version.json',CENSUS,"
+    ],
+    [
+      "Already owned archives require full carry and supersession integration; source-only target must never replace current translated archive.",
+      "A4/B0/B1 lookups are finite static source paths, not natural acquisition. Already owned archives require full carry and supersession integration; source-only target must never replace current translated archive."
+    ]
+  ],
+  "output": "tools\\prepare_source500_038_v4.py",
+  "output_sha256": "81fbbf89460d3809cb2a94ab3a214ba4409ca13742ec84c69dba6857553a0399",
+  "scope": "Source-only survey uses same normal/tail geometry rules on explicit additional NPC/board lookup index paths; no runtime/product admission."
+}

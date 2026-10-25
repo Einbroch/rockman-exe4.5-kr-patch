@@ -1,0 +1,638 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "65FF3C",
+  "source_archive_sha256": "8d1f5550dd74fd813c38c32ade00cd73a572bf008fbefa31c50e9f81a3e74cf5",
+  "consumer": "normal-dialogue",
+  "context": "Inherited88 units unchanged plus all fourteen reward literals52/53/62/63. Native call FC032E reaches08036376; table-selected Zenny200..800, BugFrags1..5 to buffer3/context+54. EE0E/EE12 sentinel and F903 decimal consumer preserve one shared numeric line. Source23 composite hint remains Japanese. Diagnostics do not prove minigame completion or correct awards.",
+  "voice": "Friendly informal Roll, inherited development voice; human approval pending.",
+  "evidence": "analysis/tpl_baseline/65FF3C.tpl; immutable source catalog exe45.tpi root380E0; prior exact-ROM normal Roll greeting exits into this archive",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All commands/arguments/timed dots and newline counts unchanged. Thirty-six unselected scripts byte-identical. Adopted132px/3rows; native reward numeric bounds and composed lines checked in primary build.",
+  "decision_evidence": "Inherited blue/depressed pun decision remains open. White-heart white-eye idiom drafted as being looked at unfavorably; color pun not fully reproduced. Technical virus-busting drafted as skillful busting, no invented combat reward. Color labels are transliteration candidates, not approved official terms. All67 authored here by primary agent in source order, no delegated/bulk rule-based prose. Eight new minigame literals manually drafted by primary agent; calculation skill and ice failure retained, no new reward promises. Fourteen reward drafts manually authored from source order. Drill/letter source context retained. Numeric-adjacent phrasing avoids value-dependent particles; amounts and units unchanged. Inherited result wording reused identically; human review pending.",
+  "units": [
+    {
+      "id": "65FF3C:0:0",
+      "source": "じつは わたし、\nうらないが とくいなの!",
+      "translation": "사실 난,\n운세 보기가 특기야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:0:1",
+      "source": "これから まいにち、",
+      "translation": "이제부터 매일,",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:0:2",
+      "source": "ロールちゃんの ラブリー\nハートうらない を\nしてあげるね!!",
+      "translation": "롤의 러블리\n하트 운세를\n봐 줄게!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:0:3",
+      "source": "今日の あなたの\nうんせいは",
+      "translation": "오늘 너의\n운세는",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:0:7",
+      "source": "ハイッ、でました!!",
+      "translation": "자! 나왔어!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:1:0",
+      "source": "さぁ、ロールちゃんの\nラブリーハートうらない!",
+      "translation": "자, 롤의\n러블리 하트 운세!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:1:1",
+      "source": "今日も ゲンキに\nいってみよーーっ!!",
+      "translation": "오늘도 힘차게\n가 보자아아!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:1:2",
+      "source": "今日の あなたの\nうんせいは",
+      "translation": "오늘 너의\n운세는",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:1:6",
+      "source": "ハイッ、でました!!",
+      "translation": "자! 나왔어!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:3:0",
+      "source": "プラチナハート!!",
+      "translation": "플래티넘 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:3:1",
+      "source": "やったわね!\n今日のうんせい\nさいこうちょう!",
+      "translation": "잘됐네!\n오늘 운세는\n최고야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:3:2",
+      "source": "おかいものに ラッキーの\nよかん!",
+      "translation": "쇼핑에 행운이 올\n예감이 들어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:3:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:4:0",
+      "source": "ブルーハート・・・",
+      "translation": "블루 하트・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:4:1",
+      "source": "水なんの そうがでてるよ",
+      "translation": "물 사고의 징조가 보여",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:4:2",
+      "source": "もじどおり ブルーな\n1日にならないように\n気をつけましょうね!",
+      "translation": "우울한 하루가\n되지 않도록\n조심하자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:4:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:5:0",
+      "source": "イエローハート!!",
+      "translation": "옐로 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:5:1",
+      "source": "ちょっとヤなコトが\nあっても、あかるく\nゲンキに すごせば、",
+      "translation": "좀 싫은 일이\n있어도, 밝고\n힘차게 지내면,",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:5:2",
+      "source": "イイコトあるかも!!",
+      "translation": "좋은 일 있을지도!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:5:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:6:0",
+      "source": "ベージュハート!!",
+      "translation": "베이지 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:6:1",
+      "source": "とっても やさしい\nキモチになれそうな1日!",
+      "translation": "아주 다정한\n기분이 들 것 같아!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:6:2",
+      "source": "いつもは ニガテな人とも\n今日は たのしく\nおはなしできそう!",
+      "translation": "평소 불편한 사람도\n오늘은 즐겁게\n얘기할 수 있겠어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:6:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:7:0",
+      "source": "ゴールドハート!!",
+      "translation": "골드 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:7:1",
+      "source": "きんうん じょうしょうの\nよかん!!",
+      "translation": "금전운이 오를\n예감이야!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:7:2",
+      "source": "ハッピープレイスは\nインターネット!",
+      "translation": "행운의 장소는\n인터넷!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:7:3",
+      "source": "どどーんと、ガッポリ\nいっちゃいましょ!",
+      "translation": "왕창, 두둑하게\n벌어 보자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:7:4",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:8:0",
+      "source": "ホワイトハート!!",
+      "translation": "화이트 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:8:1",
+      "source": "まわりから しろい目で\nみられそう・・・",
+      "translation": "주위에서 곱지 않게\n볼 것 같아・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:8:2",
+      "source": "まわりの くうきを\nよんで、しんちょうに\nこうどうして!",
+      "translation": "주위 분위기를\n살피고, 신중하게\n행동해!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:8:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:9:0",
+      "source": "ピンクハート!!",
+      "translation": "핑크 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:9:1",
+      "source": "ラブうん じょうしょう\nドッキドキ!!",
+      "translation": "연애운 상승!\n두근두근!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:9:2",
+      "source": "気になる あの人と\nきゅうせっきん!!\nなんてコトも!?",
+      "translation": "신경 쓰이는 그 사람과\n갑자기 가까워질!!\n수도 있어!?",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:9:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:10:0",
+      "source": "レッドハート!!",
+      "translation": "레드 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:10:1",
+      "source": "ハートの ほのおを\nもえあがらせて、",
+      "translation": "마음속 불꽃을\n활활 피워서,",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:10:2",
+      "source": "なにごとにも とりくめば\nいいけっかが でそうな\n1日!!",
+      "translation": "뭐든 열심히 하면\n좋은 결과가 나올\n하루야!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:10:3",
+      "source": "なにごとにも\nじょうねつてきにね!",
+      "translation": "어떤 일이든\n열정적으로 해 봐!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:10:4",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:11:0",
+      "source": "パープルハート!!",
+      "translation": "퍼플 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:11:1",
+      "source": "じぶんのきたいする\nいじょうの けっかが\nえられそうな よかん!",
+      "translation": "네가 기대한 것\n이상의 결과를\n얻을 예감이 들어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:11:2",
+      "source": "テクニカルな\nウイルスバスティングに\nラッキーの きざし!",
+      "translation": "솜씨 좋은\n바이러스 퇴치에\n행운의 징조가!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:11:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:12:0",
+      "source": "ブラウンハート!!",
+      "translation": "브라운 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:12:1",
+      "source": "おちついた こうどうが\nラッキーに つながるよ!",
+      "translation": "침착한 행동이\n행운을 불러와!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:12:2",
+      "source": "今日は 1日クールに\nきめてみたら!?",
+      "translation": "오늘 하루는 쿨하게\n해 보면 어때!?",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:12:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:13:0",
+      "source": "ビリジアンハート!!",
+      "translation": "비리디언 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:13:1",
+      "source": "大きな 「いやし」 に\nであえる よかん!",
+      "translation": "큰 「위안」을\n얻을 예감이 들어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:13:2",
+      "source": "つかれた ココロを\nリフレッシュさせるには\nぜっこうの日!!",
+      "translation": "지친 마음을\n상쾌하게 만들기엔\n최고인 날이야!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:13:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:14:0",
+      "source": "グリーンハート!!",
+      "translation": "그린 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:14:1",
+      "source": "しょくぶつを ながめて\nココロを いやせば\nハッピーの よかん!",
+      "translation": "식물을 바라보며\n마음을 달래면\n행운이 올 것 같아!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:14:2",
+      "source": "ふだん あまり気にしない\nしょくぶつに 目を\nむけてみて!",
+      "translation": "평소 눈여겨보지\n않던 식물에\n눈을 돌려 봐!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:14:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:15:0",
+      "source": "ブラックハート!!",
+      "translation": "블랙 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:15:1",
+      "source": "ガガーン!!",
+      "translation": "쿠궁!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:15:2",
+      "source": "今日の うんせいは\nぜっふちょう・・・",
+      "translation": "오늘 운세는\n최악이야・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:15:3",
+      "source": "こんな日は\nあまり であるかず、",
+      "translation": "이런 날은\n너무 나돌지 말고,",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:15:4",
+      "source": "おとなしくしてるのが\nいいみたい・・・",
+      "translation": "얌전히 있는 게\n좋겠어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:15:5",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:16:0",
+      "source": "グレイハート!!",
+      "translation": "그레이 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:16:1",
+      "source": "今日の うんせいは\nくもりがちだね・・・",
+      "translation": "오늘 운세는\n구름이 끼었네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:16:2",
+      "source": "あかるい キモチで\nのりきろう!!",
+      "translation": "밝은 마음으로\n이겨 내자!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:16:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:17:0",
+      "source": "オレンジハート!!",
+      "translation": "오렌지 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:17:1",
+      "source": "たのしいキブンで\n1日すごせそうだよ!",
+      "translation": "즐거운 기분으로\n하루를 보내겠어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:17:2",
+      "source": "まえむきなキモチで\nすごせば、きっとイイコト\nあるんじゃないかな!",
+      "translation": "긍정적인 마음으로\n지내면, 좋은 일이\n분명 있지 않을까!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:17:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:18:0",
+      "source": "レモンハート!!",
+      "translation": "레몬 하트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:18:1",
+      "source": "どこか やるせない\nあまずっぱい キモチに\nなりそうな よかん・・・",
+      "translation": "어딘가 애달픈\n새콤달콤한 기분이\n들 예감이야・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:18:2",
+      "source": "ラブうんが 大きく\nへんどうしそうな\n気がするよ・・・",
+      "translation": "연애운이 크게\n바뀔 것 같은\n기분이 들어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:18:3",
+      "source": "今日の\nラッキーアイテムは・・・",
+      "translation": "오늘의\n행운의 아이템은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:20:0",
+      "source": "1~4の すうじが\nかんけいするところに\nありそう!!",
+      "translation": "1~4의 숫자와\n관련된 곳에\n있을 것 같아!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:21:0",
+      "source": "5~8の すうじが\nかんけいするところに\nありそう!!",
+      "translation": "5~8의 숫자와\n관련된 곳에\n있을 것 같아!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:22:0",
+      "source": "9~12の すうじが\nかんけいするところに\nありそう!!",
+      "translation": "9~12의 숫자와\n관련된 곳에\n있을 것 같아!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:50:0",
+      "source": "クリアできなかったね\nけど、つぎやるときは\nがんばろうね!",
+      "translation": "클리어 못 했네\n그래도 다음엔\n힘내자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:51:0",
+      "source": "やった、クリアできたよ!",
+      "translation": "해냈어, 클리어했어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:51:1",
+      "source": "けいさんりょくがついて\nちょっと つよくなった\n気がする!",
+      "translation": "계산 실력이 늘어서\n조금 더 강해진\n기분이 들어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:60:0",
+      "source": "くやしーー!!\nクリアできなかった!",
+      "translation": "분해애애!!\n클리어 못 했어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:60:1",
+      "source": "たかが こおりだと\nおもって、ゆだんしたわ",
+      "translation": "그냥 얼음이라 생각해\n방심했어",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:60:2",
+      "source": "つぎこそは、\nクリアするわよ!",
+      "translation": "다음번에는,\n꼭 클리어할 거야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:61:0",
+      "source": "やった!\nクリアできたね!",
+      "translation": "해냈어!\n클리어했네!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:61:1",
+      "source": "こんなんな たたかいを\nのりこえて、すこし\nつよくなれた気がする!",
+      "translation": "어려운 싸움을\n이겨 내고, 조금\n강해진 기분이 들어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:52:0",
+      "source": "やった、クリアできたよ!",
+      "translation": "해냈어, 클리어했어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:52:1",
+      "source": "あ、ドリルの中から\nなにかがでてきたよ",
+      "translation": "어, 드릴 안에서\n뭔가 나왔어",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:52:2",
+      "source": "ゼニー\nでてきたよ!\nヤダ、ラッキー!",
+      "translation": "제니가\n나왔어!\n어머, 운 좋다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:53:0",
+      "source": "やった、クリアできたよ!",
+      "translation": "해냈어, 클리어했어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:53:1",
+      "source": "あ、ドリルの中から\nなにかがでてきたよ",
+      "translation": "어, 드릴 안에서\n뭔가 나왔어",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:53:2",
+      "source": "バグのかけらが",
+      "translation": "버그 조각이",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:53:3",
+      "source": "コ\nでてきたよ!\nヤダ、ラッキー!",
+      "translation": "개\n나왔어!\n어머, 운 좋다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:62:0",
+      "source": "やった!\nクリアできたね!",
+      "translation": "해냈어!\n클리어했네!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:62:1",
+      "source": "アレ、てがみのあいだから\nなにかが でてきたよ!",
+      "translation": "어라, 편지 사이에서\n뭔가 나왔어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:62:2",
+      "source": "ゼニー\nでてきたよ!\nやったね!!",
+      "translation": "제니가\n나왔어!\n해냈다!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:63:0",
+      "source": "やった!\nクリアできたね!",
+      "translation": "해냈어!\n클리어했네!",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:63:1",
+      "source": "アレ、てがみのあいだから\nなにかでてきた・・・",
+      "translation": "어라, 편지 사이에서\n뭔가 나왔어・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:63:2",
+      "source": "バグのかけらが",
+      "translation": "버그 조각이",
+      "state": "needs_review"
+    },
+    {
+      "id": "65FF3C:63:3",
+      "source": "コ\nでてきたよ!\nやったね!!",
+      "translation": "개\n나왔어!\n해냈다!!",
+      "state": "needs_review"
+    }
+  ],
+  "scope_variant": "fortune-and-minigame-rewards-v2",
+  "lineage": {
+    "base_asset": "translations/roll_minigame_results_ko.json",
+    "unchanged_base_units": 88,
+    "new_units": 14
+  }
+}

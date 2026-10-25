@@ -1,0 +1,312 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6A8ADC",
+  "source_archive_sha256": "bb9b7965f03aab554b30ef692eac20fa01090bf3881e8ce363efa5d66038f3d1",
+  "consumer": "normal-dialogue",
+  "context": "StarMan seasonal/birthday dialogue; intro6A383C names スターマン and sparkle. Native intro root0383A4/seasonal+52 root0383D8. Portrait92,110/3rows; global22,event buffer/loop unchanged; no nickname insertion in this archive. Normal unlock/date/gender/event routes unverified.",
+  "voice": "Tentative cheerful conversational voice; meteor-shower joke and elongated birthday shout retained. Human wording/culture/voice review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/6A383C.tpl; analysis/full_scope_v1/source_tpl/6A8ADC.tpl; native roots0383A4/0383D8",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All48 literals including2 unchanged quotes; IDs/source,numerals,newline counts/boundaries,21slots,commands preserved. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "First dream of NewYear keeps ranked1Fuji/2hawk/3eggplant Japanese custom, not three generic lucky objects. Calendar dates remain Japanese source culture.",
+    "Height question retains year-before-last and the following explicit why-not-last-year question, not a corrected last-year substitution.",
+    "Meteor shower instead of beans is an immediately retracted joke. Milky Way/light festival, winter triangle/Big Dipper/Polaris and midnight year transition retain source meaning. Birthday vowel elongation is a draft voice decision; NumberMan4649 approval not reused."
+  ],
+  "units": [
+    {
+      "id": "6A8ADC:1:0",
+      "source": "ア、\nハッピーニューイヤー!",
+      "translation": "아,\n새해 복 많이 받아!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:1:1",
+      "source": "いい はつユメは見れた?",
+      "translation": "새해 첫꿈은 좋았어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:1:2",
+      "source": "1ふじ、2タカ、3なすび\nっていって、",
+      "translation": "1후지산,2매,3가지\n라고 하는데,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:1:3",
+      "source": "さっきの 3つが\nはつユメに でてくると\nえんぎが いいんだって!",
+      "translation": "방금 그 3가지가\n새해 첫꿈에 나오면\n길한 징조래!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:2:0",
+      "source": "今日は せつぶんだね!",
+      "translation": "오늘은 절분이네!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:2:1",
+      "source": "マメまきなんて\nちいさなコトいわないで、",
+      "translation": "콩 뿌리기처럼\n소소한 말은 말고,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:2:2",
+      "source": "りゅうせいぐん でも\nふらしてあげようか!?",
+      "translation": "유성우라도\n내려 줄까!?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:2:3",
+      "source": "な~んてね!",
+      "translation": "농~담이야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:3:0",
+      "source": "今日は・・・\nバレンタインの日だよ!",
+      "translation": "오늘은・・・\n발렌타인데이야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:3:1",
+      "source": "きのうの ばんに、\n今日は たくさんチョコが\nもらえますようにって、",
+      "translation": "어젯밤에,\n오늘 초콜릿을 많이\n받게 해 달라고,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:3:2",
+      "source": "ながれボシに おねがい\nしておいたよ!",
+      "translation": "별똥별에 소원을\n빌어 놨어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:4:0",
+      "source": "今日は・・・\nバレンタインの日だよ!",
+      "translation": "오늘은・・・\n발렌타인데이야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:4:1",
+      "source": "ほんめいチョコを\nわたすのって、",
+      "translation": "좋아하는 사람에게\n초콜릿을 주려면,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:4:2",
+      "source": "かなりの ゆうきが\nいるよね!!",
+      "translation": "꽤 큰 용기가\n필요하지!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:5:0",
+      "source": "今日は・・・\n3月3日、ひなまつり!",
+      "translation": "오늘은・・・\n3월3일,히나마쓰리!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:5:1",
+      "source": "ひなにんぎょうって、\nキレイだよね!",
+      "translation": "히나 인형은,\n참 예쁘지!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:5:2",
+      "source": "ボクも あんなキモノ、\nきてみたいな!",
+      "translation": "나도 그런 기모노,\n입어 보고 싶어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:6:0",
+      "source": "今日は・・・\n5月5日、コドモの日!",
+      "translation": "오늘은・・・\n5월5일,어린이날!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:6:1",
+      "source": "おととしから どれくらい\nせがのびてる?",
+      "translation": "재작년보다 얼마나\n키가 컸어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:6:2",
+      "source": "はしらのキズなんかで\nチェックしてみたら?",
+      "translation": "기둥에 낸 자국으로\n확인해 보는 건 어때?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:6:3",
+      "source": "だけど・・・\nなんで、きょねんじゃ\nないんだろ?",
+      "translation": "그런데・・・\n왜 작년이\n아닌 걸까?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:7:0",
+      "source": "今日は、\nたなばたの日!",
+      "translation": "오늘은,\n칠석이야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:7:1",
+      "source": "キミは あまのがわを\n見たことある?",
+      "translation": "너는 은하수를\n본 적 있어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:7:2",
+      "source": "それは すごいよ!\n人間の手では\nつくりだせない",
+      "translation": "그건 굉장해!\n사람의 손으로는\n만들 수 없는",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:7:3",
+      "source": "大ぞらの\nイルミネーション!!",
+      "translation": "드넓은 하늘의\n빛의 축제!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:7:4",
+      "source": "きっと、かんどうするよ",
+      "translation": "분명,감동할 거야",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:8:0",
+      "source": "あっ、今日って\nクリスマスイヴだよね!",
+      "translation": "아, 오늘은\n크리스마스이브지!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:8:1",
+      "source": "ホワイトクリスマスも\nいいけど、",
+      "translation": "화이트 크리스마스도\n좋지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:8:2",
+      "source": "ホシぞらの クリスマスも\nいいもんだよ!!",
+      "translation": "별빛 크리스마스도\n멋지거든!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:8:3",
+      "source": "ふゆのそらは くうきが\nすんでいて、",
+      "translation": "겨울 하늘은 공기가\n맑아서,",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:8:4",
+      "source": "ホシがとても\nキレイに見えるんだ!",
+      "translation": "별이 정말\n아름답게 보여!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:9:0",
+      "source": "メリークリスマス!!",
+      "translation": "메리 크리스마스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:9:1",
+      "source": "きのうの ホシぞらは\nどうだった?",
+      "translation": "어제 별이 빛난 밤은\n어땠어?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:9:2",
+      "source": "ふゆの 大三かくけいは\n見れたかな?",
+      "translation": "겨울철 대삼각형은\n볼 수 있었을까?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:9:3",
+      "source": "ほくとしちせいも\nキレイだよ!",
+      "translation": "북두칠성도\n아름다워!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:9:4",
+      "source": "・・・あっそうだ!",
+      "translation": "・・・아, 맞다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:9:5",
+      "source": "ほっきょくせい も\nキレイに\nかがやいているよ!",
+      "translation": "북극성도\n아름답게\n빛나고 있어!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:10:0",
+      "source": "今日は 12月31日、\n大みそか だよ!!",
+      "translation": "오늘은 12월31일,\n섣달그믐이야!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:10:1",
+      "source": "今年の よぞらは\n今日で見おさめ!",
+      "translation": "올해의 밤하늘은\n오늘이 마지막!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:10:2",
+      "source": "ごぜん0じを すぎると、\nらいねんの よぞらに\nなっちゃうからね!",
+      "translation": "오전0시가 지나면,\n내년의 밤하늘이\n되어 버리니까!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:11:0",
+      "source": "ハッピーーーーーーッ\nバーーースデーー!!",
+      "translation": "생이이이이일\n축하해애애애!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:11:1",
+      "source": "あたらしい ねんれいの\nキミに イイコト、\nありますように!!",
+      "translation": "새 나이를 맞은\n너에게 좋은 일이,\n생기길 바라!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:12:0",
+      "source": "そうりつきねん日だよ!",
+      "translation": "창립 기념일이야!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:12:1",
+      "source": "今日って 学校、\nおやすみだよね?",
+      "translation": "오늘은 학교,\n쉬는 날이지?",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "6A8ADC:19:0",
+      "source": "だよ!",
+      "translation": "이야!",
+      "state": "needs_review"
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "68097C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/68097C.tpl",
+    "sha256": "96d8ec105c61484719469b2d89ef050402c18e2b4d1fc4177a8056d916fd5928"
+  },
+  "source_archive_sha256": "b7c63dda18589c873bfc41f804524ec54f0992eff8132879e9ed0549049cd1e2",
+  "consumer": "batch500-equipment-progress-tournament",
+  "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+  "voice": "Source-conditioned manual candidates; distinct named portraits only where shown. Not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "All source fields/IDs/TPL/payload, commands, buffers, numerical limits, newlines, padding and current selected entries immutable; no ROM/save writes.",
+  "batch_id": "batch500-002",
+  "semantic_review": [
+    "Batch500-002 exact500 stable catalog literals in11 fully read archives: equipment459 (342 labels,18 choices,99 prompts/warnings), progress31, tournament10. Not500 unique sentences.",
+    "Manual source-conditioned draft candidates; needs_review/non-distribution. No ROM/save writes, human approval or runtime/layout closure.",
+    "Dispatcher flags/priority, chip104, item11, internet3/5/7/9/10/12, another1Navi and key return internet9 retained.",
+    "License congratulations and plug-out request are separate15 pages; entry destination26 spans two pages. Nickname33 followed by unread mail, not inferred sender.",
+    "Coffin marks target Navi; weekend0/6 and post-weekend34 retained. Actor unconfirmed; no inferred MetalMan portrait."
+  ],
+  "units": [
+    {
+      "id": "68097C:10:0",
+      "source": "もっとインターネットを\nたんさくしてみようか\n・・・・・・",
+      "translation": "인터넷을 좀 더\n탐색해 볼까\n...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:11:0",
+      "source": "みならいライセンスしけん\nうけに行くか・・・",
+      "translation": "견습 라이선스 시험을\n치르러 갈까...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:12:0",
+      "source": "みならいライセンス\nしけん を\nうけに行くとするか・・・",
+      "translation": "견습 라이선스\n시험을\n치르러 가자...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:13:1",
+      "source": "」 を\n手にいれに行くぞ・・・",
+      "translation": "」 칩을\n구하러 가자...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:14:0",
+      "source": "みならいライセンスを\nうけとりに行こうか・・・",
+      "translation": "견습 라이선스를\n받으러 갈까...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:15:0",
+      "source": "みならいライセンスしけん\nおつかれだったな!",
+      "translation": "견습 라이선스 시험\n수고했다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:15:1",
+      "source": "いちど\nプラグアウトするか?",
+      "translation": "일단\n플러그아웃할까?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:16:0",
+      "source": "インターネット3で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷3에서\n일어난 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:17:0",
+      "source": "さきほど たおしたナビが\nじけんの はんにんだった\nようだな・・・",
+      "translation": "방금 쓰러뜨린 내비가\n사건의 범인이었던\n모양이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:17:1",
+      "source": "つかれただろう・・・\nいちど、プラグアウト\nするか・・・?",
+      "translation": "피곤할 테니...\n일단, 플러그아웃\n할까...?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:18:0",
+      "source": "インターネット5で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷5에서\n일어난 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:19:0",
+      "source": "インターネット7で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷7에서\n일어난 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:20:0",
+      "source": "インターネット9で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷9에서\n일어난 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:21:0",
+      "source": "インターネット10で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷10에서\n일어난 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:22:0",
+      "source": "インターネット12で\nおこっているじけん\n気になるな・・・",
+      "translation": "인터넷12에서\n일어난 사건이\n신경 쓰이는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:23:0",
+      "source": "ブラックワークスから\n「マイナスキー」 を\nとりかえすぞ・・・",
+      "translation": "블랙워크스에게서\n「마이너스 키」를\n되찾자...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:24:0",
+      "source": "「マイナスキー」 は、\nもう1体のナビが\nもっているみたいだな",
+      "translation": "「마이너스 키」는,\n다른 내비 1명이\n가진 모양이군",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:25:0",
+      "source": "「マイナスキー」 を\nインターネット9にいる",
+      "translation": "「마이너스 키」를\n인터넷9에 있는",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:25:1",
+      "source": "ナビのところに\nもって行くぞ",
+      "translation": "내비에게\n가져다주자",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:26:0",
+      "source": "オフィシャル\nトーナメントの",
+      "translation": "오피셜\n토너먼트의",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:26:1",
+      "source": "エントリーかいじょうに\n行くぞ・・・",
+      "translation": "참가 접수 장소로\n가자...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:27:0",
+      "source": "ウラインターネットに\n行こうか・・・",
+      "translation": "언더 인터넷으로\n갈까...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:27:1",
+      "source": "もくひょうのナビの\nめじるしは\nカンオケだったな・・・",
+      "translation": "목표 내비를 찾을\n표식은\n관이었지...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:28:0",
+      "source": "オフィシャル\nトーナメントの\nエントリーをしに行こうか",
+      "translation": "오피셜\n토너먼트에\n참가 신청하러 갈까",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:29:0",
+      "source": "しゅうまつはオフィシャル\nトーナメントだな\nゆうしょうを めざそう・・・",
+      "translation": "주말에는 오피셜\n토너먼트로군\n우승을 노려 보자...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:30:0",
+      "source": "オフィシャル\nトーナメント・・・\nゆうしょうを めざすぞ",
+      "translation": "오피셜\n토너먼트...\n우승을 노리겠다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:31:0",
+      "source": "よりふかく\nインターネットを\nたんさくしてみようか",
+      "translation": "더 깊숙이\n인터넷을\n탐색해 볼까",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:32:0",
+      "source": "オフィシャル\nトーナメントのよせんを\nうけに行こうか",
+      "translation": "오피셜\n토너먼트의 예선을\n치르러 갈까",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:33:0",
+      "source": "、\nまだ、よんでいない\nメールがあったな・・・",
+      "translation": ",\n아직 읽지 않은\n메일이 있었지...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:34:0",
+      "source": "しゅうがあけたら\nオフィシャル\nトーナメントに",
+      "translation": "주말이 지나면\n오피셜\n토너먼트에",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    },
+    {
+      "id": "68097C:34:1",
+      "source": "エントリーしに行くぞ",
+      "translation": "참가 신청하러 가자",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress dispatcher10..34: license/chip/event/mail/key/weekday/tournament; no portrait in script.",
+      "variable_context": "Folder required count is buffer1, not hardcoded30; button R/L and abbreviated C/WB/B/D retained. Chip104/name/calendar variables and literal/page boundaries unchanged; runtime/layout unverified."
+    }
+  ]
+}

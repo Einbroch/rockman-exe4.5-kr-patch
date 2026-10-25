@@ -1,0 +1,159 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "65B74C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/65B74C.tpl",
+    "sha256": "6339b7ce278745240573925add86c3ea3786203c0acd0dfdc1b2cff4e817763b"
+  },
+  "source_archive_sha256": "ce9ecbc2d644ecd1a3a8e66ce8f85030b93d0e325e5c70c58594c2e1628f8582",
+  "consumer": "quick-box-tournament-agenda-profile",
+  "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+  "voice": "Friendly plain source voice; no named Navi asserted without mugshot or caller proof; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep all commands/flags/branches/variables/name buffers, source literals not selected, original newlines and choice two-space padding; no edits to source archive or ROM.",
+  "semantic_review": [
+    "Loss encouragement, championship, lack of entry, approaching start are distinct; no false successful registration.",
+    "Nickname stays between text fragments; punctuation ! remains source. callCancelMenuTransition in10 and flag3603 in20..23 retained. No live competition verification."
+  ],
+  "units": [
+    {
+      "id": "65B74C:1:0",
+      "source": "ざんねんだったね・・・\nきたえなおして\nもういちどトライしよう!",
+      "translation": "아쉬웠네...\n다시 단련해서\n한 번 더 도전하자!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:2:0",
+      "source": "ゆうしょうだよ!\n",
+      "translation": "우승이야!\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:2:1",
+      "source": "、\nやったね!!",
+      "translation": ",\n해냈어!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:10:0",
+      "source": "エントリーしてないよ!\n",
+      "translation": "참가 신청을 안 했어!\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:20:0",
+      "source": "いよいよだね!\n",
+      "translation": "드디어 시작이야!\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:20:1",
+      "source": "!\nぜんりょくでがんばろう!",
+      "translation": "!\n온 힘을 다해 힘내자!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:21:0",
+      "source": "いよいよだね!\n",
+      "translation": "드디어 시작이야!\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:21:1",
+      "source": "!\nぜんりょくでがんばろう!",
+      "translation": "!\n온 힘을 다해 힘내자!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:22:0",
+      "source": "いよいよだね!\n",
+      "translation": "드디어 시작이야!\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:22:1",
+      "source": "!\nぜんりょくでがんばろう!",
+      "translation": "!\n온 힘을 다해 힘내자!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:23:0",
+      "source": "いよいよだね!\n",
+      "translation": "드디어 시작이야!\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    },
+    {
+      "id": "65B74C:23:1",
+      "source": "!\nぜんりょくでがんばろう!",
+      "translation": "!\n온 힘을 다해 힘내자!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-box-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Tournament loss/win/not-entered/start notification, source actor not shown.",
+      "variable_context": "Nickname/schedule/profile buffers retain position and arguments; no fixed 이/가/아/야 particle attached to user value. Actor/caller, input persistence, maximum width remain unverified."
+    }
+  ]
+}

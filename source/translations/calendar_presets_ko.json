@@ -1,0 +1,17 @@
+{
+ "schema":1,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"6368E8","source_archive_sha256":"816d719a806e861faf90bdf61bb960ff20eb965001871274387fce2542711c74",
+ "consumer":"fixed-cell-big","scope_variant":"type-presets-poc-v1",
+ "context":"Existing operation/type labels plus two default schedule names; 32-byte native record with name at+10 gives22 bytes, selected names9 bytes includingE5. No Hangul keyboard or persistence claim.",
+ "evidence":"analysis/SCHEDULE_PRESET_SOURCE_BOUNDARY.md; native32F88 count loop and32EFE record copy; calendar-frequency-v1 meal/list RAM evidence",
+ "decision_evidence":"Primary-agent manual drafts 식사/학원 match existing type labels. Technical PoC; human wording/presentation approval pending.",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "protected_policy":"Preserve251 other slots including keyboard2/3/4, dynamic61 and original source archive. Selected default names forbid embeddedE5 and exceed neither22-byte record field nor10-glyph display. Save/reload validation pending.",
+ "units":[
+  {"id":"6368E8:0:0","source":"とうろく    よていをみる  さくじょ    ","translation":"등록      일정 보기   삭제      ","state":"needs_review"},
+  {"id":"6368E8:60:0","source":"TVばんぐみともだちと約束ごはんじゅくそのた?????","translation":"TV 방송 친구와 약속 식사 학원 기타 ?????","state":"needs_review"},
+  {"id":"6368E8:62:0","source":"ごはん","translation":"식사","state":"needs_review"},
+  {"id":"6368E8:63:0","source":"じゅく","translation":"학원","state":"needs_review"}
+ ]
+}

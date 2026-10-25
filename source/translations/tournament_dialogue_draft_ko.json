@@ -1,0 +1,2639 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6E93C8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6E93C8.tpl",
+    "sha256": "cf7e28907c2e9c72060ea94d7265959a18441f089a34593b47687ab7ee5842f8"
+  },
+  "source_archive_sha256": "a8a737061d59a96ef8bc2b8d01508500a5891e60f4b78033e8d7f053ca7ffcfb",
+  "consumer": "normal-dialogue",
+  "context": "All290 Japanese literals in254-slot tournament archive; speakers bound to explicit native mugshotShow; normal and Under announcers separately voiced. Stable IDs and non-Japanese literals unchanged.",
+  "voice": "Manual drafts following source register; GutsMan 거츠/거스, AquaMan 퓨, NumberMan polite and IceMan gentle polite candidate voices reused from existing project. Existing 실버/골드/오피셜 토너먼트 and 내비/오퍼레이터 terms reused.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by product builder",
+  "protected_policy": "All source numeric groups/newline counts/trailing rows/commands/variables/flags/waits/portraits preserved. No gameplay/save/ROM mutation. Existing ASCII VS and punctuation kept unselected.",
+  "semantic_review": [
+    "New narrator name 케로, move names including 슈팅 스타/롤 애로/풍신의 춤/메탈 피스트/파이널 버닝 and place 샤로 are source-backed draft candidates, not newly approved terms.",
+    "ShadowMan56 Japanese incantation is conservatively phonetic 린·표·토·샤 카이·진·레츠·자이·젠, not an asserted canonical Korean religious spell; human decision pending.",
+    "KendoMan97 カカゲイコ draft repeats striking practice rather than replacing gameplay instructions; source interpretation needs human wording review.",
+    "Name/enemy-number fragments keep invariant 의/comma constructions. Consumer variable budgets and all native battle branches unverified."
+  ],
+  "units": [
+    {
+      "id": "6E93C8:0:0",
+      "source": "さーあ、はじまりました、\nシルバートーナメント!!",
+      "translation": "자, 시작됐습니다,\n실버 토너먼트!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:0:1",
+      "source": "はたして ゆうしょうは\nダレの手に!?",
+      "translation": "과연 우승은\n누구의 손에!?",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:0:2",
+      "source": "ワタクシ、じっきょうを\nたんとうします\nケロさんでーす!!",
+      "translation": "저는 중계를\n맡은\n케로입니다!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:0:3",
+      "source": "それでは、はりきって\nいっちゃいましょー!!",
+      "translation": "그럼 힘차게\n가 보자고요!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:1:0",
+      "source": "さーあ、はじまりました、\nゴールドトーナメント!!",
+      "translation": "자, 시작됐습니다,\n골드 토너먼트!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:1:1",
+      "source": "げきせんを かちぬいて\nゆうしょうを かちとるのは\nいったいダレでしょうか!?",
+      "translation": "치열한 싸움을 뚫고\n우승을 차지할 사람은\n과연 누구일까요!?",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:1:2",
+      "source": "ワタクシ、じっきょうを\nたんとうします\nケロさんでーす!!",
+      "translation": "저는 중계를\n맡은\n케로입니다!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:1:3",
+      "source": "バリバリはりきって\nいっちゃいましょー!!",
+      "translation": "기운 팍팍 내서\n가 보자고요!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:2:0",
+      "source": "さーあ、はじまりました、\nすべてのネットバトラー\nあこがれの ぶたい・・・",
+      "translation": "자, 시작됐습니다,\n모든 넷 배틀러가\n동경하는 무대...",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:2:1",
+      "source": "オフィシャルトーナメント!!",
+      "translation": "오피셜 토너먼트!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:2:2",
+      "source": "えいこうの トロフィーを\n手にいれるのは、\nどのナビでしょう!",
+      "translation": "영광의 트로피를\n손에 넣는 것은,\n어느 내비일까요!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:2:3",
+      "source": "ワタクシ、じっきょうを\nたんとうします\nケロさんでーす!!",
+      "translation": "저는 중계를\n맡은\n케로입니다!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:2:4",
+      "source": "ガンガンはりきって\nいっちゃいましょー!!",
+      "translation": "힘껏 기운 내서\n가 보자고요!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:3:0",
+      "source": "よくぞ アツまった\nイノチシらずの アラくれ\nモノドモ!!",
+      "translation": "잘도 모여들었구나,\n목숨 무서운 줄 모르는\n거친 녀석들!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:3:1",
+      "source": "ウラのサイキョウは\nゼン デンノウセカイ\nサイキョウをイミする!!",
+      "translation": "언더의 최강은\n전 전뇌 세계의\n최강을 뜻한다!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:3:2",
+      "source": "サイキョウのナを\nそのテで ツカみトれ!!",
+      "translation": "최강의 이름을\n네 손으로 거머쥐어라!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:3:3",
+      "source": "ハジめるぜ、\nウラトーナメント!!",
+      "translation": "시작하겠다,\n언더 토너먼트!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:5:0",
+      "source": "おまたせいたしました!!\nたいせんくみあわせの\nはっぴょうです!!",
+      "translation": "오래 기다리셨습니다!!\n대진표를\n발표하겠습니다!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:5:1",
+      "source": "・・・どうぞ!!",
+      "translation": "...보시죠!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:6:0",
+      "source": "それではしあいにまいりましょう!\n1回戦だい",
+      "translation": "그럼 경기를 시작하겠습니다!\n1회전 제",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:6:1",
+      "source": "しあいは\n",
+      "translation": "경기는\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:7:0",
+      "source": "それではしあいに\nまいりましょう!",
+      "translation": "그럼 경기를\n시작하겠습니다!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:7:1",
+      "source": "じゅんけっしょう\nだい",
+      "translation": "준결승\n제",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:7:2",
+      "source": "しあいは\n",
+      "translation": "경기는\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:8:0",
+      "source": "ついに やってまいりました、\nきんちょうのしゅんかん!!",
+      "translation": "드디어 찾아왔습니다,\n긴장되는 순간!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:8:1",
+      "source": "ゆうしょうを かちとるのは\nどちらのナビか!?",
+      "translation": "우승을 차지할 내비는\n과연 어느 쪽인가!?",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:8:2",
+      "source": "けっしょうせんは\n",
+      "translation": "결승전은\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:10:0",
+      "source": "おたがい ぜんりょくで\nたたかおう!\nまけないよ!!",
+      "translation": "서로 최선을 다해\n싸우자!\n지지 않을 거야!!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:11:0",
+      "source": "ぜったい\nゆうしょうしてやるんだから!\nまけないわよ!!",
+      "translation": "반드시\n우승하고 말겠어!\n지지 않을 거야!!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:12:0",
+      "source": "ガッツガッツ!!\nガッツパワーぜんかいでガス!!",
+      "translation": "거츠, 거츠!!\n거츠 파워 전개거스!!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:13:0",
+      "source": "うねり、あれくるう アラシの\nおそろしさ、見せてやろう・・・",
+      "translation": "휘몰아쳐 날뛰는 폭풍의\n무서움을 보여 주마...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:14:0",
+      "source": "ターゲット・・・ロックオン!",
+      "translation": "타깃... 록온!",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:15:0",
+      "source": "カクゴしな・・・\nもやしつくしてやるぜ!!",
+      "translation": "각오해라...\n모조리 불태워 주마!!",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:16:0",
+      "source": "わが ライゲキを\nあじわうがよい・・・",
+      "translation": "내 번개의 위력을\n맛보아라...",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:17:0",
+      "source": "・・・きる!!",
+      "translation": "...베겠다!!",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:18:0",
+      "source": "アナタの うごきは\nけいさんずみですよ・・・",
+      "translation": "당신의 움직임은\n이미 계산했습니다...",
+      "state": "needs_review",
+      "speaker": "NumberMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:19:0",
+      "source": "オレの メタルフィスト、\nうけてみろ・・・",
+      "translation": "내 메탈 피스트를,\n받아 봐라...",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:20:0",
+      "source": "オ、オデ、ゼッタイマケナイ\nオマエ、ジャンクニ シテヤル",
+      "translation": "나, 나는 절대로 안 진다\n너를 고철로 만들어 주마",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:21:0",
+      "source": "ぴゅっぴゅー!!\nぜーーーったい、\nまけないっぴゅ!!",
+      "translation": "퓨, 퓨~!!\n절~~~~대로,\n지지 않을 거야, 퓨!!",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:22:0",
+      "source": "大いなる だいちのチカラ、\n見せてやろう・・・",
+      "translation": "위대한 대지의 힘을,\n보여 주마...",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:23:0",
+      "source": "オレのテクニック、\nたっぷりアジあわせてやるぜ!",
+      "translation": "내 기술을,\n실컷 맛보게 해 주마!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:24:0",
+      "source": "ヘン!\nこんなシロウトオペレーターが\nあやつるナビ、らくしょうだぜ!",
+      "translation": "흥!\n이런 초보 오퍼레이터가\n다루는 내비쯤은 식은 죽 먹기지!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:25:0",
+      "source": "ホシうらないによると、\nキミの今日のしょうぶうんは、\nサイアクだよ!!",
+      "translation": "별점에 따르면,\n너의 오늘 승부 운은,\n최악이야!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:26:0",
+      "source": "いっさい 手かげんはせんぞ\n・・・まいる!!",
+      "translation": "조금도 봐주지 않겠다\n...간다!!",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:27:0",
+      "source": "どんな あいてでも、\nぜんりょくで おあいていたす!",
+      "translation": "어떤 상대라도,\n전력을 다해 상대하겠소!",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:28:0",
+      "source": "ブッとばしてやるぜ!!",
+      "translation": "날려 버려 주마!!",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:29:0",
+      "source": "こおらせちゃうです!!",
+      "translation": "얼려 버릴 거예요!!",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:30:0",
+      "source": "100まんボルトの\nでんあつに たえられるかな?",
+      "translation": "100만 볼트의\n전압을 견딜 수 있겠나?",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:31:0",
+      "source": "うつくしく・・・ちるがいい!!",
+      "translation": "아름답게... 져라!!",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:32:0",
+      "source": "・・・フン、\nザコが・・・",
+      "translation": "...흥,\n피라미가...",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:33:0",
+      "source": "今日は いつものばい\nまわるぞい!!",
+      "translation": "오늘은 평소의 두 배로\n돌아 주마!!",
+      "state": "needs_review",
+      "speaker": "TopMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:34:0",
+      "source": "シビれさせてやるぜ・・・!!",
+      "translation": "짜릿하게 해 주마...!!",
+      "state": "needs_review",
+      "speaker": "SparkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:35:0",
+      "source": "おまえの はいぼくを\nえんしゅつしてやるぜ・・・",
+      "translation": "네 패배를\n연출해 주마...",
+      "state": "needs_review",
+      "speaker": "VideoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:36:0",
+      "source": "オレを ナメてると、\nヤケドするぜ!!",
+      "translation": "나를 얕보다가는,\n화상 입는다!!",
+      "state": "needs_review",
+      "speaker": "BurnerMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:37:0",
+      "source": "どこからでも\nかかってくるがいい!!",
+      "translation": "어디서든\n덤벼 보아라!!",
+      "state": "needs_review",
+      "speaker": "KendoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:38:0",
+      "source": "ホネまで こおらせてやる!!",
+      "translation": "뼛속까지 얼려 주마!!",
+      "state": "needs_review",
+      "speaker": "ColdMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:39:0",
+      "source": "クルしまないように、\nデリートしてやるぜ!!",
+      "translation": "고통 느낄 틈도 없이,\n딜리트해 주마!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:40:0",
+      "source": "ぜったい まけないよ!!",
+      "translation": "절대 지지 않을 거야!!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:41:0",
+      "source": "オンナのコの そこぢから\n見せてあげましょ!!",
+      "translation": "여자아이의 저력을\n보여 주겠어!!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:42:0",
+      "source": "ガッツガッツ!!\nおもいっきり行くでガス!!",
+      "translation": "거츠, 거츠!!\n힘껏 가겠거스!!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:43:0",
+      "source": "おい風が ふいておる・・・\nゆくぞ・・・",
+      "translation": "순풍이 불고 있군...\n가자...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:44:0",
+      "source": "ターゲット・・・ロックオン\nミッション、スタート!",
+      "translation": "타깃... 록온\n미션, 스타트!",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:45:0",
+      "source": "もえるぜ・・・!\nバーーニング!!",
+      "translation": "불타오르는군...!\n버~~닝!!",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:46:0",
+      "source": "おちよ、イカズチ!\nわが、ライデンのチカラ\n見せてやろう!!",
+      "translation": "내려쳐라, 번개여!\n나의 뇌전의 힘을\n보여 주마!!",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:47:0",
+      "source": "・・・きる!!",
+      "translation": "...베겠다!!",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:48:0",
+      "source": "あいてのうごきを\nけいさん中です・・・\n・・・けいさんしゅうりょう!",
+      "translation": "상대의 움직임을\n계산 중입니다...\n...계산 완료!",
+      "state": "needs_review",
+      "speaker": "NumberMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:49:0",
+      "source": "コブシよ・・・うなれ!!",
+      "translation": "주먹이여... 울부짖어라!!",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:50:0",
+      "source": "オ、オデ、ガンバル!!\nゼッタイ マケナイ!!",
+      "translation": "나, 나는 힘낸다!!\n절대로 안 진다!!",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:51:0",
+      "source": "ぴゅっぴゅー!!\n水びたしにしちゃうっぴゅ!",
+      "translation": "퓨, 퓨~!!\n물바다로 만들어 줄게, 퓨!",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:52:0",
+      "source": "大いなるだいちよ、\nわれにチカラを!!",
+      "translation": "위대한 대지여,\n내게 힘을!!",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:53:0",
+      "source": "さあ、いくぜ!",
+      "translation": "자, 간다!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:54:0",
+      "source": "さあ、いくぜ!",
+      "translation": "자, 간다!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:55:0",
+      "source": "ふりそそげ!\nシューティングスター!!",
+      "translation": "쏟아져라!\n슈팅 스타!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:56:0",
+      "source": "リン・ピョウ・トウ・シャ\nカイ・ジン・レツ・ザイ・ゼン!\n・・・ハァッ!!",
+      "translation": "린·표·토·샤\n카이·진·레츠·자이·젠!\n...하앗!!",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:57:0",
+      "source": "わが てっきゅうが\nうなりを あげますぞ!!\n・・・ヌウン!!",
+      "translation": "나의 철구가\n울부짖고 있소!!\n...누웅!!",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:58:0",
+      "source": "ドッカンドッカン\nブッぱなすぜ!!",
+      "translation": "펑펑\n쏴 버리겠다!!",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:59:0",
+      "source": "フーーーーーッ!!\nぜったいれいど です!!",
+      "translation": "후~~~~~!!\n절대 영도예요!!",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:60:0",
+      "source": "でんあつレベルMAX・・・\n100まんボルト!!",
+      "translation": "전압 레벨 MAX...\n100만 볼트!!",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:61:0",
+      "source": "プラントマン、\nさきみだれる!!",
+      "translation": "플랜트맨,\n흐드러지게 피어난다!!",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:62:0",
+      "source": "・・・デリートだ",
+      "translation": "...딜리트다",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:63:0",
+      "source": "コマのかいてん、\nナメるでないぞ!!",
+      "translation": "팽이의 회전을,\n얕보지 마라!!",
+      "state": "needs_review",
+      "speaker": "TopMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:64:0",
+      "source": "シビれさせてやるぜ・・・\nたっぷりとな!",
+      "translation": "짜릿하게 해 주마...\n실컷 말이다!",
+      "state": "needs_review",
+      "speaker": "SparkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:65:0",
+      "source": "スタンバイOK!\nろくが、スターート!!",
+      "translation": "스탠바이 OK!\n녹화, 스타~~트!!",
+      "state": "needs_review",
+      "speaker": "VideoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:66:0",
+      "source": "まるコゲに してやるぜ!",
+      "translation": "새까맣게 태워 주마!",
+      "state": "needs_review",
+      "speaker": "BurnerMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:67:0",
+      "source": "チェストォォォ!!",
+      "translation": "체스토오오!!",
+      "state": "needs_review",
+      "speaker": "KendoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:68:0",
+      "source": "シャーロの ふぶきを\nあじわうがいい!!",
+      "translation": "샤로의 눈보라를\n맛보아라!!",
+      "state": "needs_review",
+      "speaker": "ColdMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:70:0",
+      "source": "おもいっきりいくよ!",
+      "translation": "힘껏 갈게!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:71:0",
+      "source": "ロールアローで\nねらいうちよ!!",
+      "translation": "롤 애로로\n정확히 조준할게!!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:72:0",
+      "source": "ガッツガッツ!!\nがんばるでガス!!",
+      "translation": "거츠, 거츠!!\n힘내겠거스!!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:73:0",
+      "source": "かつもくせよ・・・\nふうじんのまい!!",
+      "translation": "똑똑히 보아라...\n풍신의 춤!!",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:74:0",
+      "source": "われわれの かつかくりつは\n99.9パーセント・・・",
+      "translation": "우리의 승리 확률은\n99.9퍼센트...",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:75:0",
+      "source": "火力さいだいで いくぜ!\nウォォォォッ!!\nアツいぜ!!",
+      "translation": "화력 최대로 간다!\n우오오오옷!!\n뜨겁다!!",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:76:0",
+      "source": "らいうんよ、イカズチを\nうむのだ!!",
+      "translation": "먹구름이여, 번개를\n만들어 내라!!",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:77:0",
+      "source": "あいてにとって、\nフソクなし!!\n・・・きる!!",
+      "translation": "상대로서,\n부족함이 없군!!\n...베겠다!!",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:78:0",
+      "source": "ワタシの けいさんによると、\nこのバトル、かてそうですね!",
+      "translation": "제 계산에 따르면,\n이 배틀은 이길 수 있겠군요!",
+      "state": "needs_review",
+      "speaker": "NumberMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:79:0",
+      "source": "オレのコブシのまえに\nくだけちれ!!",
+      "translation": "내 주먹 앞에서\n산산이 부서져라!!",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:80:0",
+      "source": "コノ バトルニ カッタラ、\nニンキモノニ ナレル!!",
+      "translation": "이 배틀에서 이기면,\n인기인이 될 수 있다!!",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:81:0",
+      "source": "水のチカラは すごいっぴゅ!\nなんでもかんでも、\nおしながすっぴゅ!!",
+      "translation": "물의 힘은 대단해, 퓨!\n뭐든지 전부,\n쓸어 버릴 거야, 퓨!!",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:82:0",
+      "source": "大しぜんの ひりょうに\nかえてやろう・・・",
+      "translation": "대자연의 거름으로\n만들어 주마...",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:83:0",
+      "source": "さぁ、いくぜ!!",
+      "translation": "자, 간다!!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:84:0",
+      "source": "マけたって、ウラむなよ!!",
+      "translation": "졌다고 원망하지 마라!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:85:0",
+      "source": "キミを ホシクズに\nかえてあげるよ!!",
+      "translation": "너를 별 부스러기로\n만들어 줄게!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:86:0",
+      "source": "シノビのおうぎ・・・\nとくと見よ!!",
+      "translation": "닌자의 오의...\n똑똑히 보아라!!",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:87:0",
+      "source": "ウデが なりますわい!\nお手なみ はいけん!!",
+      "translation": "몸이 근질근질하구려!\n솜씨를 보겠소!!",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:88:0",
+      "source": "電脳世界のはてまで\nフッとばしてやるぜ!!",
+      "translation": "전뇌 세계 끝까지\n날려 버려 주마!!",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:89:0",
+      "source": "カッチンコッチンに\nしちゃうです!!",
+      "translation": "꽁꽁 얼려\n버릴 거예요!!",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:90:0",
+      "source": "ククク・・・なんボルトまで\nたえられるかな・・・?",
+      "translation": "크크크... 몇 볼트까지\n견딜 수 있겠나...?",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:91:0",
+      "source": "ワタシと あたってよかったね\nうつくしく、デリート\nしてあげるよ・・・",
+      "translation": "나와 맞붙게 되어 다행이지\n아름답게, 딜리트\n해 줄게...",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:92:0",
+      "source": "・・・クズが!",
+      "translation": "...쓰레기가!",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:93:0",
+      "source": "ワシの こうげきが\nかわせるかのぉ!?",
+      "translation": "내 공격을\n피할 수 있겠느냐!?",
+      "state": "needs_review",
+      "speaker": "TopMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:94:0",
+      "source": "じゅうでんしてやろうか?",
+      "translation": "충전해 줄까?",
+      "state": "needs_review",
+      "speaker": "SparkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:95:0",
+      "source": "さいこうの しょうりシーンを\nとらせてもらうぜ!",
+      "translation": "최고의 승리 장면을\n찍어 주마!",
+      "state": "needs_review",
+      "speaker": "VideoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:96:0",
+      "source": "オレの炎を なみの炎だと\nおもうなよ!!\n火力がちがうぜ!!",
+      "translation": "내 불꽃을 평범한 불꽃으로\n생각하지 마라!!\n화력이 다르다고!!",
+      "state": "needs_review",
+      "speaker": "BurnerMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:97:0",
+      "source": "さぁ、かかってこい!\nカカゲイコだ!!",
+      "translation": "자, 덤벼라!\n반복 타격 훈련이다!!",
+      "state": "needs_review",
+      "speaker": "KendoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:98:0",
+      "source": "おまえを たおしたあとに\nれいとうほぞんしてやるぜ!",
+      "translation": "널 쓰러뜨린 다음\n냉동 보관해 주마!",
+      "state": "needs_review",
+      "speaker": "ColdMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:100:0",
+      "source": "いよいよ けっしょうだね!\nここまできたからには、\nぜったいにかつ!!",
+      "translation": "드디어 결승이네!\n여기까지 온 이상,\n반드시 이길 거야!!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:101:0",
+      "source": "ついに きたわね!\nぜったいに ゆうしょうするよ!",
+      "translation": "드디어 왔구나!\n반드시 우승할 거야!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:102:0",
+      "source": "ガッツガッツ!\nゆうしょうは、\nガッツマンのモノでガス!!",
+      "translation": "거츠, 거츠!\n우승은,\n거츠맨의 것이거스!!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:103:0",
+      "source": "まきおこれ、大アラシ!\nしょうりを この手に!!",
+      "translation": "휘몰아쳐라, 거센 폭풍!\n승리를 이 손에!!",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:104:0",
+      "source": "ターゲットは ゆうしょう\n・・・ロックオン!!",
+      "translation": "타깃은 우승\n...록온!!",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:105:0",
+      "source": "ついに けっしょうせんか\nウォーーーッ!!\nもえあがるぜぇぇぇ!!",
+      "translation": "드디어 결승전인가\n우오~~~옷!!\n불타오르는군!!",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:106:0",
+      "source": "ふれよイカズチ!\nかつのは このワタシだ!!",
+      "translation": "쏟아져라, 번개여!\n이기는 건 바로 나다!!",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:107:0",
+      "source": "ギアをトップに\nいれるときがきたようだな",
+      "translation": "톱 기어로\n바꿀 때가 온 것 같군",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:108:0",
+      "source": "われわれの ゆうしょう\nできるかくりつ、\n50パーセントです!!",
+      "translation": "우리가 우승할\n확률은,\n50퍼센트입니다!!",
+      "state": "needs_review",
+      "speaker": "NumberMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:109:0",
+      "source": "このコブシで\nしょうりを もぎとる・・・",
+      "translation": "이 주먹으로\n승리를 거머쥔다...",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:110:0",
+      "source": "ユ、ユウショウスレバ\nオ、オデ、ユウメイニナレル!",
+      "translation": "우, 우승하면\n나, 나는 유명해질 수 있다!",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:111:0",
+      "source": "ぜーーーーったい、\nゆうしょうするっぴゅ!",
+      "translation": "반~~~~드시,\n우승할 거야, 퓨!",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:112:0",
+      "source": "大いなるだいちよ・・・\nねがわくば、わが手に\nしょうりを!!",
+      "translation": "위대한 대지여...\n바라건대, 내 손에\n승리를!!",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:113:0",
+      "source": "ゆうしょうするのはオレだ!",
+      "translation": "우승하는 건 나다!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:114:0",
+      "source": "ワリィが カたせて\nもらうぜ!!",
+      "translation": "미안하지만 내가 이기게\n해 줘야겠다!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:115:0",
+      "source": "ながれボシよ、ボクにしょうりを\nもたらしてくれ!!",
+      "translation": "유성이여, 내게 승리를\n가져다줘!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:116:0",
+      "source": "ゆうしょうは、せっしゃが\nちょうだいする・・・\nわるくおもうな・・・",
+      "translation": "우승은 내가\n차지하겠다...\n나쁘게 생각 말게...",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:117:0",
+      "source": "ナイトのホコリにかけ、\nかならずや、ゆうしょう\nいたしましょう!!",
+      "translation": "나이트의 긍지를 걸고,\n반드시 우승을\n차지하겠소!!",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:118:0",
+      "source": "ソイツを はやいとこ\nブッとばして、\nゆうしょうをいただくぜ!",
+      "translation": "저 녀석을 얼른\n날려 버리고,\n우승을 차지하겠다!",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:119:0",
+      "source": "ぜったいに、\nゆうしょうするです!",
+      "translation": "반드시,\n우승할 거예요!",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:120:0",
+      "source": "100まんボルトで\nゆうしょうだ!!",
+      "translation": "100만 볼트로\n우승이다!!",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:121:0",
+      "source": "うつくしくかって、\nしょうりの えいかんを\n手にしよう・・・",
+      "translation": "아름답게 이겨서,\n승리의 영광을\n거머쥐자...",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:122:0",
+      "source": "きえろ・・・",
+      "translation": "사라져라...",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:123:0",
+      "source": "せっかく ここまで\nきたんじゃ!\nゆうしょうは いただくぞい!",
+      "translation": "모처럼 여기까지\n왔지 않느냐!\n우승은 내가 차지하겠다!",
+      "state": "needs_review",
+      "speaker": "TopMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:124:0",
+      "source": "ビッシビシに\nシビれさせてやるぜ!\nそして・・・かつ!!",
+      "translation": "강렬하게\n감전시켜 주마!\n그리고... 이긴다!!",
+      "state": "needs_review",
+      "speaker": "SparkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:125:0",
+      "source": "けっしょうせん・・・\nさいこうのぶたいで、\nさいこうのしょうりを!!",
+      "translation": "결승전...\n최고의 무대에서,\n최고의 승리를!!",
+      "state": "needs_review",
+      "speaker": "VideoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:126:0",
+      "source": "もやして もやして\nゆうしょうは いただきだ!",
+      "translation": "태우고 또 태워서\n우승을 차지하겠다!",
+      "state": "needs_review",
+      "speaker": "BurnerMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:127:0",
+      "source": "キェェェェッ!!\nせいしんとういつ!!",
+      "translation": "키에에에엣!!\n정신 통일!!",
+      "state": "needs_review",
+      "speaker": "KendoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:128:0",
+      "source": "こおりの世界を\nしょうりで かざるぜ!",
+      "translation": "얼음의 세계를\n승리로 장식하겠다!",
+      "state": "needs_review",
+      "speaker": "ColdMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:130:0",
+      "source": "ぜったいに まけない!!",
+      "translation": "절대 지지 않겠어!!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:131:0",
+      "source": "ゆうしょうは\nワタシのものよ!!",
+      "translation": "우승은\n내 것이야!!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:132:0",
+      "source": "ガッツガッツ!\nかつのは、ガッツマンでガス!",
+      "translation": "거츠, 거츠!\n이기는 건 거츠맨이거스!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:133:0",
+      "source": "おまえを ふきとばして\nゆうしょうを いただく・・・",
+      "translation": "너를 날려 버리고\n우승을 차지하겠다...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:134:0",
+      "source": "キサマのデータはすべて\nそろっている・・・\nかつのは オレだ・・・",
+      "translation": "네 데이터는 모두\n확보했다...\n이기는 건 나다...",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:135:0",
+      "source": "ゆうしょうするのは オレだ!\nファイナルバーニング!!",
+      "translation": "우승하는 건 나다!\n파이널 버닝!!",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:136:0",
+      "source": "わが ホコリにかけ・・・\n・・・かたせてもらうぞ",
+      "translation": "내 긍지를 걸고...\n...내가 이기겠다",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:137:0",
+      "source": "・・・きる!!",
+      "translation": "...베겠다!!",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:138:0",
+      "source": "ゆうしょうは、\nこのナンバーマンが\nいただきますよーーっ!!",
+      "translation": "우승은,\n이 넘버맨이\n차지하겠습니다~~!!",
+      "state": "needs_review",
+      "speaker": "NumberMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:139:0",
+      "source": "ゆうしょうは・・・\nオレが いただく!!",
+      "translation": "우승은...\n내가 차지하겠다!!",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:140:0",
+      "source": "オ、オデ、ユウショウシテ\nユウメイニナル!\nオマエハ ジャンクニナル!!",
+      "translation": "나, 나는 우승해서\n유명해진다!\n너는 고철이 된다!!",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:141:0",
+      "source": "ぴゅっぴゅっぴゅ!\nかつのは ボクっぴゅ!",
+      "translation": "퓨, 퓨, 퓨!\n이기는 건 나야, 퓨!",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:142:0",
+      "source": "ヌオォォォォ!\n大いなるだいちよ!!\nわれにしょうりを!!",
+      "translation": "누오오오옷!\n위대한 대지여!!\n내게 승리를!!",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:143:0",
+      "source": "ふそくなし!",
+      "translation": "부족함이 없다!",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:144:0",
+      "source": "ふそくなし!",
+      "translation": "부족함이 없다!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:145:0",
+      "source": "大うちゅうの ホシボシに\nちかって、ぜったいに\nゆうしょうする!!",
+      "translation": "온 우주의 별들에게\n맹세코, 반드시\n우승하겠어!!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:146:0",
+      "source": "ゆうしょうは せっしゃのモノだ\n・・・まいる!!",
+      "translation": "우승은 내 것이다\n...간다!!",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:147:0",
+      "source": "ぜんりょくで、\nたたきふせさせていただく!",
+      "translation": "전력을 다해,\n쓰러뜨려 드리겠소!",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:148:0",
+      "source": "テメェを ブッとばして、\nオレがゆうしょうだ!!",
+      "translation": "널 날려 버리고,\n내가 우승한다!!",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:149:0",
+      "source": "ぜったい、まけないです!!",
+      "translation": "절대 지지 않을 거예요!!",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:150:0",
+      "source": "ゆうしょうは、\nオレが いただく!",
+      "translation": "우승은,\n내가 차지하겠다!",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:151:0",
+      "source": "しょうりの えいかんは、\nうつくしいものにこそ\nふさわしい!!",
+      "translation": "승리의 영광은,\n아름다운 자에게야말로\n어울리는 법!!",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:152:0",
+      "source": "・・・かかってこい",
+      "translation": "...덤벼라",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:153:0",
+      "source": "どこからでも\nかかってくるがよい!\nはじきとばしてやるぞい!",
+      "translation": "어디서든\n덤벼 보아라!\n튕겨 날려 주마!",
+      "state": "needs_review",
+      "speaker": "TopMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:154:0",
+      "source": "ゆうしょうは オレがいただく!\nテメーは シビれてな!",
+      "translation": "우승은 내가 차지하겠다!\n넌 감전이나 당해라!",
+      "state": "needs_review",
+      "speaker": "SparkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:155:0",
+      "source": "オレの ゆうしょうの\nしゅんかん、バッチリ\nろくがするぜ!!",
+      "translation": "내 우승의\n순간을, 확실하게\n녹화하겠다!!",
+      "state": "needs_review",
+      "speaker": "VideoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:156:0",
+      "source": "ゆうしょう めがけて\nいっちょくせんだぜ!!",
+      "translation": "우승을 향해\n일직선으로 간다!!",
+      "state": "needs_review",
+      "speaker": "BurnerMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:157:0",
+      "source": "れんぞくうちこみで\nゆうしょうを いただく!!",
+      "translation": "연속 타격으로\n우승을 차지하겠다!!",
+      "state": "needs_review",
+      "speaker": "KendoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:158:0",
+      "source": "カチコチに、こおらせてやる!",
+      "translation": "꽁꽁 얼려 주마!",
+      "state": "needs_review",
+      "speaker": "ColdMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:159:0",
+      "source": "・・・・・・きえろ!",
+      "translation": "......사라져라!",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:160:0",
+      "source": "それでは、まいりまーす!",
+      "translation": "그럼, 시작하겠습니다!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:160:1",
+      "source": "1回戦だい",
+      "translation": "1회전 제",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:160:2",
+      "source": "しあい\n",
+      "translation": "경기\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:160:4",
+      "source": "\nバトルオペレーションセットイン!",
+      "translation": "\n배틀 오퍼레이션 세트 인!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:161:0",
+      "source": "さぁ、けっしょうにすすむのは、\nどちらのナビでしょうか!?",
+      "translation": "자, 결승에 진출할 내비는,\n과연 어느 쪽일까요!?",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:161:1",
+      "source": "じゅんけっしょうだい",
+      "translation": "준결승 제",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:161:2",
+      "source": "しあい\n",
+      "translation": "경기\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:161:4",
+      "source": "\nバトルオペレーションセットイン!",
+      "translation": "\n배틀 오퍼레이션 세트 인!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:162:0",
+      "source": "さぁ、やってまいりました、\nクライマックス!!",
+      "translation": "자, 찾아왔습니다,\n클라이맥스!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:162:1",
+      "source": "けっしょうせん!!\n",
+      "translation": "결승전!!\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:162:3",
+      "source": "\nバトルオペレーションセットイン!",
+      "translation": "\n배틀 오퍼레이션 세트 인!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:163:0",
+      "source": "バトルオペレーションセットイン!",
+      "translation": "배틀 오퍼레이션 세트 인!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:164:0",
+      "source": "ふそくなし!",
+      "translation": "부족함이 없다!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:165:0",
+      "source": "げきせんの、\n",
+      "translation": "치열한 승부,\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:165:2",
+      "source": "\nどちらに ぐんばいが上がるのか?",
+      "translation": "\n어느 쪽이 승리를 거머쥘까요?",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:170:0",
+      "source": "きまりましたー!\n1回戦だい",
+      "translation": "승부가 났습니다~!\n1회전 제",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:170:1",
+      "source": "しあいは\n",
+      "translation": "경기는\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:170:2",
+      "source": "のしょうりです!!",
+      "translation": "의 승리입니다!!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:171:0",
+      "source": "きまりましたー!\nじゅんけっしょうだい",
+      "translation": "승부가 났습니다~!\n준결승 제",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:171:1",
+      "source": "しあいは\n",
+      "translation": "경기는\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:171:2",
+      "source": "のしょうりです!",
+      "translation": "의 승리입니다!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:172:0",
+      "source": "きまりましたー!\nゆうしょうは\n",
+      "translation": "승부가 났습니다~!\n우승은\n",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:175:0",
+      "source": "すさまじい こうぼうで、\n見ごたえのある バトルでした!\nそれでは、つぎのたいせんです!",
+      "translation": "엄청난 공방이 오간,\n볼 만한 배틀이었습니다!\n그럼, 다음 대결입니다!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:176:0",
+      "source": "手にあせにぎる、はくねつの\nバトルでした!! つぎは\nいよいよ けっしょうせんです!",
+      "translation": "손에 땀을 쥐게 하는, 뜨거운\n배틀이었습니다!! 다음은\n드디어 결승전입니다!",
+      "state": "needs_review",
+      "speaker": "Ribitta",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:180:0",
+      "source": "やったね、\n",
+      "translation": "잘했어,\n",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:180:1",
+      "source": "!\nつぎも がんばろう!",
+      "translation": "!\n다음에도 힘내자!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:181:0",
+      "source": "ヤッター!!\nつぎのバトルも がんばろうね!",
+      "translation": "야호~!!\n다음 배틀에서도 힘내자!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:182:0",
+      "source": "ウォー!\nやったでガス!!\nガッツマンの かちでガス!",
+      "translation": "우오~!\n해냈거스!!\n거츠맨의 승리거스!",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:183:0",
+      "source": "フシュー・・・\nこのつぎも かつぞ・・・",
+      "translation": "후슈~...\n다음에도 이기겠다...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:184:0",
+      "source": "ミッション コンプリート\n・・・よていどおりです",
+      "translation": "미션 컴플리트\n...예정대로입니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:185:0",
+      "source": "ウォォォ!!\nまだまだ もえたりねーー!!",
+      "translation": "우오오오!!\n아직 덜 불타올랐다고~~!!",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:186:0",
+      "source": "なかなか 手ごわい\nあいてだったな・・・\nつぎも ゆだんするな・・・",
+      "translation": "제법 만만치 않은\n상대였군...\n다음에도 방심하지 마라...",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:187:0",
+      "source": "、\nナイスオペレートでした",
+      "translation": "、\n훌륭한 오퍼레이팅이었습니다",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:188:0",
+      "source": "けいさんどおりでしたね\nつぎも がんばりましょう!",
+      "translation": "계산대로였군요\n다음에도 힘냅시다!",
+      "state": "needs_review",
+      "speaker": "NumberMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:189:0",
+      "source": "今日は コブシのキレが\nいいようだ・・・",
+      "translation": "오늘은 주먹의 움직임이\n날카로운 것 같군...",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:190:0",
+      "source": "ヤッタヤッタ!!\nオデ、カッタ!!\nコノママ ユウショウスル!",
+      "translation": "해냈다, 해냈다!!\n내가 이겼다!!\n이대로 우승하겠다!",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:191:0",
+      "source": "わーいっぴゅ! わーいっぴゅ!\nかったぴゅ~! うれしいっぴゅ!\nつぎも がんばるっぴゅ!",
+      "translation": "와아, 퓨! 와아, 퓨!\n이겼어, 퓨~! 기뻐, 퓨!\n다음에도 힘낼 거야, 퓨!",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:192:0",
+      "source": "なんとか かてたが、\nゆだんは きんもつだ\n気をひきしめていけ・・・",
+      "translation": "어떻게든 이겼지만,\n방심은 금물이다\n정신 똑바로 차려라...",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:193:0",
+      "source": "ゼッタイにカつ!!",
+      "translation": "반드시 이긴다!!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:194:0",
+      "source": "ユウショウは・・・\nイタダくぜ!!",
+      "translation": "우승은...\n내가 차지하겠다!!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:195:0",
+      "source": "やったね!!\nこのいきおいで、\nゆうしょうをめざそう!",
+      "translation": "해냈어!!\n이 기세로,\n우승을 노리자!",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:196:0",
+      "source": "フン、あのていどのあいて、\nせっしゃの にんじゅつの\nまえでは、あかごもどうぜん!",
+      "translation": "흥, 그 정도 상대는,\n내 인술 앞에서는\n갓난아이나 다름없지!",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:197:0",
+      "source": "ナイスオペレートでしたぞ!\nつぎも このちょうしで\nいきましょうぞ!!",
+      "translation": "훌륭한 오퍼레이팅이었소!\n다음에도 이 기세로\n나아갑시다!!",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:198:0",
+      "source": "へっへっへ・・・\nスカッとしたぜ!!",
+      "translation": "헤헤헤...\n속이 다 시원하군!!",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:199:0",
+      "source": "やったです!\nつぎも、がんばるです!",
+      "translation": "해냈어요!\n다음에도 힘낼 거예요!",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:200:0",
+      "source": "見たか、100まんボルト・・・",
+      "translation": "보았느냐, 100만 볼트...",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:201:0",
+      "source": "うつくしいものが かつ\nそれが、しぜんのせつりだ!",
+      "translation": "아름다운 자가 이긴다\n그것이 자연의 섭리다!",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:202:0",
+      "source": "・・・みたされんな",
+      "translation": "...성에 차지 않는군",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:210:0",
+      "source": "やられちゃったね・・・\nけど、つぎはまけないよ!",
+      "translation": "당해 버렸네...\n하지만 다음엔 지지 않을 거야!",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:211:0",
+      "source": "く・や・しー!!\nこんど、でるときは\nぜったいゆうしょうなんだから!",
+      "translation": "분·해·라~!!\n다음에 참가할 땐\n반드시 우승하고 말겠어!",
+      "state": "needs_review",
+      "speaker": "Roll",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:212:0",
+      "source": "ガッツガッツ・・・\nまけてしまったでガス・・・\nショックでガス・・・",
+      "translation": "거츠, 거츠...\n져 버렸거스...\n충격이거스...",
+      "state": "needs_review",
+      "speaker": "GutsMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:213:0",
+      "source": "まさか・・・\nどこで風むきがかわったと\nいうのだ・・・",
+      "translation": "설마...\n어디서 바람의 방향이\n바뀌었다는 말인가...",
+      "state": "needs_review",
+      "speaker": "WindMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:214:0",
+      "source": "・・・",
+      "translation": "...",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:214:1",
+      "source": "、\nもうしわけ・・・ありません",
+      "translation": "、\n정말... 죄송합니다",
+      "state": "needs_review",
+      "speaker": "SearchMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:215:0",
+      "source": "チクショウ!\nふかんぜんねんしょうだ!\nつぎは かならず!!",
+      "translation": "젠장!\n불완전 연소다!\n다음에는 반드시!!",
+      "state": "needs_review",
+      "speaker": "FireMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:216:0",
+      "source": "わが イカズチが\nつうようしないとは・・・",
+      "translation": "내 번개가\n통하지 않다니...",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:217:0",
+      "source": "、\nワタシの・・・ミスです\nもうしわけありません・・・",
+      "translation": "、\n제... 실수입니다\n죄송합니다...",
+      "state": "needs_review",
+      "speaker": "ProtoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:218:0",
+      "source": "けいさんが すこし\nちがったみたいです・・",
+      "translation": "계산이 조금\n틀렸던 것 같군요..",
+      "state": "needs_review",
+      "speaker": "NumberMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:219:0",
+      "source": "ウヌゥ・・・\nもっと、ウデをみがかねば\n・・・・・・",
+      "translation": "우누...\n더욱 솜씨를 갈고닦아야겠군\n......",
+      "state": "needs_review",
+      "speaker": "MetalMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:220:0",
+      "source": "マ、マケタ・・・\n・・・ショックダ",
+      "translation": "져, 졌다...\n...충격이다",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:221:0",
+      "source": "ぴゅ~い、ぴゅ~い・・・\nまけちゃったっぴゅぅ~",
+      "translation": "퓨~이, 퓨~이...\n져 버렸어, 퓨우~",
+      "state": "needs_review",
+      "speaker": "AquaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:222:0",
+      "source": "ムゥ・・・\nまさか、こんなけっかに\nなってしまうとは・・・",
+      "translation": "음...\n설마 이런 결과가\n되고 말 줄이야...",
+      "state": "needs_review",
+      "speaker": "WoodMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:223:0",
+      "source": "すまん",
+      "translation": "미안하다",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:224:0",
+      "source": "すまん",
+      "translation": "미안하다",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:225:0",
+      "source": "やられちゃったね・・・\nうんが わるかったのかな?",
+      "translation": "당해 버렸네...\n운이 나빴던 걸까?",
+      "state": "needs_review",
+      "speaker": "StarMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:226:0",
+      "source": "・・・せっしゃの\nにんじゅつが やぶられるとは\n・・・むねん!!",
+      "translation": "...내\n인술이 깨지다니\n...원통하도다!!",
+      "state": "needs_review",
+      "speaker": "ShadowMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:227:0",
+      "source": "せいせいどうどう\nたたかってやぶれたのです\nはじることはありませんぞ!",
+      "translation": "정정당당하게\n싸우다가 패한 것이오\n부끄러워할 일은 아니오!",
+      "state": "needs_review",
+      "speaker": "KnightMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:228:0",
+      "source": "チクショウ・・・\nブッとばしたりねえ・・・",
+      "translation": "젠장...\n더 날려 버렸어야 했는데...",
+      "state": "needs_review",
+      "speaker": "NapalmMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:229:0",
+      "source": "まけちゃったです・・・",
+      "translation": "져 버렸어요...",
+      "state": "needs_review",
+      "speaker": "IceMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:230:0",
+      "source": "・・・・・・・・・\nでんあつが たりなかったのか!?",
+      "translation": ".........\n전압이 부족했던 건가!?",
+      "state": "needs_review",
+      "speaker": "ElecMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:231:0",
+      "source": "まさか、ワタシがまけるとは\n・・・しんじられない",
+      "translation": "설마 내가 지다니\n...믿을 수 없군",
+      "state": "needs_review",
+      "speaker": "PlantMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:232:0",
+      "source": "・・・・・・・・・",
+      "translation": ".........",
+      "state": "needs_review",
+      "speaker": "Bass",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:233:0",
+      "source": "すまん",
+      "translation": "미안하다",
+      "state": "needs_review",
+      "speaker": "TopMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:234:0",
+      "source": "すまん",
+      "translation": "미안하다",
+      "state": "needs_review",
+      "speaker": "SparkMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:235:0",
+      "source": "すまん",
+      "translation": "미안하다",
+      "state": "needs_review",
+      "speaker": "VideoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:236:0",
+      "source": "すまん",
+      "translation": "미안하다",
+      "state": "needs_review",
+      "speaker": "BurnerMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:237:0",
+      "source": "すまん",
+      "translation": "미안하다",
+      "state": "needs_review",
+      "speaker": "KendoMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:238:0",
+      "source": "すまん",
+      "translation": "미안하다",
+      "state": "needs_review",
+      "speaker": "ColdMan",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:240:0",
+      "source": "マたせたな!!\nタイセン クみアわせの\nハッピョウだ!!",
+      "translation": "기다리게 했군!!\n대진표를\n발표하겠다!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:240:1",
+      "source": "・・・それ!!",
+      "translation": "...보아라!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:241:0",
+      "source": "シアイをハジめるぜ!",
+      "translation": "경기를 시작하겠다!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:241:1",
+      "source": "1カイセン、\nダイ",
+      "translation": "1회전,\n제",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:241:2",
+      "source": "シアイは\n",
+      "translation": "경기는\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:242:0",
+      "source": "それじゃあ\nシアイをハジめるぜ!",
+      "translation": "그럼\n경기를 시작하겠다!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:242:1",
+      "source": "ジュンケッショウ\nダイ",
+      "translation": "준결승\n제",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:242:2",
+      "source": "シアイは\n",
+      "translation": "경기는\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:243:0",
+      "source": "ついに やってきたぜ!\nこの キンチョウの\nシュンカンがよぉ!!",
+      "translation": "드디어 찾아왔군!\n이 긴장되는\n순간이 말이다!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:243:1",
+      "source": "ユウショウを カちトるのは\nどちらのナビだ!?",
+      "translation": "우승을 차지할 내비는\n어느 쪽인가!?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:243:2",
+      "source": "ケッショウセンは\n",
+      "translation": "결승전은\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:244:0",
+      "source": "それじゃあ、いくぜ!!",
+      "translation": "그럼, 간다!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:244:1",
+      "source": "1カイセン\nダイ",
+      "translation": "1회전\n제",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:244:2",
+      "source": "シアイ\n",
+      "translation": "경기\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:244:4",
+      "source": "バトルオペレーション\nセット、イン!",
+      "translation": "배틀 오퍼레이션\n세트, 인!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:245:0",
+      "source": "さぁ、ケッショウに\nススむのは、\nどちらのナビだ!?",
+      "translation": "자, 결승에\n진출할 내비는,\n어느 쪽인가!?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:245:1",
+      "source": "ジュンケッショウ\nダイ",
+      "translation": "준결승\n제",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:245:2",
+      "source": "シアイ\n",
+      "translation": "경기\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:245:4",
+      "source": "バトルオペレーション\nセット、イン!",
+      "translation": "배틀 오퍼레이션\n세트, 인!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:246:0",
+      "source": "ついにキたぜ!\nクライマックス!!",
+      "translation": "드디어 왔군!\n클라이맥스!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:246:1",
+      "source": "ケッショウセン!!\n",
+      "translation": "결승전!!\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:246:3",
+      "source": "バトルオペレーション\nセット、イン!",
+      "translation": "배틀 오퍼레이션\n세트, 인!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:247:0",
+      "source": "バトルオペレーション\nセット、イン!",
+      "translation": "배틀 오퍼레이션\n세트, 인!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:248:0",
+      "source": "チョウゲキセンの、\n",
+      "translation": "초접전의,\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:248:2",
+      "source": "\nカつのは どっちだ!?",
+      "translation": "\n이기는 건 어느 쪽인가!?",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:249:0",
+      "source": "キまったー!",
+      "translation": "승부가 났다~!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:249:1",
+      "source": "1カイセン\nダイ",
+      "translation": "1회전\n제",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:249:2",
+      "source": "シアイは\n",
+      "translation": "경기는\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:249:3",
+      "source": "のショウリだ!!",
+      "translation": "의 승리다!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:250:0",
+      "source": "キまったー!",
+      "translation": "승부가 났다~!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:250:1",
+      "source": "ジュンケッショウ\nダイ",
+      "translation": "준결승\n제",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:250:2",
+      "source": "シアイは\n",
+      "translation": "경기는\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:250:3",
+      "source": "のショウリだ!",
+      "translation": "의 승리다!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:251:0",
+      "source": "キまったー!",
+      "translation": "승부가 났다~!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:251:1",
+      "source": "ユウショウは\n",
+      "translation": "우승은\n",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:252:0",
+      "source": "スサまじい バトルで、\nミゴタえが あったぜ!",
+      "translation": "엄청난 배틀이라,\n볼 만했군!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:252:1",
+      "source": "それじゃあ、\nツギのタイセンだ!",
+      "translation": "그럼,\n다음 대결이다!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    },
+    {
+      "id": "6E93C8:253:0",
+      "source": "マッタく メがハナせない\nバトルだったぜ! つぎは\nいよいよケッショウセンだ!",
+      "translation": "눈을 뗄 수 없는\n배틀이었군! 다음은\n드디어 결승전이다!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "context": "Tournament entrance/taunt/final/win/loss or announcer fragment; exact portrait and commands retained in source TPL",
+      "variable_context": "printBuffer/printEnemy/printNickname commands unchanged; variable-facing fragments retain leading/trailing row boundaries and avoid name-dependent 은/는/이/가. Full variable/layout runtime review pending."
+    }
+  ]
+}

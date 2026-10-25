@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "709D88",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/709D88.tpl",
+    "sha256": "a7913cd1ec04bbde21b58f8bf9dada71f9e6f62796c75495aa4e74cd9663888d"
+  },
+  "source_archive_sha256": "0d36940124fc82c255d8d8730db9ac099b15736dd03b3ae56b29ca5b2d7043c8",
+  "consumer": "remaining-contextual-ui-debug-npc",
+  "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-046",
+  "semantic_review": [
+    "Remaining515catalog units reconciled:500manual drafts(batch046)+13manual drafts(final047);2kana selector arrays remain unresolved structural input targets, not silently excluded from denominator. Not513unique sentences; no ROM writes.",
+    "All selected source literals and native selected-script skeletons read, exact repeated WAIT_FALSE/CLEAR blocks abbreviated only in read-only logical view. Allsource IDs/TPL/payload/digits/brackets/line topology/padding/native commands preserved.",
+    "Manual source-conditioned free prose. No automated prose generation, selection or shortening. New voices/terms/cultural names/honorifics/packed field segmentation need independent/human review; allneeds_review releasefalse.",
+    "513translated strings include developer/prototype/soul-unison/legacy labels. Presence inROM is not proof of normal reachability or support; debug granting/save-affecting commands never executed.",
+    "Packed BBS/profile/PA/Latin table byte/cell boundaries unresolved. Draft-first assets are not insertion-ready; 132px heuristic cannot approve/shorten or establish actual capacity.",
+    "Name-entry source6368E8scripts2/3 are originalkana selector arrays; adopted40jamo page/composer is separate. Changing literal text cannot integrate selectors/rendering/commit/redisplay/persistence. Keep2original units untranslated until structural integration.",
+    "Explicit portraits, hide transitions and player choices preserved; no portrait inferred solely from text.source768800MrProgGreen/Lan;7C416CMrProgGreen thenKnightMan.7C9C44/7CAF40speakerunknown.",
+    "Source digits:+30/3turn/1chip/STA002103203303/HP memory33/itemgrant etc immutable. Developerallchip/currency/profile flags and minigameflag5059 unchanged. No emulator/save/ROM/image/keyboard modifications.",
+    "Current draft-first sequence continues into whole-corpus consumer/font/layout readiness then cumulativeROM/screen/save regression; human wording review/graphics/keyboard integration/persistence/release remainopen."
+  ],
+  "units": [
+    {
+      "id": "709D88:0:0",
+      "source": "ネットくん\nきょうは なにをしようか?",
+      "translation": "넷토\n오늘은 뭘 할까?",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "709D88:10:0",
+      "source": "さいきん あたたかいですね",
+      "translation": "요즘은 따뜻하네요",
+      "state": "needs_review",
+      "speaker": "MegaMan",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "709D88:11:0",
+      "source": "どの日の スケジュールを\n入力しますか?",
+      "translation": "어느 날의 일정을\n입력할까요?",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "709D88:12:0",
+      "source": "なにの とうろくを しますか?\n",
+      "translation": "무엇을 등록할까요?\n",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "709D88:12:1",
+      "source": "セーブしたところから\n",
+      "translation": "저장한 곳부터\n",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native option literal",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "709D88:12:2",
+      "source": "データをもちこして",
+      "translation": "데이터를 이어받아",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native option literal",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "709D88:12:3",
+      "source": "周目かいし",
+      "translation": "회차 시작",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "native option literal",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "709D88:14:0",
+      "source": "セーブしたところから\n",
+      "translation": "저장한 곳부터\n",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "native option literal",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "709D88:14:1",
+      "source": "データをもちこして",
+      "translation": "데이터를 이어받아",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "native option literal",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "709D88:14:2",
+      "source": "周目かいし",
+      "translation": "회차 시작",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "MegaMan",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "native option literal",
+      "context": "Prototype MegaMan daily/schedule/continue/new-cycle selector; buffer1 loop count preserved, actual reachability unverified.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

@@ -1,0 +1,2485 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "765190",
+  "source_archive_sha256": "11251d95aed193abd08d0e609d1486f7bfa603c2774213da80aa1c8b4aef6f73",
+  "consumer": "library-seven-row-tilemap",
+  "context": "First194 source chip-name scripts, guarded library/folder eight-cell clones. Opt-in battle clone follows this exact scope; other consumers remain native. Draft only.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Keep all62 unselected scripts, source pool and shared pointers, terminal E5 and numeral identities. First180 prior draft units preserved verbatim.",
+  "reference": {
+    "path": "../록맨 에그제 3/translations/chip_names_ko.json",
+    "scope": "Prior-series wording candidates only, not EXE4.5 approval. Exact common names compared; airshot source in EXE4.5 has no numeral, so do not inherit EXE3 suffix 1.",
+    "sha256": "f2b4625131f08d4844fdcf7fbe38ef87d7ebea29b6bfe8d17398e3428ca1a4ae",
+    "batch02_exact_common_candidates": [
+      {
+        "script": 44,
+        "source": "ホウガン",
+        "candidate": "포탄",
+        "approval": "needs_review"
+      },
+      {
+        "script": 45,
+        "source": "カンケツセン",
+        "candidate": "분수",
+        "approval": "needs_review"
+      },
+      {
+        "script": 48,
+        "source": "ソード",
+        "candidate": "소드",
+        "approval": "needs_review"
+      },
+      {
+        "script": 49,
+        "source": "ワイドソード",
+        "candidate": "와이드소드",
+        "approval": "needs_review"
+      },
+      {
+        "script": 50,
+        "source": "ロングソード",
+        "candidate": "롱소드",
+        "approval": "needs_review"
+      },
+      {
+        "script": 54,
+        "source": "カスタムソード",
+        "candidate": "커스텀소드",
+        "approval": "needs_review"
+      },
+      {
+        "script": 55,
+        "source": "バリアブルソード",
+        "candidate": "배리어블소드",
+        "approval": "needs_review"
+      },
+      {
+        "script": 56,
+        "source": "イアイフォーム",
+        "candidate": "이아이폼",
+        "approval": "needs_review"
+      }
+    ],
+    "batch03_exact_common_candidates": [
+      {
+        "script": 75,
+        "source": "ブーメラン1",
+        "candidate": "부메랑1",
+        "approval": "needs_review"
+      },
+      {
+        "script": 76,
+        "source": "ブーメラン2",
+        "candidate": "부메랑2",
+        "approval": "needs_review"
+      },
+      {
+        "script": 77,
+        "source": "ブーメラン3",
+        "candidate": "부메랑3",
+        "approval": "needs_review"
+      },
+      {
+        "script": 81,
+        "source": "バンブーランス",
+        "candidate": "뱀부랜스",
+        "approval": "needs_review"
+      },
+      {
+        "script": 82,
+        "source": "ダークホール",
+        "candidate": "다크홀",
+        "approval": "needs_review"
+      },
+      {
+        "script": 83,
+        "source": "トップウ",
+        "candidate": "돌풍",
+        "approval": "needs_review"
+      },
+      {
+        "script": 84,
+        "source": "スイコミ",
+        "candidate": "스이코미",
+        "approval": "needs_review"
+      }
+    ],
+    "batch04_exact_common_candidates": [
+      {
+        "script": 96,
+        "source": "カモンスネーク",
+        "candidate": "커먼스네이크",
+        "approval": "needs_review"
+      },
+      {
+        "script": 97,
+        "source": "カウントボム",
+        "candidate": "카운트봄",
+        "approval": "needs_review"
+      },
+      {
+        "script": 98,
+        "source": "ステルスマイン",
+        "candidate": "스테루스마인",
+        "approval": "needs_review"
+      },
+      {
+        "script": 99,
+        "source": "ストーンキューブ",
+        "candidate": "스톤큐브",
+        "approval": "needs_review"
+      },
+      {
+        "script": 100,
+        "source": "オウエンカ",
+        "candidate": "오우엔카",
+        "approval": "needs_review"
+      },
+      {
+        "script": 101,
+        "source": "ディスコード",
+        "candidate": "디스코드",
+        "approval": "needs_review"
+      },
+      {
+        "script": 102,
+        "source": "ティンパニー",
+        "candidate": "팀파니",
+        "approval": "needs_review"
+      },
+      {
+        "script": 107,
+        "source": "リカバリー10",
+        "candidate": "리커버리10",
+        "approval": "needs_review"
+      },
+      {
+        "script": 108,
+        "source": "リカバリー30",
+        "candidate": "리커버리30",
+        "approval": "needs_review"
+      },
+      {
+        "script": 109,
+        "source": "リカバリー50",
+        "candidate": "리커버리50",
+        "approval": "needs_review"
+      },
+      {
+        "script": 110,
+        "source": "リカバリー80",
+        "candidate": "리커버리80",
+        "approval": "needs_review"
+      },
+      {
+        "script": 111,
+        "source": "リカバリー120",
+        "candidate": "리커버리120",
+        "approval": "needs_review"
+      },
+      {
+        "script": 112,
+        "source": "リカバリー150",
+        "candidate": "리커버리150",
+        "approval": "needs_review"
+      },
+      {
+        "script": 113,
+        "source": "リカバリー200",
+        "candidate": "리커버리200",
+        "approval": "needs_review"
+      },
+      {
+        "script": 114,
+        "source": "リカバリー300",
+        "candidate": "리커버리300",
+        "approval": "needs_review"
+      },
+      {
+        "script": 116,
+        "source": "パネルスチール",
+        "candidate": "패널스틸",
+        "approval": "needs_review"
+      },
+      {
+        "script": 117,
+        "source": "エリアスチール",
+        "candidate": "에어리어스틸",
+        "approval": "needs_review"
+      },
+      {
+        "script": 118,
+        "source": "スチールリベンジ",
+        "candidate": "스틸리벤지",
+        "approval": "needs_review"
+      },
+      {
+        "script": 119,
+        "source": "スチールパニシュ",
+        "candidate": "스틸퍼니시",
+        "approval": "needs_review"
+      },
+      {
+        "script": 120,
+        "source": "ヘビーゲージ",
+        "candidate": "헤비게이지",
+        "approval": "needs_review"
+      }
+    ],
+    "batch05_exact_common_candidates": [
+      {
+        "script": 121,
+        "source": "クイックゲージ",
+        "candidate": "퀵게이지",
+        "approval": "needs_review"
+      },
+      {
+        "script": 122,
+        "source": "パネルリターン",
+        "candidate": "패널리턴",
+        "approval": "needs_review"
+      },
+      {
+        "script": 123,
+        "source": "デスマッチ1",
+        "candidate": "데스마치1",
+        "approval": "needs_review"
+      },
+      {
+        "script": 124,
+        "source": "デスマッチ2",
+        "candidate": "데스마치2",
+        "approval": "needs_review"
+      },
+      {
+        "script": 125,
+        "source": "デスマッチ3",
+        "candidate": "데스마치3",
+        "approval": "needs_review"
+      },
+      {
+        "script": 133,
+        "source": "インビジブル",
+        "candidate": "인비저블",
+        "approval": "needs_review"
+      },
+      {
+        "script": 135,
+        "source": "バリア",
+        "candidate": "배리어",
+        "approval": "needs_review"
+      },
+      {
+        "script": 138,
+        "source": "スーパーキタカゼ",
+        "candidate": "슈퍼돌풍",
+        "approval": "needs_review"
+      },
+      {
+        "script": 139,
+        "source": "ホーリーパネル",
+        "candidate": "홀리패널",
+        "approval": "needs_review"
+      },
+      {
+        "script": 144,
+        "source": "ナビスカウト",
+        "candidate": "내비스카우트",
+        "approval": "needs_review"
+      },
+      {
+        "script": 145,
+        "source": "カワリミ",
+        "candidate": "카와리미",
+        "approval": "needs_review"
+      },
+      {
+        "script": 146,
+        "source": "シラハドリ",
+        "candidate": "시라하도리",
+        "approval": "needs_review"
+      },
+      {
+        "script": 147,
+        "source": "バッドメディスン",
+        "candidate": "배드메디신",
+        "approval": "needs_review"
+      },
+      {
+        "script": 148,
+        "source": "コピーダメージ",
+        "candidate": "카피데미지",
+        "approval": "needs_review"
+      },
+      {
+        "script": 149,
+        "source": "アタック+10",
+        "candidate": "어택+10",
+        "approval": "needs_review"
+      },
+      {
+        "script": 150,
+        "source": "ナビ+20",
+        "candidate": "내비+20",
+        "approval": "needs_review"
+      }
+    ],
+    "batch06_exact_common_candidates": [],
+    "batch07_exact_common_candidates": []
+  },
+  "source_script_hex": {
+    "1": "115a233ae5",
+    "2": "240c115a233ae5",
+    "3": "2c3b115a233ae5",
+    "4": "0e0b165b821ee5",
+    "5": "4c32408249e5",
+    "6": "25821e4c3417e5",
+    "7": "150c343a17e5",
+    "8": "1e33228249e5",
+    "9": "360c49165c591e02e5",
+    "10": "360c49165c591e03e5",
+    "11": "360c49165c591e04e5",
+    "12": "26340c2b310c3a02e5",
+    "13": "26340c2b310c3a03e5",
+    "14": "26340c2b310c3a04e5",
+    "15": "4a33103a02e5",
+    "16": "4a33103a03e5",
+    "17": "4a33103a04e5",
+    "18": "17513459493b3ae5",
+    "19": "25821e165c591ee5",
+    "20": "25821e4c0ce5",
+    "21": "25821e150c49e5",
+    "22": "4a4c33165c591ee5",
+    "23": "4a4c334c0ce5",
+    "24": "4a4c33150c49e5",
+    "25": "0e342c3a1e26340be5",
+    "26": "0e342c3a1e0b0c17e5",
+    "27": "230c42171e822be5",
+    "28": "310c26163a1235e5",
+    "29": "2a204e2be5",
+    "30": "0e1f41824e2be5",
+    "31": "2c3b0e1f41824e2be5",
+    "32": "3b3a4833193302e5",
+    "33": "3b3a4833193303e5",
+    "34": "3b3a4833193304e5",
+    "35": "293d4e331e02e5",
+    "36": "293d4e331e03e5",
+    "37": "293d4e331e04e5",
+    "38": "4a0d3a4923821e02e5",
+    "39": "4a0d3a4923821e03e5",
+    "40": "4a0d3a4923821e04e5",
+    "41": "4a3d4e2be5",
+    "42": "0e3411165c5912e5",
+    "43": "0d5948554f0d4582e5",
+    "44": "280d3b3ae5",
+    "45": "103a131c183ae5",
+    "46": "4c3159124e2be5",
+    "47": "153a49323a3de5",
+    "48": "198249e5",
+    "49": "360c49198249e5",
+    "50": "353a3d198249e5",
+    "51": "360c494c348249e5",
+    "52": "353a3d4c348249e5",
+    "53": "260d413a3113591ee5",
+    "54": "10171a2b198249e5",
+    "55": "4a320b4c33198249e5",
+    "56": "0c0b0c2658822be5",
+    "57": "153a45824e823302e5",
+    "58": "153a45824e823303e5",
+    "59": "153a45824e823304e5",
+    "60": "100d3a1a8202e5",
+    "61": "100d3a1a8203e5",
+    "62": "100d3a1a8204e5",
+    "63": "0e0b2859138202e5",
+    "64": "0e0b2859138203e5",
+    "65": "0e0b2859138204e5",
+    "66": "158212333b3a02e5",
+    "67": "158212333b3a03e5",
+    "68": "158212333b3a04e5",
+    "69": "1c0c3a26543a3d02e5",
+    "70": "1c0c3a26543a3d03e5",
+    "71": "1c0c3a26543a3d04e5",
+    "72": "28360c1e0d574c02e5",
+    "73": "28360c1e0d574c03e5",
+    "74": "28360c1e0d574c04e5",
+    "75": "4c822c313a02e5",
+    "76": "4c822c313a03e5",
+    "77": "4c822c313a04e5",
+    "78": "150c494a3a4c8202e5",
+    "79": "150c494a3a4c8203e5",
+    "80": "150c494a3a4c8204e5",
+    "81": "4a3a4c82313a17e5",
+    "82": "458212288233e5",
+    "83": "1e59510de5",
+    "84": "170c142ae5",
+    "85": "4e820c424e2b02e5",
+    "86": "4e820c424e2b03e5",
+    "87": "4e820c424e2b04e5",
+    "88": "2c591e3b824902e5",
+    "89": "2c591e3b824903e5",
+    "90": "2c591e3b824904e5",
+    "91": "123159120b0d1ee5",
+    "92": "454c3312315912e5",
+    "93": "1e32513312315912e5",
+    "94": "293d1f2be5",
+    "95": "171b8233433282e5",
+    "96": "102d3a17228212e5",
+    "97": "100d3a1e4e2be5",
+    "98": "171d3317290c3ae5",
+    "99": "171e823a115b824ce5",
+    "100": "0f0d0e3a10e5",
+    "101": "485517148249e5",
+    "102": "1d553a4f2082e5",
+    "103": "3631203a3c5c0de5",
+    "104": "4b593d243a298202e5",
+    "105": "4b593d243a298203e5",
+    "106": "4b593d243a298204e5",
+    "107": "32104a32820201e5",
+    "108": "32104a32820401e5",
+    "109": "32104a32820601e5",
+    "110": "32104a32820901e5",
+    "111": "32104a3282020301e5",
+    "112": "32104a3282020601e5",
+    "113": "32104a3282030101e5",
+    "114": "32104a3282040101e5",
+    "115": "32520b79e5",
+    "116": "4f2233171b8233e5",
+    "117": "0e320b171b8233e5",
+    "118": "171b8233324d3a41e5",
+    "119": "171b82334f20165be5",
+    "120": "274b823e8241e5",
+    "121": "120c59123e8241e5",
+    "122": "4f2233321a823ae5",
+    "123": "481729591b02e5",
+    "124": "481729591b03e5",
+    "125": "481729591b04e5",
+    "126": "0e342c3a1e328226e5",
+    "127": "103182530c3a1ee5",
+    "128": "0e342c3a1e153a49e5",
+    "129": "4c310c3a49e5",
+    "130": "2d143159165b02e5",
+    "131": "2d143159165b03e5",
+    "132": "2d143159165b04e5",
+    "133": "0c3a4b414c33e5",
+    "134": "2f10161ae5",
+    "135": "4a320be5",
+    "136": "4a320b020101e5",
+    "137": "4a320b030101e5",
+    "138": "17824f82111a1043e5",
+    "139": "288232824f2233e5",
+    "140": "10113e3a113ae5",
+    "141": "450c140d420ce5",
+    "142": "25310c163ae5",
+    "143": "29300c232d32e5",
+    "144": "1f4b17100d1ee5",
+    "145": "1036322ae5",
+    "146": "1631244932e5",
+    "147": "4a59492c4855173ae5",
+    "148": "145082452c8241e5",
+    "149": "0b1a59127f0201e5",
+    "150": "1f4b7f0301e5",
+    "151": "3582330b358202e5",
+    "152": "3582330b358203e5",
+    "153": "3582330b358204e5",
+    "154": "3b591c4f3a1b02e5",
+    "155": "3b591c4f3a1b03e5",
+    "156": "3b591c4f3a1b04e5",
+    "157": "513552314e2b02e5",
+    "158": "513552314e2b03e5",
+    "159": "513552314e2b04e5",
+    "160": "15821b4e2b02e5",
+    "161": "15821b4e2b03e5",
+    "162": "15821b4e2b04e5",
+    "163": "2c1d0f340c3a02e5",
+    "164": "2c1d0f340c3a03e5",
+    "165": "2c1d0f340c3a04e5",
+    "166": "310c1e203a3d02e5",
+    "167": "310c1e203a3d03e5",
+    "168": "310c1e203a3d04e5",
+    "169": "242e4c153c3202e5",
+    "170": "242e4c153c3203e5",
+    "171": "242e4c153c3204e5",
+    "172": "1f3a4a824e823302e5",
+    "173": "1f3a4a824e823303e5",
+    "174": "1f3a4a824e823304e5",
+    "175": "2c1a333c0b02e5",
+    "176": "2c1a333c0b03e5",
+    "177": "2c1a333c0b04e5",
+    "178": "4f2233165b821e02e5",
+    "179": "4f2233165b821e03e5",
+    "180": "4f2233165b821e04e5",
+    "181": "0b120b0b594f8202e5",
+    "182": "0b120b0b594f8203e5",
+    "183": "0b120b0b594f8204e5",
+    "184": "3d32823a0d594902e5",
+    "185": "3d32823a0d594903e5",
+    "186": "3d32823a0d594904e5",
+    "187": "458212115a233ae5",
+    "188": "458212198249e5",
+    "189": "4582124e2be5",
+    "190": "4582124a33103ae5",
+    "191": "458212313a17e5",
+    "192": "4582121751345949e5",
+    "193": "458212171d8241e5",
+    "194": "45821232104a3282e5"
+  },
+  "wordings": [
+    {
+      "id": "library.chip.cannon",
+      "translation": "캐논",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.hicannon",
+      "translation": "하이캐논",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.megacannon",
+      "translation": "메가캐논",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.airshot",
+      "translation": "에어슛",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.blizzard",
+      "translation": "블리자드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.heatbreath",
+      "translation": "히트브레스",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.silence",
+      "translation": "사일런스",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.tornado",
+      "translation": "토네이도",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.wideshot1",
+      "translation": "와이드샷1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.wideshot2",
+      "translation": "와이드샷2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.wideshot3",
+      "translation": "와이드샷3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.flameline1",
+      "translation": "플레임라인1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.flameline2",
+      "translation": "플레임라인2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.flameline3",
+      "translation": "플레임라인3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.vulcan1",
+      "translation": "발칸1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.vulcan2",
+      "translation": "발칸2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.vulcan3",
+      "translation": "발칸3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.spreadgun",
+      "translation": "스프레드건",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.heatshot",
+      "translation": "히트샷",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.heatv",
+      "translation": "히트브이",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.heatside",
+      "translation": "히트사이드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.bubbleshot",
+      "translation": "버블샷",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.bubblev",
+      "translation": "버블브이",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.bubbleside",
+      "translation": "버블사이드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.elementflare",
+      "translation": "엘리먼트플레어",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.elementice",
+      "translation": "엘리먼트아이스",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.noisestorm",
+      "translation": "노이즈스톰",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.lifesync",
+      "translation": "라이프싱크로",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.minibomb",
+      "translation": "미니봄",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.energybomb",
+      "translation": "에너지봄",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.31",
+      "translation": "메가에너지봄",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.32",
+      "translation": "건델솔1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.33",
+      "translation": "건델솔2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.34",
+      "translation": "건델솔3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.35",
+      "translation": "마그볼트1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.36",
+      "translation": "마그볼트2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.37",
+      "translation": "마그볼트3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.38",
+      "translation": "바운드노트1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.39",
+      "translation": "바운드노트2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.40",
+      "translation": "바운드노트3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.41",
+      "translation": "버그봄",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.42",
+      "translation": "일렉쇼크",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.43",
+      "translation": "우디파우더",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.44",
+      "translation": "포탄",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.45",
+      "translation": "분수",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.46",
+      "translation": "블랙봄",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.47",
+      "translation": "샌드링",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.48",
+      "translation": "소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.49",
+      "translation": "와이드소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.50",
+      "translation": "롱소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.51",
+      "translation": "와이드블레이드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.52",
+      "translation": "롱블레이드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.53",
+      "translation": "풍신라켓",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.54",
+      "translation": "커스텀소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.55",
+      "translation": "배리어블소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.56",
+      "translation": "이아이폼",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.57",
+      "translation": "선더볼1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.58",
+      "translation": "선더볼2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.59",
+      "translation": "선더볼3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch02.60",
+      "translation": "카운터1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.61",
+      "translation": "카운터2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.62",
+      "translation": "카운터3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.63",
+      "translation": "에어하키1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.64",
+      "translation": "에어하키2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.65",
+      "translation": "에어하키3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.66",
+      "translation": "서클건1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.67",
+      "translation": "서클건2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.68",
+      "translation": "서클건3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.69",
+      "translation": "트윈팽1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.70",
+      "translation": "트윈팽2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.71",
+      "translation": "트윈팽3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.72",
+      "translation": "화이트웹1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.73",
+      "translation": "화이트웹2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.74",
+      "translation": "화이트웹3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.75",
+      "translation": "부메랑1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.76",
+      "translation": "부메랑2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.77",
+      "translation": "부메랑3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.78",
+      "translation": "사이드뱀부1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.79",
+      "translation": "사이드뱀부2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.80",
+      "translation": "사이드뱀부3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.81",
+      "translation": "뱀부랜스",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.82",
+      "translation": "다크홀",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.83",
+      "translation": "돌풍",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.84",
+      "translation": "스이코미",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.85",
+      "translation": "보이즈봄1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.86",
+      "translation": "보이즈봄2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.87",
+      "translation": "보이즈봄3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.88",
+      "translation": "멧가드1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.89",
+      "translation": "멧가드2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch03.90",
+      "translation": "멧가드3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.91",
+      "translation": "크랙아웃",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.92",
+      "translation": "더블크랙",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.93",
+      "translation": "트리플크랙",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.94",
+      "translation": "매그넘",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.95",
+      "translation": "스틸젤리",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.96",
+      "translation": "커먼스네이크",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.97",
+      "translation": "카운트봄",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.98",
+      "translation": "스테루스마인",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.99",
+      "translation": "스톤큐브",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.100",
+      "translation": "오우엔카",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.101",
+      "translation": "디스코드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.102",
+      "translation": "팀파니",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.103",
+      "translation": "짚인형",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.104",
+      "translation": "빅해머1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.105",
+      "translation": "빅해머2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.106",
+      "translation": "빅해머3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.107",
+      "translation": "리커버리10",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.108",
+      "translation": "리커버리30",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.109",
+      "translation": "리커버리50",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.110",
+      "translation": "리커버리80",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.111",
+      "translation": "리커버리120",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.112",
+      "translation": "리커버리150",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.113",
+      "translation": "리커버리200",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.114",
+      "translation": "리커버리300",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.115",
+      "translation": "리페어",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.116",
+      "translation": "패널스틸",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.117",
+      "translation": "에어리어스틸",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.118",
+      "translation": "스틸리벤지",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.119",
+      "translation": "스틸퍼니시",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch04.120",
+      "translation": "헤비게이지",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.121",
+      "translation": "퀵게이지",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.122",
+      "translation": "패널리턴",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.123",
+      "translation": "데스마치1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.124",
+      "translation": "데스마치2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.125",
+      "translation": "데스마치3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.126",
+      "translation": "엘리먼트리프",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.127",
+      "translation": "컬러포인트",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.128",
+      "translation": "엘리먼트샌드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.129",
+      "translation": "블라인드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.130",
+      "translation": "모코러시1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.131",
+      "translation": "모코러시2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.132",
+      "translation": "모코러시3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.133",
+      "translation": "인비저블",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.134",
+      "translation": "유카시타",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.135",
+      "translation": "배리어",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.136",
+      "translation": "배리어100",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.137",
+      "translation": "배리어200",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.138",
+      "translation": "슈퍼돌풍",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.139",
+      "translation": "홀리패널",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.140",
+      "translation": "화기엄금",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.141",
+      "translation": "대홍수",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.142",
+      "translation": "피뢰침",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.143",
+      "translation": "미혹의숲",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.144",
+      "translation": "내비스카우트",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.145",
+      "translation": "카와리미",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.146",
+      "translation": "시라하도리",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.147",
+      "translation": "배드메디신",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.148",
+      "translation": "카피데미지",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.149",
+      "translation": "어택+10",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch05.150",
+      "translation": "내비+20",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.151",
+      "translation": "롤애로1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.152",
+      "translation": "롤애로2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.153",
+      "translation": "롤애로3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.154",
+      "translation": "거츠펀치1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.155",
+      "translation": "거츠펀치2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.156",
+      "translation": "거츠펀치3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.157",
+      "translation": "프로펠러봄1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.158",
+      "translation": "프로펠러봄2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.159",
+      "translation": "프로펠러봄3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.160",
+      "translation": "서치봄1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.161",
+      "translation": "서치봄2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.162",
+      "translation": "서치봄3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.163",
+      "translation": "메테오레인1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.164",
+      "translation": "메테오레인2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.165",
+      "translation": "메테오레인3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.166",
+      "translation": "라이트닝1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.167",
+      "translation": "라이트닝2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.168",
+      "translation": "라이트닝3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.169",
+      "translation": "하야부사베기1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.170",
+      "translation": "하야부사베기2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.171",
+      "translation": "하야부사베기3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.172",
+      "translation": "넘버볼1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.173",
+      "translation": "넘버볼2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.174",
+      "translation": "넘버볼3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.175",
+      "translation": "메탈기어1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.176",
+      "translation": "메탈기어2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.177",
+      "translation": "메탈기어3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.178",
+      "translation": "패널슛1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.179",
+      "translation": "패널슛2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch06.180",
+      "translation": "패널슛3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.181",
+      "translation": "아쿠아어퍼1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.182",
+      "translation": "아쿠아어퍼2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.183",
+      "translation": "아쿠아어퍼3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.184",
+      "translation": "그린우드1",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.185",
+      "translation": "그린우드2",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.186",
+      "translation": "그린우드3",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.187",
+      "translation": "다크캐논",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.188",
+      "translation": "다크소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.189",
+      "translation": "다크봄",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.190",
+      "translation": "다크발칸",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.191",
+      "translation": "다크랜스",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.192",
+      "translation": "다크스프레드",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.193",
+      "translation": "다크스테이지",
+      "state": "needs_review"
+    },
+    {
+      "id": "library.chip.batch07.194",
+      "translation": "다크리커버리",
+      "state": "needs_review"
+    }
+  ],
+  "units": [
+    {
+      "id": "765190:1:0",
+      "source": "キャノン",
+      "wording_id": "library.chip.cannon"
+    },
+    {
+      "id": "765190:2:0",
+      "source": "ハイキャノン",
+      "wording_id": "library.chip.hicannon"
+    },
+    {
+      "id": "765190:3:0",
+      "source": "メガキャノン",
+      "wording_id": "library.chip.megacannon"
+    },
+    {
+      "id": "765190:4:0",
+      "source": "エアシュート",
+      "wording_id": "library.chip.airshot"
+    },
+    {
+      "id": "765190:5:0",
+      "source": "ブリザード",
+      "wording_id": "library.chip.blizzard"
+    },
+    {
+      "id": "765190:6:0",
+      "source": "ヒートブレス",
+      "wording_id": "library.chip.heatbreath"
+    },
+    {
+      "id": "765190:7:0",
+      "source": "サイレンス",
+      "wording_id": "library.chip.silence"
+    },
+    {
+      "id": "765190:8:0",
+      "source": "トルネード",
+      "wording_id": "library.chip.tornado"
+    },
+    {
+      "id": "765190:9:0",
+      "source": "ワイドショット1",
+      "wording_id": "library.chip.wideshot1"
+    },
+    {
+      "id": "765190:10:0",
+      "source": "ワイドショット2",
+      "wording_id": "library.chip.wideshot2"
+    },
+    {
+      "id": "765190:11:0",
+      "source": "ワイドショット3",
+      "wording_id": "library.chip.wideshot3"
+    },
+    {
+      "id": "765190:12:0",
+      "source": "フレイムライン1",
+      "wording_id": "library.chip.flameline1"
+    },
+    {
+      "id": "765190:13:0",
+      "source": "フレイムライン2",
+      "wording_id": "library.chip.flameline2"
+    },
+    {
+      "id": "765190:14:0",
+      "source": "フレイムライン3",
+      "wording_id": "library.chip.flameline3"
+    },
+    {
+      "id": "765190:15:0",
+      "source": "バルカン1",
+      "wording_id": "library.chip.vulcan1"
+    },
+    {
+      "id": "765190:16:0",
+      "source": "バルカン2",
+      "wording_id": "library.chip.vulcan2"
+    },
+    {
+      "id": "765190:17:0",
+      "source": "バルカン3",
+      "wording_id": "library.chip.vulcan3"
+    },
+    {
+      "id": "765190:18:0",
+      "source": "スプレッドガン",
+      "wording_id": "library.chip.spreadgun"
+    },
+    {
+      "id": "765190:19:0",
+      "source": "ヒートショット",
+      "wording_id": "library.chip.heatshot"
+    },
+    {
+      "id": "765190:20:0",
+      "source": "ヒートブイ",
+      "wording_id": "library.chip.heatv"
+    },
+    {
+      "id": "765190:21:0",
+      "source": "ヒートサイド",
+      "wording_id": "library.chip.heatside"
+    },
+    {
+      "id": "765190:22:0",
+      "source": "バブルショット",
+      "wording_id": "library.chip.bubbleshot"
+    },
+    {
+      "id": "765190:23:0",
+      "source": "バブルブイ",
+      "wording_id": "library.chip.bubblev"
+    },
+    {
+      "id": "765190:24:0",
+      "source": "バブルサイド",
+      "wording_id": "library.chip.bubbleside"
+    },
+    {
+      "id": "765190:25:0",
+      "source": "エレメントフレア",
+      "wording_id": "library.chip.elementflare"
+    },
+    {
+      "id": "765190:26:0",
+      "source": "エレメントアイス",
+      "wording_id": "library.chip.elementice"
+    },
+    {
+      "id": "765190:27:0",
+      "source": "ノイズストーム",
+      "wording_id": "library.chip.noisestorm"
+    },
+    {
+      "id": "765190:28:0",
+      "source": "ライフシンクロ",
+      "wording_id": "library.chip.lifesync"
+    },
+    {
+      "id": "765190:29:0",
+      "source": "ミニボム",
+      "wording_id": "library.chip.minibomb"
+    },
+    {
+      "id": "765190:30:0",
+      "source": "エナジーボム",
+      "wording_id": "library.chip.energybomb"
+    },
+    {
+      "id": "765190:31:0",
+      "source": "メガエナジーボム",
+      "wording_id": "library.chip.batch02.31"
+    },
+    {
+      "id": "765190:32:0",
+      "source": "ガンデルソル1",
+      "wording_id": "library.chip.batch02.32"
+    },
+    {
+      "id": "765190:33:0",
+      "source": "ガンデルソル2",
+      "wording_id": "library.chip.batch02.33"
+    },
+    {
+      "id": "765190:34:0",
+      "source": "ガンデルソル3",
+      "wording_id": "library.chip.batch02.34"
+    },
+    {
+      "id": "765190:35:0",
+      "source": "マグボルト1",
+      "wording_id": "library.chip.batch02.35"
+    },
+    {
+      "id": "765190:36:0",
+      "source": "マグボルト2",
+      "wording_id": "library.chip.batch02.36"
+    },
+    {
+      "id": "765190:37:0",
+      "source": "マグボルト3",
+      "wording_id": "library.chip.batch02.37"
+    },
+    {
+      "id": "765190:38:0",
+      "source": "バウンドノート1",
+      "wording_id": "library.chip.batch02.38"
+    },
+    {
+      "id": "765190:39:0",
+      "source": "バウンドノート2",
+      "wording_id": "library.chip.batch02.39"
+    },
+    {
+      "id": "765190:40:0",
+      "source": "バウンドノート3",
+      "wording_id": "library.chip.batch02.40"
+    },
+    {
+      "id": "765190:41:0",
+      "source": "バグボム",
+      "wording_id": "library.chip.batch02.41"
+    },
+    {
+      "id": "765190:42:0",
+      "source": "エレキショック",
+      "wording_id": "library.chip.batch02.42"
+    },
+    {
+      "id": "765190:43:0",
+      "source": "ウッディパウダー",
+      "wording_id": "library.chip.batch02.43"
+    },
+    {
+      "id": "765190:44:0",
+      "source": "ホウガン",
+      "wording_id": "library.chip.batch02.44"
+    },
+    {
+      "id": "765190:45:0",
+      "source": "カンケツセン",
+      "wording_id": "library.chip.batch02.45"
+    },
+    {
+      "id": "765190:46:0",
+      "source": "ブラックボム",
+      "wording_id": "library.chip.batch02.46"
+    },
+    {
+      "id": "765190:47:0",
+      "source": "サンドリング",
+      "wording_id": "library.chip.batch02.47"
+    },
+    {
+      "id": "765190:48:0",
+      "source": "ソード",
+      "wording_id": "library.chip.batch02.48"
+    },
+    {
+      "id": "765190:49:0",
+      "source": "ワイドソード",
+      "wording_id": "library.chip.batch02.49"
+    },
+    {
+      "id": "765190:50:0",
+      "source": "ロングソード",
+      "wording_id": "library.chip.batch02.50"
+    },
+    {
+      "id": "765190:51:0",
+      "source": "ワイドブレード",
+      "wording_id": "library.chip.batch02.51"
+    },
+    {
+      "id": "765190:52:0",
+      "source": "ロングブレード",
+      "wording_id": "library.chip.batch02.52"
+    },
+    {
+      "id": "765190:53:0",
+      "source": "フウジンラケット",
+      "wording_id": "library.chip.batch02.53"
+    },
+    {
+      "id": "765190:54:0",
+      "source": "カスタムソード",
+      "wording_id": "library.chip.batch02.54"
+    },
+    {
+      "id": "765190:55:0",
+      "source": "バリアブルソード",
+      "wording_id": "library.chip.batch02.55"
+    },
+    {
+      "id": "765190:56:0",
+      "source": "イアイフォーム",
+      "wording_id": "library.chip.batch02.56"
+    },
+    {
+      "id": "765190:57:0",
+      "source": "サンダーボール1",
+      "wording_id": "library.chip.batch02.57"
+    },
+    {
+      "id": "765190:58:0",
+      "source": "サンダーボール2",
+      "wording_id": "library.chip.batch02.58"
+    },
+    {
+      "id": "765190:59:0",
+      "source": "サンダーボール3",
+      "wording_id": "library.chip.batch02.59"
+    },
+    {
+      "id": "765190:60:0",
+      "source": "カウンター1",
+      "wording_id": "library.chip.batch02.60"
+    },
+    {
+      "id": "765190:61:0",
+      "source": "カウンター2",
+      "wording_id": "library.chip.batch03.61"
+    },
+    {
+      "id": "765190:62:0",
+      "source": "カウンター3",
+      "wording_id": "library.chip.batch03.62"
+    },
+    {
+      "id": "765190:63:0",
+      "source": "エアホッケー1",
+      "wording_id": "library.chip.batch03.63"
+    },
+    {
+      "id": "765190:64:0",
+      "source": "エアホッケー2",
+      "wording_id": "library.chip.batch03.64"
+    },
+    {
+      "id": "765190:65:0",
+      "source": "エアホッケー3",
+      "wording_id": "library.chip.batch03.65"
+    },
+    {
+      "id": "765190:66:0",
+      "source": "サークルガン1",
+      "wording_id": "library.chip.batch03.66"
+    },
+    {
+      "id": "765190:67:0",
+      "source": "サークルガン2",
+      "wording_id": "library.chip.batch03.67"
+    },
+    {
+      "id": "765190:68:0",
+      "source": "サークルガン3",
+      "wording_id": "library.chip.batch03.68"
+    },
+    {
+      "id": "765190:69:0",
+      "source": "ツインファング1",
+      "wording_id": "library.chip.batch03.69"
+    },
+    {
+      "id": "765190:70:0",
+      "source": "ツインファング2",
+      "wording_id": "library.chip.batch03.70"
+    },
+    {
+      "id": "765190:71:0",
+      "source": "ツインファング3",
+      "wording_id": "library.chip.batch03.71"
+    },
+    {
+      "id": "765190:72:0",
+      "source": "ホワイトウェブ1",
+      "wording_id": "library.chip.batch03.72"
+    },
+    {
+      "id": "765190:73:0",
+      "source": "ホワイトウェブ2",
+      "wording_id": "library.chip.batch03.73"
+    },
+    {
+      "id": "765190:74:0",
+      "source": "ホワイトウェブ3",
+      "wording_id": "library.chip.batch03.74"
+    },
+    {
+      "id": "765190:75:0",
+      "source": "ブーメラン1",
+      "wording_id": "library.chip.batch03.75"
+    },
+    {
+      "id": "765190:76:0",
+      "source": "ブーメラン2",
+      "wording_id": "library.chip.batch03.76"
+    },
+    {
+      "id": "765190:77:0",
+      "source": "ブーメラン3",
+      "wording_id": "library.chip.batch03.77"
+    },
+    {
+      "id": "765190:78:0",
+      "source": "サイドバンブー1",
+      "wording_id": "library.chip.batch03.78"
+    },
+    {
+      "id": "765190:79:0",
+      "source": "サイドバンブー2",
+      "wording_id": "library.chip.batch03.79"
+    },
+    {
+      "id": "765190:80:0",
+      "source": "サイドバンブー3",
+      "wording_id": "library.chip.batch03.80"
+    },
+    {
+      "id": "765190:81:0",
+      "source": "バンブーランス",
+      "wording_id": "library.chip.batch03.81"
+    },
+    {
+      "id": "765190:82:0",
+      "source": "ダークホール",
+      "wording_id": "library.chip.batch03.82"
+    },
+    {
+      "id": "765190:83:0",
+      "source": "トップウ",
+      "wording_id": "library.chip.batch03.83"
+    },
+    {
+      "id": "765190:84:0",
+      "source": "スイコミ",
+      "wording_id": "library.chip.batch03.84"
+    },
+    {
+      "id": "765190:85:0",
+      "source": "ボーイズボム1",
+      "wording_id": "library.chip.batch03.85"
+    },
+    {
+      "id": "765190:86:0",
+      "source": "ボーイズボム2",
+      "wording_id": "library.chip.batch03.86"
+    },
+    {
+      "id": "765190:87:0",
+      "source": "ボーイズボム3",
+      "wording_id": "library.chip.batch03.87"
+    },
+    {
+      "id": "765190:88:0",
+      "source": "メットガード1",
+      "wording_id": "library.chip.batch03.88"
+    },
+    {
+      "id": "765190:89:0",
+      "source": "メットガード2",
+      "wording_id": "library.chip.batch03.89"
+    },
+    {
+      "id": "765190:90:0",
+      "source": "メットガード3",
+      "wording_id": "library.chip.batch03.90"
+    },
+    {
+      "id": "765190:91:0",
+      "source": "クラックアウト",
+      "wording_id": "library.chip.batch04.91"
+    },
+    {
+      "id": "765190:92:0",
+      "source": "ダブルクラック",
+      "wording_id": "library.chip.batch04.92"
+    },
+    {
+      "id": "765190:93:0",
+      "source": "トリプルクラック",
+      "wording_id": "library.chip.batch04.93"
+    },
+    {
+      "id": "765190:94:0",
+      "source": "マグナム",
+      "wording_id": "library.chip.batch04.94"
+    },
+    {
+      "id": "765190:95:0",
+      "source": "スチールゼリー",
+      "wording_id": "library.chip.batch04.95"
+    },
+    {
+      "id": "765190:96:0",
+      "source": "カモンスネーク",
+      "wording_id": "library.chip.batch04.96"
+    },
+    {
+      "id": "765190:97:0",
+      "source": "カウントボム",
+      "wording_id": "library.chip.batch04.97"
+    },
+    {
+      "id": "765190:98:0",
+      "source": "ステルスマイン",
+      "wording_id": "library.chip.batch04.98"
+    },
+    {
+      "id": "765190:99:0",
+      "source": "ストーンキューブ",
+      "wording_id": "library.chip.batch04.99"
+    },
+    {
+      "id": "765190:100:0",
+      "source": "オウエンカ",
+      "wording_id": "library.chip.batch04.100"
+    },
+    {
+      "id": "765190:101:0",
+      "source": "ディスコード",
+      "wording_id": "library.chip.batch04.101"
+    },
+    {
+      "id": "765190:102:0",
+      "source": "ティンパニー",
+      "wording_id": "library.chip.batch04.102"
+    },
+    {
+      "id": "765190:103:0",
+      "source": "ワラニンギョウ",
+      "wording_id": "library.chip.batch04.103"
+    },
+    {
+      "id": "765190:104:0",
+      "source": "ビッグハンマー1",
+      "wording_id": "library.chip.batch04.104"
+    },
+    {
+      "id": "765190:105:0",
+      "source": "ビッグハンマー2",
+      "wording_id": "library.chip.batch04.105"
+    },
+    {
+      "id": "765190:106:0",
+      "source": "ビッグハンマー3",
+      "wording_id": "library.chip.batch04.106"
+    },
+    {
+      "id": "765190:107:0",
+      "source": "リカバリー10",
+      "wording_id": "library.chip.batch04.107"
+    },
+    {
+      "id": "765190:108:0",
+      "source": "リカバリー30",
+      "wording_id": "library.chip.batch04.108"
+    },
+    {
+      "id": "765190:109:0",
+      "source": "リカバリー50",
+      "wording_id": "library.chip.batch04.109"
+    },
+    {
+      "id": "765190:110:0",
+      "source": "リカバリー80",
+      "wording_id": "library.chip.batch04.110"
+    },
+    {
+      "id": "765190:111:0",
+      "source": "リカバリー120",
+      "wording_id": "library.chip.batch04.111"
+    },
+    {
+      "id": "765190:112:0",
+      "source": "リカバリー150",
+      "wording_id": "library.chip.batch04.112"
+    },
+    {
+      "id": "765190:113:0",
+      "source": "リカバリー200",
+      "wording_id": "library.chip.batch04.113"
+    },
+    {
+      "id": "765190:114:0",
+      "source": "リカバリー300",
+      "wording_id": "library.chip.batch04.114"
+    },
+    {
+      "id": "765190:115:0",
+      "source": "リペア-",
+      "wording_id": "library.chip.batch04.115"
+    },
+    {
+      "id": "765190:116:0",
+      "source": "パネルスチール",
+      "wording_id": "library.chip.batch04.116"
+    },
+    {
+      "id": "765190:117:0",
+      "source": "エリアスチール",
+      "wording_id": "library.chip.batch04.117"
+    },
+    {
+      "id": "765190:118:0",
+      "source": "スチールリベンジ",
+      "wording_id": "library.chip.batch04.118"
+    },
+    {
+      "id": "765190:119:0",
+      "source": "スチールパニシュ",
+      "wording_id": "library.chip.batch04.119"
+    },
+    {
+      "id": "765190:120:0",
+      "source": "ヘビーゲージ",
+      "wording_id": "library.chip.batch04.120"
+    },
+    {
+      "id": "765190:121:0",
+      "source": "クイックゲージ",
+      "wording_id": "library.chip.batch05.121"
+    },
+    {
+      "id": "765190:122:0",
+      "source": "パネルリターン",
+      "wording_id": "library.chip.batch05.122"
+    },
+    {
+      "id": "765190:123:0",
+      "source": "デスマッチ1",
+      "wording_id": "library.chip.batch05.123"
+    },
+    {
+      "id": "765190:124:0",
+      "source": "デスマッチ2",
+      "wording_id": "library.chip.batch05.124"
+    },
+    {
+      "id": "765190:125:0",
+      "source": "デスマッチ3",
+      "wording_id": "library.chip.batch05.125"
+    },
+    {
+      "id": "765190:126:0",
+      "source": "エレメントリーフ",
+      "wording_id": "library.chip.batch05.126"
+    },
+    {
+      "id": "765190:127:0",
+      "source": "カラーポイント",
+      "wording_id": "library.chip.batch05.127"
+    },
+    {
+      "id": "765190:128:0",
+      "source": "エレメントサンド",
+      "wording_id": "library.chip.batch05.128"
+    },
+    {
+      "id": "765190:129:0",
+      "source": "ブラインド",
+      "wording_id": "library.chip.batch05.129"
+    },
+    {
+      "id": "765190:130:0",
+      "source": "モコラッシュ1",
+      "wording_id": "library.chip.batch05.130"
+    },
+    {
+      "id": "765190:131:0",
+      "source": "モコラッシュ2",
+      "wording_id": "library.chip.batch05.131"
+    },
+    {
+      "id": "765190:132:0",
+      "source": "モコラッシュ3",
+      "wording_id": "library.chip.batch05.132"
+    },
+    {
+      "id": "765190:133:0",
+      "source": "インビジブル",
+      "wording_id": "library.chip.batch05.133"
+    },
+    {
+      "id": "765190:134:0",
+      "source": "ユカシタ",
+      "wording_id": "library.chip.batch05.134"
+    },
+    {
+      "id": "765190:135:0",
+      "source": "バリア",
+      "wording_id": "library.chip.batch05.135"
+    },
+    {
+      "id": "765190:136:0",
+      "source": "バリア100",
+      "wording_id": "library.chip.batch05.136"
+    },
+    {
+      "id": "765190:137:0",
+      "source": "バリア200",
+      "wording_id": "library.chip.batch05.137"
+    },
+    {
+      "id": "765190:138:0",
+      "source": "スーパーキタカゼ",
+      "wording_id": "library.chip.batch05.138"
+    },
+    {
+      "id": "765190:139:0",
+      "source": "ホーリーパネル",
+      "wording_id": "library.chip.batch05.139"
+    },
+    {
+      "id": "765190:140:0",
+      "source": "カキゲンキン",
+      "wording_id": "library.chip.batch05.140"
+    },
+    {
+      "id": "765190:141:0",
+      "source": "ダイコウズイ",
+      "wording_id": "library.chip.batch05.141"
+    },
+    {
+      "id": "765190:142:0",
+      "source": "ヒライシン",
+      "wording_id": "library.chip.batch05.142"
+    },
+    {
+      "id": "765190:143:0",
+      "source": "マヨイノモリ",
+      "wording_id": "library.chip.batch05.143"
+    },
+    {
+      "id": "765190:144:0",
+      "source": "ナビスカウト",
+      "wording_id": "library.chip.batch05.144"
+    },
+    {
+      "id": "765190:145:0",
+      "source": "カワリミ",
+      "wording_id": "library.chip.batch05.145"
+    },
+    {
+      "id": "765190:146:0",
+      "source": "シラハドリ",
+      "wording_id": "library.chip.batch05.146"
+    },
+    {
+      "id": "765190:147:0",
+      "source": "バッドメディスン",
+      "wording_id": "library.chip.batch05.147"
+    },
+    {
+      "id": "765190:148:0",
+      "source": "コピーダメージ",
+      "wording_id": "library.chip.batch05.148"
+    },
+    {
+      "id": "765190:149:0",
+      "source": "アタック+10",
+      "wording_id": "library.chip.batch05.149"
+    },
+    {
+      "id": "765190:150:0",
+      "source": "ナビ+20",
+      "wording_id": "library.chip.batch05.150"
+    },
+    {
+      "id": "765190:151:0",
+      "source": "ロールアロー1",
+      "wording_id": "library.chip.batch06.151"
+    },
+    {
+      "id": "765190:152:0",
+      "source": "ロールアロー2",
+      "wording_id": "library.chip.batch06.152"
+    },
+    {
+      "id": "765190:153:0",
+      "source": "ロールアロー3",
+      "wording_id": "library.chip.batch06.153"
+    },
+    {
+      "id": "765190:154:0",
+      "source": "ガッツパンチ1",
+      "wording_id": "library.chip.batch06.154"
+    },
+    {
+      "id": "765190:155:0",
+      "source": "ガッツパンチ2",
+      "wording_id": "library.chip.batch06.155"
+    },
+    {
+      "id": "765190:156:0",
+      "source": "ガッツパンチ3",
+      "wording_id": "library.chip.batch06.156"
+    },
+    {
+      "id": "765190:157:0",
+      "source": "プロペラボム1",
+      "wording_id": "library.chip.batch06.157"
+    },
+    {
+      "id": "765190:158:0",
+      "source": "プロペラボム2",
+      "wording_id": "library.chip.batch06.158"
+    },
+    {
+      "id": "765190:159:0",
+      "source": "プロペラボム3",
+      "wording_id": "library.chip.batch06.159"
+    },
+    {
+      "id": "765190:160:0",
+      "source": "サーチボム1",
+      "wording_id": "library.chip.batch06.160"
+    },
+    {
+      "id": "765190:161:0",
+      "source": "サーチボム2",
+      "wording_id": "library.chip.batch06.161"
+    },
+    {
+      "id": "765190:162:0",
+      "source": "サーチボム3",
+      "wording_id": "library.chip.batch06.162"
+    },
+    {
+      "id": "765190:163:0",
+      "source": "メテオレイン1",
+      "wording_id": "library.chip.batch06.163"
+    },
+    {
+      "id": "765190:164:0",
+      "source": "メテオレイン2",
+      "wording_id": "library.chip.batch06.164"
+    },
+    {
+      "id": "765190:165:0",
+      "source": "メテオレイン3",
+      "wording_id": "library.chip.batch06.165"
+    },
+    {
+      "id": "765190:166:0",
+      "source": "ライトニング1",
+      "wording_id": "library.chip.batch06.166"
+    },
+    {
+      "id": "765190:167:0",
+      "source": "ライトニング2",
+      "wording_id": "library.chip.batch06.167"
+    },
+    {
+      "id": "765190:168:0",
+      "source": "ライトニング3",
+      "wording_id": "library.chip.batch06.168"
+    },
+    {
+      "id": "765190:169:0",
+      "source": "ハヤブサギリ1",
+      "wording_id": "library.chip.batch06.169"
+    },
+    {
+      "id": "765190:170:0",
+      "source": "ハヤブサギリ2",
+      "wording_id": "library.chip.batch06.170"
+    },
+    {
+      "id": "765190:171:0",
+      "source": "ハヤブサギリ3",
+      "wording_id": "library.chip.batch06.171"
+    },
+    {
+      "id": "765190:172:0",
+      "source": "ナンバーボール1",
+      "wording_id": "library.chip.batch06.172"
+    },
+    {
+      "id": "765190:173:0",
+      "source": "ナンバーボール2",
+      "wording_id": "library.chip.batch06.173"
+    },
+    {
+      "id": "765190:174:0",
+      "source": "ナンバーボール3",
+      "wording_id": "library.chip.batch06.174"
+    },
+    {
+      "id": "765190:175:0",
+      "source": "メタルギア1",
+      "wording_id": "library.chip.batch06.175"
+    },
+    {
+      "id": "765190:176:0",
+      "source": "メタルギア2",
+      "wording_id": "library.chip.batch06.176"
+    },
+    {
+      "id": "765190:177:0",
+      "source": "メタルギア3",
+      "wording_id": "library.chip.batch06.177"
+    },
+    {
+      "id": "765190:178:0",
+      "source": "パネルシュート1",
+      "wording_id": "library.chip.batch06.178"
+    },
+    {
+      "id": "765190:179:0",
+      "source": "パネルシュート2",
+      "wording_id": "library.chip.batch06.179"
+    },
+    {
+      "id": "765190:180:0",
+      "source": "パネルシュート3",
+      "wording_id": "library.chip.batch06.180"
+    },
+    {
+      "id": "765190:181:0",
+      "source": "アクアアッパー1",
+      "wording_id": "library.chip.batch07.181"
+    },
+    {
+      "id": "765190:182:0",
+      "source": "アクアアッパー2",
+      "wording_id": "library.chip.batch07.182"
+    },
+    {
+      "id": "765190:183:0",
+      "source": "アクアアッパー3",
+      "wording_id": "library.chip.batch07.183"
+    },
+    {
+      "id": "765190:184:0",
+      "source": "グリーンウッド1",
+      "wording_id": "library.chip.batch07.184"
+    },
+    {
+      "id": "765190:185:0",
+      "source": "グリーンウッド2",
+      "wording_id": "library.chip.batch07.185"
+    },
+    {
+      "id": "765190:186:0",
+      "source": "グリーンウッド3",
+      "wording_id": "library.chip.batch07.186"
+    },
+    {
+      "id": "765190:187:0",
+      "source": "ダークキャノン",
+      "wording_id": "library.chip.batch07.187"
+    },
+    {
+      "id": "765190:188:0",
+      "source": "ダークソード",
+      "wording_id": "library.chip.batch07.188"
+    },
+    {
+      "id": "765190:189:0",
+      "source": "ダークボム",
+      "wording_id": "library.chip.batch07.189"
+    },
+    {
+      "id": "765190:190:0",
+      "source": "ダークバルカン",
+      "wording_id": "library.chip.batch07.190"
+    },
+    {
+      "id": "765190:191:0",
+      "source": "ダークランス",
+      "wording_id": "library.chip.batch07.191"
+    },
+    {
+      "id": "765190:192:0",
+      "source": "ダークスプレッド",
+      "wording_id": "library.chip.batch07.192"
+    },
+    {
+      "id": "765190:193:0",
+      "source": "ダークステージ",
+      "wording_id": "library.chip.batch07.193"
+    },
+    {
+      "id": "765190:194:0",
+      "source": "ダークリカバリー",
+      "wording_id": "library.chip.batch07.194"
+    }
+  ],
+  "composition": {
+    "seed_path": "translations\\chip_batch07_draft_seed.json",
+    "seed_sha256": "09166dfc13e9f03680a36946a6fc9099ea7cb5ba0a3e3c8f034684ccf7379e97",
+    "tool_path": "tools/prepare_chip_batch07_assets.py",
+    "tool_sha256": "6c47109e5b24f138192e82219267c181be74bc6447ae1bb7c6dc571c9b379ce9",
+    "policy": "explicit added drafts; no prior translation rewriting",
+    "new_units": 14,
+    "prior_units_preserved": 180
+  }
+}

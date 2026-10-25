@@ -1,0 +1,1133 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "765B18",
+  "source_archive_sha256": "c6274969a02fa36aaf06514a9c1f7a8d33544625e743a798e45e3fd6c822bd35",
+  "source_bytes": 1103,
+  "script_count": 137,
+  "extraction": {
+    "path": "analysis/tpl_baseline/765B18.tpl",
+    "sha256": "604a838b6d44aef7e2271e24f8c71200964fcded58ee316a476d6877e9740a4f"
+  },
+  "consumer": "secondary-chip-name-pool; reinsertion pending",
+  "context": "Name-only development drafts; eight-cell adopted range, actual secondary consumers need integration/runtime evidence.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Keep script count/order, terminal controls, source raw bytes, numeric suffixes, blank and ???? slots; no ROM writes.",
+  "reference": {
+    "path": "../록맨 에그제 3/translations/chip_names_ko.json",
+    "sha256": "f2b4625131f08d4844fdcf7fbe38ef87d7ebea29b6bfe8d17398e3428ca1a4ae",
+    "exact_common_candidates": [
+      {
+        "script": 125,
+        "source": "ポルターガイスト",
+        "candidate": "폴터가이스트",
+        "draft": "폴터가이스트",
+        "state": "needs_review"
+      }
+    ]
+  },
+  "terminology_review": [
+    "Names are candidates, not approved for release.",
+    "Source scripts113 (????),132 (blank) and empty slots remain native.",
+    "EXE3 analysis is a technical reference; exact common wording candidates are recorded separately.",
+    "123 カカリゲイコ: 연속수련 is a meaning-based candidate; gameplay/context review required.",
+    "136 ボーイズボム: transliteration candidate; intended referent review pending.",
+    "No secondary-name consumer reinsertion or runtime rendering claim."
+  ],
+  "units": [
+    {
+      "id": "765B18:0:0",
+      "source": "ウッドマンDS",
+      "wording_id": "chip.secondary.names.0"
+    },
+    {
+      "id": "765B18:1:0",
+      "source": "タップマン",
+      "wording_id": "chip.secondary.names.1"
+    },
+    {
+      "id": "765B18:2:0",
+      "source": "タップマンSP",
+      "wording_id": "chip.secondary.names.2"
+    },
+    {
+      "id": "765B18:3:0",
+      "source": "タップマンDS",
+      "wording_id": "chip.secondary.names.3"
+    },
+    {
+      "id": "765B18:4:0",
+      "source": "シェードマン",
+      "wording_id": "chip.secondary.names.4"
+    },
+    {
+      "id": "765B18:5:0",
+      "source": "シェードマンSP",
+      "wording_id": "chip.secondary.names.5"
+    },
+    {
+      "id": "765B18:6:0",
+      "source": "シェードマンDS",
+      "wording_id": "chip.secondary.names.6"
+    },
+    {
+      "id": "765B18:7:0",
+      "source": "バーナーマン",
+      "wording_id": "chip.secondary.names.7"
+    },
+    {
+      "id": "765B18:8:0",
+      "source": "バーナーマンSP",
+      "wording_id": "chip.secondary.names.8"
+    },
+    {
+      "id": "765B18:9:0",
+      "source": "バーナーマンDS",
+      "wording_id": "chip.secondary.names.9"
+    },
+    {
+      "id": "765B18:10:0",
+      "source": "コールドマン",
+      "wording_id": "chip.secondary.names.10"
+    },
+    {
+      "id": "765B18:11:0",
+      "source": "コールドマンSP",
+      "wording_id": "chip.secondary.names.11"
+    },
+    {
+      "id": "765B18:12:0",
+      "source": "コールドマンDS",
+      "wording_id": "chip.secondary.names.12"
+    },
+    {
+      "id": "765B18:13:0",
+      "source": "スパークマン",
+      "wording_id": "chip.secondary.names.13"
+    },
+    {
+      "id": "765B18:14:0",
+      "source": "スパークマンSP",
+      "wording_id": "chip.secondary.names.14"
+    },
+    {
+      "id": "765B18:15:0",
+      "source": "スパークマンDS",
+      "wording_id": "chip.secondary.names.15"
+    },
+    {
+      "id": "765B18:16:0",
+      "source": "レーザーマン",
+      "wording_id": "chip.secondary.names.16"
+    },
+    {
+      "id": "765B18:17:0",
+      "source": "レーザーマンSP",
+      "wording_id": "chip.secondary.names.17"
+    },
+    {
+      "id": "765B18:18:0",
+      "source": "レーザーマンDS",
+      "wording_id": "chip.secondary.names.18"
+    },
+    {
+      "id": "765B18:19:0",
+      "source": "ケンドーマン",
+      "wording_id": "chip.secondary.names.19"
+    },
+    {
+      "id": "765B18:20:0",
+      "source": "ケンドーマンSP",
+      "wording_id": "chip.secondary.names.20"
+    },
+    {
+      "id": "765B18:21:0",
+      "source": "ケンドーマンDS",
+      "wording_id": "chip.secondary.names.21"
+    },
+    {
+      "id": "765B18:22:0",
+      "source": "ビデオマン",
+      "wording_id": "chip.secondary.names.22"
+    },
+    {
+      "id": "765B18:23:0",
+      "source": "ビデオマンSP",
+      "wording_id": "chip.secondary.names.23"
+    },
+    {
+      "id": "765B18:24:0",
+      "source": "ビデオマンDS",
+      "wording_id": "chip.secondary.names.24"
+    },
+    {
+      "id": "765B18:25:0",
+      "source": "マーキング",
+      "wording_id": "chip.secondary.names.25"
+    },
+    {
+      "id": "765B18:26:0",
+      "source": "キャノンモード",
+      "wording_id": "chip.secondary.names.26"
+    },
+    {
+      "id": "765B18:27:0",
+      "source": "ホウガンモード",
+      "wording_id": "chip.secondary.names.27"
+    },
+    {
+      "id": "765B18:28:0",
+      "source": "ソードモード",
+      "wording_id": "chip.secondary.names.28"
+    },
+    {
+      "id": "765B18:29:0",
+      "source": "ファイアプラス",
+      "wording_id": "chip.secondary.names.29"
+    },
+    {
+      "id": "765B18:30:0",
+      "source": "サンダープラス",
+      "wording_id": "chip.secondary.names.30"
+    },
+    {
+      "id": "765B18:31:0",
+      "source": "アクアパワー",
+      "wording_id": "chip.secondary.names.31"
+    },
+    {
+      "id": "765B18:32:0",
+      "source": "ウッドパワー",
+      "wording_id": "chip.secondary.names.32"
+    },
+    {
+      "id": "765B18:33:0",
+      "source": "ブラックウエポン",
+      "wording_id": "chip.secondary.names.33"
+    },
+    {
+      "id": "765B18:34:0",
+      "source": "ファイナルガン",
+      "wording_id": "chip.secondary.names.34"
+    },
+    {
+      "id": "765B18:45:0",
+      "source": "フォルテ",
+      "wording_id": "chip.secondary.names.45"
+    },
+    {
+      "id": "765B18:46:0",
+      "source": "デルタレイエッジ",
+      "wording_id": "chip.secondary.names.46"
+    },
+    {
+      "id": "765B18:47:0",
+      "source": "カースオブバグ",
+      "wording_id": "chip.secondary.names.47"
+    },
+    {
+      "id": "765B18:48:0",
+      "source": "メテオレッドサン",
+      "wording_id": "chip.secondary.names.48"
+    },
+    {
+      "id": "765B18:49:0",
+      "source": "シグナルレッド",
+      "wording_id": "chip.secondary.names.49"
+    },
+    {
+      "id": "765B18:50:0",
+      "source": "フォルテアナザー",
+      "wording_id": "chip.secondary.names.50"
+    },
+    {
+      "id": "765B18:51:0",
+      "source": "ホーリードリーム",
+      "wording_id": "chip.secondary.names.51"
+    },
+    {
+      "id": "765B18:52:0",
+      "source": "ブラックバリア",
+      "wording_id": "chip.secondary.names.52"
+    },
+    {
+      "id": "765B18:53:0",
+      "source": "ブルームーンレイ",
+      "wording_id": "chip.secondary.names.53"
+    },
+    {
+      "id": "765B18:54:0",
+      "source": "バグチャージ",
+      "wording_id": "chip.secondary.names.54"
+    },
+    {
+      "id": "765B18:64:0",
+      "source": "ダークメシアネオ",
+      "wording_id": "chip.secondary.names.64"
+    },
+    {
+      "id": "765B18:65:0",
+      "source": "ヒートスプレッド",
+      "wording_id": "chip.secondary.names.65"
+    },
+    {
+      "id": "765B18:66:0",
+      "source": "バブルスプレッド",
+      "wording_id": "chip.secondary.names.66"
+    },
+    {
+      "id": "765B18:67:0",
+      "source": "ギガキャノン1",
+      "wording_id": "chip.secondary.names.67"
+    },
+    {
+      "id": "765B18:68:0",
+      "source": "ギガキャノン2",
+      "wording_id": "chip.secondary.names.68"
+    },
+    {
+      "id": "765B18:69:0",
+      "source": "ギガキャノン3",
+      "wording_id": "chip.secondary.names.69"
+    },
+    {
+      "id": "765B18:70:0",
+      "source": "スーパーワイド1",
+      "wording_id": "chip.secondary.names.70"
+    },
+    {
+      "id": "765B18:71:0",
+      "source": "スーパーワイド2",
+      "wording_id": "chip.secondary.names.71"
+    },
+    {
+      "id": "765B18:72:0",
+      "source": "スーパーワイド3",
+      "wording_id": "chip.secondary.names.72"
+    },
+    {
+      "id": "765B18:73:0",
+      "source": "フレイムクロス1",
+      "wording_id": "chip.secondary.names.73"
+    },
+    {
+      "id": "765B18:74:0",
+      "source": "フレイムクロス2",
+      "wording_id": "chip.secondary.names.74"
+    },
+    {
+      "id": "765B18:75:0",
+      "source": "フレイムクロス3",
+      "wording_id": "chip.secondary.names.75"
+    },
+    {
+      "id": "765B18:76:0",
+      "source": "ヘルブーメラン1",
+      "wording_id": "chip.secondary.names.76"
+    },
+    {
+      "id": "765B18:77:0",
+      "source": "ヘルブーメラン2",
+      "wording_id": "chip.secondary.names.77"
+    },
+    {
+      "id": "765B18:78:0",
+      "source": "ヘルブーメラン3",
+      "wording_id": "chip.secondary.names.78"
+    },
+    {
+      "id": "765B18:79:0",
+      "source": "マッドファング1",
+      "wording_id": "chip.secondary.names.79"
+    },
+    {
+      "id": "765B18:80:0",
+      "source": "マッドファング2",
+      "wording_id": "chip.secondary.names.80"
+    },
+    {
+      "id": "765B18:81:0",
+      "source": "マッドファング3",
+      "wording_id": "chip.secondary.names.81"
+    },
+    {
+      "id": "765B18:82:0",
+      "source": "ジゴクホッケー1",
+      "wording_id": "chip.secondary.names.82"
+    },
+    {
+      "id": "765B18:83:0",
+      "source": "ジゴクホッケー2",
+      "wording_id": "chip.secondary.names.83"
+    },
+    {
+      "id": "765B18:84:0",
+      "source": "ジゴクホッケー3",
+      "wording_id": "chip.secondary.names.84"
+    },
+    {
+      "id": "765B18:85:0",
+      "source": "マグショック1",
+      "wording_id": "chip.secondary.names.85"
+    },
+    {
+      "id": "765B18:86:0",
+      "source": "マグショック2",
+      "wording_id": "chip.secondary.names.86"
+    },
+    {
+      "id": "765B18:87:0",
+      "source": "マグショック3",
+      "wording_id": "chip.secondary.names.87"
+    },
+    {
+      "id": "765B18:88:0",
+      "source": "ドリームソード",
+      "wording_id": "chip.secondary.names.88"
+    },
+    {
+      "id": "765B18:89:0",
+      "source": "パイルドライバー",
+      "wording_id": "chip.secondary.names.89"
+    },
+    {
+      "id": "765B18:90:0",
+      "source": "ギガカウントボム",
+      "wording_id": "chip.secondary.names.90"
+    },
+    {
+      "id": "765B18:91:0",
+      "source": "ポイズンファラオ",
+      "wording_id": "chip.secondary.names.91"
+    },
+    {
+      "id": "765B18:92:0",
+      "source": "ボディガード",
+      "wording_id": "chip.secondary.names.92"
+    },
+    {
+      "id": "765B18:93:0",
+      "source": "ハイパーバースト",
+      "wording_id": "chip.secondary.names.93"
+    },
+    {
+      "id": "765B18:112:0",
+      "source": "ダークレーザー",
+      "wording_id": "chip.secondary.names.112"
+    },
+    {
+      "id": "765B18:114:0",
+      "source": "ファイターソード",
+      "wording_id": "chip.secondary.names.114"
+    },
+    {
+      "id": "765B18:115:0",
+      "source": "ソニックブーム",
+      "wording_id": "chip.secondary.names.115"
+    },
+    {
+      "id": "765B18:116:0",
+      "source": "ノロイ",
+      "wording_id": "chip.secondary.names.116"
+    },
+    {
+      "id": "765B18:117:0",
+      "source": "バチアタリ",
+      "wording_id": "chip.secondary.names.117"
+    },
+    {
+      "id": "765B18:118:0",
+      "source": "クロスソード",
+      "wording_id": "chip.secondary.names.118"
+    },
+    {
+      "id": "765B18:119:0",
+      "source": "スーパーソニック",
+      "wording_id": "chip.secondary.names.119"
+    },
+    {
+      "id": "765B18:120:0",
+      "source": "ダブルドリーム",
+      "wording_id": "chip.secondary.names.120"
+    },
+    {
+      "id": "765B18:121:0",
+      "source": "ハヤオクリ",
+      "wording_id": "chip.secondary.names.121"
+    },
+    {
+      "id": "765B18:122:0",
+      "source": "マキモドシ",
+      "wording_id": "chip.secondary.names.122"
+    },
+    {
+      "id": "765B18:123:0",
+      "source": "カカリゲイコ",
+      "wording_id": "chip.secondary.names.123"
+    },
+    {
+      "id": "765B18:124:0",
+      "source": "ギアチェンジ",
+      "wording_id": "chip.secondary.names.124"
+    },
+    {
+      "id": "765B18:125:0",
+      "source": "ポルターガイスト",
+      "wording_id": "chip.secondary.names.125"
+    },
+    {
+      "id": "765B18:126:0",
+      "source": "アイスキューブ",
+      "wording_id": "chip.secondary.names.126"
+    },
+    {
+      "id": "765B18:127:0",
+      "source": "ラッシュサポート",
+      "wording_id": "chip.secondary.names.127"
+    },
+    {
+      "id": "765B18:128:0",
+      "source": "ビートサポート",
+      "wording_id": "chip.secondary.names.128"
+    },
+    {
+      "id": "765B18:129:0",
+      "source": "タンゴサポート",
+      "wording_id": "chip.secondary.names.129"
+    },
+    {
+      "id": "765B18:130:0",
+      "source": "ファイナルガン",
+      "wording_id": "chip.secondary.names.130"
+    },
+    {
+      "id": "765B18:131:0",
+      "source": "ガッツマシンガン",
+      "wording_id": "chip.secondary.names.131"
+    },
+    {
+      "id": "765B18:133:0",
+      "source": "イワ1",
+      "wording_id": "chip.secondary.names.133"
+    },
+    {
+      "id": "765B18:134:0",
+      "source": "イワ2",
+      "wording_id": "chip.secondary.names.134"
+    },
+    {
+      "id": "765B18:135:0",
+      "source": "メタルギア",
+      "wording_id": "chip.secondary.names.135"
+    },
+    {
+      "id": "765B18:136:0",
+      "source": "ボーイズボム",
+      "wording_id": "chip.secondary.names.136"
+    }
+  ],
+  "wordings": [
+    {
+      "id": "chip.secondary.names.0",
+      "translation": "우드맨DS",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.1",
+      "translation": "탭맨",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.2",
+      "translation": "탭맨SP",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.3",
+      "translation": "탭맨DS",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.4",
+      "translation": "셰이드맨",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.5",
+      "translation": "셰이드맨SP",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.6",
+      "translation": "셰이드맨DS",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.7",
+      "translation": "버너맨",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.8",
+      "translation": "버너맨SP",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.9",
+      "translation": "버너맨DS",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.10",
+      "translation": "콜드맨",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.11",
+      "translation": "콜드맨SP",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.12",
+      "translation": "콜드맨DS",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.13",
+      "translation": "스파크맨",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.14",
+      "translation": "스파크맨SP",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.15",
+      "translation": "스파크맨DS",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.16",
+      "translation": "레이저맨",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.17",
+      "translation": "레이저맨SP",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.18",
+      "translation": "레이저맨DS",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.19",
+      "translation": "켄도맨",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.20",
+      "translation": "켄도맨SP",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.21",
+      "translation": "켄도맨DS",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.22",
+      "translation": "비디오맨",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.23",
+      "translation": "비디오맨SP",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.24",
+      "translation": "비디오맨DS",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.25",
+      "translation": "마킹",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.26",
+      "translation": "캐논모드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.27",
+      "translation": "포탄모드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.28",
+      "translation": "소드모드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.29",
+      "translation": "파이어플러스",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.30",
+      "translation": "썬더플러스",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.31",
+      "translation": "아쿠아파워",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.32",
+      "translation": "우드파워",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.33",
+      "translation": "블랙웨폰",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.34",
+      "translation": "파이널건",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.45",
+      "translation": "포르테",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.46",
+      "translation": "델타레이에지",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.47",
+      "translation": "커스오브버그",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.48",
+      "translation": "메테오레드선",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.49",
+      "translation": "시그널레드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.50",
+      "translation": "포르테어나더",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.51",
+      "translation": "홀리드림",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.52",
+      "translation": "블랙배리어",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.53",
+      "translation": "블루문레이",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.54",
+      "translation": "버그차지",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.64",
+      "translation": "다크메시아네오",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.65",
+      "translation": "히트스프레드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.66",
+      "translation": "버블스프레드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.67",
+      "translation": "기가캐논1",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.68",
+      "translation": "기가캐논2",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.69",
+      "translation": "기가캐논3",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.70",
+      "translation": "슈퍼와이드1",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.71",
+      "translation": "슈퍼와이드2",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.72",
+      "translation": "슈퍼와이드3",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.73",
+      "translation": "플레임크로스1",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.74",
+      "translation": "플레임크로스2",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.75",
+      "translation": "플레임크로스3",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.76",
+      "translation": "헬부메랑1",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.77",
+      "translation": "헬부메랑2",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.78",
+      "translation": "헬부메랑3",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.79",
+      "translation": "매드팽1",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.80",
+      "translation": "매드팽2",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.81",
+      "translation": "매드팽3",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.82",
+      "translation": "지옥하키1",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.83",
+      "translation": "지옥하키2",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.84",
+      "translation": "지옥하키3",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.85",
+      "translation": "마그쇼크1",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.86",
+      "translation": "마그쇼크2",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.87",
+      "translation": "마그쇼크3",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.88",
+      "translation": "드림소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.89",
+      "translation": "파일드라이버",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.90",
+      "translation": "기가카운트봄",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.91",
+      "translation": "포이즌파라오",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.92",
+      "translation": "보디가드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.93",
+      "translation": "하이퍼버스트",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.112",
+      "translation": "다크레이저",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.114",
+      "translation": "파이터소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.115",
+      "translation": "소닉붐",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.116",
+      "translation": "저주",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.117",
+      "translation": "천벌",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.118",
+      "translation": "크로스소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.119",
+      "translation": "슈퍼소닉",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.120",
+      "translation": "더블드림",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.121",
+      "translation": "빨리감기",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.122",
+      "translation": "되감기",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.123",
+      "translation": "연속수련",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.124",
+      "translation": "기어체인지",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.125",
+      "translation": "폴터가이스트",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.126",
+      "translation": "아이스큐브",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.127",
+      "translation": "러시서포트",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.128",
+      "translation": "비트서포트",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.129",
+      "translation": "탱고서포트",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.130",
+      "translation": "파이널건",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.131",
+      "translation": "거츠머신건",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.133",
+      "translation": "바위1",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.134",
+      "translation": "바위2",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.135",
+      "translation": "메탈기어",
+      "state": "needs_review"
+    },
+    {
+      "id": "chip.secondary.names.136",
+      "translation": "보이즈봄",
+      "state": "needs_review"
+    }
+  ],
+  "source_script_hex": {
+    "0": "0d5949293a6170e5",
+    "1": "1a5951293ae5",
+    "2": "1a5951293a706de5",
+    "3": "1a5951293a6170e5",
+    "4": "16578249293ae5",
+    "5": "16578249293a706de5",
+    "6": "16578249293a6170e5",
+    "7": "4a821f82293ae5",
+    "8": "4a821f82293a706de5",
+    "9": "4a821f82293a6170e5",
+    "10": "14823349293ae5",
+    "11": "14823349293a706de5",
+    "12": "14823349293a6170e5",
+    "13": "174f8212293ae5",
+    "14": "174f8212293a706de5",
+    "15": "174f8212293a6170e5",
+    "16": "34824082293ae5",
+    "17": "34824082293a706de5",
+    "18": "34824082293a6170e5",
+    "19": "133a4982293ae5",
+    "20": "133a4982293a706de5",
+    "21": "133a4982293a6170e5",
+    "22": "4b480f293ae5",
+    "23": "4b480f293a706de5",
+    "24": "4b480f293a6170e5",
+    "25": "2982113a3de5",
+    "26": "115a233a2d8249e5",
+    "27": "280d3b3a2d8249e5",
+    "28": "1982492d8249e5",
+    "29": "26540c0b513117e5",
+    "30": "153a4582513117e5",
+    "31": "0b120b4f3682e5",
+    "32": "0d59494f3682e5",
+    "33": "4c3159120d0e533ae5",
+    "34": "26540c1f333b3ae5",
+    "45": "2658331de5",
+    "46": "48331a340c0e5941e5",
+    "47": "1082170f4c4a3de5",
+    "48": "2c1d0f345949153ae5",
+    "49": "163d1f33345949e5",
+    "50": "2658331d0b1f4082e5",
+    "51": "288232824932822be5",
+    "52": "4c3159124a320be5",
+    "53": "4c33822b823a340ce5",
+    "54": "4a3d1b5a8241e5",
+    "64": "4582122c160b220fe5",
+    "65": "25821e1751345949e5",
+    "66": "4a4c331751345949e5",
+    "67": "3c3b115a233a02e5",
+    "68": "3c3b115a233a03e5",
+    "69": "3c3b115a233a04e5",
+    "70": "17824f82360c4902e5",
+    "71": "17824f82360c4903e5",
+    "72": "17824f82360c4904e5",
+    "73": "26340c2b12351702e5",
+    "74": "26340c2b12351703e5",
+    "75": "26340c2b12351704e5",
+    "76": "27334c822c313a02e5",
+    "77": "27334c822c313a03e5",
+    "78": "27334c822c313a04e5",
+    "79": "29594926543a3d02e5",
+    "80": "29594926543a3d03e5",
+    "81": "29594926543a3d04e5",
+    "82": "413f122859138202e5",
+    "83": "413f122859138203e5",
+    "84": "413f122859138204e5",
+    "85": "293d165c591202e5",
+    "86": "293d165c591203e5",
+    "87": "293d165c591204e5",
+    "88": "4932822b198249e5",
+    "89": "4f0c3349310c4a82e5",
+    "90": "3c3b100d3a1e4e2be5",
+    "91": "530c423a2654310fe5",
+    "92": "4e48553b8249e5",
+    "93": "240c4f824a82171ee5",
+    "112": "45821234824082e5",
+    "114": "26540c1a82198249e5",
+    "115": "192059124c822be5",
+    "116": "23350ce5",
+    "117": "4a1b0b1a32e5",
+    "118": "123517198249e5",
+    "119": "17824f8219205912e5",
+    "120": "454c334932822be5",
+    "121": "242e0f1232e5",
+    "122": "29112d4916e5",
+    "123": "1010323e0c14e5",
+    "124": "3c0b1b573a41e5",
+    "125": "53331a823b0c171ee5",
+    "126": "0b0c17115b824ce5",
+    "127": "3159165b1553821ee5",
+    "128": "4b821e1553821ee5",
+    "129": "1a3a3f1553821ee5",
+    "130": "26540c1f333b3ae5",
+    "131": "3b591c29163a3b3ae5",
+    "133": "0c3602e5",
+    "134": "0c3603e5",
+    "135": "2c1a333c0be5",
+    "136": "4e820c424e2be5"
+  },
+  "composition": {
+    "seed_path": "translations/chip_secondary_names_draft_seed.json",
+    "seed_sha256": "adb67f5edfa1cef74e73411b1846ad1e284ff2c9a8cbc6e7b0b42e47853eb50e",
+    "tool_path": "tools/prepare_chip_secondary_names.py",
+    "tool_sha256": "b9da85fd1022000546677e272fc37c9206d0c5bc2ef8e835d0b616e8e37bd84f",
+    "new_units": 98
+  }
+}

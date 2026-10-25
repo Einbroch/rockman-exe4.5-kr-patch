@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "664804",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/664804.tpl",
+    "sha256": "a18e6f813fa5facb3df4ebd02dae51631af573757bae23a24f10e2f2c4c9af2c"
+  },
+  "source_archive_sha256": "d8df99ffaaa1f63f9efc35bc98d805d745097d4488f04328e9cdd70ded444728",
+  "consumer": "quick-tournament-results-guts-reminders",
+  "context": "Quick-box weekend/tournament-day encouragement and key-item suggestion; no mugshot in source.",
+  "voice": "Friendly quick-box voice unidentified; GutsMan only explicit portraits21..26. Existing 거스/거츠 suffix candidates retained, not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep prior selected literals, commands, flags, buffers, newlines and literal segmentation; no ROM/save writes.",
+  "semantic_review": [
+    "Absolute victory emphasis and tournament day arrival preserved. Key-item suggestion does not assert possession of a particular item. No named actor inferred from adjacent archive."
+  ],
+  "units": [
+    {
+      "id": "664804:1:0",
+      "source": "しゅうまつの\nトーナメント、",
+      "translation": "주말에 열리는\n토너먼트,",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box weekend/tournament-day encouragement and key-item suggestion; no mugshot in source.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "664804:1:1",
+      "source": "ずぇぇったい ゆうしょう\nしましょうね!!",
+      "translation": "꼭 우승\n하자!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box weekend/tournament-day encouragement and key-item suggestion; no mugshot in source.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "664804:2:0",
+      "source": "とうとう、トーナメントの\n日がきちゃったね・・・\nがんばろうね!!",
+      "translation": "드디어, 토너먼트\n날이 왔네...\n힘내자!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box weekend/tournament-day encouragement and key-item suggestion; no mugshot in source.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "664804:3:0",
+      "source": "ねぇ、たのしそうな\nアイテムがあるみたいね",
+      "translation": "있잖아, 재밌어 보이는\n아이템이 있나 봐",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box weekend/tournament-day encouragement and key-item suggestion; no mugshot in source.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "664804:3:1",
+      "source": "キーアイテムを\n見てみましょうよ!",
+      "translation": "키 아이템을\n확인해 보자!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick-box weekend/tournament-day encouragement and key-item suggestion; no mugshot in source.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    }
+  ]
+}

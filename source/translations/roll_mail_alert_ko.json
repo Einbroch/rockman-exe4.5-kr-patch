@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "661060",
+  "source_archive_sha256": "0fb238422445f63e91dce70531a04c3cc7f992791a63dee9ae3420ebd2e80d08",
+  "consumer": "normal-dialogue",
+  "context": "Fourteen mail-arrival body literals; Roll friendly informal notification. Original full TPL and normal script1 page inspected. Native nickname first-row comma unchanged. Other native event entry paths pending.",
+  "evidence": "analysis/tpl_baseline/661060.tpl; poc/runtime/roll-mail-alert-source-v1-arrival/step_008.png",
+  "decision_evidence": "Primary-agent manual drafts, each selected unit explicitly authored from its source; no automated prose generation. Same notification meaning across independent entries.",
+  "review": {"wording": "needs_review", "layout": "needs_runtime_review", "release_eligible": false},
+  "protected_policy": "All controls, sound/waits, flags, mail processing, nickname command, fourteen initial !! literals and other241 script slots preserved.",
+  "units": [
+    {"id":"661060:1:1","source":"、\nメールがきたよ!!","translation":"、\n메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:2:1","source":"、\nメールがきたよ!!","translation":"、\n메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:3:1","source":"、\nメールがきたよ!!","translation":"、\n메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:4:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:5:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:6:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:7:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:20:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:21:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:22:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:23:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:24:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:25:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"},
+    {"id":"661060:26:1","source":"メールがきたよ!!","translation":"메일이 왔어!!","state":"needs_review"}
+  ]
+}

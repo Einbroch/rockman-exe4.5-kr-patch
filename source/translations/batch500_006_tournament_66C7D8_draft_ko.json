@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "66C7D8",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/66C7D8.tpl",
+    "sha256": "9c6d202b93e6b9a655eba65a3a89e62994966c2099f0fa68886e764feda42107"
+  },
+  "source_archive_sha256": "e0ced61205a017eb03a2fd3759d6eeb589290f8540e687c394dd7fa9c08c0b62",
+  "consumer": "batch500-schedule-menu-tournament",
+  "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+  "voice": "Source-conditioned manual draft; explicit menu portraits only; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands, variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-006",
+  "semantic_review": [
+    "Batch500-006 exactly500 stable literals: schedule menus488/tournament12; not500 unique sentences.",
+    "Source-conditioned manually authored candidates; every source literal/control difference inspected. Full670568/66C7D8 read. No prose rule replacement, ROM/save writes, runtime approval or distribution eligibility.",
+    "Defeat headwind vs future wind change, victory tailwind, unregistered/cancel and four distinct encouragement script IDs retained. Nickname insertion and flag3603 not changed; no named speaker guessed."
+  ],
+  "units": [
+    {
+      "id": "66C7D8:1:0",
+      "source": "きょうりょくな\nむかい風を\nうけてしまったな・・・",
+      "translation": "강력한\n맞바람을\n맞아 버렸군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:1:1",
+      "source": "しかし、いずれ\n風むきも かわるだろう",
+      "translation": "하지만, 언젠가\n바람의 방향도 바뀌겠지",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:2:0",
+      "source": "おい風に のったな・・・\nみごとな しょうりだった",
+      "translation": "순풍을 탔군...\n멋진 승리였다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:10:0",
+      "source": "、\nエントリーしておらんぞ",
+      "translation": ",\n참가 신청을 안 했구나",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:20:0",
+      "source": "ゆくぞ、",
+      "translation": "가자,",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:20:1",
+      "source": "\n風むきは りょうこうだ!",
+      "translation": "\n바람의 방향이 좋다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:21:0",
+      "source": "ゆくぞ、",
+      "translation": "가자,",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:21:1",
+      "source": "\n風むきは りょうこうだ!",
+      "translation": "\n바람의 방향이 좋다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:22:0",
+      "source": "ゆくぞ、",
+      "translation": "가자,",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:22:1",
+      "source": "\n風むきは りょうこうだ!",
+      "translation": "\n바람의 방향이 좋다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:23:0",
+      "source": "ゆくぞ、",
+      "translation": "가자,",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "66C7D8:23:1",
+      "source": "\n風むきは りょうこうだ!",
+      "translation": "\n바람의 방향이 좋다!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: defeat1/victory2/unregistered10/cancel and tournament20..23 encouragement; no portrait.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    }
+  ]
+}

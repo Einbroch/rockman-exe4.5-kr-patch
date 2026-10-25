@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "review": "needs_review",
+  "approved": false,
+  "proposals": [
+    {"id":"exe45.wording.pending014.7B3C30.0.0","unit_id":"7B3C30:0:0","translation":"여기엔 예전에\n상점이 있었는데\n망한 모양이군···","rationale":"Source describes a former shop that seems to have closed. Retain the tentative observation and three-row rhythm; omit only the redundant Korean auxiliary 버린. Original draft remains unchanged."},
+    {"id":"exe45.wording.pending014.7BDC90.0.1","unit_id":"7BDC90:0:1","translation":"난·말·이·야아!!\n스·테·레·오·의","rationale":"Retain the stereo program's segmented singing, self-introduction, stretched vowel and shout. Contract 나는 to 난 and keep audible stretching; original longer performance remains a review alternative."},
+    {"id":"exe45.wording.pending014.7B4184.1.0","unit_id":"7B4184:1:0","translation":"네, 네놈···\n빚은···꼭 갚겠다","rationale":"Retain the stammer, threatening debt/retaliation metaphor, pause and source certainty 必ず. Korean demonstrative is implicit; no source event/outcome is altered."},
+    {"id":"exe45.wording.pending014.7B4184.2.0","unit_id":"7B4184:2:0","translation":"넌 끝장낼 가치도\n없다···사라져라","rationale":"Retain the target-directed contempt, unworthiness of a finishing blow and dismissal. Redistribute the Korean clause within the same two source lines without changing line/page/wait tokens."},
+    {"id":"exe45.wording.pending014.7B4184.3.1","unit_id":"7B4184:3:1","translation":"자, 정정당당히···\n승부!!","rationale":"Use the equivalent Korean adverb 정정당당히 rather than 정정당당하게. Retain the challenge, pause, emphasis and two-row source structure."}
+  ]
+}

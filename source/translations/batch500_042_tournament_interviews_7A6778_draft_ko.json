@@ -1,0 +1,82 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7A6778",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7A6778.tpl",
+    "sha256": "3f3452bfd88668beb4154cf5d0bb0cfc63fe5365be84e1e87997c6e304eb3ce4"
+  },
+  "source_archive_sha256": "02f13a885f19efb042829147b97f1e930c163f6d016fc4603bc5f6141c758c39",
+  "consumer": "batch500-contextual-tournament-interviews",
+  "context": "HeelNaviBlack samurai-style assessment oflatentstrength/futureInternetfame,nettime18:00..28:59→1(native28hour anomaly retainednotnormalized). NotShadowMan basedonvoice;localportrait exact.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-042",
+  "semantic_review": [
+    "Exactly500 stablecatalogliteral drafts:482tournamentaward/roulette/Basspostbattle/interviews plus18NPC;not500uniquesentences. Allselectedsource andexactcommand skeleton0..77 read;undefined-profilefallback90..102 readforcontext but notdrafted thisbatch.",
+    "Manualsourceconditioned drafts;noautomaticprosegeneration/harmonization/shortening. needs_review development-draft NON-DISTRIBUTION releasefalse;protectedsource/IDs/TPL/payload/commands/variables/newlines/padding immutable.",
+    "Per-scriptlocalportrait evidence separatedfrom inheritedspeaker onroulette18..22/53..57. NativecheckGlobal/checkNavi route,flag7729 switches,profiledefined versusundefined,printfunctions/buffers and30framesplitwaitdots remain. No NumberMan/otherNavi temporaryoverride orROM/save/emulatorwrites.",
+    "Dynamic Korean particles drafted with invariant possessives/하고/에게/phrasing ratherthanonefixed받침-dependentsubject/objectparticle. Exactsurroundingunselectedpunctuation retained. Adjacentinlineflow,variablesuppliedvalues,wordboundaryspacing andfinitewidth needactualconsumer/layoutreview;these drafts notinsertionready.",
+    "Distinctinterviews65..77 MegaMan,Roll,Guts,Wind,Search,Fire,Thunder,Proto,Number,Metal,Junk,Aqua,Wood andRibitta switches remain. Rollrevealsoperatorcrush;Junkjealousy/robotstutter;Numberboast/retraction/navichange threat;Searchformaloperatorversusinterviewer;Windmetaphor,Woodnature,Gutsmasculinetears,AquaTV urgency faithfullycandidateadaptations requiringhumanreview.",
+    "Source38/39 MegaManportraits andblueflames retainedwithoutinventedHeatNaviidentity. Bass3 and47/48 differplayerresponseandthreat,Heelhostswitch preserved. Rankshortlabels5/6/8 markedUI,source10ヘunresolvedremainsinledger.",
+    "Tickets19/20 openonceandcloseafter1plugout,persistentaward2/3/4different,normalversusUnderrewardratingsandAtiming preserved. 7A6778/685Cnativehour28 andunapprovedsamuraiwordplay/ladiesdayterms are unresolvedreviewcandidatesnotruntimefacts.",
+    "Font/codec/skeleton/protectedfields/132pxheuristic onlytechnicalchecks,notsemantic/human/runtimeapproval. Allremainingdraftsfirst,thenfullfont/layout/consumer/reinsertionandcumulativeROM/screen/saveQA. Inline/images/Hangulkeyboard/persistence/release stillopen."
+  ],
+  "units": [
+    {
+      "id": "7A6778:0:0",
+      "source": "ヌゥ・・・\nおヌシ、なかなかの\nツカいテと ミたでござる",
+      "translation": "으음...\n그대는 꽤나\n뛰어난 실력자 같소",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samurai-style assessment oflatentstrength/futureInternetfame,nettime18:00..28:59→1(native28hour anomaly retainednotnormalized). NotShadowMan basedonvoice;localportrait exact.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A6778:0:1",
+      "source": "おヌシは いずれ、\nこのインターネットで\nそのナをトドロかすやもシれぬ",
+      "translation": "그대는 언젠가,\n이 인터넷에\n이름을 떨칠지도 모르겠소",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samurai-style assessment oflatentstrength/futureInternetfame,nettime18:00..28:59→1(native28hour anomaly retainednotnormalized). NotShadowMan basedonvoice;localportrait exact.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A6778:1:0",
+      "source": "ヌゥゥ・・・\nカンじるぞ、おヌシのナカに\nネムる、ツヨい「キ」を!!",
+      "translation": "으으음...\n느껴지오, 그대 안에\n잠든 강한 「기」가!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samurai-style assessment oflatentstrength/futureInternetfame,nettime18:00..28:59→1(native28hour anomaly retainednotnormalized). NotShadowMan basedonvoice;localportrait exact.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    },
+    {
+      "id": "7A6778:1:1",
+      "source": "おヌシのツヨさは\nホンモノでござる・・・\nセッシャには ワかる",
+      "translation": "그대의 강함은\n진짜요...\n소인은 알 수 있소",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "HeelNaviBlack samurai-style assessment oflatentstrength/futureInternetfame,nettime18:00..28:59→1(native28hour anomaly retainednotnormalized). NotShadowMan basedonvoice;localportrait exact.",
+      "variable_context": "Native profile/name/Navi/enemy/item/chip inserts,conditionalbranches andflag7729 portraits immutable; inlinegrammaticalflow/layout/reachability/runtime unverified."
+    }
+  ]
+}

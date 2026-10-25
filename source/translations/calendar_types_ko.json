@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6368E8",
+  "source_archive_sha256": "816d719a806e861faf90bdf61bb960ff20eb965001871274387fce2542711c74",
+  "consumer": "fixed-cell-big",
+  "context": "Calendar operation menu plus event-type selector60. Native27-cell1728-byte whole-pool parse and OAM cell ranges6/7/3/3/3/5 observed; no source byte-stride rewriting. Other253 slots, preset names/input/storage unchanged.",
+  "evidence": "analysis/tpl_baseline/6368E8.tpl; poc/runtime/roll-calendar-content-v1-time/step_006_fixedcells.json; poc/runtime/calendar-types-source-v1/",
+  "decision_evidence": "Primary-agent manually translated five visible type labels with original decoded-cell segment lengths; existing menu draft retained. Human wording review pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Native controls and253 unselected slots preserved. Keyboard2/3/4, default names62/63, dynamic confirmation61 and persistence stay source-identical; sixth ????? segment unchanged.",
+  "units": [
+    {
+      "id": "6368E8:0:0",
+      "source": "とうろく    よていをみる  さくじょ    ",
+      "translation": "등록      일정 보기   삭제      ",
+      "state": "needs_review"
+    },
+    {
+      "id": "6368E8:60:0",
+      "source": "TVばんぐみともだちと約束ごはんじゅくそのた?????",
+      "translation": "TV 방송 친구와 약속 식사 학원 기타 ?????",
+      "state": "needs_review"
+    }
+  ],
+  "scope_variant": "type-labels-v1"
+}

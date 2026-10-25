@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BFE4C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BFE4C.tpl",
+    "sha256": "620dc7b9e561f5efc7a3aa4a9483f914b922a1ad4587f4e6bd1fef072884780d"
+  },
+  "source_archive_sha256": "0b8234b566a5fac2b429af5c403eaba1d5e15d00923f2251641b3542ece68517",
+  "consumer": "normal-dialogue-choice-mission-field",
+  "context": "118 Japanese literals from3 archives.2 chuckles,10 flying-program request,106 mission field/results. Provisional7C0F8C:0:0 excluded from this draft, retained unresolved.",
+  "voice": "Program polite, WindMan dignified, ProtoMan polite mission reporting but firm speech to suspects; each suspect rough/distinct. Candidates not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "WindMan flag4929/7701, nickname command, Internet1 and options; field scripts10..41 global15=513/flags5473/7701 and portrait boundaries intact. Test0 kept source.",
+  "semantic_review": [
+    "WindMan offers to help the program fly; ritual at Internet1 without invented duration/reward. Source nickname+よ drafted nickname+comma rather than an invariant Korean vocative particle.",
+    "ProtoMan reports mission completion/failure formally, questions suspects firmly. Source portraits, not repeated source text, assign later reactions. No actual arrest/reward/save effects inferred from dialogue.",
+    "Prior mission6DE3E0 terms 그림자 군단/바리바리본/언더인터넷 retained; ウラ shorthand drafted 언더 without inventing specific numbered destination.",
+    "7C0F8C28 retains unnamed 그곳, not guessed prison name.25 feigned surrender then attack preserved; deletion threats not softened into ordinary loss.",
+    "7BFE4C has only two chuckles; no appliance or mission identity guessed.7C0970:0:0 and7C0F8C:0:0 provisional minigame/battle-test consumers remain unresolved, never silently excluded from overall denominator.",
+    "Static protection only, no normal-play ritual/mission/encounter/results/nickname/save/screen verification. Voice, sound rendering and layout need review."
+  ],
+  "units": [
+    {
+      "id": "7BFE4C:0:0",
+      "source": "ギッシッシ・・・",
+      "translation": "기시시...",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Chuckling program, flying-program request with WindMan and ProtoMan mission field exchanges. All local scripts including unresolved test read.",
+      "variable_context": "7C0668:0:3 follows printPlayerNickname; comma avoids variable-final-consonant vocative. Portrait changes within scripts determine speaker. Commands untouched."
+    },
+    {
+      "id": "7BFE4C:0:1",
+      "source": "ニッシッシ・・・",
+      "translation": "니시시...",
+      "state": "needs_review",
+      "speaker": "MrProgGreen",
+      "origin_portrait": "MrProgGreen",
+      "portrait_visibility": "visible",
+      "context": "Chuckling program, flying-program request with WindMan and ProtoMan mission field exchanges. All local scripts including unresolved test read.",
+      "variable_context": "7C0668:0:3 follows printPlayerNickname; comma avoids variable-final-consonant vocative. Portrait changes within scripts determine speaker. Commands untouched."
+    }
+  ]
+}

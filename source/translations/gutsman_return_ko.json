@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6663B8",
+  "source_archive_sha256": "7c1410a2b14758a560a3ebc60abdbc7ae8fa99f5b9bfd7e1fe5418ae34f4fe5b",
+  "consumer": "normal-dialogue",
+  "context": "GutsMan normal internet return1 and defeated return2; original root038118/intro+8. Same native group explicitly names GutsMan. Portrait92,110,type1,3rows/keyWait/clear/waitHold retained.",
+  "voice": "Existing GutsMan development candidate 거츠/거스 voice; wording/terminology/presentation human review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/6663B8.tpl; native GutsMan group root038110; translations/gutsman_intro_ko.json",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Complete finite literal population; IDs/source,numerals,newline boundaries,all commands/slots/native variables preserved. No RTC/save/input/gameplay-code changes.",
+  "semantic_review": [
+    "Defeated return remains defeat with resolve for next time, not successful return. Explicit .EXE identity retained.",
+    "Mail delivery branches/variable insertion are not normal execution proved by static font/geometry. NumberMan4649 approval not reused."
+  ],
+  "units": [
+    {
+      "id": "6663B8:1:0",
+      "source": "ただいまでガス!!\nやっぱりインターネットは\nたのしいでガス!!",
+      "translation": "다녀왔거스!!\n역시 인터넷은\n재미있거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "6663B8:2:0",
+      "source": "やられてしまったでガス\n・・・けど、つぎは\nがんばるでガッツ!!",
+      "translation": "당해 버렸거스\n・・・하지만,다음엔\n힘내겠거츠!!",
+      "state": "needs_review"
+    }
+  ]
+}

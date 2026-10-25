@@ -1,0 +1,371 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "65E8B8",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/65E8B8.tpl",
+    "sha256": "1f9361c075c7e4d06b6fd72cdeffa5e6609c5cb764e0609e711d960ec8fc93f3"
+  },
+  "source_archive_sha256": "b0d579ddcfde64d559f8520fd59edfaa12b6c895bc3eb5d057af61d0f06a0059",
+  "consumer": "quick-progress-hints",
+  "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+  "voice": "Friendly plain source; explicit Roll menu only; no assigned Navi for quick hints; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep current-ROM selection, source hashes/commands/flags/items/tournament/date branches/variable order, newline/choice padding, portraits and option dimensions. No menu action/save/ROM writes.",
+  "semantic_review": [
+    "Source10 priority dispatch unchanged, including flags2/8904..8910, navi flags, item1/11, tournament bitmask4; no new progression claim.",
+    "Areas3/5/7/9/10/12, chip104 buffer0, minus-key retrieval and delivery internet9 retain destination and numeral meaning.",
+    "Defeated Navi suspected culprit, other Navi1 has key: conjecture preserved, not certain attribution. Coffin marker retained without naming criminal.",
+    "Weekday0/6 branches34/30 and unread-mail branches9416..9422 to33 unchanged; no inferred current date or weekday consumer verification.",
+    "No live progression/hint priority/quest/tournament/mail/portrait/runtime evidence; candidate terminology 내비 vs previous 나비 variants remains review."
+  ],
+  "units": [
+    {
+      "id": "65E8B8:10:0",
+      "source": "もっとインターネットを\nたんさくしてみようよ!",
+      "translation": "인터넷을 더\n탐색해 보자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:11:0",
+      "source": "みならいライセンスしけん\nうけにいこう!",
+      "translation": "견습 라이선스 시험을\n보러 가자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:12:0",
+      "source": "みならいライセンスしけん\nがんばろうね!!",
+      "translation": "견습 라이선스 시험\n힘내자!!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:13:1",
+      "source": "」 を\nゲットしてこよう!",
+      "translation": "」 칩을\n구하러 가자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:14:0",
+      "source": "みならいライセンスを\nうけとりに行こ!",
+      "translation": "견습 라이선스를\n받으러 가자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:15:0",
+      "source": "みならいライセンスしけん\nおつかれさま!\nちょっときゅうけいする?",
+      "translation": "견습 라이선스 시험\n수고했어!\n잠깐 쉴까?",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:16:0",
+      "source": "インターネット3で\nおこってるじけん\n気になるね・・・",
+      "translation": "인터넷3에서\n벌어진 사건이\n신경 쓰이네...",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:17:0",
+      "source": "さっきたおしたナビが\nじけんの はんにんだった\nみたいだね・・・",
+      "translation": "아까 쓰러뜨린 내비가\n사건의 범인이었던\n것 같네...",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:17:1",
+      "source": "つかれたでしょ、\nいちど、プラグアウト\nしよっか?",
+      "translation": "피곤하지,\n한 번 플러그아웃\n할까?",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:18:0",
+      "source": "インターネット5で\nおこってるじけん\n気になるね・・・",
+      "translation": "인터넷5에서\n벌어진 사건이\n신경 쓰이네...",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:19:0",
+      "source": "インターネット7で\nおこってるじけん\n気になるね・・・",
+      "translation": "인터넷7에서\n벌어진 사건이\n신경 쓰이네...",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:20:0",
+      "source": "インターネット9で\nおこってるじけん\n気になるね・・・",
+      "translation": "인터넷9에서\n벌어진 사건이\n신경 쓰이네...",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:21:0",
+      "source": "インターネット10で\nおこってるじけん\n気になるね・・・",
+      "translation": "인터넷10에서\n벌어진 사건이\n신경 쓰이네...",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:22:0",
+      "source": "インターネット12で\nおこってるじけん\n気になるね・・・",
+      "translation": "인터넷12에서\n벌어진 사건이\n신경 쓰이네...",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:23:0",
+      "source": "ブラックワークスから\n「マイナスキー」 を\nとりかえそう!!",
+      "translation": "블랙워크스에게서\n「마이너스키」를\n되찾자!!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:24:0",
+      "source": "「マイナスキー」 は、\nもう1体のナビがもってる\nみたいだね!!",
+      "translation": "「마이너스키」는,\n다른 내비 1명이 갖고\n있는 것 같네!!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:25:0",
+      "source": "「マイナスキー」 を\nインターネット9にいる\nナビにとどけよう!",
+      "translation": "「마이너스키」를\n인터넷9에 있는\n내비에게 전해 주자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:26:0",
+      "source": "オフィシャル\nトーナメントの\nエントリーかいじょうに",
+      "translation": "오피셜\n토너먼트의\n참가 접수장에",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:26:1",
+      "source": "行ってみようよ!",
+      "translation": "가 보자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:27:0",
+      "source": "ウラインターネットに\n行こう!",
+      "translation": "언더인터넷으로\n가자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:27:1",
+      "source": "きょうあくはんの\nめじるしはカンオケ\nだったね",
+      "translation": "흉악범을 찾을\n표식은\n관이었지",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:28:0",
+      "source": "、\nオフィシャル\nトーナメントに",
+      "translation": ",\n오피셜\n토너먼트에",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:28:1",
+      "source": "エントリーしに行こう!",
+      "translation": "참가 신청하러 가자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:29:0",
+      "source": "しゅうまつの\nオフィシャルトーナメント\nがんばろうね!!",
+      "translation": "주말에 열리는\n오피셜 토너먼트\n힘내자!!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:30:0",
+      "source": "オフィシャルトーナメント\nゆうしょう・・・\nネットバトラーのユメだね",
+      "translation": "오피셜 토너먼트\n우승...\n넷배틀러의 꿈이지",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:31:0",
+      "source": "インターネットには\nまだまだヒミツが\nあるかもしれないよ!",
+      "translation": "인터넷에는\n아직 비밀이 더\n있을지도 몰라!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:31:1",
+      "source": "もっと、たんさく\nしてみよう",
+      "translation": "좀 더 탐색해\n보자",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:32:1",
+      "source": "オフィシャル\nトーナメントのよせんを\nうけに行こうよ!",
+      "translation": "오피셜\n토너먼트 예선을\n보러 가자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:33:0",
+      "source": "ねえ、さっきとどいた\nメールをよもうよ!",
+      "translation": "있잖아, 아까 도착한\n메일을 읽어 보자!",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:34:0",
+      "source": "しゅうがあけたら、\nオフィシャル\nトーナメントの",
+      "translation": "다음 주가 되면,\n오피셜\n토너먼트의",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    },
+    {
+      "id": "65E8B8:34:1",
+      "source": "エントリーかいじょうに\n行こうね",
+      "translation": "참가 접수장에\n가자",
+      "state": "needs_review",
+      "speaker": "unshown-progress-hint-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Progress-priority hints routed by source10 flags, items and tournament state; source no mugshot.",
+      "variable_context": "Nickname/chip/event buffers retain arguments and ordering. Ownership 의 or quoted name + category avoids dependent particle. Capacity/input persistence and caller still need runtime checks."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "base": "tools/build_development_patch_040_v2.py",
+  "base_sha256": "afcbadef856667c6a4f0a30da8ebf0bb1e041c4bcddd70a573e04cea9499faf6",
+  "output": "tools/build_development_patch_041_v1.py",
+  "output_sha256": "3953943b15c6dfc2ddd8c7e48d3f48746bfaedb2fa518be8f4f778e2cd1b3d44",
+  "changes": [
+    [
+      "    from typed_rom_product040_v2 import load_inputs as load_inputs040,install as install_typed040,finalize as finalize040,predecessor_view as predecessor_view040",
+      "    from typed_rom_product040_v2 import load_inputs as load_inputs040,install as install_typed040,finalize as finalize040,predecessor_view as predecessor_view040\n    from typed_rom_product041_v1 import load_inputs as load_inputs041,install as install_typed041,finalize as finalize041,predecessor_view as predecessor_view041"
+    ],
+    [
+      "    inputs040=load_inputs040(source)",
+      "    inputs040=load_inputs040(source)\n    inputs041=load_inputs041(source)"
+    ],
+    [
+      "    for entry040,_ in inputs040:",
+      "    for entry041,*_ in inputs041:\n        asset041=read_json(ROOT/entry041['asset']['path'])\n        needed.update(ch for u in asset041['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    for entry040,_ in inputs040:"
+    ],
+    [
+      "        appended,key_patches,keyitem_rom,typed_records040=install_typed040(source,appended,key_patches,keyitem_rom,inputs040,common,work/'plugins',work/'typed040')",
+      "        appended,key_patches,keyitem_rom,typed_records040=install_typed040(source,appended,key_patches,keyitem_rom,inputs040,common,work/'plugins',work/'typed040')\n        appended,key_patches,keyitem_rom,typed_records041=install_typed041(source,appended,key_patches,keyitem_rom,inputs041,common,work/'plugins',work/'typed041')"
+    ],
+    [
+      "        from typed_rom_product040_v2 import verify_final",
+      "        from typed_rom_product041_v1 import verify_final"
+    ],
+    [
+      "    parent039=predecessor_view040(source,target,result['keyitem_rom'])",
+      "    parent040=predecessor_view041(source,target,result['keyitem_rom'])\n    parent039=predecessor_view040(source,parent040,result['keyitem_rom'])"
+    ],
+    [
+      "    finalize040(source,target,result,inputs040,typed_records040)",
+      "    finalize040(source,parent040,result,inputs040,typed_records040)\n    finalize041(source,target,result,inputs041,typed_records041)"
+    ]
+  ],
+  "component": {
+    "path": "tools/typed_rom_product041_v1.py",
+    "sha256": "72bf8b05c7dd8337b755a26dec4b1d02390ed46c50618721a18b361018aaf798"
+  },
+  "scope": "041 exact500 new + carry156 over53 archives; one composed root/full-bytes selector over040; no distribution packages"
+}

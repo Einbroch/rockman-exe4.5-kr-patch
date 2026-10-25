@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "files": [
+    {
+      "base": "tools/build_development_patch_031.py",
+      "base_sha256": "cfb81978f7a67d2f3c2cc64055ebe6424f52d07934c9ff2f30ee0b2b9acfabc1",
+      "output": "tools/build_development_patch_032.py",
+      "edits": [
+        {
+          "before": "Version031 of the primary path; frozen024/025/026/027/028/029/030 precede031.",
+          "after": "Version032 of the primary path; frozen024 through031 precede032; unchanged031 appended route guarded."
+        },
+        {
+          "before": "    inputs031,summary031=load_inputs031(source)",
+          "after": "    inputs031,summary031=load_inputs031(source)\n    from layout500_inputs_032 import load_inputs as load_inputs032\n    from layout500_product_032 import compose_primary as compose_primary032,finalize as finalize032,guard_unaffected_appended\n    inputs032,summary032=load_inputs032(source)\n    guard_unaffected_appended(inputs032,inputs027,inputs028,inputs030)"
+        },
+        {
+          "before": "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)",
+          "after": "    for entry032,_ in inputs032:\n        asset032=read_json(ROOT/entry032['merged_asset']['path'])\n        needed.update(ch for u in asset032['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)"
+        },
+        {
+          "before": "        payload,record=compose_primary031(archive,payload,record,inputs031,work/'plugins')",
+          "after": "        payload,record=compose_primary031(archive,payload,record,inputs031,work/'plugins')\n        payload,record=compose_primary032(archive,payload,record,inputs032,work/'plugins')"
+        },
+        {
+          "before": "    finalize031(source,target,result,inputs031,summary031,inputs024,summary024,inputs025,summary025,inputs026,summary026,inputs027,summary027,inputs028,summary028,inputs029,summary029,inputs030,summary030)",
+          "after": "    finalize032(source,target,result,inputs032,summary032,inputs024,summary024,inputs025,summary025,inputs026,summary026,inputs027,summary027,inputs028,summary028,inputs029,summary029,inputs030,summary030,inputs031,summary031)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "context": "2:1 line placement only, unchanged words/order. 2:3 individually redrafted from source, not a bulk shortening rule; needs human wording review. Original detailed investigation and information leak warning preserved. Three rows, last row avoids native arrow.",
+  "layouts": {
+    "6DD9AC:2:1": "다크로이드가 서버에\n불법 접속을 시도한 것이\n원인으로,",
+    "6DD9AC:2:3": "자세한 건 조사 중이나,\n다크로이드의 정보가\n외부에 새지 않도록"
+  }
+}

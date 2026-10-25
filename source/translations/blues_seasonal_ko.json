@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "685C68",
+  "source_archive_sha256": "f0f6a9a5af8202801fb267770735dbbbe490c2abce6e45469059f3d6b15fab76",
+  "consumer": "normal-dialogue",
+  "context": "Blues seasonal/birthday operator conversations. Source intro681AB8 explicitly names ブルース with formal greetings. Native60byte Navi group intro root03823C and seasonal+52/root038270. Portrait92,110/3rows; global22 gender branch and anniversary buffer/loop preserved. Normal unlock/date path unverified.",
+  "voice": "Polite source ワタシ/です/ございます/よろしいでしょうか motivates courteous Korean operator-address voice; human review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/681AB8.tpl; analysis/full_scope_v1/source_tpl/685C68.tpl; native roots03823C/038270",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All33 source literals including2 unchanged quote literals; IDs/text,dates/numerals,newline counts/boundaries,21slots,commands and event controls preserved. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "Hatsumode rendered 새해 첫 참배, keeping visit/permission questions. Hina-arare name retained, Momo no Sekku as 복숭아꽃 절기; culture/terminology review pending.",
+    "Japanese Tango no Sekku rendered 단오절 with source5월5일 and 어린이날 retained, not a claim about Korean lunar Dano. Culture wording and courteous voice remain needs_review.",
+    "Source red color/Santa misunderstanding and25th post-festival loneliness retained without added jokes."
+  ],
+  "units": [
+    {
+      "id": "685C68:1:0",
+      "source": "しんねん、あけまして\nおめでとうございます",
+      "translation": "새해가 밝았습니다\n새해 복 많이 받으세요",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:1:1",
+      "source": "本年も どうぞ\nよろしくおねがいします",
+      "translation": "올해도 부디\n잘 부탁드립니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:1:2",
+      "source": "ところで、\nはつもうでには\nもう 行きましたか?",
+      "translation": "그런데,\n새해 첫 참배는\n벌써 다녀오셨나요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:1:3",
+      "source": "よければ ワタシも\n行ってみたいのですが\nよろしいでしょうか?",
+      "translation": "괜찮으시면 저도\n가 보고 싶은데\n가도 괜찮을까요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:2:0",
+      "source": "今日は せつぶんです",
+      "translation": "오늘은 절분입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:2:1",
+      "source": "マメまきをして\nオニを おいはらう日\nです・・・",
+      "translation": "콩을 뿌려서\n도깨비를 쫓아내는\n날입니다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:2:2",
+      "source": "ウイルスバスティングに\nにていますね・・・",
+      "translation": "바이러스 퇴치와\n비슷하네요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:3:0",
+      "source": "今日は、\nバレンタインデーです",
+      "translation": "오늘은,\n발렌타인데이입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:3:1",
+      "source": "チョコレート、\nもらえると いいですね",
+      "translation": "초콜릿을,\n받으시면 좋겠네요",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:4:0",
+      "source": "今日は、\nバレンタインデーです",
+      "translation": "오늘은,\n발렌타인데이입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:4:1",
+      "source": "もともと がいこくから\nやってきた ふうしゅう\nですが、",
+      "translation": "원래 외국에서\n들어온 풍습\n이지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:4:2",
+      "source": "なかなか こくはく\nできない ウチ気な人は\nぜっこうの チャンスです",
+      "translation": "쉽게 고백하지\n못하는 내성적인 분께\n더없이 좋은 기회죠",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:5:0",
+      "source": "今日は 3月3日、\nもものせっく、\nひなまつりの日です",
+      "translation": "오늘은 3월3일,\n복숭아꽃 절기,\n히나마쓰리 날입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:5:1",
+      "source": "ワタシたち オトコには\nあまり かんけい\nありませんが、",
+      "translation": "우리 같은 남자는\n별로 관련이\n없지만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:5:2",
+      "source": "ヒナあられくらいは\nたべられそうですね",
+      "translation": "히나아라레 정도는\n먹을 수 있겠네요",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:6:0",
+      "source": "今日は 5月5日の\nたんごのせっく、\nコドモの日です",
+      "translation": "오늘은 5월5일\n단오절이자,\n어린이날입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:7:0",
+      "source": "今日は 7月7日、\nたなばたです",
+      "translation": "오늘은 7월7일,\n칠석입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:7:1",
+      "source": "たんざくには どんな\nねがいごとを かかれるの\nですか?",
+      "translation": "소원 쪽지에는\n어떤 소원을 쓰실\n생각인가요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:8:0",
+      "source": "今日は、\nクリスマスイヴです",
+      "translation": "오늘은,\n크리스마스이브입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:8:1",
+      "source": "このじきになると、\nサンタクロースに\nよくまちがわれます",
+      "translation": "이맘때가 되면,\n산타클로스로\n자주 오해받습니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:8:2",
+      "source": "いろが にているの\nでしょうね",
+      "translation": "색이 비슷해서\n그렇겠지요",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:9:0",
+      "source": "メリークリスマス!\n今日は クリスマスです",
+      "translation": "메리 크리스마스!\n오늘은 크리스마스죠",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:9:1",
+      "source": "25日は おまつりが\nおわったような\nさみしさが ありますね",
+      "translation": "25일은 축제가\n끝난 듯한\n쓸쓸함이 있네요",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:10:0",
+      "source": "今日は おおみそかです",
+      "translation": "오늘은 섣달그믐입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:10:1",
+      "source": "あすは あたらしい年が\nはじまりますね",
+      "translation": "내일은 새로운 해가\n시작되겠네요",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:10:2",
+      "source": "しんねんを むかえる\nじゅんびは\nできていますか?",
+      "translation": "새해를 맞이할\n준비는\n되어 있으신가요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:11:0",
+      "source": "おたんじょう日、\nおめでとうございます",
+      "translation": "생일을,\n축하드립니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:11:1",
+      "source": "これからも よろしく\nおねがいします",
+      "translation": "앞으로도 잘\n부탁드립니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:12:0",
+      "source": "そうりつきねん日です\n今日、学校は\nおやすみでしょうか?",
+      "translation": "창립 기념일입니다\n오늘 학교는\n쉬는 날인가요?",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "685C68:19:0",
+      "source": "です・・・",
+      "translation": "입니다・・・",
+      "state": "needs_review"
+    }
+  ]
+}

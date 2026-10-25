@@ -1,0 +1,14 @@
+{
+ "schema":1,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "id":"equipment.obj.buster_attack","source":"バスター攻撃力","translation":"버스터 공격력",
+ "source_offset":5320608,"stored_bytes":516,"source_stored_sha256":"34e7af43c90dd7c80ea176df7bfcb83557673741380328d0853ab481daa46bff",
+ "decompressed_bytes":1156,"tile_payload_offset":36,"caption_bytes":768,"canvas":[96,16],
+ "edit_rect":[7,4,60,11],"glyph_origin":[8,5],"advance":8,"space_advance":3,
+ "font_asset":"translations/pet_menu_graphics_ko.json",
+ "palette_roles":{"background":14,"ink":15,"shadow":13,"bottom_border":12},
+ "context":"Static equipment buster attack-power label; numeric value is a separate original script63 consumer. Original compressed sprite asset loader table0803C424 second pointer is08512FA0. Decompressed payload has36-byte header; native RAM asset0202BF7C omits first4 bookkeeping bytes, so tiles+20h at0202BF9C copied to06013C00. Three32x16 OBJ use caption96x16. No dialogue/naming dependency.",
+ "evidence":"poc/runtime/attack-caption-source-v5/step_007_caption_supply.json; source tools/attack_caption.py contract",
+ "review":"needs_review","release_eligible":false,
+ "protected_policy":"Preserve payload header/metadata/remaining tiles, border/bevel/palette/alpha and attack number. Remove all source ink/shadow only in established text region; reuse existing pixel-font assets without scaling. Same output size, original compressed allocation, pointers and native code unchanged. No new hook."
+}

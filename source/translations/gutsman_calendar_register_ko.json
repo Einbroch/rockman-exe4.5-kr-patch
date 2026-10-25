@@ -1,0 +1,32 @@
+{
+  "schema":1,
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive":"665698",
+  "source_archive_sha256":"f8592c08c3a5c763052780ccaa48cbd74a1568898eec37425da47530304356ca",
+  "consumer":"normal-dialogue",
+  "scope_variant":"calendar-register-v1",
+  "parent_asset":{"path":"translations/gutsman_calendar_home_ko.json","sha256":"4f60c8a74156a3247e526f29f7182b8001680ed7433ec431fb1bafe43df3f1a6","carry_units":10},
+  "context":"Normal calendar registration date prompt1 and registration-type choice2 plus ten retained home/input/confirmation literals. Both screens are reached consecutively before time entry.",
+  "evidence":"analysis/full_scope_v1/source_tpl/665698.tpl; poc/runtime/gutsman-calendar-home-v1-calendar/step_004.png; poc/runtime/gutsman-calendar-home-v1-calendar/step_005.png",
+  "decision_evidence":"Four literals manually drafted from the observed normal route. スケジュール is localized as 일정 consistently with the existing menu, and きねん日 as 기념일. Existing 거스 voice retained; wording review pending.",
+  "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "insertion_state":"development input; selected only by explicit --gutsman-calendar-register after registered choice geometry and interaction checks",
+  "protected_policy":"Script1 keeps one newline. Script2 prompt and first option each keep one newline; positionOptionVertical7, both option links, default0, BSeparate true, clear false, targets and waitHold preserved.",
+  "units":[
+    {"id":"665698:20:0","source":"時間は何時からでガス?","translation":"몇 시부터 시작하거스?","state":"needs_review"},
+    {"id":"665698:21:0","source":"どのタイプでガス?","translation":"어떤 종류거스?","state":"needs_review"},
+    {"id":"665698:22:0","source":"どんな ないようでガス?","translation":"어떤 내용이거스?","state":"needs_review"},
+    {"id":"665698:23:0","source":"ダレとの やくそくでガス?","translation":"누구와 약속이거스?","state":"needs_review"},
+    {"id":"665698:24:0","source":"いじょうで いいでガス?\n\n","translation":"이렇게 하면 되거스?\n\n","state":"needs_review"},
+    {"id":"665698:24:1","source":"はい  ","translation":"예  ","state":"needs_review"},
+    {"id":"665698:24:2","source":"いいえ","translation":"아니오","state":"needs_review"},
+    {"id":"665698:0:0","source":"今日は ","translation":"오늘은 ","state":"needs_review"},
+    {"id":"665698:0:1","source":"月","translation":"월","state":"needs_review"},
+    {"id":"665698:0:2","source":"日でガス\nなにをするでガス?","translation":"일이거스\n뭘 할 거스?","state":"needs_review"},
+    {"id":"665698:1:0","source":"どの日の スケジュールを\n入力するでガス?","translation":"어느 날의 일정을\n입력하거스?","state":"needs_review"},
+    {"id":"665698:2:0","source":"なにを とうろくするでガス?\n","translation":"뭘 등록하거스?\n","state":"needs_review"},
+    {"id":"665698:2:1","source":"スケジュール\n","translation":"일정\n","state":"needs_review"},
+    {"id":"665698:2:2","source":"きねん日","translation":"기념일","state":"needs_review"}
+  ]
+}

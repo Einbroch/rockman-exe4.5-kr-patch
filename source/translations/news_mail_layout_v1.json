@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "context": "9:2 and9:7 explicit line placement only, unchanged words/order. 10:0 individual draft synonym 의문의 for source なぞの, not approved terminology or bulk shortening. Full news sequence preserves unnamed operator reveal order; human wording review pending.",
+  "layouts": {
+    "6DD9AC:9:2": "아무래도 어느 뛰어난\n오퍼레이터가 쓰러뜨려\n준 모양입니다!",
+    "6DD9AC:9:7": "절대로 넷 배틀에\n도전하는 일이 없도록\n해 주세요!",
+    "6DD9AC:10:0": "메일 뉴스3호\n「의문의 오퍼레이터!」"
+  }
+}

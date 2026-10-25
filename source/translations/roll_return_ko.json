@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "65FEC0",
+  "source_archive_sha256": "ae766f6e7423463ca65f478567c93b3a551fd2e53f7f54820453892bb692b62f",
+  "consumer": "normal-dialogue",
+  "context": "Roll return and defeat pages at native root380DC. Normal R plug-out prompt defaults to No; Left then A selects Yes. Survey-v4 observed native script1 entry and RAM nickname on second page. Script2 actual defeat trigger remains unverified.",
+  "voice": "Friendly informal Roll draft; human wording approval pending.",
+  "evidence": "analysis/tpl_baseline/65FEC0.tpl; poc/runtime/roll-return-survey-v4",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "Source scripts0/3 and every command/argument retained. Nickname suffix literal1 first line remains exactly the native comma; no added Korean particle. Original line counts retained.",
+  "decision_evidence": "Four drafts manually authored in source order after native return observation. 오퍼레이팅 is an unapproved development transliteration, not official terminology. Defeat script does not establish an actual battle loss.",
+  "units": [
+    {"id":"65FEC0:1:0","source":"ふぅっ、ただいまー!","translation":"휴, 다녀왔어!","state":"needs_review"},
+    {"id":"65FEC0:1:1","source":"、\nおつかれさま!","translation":"、\n수고했어!","state":"needs_review"},
+    {"id":"65FEC0:2:0","source":"イタタタ・・・\nやられちゃった","translation":"아야야・・・\n당해 버렸네","state":"needs_review"},
+    {"id":"65FEC0:2:1","source":"つぎは ちゃんと\nオペレーティングしてね!","translation":"다음엔 제대로\n오퍼레이팅해 줘!","state":"needs_review"}
+  ]
+}

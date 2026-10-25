@@ -1,0 +1,12 @@
+{
+ "schema":1,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"6368E8","source_archive_sha256":"816d719a806e861faf90bdf61bb960ff20eb965001871274387fce2542711c74",
+ "consumer":"fixed-cell-big",
+ "context":"Calendar menu only: three eight-cell groups drawn into OBJ tiles through native554A4/fixed-cell parser;24 glyph records1536bytes. Other254 slots, keyboard, preset names and storage remain source-identical.",
+ "evidence":"poc/runtime/calendar-fixed-source-v1/step_002_fixedcells.json; analysis/tpl_baseline/6368E8.tpl; analysis/SCHEDULE_PRESET_SOURCE_BOUNDARY.md",
+ "decision_evidence":"Primary agent manually translated three operation labels. Equal8-cell groups preserve menu tile grouping; no automated prose transform. Human wording/visual approval pending.",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "protected_policy":"All commands and254 unselected slots preserved; explicitly retain source keyboard2/3/4, basic names62/63, menu60 and persistence scripts. No user-created string format mutation.",
+ "units":[{"id":"6368E8:0:0","source":"とうろく    よていをみる  さくじょ    ","translation":"등록      일정 보기   삭제      ","state":"needs_review"}]
+}

@@ -1,0 +1,18 @@
+{
+  "schema":1,
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "install":{"offset":128980,"expected_hex":"011cc905c90d0448"},
+  "caller_lr":134309549,
+  "native_primary":141971856,
+  "native_secondary":141974296,
+  "native_font":140586552,
+  "roles":{"background":0,"ink":1,"shadow":2},
+  "protected":[
+    {"offset":128988,"hex":"ff2902dd04300906090e0068f746"},
+    {"offset":129004,"hex":"f0f7010890517608185b7608"}
+  ],
+  "evidence":"analysis/exe45_chip_battle_native_names_v1.json",
+  "scope":"primary selected1..N names only when native helper returnLR080166AD. Keep every other caller and secondary name native. Native8x1, palette13, glyph0 padding and existing big-bank roles0/1/2.",
+  "limits":["Observed native source scripts29/221 only; all selected names and other callers require CPU/runtime checks","No computed interior-entry exclusion claim from absent static references","No new wording approval or complete-game claim"]
+}

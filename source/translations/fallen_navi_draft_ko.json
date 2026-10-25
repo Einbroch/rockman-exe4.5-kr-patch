@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BF8C0",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BF8C0.tpl",
+    "sha256": "0c604fe2760775ed28e334db6707242d476f9d2c03c8fa6a0a99e0c0eb6722e2"
+  },
+  "source_archive_sha256": "7a8fcbc6fd7f960892c91a2920e83cdef0454280543be9a25ada7f99c775ab9a",
+  "consumer": "normal-dialogue-observation-choice-battle",
+  "context": "All21 Japanese literals from2 archives. Silence/observation and both offers/refusals/results read.",
+  "voice": "Unresponsive Navi silence, neutral hidden observations and rough dark HeelNaviBlack. Candidates not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Retain mugshotAnimation0 and hidden observation boundaries; battle197/198/global27=675/676, result globals25/26 and flags1806/7701; option widths9/8 and trailing two spaces.",
+  "semantic_review": [
+    "7BF8C0 visible silence is not spoken translated narration. Hidden no-response and long-ago-expired observations retain uncertainty ようだ; source explicitly differs from disabled program7BCEBC.",
+    "Both7BFC50 portraits are HeelNaviBlack, but separate battles197/198 with result scripts2/3 and6/7. Dark power rhetoric not a new player ability, reward or changed battle mechanic.",
+    "ヤミのチカラ drafted 어둠의 힘; no invented named technique or dark chip. Threats and defeat boast are speaker rhetoric, not actual player damage/save deletion.",
+    "Static preservation only; no normal-play encounter/battle/results/menu/save/screen verification. Wording and presentation remain review candidates."
+  ],
+  "units": [
+    {
+      "id": "7BF8C0:0:0",
+      "source": "・・・・・・",
+      "translation": "......",
+      "state": "needs_review",
+      "speaker": "NormalNaviYellow",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "visible",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BF8C0:0:1",
+      "source": "へんじがない・・・",
+      "translation": "응답이 없다...",
+      "state": "needs_review",
+      "speaker": "system-observation",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "hidden",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    },
+    {
+      "id": "7BF8C0:0:2",
+      "source": "もう ずいぶんまえに\nここで いきたえたようだ・・・",
+      "translation": "아주 오래전에\n여기서 숨이 끊어진 것 같다...",
+      "state": "needs_review",
+      "speaker": "system-observation",
+      "origin_portrait": "NormalNaviYellow",
+      "portrait_visibility": "hidden",
+      "context": "Fallen Navi silence/hidden observation or two HeelNaviBlack battle offers/results. Complete local scripts read.",
+      "variable_context": "No dynamic name/item literals. Source animation0, portrait visibility, battle globals and option widths8/9 remain untouched."
+    }
+  ]
+}

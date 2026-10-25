@@ -1,0 +1,407 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "review": "needs_review",
+  "entries": [
+    {
+      "script": 0,
+      "name": "우드맨DS"
+    },
+    {
+      "script": 1,
+      "name": "탭맨"
+    },
+    {
+      "script": 2,
+      "name": "탭맨SP"
+    },
+    {
+      "script": 3,
+      "name": "탭맨DS"
+    },
+    {
+      "script": 4,
+      "name": "셰이드맨"
+    },
+    {
+      "script": 5,
+      "name": "셰이드맨SP"
+    },
+    {
+      "script": 6,
+      "name": "셰이드맨DS"
+    },
+    {
+      "script": 7,
+      "name": "버너맨"
+    },
+    {
+      "script": 8,
+      "name": "버너맨SP"
+    },
+    {
+      "script": 9,
+      "name": "버너맨DS"
+    },
+    {
+      "script": 10,
+      "name": "콜드맨"
+    },
+    {
+      "script": 11,
+      "name": "콜드맨SP"
+    },
+    {
+      "script": 12,
+      "name": "콜드맨DS"
+    },
+    {
+      "script": 13,
+      "name": "스파크맨"
+    },
+    {
+      "script": 14,
+      "name": "스파크맨SP"
+    },
+    {
+      "script": 15,
+      "name": "스파크맨DS"
+    },
+    {
+      "script": 16,
+      "name": "레이저맨"
+    },
+    {
+      "script": 17,
+      "name": "레이저맨SP"
+    },
+    {
+      "script": 18,
+      "name": "레이저맨DS"
+    },
+    {
+      "script": 19,
+      "name": "켄도맨"
+    },
+    {
+      "script": 20,
+      "name": "켄도맨SP"
+    },
+    {
+      "script": 21,
+      "name": "켄도맨DS"
+    },
+    {
+      "script": 22,
+      "name": "비디오맨"
+    },
+    {
+      "script": 23,
+      "name": "비디오맨SP"
+    },
+    {
+      "script": 24,
+      "name": "비디오맨DS"
+    },
+    {
+      "script": 25,
+      "name": "마킹"
+    },
+    {
+      "script": 26,
+      "name": "캐논모드"
+    },
+    {
+      "script": 27,
+      "name": "포탄모드"
+    },
+    {
+      "script": 28,
+      "name": "소드모드"
+    },
+    {
+      "script": 29,
+      "name": "파이어플러스"
+    },
+    {
+      "script": 30,
+      "name": "썬더플러스"
+    },
+    {
+      "script": 31,
+      "name": "아쿠아파워"
+    },
+    {
+      "script": 32,
+      "name": "우드파워"
+    },
+    {
+      "script": 33,
+      "name": "블랙웨폰"
+    },
+    {
+      "script": 34,
+      "name": "파이널건"
+    },
+    {
+      "script": 45,
+      "name": "포르테"
+    },
+    {
+      "script": 46,
+      "name": "델타레이에지"
+    },
+    {
+      "script": 47,
+      "name": "커스오브버그"
+    },
+    {
+      "script": 48,
+      "name": "메테오레드선"
+    },
+    {
+      "script": 49,
+      "name": "시그널레드"
+    },
+    {
+      "script": 50,
+      "name": "포르테어나더"
+    },
+    {
+      "script": 51,
+      "name": "홀리드림"
+    },
+    {
+      "script": 52,
+      "name": "블랙배리어"
+    },
+    {
+      "script": 53,
+      "name": "블루문레이"
+    },
+    {
+      "script": 54,
+      "name": "버그차지"
+    },
+    {
+      "script": 64,
+      "name": "다크메시아네오"
+    },
+    {
+      "script": 65,
+      "name": "히트스프레드"
+    },
+    {
+      "script": 66,
+      "name": "버블스프레드"
+    },
+    {
+      "script": 67,
+      "name": "기가캐논1"
+    },
+    {
+      "script": 68,
+      "name": "기가캐논2"
+    },
+    {
+      "script": 69,
+      "name": "기가캐논3"
+    },
+    {
+      "script": 70,
+      "name": "슈퍼와이드1"
+    },
+    {
+      "script": 71,
+      "name": "슈퍼와이드2"
+    },
+    {
+      "script": 72,
+      "name": "슈퍼와이드3"
+    },
+    {
+      "script": 73,
+      "name": "플레임크로스1"
+    },
+    {
+      "script": 74,
+      "name": "플레임크로스2"
+    },
+    {
+      "script": 75,
+      "name": "플레임크로스3"
+    },
+    {
+      "script": 76,
+      "name": "헬부메랑1"
+    },
+    {
+      "script": 77,
+      "name": "헬부메랑2"
+    },
+    {
+      "script": 78,
+      "name": "헬부메랑3"
+    },
+    {
+      "script": 79,
+      "name": "매드팽1"
+    },
+    {
+      "script": 80,
+      "name": "매드팽2"
+    },
+    {
+      "script": 81,
+      "name": "매드팽3"
+    },
+    {
+      "script": 82,
+      "name": "지옥하키1"
+    },
+    {
+      "script": 83,
+      "name": "지옥하키2"
+    },
+    {
+      "script": 84,
+      "name": "지옥하키3"
+    },
+    {
+      "script": 85,
+      "name": "마그쇼크1"
+    },
+    {
+      "script": 86,
+      "name": "마그쇼크2"
+    },
+    {
+      "script": 87,
+      "name": "마그쇼크3"
+    },
+    {
+      "script": 88,
+      "name": "드림소드"
+    },
+    {
+      "script": 89,
+      "name": "파일드라이버"
+    },
+    {
+      "script": 90,
+      "name": "기가카운트봄"
+    },
+    {
+      "script": 91,
+      "name": "포이즌파라오"
+    },
+    {
+      "script": 92,
+      "name": "보디가드"
+    },
+    {
+      "script": 93,
+      "name": "하이퍼버스트"
+    },
+    {
+      "script": 112,
+      "name": "다크레이저"
+    },
+    {
+      "script": 114,
+      "name": "파이터소드"
+    },
+    {
+      "script": 115,
+      "name": "소닉붐"
+    },
+    {
+      "script": 116,
+      "name": "저주"
+    },
+    {
+      "script": 117,
+      "name": "천벌"
+    },
+    {
+      "script": 118,
+      "name": "크로스소드"
+    },
+    {
+      "script": 119,
+      "name": "슈퍼소닉"
+    },
+    {
+      "script": 120,
+      "name": "더블드림"
+    },
+    {
+      "script": 121,
+      "name": "빨리감기"
+    },
+    {
+      "script": 122,
+      "name": "되감기"
+    },
+    {
+      "script": 123,
+      "name": "연속수련"
+    },
+    {
+      "script": 124,
+      "name": "기어체인지"
+    },
+    {
+      "script": 125,
+      "name": "폴터가이스트"
+    },
+    {
+      "script": 126,
+      "name": "아이스큐브"
+    },
+    {
+      "script": 127,
+      "name": "러시서포트"
+    },
+    {
+      "script": 128,
+      "name": "비트서포트"
+    },
+    {
+      "script": 129,
+      "name": "탱고서포트"
+    },
+    {
+      "script": 130,
+      "name": "파이널건"
+    },
+    {
+      "script": 131,
+      "name": "거츠머신건"
+    },
+    {
+      "script": 133,
+      "name": "바위1"
+    },
+    {
+      "script": 134,
+      "name": "바위2"
+    },
+    {
+      "script": 135,
+      "name": "메탈기어"
+    },
+    {
+      "script": 136,
+      "name": "보이즈봄"
+    }
+  ],
+  "terminology_review": [
+    "Names are candidates, not approved for release.",
+    "Source scripts113 (????),132 (blank) and empty slots remain native.",
+    "EXE3 analysis is a technical reference; exact common wording candidates are recorded separately.",
+    "123 カカリゲイコ: 연속수련 is a meaning-based candidate; gameplay/context review required.",
+    "136 ボーイズボム: transliteration candidate; intended referent review pending.",
+    "No secondary-name consumer reinsertion or runtime rendering claim."
+  ]
+}

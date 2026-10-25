@@ -1,0 +1,167 @@
+{
+  "generator_sha256": "abf2a25aa6bca7895df24944bd80195de650010f18bd45b38d7163daea18bec9",
+  "changes": [
+    {
+      "base": "tools/field_npc_rom_product_036_v1.py",
+      "base_sha256": "114bb811af2017fe58c01659f5b27f8f1bd73e8c9eee2f3745a10bdb30594a46",
+      "output": "tools/field_native_rom_product_037_v1.py",
+      "output_sha256": "d018ba801d43c912be5e1cfe4ee27668c919a27db0ca3a11e54f1fc219da6fe6",
+      "edits": [
+        {
+          "before": "036",
+          "after": "037",
+          "occurrences": 42
+        },
+        {
+          "before": "035",
+          "after": "036",
+          "occurrences": 19
+        },
+        {
+          "before": "\"\"\"037 single-writer installation component;036 natural-route gate stays shut.\n\nNo command here builds a ROM. --preflight checks500 inputs and confirms that\nthe unresolved036 admission condition refuses installation before any writes.\n\"\"\"",
+          "after": "\"\"\"037 typed NPC/board primary component; source036 prefix retained.\n\nNo standalone ROM writer. Admission is development-only, not runtime approval.\n\"\"\"",
+          "occurrences": 1
+        },
+        {
+          "before": "prepare_npc_inputs_037_v1 import OUT as INPUT_DIR",
+          "after": "prepare_native_inputs037_v2 import OUT as INPUT_DIR,selected_from",
+          "occurrences": 1
+        },
+        {
+          "before": "prepare_source500_037_v1",
+          "after": "prepare_source500_037_v2",
+          "occurrences": 1
+        },
+        {
+          "before": "field_npc_rom_selector_037_v1",
+          "after": "field_native_rom_selector_037_v2",
+          "occurrences": 1
+        },
+        {
+          "before": "field_npc_rom_product_036_v2",
+          "after": "field_npc_rom_product_036_v1",
+          "occurrences": 1
+        },
+        {
+          "before": "def require_admission():\n    status=read('analysis/pending500_036_v2/batch_status.json')\n    if status['rom_sha256']!=BASE_SHA or not status.get('natural_cached_NPC_selection_verified'):\n        raise ValueError('036 natural cached NPC selection/display remains pending;037 ROM installation refused before writes')\n    proof=status.get('reports',{}).get('natural_cached_display')\n    if not proof:raise ValueError('036 natural runtime evidence missing')\n    require_hash(ROOT/proof['path'],proof['sha256']);r=read(proof['path'])\n    if not r.get('passed') or r.get('rom_sha256')!=BASE_SHA or r.get('natural_actor_selection_verified') is not True or r.get('release_eligible') is True:\n        raise ValueError('036 development natural runtime evidence contract')\n    return proof\n",
+          "after": "def require_admission():\n    status=read('analysis/pending500_036_v1/batch_status.json')\n    if status['rom_sha256']!=BASE_SHA or not status.get('natural_cached_NPC_selection_verified'):\n        raise ValueError('036 normal cached NPC evidence required before037 development build')\n    paths=['analysis/pending500_036_v1/integration.json','analysis/pending500_036_v1/natural_cached_display_v1.json','analysis/pending500_036_v1/native_boundaries_v1.json']\n    proofs=[]\n    for path in paths:\n        report=read(path)\n        if not report.get('passed') or report.get('rom_sha256')!=BASE_SHA:\n            raise ValueError('036 audited exact-ROM evidence required')\n        proofs.append(ref(ROOT/path))\n    cpu=read('analysis/pending_insertion_500_037_selector_cpu_v2/cpu.json')\n    if not cpu['passed'] or cpu['baseline_sha256']!=BASE_SHA or cpu['rom_written'] or cpu['descriptor_count']!=70:\n        raise ValueError('037 typed source/actual caller CPU evidence required')\n    proofs.append(ref(ROOT/'analysis/pending_insertion_500_037_selector_cpu_v2/cpu.json'))\n    return dict(reports=proofs,scope='Development integration only;036 natural A0 plus qualified A1/A3.037 A2/board native acquisition/rendering pending',release_eligible=False)\n",
+          "occurrences": 1
+        },
+        {
+          "before": "selected={r['archive']:r['scene'] for r in manifest['archives']}",
+          "after": "selected=selected_from(manifest['archives'])",
+          "occurrences": 1
+        },
+        {
+          "before": "scope['storage']!='scene-native-identity-ROM-clone'",
+          "after": "scope['storage']!='typed-scene-native-identity-ROM-clone'",
+          "occurrences": 1
+        },
+        {
+          "before": "scope['guarded_reader_return_lr']!=0x0804F773 or scope['native_root']!=0x02039800",
+          "after": "scope['guarded_reader_return_lr']!=field['caller_lr'] or scope['native_root']!=field['root'] or r['source_class']!=field['source_class'] or scope['script_count']!=struct.unpack_from('<H',native)[0]//2",
+          "occurrences": 1
+        },
+        {
+          "before": "len(payload)>65535 or verify_untouched_scripts(native,payload,255,set(r['new_scripts']))",
+          "after": "len(payload)>65535 or len(native)>=0x1000 or verify_untouched_scripts(native,payload,r['scope']['script_count'],set(r['new_scripts']))",
+          "occurrences": 1
+        },
+        {
+          "before": "len(result)!=20",
+          "after": "len(result)!=70",
+          "occurrences": 1
+        },
+        {
+          "before": "source_archive=arc,scene=r['scene'],native_copy_offset=np",
+          "after": "source_archive=arc,source_class=r['source_class'],scene=r['scene'],root=r['scope']['native_root'],caller_lr=r['scope']['guarded_reader_return_lr'],script_count=r['scope']['script_count'],native_copy_offset=np",
+          "occurrences": 1
+        },
+        {
+          "before": "script_count=255,source_sha256=sha(native)",
+          "after": "script_count=r['scope']['script_count'],source_sha256=sha(native)",
+          "occurrences": 1
+        },
+        {
+          "before": "struct.pack('<4I',0x08000000+p['rom_offset'],0x08000000+p['native_copy_offset'],p['native_copy_bytes'],p['scene'])",
+          "after": "struct.pack('<7I',0x08000000+p['rom_offset'],0x08000000+p['native_copy_offset'],p['native_copy_bytes'],p['scene'],p['root'],p['caller_lr'],p['script_count'])",
+          "occurrences": 1
+        },
+        {
+          "before": "selected={p['source_archive']:p['scene'] for p in n['placements']}",
+          "after": "selected={p['source_archive']:dict(scene=p['scene'],source_class=p['source_class'],target_sha256=p['compiled_sha256'],script_count=p['script_count']) for p in n['placements']}",
+          "occurrences": 1
+        },
+        {
+          "before": "len(selected)!=20",
+          "after": "len(selected)!=70",
+          "occurrences": 1
+        },
+        {
+          "before": "struct.unpack_from('<4I',target,n['descriptor_offset']+i*16)!=(0x08000000+a,0x08000000+b,len(native),p['scene'])",
+          "after": "struct.unpack_from('<7I',target,n['descriptor_offset']+i*28)!=(0x08000000+a,0x08000000+b,len(native),p['scene'],p['root'],p['caller_lr'],p['script_count'])",
+          "occurrences": 1
+        },
+        {
+          "before": "result['translated_units']+=500",
+          "after": "cpu=read('analysis/pending_insertion_500_037_selector_cpu_v2/cpu.json')\n    if sha(target)!=cpu['fixture_only']['sha256'] or len(target)!=cpu['fixture_only']['bytes']:raise ValueError('037 final complete artifact differs from actual-caller CPU fixture')\n    result['translated_units']+=500",
+          "occurrences": 1
+        },
+        {
+          "before": "new_units=500,archives=20",
+          "after": "new_units=500,archives=70",
+          "occurrences": 1
+        },
+        {
+          "before": "tools/build_development_patch_037_v1.py",
+          "after": "tools/build_development_patch_037_v1.py",
+          "occurrences": 1
+        },
+        {
+          "before": "\ndef preflight():\n    cfg=read('project.json');source=(ROOT/cfg['source_profile']['filename']).read_bytes();inputs=load_inputs(source,preflight_only=True)\n    try:require_admission()\n    except ValueError as e:refusal=str(e)\n    else:raise ValueError('Admission now changed; rerun through real primary integration, not this pending-gate preflight')\n    from cumulative_batch500 import frozen_write\n    p=ROOT/'analysis/pending_insertion_500_037_npc_inputs_v1/product_preflight_v1.json'\n    frozen_write(p,dict(passed=True,scope='Source input validation and pending036 gate refusal; installer/finalizer NOT executed',inputs=len(inputs),units=sum(r['translated_units'] for r,_ in inputs),baseline_sha256=BASE_SHA,manifest=ref(ROOT/MANIFEST),gate_refusal=refusal,tool=ref(ROOT/'tools/field_npc_rom_product_037_v1.py'),rom_written=False,new_units_applied=0,product_integrated=False,runtime_tested=False,release_eligible=False))\n    print('PASS037 product input preflight500; pending036 natural route correctly REFUSED; no install/ROM')\n\n\nif __name__=='__main__':\n    if sys.argv[1:]==['--preflight']:preflight()\n    else:raise SystemExit('Use --preflight; this module never builds a ROM independently')\n",
+          "after": "\nif __name__=='__main__':raise SystemExit('Component only; use the037 primary build entry')\n",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "base": "tools/build_development_patch_036_v1.py",
+      "base_sha256": "02a149e5e4e498c2f537ea033002ae09e2c054f3ff60392d8fb795b33b3bb5ee",
+      "output": "tools/build_development_patch_037_v1.py",
+      "output_sha256": "f83a18210d743bd5dd426ae09d7f5a0782908635e5e4902684b136f987d4870c",
+      "edits": [
+        {
+          "before": "    from field_npc_rom_product_036_v1 import load_inputs as load_inputs036,install as install_npc036,finalize as finalize036\n",
+          "after": "    from field_npc_rom_product_036_v1 import load_inputs as load_inputs036,install as install_npc036,finalize as finalize036\n    from field_native_rom_product_037_v1 import load_inputs as load_inputs037,install as install_native037,finalize as finalize037\n",
+          "occurrences": 1
+        },
+        {
+          "before": "    inputs036=load_inputs036(source)\n",
+          "after": "    inputs036=load_inputs036(source)\n    inputs037=load_inputs037(source)\n",
+          "occurrences": 1
+        },
+        {
+          "before": "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n",
+          "after": "    for entry037,_ in inputs037:\n        asset037=read_json(ROOT/entry037['asset']['path'])\n        needed.update(ch for u in asset037['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n",
+          "occurrences": 1
+        },
+        {
+          "before": "        appended,key_patches,keyitem_rom,npc_records036=install_npc036(source,appended,key_patches,keyitem_rom,inputs036,common,work/'plugins',work/'npc036')\n",
+          "after": "        appended,key_patches,keyitem_rom,npc_records036=install_npc036(source,appended,key_patches,keyitem_rom,inputs036,common,work/'plugins',work/'npc036')\n        appended,key_patches,keyitem_rom,native_records037=install_native037(source,appended,key_patches,keyitem_rom,inputs037,common,work/'plugins',work/'native037')\n",
+          "occurrences": 1
+        },
+        {
+          "before": "        from field_npc_rom_product_036_v1 import verify_final\n",
+          "after": "        from field_native_rom_product_037_v1 import verify_final\n",
+          "occurrences": 1
+        },
+        {
+          "before": "    finalize036(source,target,result,inputs036,npc_records036)\n",
+          "after": "    finalize036(source,target,result,inputs036,npc_records036)\n    finalize037(source,target,result,inputs037,native_records037)\n",
+          "occurrences": 1
+        }
+      ]
+    }
+  ],
+  "scope": "Typed70 descriptors and one037 wrapper over036; immutable original source primary, CPU whole-artifact identity mandatory; runtime pending"
+}

@@ -1,0 +1,18 @@
+{
+ "schema":1,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"65F9AC","source_archive_sha256":"cf0dc0132e19674a77a4db380bc042e187e4d3925638dd31c3c1a6489668ba47",
+ "consumer":"normal-dialogue",
+ "context":"Native Roll introduction root380D4 selects65F9AC. Script1 greets operator and introduces Roll; source script2 complains of being neglected for other Navi and asks for more care. Exact condition reaching2 remains runtime-open; neither romance nor an elapsed-time requirement is inferred. No nickname insertion in this archive. Normal Roll selection/portrait established by prior own-ROM normal input receipts.",
+ "voice":"Friendly informal greeting; script2 reproachful but playful, preserving comparison with before and threat to be upset. Draft speaker tone, not human-approved.",
+ "evidence":"analysis/tpl_baseline/65F9AC.tpl; immutable source table380D4; poc/runtime/roll-pet-v2-roll-select-roll normal Navi selection/intro screenshots",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "protected_policy":"Preserve source/IDs, all command arguments, flag3585, windows, waits, clearMsg and two/three-line pages. No invented relationship or additional event condition. Scripts0/3 untouched.",
+ "units":[
+  {"id":"65F9AC:1:0","source":"ハイ!\nはじめまして!!","translation":"안녕!\n처음 만나 반가워!!","state":"needs_review"},
+  {"id":"65F9AC:1:1","source":"わたし ロール!\nなかよくしてね!!","translation":"난 롤이야!\n친하게 지내자!!","state":"needs_review"},
+  {"id":"65F9AC:2:0","source":"もー!","translation":"정말!","state":"needs_review"},
+  {"id":"65F9AC:2:1","source":"わたしを ほったらかして\nほかのナビと\nなかよくしてたんでしょ!","translation":"날 내버려 두고\n다른 내비랑\n친하게 지냈지!","state":"needs_review"},
+  {"id":"65F9AC:2:2","source":"まえより だいじに\nしてくれないと、\nおこっちゃうんだから!","translation":"전보다 더 아껴\n주지 않으면,\n화낼 거니까!","state":"needs_review"}
+ ]
+}

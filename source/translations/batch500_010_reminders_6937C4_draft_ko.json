@@ -1,0 +1,233 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6937C4",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6937C4.tpl",
+    "sha256": "004f9186531efe88773a49f7a1fc1a25f9efd61b1b6b9dbed74895cefb05efe7"
+  },
+  "source_archive_sha256": "1d57dc5b6a7045b009c203dde6f9d36688ccbdaf13637ef6f358abff20b86660",
+  "consumer": "batch500-contextual-profile-mail-reminder-tournament",
+  "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+  "voice": "Source-conditioned manual draft; explicit portraits only, not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-010",
+  "semantic_review": [
+    "Batch500-010 exactly500 stable literals: profile410/mail42/reminder38/tournament10;72 choices/428 prose, not500 unique sentences.",
+    "All profile literals/canonical688A10 complete skeleton/variant skeleton differences inspected; all6 small TPLs read. Manually authored per stable ID; no rule-based source-string prose replacement.",
+    "Only reminders687E88/6937C4 scripts21..26 have explicit NumberMan/JunkMan mugshots. All other voices unshown; arithmetic/fist/junk motifs, archive proximity and old NumberMan screenshot do not prove identity.",
+    "Profile17 global22 value1→19 female/male attraction and32 global23 school1..5/company6..9/otherwise kindergarten maintained; no inferred exact ages or player orientation.",
+    "All12 selections per profile preserve padding/defaults/BSeparate/clear/targets/3605,3606 and buffer1/2/3/count5 checks. Non-Japanese punctuation17:3/19:3 at688A10 and!! remain original.",
+    "Gender-neutral 형이나 오빠/누나나 언니 candidates avoid guessed player sex. Pythagoras피타고라스/arithmetic sums vs products,拳fist/training/hot spring,bug fragments as favorite food/junk collection/idol dream and affection remain source-specific, unapproved wording.",
+    "Bug-fragment hunger is not a granted item; shared-family and affection language kept without deciding romantic meaning. 니가테 discomfort differs from explicit嫌い hatred. No high-impact interpretation promoted.",
+    "Three mailadd groups8968..8974/8976..8982/8984..8990 and tournamentReceive680/681 unchanged. RemindersTV/promise/meal/school/other/additional loop3658 and nickname differences preserved.",
+    "Tournament effort despite defeat versus victory and no registration retained;693FEC20..23 clears3603. No ROM/save/emulator/image writes, human approval or release eligibility."
+  ],
+  "units": [
+    {
+      "id": "6937C4:1:0",
+      "source": " ノ\nハジマル ジカンダ",
+      "translation": " 방송\n시작 시간이야",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:1:1",
+      "source": "オ、オデモ ミテミタイ\n・・・・・・",
+      "translation": "나, 나도 보고 싶어\n......",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:2:0",
+      "source": "\nノジカンダゾ",
+      "translation": "\n약속 시간이야",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:2:1",
+      "source": "オ、オデ、ナンカ\nキンチョウシテキタ・・・",
+      "translation": "나, 나, 왠지\n긴장되기 시작했어...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:3:0",
+      "source": "ゴ、ゴハン ノ ジカンダ\nハラ・・・ヘッタロ?",
+      "translation": "바, 밥 먹을 시간이야\n배... 고프지?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:4:0",
+      "source": "ジュ、ジュク ニ\nイク ジカンダゾ",
+      "translation": "하, 학원에\n갈 시간이야",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:4:1",
+      "source": "オ、オデ マッテルカラ\nガンバッテコイ",
+      "translation": "나, 나 기다릴 테니\n힘내고 와",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:5:0",
+      "source": " ノ\nジ、ジカンダゾ",
+      "translation": " 일정\n시, 시간이야",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:6:0",
+      "source": "ソ、ソレト・・・",
+      "translation": "그, 그리고...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:21:0",
+      "source": " ノ\nハジマル ジカンダ",
+      "translation": " 방송\n시작 시간이야",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "origin_portrait": "JunkMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:21:1",
+      "source": "オ、オデモ ミテミタイ\n・・・・・・",
+      "translation": "나, 나도 보고 싶어\n......",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "origin_portrait": "JunkMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:22:0",
+      "source": "\nノジカンダゾ",
+      "translation": "\n약속 시간이야",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "origin_portrait": "JunkMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:22:1",
+      "source": "オ、オデ、ナンカ\nキンチョウシテキタ・・・",
+      "translation": "나, 나, 왠지\n긴장되기 시작했어...",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "origin_portrait": "JunkMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:23:0",
+      "source": "ゴ、ゴハン ノ ジカンダ\nハラ・・・ヘッタロ?",
+      "translation": "바, 밥 먹을 시간이야\n배... 고프지?",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "origin_portrait": "JunkMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:24:0",
+      "source": "ジュ、ジュク ニ\nイク ジカンダゾ",
+      "translation": "하, 학원에\n갈 시간이야",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "origin_portrait": "JunkMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:24:1",
+      "source": "オ、オデ マッテルカラ\nガンバッテコイ",
+      "translation": "나, 나 기다릴 테니\n힘내고 와",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "origin_portrait": "JunkMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:25:0",
+      "source": " ノ\nジ、ジカンダゾ",
+      "translation": " 일정\n시, 시간이야",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "origin_portrait": "JunkMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    },
+    {
+      "id": "6937C4:26:0",
+      "source": "ソ、ソレト・・・",
+      "translation": "그, 그리고...",
+      "state": "needs_review",
+      "speaker": "JunkMan",
+      "origin_portrait": "JunkMan",
+      "portrait_visibility": "shown",
+      "context": "Complete TPL read. Quick reminders1..6 vs explicit JunkMan21..26; event buffers/now loop/3658 preserved.",
+      "variable_context": "Source insertion order/pages unchanged. Nickname 님/말이다/말이야/의 and additional 말고 avoid final-consonant-dependent name particles; dynamic-name geometry and actual persistence remain unverified."
+    }
+  ]
+}

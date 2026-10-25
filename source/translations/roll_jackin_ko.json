@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "660CA8",
+  "source_archive_sha256": "651621ec0242ed05ace62459bbd62e30e9b2712944c358c9f125967f120c2ff3",
+  "consumer": "normal-dialogue",
+  "context": "Roll pre-jack-in dialogue, native root380E4. Normal controller route on fixed location-v3 ROM selects PET plug-in, confirms yes, then native script2 entry at frame238 (LR08037F27). Source1 is the transmission call with flags3603/3651 and wait30. Source2 reluctance and source3 optimism; exact branch conditions1/3 remain unresolved, no invented condition.",
+  "voice": "Roll friendly informal draft. Reluctance and upbeat contrast retained; human wording/voice approval pending.",
+  "evidence": "analysis/tpl_baseline/660CA8.tpl; original catalog0x660CA8:231=0x380E4; poc/runtime/roll-jackin-survey-v3 native script2 entry/visible original text",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "All commands/arguments, flag3603/3651, wait30, keyWait/clearMsg/waitHold, EXE suffix and original row counts unchanged. Source scripts0/4 byte-identical. Adopted132px/3rows, exact-ROM runtime required.",
+  "decision_evidence": "Five drafts manually authored by primary agent in source order. Existing PET term 플러그인 reused; Roll name 롤 consistent with prior intro. 트랜스미션 is a development transliteration candidate, not approved official wording. No new destination/event promises; upbeat/reluctant branch conditions not inferred.",
+  "units": [
+    {"id":"660CA8:1:0","source":"プラグイン!\nロール.EXE、\nトランスミッション!!","translation":"플러그인!\n롤.EXE、\n트랜스미션!!","state":"needs_review"},
+    {"id":"660CA8:2:0","source":"ねぇ、今日は プラグイン\nするの やめとかない?\n気が すすまないなぁ","translation":"오늘은 플러그인을\n그만두면 안 될까?\n별로 내키지 않아","state":"needs_review"},
+    {"id":"660CA8:2:1","source":"・・・・・・って、\nいっても プラグイン\nするんだよね・・・","translation":"・・・・・・라고\n말해도 플러그인할\n거잖아・・・","state":"needs_review"},
+    {"id":"660CA8:3:0","source":"なんか今日は、\nいいコトありそう!","translation":"왠지 오늘은,\n좋은 일이 생기겠어!","state":"needs_review"},
+    {"id":"660CA8:3:1","source":"フフ、ウキウキするね!","translation":"후후, 신이 나네!","state":"needs_review"}
+  ]
+}

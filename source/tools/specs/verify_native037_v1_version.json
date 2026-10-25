@@ -1,0 +1,76 @@
+{
+  "change": {
+    "base": "tools/verify_npc_product_036_v1.py",
+    "base_sha256": "13e13da2552c1a686ce5fe3186403bef310f60a95edf3eac21652b18c5c3d46d",
+    "output": "tools/verify_native_product037_v1.py",
+    "output_sha256": "a4f7c6882190082e4b073091eeb2a3ec262f1a5cba0425b060021db9bde5d156",
+    "edits": [
+      {
+        "before": "036",
+        "after": "037",
+        "occurrences": 29
+      },
+      {
+        "before": "035",
+        "after": "036",
+        "occurrences": 5
+      },
+      {
+        "before": "prepare_source500_037_v1",
+        "after": "prepare_source500_037_v2",
+        "occurrences": 1
+      },
+      {
+        "before": "field_npc_rom_product_037_v1",
+        "after": "field_native_rom_product_037_v2",
+        "occurrences": 2
+      },
+      {
+        "before": "verify_npc_product_037_v1",
+        "after": "verify_native_product037_v1",
+        "occurrences": 1
+      },
+      {
+        "before": "len(before)+20",
+        "after": "len(before)+70",
+        "occurrences": 1
+      },
+      {
+        "before": "payload,255,set(r['new_scripts'])",
+        "after": "payload,r['scope']['script_count'],set(r['new_scripts'])",
+        "occurrences": 1
+      },
+      {
+        "before": "n['descriptor_offset']+20*16",
+        "after": "n['descriptor_offset']+70*28",
+        "occurrences": 1
+      },
+      {
+        "before": "pending_insertion_500_037_selector_cpu_v1",
+        "after": "pending_insertion_500_037_selector_cpu_v2",
+        "occurrences": 3
+      },
+      {
+        "before": "all8423-vector",
+        "after": "all18415-vector",
+        "occurrences": 1
+      },
+      {
+        "before": "CPU8423_fixture",
+        "after": "CPU18415_fixture",
+        "occurrences": 1
+      },
+      {
+        "before": "new_consumers=20",
+        "after": "new_consumers=70",
+        "occurrences": 1
+      },
+      {
+        "before": "deps=[MANIFEST,'tools/verify_native_product037_v1.py','tools/field_native_rom_product_037_v2.py','analysis/pending_insertion_500_037_selector_cpu_v2/cpu.json','analysis/pending_insertion_500_037_selector_cpu_v2/boundaries_v1.json','analysis/pending500_036_v2/natural_cached_display_v2.json']",
+        "after": "deps=[MANIFEST,'tools/verify_native_product037_v1.py','tools/field_native_rom_product_037_v2.py','analysis/pending_insertion_500_037_selector_cpu_v2/cpu.json','analysis/pending500_036_v1/natural_cached_display_v1.json','analysis/pending500_036_v1/native_boundaries_v1.json','tools/specs/primary037_v2_version.json']",
+        "occurrences": 1
+      }
+    ]
+  },
+  "generator_sha256": "b022096f7b4acd14a922eaaebab3692d3a9f08cdfe6da98adf1014e40bbb8f3f"
+}

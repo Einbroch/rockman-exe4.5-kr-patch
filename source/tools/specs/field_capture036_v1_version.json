@@ -1,0 +1,12 @@
+{
+  "base": "tools\\capture_field_loader_035_v7.py",
+  "base_sha256": "66161087717149a36eb9291cd4b05df55041ab3bfef446685065c4a1f78d2f5b",
+  "replacement": [
+    "035",
+    "036"
+  ],
+  "occurrences": 5,
+  "output": "tools\\capture_field_loader_036_v1.py",
+  "output_sha256": "773b4273b2f1ab60035cb3d416320b1224991d7023895b817f0730b2bbb246ea",
+  "scope": "Read-only current036 selector entry/exit, source loads, actor entries, new clone glyph consumption; no aliases"
+}

@@ -1,0 +1,317 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7BD240",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7BD240.tpl",
+    "sha256": "dd7f65d2a3fcc8edf5b4a8a7d72037b709906ae9b281348df2b2f53fe299ef9f"
+  },
+  "source_archive_sha256": "8f213d2d82718059871aab15da89527f12c087424ca4fb97a180811a7d5419aa",
+  "consumer": "normal-dialogue-choice-observation",
+  "context": "All60 catalog Japanese-class literals from4 archives, including source silence marks; not60 unique prose sentences.",
+  "voice": "Busy polite program, curious girl, terse heel, martial shouts, first rough/second rustic Purple heel and staccato Black heel separated; voices remain candidates.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep battles189..194/globals27=667..672/flags1806/7701, options/targets, page boundaries; disabled program mugshotAnimation0 and portrait hiding retained.",
+  "semantic_review": [
+    "7BCC34 scripts6/7 switch my loss vs your loss; do not copy the same result into both. Girl compares player with her viruses, not own Navi strength.",
+    "7BD240 first/second Purple Navi share portrait but second source uses オラ/オメー; rustic Korean is a scoped candidate, not a global portrait replacement.",
+    "Black heel martial syllables in7BCC34 vs repeated staccato in7BD240 kept distinct; no named attack, school or character identity invented.",
+    "7BCEBC silence then hidden observer says motionless/looks virus-struck. It does not prove death or command a repair; system-observation not player-choice.",
+    "Silence six/nine marks counted by existing Japanese-range catalog because middle dot is in that range. Translate punctuation for display while retaining denominator and original source; not added missing prose.",
+    "Static protection not normal-play battles/disabled-program route/save/geometry/screen verification; voice/taunts/shout candidates need human review."
+  ],
+  "units": [
+    {
+      "id": "7BD240:0:0",
+      "source": "よぉよぉ、\nオレと バトルしてくれねえか?",
+      "translation": "어이, 어이,\n나랑 배틀해 주지 않겠나?",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:0:1",
+      "source": "うん!  ",
+      "translation": "응!  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "hidden",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:0:2",
+      "source": "やだ!",
+      "translation": "싫어!",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "hidden",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:0:3",
+      "source": "ヘン、チキンヤロウが!!",
+      "translation": "흥, 겁쟁이 녀석!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:1:0",
+      "source": "いくぜ・・・",
+      "translation": "간다...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:1:1",
+      "source": "バトルオペレーション、セット!\nイン!!",
+      "translation": "배틀 오퍼레이션, 세트!\n인!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:2:0",
+      "source": "・・・マけたぜ・・・",
+      "translation": "...졌군...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:3:0",
+      "source": "まぁまぁ やるじゃねーか・・・\nけど、オレほどじゃぁねえがな",
+      "translation": "꽤 하는데...\n그래도 나만큼은 아니지만",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:4:0",
+      "source": "オマエ、ツヨそうだな!\nオラと バトルしねえか?",
+      "translation": "너, 강해 보이는구먼!\n나랑 배틀하지 않겠나?",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:4:1",
+      "source": "マワりのヤツらとは、\nバトルしアきたからな!!",
+      "translation": "주변 녀석들이랑은,\n배틀하느라 질렸거든!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:4:2",
+      "source": "どうだ!?",
+      "translation": "어때!?",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:4:3",
+      "source": "うん  ",
+      "translation": "응  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "hidden",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:4:4",
+      "source": "ことわる!",
+      "translation": "거절해!",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "hidden",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:4:5",
+      "source": "バトルに イチバンヒツヨウな\nハートが ヨワいんじゃ、\nハナシになんねえな!",
+      "translation": "배틀에서 가장 중요한\n마음이 약해서야,\n말도 안 되는구먼!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:5:0",
+      "source": "オラは テカゲンのシカタを\nシらねーからな!",
+      "translation": "난 봐주는 법을\n모른다네!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:5:1",
+      "source": "カクゴしろよぉ!!",
+      "translation": "각오하게나아!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:5:2",
+      "source": "バトルオペレーション、セット!\nイン!!",
+      "translation": "배틀 오퍼레이션, 세트!\n인!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:6:0",
+      "source": "うっひゃー!\nオメー、ツヨいなーー!!",
+      "translation": "우햐~!\n너, 강하구나아!!",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:7:0",
+      "source": "スコし やりスぎちまったか?",
+      "translation": "좀 지나쳤나?",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:8:0",
+      "source": "オレト バトル シロ・・・",
+      "translation": "나와 배틀해라...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:8:1",
+      "source": "うん  ",
+      "translation": "응  ",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:8:2",
+      "source": "ことわる!",
+      "translation": "거절해!",
+      "state": "needs_review",
+      "speaker": "player-choice",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "hidden",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:8:3",
+      "source": "・・・・・・",
+      "translation": "......",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:9:0",
+      "source": "・・・・・・・・・",
+      "translation": ".........",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:10:0",
+      "source": "ギ ギ ギ ギ ギ・・・",
+      "translation": "기 기 기 기 기...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    },
+    {
+      "id": "7BD240:11:0",
+      "source": "カ カ カ カ カ・・・",
+      "translation": "카 카 카 카 카...",
+      "state": "needs_review",
+      "speaker": "HeelNaviBlack",
+      "origin_portrait": "HeelNaviBlack",
+      "portrait_visibility": "visible",
+      "context": "Factory order processing, three battlers per battle archive with separate offers/results, or motionless program observation. Whole local branches read; repeated portrait does not imply shared voice.",
+      "variable_context": "No inserted names/items. Disabled-program hidden observation is narration, not a choice; punctuation-only silence remains per-ID with6/9-dot rhythm."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "66651C",
+  "source_archive_sha256": "16cd2ff2d4af233f94277cb9077169046a4abe04f4789c735e77495697f18852",
+  "consumer": "normal-dialogue",
+  "context": "PET native nickname meal3:0 plus five unchanged prior alarm literals. Event-name first pages and alternate mugshot scripts original.",
+  "voice": "Existing 거츠/거스 speech; human wording review pending.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Six selected literals;15 source literals/23 spans preserved. Nickname command/comma/newline and event/flag/sound/wait/window/RTC/save controls unchanged.",
+  "units": [
+    {
+      "id": "66651C:1:1",
+      "source": "はやくしないと、\nオープニングを\n見のがすでガッツ!!",
+      "translation": "서두르지 않으면、\n오프닝을\n놓치겠거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66651C:2:1",
+      "source": "ガッツマンも\nたのしみでガッツ!!",
+      "translation": "거츠맨도\n기대되거츠!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66651C:3:0",
+      "source": "、\nゴハンの じかんでガス!",
+      "translation": "、\n밥 먹을 시간이거스!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66651C:4:0",
+      "source": "じゅくに行く\nじかんでガス!!",
+      "translation": "학원 갈\n시간이거스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66651C:4:1",
+      "source": "べんきょう、べんきょう\nがんばるでガッツ!!",
+      "translation": "공부、공부!\n힘내는거츠!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66651C:6:0",
+      "source": "それと・・・",
+      "translation": "그리고・・・",
+      "state": "needs_review"
+    }
+  ],
+  "scope_variant": "alarm-meal-v1",
+  "parent_asset": {
+    "path": "translations/gutsman_alarm_followup_ko.json",
+    "sha256": "2885f95849e7a343476c5f2c97bad0418ae9de91a9efe45e0b70f7849f3b6bdb",
+    "carry_units": 5
+  }
+}

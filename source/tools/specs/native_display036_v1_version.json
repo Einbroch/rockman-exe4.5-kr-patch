@@ -1,0 +1,33 @@
+{
+  "base": "tools\\verify_native_npc_display_035_v1.py",
+  "base_sha256": "85925280c76d4c16e60bea38173bae887d35b05999ea7286de129fec55dd44c0",
+  "replacements": [
+    [
+      "field_npc_rom_product_035_v2",
+      "field_npc_rom_product_036_v1"
+    ],
+    [
+      "pending500_035_v2.gba",
+      "pending500_036_v1.gba"
+    ],
+    [
+      "['npc035']",
+      "['npc036']"
+    ],
+    [
+      "pending_insertion_500_035_npc_inputs_v1",
+      "pending_insertion_500_036_npc_inputs_v1"
+    ],
+    [
+      "verify_native_npc_display_035_v1.py",
+      "verify_native_npc_display_036_v1.py"
+    ],
+    [
+      "capture_field_loader_035_v6.py",
+      "capture_field_loader_036_v1.py"
+    ]
+  ],
+  "output": "tools\\verify_native_npc_display_036_v1.py",
+  "output_sha256": "b302ef9bea53360fef380890f767c8bca98be5fef9cd25664cf033e734cb6e00",
+  "scope": "Same original caller/timebranch/loaded-source/font/pixel contracts on actual036 A0, not A1/A3 route claim"
+}

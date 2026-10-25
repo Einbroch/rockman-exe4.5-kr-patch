@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "7B0328",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/7B0328.tpl",
+    "sha256": "b2de62016b90b6d2d39b79110e8c882326924d6243f9ca2a200d92428a34f322"
+  },
+  "source_archive_sha256": "42afe6c6cc3b3ca2234ded8c85363adfe709d9c91923b908968640a23960687f",
+  "consumer": "batch500-contextual-knight-bass-battlers-communication-errors-npcs",
+  "context": "Full255slotTPL/3Japanese:HeelNaviPurpleboastdumpedtrash/laugh vsNormalNaviPinkbelatedweekendfatigue. Explicitportraits;noitemgiving/clearingjunkcommandeffectinvented. ExactsameportraitelsewheredoesnotestablishsamepersonalNPCidentity.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-031",
+  "semantic_review": [
+    "Exactly500stableliterals172Knight+141Bass+184communicationerrors+3NPC.126choices/2punctuationreactions/372spokenprose-labels;needs_review/NON-DISTRIBUTION/releasefalse,noROM/save/emulator/imagewrites.",
+    "CompletefourTPLsources/controlsreadinclsourceafterendASCII4,all20+20offerbranchesand23communicationfamilies. Manualcontextualdrafts/authoredrepeatedliteralvaluesnotrule-basedprosechanges;prior030andolderimmutable.",
+    "Knight1:0/1:1sourceMrProg/Knighthastemporary(カリ)andplaceholderchant. Bothheldbecausedependency/contextunresolved;remainoriginalJapaneseundrafteddenominator. Do notcounttemporarytexttoward500orassertunused.",
+    "Knight3nicknamefollowedsourceがrendered님께서beforelinebreakavoidsfixed은/는;20confirmationscomma/nochoiceidentitychange.40hiddenchoicesyes2spaces/width8/default0/Ballowed;reject3distinctfrompostbattleNPCresponse.",
+    "KnightNPCtauntsoldman/largebody/speed,andKnightprotestsnotoldman preserveddifferentportraits.29futurethreat,33deniesloss,45claimsheldbacknotnewresultslogic.38bornfaceand39ironballnotactualinventorygrant.",
+    "Basssatisfaction/thirstfrombattlesretainednotfood/gauge. Character18cannotescape/threatnotauthorizationtoremoveoperatorNochoice.2declinefearlosingdistinct1unsatisfiedaftermath. Reactions10:1...!!/19:0......sameindividualunits.",
+    "Bassaccepted20offersglobals11..14/flags6634,7701unchanged;20NPCportraits/spokenrolesand40playerchoicesseparate. Noextraresultbranches/savemechanismaddedbecauseabsentlocalTPL.",
+    "Communication23Navi familiesidentifiedfromrootportraitsincludingYellow/PurpleNPC;1/2subscriptsactualinheritedcallerportrait,notrandomquickunknownorfirstportraitglobal. Per-literaloriginlocalNone/not-shownretainedalongknownspeaker-evidence. All46choicesplayernotspokenNavi.",
+    "Retrywithoutchipgateflag7730 vsfinishflag7731andclearentriespreserved;3mod4jumpstogrouproot+1withoutchoice. Savewarningnotactualsaveperformed.92..114abortvs115..137gatewasunusabledistinct.46ASCII4afterendnonJapaneseheldnotchangedasvisiblecounter.",
+    "Junk42interruptthree-linesnotmergedtwo;Gutsガス/ガッツ/Aquaぴゅ/Icequirk andpoliteNumber/Search/Proto/Knight candidatevoicesretained. Noofficialterminologyapprovalorcompletecommunicationhardwareverificationclaim.",
+    "Humanterms/voice/independentreview/layout/variablemax/nativechoices/gameplay/battleflow/keyboardpersistence/save/fullrelease remainopen.132pxflagsconservative notcapacityproof/autoshorteningauthority. Catalog31,907/732notoutsideinline/font/graphicsclosure."
+  ],
+  "units": [
+    {
+      "id": "7B0328:0:0",
+      "source": "へっへっへ・・・\nゴミを スててやったぜ・・・",
+      "translation": "헤헤헤...\n쓰레기를 버려 줬지...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Full255slotTPL/3Japanese:HeelNaviPurpleboastdumpedtrash/laugh vsNormalNaviPinkbelatedweekendfatigue. Explicitportraits;noitemgiving/clearingjunkcommandeffectinvented. ExactsameportraitelsewheredoesnotestablishsamepersonalNPCidentity.",
+      "variable_context": "Original nickname insertions, battle global/flag arguments, option padding/branching, and after-end non-Japanese literals retained. No dynamic particle guess; actual variable lengths/layout unverified."
+    },
+    {
+      "id": "7B0328:0:1",
+      "source": "ヘッヘッヘ・・・",
+      "translation": "헤헤헤...",
+      "state": "needs_review",
+      "speaker": "HeelNaviPurple",
+      "origin_portrait": "HeelNaviPurple",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Full255slotTPL/3Japanese:HeelNaviPurpleboastdumpedtrash/laugh vsNormalNaviPinkbelatedweekendfatigue. Explicitportraits;noitemgiving/clearingjunkcommandeffectinvented. ExactsameportraitelsewheredoesnotestablishsamepersonalNPCidentity.",
+      "variable_context": "Original nickname insertions, battle global/flag arguments, option padding/branching, and after-end non-Japanese literals retained. No dynamic particle guess; actual variable lengths/layout unverified."
+    },
+    {
+      "id": "7B0328:1:0",
+      "source": "シュウマツに アソびスぎて\nイマゴロ ツカれが\nデてきたわ・・・",
+      "translation": "주말에 너무 놀아서\n이제야 피로가\n밀려왔네...",
+      "state": "needs_review",
+      "speaker": "NormalNaviPink",
+      "origin_portrait": "NormalNaviPink",
+      "portrait_visibility": "shown",
+      "speaker_evidence": "explicit local portrait",
+      "context": "Full255slotTPL/3Japanese:HeelNaviPurpleboastdumpedtrash/laugh vsNormalNaviPinkbelatedweekendfatigue. Explicitportraits;noitemgiving/clearingjunkcommandeffectinvented. ExactsameportraitelsewheredoesnotestablishsamepersonalNPCidentity.",
+      "variable_context": "Original nickname insertions, battle global/flag arguments, option padding/branching, and after-end non-Japanese literals retained. No dynamic particle guess; actual variable lengths/layout unverified."
+    }
+  ]
+}

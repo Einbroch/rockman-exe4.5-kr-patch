@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6CD9E4",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6CD9E4.tpl",
+    "sha256": "07d70eb76b915722484a452d4e2b8a7c8d5feba3ea9af43c4248398b29a71396"
+  },
+  "source_archive_sha256": "c17713480fba86dd656b414c3e906cb80c73f696bceaae6562381cde0d280f2b",
+  "consumer": "batch500-contextual-followup-hint-result-alert",
+  "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+  "voice": "Source-conditioned manual draft;no quick speaker inferred from archive adjacency or imagery;wording unapproved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-014",
+  "semantic_review": [
+    "Exactly500 stable literals:followup403/hint8/battle3/greeting6/return6/training16/plugin3/mail14/tournament15/schedule6/reminder20. No choice literals.",
+    "Every source literal and complete control skeleton read;compact whitespace-only view retains every command/argument. Full actual schedule/plugin/return TPLs inspected;manual per-ID prose,no replacement rules.",
+    "Error-report0 in both followups and training provisional0 stay original in remaining denominator. Other provisional6D2700:0:0 inspected and not included.",
+    "ElecMan portrait only6C7A34:21..26. PlantMan self-name only6CC808 script1 not evidence for all neighbouring scripts. Plugin target is not operator identity.",
+    "Electrical voltage vs current and tingling romance/battle imagery retained;30man/100man/60/50/40 digits preserve source. Source battery3/4 rendered Korean3호/4호,button distinct;needs terminology review.",
+    "Plant food/nectar/life fertilizer and flower metaphors;fire vulnerability not automatically curable vs human subject difficulty;mail refusal remains narrative wording,not implemented filter evidence.",
+    "Shepherds purseペンペングサ rendered냉이,caroteneカロチン rendered카로틴;new terminology/unverified spellings await human review. Sourceつくしい training omission treated美しい from preceding contrast,recorded unapproved.",
+    "Tournament cherry petals/rebloom/winning flower preserved;no-entry cancel separate. Remindercharging correction/cram-school teacher thunder idiom and quick/portrait branches preserved.",
+    "All school/family/food/hobby/dream/enemy/TV/subject/opponent/chip print variants,wait/flags/formatting untouched. Training HP33 amount1 vs zenny/bug4294967295 buffer3 count order preserved.",
+    "NON-DISTRIBUTION/needs_review;no ROM/save/emulator/image writes;static checks do not approve wording/layout or prove runtime."
+  ],
+  "units": [
+    {
+      "id": "6CD9E4:1:0",
+      "source": "サクラチル・・・",
+      "translation": "벚꽃이 지는군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:1:1",
+      "source": "まけてしまったね・・・\nしかし、今に見ていたまえ",
+      "translation": "져 버렸군...\n하지만, 두고 보게",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:1:2",
+      "source": "かならずや、かえりざいて\nみせる!!",
+      "translation": "반드시, 다시 피어\n보이겠다!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:2:0",
+      "source": "やったね、しょうりという\nたいりんの ハナ、",
+      "translation": "해냈군, 승리라는\n커다란 꽃을,",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:2:1",
+      "source": "ミゴトに さかせる\nことが できた",
+      "translation": "훌륭하게 피워\n낼 수 있었군",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:2:2",
+      "source": "この えいこうは\nえいえんに かれる\nことはない・・・",
+      "translation": "이 영광은\n영원히 시들지\n않을 걸세...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:10:0",
+      "source": "、\nエントリーしていないよ",
+      "translation": ",\n참가 등록을 하지 않았네",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:20:0",
+      "source": "いよいよだね・・・\n",
+      "translation": "드디어 시작이군...\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:20:1",
+      "source": "\nうつくしく・・・かつよ!",
+      "translation": "\n아름답게... 이기겠네!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:21:0",
+      "source": "いよいよだね・・・\n",
+      "translation": "드디어 시작이군...\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:21:1",
+      "source": "\nうつくしく・・・かつよ!",
+      "translation": "\n아름답게... 이기겠네!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:22:0",
+      "source": "いよいよだね・・・\n",
+      "translation": "드디어 시작이군...\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:22:1",
+      "source": "\nうつくしく・・・かつよ!",
+      "translation": "\n아름답게... 이기겠네!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:23:0",
+      "source": "いよいよだね・・・\n",
+      "translation": "드디어 시작이군...\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6CD9E4:23:1",
+      "source": "\nうつくしく・・・かつよ!",
+      "translation": "\n아름답게... 이기겠네!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All literals and complete skeleton read. Losing petals/rebloom/winning large flower;no-entry cancel and four encouragement scripts3603. No portrait.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    }
+  ]
+}

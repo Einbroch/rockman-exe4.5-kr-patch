@@ -1,0 +1,20 @@
+{
+ "schema":2,"policy":"development-draft; NON-DISTRIBUTION",
+ "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+ "archive":"6E12DC","source_archive_sha256":"84ba345c394fc21a359651fe24260f9f0b3d22d3ed40af6a35545e065a182306",
+ "consumer":"normal-dialogue",
+ "context":"Native guide helper0803C478 uses selection+60. Navi table3C5BC entry1 selects6E12DC. Folder editing and R/L button weapon assignment are independent UI instructions to the operator. Source choudai requests are drafted as a gentle informal question, distinct from Rockman's request. Speaker identification must also be checked in actual Navi selection runtime.",
+ "evidence":"analysis/tpl_baseline/6E12DC.tpl scripts60..62; immutable native pool table3C5C0",
+ "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+ "protected_policy":"Preserve two lines, positionBox/Text/Arrow, textSpeed0, waitHold, R/L literals, all commands and arguments; scripts0..59/63..75 untouched.",
+ "wordings":[
+  {"id":"roll.equipment.folder","translation":"칩 폴더를\n편집할게!","state":"needs_review"},
+  {"id":"roll.equipment.r_weapon","translation":"R 버튼에 지정할\n무기를 골라 줄래?","state":"needs_review"},
+  {"id":"roll.equipment.l_weapon","translation":"L 버튼에 지정할\n무기를 골라 줄래?","state":"needs_review"}
+ ],
+ "units":[
+  {"id":"6E12DC:60:0","source":"チップフォルダを\nへんしゅうするよ!","wording_id":"roll.equipment.folder"},
+  {"id":"6E12DC:61:0","source":"Rボタンにわりあてる\nブキをえらんでちょうだい","wording_id":"roll.equipment.r_weapon"},
+  {"id":"6E12DC:62:0","source":"Lボタンにわりあてる\nブキをえらんでちょうだい","wording_id":"roll.equipment.l_weapon"}
+ ]
+}

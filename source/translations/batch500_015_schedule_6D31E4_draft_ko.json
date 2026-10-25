@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "6D31E4",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/6D31E4.tpl",
+    "sha256": "9cba9081672768fcae04cbd4e16c3789d82b9915b10ec21b10abddfd23f9f15d"
+  },
+  "source_archive_sha256": "6039e7afa826e2760bbf162e8a321863d8941869c4e1d2ac18bfe5e17b6e48c6",
+  "consumer": "batch500-contextual-followup-hint-result-alert",
+  "context": "All5target literals and full skeleton read.Quicksoon/today schedule loop,school/calendar names not inferred;hour/minute/AMPM/name buffers and colon/quotes/padding retained.",
+  "voice": "Source-conditioned manual draft;no quick speaker inferred from archive adjacency or imagery;wording unapproved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-015",
+  "semantic_review": [
+    "Exactly500 stable literals:followup183/mission220/reminder26/mail28/tournament16/schedule11/hint13/battle3;no choice literals.",
+    "All literals and complete control skeletons read. Whitespace-only compact views preserve every command/argument;actual mission0/27..30 also read. All free prose authored per ID,not rule-generated.",
+    "Only6D27EC21..26 explicitBass portrait. No quickspeaker inferred by adjacency/contempt/electric/plant imagery or old NumberMan screenshot.6DED88missionvoice inherited/unestablished;reward units aftermugshotHide are system-reward.",
+    "6D44D4error0original and remaining denominator;all previous provisional/debug/nameentry unresolved remainoriginal. Sourceきょうだいpower/いろか/しゅりょう/ノーマルビ spellings preserved while semantic draft reads context,not approved corrections.",
+    "Missiondispatcher32→33..64 exactly32 fictional assignments. Every20/25/30/35/40/50/60minute deadline,Internet1..12 vsUndernet1..4,colour/type/gender/target clue preserved. No reordering or actual mission execution claimed.",
+    "Mission43トイチ rendered열흘에 일할 이자,politician41センセイ rendered의원 나리 based election context. These unapproved localized expressions/new terms require review;no added numericdigits.",
+    "Mission38allure/40traitor organization/43borrowed assassination money irony/47romantic rivalry/48music producer exile/50hospital leadership/53death gift/56fake darkchips/57erase program too/61silenced witness/63criminal factions preserved as fiction.",
+    "Conditionalmailreward vs actualHP33 amount1/zenny/bug4294967295 currentNavi+buffer3 order;9756→31 no reward bypass/missionerase untouched. Story text does not prove runtime delivery.",
+    "Profile46source1person retains1;school/family/subject/chip/opponent insertion avoids fixed 받침-dependent particles;comparison78 second vs first favourite chip retained;maildeletion27explicitjoke vs31statement preserved,not implemented filter claims.",
+    "RemindersquickvsBass and violent battle question/mere reminder distinction;meal reluctance/human learning contempt,charging victory/flowers practice kept. Alldate/AMPM/name formatting and mailflags/sounds/waits unchanged.",
+    "NON-DISTRIBUTION/needs_review. No ROM/save/emulator/image writes;mechanical passes not humanapproval/layout/runtime verification."
+  ],
+  "units": [
+    {
+      "id": "6D31E4:3:0",
+      "source": "のじかんが ちかづいている",
+      "translation": " 할 시간이 다가오고 있다",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All5target literals and full skeleton read.Quicksoon/today schedule loop,school/calendar names not inferred;hour/minute/AMPM/name buffers and colon/quotes/padding retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D31E4:10:0",
+      "source": "今日 とうろくされている\nよていは・・・",
+      "translation": "오늘 등록되어 있는\n일정은...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All5target literals and full skeleton read.Quicksoon/today schedule loop,school/calendar names not inferred;hour/minute/AMPM/name buffers and colon/quotes/padding retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D31E4:10:1",
+      "source": "なにもない・・・",
+      "translation": "아무것도 없다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All5target literals and full skeleton read.Quicksoon/today schedule loop,school/calendar names not inferred;hour/minute/AMPM/name buffers and colon/quotes/padding retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D31E4:11:2",
+      "source": " から\n",
+      "translation": " 부터\n",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All5target literals and full skeleton read.Quicksoon/today schedule loop,school/calendar names not inferred;hour/minute/AMPM/name buffers and colon/quotes/padding retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    },
+    {
+      "id": "6D31E4:12:0",
+      "source": "だ・・・",
+      "translation": "이다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "All5target literals and full skeleton read.Quicksoon/today schedule loop,school/calendar names not inferred;hour/minute/AMPM/name buffers and colon/quotes/padding retained.",
+      "variable_context": "All source print commands,variable IDs,count/formatting,page/control order retained. Arbitrary names/subjects/chips use particle-safe 말이다/말이야/의/하고 or topic omission;runtime geometry and actual consumption unverified."
+    }
+  ]
+}

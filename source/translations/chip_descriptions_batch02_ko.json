@@ -1,0 +1,595 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "76937C",
+  "source_archive_sha256": "03cf667ca182a6a11886b5cdd2c10e57f170ed58b9b2d8803eff33a48faa2206",
+  "consumer": "fixed-cell-mono",
+  "scope_variant": "mono-descriptions-batch02",
+  "context": "First60 description scripts, at most9 visible cells and3 source-matched rows. Prior30 drafts remain verbatim. New60-scope exact-ROM runtime required.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Keep source controls, numeric sequences and source line counts, plus196 unselected script bytes. Existing first30 units preserved verbatim.",
+  "terminology_review": [
+    "ララミュート -> 라라뮤트",
+    "もうもく -> 암흑 상태",
+    "ゆうばく -> 연쇄 폭발",
+    "カンケツセン -> 분수 (EXE3 wording candidate)",
+    "ガンデルソル -> 건델솔",
+    "バウンドノート -> 바운드노트",
+    "フウジンラケット -> 풍신라켓",
+    "サンダーボール -> 선더볼",
+    "アリジゴク -> 모래지옥"
+  ],
+  "wordings": [
+    {
+      "id": "desc.cannon",
+      "translation": "앞쪽의 적 1체를\n공격할 수 있는\n캐논포",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.airshot",
+      "translation": "맞힌 상대를\n1칸 뒤로 미는\n공기포",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.blizzard",
+      "translation": "방사형으로\n눈보라 공격!\n패널을 얼음으로",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.heatbreath",
+      "translation": "방사형으로\n화염 공격!\n패널을 마그마로",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.silence",
+      "translation": "라라뮤트를 설치\n연주하는 동안\n상대는 암흑 상태",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.tornado",
+      "translation": "2칸 앞쪽에\n8연타의 회오리\n발생!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.wideshot",
+      "translation": "세로 3칸 너비의\n와이드샷을\n앞쪽으로 발사!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.flameline",
+      "translation": "2칸 앞쪽의\n세로 3칸에\n불기둥 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.vulcan1",
+      "translation": "3연발 발칸포\n명중하면 1칸\n뒤까지 관통!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.vulcan2",
+      "translation": "5연발 발칸포\n명중하면 1칸\n뒤까지 관통!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.vulcan3",
+      "translation": "7연발 발칸포\n명중하면 1칸\n뒤까지 관통!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.spread",
+      "translation": "명중하면\n주변 1칸 범위에\n연쇄 폭발!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.backburst",
+      "translation": "명중하면\n뒤쪽의 1칸에\n연쇄 폭발!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.vburst",
+      "translation": "명중하면\n뒤 대각선 2칸에\n연쇄 폭발",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.sideburst",
+      "translation": "명중하면\n위아래 2칸에\n연쇄 폭발",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.elementflare",
+      "translation": "가로 3칸 공격\n마그마 위에서는\n위력이 상승!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.elementice",
+      "translation": "가로 3칸 공격\n얼음 위에서는\n위력이 상승!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.noisestorm",
+      "translation": "2칸 앞에 노이즈\n폭풍! 버그가\n있으면 위력 상승",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.lifesynchro",
+      "translation": "2칸 앞의 적에게\n커서를 맞춰 적의\nHP를 같게 한다",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.minibomb",
+      "translation": "3칸 앞에 떨어질\n폭탄을 던진다",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.energybomb",
+      "translation": "3칸 앞쪽으로\n연속 폭발을 내는\n폭탄을 던진다",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.31",
+      "translation": "3칸 앞쪽으로\n연속 폭발을 내는\n폭탄을 던진다",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.32",
+      "translation": "2칸 앞쪽의\n세로 3칸에\n태양 광선 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.33",
+      "translation": "2칸 앞쪽의\n세로 3칸에\n태양 광선 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.34",
+      "translation": "2칸 앞쪽의\n세로 3칸에\n태양 광선 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.35",
+      "translation": "상대를 바로 앞\n칸으로 끌어당겨\n전기 충격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.36",
+      "translation": "상대를 바로 앞\n칸으로 끌어당겨\n전기 충격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.37",
+      "translation": "상대를 바로 앞\n칸으로 끌어당겨\n전기 충격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.38",
+      "translation": "1칸씩 건너뛰며\n튀는 음표를\n2칸 앞에 던진다",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.39",
+      "translation": "1칸씩 건너뛰며\n튀는 음표를\n2칸 앞에 던진다",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.40",
+      "translation": "1칸씩 건너뛰며\n튀는 음표를\n2칸 앞에 던진다",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.41",
+      "translation": "상대에 버그를\n일으키는 폭탄을\n3칸 앞에 던진다",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.42",
+      "translation": "방사형으로\n방전 공격!\n패널에 금을 낸다",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.43",
+      "translation": "방사형으로\n포자 공격!\n패널을 풀밭으로",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.44",
+      "translation": "3칸 앞에\n포탄을 던진다!\n패널 파괴 공격!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.45",
+      "translation": "3칸 앞에 던져\n구멍 칸에 닿으면\n물이 솟구친다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.46",
+      "translation": "불발탄을\n3칸 앞에 던진다\n불 공격에 폭발!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.47",
+      "translation": "맞으면 모래지옥\n만드는 링을\n앞쪽으로 발사!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.48",
+      "translation": "바로 앞의 적을\n베어낸다!\n범위는 1칸",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.49",
+      "translation": "바로 앞의 적을\n베어낸다!\n범위는 세로 3칸",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.50",
+      "translation": "바로 앞의 적을\n베어낸다!\n범위는 가로 2칸",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.51",
+      "translation": "바로 앞의 적을\n베어낸다!\n범위는 세로 3칸",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.52",
+      "translation": "바로 앞의 적을\n베어낸다!\n범위는 가로 2칸",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.53",
+      "translation": "바로 앞의 적을\n바람으로 날린다!\n범위는 세로 3칸",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.54",
+      "translation": "커스텀 게이지가\n가득 찰수록\n공격력이 상승!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.55",
+      "translation": "공격 범위가 변함\n자유자재로 다루는\n테크니컬 소드",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.56",
+      "translation": "우리 영역에\n들어오는 적을\n베어낸다!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.57",
+      "translation": "천천히 나아가는\n추적 전기 공격\n맞으면 마비!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.58",
+      "translation": "천천히 나아가는\n추적 전기 공격\n맞으면 마비!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.59",
+      "translation": "천천히 나아가는\n추적 전기 공격\n맞으면 마비!",
+      "state": "needs_review"
+    },
+    {
+      "id": "desc.batch02.60",
+      "translation": "공격하는 순간의\n적에게 반격!\n어디서든 명중",
+      "state": "needs_review"
+    }
+  ],
+  "units": [
+    {
+      "id": "76937C:1:0",
+      "source": "前方のてき1たいを\n攻撃できる\nキャノンほう",
+      "wording_id": "desc.cannon"
+    },
+    {
+      "id": "76937C:2:0",
+      "source": "前方のてき1たいを\n攻撃できる\nキャノンほう",
+      "wording_id": "desc.cannon"
+    },
+    {
+      "id": "76937C:3:0",
+      "source": "前方のてき1たいを\n攻撃できる\nキャノンほう",
+      "wording_id": "desc.cannon"
+    },
+    {
+      "id": "76937C:4:0",
+      "source": "ヒットしたあいてを\n1マスおくへおす\nくうきほう",
+      "wording_id": "desc.airshot"
+    },
+    {
+      "id": "76937C:5:0",
+      "source": "ほうしゃじょうに\nふぶき攻撃!\nパネルをこおりに",
+      "wording_id": "desc.blizzard"
+    },
+    {
+      "id": "76937C:6:0",
+      "source": "ほうしゃじょうに\nかえん攻撃!\nパネルをマグマに",
+      "wording_id": "desc.heatbreath"
+    },
+    {
+      "id": "76937C:7:0",
+      "source": "ララミュートをおく\nえんそうちゅう\nあいてはもうもくに",
+      "wording_id": "desc.silence"
+    },
+    {
+      "id": "76937C:8:0",
+      "source": "2マス前方に\n8ヒットのたつまき\nを発生させる!",
+      "wording_id": "desc.tornado"
+    },
+    {
+      "id": "76937C:9:0",
+      "source": "たて3マスのはばを\nもつワイドショット\nを前方へはなつ!",
+      "wording_id": "desc.wideshot"
+    },
+    {
+      "id": "76937C:10:0",
+      "source": "たて3マスのはばを\nもつワイドショット\nを前方へはなつ!",
+      "wording_id": "desc.wideshot"
+    },
+    {
+      "id": "76937C:11:0",
+      "source": "たて3マスのはばを\nもつワイドショット\nを前方へはなつ!",
+      "wording_id": "desc.wideshot"
+    },
+    {
+      "id": "76937C:12:0",
+      "source": "2マス前方の\nたて3マスに\nひばしら攻撃!",
+      "wording_id": "desc.flameline"
+    },
+    {
+      "id": "76937C:13:0",
+      "source": "2マス前方の\nたて3マスに\nひばしら攻撃!",
+      "wording_id": "desc.flameline"
+    },
+    {
+      "id": "76937C:14:0",
+      "source": "2マス前方の\nたて3マスに\nひばしら攻撃!",
+      "wording_id": "desc.flameline"
+    },
+    {
+      "id": "76937C:15:0",
+      "source": "3れんしゃバルカン\nヒットすると1マス\nおくにもかんつう!",
+      "wording_id": "desc.vulcan1"
+    },
+    {
+      "id": "76937C:16:0",
+      "source": "5れんしゃバルカン\nヒットすると1マス\nおくにもかんつう!",
+      "wording_id": "desc.vulcan2"
+    },
+    {
+      "id": "76937C:17:0",
+      "source": "7れんしゃバルカン\nヒットすると1マス\nおくにもかんつう!",
+      "wording_id": "desc.vulcan3"
+    },
+    {
+      "id": "76937C:18:0",
+      "source": "ヒットすると\nまわりの1マスに\nゆうばく!",
+      "wording_id": "desc.spread"
+    },
+    {
+      "id": "76937C:19:0",
+      "source": "ヒットすると\nおくの1マスに\nゆうばくする!",
+      "wording_id": "desc.backburst"
+    },
+    {
+      "id": "76937C:20:0",
+      "source": "ヒットすると\nななめおく2マスに\nゆうばくする",
+      "wording_id": "desc.vburst"
+    },
+    {
+      "id": "76937C:21:0",
+      "source": "ヒットすると\n上下の2マスに\nゆうばくする",
+      "wording_id": "desc.sideburst"
+    },
+    {
+      "id": "76937C:22:0",
+      "source": "ヒットすると\nおくの1マスに\nゆうばくする!",
+      "wording_id": "desc.backburst"
+    },
+    {
+      "id": "76937C:23:0",
+      "source": "ヒットすると\nななめおく2マスに\nゆうばくする",
+      "wording_id": "desc.vburst"
+    },
+    {
+      "id": "76937C:24:0",
+      "source": "ヒットすると\n上下の2マスに\nゆうばくする",
+      "wording_id": "desc.sideburst"
+    },
+    {
+      "id": "76937C:25:0",
+      "source": "よこ3マスの攻撃\nマグマの上だと\nパワーアップ!",
+      "wording_id": "desc.elementflare"
+    },
+    {
+      "id": "76937C:26:0",
+      "source": "よこ3マスの攻撃\nこおりの上だと\nパワーアップ!",
+      "wording_id": "desc.elementice"
+    },
+    {
+      "id": "76937C:27:0",
+      "source": "2マス前にノイズの\nアラシ!バグがある\nとパワーアップする",
+      "wording_id": "desc.noisestorm"
+    },
+    {
+      "id": "76937C:28:0",
+      "source": "2マス前のてきに\nカーソル!てきの\nHPをおなじにする",
+      "wording_id": "desc.lifesynchro"
+    },
+    {
+      "id": "76937C:29:0",
+      "source": "3マス前におちる\nボムをなげつける",
+      "wording_id": "desc.minibomb"
+    },
+    {
+      "id": "76937C:30:0",
+      "source": "3マス前に\nれんぞくばくふうの\nボムをなげつける",
+      "wording_id": "desc.energybomb"
+    },
+    {
+      "id": "76937C:31:0",
+      "source": "3マス前に\nれんぞくばくふうの\nボムをなげつける",
+      "wording_id": "desc.batch02.31"
+    },
+    {
+      "id": "76937C:32:0",
+      "source": "2マス前方の\nたて3マスに\nたいようこうせん!",
+      "wording_id": "desc.batch02.32"
+    },
+    {
+      "id": "76937C:33:0",
+      "source": "2マス前方の\nたて3マスに\nたいようこうせん!",
+      "wording_id": "desc.batch02.33"
+    },
+    {
+      "id": "76937C:34:0",
+      "source": "2マス前方の\nたて3マスに\nたいようこうせん!",
+      "wording_id": "desc.batch02.34"
+    },
+    {
+      "id": "76937C:35:0",
+      "source": "あいてを目の前の\nマスにすいつけて\n電気ショック!",
+      "wording_id": "desc.batch02.35"
+    },
+    {
+      "id": "76937C:36:0",
+      "source": "あいてを目の前の\nマスにすいつけて\n電気ショック!",
+      "wording_id": "desc.batch02.36"
+    },
+    {
+      "id": "76937C:37:0",
+      "source": "あいてを目の前の\nマスにすいつけて\n電気ショック!",
+      "wording_id": "desc.batch02.37"
+    },
+    {
+      "id": "76937C:38:0",
+      "source": "1マスおきにはねる\nおんぷを2マス前に\nなげつける!",
+      "wording_id": "desc.batch02.38"
+    },
+    {
+      "id": "76937C:39:0",
+      "source": "1マスおきにはねる\nおんぷを2マス前に\nなげつける!",
+      "wording_id": "desc.batch02.39"
+    },
+    {
+      "id": "76937C:40:0",
+      "source": "1マスおきにはねる\nおんぷを2マス前に\nなげつける!",
+      "wording_id": "desc.batch02.40"
+    },
+    {
+      "id": "76937C:41:0",
+      "source": "あいてをバグらせる\nバグボムを3マス前\nになげつける",
+      "wording_id": "desc.batch02.41"
+    },
+    {
+      "id": "76937C:42:0",
+      "source": "ほうしゃじょうに\nほうでん攻撃!\nパネルをヒビに",
+      "wording_id": "desc.batch02.42"
+    },
+    {
+      "id": "76937C:43:0",
+      "source": "ほうしゃじょうに\nほうし攻撃!\nパネルをくさむらに",
+      "wording_id": "desc.batch02.43"
+    },
+    {
+      "id": "76937C:44:0",
+      "source": "3マス前に\nホウガンをなげる!\nパネルはかい攻撃!",
+      "wording_id": "desc.batch02.44"
+    },
+    {
+      "id": "76937C:45:0",
+      "source": "3マス前になげつけ\nあなマスにおちると\n水がふきだす!",
+      "wording_id": "desc.batch02.45"
+    },
+    {
+      "id": "76937C:46:0",
+      "source": "ふはつだんを\n3マス前になげる!\n炎攻撃でバクハツ!",
+      "wording_id": "desc.batch02.46"
+    },
+    {
+      "id": "76937C:47:0",
+      "source": "あたるとアリジゴク\nを発生させる\nリングを前方へ!",
+      "wording_id": "desc.batch02.47"
+    },
+    {
+      "id": "76937C:48:0",
+      "source": "目の前のてきを\nきりつける!\n攻撃はんいは1マス",
+      "wording_id": "desc.batch02.48"
+    },
+    {
+      "id": "76937C:49:0",
+      "source": "目の前のてきを\nきりつける!\nはんいはたて3マス",
+      "wording_id": "desc.batch02.49"
+    },
+    {
+      "id": "76937C:50:0",
+      "source": "目の前のてきを\nきりつける!\nはんいはよこ2マス",
+      "wording_id": "desc.batch02.50"
+    },
+    {
+      "id": "76937C:51:0",
+      "source": "目の前のてきを\nきりつける!\nはんいはたて3マス",
+      "wording_id": "desc.batch02.51"
+    },
+    {
+      "id": "76937C:52:0",
+      "source": "目の前のてきを\nきりつける!\nはんいはよこ2マス",
+      "wording_id": "desc.batch02.52"
+    },
+    {
+      "id": "76937C:53:0",
+      "source": "目の前のてきを\n風でふきとばす!\nはんいはたて3マス",
+      "wording_id": "desc.batch02.53"
+    },
+    {
+      "id": "76937C:54:0",
+      "source": "カスタムゲージが\nマンタンにちかい\nほど攻撃力アップ!",
+      "wording_id": "desc.batch02.54"
+    },
+    {
+      "id": "76937C:55:0",
+      "source": "攻撃はんいがかわる\nへんげんじざいの\nテクニカルソード",
+      "wording_id": "desc.batch02.55"
+    },
+    {
+      "id": "76937C:56:0",
+      "source": "こちらのエリアに\n入ってくるてきを\nきりつける!",
+      "wording_id": "desc.batch02.56"
+    },
+    {
+      "id": "76937C:57:0",
+      "source": "ゆっくりとすすむ\nついび電気攻撃\nあたるとマヒする!",
+      "wording_id": "desc.batch02.57"
+    },
+    {
+      "id": "76937C:58:0",
+      "source": "ゆっくりとすすむ\nついび電気攻撃\nあたるとマヒする!",
+      "wording_id": "desc.batch02.58"
+    },
+    {
+      "id": "76937C:59:0",
+      "source": "ゆっくりとすすむ\nついび電気攻撃\nあたるとマヒする!",
+      "wording_id": "desc.batch02.59"
+    },
+    {
+      "id": "76937C:60:0",
+      "source": "攻撃するしゅんかん\nのてきにカウンター\nどこからでもヒット",
+      "wording_id": "desc.batch02.60"
+    }
+  ],
+  "composition": {
+    "seed_path": "translations\\chip_batch02_draft_seed.json",
+    "seed_sha256": "cc64f2f7f9db11c44781470e5eafb44d12d9fde5044cebed47f41cc2eafb892c",
+    "tool_path": "tools/prepare_chip_batch02_assets.py",
+    "tool_sha256": "49ecaca07e875f70eb6c5166b77f86f23c83dbcc01d8985226c4d8c37a59cbe9",
+    "policy": "explicit added drafts; no prior translation rewriting",
+    "new_units": 30,
+    "prior_units_preserved": 30
+  }
+}

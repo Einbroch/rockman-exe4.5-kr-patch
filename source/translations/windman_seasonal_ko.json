@@ -1,0 +1,300 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "66F78C",
+  "source_archive_sha256": "bc18012be15429b1253d6e546b2ab94755537ecbb3b6104881a8f58117d5ba2f",
+  "consumer": "normal-dialogue",
+  "context": "WindMan operator holiday/birthday conversations. Source intro66B8B0 explicitly names WindMan; seasonal root038180 minus52 is its intro in the native60-byte Navi group. Portrait92,110/3rows; original dates and anniversary buffer/loop preserved. Normal unlock route not established.",
+  "voice": "Source calm elder-like forms たのむぞ/おる/するがいい motivate tentative 하마/하거라/이로군. Candidate voice, not human approved.",
+  "evidence": "analysis/full_scope_v1/source_tpl/66B8B0.tpl; analysis/full_scope_v1/source_tpl/66F78C.tpl; native root038180",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All46 source literals including two unchanged quotes; source text, numbers, newline counts,21slots, commands/events and anniversary dynamic buffer/loop preserved. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "66F78C:3:3 source chocolate/okashi(strange/sweets) pun: 달콤하고도 묘한 is a contextual adaptation proposal, not approved wordplay. NumberMan4649 approval does not apply.",
+    "Setsubun, peach-blossom Hinamatsuri, Japanese May5 Tango, Tanabata, amazake and first spring wind retained in their original calendar context. No Korean-calendar replacement.",
+    "Source NewYear kite custom and year-end proverb translated contextually; wording/voice review pending."
+  ],
+  "units": [
+    {
+      "id": "66F78C:1:0",
+      "source": "フシュー・・・\nきんがしんねん!!",
+      "translation": "후슈・・・\n새해 복 받거라!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:1:1",
+      "source": "今年もよろしく\nたのむぞ",
+      "translation": "올해도 잘\n부탁하마",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:1:2",
+      "source": "タコあげにでも\nいかんか?",
+      "translation": "연을 날리러\n가지 않겠느냐?",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:1:3",
+      "source": "正月といえば、タコあげと\nきまっておるからな",
+      "translation": "설날에는 역시\n연날리기지",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:1:4",
+      "source": "いい風がふいておるぞ!",
+      "translation": "좋은 바람이 부는군!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:2:0",
+      "source": "フシュー・・・\n今日は せつぶんか・・・",
+      "translation": "후슈・・・\n오늘은 절분인가・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:2:1",
+      "source": "すこしハダざむいが、\nもう はるだ・・・",
+      "translation": "조금 쌀쌀하지만,\n벌써 봄이로군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:2:2",
+      "source": "じきに はるいちばんが\nふくだろう",
+      "translation": "곧 첫 봄바람이\n불겠지",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:3:0",
+      "source": "フシュー・・・",
+      "translation": "후슈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:3:1",
+      "source": "今日は バレンタインデー\nという日らしいな・・・",
+      "translation": "오늘은 발렌타인\n데이라는 날이지・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:3:2",
+      "source": "なんでも、じょせいが\nすきな だんせいに\nチョコレートを わたす",
+      "translation": "여성이 좋아하는\n남성에게\n초콜릿을 준다더군",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:3:3",
+      "source": "・・・チョコだけに\n・・・おかしな\nふうしゅうだ",
+      "translation": "・・・초콜릿이라\n・・・달콤하고도\n묘한 풍습이로군",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:5:0",
+      "source": "フシュー・・・",
+      "translation": "후슈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:5:1",
+      "source": "今日は 3月3日\nもものせっく、\nひなまつりの日だな",
+      "translation": "오늘은 3월3일\n복숭아꽃 명절인\n히나마쓰리로군",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:5:2",
+      "source": "今日は、あまざけでも\nのみながら、\nゆっくりするがいい",
+      "translation": "오늘은 아마자케를\n마시면서,\n푹 쉬는 게 좋겠군",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:6:0",
+      "source": "フシュー・・・",
+      "translation": "후슈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:6:1",
+      "source": "今日は 5月5日の\nたんごのせっく だ・・・",
+      "translation": "오늘은 5월5일\n단오 명절이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:6:2",
+      "source": "コイのぼりが 風に\nたなびく ワタシの\n大すきな日だ・・・",
+      "translation": "잉어 깃발이 바람에\n나부끼는, 내가\n좋아하는 날이다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:7:0",
+      "source": "フシュー・・・",
+      "translation": "후슈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:7:1",
+      "source": "今日は7月7日、\nたなばたか・・・",
+      "translation": "오늘은7월7일,\n칠석인가・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:7:2",
+      "source": "風むきが よく、\nくもが でなければ、",
+      "translation": "바람 방향이 좋고,\n구름이 끼지 않으면,",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:7:3",
+      "source": "あまのがわを 見ることが\nできるな・・・",
+      "translation": "은하수를 볼 수\n있겠군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:8:0",
+      "source": "フシュー・・・",
+      "translation": "후슈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:8:1",
+      "source": "今日は、\nクリスマスイヴという日\nらしいな・・・",
+      "translation": "오늘은,\n크리스마스이브라는\n날이라더군・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:8:2",
+      "source": "あまり なじみが\nないのだが・・・",
+      "translation": "내게는 별로\n익숙하지 않다만・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:8:3",
+      "source": "なにかの おまつりか?",
+      "translation": "무슨 축제인가?",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:9:0",
+      "source": "フシュー・・・",
+      "translation": "후슈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:9:1",
+      "source": "メリークリスマス!!",
+      "translation": "메리 크리스마스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:9:2",
+      "source": "みんな そういって\nおったので、\nいってみたのだが、",
+      "translation": "다들 그렇게\n말하기에,\n나도 해 봤다만,",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:9:3",
+      "source": "なにかの まじないか?",
+      "translation": "무슨 주문인가?",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:10:0",
+      "source": "フシュー・・・",
+      "translation": "후슈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:10:1",
+      "source": "今日は おおみそか・・・\n今年さいごの日だ",
+      "translation": "오늘은 섣달그믐・・・\n올해 마지막 날이다",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:10:2",
+      "source": "「おわりよければ\n すべてよし」",
+      "translation": "「마무리가 좋으면\n 모두 좋은 법」",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:10:3",
+      "source": "と、いうコトバが\nあるほどだ・・・",
+      "translation": "이라는 말까지\n있지 않느냐・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:10:4",
+      "source": "あまり ハメを\nはずさぬようにな",
+      "translation": "너무 들뜨지는\n말거라",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:11:0",
+      "source": "フシュー・・・",
+      "translation": "후슈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:11:1",
+      "source": "今日は おまえの\nたんじょう日だったな",
+      "translation": "오늘은 네\n생일이었지",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:11:2",
+      "source": "おめでとう・・・",
+      "translation": "축하한다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:11:3",
+      "source": "おまえを うんでくれた\nりょうしんに\nかんしゃするのだな",
+      "translation": "너를 낳아 주신\n부모님께\n감사하거라",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:12:0",
+      "source": "フシュー・・・",
+      "translation": "후슈・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:12:1",
+      "source": "今日は 学校の\nそうりつきねん日だな",
+      "translation": "오늘은 학교의\n창립 기념일이로군",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:12:2",
+      "source": "学校が やすみでも、\nあそびほうけては\nいかんぞ・・・",
+      "translation": "학교가 쉬어도,\n놀기만 해서는\n안 된다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "66F78C:19:0",
+      "source": "だ・・・",
+      "translation": "이로군・・・",
+      "state": "needs_review"
+    }
+  ]
+}

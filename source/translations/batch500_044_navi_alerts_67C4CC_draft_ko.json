@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "67C4CC",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/67C4CC.tpl",
+    "sha256": "d49a533c09d0b1efab4d1e6d04d6f5ac26d50c8f3f4625d3800258332757c946"
+  },
+  "source_archive_sha256": "1538929c3648ba319efb12e0348df9b6320bbb26a820f20830ab16279b787173",
+  "consumer": "batch500-contextual-navi-alerts",
+  "context": "Thunder-themed pride, lightning, return, plugin, mail, schedules and tournament outcomes. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-044",
+  "semantic_review": [
+    "Exactly500 stable catalog literals across67archives, manually source-conditioned Korean drafts; not500 unique sentences. All selected sources, complete native skeletons and adjacent unselected literals inspected.",
+    "Development-draft NON-DISTRIBUTION, needs_review, releasefalse. IDs/source/TPL/payload/controlcommands/numerals/brackets/newlines/leading and trailing padding immutable. No automatic prose generation, selection or shortening.",
+    "Quick alerts without explicit local portrait remain speaker-unestablished. Explicit ProtoMan/MetalMan/AquaMan/WoodMan portraits in reminder scripts21..26 are recorded independently; no invented portrait inheritance or runtime routing.",
+    "Dynamic names, quoted program/appointment values, hours/minutes and reward buffers require inline grammar and consumer geometry review. Source probabilities99.9/98 and native HP/item33/zenny/bugfragment/sentinel4294967295 controls unchanged.",
+    "Aqua reminders retain forty separate voiced literals, including timed short sounds and following newline; thirty30-frame waits are unchanged. Mail timing/sound/flag transitions and minigame outcomes remain distinct.",
+    "Unresolved source placeholders6770B8:0:0,682054:0:0,698A2C:0:0 remain in remaining denominator. Terminology, voice, meaning and actual consumer layout remain review items.",
+    "Codec/font/skeleton/132px heuristic checks do not constitute human semantic or runtime approval. All remaining drafts first, then cumulative insertion/font/consumer readiness and ROM screen/save QA. No ROM/save/emulator writes."
+  ],
+  "units": [
+    {
+      "id": "67C4CC:1:0",
+      "source": "ワタシは サンダーマン\nよろしくたのむ",
+      "translation": "나는 썬더맨\n잘 부탁한다",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Thunder-themed pride, lightning, return, plugin, mail, schedules and tournament outcomes. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "67C4CC:1:1",
+      "source": "ワタシと すごすことで",
+      "translation": "나와 함께 지내며",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Thunder-themed pride, lightning, return, plugin, mail, schedules and tournament outcomes. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "67C4CC:1:2",
+      "source": "おまえが ほこりたかき\n人間になれることを\nねがっている",
+      "translation": "네가 긍지 높은\n인간이 되기를\n바란다",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Thunder-themed pride, lightning, return, plugin, mail, schedules and tournament outcomes. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "67C4CC:2:0",
+      "source": "ひさしぶりだな・・・",
+      "translation": "오랜만이군...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Thunder-themed pride, lightning, return, plugin, mail, schedules and tournament outcomes. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "67C4CC:2:1",
+      "source": "いかずちの けだかき\nココロ、わすれては\nおるまいな・・・",
+      "translation": "우레의 고결한\n마음을 잊지는\n않았겠지...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Thunder-themed pride, lightning, return, plugin, mail, schedules and tournament outcomes. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

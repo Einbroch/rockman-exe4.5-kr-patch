@@ -1,0 +1,23 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "6D9EC0",
+  "source_archive_sha256": "ad086f5e774df78b37adddec2b45921a4a0787452e74c9021c2410b0da61a115",
+  "consumer": "fixed-cell-big",
+  "context": "Library category header tabs, scripts 0-3; nine 8-pixel cells per header. Script 4 unknown-entry placeholder stays byte-identical.",
+  "review": {"wording": "needs_review", "layout": "needs_runtime_review", "release_eligible": false},
+  "protected_policy": "Keep native script order, end commands and unknown placeholder. Preserve P.A abbreviation. No chip-name or description translation in this asset.",
+  "wordings": [
+    {"id": "library.standard", "translation": "스탠더드칩", "state": "needs_review"},
+    {"id": "library.mega", "translation": "메가클래스칩", "state": "needs_review"},
+    {"id": "library.giga", "translation": "기가클래스칩", "state": "needs_review"},
+    {"id": "library.pa", "translation": "P.A메모", "state": "needs_review"}
+  ],
+  "units": [
+    {"id": "6D9EC0:0:0", "source": "スタンダードチップ", "wording_id": "library.standard"},
+    {"id": "6D9EC0:1:0", "source": "メガクラスチップ", "wording_id": "library.mega"},
+    {"id": "6D9EC0:2:0", "source": "ギガクラスチップ", "wording_id": "library.giga"},
+    {"id": "6D9EC0:3:0", "source": "P.Aメモ", "wording_id": "library.pa"}
+  ]
+}

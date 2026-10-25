@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "release_eligible": false,
+  "scope": "Explicit presentation only; preserve all words, digits, order and original event commands; extra keyWait(any=false)/clearMsg on two literals; runtime pending",
+  "pages": {
+    "6DED88:41:1": ["어느 정치인의 내비를\n딜리트해 주었으면\n한다..."],
+    "6DED88:49:1": ["지금부터 40분 안에\n어느 변호사의 내비를", "딜리트해 주었으면 한다"],
+    "6DED88:55:2": ["힐 타입 내비인데,\n지금은 인터넷11을", "근거지로 삼고\n있다고 한다"]
+  }
+}

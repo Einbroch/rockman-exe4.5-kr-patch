@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "69EA0C",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/69EA0C.tpl",
+    "sha256": "eb1a6ec9a7c8123810ef05d8afad499c3dbf3856bb8081c2c74245ca6b8fa5b6"
+  },
+  "source_archive_sha256": "ead18c4b97ef5461cd1f6595576b3ad6d506e9a3f9989dcf9e38f876b776f85d",
+  "consumer": "batch500-contextual-profile-mail-mission-training-schedule-plugin",
+  "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+  "voice": "Source-conditioned manual draft; no portrait or human approval inferred.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-011",
+  "semantic_review": [
+    "Batch500-011 exactly500 stable literals: profile438/mail28/mission-training27/schedule6/plugin1;72 choices/428 prose, not500 unique sentences.",
+    "All profile literals/full control differences against fully inspected688A10 read; exceptional source scripts independently inspected; all5 small TPLs fully read. Manually authored per ID, no source-string prose rule transformations.",
+    "No mugshots in selected scripts. Vegetables/stars/ninja voice motifs, archive adjacency and NumberMan screenshot do not establish visible speaker; plugin explicit ShadowMan.EXE is target, not operator voice.",
+    "Profile17 global22 value1→19 female/male and32 global23 school1..5/company6..9/otherwise kindergarten maintained; no exact ages or orientation inferred.12 selections each with irregular Star sibling literal offsets preserved.",
+    "All buffers/count5/3605,3606/defaults/BSeparate/clear/targets/padding preserved.69F220:9:0 punctuation unchanged;6AA730:0:0 temporaryかりです stays original/awaiting-context denominator.",
+    "Family gender-neutral alternatives remain unapproved.69F220 shared dream/vegetables/search promise with may-not-exist qualifier;6A5814 fortune possibility,next-week timing,shooting-star wish only vs actual grant;94 printEntryBuffer wishlist item, not player nickname.",
+    "6AB70C threats retain subsequent joke/non-pointless-killing and commission exception. Period drama rendered 시대극 candidate; shuriken수리검 and archaic소인/그대 register unapproved. Numeric1人 alone phrased1인,1人前 means accomplished, numeral1 retained without treating it as count.",
+    "Mission10/11 actual ShadowMan complete/fail calls/9244 vs9243/6051 vs6052/3632/3613;12 remaining-minute print vs13 urgent message and70 minigame2 outcomes preserved.",
+    "Training71 item33/amount1 HP memory versus72 dynamic zenny and73 dynamic bug-fragment count;4294967295 amounts/printBuffer3/order/padLeft unchanged. Full-context misunderstanding cannot be validated by hash alone.",
+    "Mail groups9000..9006 vs9024..9030/tournament680/681, schedule soon/today/hour/minute/AMPM loops and pluginTYPE3/3603/3651/wait30 unchanged. Needs_review, no ROM/save/emulator/image writes or release eligibility."
+  ],
+  "units": [
+    {
+      "id": "69EA0C:1:1",
+      "source": "、\nメールだぞ・・・",
+      "translation": ",\n메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:2:1",
+      "source": "、\nメールだぞ・・・",
+      "translation": ",\n메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:3:1",
+      "source": "、\nメールだぞ・・・",
+      "translation": ",\n메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:4:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:5:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:6:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:7:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:20:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:21:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:22:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:23:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:24:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:25:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    },
+    {
+      "id": "69EA0C:26:1",
+      "source": "メールだぞ・・・",
+      "translation": "메일이 왔다...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL read. Quick mail1..7/20..26, nickname1..3/add9000..9006, no portrait.",
+      "variable_context": "Source insertion order/pages unchanged. 의/말이다/말이야/말고 and schedule/reward units avoid arbitrary stored-name final-consonant particles;94 EntryBuffer is wish-item not nickname. Runtime geometry/persistence unverified."
+    }
+  ]
+}

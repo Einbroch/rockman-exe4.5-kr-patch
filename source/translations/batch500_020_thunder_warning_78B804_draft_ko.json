@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "78B804",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/78B804.tpl",
+    "sha256": "ae1d3b166ac5a727b64cfe8311484447d0074d94117a7e2624ba1f51ace3f1bb"
+  },
+  "source_archive_sha256": "05105905cfd9d080d83215120d5a4368ec9b2b59ffe4d576a5b2347e2221a004",
+  "consumer": "batch500-contextual-guts-number-profile-warning",
+  "context": "Actual TPL read. Explicit ThunderMan portrait,warning of ominous aura and vigilance;nickname inserted between literals. No encounter identity established.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-020",
+  "semantic_review": [
+    "Exactly500 stableJapanese literals:258Guts self-reference profile,240Number self-reference profile,2explicitThunderMan warning;0options. Twointernalerror entries held original/inremainingdenominator,9nonJapanese punctuation slots unchanged.",
+    "All original literal and command skeletons read. Quick-box profile scripts lack portrait;selfnaming not inferred from adjacency or screenshots. ThunderMan explicitportrait0only.",
+    "Source school/family/friend/food/hobby/dream/crush/enemy/show/idol/subjects/wish/opponent/standard1..3/mega/giga variable order preserved. 66830 printCrush notfriend;66nickname style compared defeatedopponent;806chip usability standard2vs1;92favGiga.",
+    "68913 uses printBestSubject after printFavFood,oddsourceassertion retained rather than silently replaced by food.15bothvariables food,notnickname. 61randomMPChip conditional distinctmostlossstats;63mostlostopponent variable versus66863mostlostchip.",
+    "Numeric90/100/50/800/3/0/1/80/10 and sourcepi3.1415926535,897932384626,433832 preserved. Percentage/statements are sourcecharacterclaims,not verifiedmechanics. DHA66814 claim and retraction;raw-egg66815 rumor nothealthadvice.",
+    "Number27zero-percentclaim immediatelynegated;29prankmail claim retractedaslie;46workbook/47forcedstudy/75chipdiscard alljokes preserved. 86winrate10% hasmaybe. 90NumberMan→NumberOne pun retained,79namevalue/notlying captured.",
+    "Guts martial/enthusiastic speech suffix reuses existingcandidate거스 and cry거츠;No1 token retained.66865sourceいつもで interpretedanytime incontext,wordingcandidate. School/idol/objectvariables particle-safe independentconnectors not randomspeakerreplacement.",
+    "Needs_review;NON-DISTRIBUTION;release_eligible=false. No ROM/save/emulator/image writes. Human wording/voice/terminology/layout/consumer/runtime and cumulativeintegration pending."
+  ],
+  "units": [
+    {
+      "id": "78B804:0:0",
+      "source": "まがまがしい気が みちている\n",
+      "translation": "불길한 기운이 가득하다\n",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "origin_portrait": "ThunderMan",
+      "portrait_visibility": "shown",
+      "context": "Actual TPL read. Explicit ThunderMan portrait,warning of ominous aura and vigilance;nickname inserted between literals. No encounter identity established.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    },
+    {
+      "id": "78B804:0:1",
+      "source": "、\nゆだんするな・・・",
+      "translation": ",\n방심하지 마라...",
+      "state": "needs_review",
+      "speaker": "ThunderMan",
+      "origin_portrait": "ThunderMan",
+      "portrait_visibility": "shown",
+      "context": "Actual TPL read. Explicit ThunderMan portrait,warning of ominous aura and vigilance;nickname inserted between literals. No encounter identity established.",
+      "variable_context": "Original school/family/profile/opponent/chip variables,arguments and line boundaries preserved; particle-safe 한테/하고/말이야/같은 걸/쪽 and 의. Actual consumers/layout/variable lengths unverified."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "675440",
+  "source_archive_sha256": "aa4125147506b7467818e08c32c0d5e54597da39ad69ce220ce62ec7224f3973",
+  "consumer": "normal-dialogue",
+  "context": "SearchMan operator holiday/birthday conversations. Source intro670DF4 explicitly identifies SearchMan; native60-byte Navi group seasonal+52/root0381BC. Source portrait92,110/3rows; global22 branch,60/55/45 literal probabilities, dates and anniversary buffer/loop retained. Normal unlock route unverified.",
+  "voice": "Source polite military mission/target/lock-on vocabulary motivates tentative formal 합니다/습니까 voice, human review pending.",
+  "evidence": "analysis/full_scope_v1/source_tpl/670DF4.tpl; analysis/full_scope_v1/source_tpl/675440.tpl; native root0381BC",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "All40 source literals including2 unchanged quote literals; source IDs/text,numbers,newline counts,21slots,gender branch,printPlayerNickname and anniversary buffer/loop preserved. Nickname3:1 first line changes source の to invariant 、 (same11px) without adding Hangul particle. No name/save/RTC/gameplay edits.",
+  "semantic_review": [
+    "Japanese Setsubun/Hinamatsuri and May5 armour custom retained; matryoshka comparison kept. Culture/voice review pending.",
+    "Source Weather Search exclamation translated contextually as 기상 탐색!, not an approved equipment/attack name. Mission/target/lock-on voice draft requires review.",
+    "Birthday operation-skill wish and source literal likelihoods retained. No actual probability/gameplay calculation is changed."
+  ],
+  "units": [
+    {
+      "id": "675440:1:0",
+      "source": "あけまして\nおめでとうございます!",
+      "translation": "새해 복 많이\n받으십시오!",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:1:1",
+      "source": "本年も、よろしく\nおねがいします",
+      "translation": "올해도 잘\n부탁드립니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:1:2",
+      "source": "今年さいしょの\nミッションは\nまだでしょうか・・・",
+      "translation": "올해 첫\n미션은\n아직입니까・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:2:0",
+      "source": "今日は せつぶんです",
+      "translation": "오늘은 절분입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:2:1",
+      "source": "オニを はいじょする\nミッション・・・\nマメまきを しましょう",
+      "translation": "도깨비를 제거하는\n미션・・・\n콩을 뿌립시다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:2:2",
+      "source": "ターゲット・・・オニ!\nロックオン!!",
+      "translation": "목표・・・도깨비!\n록온!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:3:0",
+      "source": "今日は バレンタインデー\nですね・・・",
+      "translation": "오늘은 발렌타인\n데이군요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:3:1",
+      "source": "の\nチョコレートゲット\nかくりつ・・・",
+      "translation": "、\n초콜릿 획득\n확률은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:3:2",
+      "source": "・・・60パーセント!",
+      "translation": "・・・60퍼센트!",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:3:3",
+      "source": "おかあさまは けいさんに\nいれていませんよ・・・",
+      "translation": "어머님은 계산에\n넣지 않았습니다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:4:0",
+      "source": "今日は バレンタインデー\nですね・・・",
+      "translation": "오늘은 발렌타인\n데이군요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:4:1",
+      "source": "チョコレートを\nあげる ターゲットは、",
+      "translation": "초콜릿을\n줄 대상은,",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:4:2",
+      "source": "すでに ロックオン\nしてあるのですか?",
+      "translation": "이미 록온해\n두셨습니까?",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:5:0",
+      "source": "今日は 3月3日、\nひなまつりの日です",
+      "translation": "오늘은 3월3일,\n히나마쓰리입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:5:1",
+      "source": "ヒナにんぎょうは、\nマトリョーシカにんぎょう\nみたいに はなやかですね",
+      "translation": "히나 인형은,\n마트료시카 인형처럼\n화려하군요",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:6:0",
+      "source": "今日は 5月5日の\nコドモの日です",
+      "translation": "오늘은 5월5일\n어린이날입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:6:1",
+      "source": "ニホンこらいの\nヨロイカブトがかざられる\n・・・・・・",
+      "translation": "일본 전통의\n갑옷과 투구를 장식\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:6:2",
+      "source": "ワタシにとっては、\nとても きょうみぶかい\n日です・・・",
+      "translation": "제게는,\n무척 흥미로운\n날입니다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:7:0",
+      "source": "今日は 7月7日、\nたなばたの日です",
+      "translation": "오늘은 7월7일,\n칠석입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:7:1",
+      "source": "ウェザーサーチ!",
+      "translation": "기상 탐색!",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:7:2",
+      "source": "こんや、あまのがわが\n見られる かのうせいは\n・・・・・・",
+      "translation": "오늘 밤 은하수를\n볼 수 있는 확률은\n・・・・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:7:3",
+      "source": "・・・55パーセント!!",
+      "translation": "・・・55퍼센트!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:8:0",
+      "source": "今日は、\nクリスマスイヴです",
+      "translation": "오늘은,\n크리스마스이브입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:8:1",
+      "source": "ホワイトクリスマスに\nなるかくりつは・・・",
+      "translation": "화이트 크리스마스가\n될 확률은・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:8:2",
+      "source": "・・・45パーセント!",
+      "translation": "・・・45퍼센트!",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:8:3",
+      "source": "ただし、ちいきによって\nさがあります",
+      "translation": "다만 지역에 따라\n차이가 있습니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:9:0",
+      "source": "メリークリスマス!!",
+      "translation": "메리 크리스마스!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:9:1",
+      "source": "サンタクロースは\nあらわれましたか?",
+      "translation": "산타클로스는\n나타났습니까?",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:9:2",
+      "source": "もう、今年も\nあと わずかですね・・・",
+      "translation": "올해도 이제\n곧 끝나겠군요・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:10:0",
+      "source": "今日は おおみそか、\n今年さいごの日です・・・",
+      "translation": "오늘은 섣달그믐,\n올해의 끝입니다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:10:1",
+      "source": "じょやのかねでも\nききながら、",
+      "translation": "제야의 종소리를\n들으면서,",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:10:2",
+      "source": "おごそかに 年を\nこしましょう・・・",
+      "translation": "엄숙하게 새해를\n맞이합시다・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:11:0",
+      "source": "おたんじょう日、\nおめでとうございます",
+      "translation": "생일을,\n축하드립니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:11:1",
+      "source": "ますます オペレートに\nみがきを かけてください",
+      "translation": "오퍼레이트 실력을\n더욱 갈고닦으십시오",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:12:0",
+      "source": "今日は、\nそうりつきねん日です",
+      "translation": "오늘은,\n창립 기념일입니다",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:12:1",
+      "source": "学校は おやすみ\nですか?",
+      "translation": "학교는 쉬는\n날입니까?",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:17:0",
+      "source": "今日は",
+      "translation": "오늘은",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:18:0",
+      "source": "「",
+      "translation": "「",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:18:1",
+      "source": "」",
+      "translation": "」",
+      "state": "needs_review"
+    },
+    {
+      "id": "675440:19:0",
+      "source": "です・・・",
+      "translation": "입니다・・・",
+      "state": "needs_review"
+    }
+  ]
+}

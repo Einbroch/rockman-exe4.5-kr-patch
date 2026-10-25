@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "69C8FC",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/69C8FC.tpl",
+    "sha256": "8ceb97e4477e12efa2df38f8aa4104d1b2f6868f9ffae3d7a4b22f7061d2ff28"
+  },
+  "source_archive_sha256": "8fdd7779daad9c221158e0712ba198c4ab5248e372fa9146db12a4454a454b6d",
+  "consumer": "batch500-contextual-navi-alerts",
+  "context": "Aqua-themed return, cold-letter minigame, reminders, mail and tournament encouragement; preserve separate voiced timing beats and source placeholder. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+  "voice": "Manual source-conditioned drafts;explicit portrait where shown;unapproved terms and voices.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload,commands,variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-044",
+  "semantic_review": [
+    "Exactly500 stable catalog literals across67archives, manually source-conditioned Korean drafts; not500 unique sentences. All selected sources, complete native skeletons and adjacent unselected literals inspected.",
+    "Development-draft NON-DISTRIBUTION, needs_review, releasefalse. IDs/source/TPL/payload/controlcommands/numerals/brackets/newlines/leading and trailing padding immutable. No automatic prose generation, selection or shortening.",
+    "Quick alerts without explicit local portrait remain speaker-unestablished. Explicit ProtoMan/MetalMan/AquaMan/WoodMan portraits in reminder scripts21..26 are recorded independently; no invented portrait inheritance or runtime routing.",
+    "Dynamic names, quoted program/appointment values, hours/minutes and reward buffers require inline grammar and consumer geometry review. Source probabilities99.9/98 and native HP/item33/zenny/bugfragment/sentinel4294967295 controls unchanged.",
+    "Aqua reminders retain forty separate voiced literals, including timed short sounds and following newline; thirty30-frame waits are unchanged. Mail timing/sound/flag transitions and minigame outcomes remain distinct.",
+    "Unresolved source placeholders6770B8:0:0,682054:0:0,698A2C:0:0 remain in remaining denominator. Terminology, voice, meaning and actual consumer layout remain review items.",
+    "Codec/font/skeleton/132px heuristic checks do not constitute human semantic or runtime approval. All remaining drafts first, then cumulative insertion/font/consumer readiness and ROM screen/save QA. No ROM/save/emulator writes."
+  ],
+  "units": [
+    {
+      "id": "69C8FC:1:0",
+      "source": "トーナメントに むけて\nれんしゅうするっぴゅ!",
+      "translation": "토너먼트를 위해\n연습하자퓨!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Aqua-themed return, cold-letter minigame, reminders, mail and tournament encouragement; preserve separate voiced timing beats and source placeholder. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "69C8FC:1:1",
+      "source": "がんばれば きっと\nゆうしょうできるっぴゅ!",
+      "translation": "열심히 하면 분명\n우승할 수 있어퓨!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Aqua-themed return, cold-letter minigame, reminders, mail and tournament encouragement; preserve separate voiced timing beats and source placeholder. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "69C8FC:2:0",
+      "source": "ぴゅぴゅぴゅぴゅ・・・",
+      "translation": "퓨퓨퓨퓨...",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Aqua-themed return, cold-letter minigame, reminders, mail and tournament encouragement; preserve separate voiced timing beats and source placeholder. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "69C8FC:2:1",
+      "source": "・・・・・・・・・\nトーナメントの日っぴゅ\nキ、キンチョーするっぴゅ",
+      "translation": ".........\n토너먼트 날이야퓨\n기, 긴장돼퓨",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Aqua-themed return, cold-letter minigame, reminders, mail and tournament encouragement; preserve separate voiced timing beats and source placeholder. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "69C8FC:3:0",
+      "source": "ぴゅぴゅっ!\nなにか おもしろい\nアイテムがあるっぴゅ!",
+      "translation": "퓨퓨!\n뭔가 재미있는\n아이템이 있어퓨!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Aqua-themed return, cold-letter minigame, reminders, mail and tournament encouragement; preserve separate voiced timing beats and source placeholder. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    },
+    {
+      "id": "69C8FC:3:1",
+      "source": "キーアイテムを\n見てみるっぴゅ!",
+      "translation": "키 아이템을\n한번 보자퓨!",
+      "state": "needs_review",
+      "speaker": "speaker-unestablished",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "speaker_evidence": "unestablished local speaker",
+      "context": "Aqua-themed return, cold-letter minigame, reminders, mail and tournament encouragement; preserve separate voiced timing beats and source placeholder. Native dynamic names/time/buffer inserts, jump/flag/mail/reward values, waits, box positioning, keyWait/clear and waitHold remain unchanged. Self-identification is textual context, not proof of actual runtime routing or portrait.",
+      "variable_context": "Native dynamic inserts/branch/choice/portrait/HP commands immutable; inline grammar/geometry/reachability/runtime unverified."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "id":"save.obj.title",
+  "source":"セーブ",
+  "translation":"저장",
+  "state":"needs_review",
+  "source_offset":6501284,
+  "bytes":256,
+  "source_block_sha256":"f4807ae7a8c34336901a3715b2042505b7f817a953b30f89be3cc8626e9cf7a1",
+  "canvas":[64,8],
+  "edit_rect":[21,0,23,8],
+  "roles":{"background":0,"ink":15},
+  "font_asset":"translations/pet_menu_graphics_ko.json",
+  "provenance":"Existing project BDF glyphs, unscaled deterministic 4bpp tile transform; same-slot native title copy. No new letterforms.",
+  "release_eligible":false
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "policy": "functional-poc; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "question": "Can unscaled 7x11 Hangul plus shadow survive native 8x16 fixed-cell and preloaded-tile consumers?",
+  "font": {
+    "path": "external/fonts/Galmuri11-Condensed-v2.40.4.bdf",
+    "sha256": "5c19d39413241e272810e115ee810feaea6c4b5684bfa3e17a98ef1cb3a7df63",
+    "upstream_commit": "bdb86ae89466a361eb8df861222736b81ff975ef",
+    "upstream": "https://github.com/quiple/galmuri/tree/bdb86ae89466a361eb8df861222736b81ff975ef",
+    "license": "external/fonts/LICENSE-Galmuri-v2.40.4.md",
+    "license_sha256": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9",
+    "approval": "technical visibility candidate only; no human aesthetic approval"
+  },
+  "cell": {"width": 8, "height": 16, "bytes": 64, "tile_order": "top-8x8 then bottom-8x8; 4-bpp low nibble left"},
+  "raster": {"baseline": 14, "background": 0, "ink": 1, "shadow": 2},
+  "font_base": 6297400,
+  "temporary_reassignments": [
+    {"index": 23, "source": "ス", "display": "한", "source_glyph_sha256": "0f231eeb88dd9d528963c8cacf3e4edca504188f3bce66cbce1a065cd36521a3"},
+    {"index": 26, "source": "タ", "display": "글", "source_glyph_sha256": "4fd3d091c264b3c03609de3604fc2244936545103148149c4d6ac5ee6b58c2cc"},
+    {"index": 17, "source": "キ", "display": "한", "source_glyph_sha256": "2478c2d1e58e5481913d71fd6455e5185bd1a8c81a1ee99b2392de9385d23235"},
+    {"index": 90, "source": "ャ", "display": "글", "source_glyph_sha256": "a866a2f752ab767c4410a40c1af6388fa68888a539c5b5ffb4bac668bbf96259"}
+  ],
+  "expected_screen": "Library category begins 한글 and Cannon name begins 한글; remaining Japanese is intentional diagnostic content",
+  "limitations": [
+    "These four legacy slots are in use: reassignment is NOT a distributable encoding or translation.",
+    "All consumers of these four big-font slots intentionally show diagnostic glyphs.",
+    "No text, parser, executable code, slot count, transfer length, or cell advance changes.",
+    "The primary development build does not select this option by default."
+  ]
+}

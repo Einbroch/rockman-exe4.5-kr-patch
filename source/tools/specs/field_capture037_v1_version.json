@@ -1,0 +1,36 @@
+{
+  "change": {
+    "base": "tools/capture_field_loader_036_v1.py",
+    "base_sha256": "773b4273b2f1ab60035cb3d416320b1224991d7023895b817f0730b2bbb246ea",
+    "output": "tools/capture_field_loader_037_v1.py",
+    "output_sha256": "9c7b863d5e1191570f48bb01e2d71baaab264ddde45cb3310078332eef76e373",
+    "edits": [
+      {
+        "before": "036",
+        "after": "037",
+        "occurrences": 5
+      },
+      {
+        "before": "{0x0804F76E,0x0804F780,0x0804F802}",
+        "after": "{0x0804F76E,0x0804F780,0x0804F802,0x0806A502}",
+        "occurrences": 1
+      },
+      {
+        "before": "if s['cpu.r0']==0x02039800 then",
+        "after": "if s['cpu.r0']==0x02039800 or s['cpu.r0']==0x0203C800 then",
+        "occurrences": 1
+      },
+      {
+        "before": "selectorPending={start=s['cpu.cycleCount'],script=s['cpu.r1'],frame=frame,caller=s['cpu.r14']}",
+        "after": "selectorPending={start=s['cpu.cycleCount'],script=s['cpu.r1'],frame=frame,caller=s['cpu.r14'],native_root=s['cpu.r0']}",
+        "occurrences": 1
+      },
+      {
+        "before": "\"caller_lr\":%d}',selectorPending.frame,selectorPending.script,root,s['cpu.cycleCount']-selectorPending.start,selectorPending.caller)",
+        "after": "\"caller_lr\":%d,\"native_root\":%d}',selectorPending.frame,selectorPending.script,root,s['cpu.cycleCount']-selectorPending.start,selectorPending.caller,selectorPending.native_root)",
+        "occurrences": 1
+      }
+    ]
+  },
+  "generator_sha256": "6f59e0ebfb30d39b0857fe692fad36c8fe0f2eb4d2a4821634f77e0f816ba24a"
+}

@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "664E28",
+  "source_archive_sha256": "b788cd856ad90150aa1ba360d3a97294138ba98d24cfd8af33b1631271853dee",
+  "scope_variant": "license-incident-keyquest-tournament-events-mail-undernet-weekday-prompts",
+  "consumer": "normal-dialogue",
+  "context": "Prior twenty-four units exact. Weekday tournament registration venue26, nickname invitation28 and upcoming weekend tournament29. Source pages observed after normal date UI entry to January3 Monday; both original Sunday/Saturday branch commands retained. Renderer alias only, not native tournament progression.",
+  "voice": "Roll friendly informal development draft; registration invitation and upbeat weekend anticipation.",
+  "evidence": "analysis/tpl_baseline/664E28.tpl; poc/runtime/roll-pet-weekday-source-v1-date step007 normal Jan3 Monday entry; roll-pet-weekday-source-v3-script26/28/29 original pages directly inspected.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "protected_policy": "Prior twenty-four units exact. Sunday/Saturday checks and jumps to34 or30 retained. Script28 nickname command and exact comma first row retained. All page waits/clear commands intact. Other231 slots protected.",
+  "decision_evidence": "Five primary-agent manual drafts from original and inspected pages; existing 오피셜/토너먼트/참가 신청 draft terminology reused without claiming official approval. Both source date branches run without observer writes. Native nickname display only, not Hangul input/persistence support.",
+  "units": [
+    {
+      "id": "664E28:10:0",
+      "source": "、\nもっとインターネットを\nたんさくしてみよう!",
+      "translation": "、\n인터넷을 더\n탐색해 보자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:11:0",
+      "source": "みならいライセンスしけん\nチャレンジしてみない?",
+      "translation": "견습 라이선스 시험\n도전해 보지 않을래?",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:12:0",
+      "source": "みならいライセンスしけん\nがんばろうね!!",
+      "translation": "견습 라이선스 시험\n힘내 보자!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:14:0",
+      "source": "みならいライセンスを\nうけとりに行こうよ!",
+      "translation": "견습 라이선스를\n받으러 가자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:15:0",
+      "source": "みならいライセンスしけん\nおつかれさま!\nちょっと きゅうけいする?",
+      "translation": "견습 라이선스 시험\n고생했어!\n잠깐 쉴래?",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:17:0",
+      "source": "さっきたおしたナビが\nじけんの はんにんだった\nみたいね・・・",
+      "translation": "방금 쓰러뜨린 내비가\n사건의 범인이었던\n것 같아・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:17:1",
+      "source": "つかれたでしょ、\nちょっと、プラグアウト\nしない?",
+      "translation": "피곤하지、\n잠깐 플러그아웃\n하지 않을래?",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:31:0",
+      "source": "もっともっと、\nインターネットを\nたんさくしてみましょ!",
+      "translation": "더 많이、\n인터넷을\n탐색해 보자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:23:0",
+      "source": "ブラックワークスから\n「マイナスキー」 を\nとりかえしましょ!",
+      "translation": "블랙 워크스에게서\n「마이너스 키」를\n되찾자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:24:0",
+      "source": "「マイナスキー」 は、\nもう1体のナビが もってる\nみたいね!!",
+      "translation": "「마이너스 키」는、\n다른 내비가 가진\n것 같아!!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:25:0",
+      "source": "「マイナスキー」をもって\nインターネット9にいる\nナビのところに行きましょ",
+      "translation": "「마이너스 키」를\n들고 인터넷9의\n내비에게 가자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:30:0",
+      "source": "オフィシャルトーナメント\nなんか もえちゃうね!",
+      "translation": "오피셜 토너먼트\n왠지 불타오르네!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:34:0",
+      "source": "しゅうがあけたら、\nオフィシャル\nトーナメントに",
+      "translation": "주가 바뀌면、\n오피셜\n토너먼트에",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:34:1",
+      "source": "エントリーしに行こうね",
+      "translation": "참가 신청하러 가자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:16:0",
+      "source": "インターネット3で\nおこってるじけん、\n気になるね・・・",
+      "translation": "인터넷3에서\n일어난 사건、\n신경 쓰이네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:18:0",
+      "source": "インターネット5で\nおこってるじけん、\n気になるね・・・",
+      "translation": "인터넷5에서\n일어난 사건、\n신경 쓰이네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:19:0",
+      "source": "インターネット7で\nおこってるじけん、\n気になるね・・・",
+      "translation": "인터넷7에서\n일어난 사건、\n신경 쓰이네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:20:0",
+      "source": "インターネット9で\nおこってるじけん、\n気になるね・・・",
+      "translation": "인터넷9에서\n일어난 사건、\n신경 쓰이네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:21:0",
+      "source": "インターネット10で\nおこってるじけん、\n気になるね・・・",
+      "translation": "인터넷10에서\n일어난 사건、\n신경 쓰이네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:22:0",
+      "source": "インターネット12で\nおこってるじけん、\n気になるね・・・",
+      "translation": "인터넷12에서\n일어난 사건、\n신경 쓰이네・・・",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:32:0",
+      "source": "オフィシャル\nトーナメントのよせんを\nうけに行こうよ!",
+      "translation": "오피셜\n토너먼트 예선에\n참가하러 가자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:33:0",
+      "source": "、\nさっきとどいた\nメールをよもうよ!",
+      "translation": "、\n아까 온 메일을\n읽어 보자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:27:0",
+      "source": "ウラインターネットに\n行きましょ!",
+      "translation": "우라인터넷으로\n가자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:27:1",
+      "source": "もくひょうのナビの\nめじるしは\nカンオケだったよね!",
+      "translation": "목표 내비의\n표식은\n관이었지!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:26:0",
+      "source": "オフィシャル\nトーナメントの",
+      "translation": "오피셜\n토너먼트의",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:26:1",
+      "source": "エントリーかいじょうに\n行ってみましょうよ!",
+      "translation": "참가 신청 장소에\n가 보자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:28:0",
+      "source": "、\nオフィシャル\nトーナメントに",
+      "translation": "、\n오피셜\n토너먼트에",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:28:1",
+      "source": "エントリーしに行きましょ",
+      "translation": "참가 신청하러 가자!",
+      "state": "needs_review"
+    },
+    {
+      "id": "664E28:29:0",
+      "source": "しゅうまつはオフィシャル\nトーナメントね!\nはりきっちゃいましょ!!",
+      "translation": "주말엔 오피셜\n토너먼트네!\n신나게 해 보자!!",
+      "state": "needs_review"
+    }
+  ]
+}

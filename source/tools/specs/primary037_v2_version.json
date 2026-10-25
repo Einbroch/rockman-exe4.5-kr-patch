@@ -1,0 +1,37 @@
+{
+  "generator_sha256": "1963fd1bb430200ac777d2ac4455b0f240a7965641ecadf68ee14423a15a7619",
+  "changes": [
+    {
+      "base": "tools/field_native_rom_product_037_v1.py",
+      "base_sha256": "d018ba801d43c912be5e1cfe4ee27668c919a27db0ca3a11e54f1fc219da6fe6",
+      "output": "tools/field_native_rom_product_037_v2.py",
+      "output_sha256": "91e50092d1ac7c29e0cc7498e75813bfb3f0101803a56e300d61e22de671f99d",
+      "edits": [
+        {
+          "before": "from survey_new_storage_036 import VALIDATORS",
+          "after": "from survey_new_storage_035 import VALIDATORS",
+          "occurrences": 1
+        },
+        {
+          "before": "result['primary_entry']='tools/build_development_patch_037_v1.py'",
+          "after": "result['primary_entry']='tools/build_development_patch_037_v2.py'",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "base": "tools/build_development_patch_037_v1.py",
+      "base_sha256": "f83a18210d743bd5dd426ae09d7f5a0782908635e5e4902684b136f987d4870c",
+      "output": "tools/build_development_patch_037_v2.py",
+      "output_sha256": "d3aafa552b2ff1f556c7ec47e56c6185a37d7645f29ae321210bedaed3055432",
+      "edits": [
+        {
+          "before": "field_native_rom_product_037_v1",
+          "after": "field_native_rom_product_037_v2",
+          "occurrences": 2
+        }
+      ]
+    }
+  ],
+  "predecessor": "3e85ce81a405ea3f36592e2d4c83ec5c63ef7528e0d4ac0a9dc9b70c59280c31"
+}

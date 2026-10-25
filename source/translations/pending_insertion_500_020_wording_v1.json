@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "policy": "individual development wording proposals; NON-DISTRIBUTION",
+  "human_approved": false,
+  "rom_applied": false,
+  "decisions": [
+    {"id":"66CA84:21:3","before":" 말이다\n존경하는 인물은\n누구냐?","translation":"의\n존경하는 인물은\n누구냐?","reason":"WindMan question: possessive の connects the player's nickname to the respected person."},
+    {"id":"68E8C4:11:1","before":" 말이다\n어떤 음식을\n좋아하나?","translation":"님은\n어떤 음식을\n좋아하나?","reason":"MetalMan asks the addressed player's food preference; は is topic, not a separate assertion."},
+    {"id":"68E8C4:17:2","before":" 말이다\n좋아하는 여성의\n이름은 무엇이지?","translation":"의\n좋아하는 여성의\n이름은 무엇이지?","reason":"Possessive の qualifies the player's preferred woman in the following question."},
+    {"id":"68E8C4:19:2","before":" 말이다\n좋아하는 남성의\n이름은 무엇이지?","translation":"의\n좋아하는 남성의\n이름은 무엇이지?","reason":"Possessive の qualifies the player's preferred man; preserve the gender-specific source branch."},
+    {"id":"68E8C4:27:2","before":" 말이다\n자신 있는 과목은\n무엇이지?","translation":"의\n자신 있는 과목은\n무엇이지?","reason":"Possessive の links the player to the subject they do well in."},
+    {"id":"68E8C4:29:2","before":" 말이다\n자신 없는 과목은\n무엇이지?","translation":"의\n자신 없는 과목은\n무엇이지?","reason":"Possessive の links the player to the difficult subject; retain contrast with script27."},
+    {"id":"6942F0:11:3","before":" 말이야\n제일 좋아하는 음식을\n알려 줘...","translation":"의\n제일 좋아하는 음식을\n알려 줘...","reason":"JunkMan asks the player's favorite food; ノ is possessive."},
+    {"id":"6942F0:13:2","before":" 말이야\n어, 어떤 취미를\n갖고 있어?","translation":"님은\n어, 어떤 취미를\n갖고 있어?","reason":"ハ marks the addressed player as topic; preserve JunkMan's hesitation and existing question."},
+    {"id":"6942F0:15:2","before":" 말이야\n장래에,\n뭐가 되고 싶어?","translation":"님은\n장래에,\n뭐가 되고 싶어?","reason":"ハ introduces the player's contrasting ambition after the Navi's dream."},
+    {"id":"6942F0:21:3","before":" 말이야\n누구를 존경하고\n있어?","translation":"님은\n누구를 존경하고\n있어?","reason":"ハ introduces the player's respected person; not a standalone '말이야'."},
+    {"id":"6942F0:27:2","before":" 말이야\n자신 있는 과목은\n뭐야?","translation":"의\n자신 있는 과목은\n뭐야?","reason":"ノ is possessive in the good-subject question."},
+    {"id":"6942F0:29:2","before":" 말이야\n어떤 과목에\n자신 없어?","translation":"님은\n어떤 과목에\n자신 없어?","reason":"ハ introduces the player as topic in the difficult-subject question."},
+    {"id":"693FEC:1:1","before":" 말이야\n열심히 오퍼레이트\n해 줬는데","translation":"님이\n열심히 오퍼레이트\n해 줬는데","reason":"ガ marks the player who operated diligently, followed by JunkMan's regret over losing."},
+    {"id":"69F220:11:2","before":" 말이다\n어떤 음식을\n좋아하나?","translation":"님은\n어떤 음식을\n좋아하나?","reason":"WoodMan contrasts his vegetable preference with the player's preference; は is topic."},
+    {"id":"69F220:27:1","before":" 말이다\n자신 있는 과목이\n무엇인지 알려 다오","translation":"의\n자신 있는 과목이\n무엇인지 알려 다오","reason":"の is possessive in WoodMan's information-gathering question."},
+    {"id":"69F220:29:1","before":" 말이다\n자신 없는 과목이\n무엇인지 알려 다오","translation":"의\n자신 없는 과목이\n무엇인지 알려 다오","reason":"の is possessive; keep the difficult-subject branch distinct."},
+    {"id":"6C84C8:21:1","before":" 말이다\n누구를 존경하고\n있지?","translation":"님은\n누구를 존경하고\n있지?","reason":"ElecMan's は introduces the addressed player as topic after inspecting the library."},
+    {"id":"672238:31:1","before":"께서도,\n지금 손에 넣으려고","translation":"님은\n지금 손에 넣으려고","reason":"SearchMan asks whether the player has a target; は does not require added 'also'. The respectful question continues in the next literal."},
+    {"id":"7C416C:3:0","before":"님께서\n그리 말씀하시니,\n어쩔 수 없군요...","translation":"님이\n그리 말씀하시니,\n어쩔 수 없군요...","reason":"が marks the addressed speaker as subject. Preserve the honorific verb and courteous concession without the over-wide subject form."},
+    {"id":"6BA910:2:0","before":"의 경우,\n제법 뛰어난\n책략가이시구려!","translation":"님은\n제법 뛰어난\n책략가이시구려!","reason":"KnightMan directly praises the player's strategy; は is topic, not 'in the case of' qualification."}
+  ]
+}

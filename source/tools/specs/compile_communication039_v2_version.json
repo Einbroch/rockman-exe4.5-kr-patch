@@ -1,0 +1,37 @@
+{
+  "base": "tools\\compile_communication039_v1.py",
+  "base_sha256": "c1988eb71caecdb8752cf4758ba5bc3875fcadc171c06cb0738c32bff88903f8",
+  "changes": [
+    [
+      "import re\n",
+      "import re,json\n"
+    ],
+    [
+      "OUT/'compile_v1'",
+      "OUT/'compile_v2'"
+    ],
+    [
+      "validate(original,replace_exact(original,subset),[g['script']],set(g['ids']))!=g['geometry']",
+      "json.loads(json.dumps(validate(original,replace_exact(original,subset),[g['script']],set(g['ids'])),ensure_ascii=False))!=g['geometry']"
+    ],
+    [
+      "tools/compile_communication039_v1.py",
+      "tools/compile_communication039_v2.py"
+    ],
+    [
+      "OUT/'verification_v1.json'",
+      "OUT/'verification_v2.json'"
+    ]
+  ],
+  "replacement_counts": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "output": "tools\\compile_communication039_v2.py",
+  "output_sha256": "86459605b82b2ba3f0385ba6be1f8bd97c592d8472f1e615fe45c8b89118999b",
+  "cause": "PREFIX tuples serialize to JSON arrays. Compare live geometry in its canonical JSON representation with the report, without dropping any fields. v1 stopped before archive compile; partial directory and source/tool retained.",
+  "ROM_written": false
+}

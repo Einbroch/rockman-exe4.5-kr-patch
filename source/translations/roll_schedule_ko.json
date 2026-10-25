@@ -1,0 +1,20 @@
+{
+  "schema":1,
+  "policy":"development-draft; NON-DISTRIBUTION",
+  "source_sha256":"588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive":"661754",
+  "source_archive_sha256":"5bafb1c9666c968c595f3f41f48cc5787afced8ea224335658fe97dd6318f33c",
+  "consumer":"normal-dialogue",
+  "context":"Roll reminder lead-in, reminder conclusion, today's registered schedule introduction, no-event answer and list conclusion. Full source14-slot archive read. No inline variables in the selected literals/pages. Scripts2/11 containing registered event name and clock/AMPM insertion remain source-identical; their supply and native reachability are pending.",
+  "evidence":"analysis/tpl_baseline/661754.tpl; external/textpet-indexes/exe45.tpi row31; poc/runtime/roll-schedule-source-v1-script10",
+  "decision_evidence":"Five explicitly manually authored primary-agent drafts. Friendly informal Roll-to-player voice; final copula adapted to the preceding today's event list, not to a guessed event name. Needs human wording review.",
+  "review":{"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy":"All window, buffer-reminder, soon/today event lookup branches, key waits, clear messages and waitHold commands unchanged. Ten unselected script slots and seven unselected literals retained.",
+  "units":[
+    {"id":"661754:1:0","source":"そういえば、もうすぐ","translation":"그러고 보니 곧","state":"needs_review"},
+    {"id":"661754:3:0","source":"のじかんだね!","translation":"할 시간이네!","state":"needs_review"},
+    {"id":"661754:10:0","source":"今日 とうろくされている\nよていは・・・","translation":"오늘 등록된\n일정은・・・","state":"needs_review"},
+    {"id":"661754:10:1","source":"なにもないよ","translation":"아무것도 없어","state":"needs_review"},
+    {"id":"661754:12:0","source":"だよ!","translation":"이런 일정이 있어!","state":"needs_review"}
+  ]
+}

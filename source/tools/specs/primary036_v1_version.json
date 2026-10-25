@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "base": "tools/build_development_patch_035_v2.py",
+  "base_sha256": "4270c49029d2690895dfd05f7633a3605376740a2f0273828056e4f6b9126825",
+  "output": "tools/build_development_patch_036_v1.py",
+  "output_sha256": "02a149e5e4e498c2f537ea033002ae09e2c054f3ff60392d8fb795b33b3bb5ee",
+  "edits": [
+    {
+      "before": "    from field_npc_rom_product_035_v2 import load_inputs as load_inputs035,install as install_npc035,finalize as finalize035\n",
+      "after": "    from field_npc_rom_product_035_v2 import load_inputs as load_inputs035,install as install_npc035,finalize as finalize035\n    from field_npc_rom_product_036_v1 import load_inputs as load_inputs036,install as install_npc036,finalize as finalize036\n"
+    },
+    {
+      "before": "    inputs035=load_inputs035(source)\n",
+      "after": "    inputs035=load_inputs035(source)\n    inputs036=load_inputs036(source)\n"
+    },
+    {
+      "before": "    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n",
+      "after": "    for entry036,_ in inputs036:\n        asset036=read_json(ROOT/entry036['asset']['path'])\n        needed.update(ch for u in asset036['units'] for ch in u['translation'] if ch in EXTRA_CHARACTER_INDICES)\n    extra_chars = sorted(needed, key=EXTRA_CHARACTER_INDICES.get)\n"
+    },
+    {
+      "before": "        appended,key_patches,keyitem_rom,npc_records035=install_npc035(source,appended,key_patches,keyitem_rom,inputs035,common,work/'plugins',work/'npc035')\n",
+      "after": "        appended,key_patches,keyitem_rom,npc_records035=install_npc035(source,appended,key_patches,keyitem_rom,inputs035,common,work/'plugins',work/'npc035')\n        appended,key_patches,keyitem_rom,npc_records036=install_npc036(source,appended,key_patches,keyitem_rom,inputs036,common,work/'plugins',work/'npc036')\n"
+    },
+    {
+      "before": "        from field_npc_rom_product_035_v2 import verify_final\n",
+      "after": "        from field_npc_rom_product_036_v1 import verify_final\n"
+    },
+    {
+      "before": "    finalize035(source,target,result,inputs035,npc_records035)\n",
+      "after": "    finalize035(source,target,result,inputs035,npc_records035)\n    finalize036(source,target,result,inputs036,npc_records036)\n"
+    }
+  ],
+  "generator_sha256": "05387946bc8432b9fb4b4a52238d2c8298579d38ce90636ecc1d656bdf2be3a9",
+  "scope": "Only036 input/glyph/installation/verification/finalization composition; unchanged035 primary bytes otherwise"
+}

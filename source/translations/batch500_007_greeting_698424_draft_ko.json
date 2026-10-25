@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "698424",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/698424.tpl",
+    "sha256": "258e433337e34d34d49c132a4ed282ac73b0844c2c702ed64de4d85350dac4aa"
+  },
+  "source_archive_sha256": "7686406991577bd02301b1e358add83bc3110062e9ed394bbb2c11bbb43f91b6",
+  "consumer": "batch500-schedule-menu-mail-greeting",
+  "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+  "voice": "Source-conditioned manual draft; explicit menu portraits only; not human approved.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Source IDs/text/TPL/payload, commands, variables,newline/padding and unselected source immutable; no ROM/save writes.",
+  "batch_id": "batch500-007",
+  "semantic_review": [
+    "Batch500-007 exactly500 stable literals: schedule477/mail14/greeting9; not500 unique sentences.",
+    "Manually authored per source ID. Complete6811F0/6C2660/698424 and all other archive literals/control differences inspected. No source-string prose replacement, ROM/save writes, human approval or release eligibility.",
+    "Only script1 explicitly self-identifies AquaMan in speech; script2 remains unshown quick voice. 퓨 is a source-conditioned unapproved vocal candidate, not evidence of portrait.",
+    "Greeting and return phrases remain separate IDs, including fear of abandonment after noisy 퓨 sounds. No temporary character switching or emulator writes."
+  ],
+  "units": [
+    {
+      "id": "698424:1:0",
+      "source": "ぴゅっぴゅ~!!",
+      "translation": "퓨퓨~!!",
+      "state": "needs_review",
+      "speaker": "AquaMan-self-identified",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "698424:1:1",
+      "source": "ボク、アクアマンっぴゅ\nよろしぴゅ!!",
+      "translation": "난 아쿠아맨이야, 퓨\n잘 부탁해, 퓨!!",
+      "state": "needs_review",
+      "speaker": "AquaMan-self-identified",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "698424:1:2",
+      "source": "なかよくしてくれないと、\nないちゃうっぴゅ!",
+      "translation": "친하게 지내 주지 않으면,\n울어 버릴 거야, 퓨!",
+      "state": "needs_review",
+      "speaker": "AquaMan-self-identified",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "698424:2:0",
+      "source": "ぴゅ、ぴゅーーーい!!",
+      "translation": "퓨, 퓨우우이!!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "698424:2:1",
+      "source": "ボクのコト、\nおぼえてたぴゅ?",
+      "translation": "나를,\n기억하고 있었어, 퓨?",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "698424:2:2",
+      "source": "よかったっぴゅ~!",
+      "translation": "다행이야, 퓨~!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "698424:2:3",
+      "source": "ぴゅーぴゅー\nうるさいから、",
+      "translation": "퓨퓨 하며\n시끄럽게 구니까,",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "698424:2:4",
+      "source": "すてられたかと\nおもったぴゅ~~",
+      "translation": "버림받은 줄\n알았어, 퓨~~",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    },
+    {
+      "id": "698424:2:5",
+      "source": "ぴゅ~い、ぴゅ~い!",
+      "translation": "퓨~이, 퓨~이!",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Complete TPL inspected: self-introduction1 explicitly names AquaMan without portrait; return2 quick voice has no portrait or explicit name. Same-source 퓨 candidate preserved without inferring portrait or runtime ownership.",
+      "variable_context": "Date/time/AMPM/frequency/day name/event name/nickname inserts intact. 의 or 님의 possessive invariant; deletion names followed by 일정/기념일 avoids variable particle mismatch. Runtime unverified."
+    }
+  ]
+}

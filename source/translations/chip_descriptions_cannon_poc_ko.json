@@ -1,0 +1,19 @@
+{
+  "schema": 2,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "76937C",
+  "source_archive_sha256": "03cf667ca182a6a11886b5cdd2c10e57f170ed58b9b2d8803eff33a48faa2206",
+  "consumer": "fixed-cell-mono",
+  "context": "Cannon family scripts1..3 shared native description. First mono sentence PoC; other archive consumers require runtime regression.",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "Preserve all source commands, script order, two line breaks, enemy count1, attack meaning and 253 unselected scripts. Shared wording link is explicit, not a fuzzy replacement.",
+  "wordings": [
+    {"id":"description.cannon-family","translation":"앞쪽의 적 1체를\n공격할 수 있는\n캐논포","state":"needs_review"}
+  ],
+  "units": [
+    {"id":"76937C:1:0","source":"前方のてき1たいを\n攻撃できる\nキャノンほう","wording_id":"description.cannon-family"},
+    {"id":"76937C:2:0","source":"前方のてき1たいを\n攻撃できる\nキャノンほう","wording_id":"description.cannon-family"},
+    {"id":"76937C:3:0","source":"前方のてき1たいを\n攻撃できる\nキャノンほう","wording_id":"description.cannon-family"}
+  ]
+}

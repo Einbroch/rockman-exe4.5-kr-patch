@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "archive": "66BDE0",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "source_tpl": {
+    "path": "analysis/full_scope_v1/source_tpl/66BDE0.tpl",
+    "sha256": "fee47517dde6875e134887cb33cb5162d679d272b7cc683006362b7246239057"
+  },
+  "source_archive_sha256": "6e353e013e13b49bd8b1ca55f9500630680c9737e3f75e653682ee1e89977cd1",
+  "consumer": "quick-confirmation-return-jackin-reminders",
+  "context": "Quick return success/defeat and cyber-wind metaphor; no mugshot shown.",
+  "voice": "Calm elder-like source forms as candidate, not approved. Only66BF44:21..26 explicit WindMan portraits; other quick voices unknown. Jackin call names destination, not speaker.",
+  "review": {
+    "wording": "needs_review",
+    "layout": "needs_runtime_review",
+    "release_eligible": false
+  },
+  "insertion_state": "translation-first draft only; not selected by ROM builder",
+  "protected_policy": "Keep prior selected literals, commands, flags, buffers, newlines and literal segmentation; no ROM/save writes.",
+  "semantic_review": [
+    "Cyber wind and changed wind direction source imagery retained, not replaced by invented tactical cause. Defeat route wording distinct from ordinary return; actor unknown."
+  ],
+  "units": [
+    {
+      "id": "66BDE0:1:0",
+      "source": "もどったぞ・・・\n今日の 電脳風は\nまずまずだな・・・",
+      "translation": "돌아왔다...\n오늘의 전뇌 바람은\n그럭저럭이군...",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick return success/defeat and cyber-wind metaphor; no mugshot shown.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    },
+    {
+      "id": "66BDE0:2:0",
+      "source": "ク・・・\nやられてしまったな・・・\n風むきが かわったか",
+      "translation": "크...\n당하고 말았구나...\n바람 방향이 바뀌었나",
+      "state": "needs_review",
+      "speaker": "unshown-quick-voice",
+      "origin_portrait": null,
+      "portrait_visibility": "not-shown-in-script",
+      "context": "Quick return success/defeat and cyber-wind metaphor; no mugshot shown.",
+      "variable_context": "Preserve nickname and schedule buffers/command order. Name + 시작할/일정 avoids final-consonant particle. Actual variable widths/caller and runtime display unverified."
+    }
+  ]
+}

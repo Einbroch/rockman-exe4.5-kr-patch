@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "policy": "development-draft; NON-DISTRIBUTION",
+  "source_sha256": "588a77da006fb0dca0c8addbcc316d7bd4b1c3a42db24750bcfe17b170ac5ef8",
+  "archive": "661858",
+  "source_archive_sha256": "2e11a21803e3b5eef47aae6e1e9d2868d822194664b17fcff9771f22c3fcf614",
+  "scope_variant": "older-younger-sisters",
+  "consumer": "normal-dialogue",
+  "context": "Roll post-internet older sister script5/6 observed by normal survey-v1 recipe; younger sister7/8 from survey-v2 recipe. Older sister wording covers both Korean kinship terms without assuming player gender. Native branches and name-question wait only; no typed names selected.",
+  "voice": "Friendly informal Roll development draft; human wording approval pending.",
+  "evidence": "analysis/tpl_baseline/661858.tpl; poc/runtime/roll-family-survey-v1; analysis/ROLL_FAMILY_SISTER_ROM_HANDOFF.md",
+  "review": {"wording":"needs_review","layout":"needs_runtime_review","release_eligible":false},
+  "protected_policy": "All97 slots, waits/clears, nickname commands, flags3585/3737/3738/3605/3606, defaultYes, native6/8 targets and cancellation retained.93 unselected scripts byte-identical. Native comma-only nickname suffix reduces22px to11px. Separate choice pages retain prefix16 and affirmative trailing2 spaces.",
+  "decision_evidence": "Eight new drafts manually authored in older-sister scene context. おねえちゃん rendered 누나나 언니 to retain older-female-sibling meaning regardless of player gender. Existing younger-sister eight units copied exactly with unchanged source/wording/state; prior asset retained. No rule-based prose rewriting. Human semantic and visual approval pending.",
+  "units": [
+    {"id":"661858:5:0","source":"インターネット、\nたのしかったね!!","translation":"인터넷、\n재밌었지!!","state":"needs_review"},
+    {"id":"661858:5:1","source":"この たのしさを\n1人じめするのは\nよくないよね","translation":"이 즐거움을\n혼자만 독차지하면\n안 되잖아","state":"needs_review"},
+    {"id":"661858:5:2","source":"ダレかに おしえて\nあげなくっちゃ!","translation":"누군가에게\n알려 줘야겠어!","state":"needs_review"},
+    {"id":"661858:5:3","source":"は、\nおねえちゃん いる?","translation":"、\n누나나 언니 있어?","state":"needs_review"},
+    {"id":"661858:5:4","source":"いるよ  ","translation":"있어  ","state":"needs_review"},
+    {"id":"661858:5:5","source":"いないよ","translation":"없어","state":"needs_review"},
+    {"id":"661858:5:6","source":"ねぇねぇ、なんてなまえ?","translation":"있지, 이름이 뭐야?","state":"needs_review"},
+    {"id":"661858:6:0","source":"へぇ、そうなんだ・・・","translation":"아, 그렇구나・・・","state":"needs_review"},
+    {"id":"661858:7:0","source":"インターネット、\nたのしかったね!!","translation":"인터넷、\n재밌었지!!","state":"needs_review"},
+    {"id":"661858:7:1","source":"この たのしさを\n1人じめするのは\nよくないよね","translation":"이 즐거움을\n혼자만 독차지하면\n안 되잖아","state":"needs_review"},
+    {"id":"661858:7:2","source":"ダレかに おしえて\nあげなくっちゃ!","translation":"누군가에게\n알려 줘야겠어!","state":"needs_review"},
+    {"id":"661858:7:3","source":"は、\nいもうと いるの?","translation":"、\n여동생 있어?","state":"needs_review"},
+    {"id":"661858:7:4","source":"いるよ  ","translation":"있어  ","state":"needs_review"},
+    {"id":"661858:7:5","source":"いないよ","translation":"없어","state":"needs_review"},
+    {"id":"661858:7:6","source":"ねぇねぇ、なんてなまえ?","translation":"있지, 이름이 뭐야?","state":"needs_review"},
+    {"id":"661858:8:0","source":"へぇ、そうなんだ・・・","translation":"아, 그렇구나・・・","state":"needs_review"}
+  ]
+}

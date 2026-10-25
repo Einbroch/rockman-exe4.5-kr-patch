@@ -1,0 +1,78 @@
+{
+  "generator_sha256": "e673b3ea4a39d02987a1dccf0c00c68915fd419523577f367f55e82ed7a0d57c",
+  "changes": [
+    {
+      "base": "tools/field_native_rom_selector_037_v1.py",
+      "base_sha256": "c73173ec40568d5a05a01b03bd749227e1723c8b939fc4909eb1798cf2700cbb",
+      "output": "tools/field_native_rom_selector_037_v2.py",
+      "output_sha256": "f8534cab1c30184291ece8b61c0f9fef86846edc858fff9c59b12419a8126dd3",
+      "edits": [
+        {
+          "before": "code = '''pop {r3}\npush {r0,r1,r2,r3,r4,r5,r6,r7}\nmov r2,r10",
+          "after": "code = '''pop {r3}\npush {r0,r1,r2,r3,r4,r5,r6,r7}\nmov r2,lr\nldr r3,npc_caller\ncmp r2,r3\nbne board_gate\nldr r3,npc_root\ncmp r0,r3\nbne fallback\nb script_gate\nboard_gate:\nldr r3,board_caller\ncmp r2,r3\nbne fallback\nldr r3,board_root\ncmp r0,r3\nbne fallback\nscript_gate:\nlsrs r2,r1,#8\nbne fallback\nmov r2,r10"
+        },
+        {
+          "before": "dict(descriptors=table, previous=previous_entry|1)",
+          "after": "dict(descriptors=table, previous=previous_entry|1, npc_caller=abi['native-NPC']['caller_lr'], npc_root=abi['native-NPC']['root'], board_caller=abi['field-board']['caller_lr'], board_root=abi['field-board']['root'])"
+        }
+      ]
+    },
+    {
+      "base": "tools/bench_native_selector037_v1.py",
+      "base_sha256": "825657e0a88ea351d9ee1b35d10a241c6559df39f462bf786f95bcdf6d117ae4",
+      "output": "tools/bench_native_selector037_v2.py",
+      "output_sha256": "cb84b43b0ee4ce3bc2bcb43092657233a490b708d0196ab555ae05ddf91b3ce9",
+      "edits": [
+        {
+          "before": "field_native_rom_selector_037_v1",
+          "after": "field_native_rom_selector_037_v2"
+        },
+        {
+          "before": "bench_native_selector037_v1",
+          "after": "bench_native_selector037_v2"
+        },
+        {
+          "before": "pending_insertion_500_037_selector_cpu_v1",
+          "after": "pending_insertion_500_037_selector_cpu_v2"
+        },
+        {
+          "before": "blob=None,sub=0,day=2):",
+          "after": "blob=None,sub=0,day=2,scene_ready=True):"
+        },
+        {
+          "before": "u.mem_write(glob+64,struct.pack('<I',0x02000200))",
+          "after": "u.mem_write(glob+64,struct.pack('<I',0x02000200 if scene_ready else 0))"
+        },
+        {
+          "before": "for kind,kw in cases:",
+          "after": "cases += [('uninitialized-scene-unrelated-caller',dict(caller=0x0804F785,scene_ready=False)),('uninitialized-scene-wrong-root',dict(root=0x02038000,scene_ready=False)),('uninitialized-scene-invalid-script',dict(script=256,scene_ready=False))]\n        for kind,kw in cases:"
+        }
+      ]
+    },
+    {
+      "base": "tools/prepare_native_inputs037_v1.py",
+      "base_sha256": "58c82630279c20be464fd058491daa2f101baffb1033c14b4d41ac22bb5a478c",
+      "output": "tools/prepare_native_inputs037_v2.py",
+      "output_sha256": "815c25eede6d36974428ff28d8987d7bb13a89e409ed69bc5a47b55152948eda",
+      "edits": [
+        {
+          "before": "field_native_rom_selector_037_v1",
+          "after": "field_native_rom_selector_037_v2"
+        },
+        {
+          "before": "prepare_native_inputs037_v1",
+          "after": "prepare_native_inputs037_v2"
+        },
+        {
+          "before": "pending_insertion_500_037_native_inputs_v1",
+          "after": "pending_insertion_500_037_native_inputs_v2"
+        },
+        {
+          "before": "pending_insertion_500_037_selector_cpu_v1",
+          "after": "pending_insertion_500_037_selector_cpu_v2"
+        }
+      ]
+    }
+  ],
+  "scope": "Pre-scene caller/root/unsigned8-bit guards; CPU rejects unrelated and invalid inputs without dereferencing unavailable scene"
+}
